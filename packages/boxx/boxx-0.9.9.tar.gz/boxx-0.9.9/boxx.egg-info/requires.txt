@@ -1,0 +1,9 @@
+numpy
+scikit_image
+matplotlib
+pandas
+imageio
+snakeviz
+fn
+pyopengl
+seaborn
