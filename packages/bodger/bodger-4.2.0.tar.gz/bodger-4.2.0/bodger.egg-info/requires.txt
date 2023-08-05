@@ -1,0 +1,25 @@
+pop==14
+grainsv2==11.6
+grains-universal>=2.1
+grains-virt>=3
+
+[:"BSD" in sys_platform]
+idem-bsd>=4.2
+
+[:"sunos" in sys_platform]
+idem-solaris>=4.2
+
+[:os_name == "AIX"]
+idem-aix>=4.2
+
+[:os_name == "posix"]
+idem-posix>=2.3
+
+[:sys_platform == "darwin"]
+idem-darwin>=8.2
+
+[:sys_platform == "linux"]
+idem-linux>=7.2
+
+[:sys_platform == "win32"]
+idem-windows>=5.3
