@@ -1,0 +1,30 @@
+[project]
+name = "pyraxial"
+version = "0.2.6-beta"
+description = "An algebraic take on axis-aligned rectangles."
+dependencies = [ "itree~=0.0",]
+requires-python = ">=3.7"
+dynamic = [ "classifiers",]
+readme = "README.md"
+keywords = [ "bounding-box",]
+classifiers = [ "Development Status :: 4 - Beta", "Intended Audience :: Developers", "Operating System :: OS Independent", "Topic :: Software Development :: Libraries :: Python Modules",]
+[[project.authors]]
+name = "Mick Krippendorf"
+email = "m.krippendorf@freenet.de"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://pillmuncher.github.io/pyraxial"
+documentation = "https://pillmuncher.github.io/pyraxial"
+repository = "https://github.com/pillmuncher/pyraxial"
+
+[tool.pdm.dev-dependencies]
+editor = []
+test = []
+dev = []
