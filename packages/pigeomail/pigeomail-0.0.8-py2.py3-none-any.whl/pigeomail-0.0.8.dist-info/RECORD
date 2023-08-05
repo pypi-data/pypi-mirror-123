@@ -1,0 +1,10 @@
+pigeomail/__init__.py,sha256=Y5_kK4uYfcaOCzutWAHspKBPVB7Ydp9ix1NaruD-OsY,5754
+pigeomail/__version__.py,sha256=vy40jrZWZmP86EMIJqzX1xcvZGkv8iDzQh8EzTkOREo,75
+pigeomail/cmdline.py,sha256=L1wYWrdR7l-80p8z-6yhDUbG4E2YB8Sb4Y3M7ex4zUY,1196
+pigeomail-0.0.8.data/data/LICENSE,sha256=m-yyPlc_PaBxsfe-71U6TGhPJzvZo_yaMfT2Z2LbuCM,1075
+pigeomail-0.0.8.dist-info/LICENSE,sha256=m-yyPlc_PaBxsfe-71U6TGhPJzvZo_yaMfT2Z2LbuCM,1075
+pigeomail-0.0.8.dist-info/METADATA,sha256=sbJDbdPiFB8523aA5Q0aueGJHmH3LaTlmo04CXVKJn0,1470
+pigeomail-0.0.8.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pigeomail-0.0.8.dist-info/entry_points.txt,sha256=XrNuc1fyjc0pUWZK__ntLxwvcMweI4lEZNCqXpc1_vI,53
+pigeomail-0.0.8.dist-info/top_level.txt,sha256=yYtd0bnOR5fraK_w2KpnwYicHmP3icB7q_JCYc8m63g,10
+pigeomail-0.0.8.dist-info/RECORD,,
