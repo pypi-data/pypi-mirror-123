@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+stravapy/__init__.py
+stravapy/datapoint.py
+stravapy/file_reader.py
+stravapy.egg-info/PKG-INFO
+stravapy.egg-info/SOURCES.txt
+stravapy.egg-info/dependency_links.txt
+stravapy.egg-info/requires.txt
+stravapy.egg-info/top_level.txt
