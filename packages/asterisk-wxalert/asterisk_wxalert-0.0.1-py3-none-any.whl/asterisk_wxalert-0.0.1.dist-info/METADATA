@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: asterisk-wxalert
+Version: 0.0.1
+Summary: Update an asterisk device state from NOAA weather alerts
+Home-page: https://github.com/tcarwash/asterisk_wxalert
+Author: Tyler Carr
+Author-email: tcarwash@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tcarwash/asterisk_wxalert
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.6)
+Requires-Dist: idna (==3.2)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: urllib3 (==1.26.7)
+
+UNKNOWN
+
