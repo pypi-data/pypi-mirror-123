@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyros-support-ui
+Version: 1.2.0
+Summary: Support library for (pygame based) UI components
+Home-page: https://github.com/Abstract-Horizon/pyros-support-ui
+Author: Daniel Sendula
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyROS Support UI library
+
+This project is support library for (pygame based) UI components
+
+

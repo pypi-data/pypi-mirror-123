@@ -1,0 +1,4 @@
+pygame
+pyros_client
+local_resources
+pyros-discovery
