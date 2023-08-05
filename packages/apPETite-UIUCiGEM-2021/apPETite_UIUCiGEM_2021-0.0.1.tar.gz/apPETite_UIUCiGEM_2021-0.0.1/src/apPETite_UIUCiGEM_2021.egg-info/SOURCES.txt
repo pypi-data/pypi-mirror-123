@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+data/diwv.csv
+data/sequences-final.txt
+src/apPETite/__init__.py
+src/apPETite/run.py
+src/apPETite_UIUCiGEM_2021.egg-info/PKG-INFO
+src/apPETite_UIUCiGEM_2021.egg-info/SOURCES.txt
+src/apPETite_UIUCiGEM_2021.egg-info/dependency_links.txt
+src/apPETite_UIUCiGEM_2021.egg-info/top_level.txt
