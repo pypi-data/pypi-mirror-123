@@ -1,0 +1,12 @@
+flask
+requests
+pycryptodome
+
+[dev]
+pytest
+flask
+jsonschema
+flake8
+autopep8
+pyyaml
+flask-cors
