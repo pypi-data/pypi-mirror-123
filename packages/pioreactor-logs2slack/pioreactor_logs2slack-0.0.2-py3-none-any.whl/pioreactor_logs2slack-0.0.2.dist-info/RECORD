@@ -1,0 +1,9 @@
+pioreactor_logs2slack/__init__.py,sha256=wBJ7dyGHgmS3pWuYNkXuOIzE4lBLkEwzr3waz_xrbyg,1711
+pioreactor_logs2slack/additional_config.ini,sha256=VNHRyohY-tUJ4UWLUSEB3oi87Svh84Nv5KS4DLm5VOk,46
+pioreactor_logs2slack/ui/contrib/jobs/logs2slack.yaml,sha256=zr_zfmNZ_FEbpXwrpLNx_MB4nYwoR7rCF4y6EM6UPnE,151
+pioreactor_logs2slack-0.0.2.dist-info/LICENSE,sha256=RTnFva3sXKEPtRcFEvpWgg6NqscwpXrZ0ckNz9x2tlo,1079
+pioreactor_logs2slack-0.0.2.dist-info/METADATA,sha256=R8T-6hqnyeaK4VwY3REVoSjw0_dDlsZBCpJjqioA3BA,2214
+pioreactor_logs2slack-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pioreactor_logs2slack-0.0.2.dist-info/entry_points.txt,sha256=6QM_SNU4WivMKKzo8aouH2G98lE347SlgtD1eZCMahE,68
+pioreactor_logs2slack-0.0.2.dist-info/top_level.txt,sha256=2QWckvgdEg9ZQN1M279uoBBHPt582EgfduegCyBid44,22
+pioreactor_logs2slack-0.0.2.dist-info/RECORD,,
