@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+adHarvester/__init__.py
+adHarvester/harvester.py
+adHarvester/souppage.py
+adHarvester.egg-info/PKG-INFO
+adHarvester.egg-info/SOURCES.txt
+adHarvester.egg-info/dependency_links.txt
+adHarvester.egg-info/requires.txt
+adHarvester.egg-info/top_level.txt
+tests/__init__.py
