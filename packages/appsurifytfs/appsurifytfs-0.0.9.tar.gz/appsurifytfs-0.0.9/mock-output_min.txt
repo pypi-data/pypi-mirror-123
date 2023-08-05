@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+
+Changeset: 295402
+
+User: Chris Bonis
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, September 23, 2021 1:34:57 PM
+
+
+
+Comment:
+
+  29-Sep-2021/Axel: Fix for Standard Device Assignment confirmation in one unit clears pending device assignments in other units.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  add $/Philips.PIC/PIIC iX/Main/Documents/Definitions/Upgrade Local User Password Security.pptx
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Definitions/Upgrade Local User Password Security.pptx
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    Add feature definition
+
+  Messages:
+
+    Provide a comment for the check-in.
+
+    The Work Item Query Policy failed because no work items were associated with this check-in.
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 295400
+
+User: Chris Bonis
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, September 23, 2021 1:04:03 PM
+
+
+
+Comment:
+
+  Address coverity issues.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.ExternalSystemInterfacing/HL7Service/Hl7TcpConnection.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/Hl7TcpConnectionTest.cs
+
+
+
