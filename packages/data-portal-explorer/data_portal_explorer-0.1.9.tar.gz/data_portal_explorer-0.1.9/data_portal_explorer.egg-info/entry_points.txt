@@ -1,0 +1,3 @@
+[console_scripts]
+data_portal_explorer = data_portal_explorer.cli:cli
+
