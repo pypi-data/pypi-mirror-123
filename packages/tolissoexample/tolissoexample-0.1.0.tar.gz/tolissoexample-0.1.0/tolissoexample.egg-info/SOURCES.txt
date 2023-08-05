@@ -1,0 +1,9 @@
+README.rst
+setup.py
+tolissoexample/__init__.py
+tolissoexample/module1.py
+tolissoexample.egg-info/PKG-INFO
+tolissoexample.egg-info/SOURCES.txt
+tolissoexample.egg-info/dependency_links.txt
+tolissoexample.egg-info/requires.txt
+tolissoexample.egg-info/top_level.txt
