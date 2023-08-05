@@ -1,0 +1,5 @@
+include LICENSE README.md charset_normalizer/py.typed dev-requirements.txt
+recursive-include data *.srt
+recursive-include data *.txt
+recursive-include docs *
+recursive-include tests *
