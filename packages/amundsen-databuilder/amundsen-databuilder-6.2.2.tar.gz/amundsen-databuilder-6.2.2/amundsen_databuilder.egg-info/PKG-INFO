@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: amundsen-databuilder
+Version: 6.2.2
+Summary: Amundsen Data builder
+Home-page: https://www.github.com/amundsen-io/amundsen/tree/main/databuilder
+Maintainer: Amundsen TSC
+Maintainer-email: amundsen-tsc@lists.lfai.foundation
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: neptune
+Provides-Extra: atlas
+Provides-Extra: glue
+Provides-Extra: oracle
+Provides-Extra: athena
+Provides-Extra: all
+Provides-Extra: bigquery
+Provides-Extra: db2
+Provides-Extra: cassandra
+Provides-Extra: kafka
+Provides-Extra: snowflake
+Provides-Extra: dev
+Provides-Extra: jsonpath
+Provides-Extra: dremio
+Provides-Extra: delta
+Provides-Extra: feast
+Provides-Extra: salesforce
+Provides-Extra: rds
+Provides-Extra: druid
