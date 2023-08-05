@@ -1,0 +1,5 @@
+[console_scripts]
+remoshockcli = remoshock.cli:main
+remoshockrnd = remoshock.randomizer:main
+remoshockserver = remoshock.server:main
+
