@@ -1,0 +1,15 @@
+include
+lib
+src
+*.db
+build
+*.db
+*.pyc
+.installed.cfg
+bin
+env
+develop-eggs
+eggs
+*.egg-info
+develop-noproxy-local.ini
+dist
