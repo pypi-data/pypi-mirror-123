@@ -1,0 +1,13 @@
+flask_restapi/__init__.py,sha256=fa02H4j9ObkbDmQdWBZ-adgJl7Ywwqjva7Roto9zhqo,207
+flask_restapi/core.py,sha256=I0_YoOJw64y5xv1ZuuSlH4yba6hYxEwmGcxuRCOGwxY,13423
+flask_restapi/exceptions.py,sha256=7_0Prwa39q6v4WMAzqF66l3Ye-lHd3pz6tLSTnkn_K0,1175
+flask_restapi/mixins.py,sha256=gh5uDcFvcpSLozBP_3hM1umre_va3bDIUUTOuanfGbI,3920
+flask_restapi/spec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_restapi/spec/core.py,sha256=kf2zktGSYc_DJh7Nrh75BFd0Zp0ZuzW4blHNKD5wjMw,6664
+flask_restapi/spec/models.py,sha256=KKmsAy0VPzDTGnA2EqjyoE5AaNmRuNSuxG26xXEs0pY,2369
+flask_restapi/templates/swagger_ui.html,sha256=ODbo8K0C_h7W8LqwBtF7GXF76TUQoXrr1qelu0pYVjo,1548
+flask_restapi/types.py,sha256=1zJ58f4s9dZtk0_CGPIiplvh1WV27AJnWk4L-YeQ_L4,722
+flask_restapi-0.2.7.dist-info/LICENSE,sha256=At-kJXvnPjYtg15sBH8rgCW6WFPhdcYFBaOakvgsjWM,1065
+flask_restapi-0.2.7.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+flask_restapi-0.2.7.dist-info/METADATA,sha256=0MoZdpbBcunQ1QNdkNqNbKKNAoLPFuUR2KytTCDHhkc,2422
+flask_restapi-0.2.7.dist-info/RECORD,,
