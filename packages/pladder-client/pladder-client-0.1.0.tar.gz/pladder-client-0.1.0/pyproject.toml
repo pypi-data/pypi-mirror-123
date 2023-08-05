@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pladder-client"
+version = "0.1.0"
+description = "Client for the Web API of the Pladder Bot"
+authors = ["Rasmus Bondesson <raek@raek.se>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/raek/pladder-client"
+repository = "https://github.com/raek/pladder-client"
+documentation = "https://github.com/raek/pladder-client/blob/master/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2"
+appdirs = "^1.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+pladder-client = "pladder_client.client:main"
+strutern = "pladder_client.client:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

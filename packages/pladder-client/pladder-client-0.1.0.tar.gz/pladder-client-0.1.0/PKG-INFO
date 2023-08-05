@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pladder-client
+Version: 0.1.0
+Summary: Client for the Web API of the Pladder Bot
+Home-page: https://github.com/raek/pladder-client
+License: GPL-3.0-or-later
+Author: Rasmus Bondesson
+Author-email: raek@raek.se
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: requests (>=2,<3)
+Project-URL: Documentation, https://github.com/raek/pladder-client/blob/master/README.md
+Project-URL: Repository, https://github.com/raek/pladder-client
+Description-Content-Type: text/markdown
+
+# pladder-client
+
+A client for the Web API of the Pladder Bot.
+
+## Installation
+
+    pip install pladder-client
+
+You may need to replace `pip` with `pip3`.
+
+## Usage
+
+Create a token using `create-token` at the bot to get access. Then invoke `pladder-client` like this:
+
+    pladder-client 'echo This is a test command'
+
+The first time, `pladder-client` will ask for the API endpoint URL and the API token and then store it in a config file.
+
+A `strutern` alias for `pladder-client` is also installed. They can be used interchangeably.
+
