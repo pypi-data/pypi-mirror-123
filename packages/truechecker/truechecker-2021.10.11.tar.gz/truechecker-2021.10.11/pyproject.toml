@@ -1,0 +1,77 @@
+[tool.poetry]
+name = "truechecker"
+version = "2021.10.11"
+description = "Python client for True Checker API"
+authors = ["Oleg A. <oleg@trueweb.app>"]
+maintainers = ["Oleg A. <oleg@trueweb.app>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://gitlab.com/true-web-app/true-checker/true-checker-python"
+documentation = "https://checker.trueweb.app/redoc/"
+keywords = [
+    "True Checker",
+    "Telegram",
+    "Bots",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiohttp = "^3.7"
+certifi = "^2021"
+pydantic = "^1.8"
+
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21", allow-prereleases = true}
+coverage = "^5.5"
+flake8 = "^3.9"
+isort = "^5.9"
+mypy = "^0.910"
+pre-commit = "^2.15"
+pydocstyle = "^6.1"
+pylint = "^2.11"
+pytest = "^6.2"
+pytest-asyncio = "^0.15"
+pytest-cov = "^2.12"
+
+
+[tool.black]
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.pytest_cache
+  | \.tox
+  | venv
+  | build
+  | dist
+)/
+'''
+
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+
+[tool.mypy]
+warn_redundant_casts = true
+warn_unused_ignores = false
+warn_no_return = true
+warn_unreachable = true
+pretty = true
+
+[[tool.mypy.overrides]]
+module = "*.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
