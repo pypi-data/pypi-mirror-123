@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/clista.egg-info/PKG-INFO
+src/clista.egg-info/SOURCES.txt
+src/clista.egg-info/dependency_links.txt
+src/clista.egg-info/entry_points.txt
+src/clista.egg-info/requires.txt
+src/clista.egg-info/top_level.txt
