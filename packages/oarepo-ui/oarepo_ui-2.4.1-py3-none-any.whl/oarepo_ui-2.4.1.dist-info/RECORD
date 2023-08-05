@@ -1,0 +1,17 @@
+oarepo_ui/__init__.py,sha256=uc3eLr6kh6J-viPEGdOhJ3SdLiIp61bzaBW2T0u24hc,201
+oarepo_ui/constants.py,sha256=pL5Frmz3xtHWtUE0FJD_k7IwTbDdTo1mgN0wT3rn0sE,25
+oarepo_ui/ext.py,sha256=Nrb94mr88z1q0yT1Mb0SX-T_A76ogWYY8q8cLMit1xg,6834
+oarepo_ui/facets.py,sha256=QR5Ka12MAv5ilvjjADVvG_gjlnrIk0tSIIypN9YtgK4,5078
+oarepo_ui/filters.py,sha256=qjHC4SkxXhhpeRR5UGQvPAWmiChTCWrTxvZmFpTQ4Gc,4114
+oarepo_ui/proxy.py,sha256=l0T9wHPp3WAGoG1eXBC_a6t84QqO3Wqo1SxFO_ewWYg,151
+oarepo_ui/signals.py,sha256=eJAf5_PhS4pvlDn3llLaGdR-EKu4HUKrAVOxwRFlRCg,413
+oarepo_ui/translation.py,sha256=3XcFbY4TCiMnRH1rL7PPI_fnZv9c-LKpRYpNl4BYcnw,235
+oarepo_ui/utils.py,sha256=djgvvTrmjdifsoK3zh3jWH1dwBAjP2_mGiQIJcukFDM,500
+oarepo_ui/version.py,sha256=rBCp44dWStS1ni0MiTrc1M4u7eJ1iw5eEIio0IML-VM,23
+oarepo_ui/views.py,sha256=MEJKxYKgtT9SMKteze0J4TGpJY6UJtFtiEZLAfo2JuU,2003
+oarepo_ui-2.4.1.dist-info/LICENSE,sha256=oxlvOW3GiojF5mcapEzPff39MfADzIw5Qt8iOonks8c,1062
+oarepo_ui-2.4.1.dist-info/METADATA,sha256=8XdaV3RGKNrovGa_D1Uwlbw_2V8ZL_aFDySwK-MJ1ag,6718
+oarepo_ui-2.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oarepo_ui-2.4.1.dist-info/entry_points.txt,sha256=YYZdwT574aQGofoemajE_PdaTQgGATuhg3ZXdlBg8mE,207
+oarepo_ui-2.4.1.dist-info/top_level.txt,sha256=FEWWXM5-nCtZJU41DpJ9-BeeQ18GvTaAq7-gYO27hn0,10
+oarepo_ui-2.4.1.dist-info/RECORD,,
