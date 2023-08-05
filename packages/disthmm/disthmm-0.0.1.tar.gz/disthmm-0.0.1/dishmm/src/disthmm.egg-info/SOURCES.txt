@@ -1,0 +1,8 @@
+setup.py
+dishmm/src/disthmm.egg-info/PKG-INFO
+dishmm/src/disthmm.egg-info/SOURCES.txt
+dishmm/src/disthmm.egg-info/dependency_links.txt
+dishmm/src/disthmm.egg-info/requires.txt
+dishmm/src/disthmm.egg-info/top_level.txt
+dishmm/src/dishmm.py
+dishmm/src/disthmm.egg-info/SOURCES.txt
