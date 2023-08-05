@@ -1,0 +1,11 @@
+columnarframe/__init__.py,sha256=4w1xP5Fb85kWdT3_ofjGOcbDxmH9DPqkOJH__-1OTdI,182
+columnarframe/column.py,sha256=juFwOkCXuumh1cbw9d8obGBF6ntk3PXIh_U8NGBDYII,1168
+columnarframe/concat.py,sha256=Fzs02xIYWii6uauLH2EKk6xgbS1Pj2Pywdmmb0MDvp8,248
+columnarframe/frame.py,sha256=7LC7UVquIB6JuLILAvx_zjecWLXo0Fs0V7jSfE6Dh64,3240
+columnarframe/read_csv.py,sha256=bOKD3NH-Lu1WSvu7rikh664hWX8hEONzSrA1jfnzIEY,1391
+columnarframe/read_excel.py,sha256=53Vdz0SoA_OA3E9RxEVXo2ptOWPhCyf8QAUjjTlIE_8,1237
+columnarframe/utils.py,sha256=GmTlAgadhqSckNRdbnuWX1r_eKcSJ2jEIItY4GBRLRE,206
+columnarframe-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+columnarframe-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+columnarframe-0.2.1.dist-info/METADATA,sha256=oUsvIIgJdlGfdZUe4oHNsaHE8GtcftbHgjkdJsKdmCc,1166
+columnarframe-0.2.1.dist-info/RECORD,,
