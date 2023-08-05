@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: yea-wandb
+Version: 0.7.19
+Summary: Test harness wandb plugin
+Home-page: UNKNOWN
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
