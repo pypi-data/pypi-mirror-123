@@ -1,0 +1,7 @@
+mock.py
+setup.py
+auto_mock_server.egg-info/PKG-INFO
+auto_mock_server.egg-info/SOURCES.txt
+auto_mock_server.egg-info/dependency_links.txt
+auto_mock_server.egg-info/requires.txt
+auto_mock_server.egg-info/top_level.txt
