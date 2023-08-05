@@ -1,0 +1,4 @@
+[console_scripts]
+pladder-client=pladder_client.client:main
+strutern=pladder_client.client:main
+
