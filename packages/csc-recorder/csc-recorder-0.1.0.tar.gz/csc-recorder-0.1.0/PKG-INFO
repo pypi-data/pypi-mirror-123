@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: csc-recorder
+Version: 0.1.0
+Summary: CSC eRecording python wrapper
+Home-page: https://github.com/Lenders-Cooperative/CSCRecorder
+License: MIT
+Keywords: CSC
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: Jinja2 (>=3.0.2,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
+Project-URL: Repository, https://github.com/Lenders-Cooperative/CSCRecorder
+Description-Content-Type: text/markdown
+
+
