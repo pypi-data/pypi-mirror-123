@@ -1,0 +1,13 @@
+webhawk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhawk/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhawk/src/__main__.py,sha256=kPRDdtCBK92-2-ItZK8W9J6-hLtCJ8u3n0PLA42ak4M,5533
+webhawk/src/functions.py,sha256=H3lI_HWH4XnwmiqQQbOZtlDcoTuqaWb1DBuVoE7Gn2U,4837
+webhawk/src/dependencies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhawk/src/dependencies/subdomain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhawk/src/dependencies/subdomain/subdomains.py,sha256=xRS4AQv2ouVQBdXEOnWZJkak-Eyh2b4Z8AiIozgMy74,994
+webhawk-0.0.5.dist-info/LICENSE,sha256=ST39ixnOn92hYJKbLv7AEkkI8yDxsZWYBzJwVJhx9rU,1072
+webhawk-0.0.5.dist-info/METADATA,sha256=nj5eICe94esR9kDQWH_Vvn_IoBhx6nmOBUeAcllNihM,2158
+webhawk-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+webhawk-0.0.5.dist-info/entry_points.txt,sha256=qoDu5ohjyy8cwDP-FXlbezir7V_L22pM9jInfSE9n-8,55
+webhawk-0.0.5.dist-info/top_level.txt,sha256=6yWMVuHQ2MlHrwRcP9pAV1pt66nLg0Y96fLTuQqQ1t0,8
+webhawk-0.0.5.dist-info/RECORD,,
