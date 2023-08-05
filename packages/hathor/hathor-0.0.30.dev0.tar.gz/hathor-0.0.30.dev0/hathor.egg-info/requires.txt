@@ -1,0 +1,12 @@
+cachetools
+click
+click-spinner
+flask
+flask-restx
+fs
+pyyaml
+requests
+setuptools
+watchdog
+wheel
+whichcraft

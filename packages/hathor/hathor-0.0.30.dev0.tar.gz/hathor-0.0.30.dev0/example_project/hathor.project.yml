@@ -1,0 +1,37 @@
+name: Example Project
+
+metadata:
+  author: BrinkerVII
+  author_email: brinkervii@gmail.com
+
+scripts:
+  test: busted tests/busted_example.lua
+
+build:
+  directory: ./build
+  builder: modular
+
+  profiles:
+    dist:
+      directory: ./dist
+      builder: bundle
+
+    sdist:
+      directory: ./dist
+      builder: zip_archive
+
+    backup:
+      directory: /tmp/backup
+      builder: copy
+
+serve:
+  host: 127.0.0.1
+  port: 8080
+  build_profile: default
+
+sources:
+  src:
+    enabled: true
+
+save_instance:
+  root_directory: ./src/Instances

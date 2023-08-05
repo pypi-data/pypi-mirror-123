@@ -1,0 +1,16 @@
+name: Zipline Plugin
+metadata:
+  author: BrinkerVII
+  author_email: brinkervii@gmail.com
+
+build:
+  directory: ./build
+  builder: copy
+
+serve:
+  host: 127.0.01
+  port: 8080
+
+sources:
+  ./src:
+    enabled: true

@@ -1,0 +1,10 @@
+# Build and distribution
+dist/
+build/
+
+# Roblox binaries
+*.rbxl
+*.rbxm
+
+# LuaRocks modules
+lua_modules/
