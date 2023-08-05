@@ -1,0 +1,11 @@
+README.md
+setup.py
+sqlconfig/__init__.py
+sqlconfig/__main__.py
+sqlconfig/cli.py
+sqlconfig/lib.py
+sqlconfig.egg-info/PKG-INFO
+sqlconfig.egg-info/SOURCES.txt
+sqlconfig.egg-info/dependency_links.txt
+sqlconfig.egg-info/entry_points.txt
+sqlconfig.egg-info/top_level.txt
