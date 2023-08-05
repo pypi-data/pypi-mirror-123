@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: plugenv
+Version: 0.0.0
+Summary: Managing plugins within a Python virtual environment.
+Author: Maximillian Strand
+Author-email: maximillian.strand@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
