@@ -1,0 +1,9 @@
+setuptools
+six
+beautifulsoup4
+visaplan.tools
+
+[test]
+plone.app.testing
+plone.testing
+plone.app.robotframework[debug]
