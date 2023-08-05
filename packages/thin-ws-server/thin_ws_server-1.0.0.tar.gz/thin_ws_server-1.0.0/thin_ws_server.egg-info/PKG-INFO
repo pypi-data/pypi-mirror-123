@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: thin-ws-server
+Version: 1.0.0
+Summary: small implementation of websocket server.
+Home-page: https://github.com/atoy322/ws_server
+Author: atoy322
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Small websocket server implementation
+You can use this program for various way.
+For example, communicate with browser's JavaScript, send command request to minecraft ("/connect HOST:PORT" command).
+
+## Usage
+```python
+from websocket_server import WebSocketServer
+
+ws = WebSocketServer(8000)  # initialize
+ws.accept()  # accept client connection
+
+ws.send(data)  # data: str or bytes
+ws.recv()  # returns bytes
+```
+
+
+
