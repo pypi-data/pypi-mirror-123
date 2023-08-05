@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Disecon
+Version: 0.1.9
+Summary: Disecon
+Home-page: UNKNOWN
+Author: LegosAndStuff
+License: MIT
+Keywords: economy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<built-in method read of _io.TextIOWrapper object at 0x000002DEEC84E790>
+
