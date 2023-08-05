@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/channels_endpoints/__init__.py
+src/channels_endpoints/apps.py
+src/channels_endpoints/auth.py
+src/channels_endpoints/client.py
+src/channels_endpoints/exceptions.py
+src/channels_endpoints/main.py
+src/channels_endpoints/utils.py
+src/channels_endpoints.egg-info/PKG-INFO
+src/channels_endpoints.egg-info/SOURCES.txt
+src/channels_endpoints.egg-info/dependency_links.txt
+src/channels_endpoints.egg-info/requires.txt
+src/channels_endpoints.egg-info/top_level.txt
