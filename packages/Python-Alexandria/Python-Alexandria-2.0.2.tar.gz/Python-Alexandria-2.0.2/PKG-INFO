@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Python-Alexandria
+Version: 2.0.2
+Summary: General utilities for Python projects.
+Home-page: https://github.com/alopezrivera/alexandria
+Author: Antonio Lopez Rivera
+Author-email: antonlopezr99@gmail.com
+License: UNKNOWN
+Description: # Alexandria
+        
+        ![alt text](tests/coverage/coverage.svg ".coverage available in tests/coverage/")
+        
+        Python library of general utilities.
+        
+            pip install Python-Alexandria
+        
+        # [API Reference](https://alopezrivera-docs.github.io/alexandria/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

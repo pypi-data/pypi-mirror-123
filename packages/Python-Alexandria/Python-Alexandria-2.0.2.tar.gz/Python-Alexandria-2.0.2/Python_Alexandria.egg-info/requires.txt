@@ -1,0 +1,4 @@
+scipy
+numpy
+PyYAML>=5.4
+pyfiglet
