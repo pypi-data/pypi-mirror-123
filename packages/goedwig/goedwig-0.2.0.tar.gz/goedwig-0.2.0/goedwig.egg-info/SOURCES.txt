@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+goedwig/__init__.py
+goedwig/cypher.py
+goedwig/query.py
+goedwig/tag.py
+goedwig/version.py
+goedwig.egg-info/PKG-INFO
+goedwig.egg-info/SOURCES.txt
+goedwig.egg-info/dependency_links.txt
+goedwig.egg-info/not-zip-safe
+goedwig.egg-info/requires.txt
+goedwig.egg-info/top_level.txt
