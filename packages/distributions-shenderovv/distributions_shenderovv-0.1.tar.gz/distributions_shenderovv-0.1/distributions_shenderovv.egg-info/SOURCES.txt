@@ -1,0 +1,11 @@
+README.md
+setup.py
+distributions_shenderovv/Binomialdistribution.py
+distributions_shenderovv/Gaussiandistribution.py
+distributions_shenderovv/Generaldistribution.py
+distributions_shenderovv/__init__.py
+distributions_shenderovv.egg-info/PKG-INFO
+distributions_shenderovv.egg-info/SOURCES.txt
+distributions_shenderovv.egg-info/dependency_links.txt
+distributions_shenderovv.egg-info/not-zip-safe
+distributions_shenderovv.egg-info/top_level.txt
