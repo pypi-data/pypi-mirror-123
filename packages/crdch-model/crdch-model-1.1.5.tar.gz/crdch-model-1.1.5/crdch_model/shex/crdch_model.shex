@@ -1,0 +1,721 @@
+BASE <https://example.org/crdch/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX linkml: <https://w3id.org/linkml/>
+
+
+<CrdchString> xsd:string
+
+<CrdchInteger> xsd:integer
+
+<CrdchDecimal> xsd:decimal
+
+<CrdchBoolean> xsd:boolean
+
+<CrdchDateTime> xsd:dateTime
+
+<CrdchCurie> IRI
+
+<CrdchCode> xsd:string
+
+linkml:String xsd:string
+
+linkml:Integer xsd:integer
+
+linkml:Boolean xsd:boolean
+
+linkml:Float xsd:float
+
+linkml:Double xsd:double
+
+linkml:Decimal xsd:decimal
+
+linkml:Time xsd:dateTime
+
+linkml:Date xsd:date
+
+linkml:Datetime xsd:dateTime
+
+linkml:Uriorcurie IRI
+
+linkml:Uri IRI
+
+linkml:Ncname xsd:string
+
+linkml:Objectidentifier IRI
+
+linkml:Nodeidentifier NONLITERAL
+
+<AlcoholExposureObservation> CLOSED {
+    (  $<AlcoholExposureObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_integer> @<CrdchInteger> ? ;
+          <value_codeable_concept> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <AlcoholExposureObservation> ] ?
+    )
+}
+
+<BiologicProduct> CLOSED {
+    (  $<BiologicProduct_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <description> @<CrdchString> ? ;
+          <product_type> @<CodeableConcept> ? ;
+          <passage_number> @<CrdchInteger> * ;
+          <growth_rate> @<CrdchString> *
+       ) ;
+       rdf:type [ <BiologicProduct> ] ?
+    )
+}
+
+<BodySite> CLOSED {
+    (  $<BodySite_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <site> @<CodeableConcept> ;
+          <qualifier> @<CodeableConcept> *
+       ) ;
+       rdf:type [ <BodySite> ] ?
+    )
+}
+
+<CancerGradeObservation> CLOSED {
+    (  $<CancerGradeObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <value_codeable_concept> @<CodeableConcept>
+       ) ;
+       rdf:type [ <CancerGradeObservation> ] ?
+    )
+}
+
+<CancerGradeObservationSet> CLOSED {
+    (  $<CancerGradeObservationSet_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <method_type> @<CodeableConcept> * ;
+          <performed_by> @<Organization> ? ;
+          <observations> @<CancerGradeObservation> *
+       ) ;
+       rdf:type [ <CancerGradeObservationSet> ] ?
+    )
+}
+
+<CancerStageObservation> CLOSED {
+    (  $<CancerStageObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_entity> @<Entity> ? ;
+          <value_codeable_concept> @<CodeableConcept>
+       ) ;
+       rdf:type [ <CancerStageObservation> ] ?
+    )
+}
+
+<CancerStageObservationSet> CLOSED {
+    (  $<CancerStageObservationSet_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <method_type> @<CodeableConcept> * ;
+          <performed_by> @<Organization> ? ;
+          <observations> @<CancerStageObservation> *
+       ) ;
+       rdf:type [ <CancerStageObservationSet> ] ?
+    )
+}
+
+<CodeableConcept> CLOSED {
+    (  $<CodeableConcept_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <coding> @<Coding> * ;
+          <text> @<CrdchString> ?
+       ) ;
+       rdf:type [ <CodeableConcept> ] ?
+    )
+}
+
+<Coding> CLOSED {
+    (  $<Coding_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <code> @<CrdchString> ;
+          <label> @<CrdchString> ? ;
+          <system> @<CrdchString> ;
+          <system_version> @<CrdchString> ? ;
+          <value_set> @<CrdchString> ? ;
+          <value_set_version> @<CrdchString> ? ;
+          <tag> @<CrdchString> *
+       ) ;
+       rdf:type [ <Coding> ] ?
+    )
+}
+
+<Diagnosis> CLOSED {
+    (  $<Diagnosis_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <subject> @<Subject> ? ;
+          <age_at_diagnosis> @<Quantity> ? ;
+          <diagnosis_date> @<TimePoint> ? ;
+          <condition> @<CodeableConcept> ? ;
+          <primary_site> @<BodySite> * ;
+          <metastatic_site> @<BodySite> * ;
+          <stage> @<CancerStageObservationSet> * ;
+          <grade> @<CancerGradeObservationSet> * ;
+          <morphology> @<CodeableConcept> ? ;
+          <disease_status> @<CodeableConcept> ? ;
+          <prior_diagnosis> @<Diagnosis> ? ;
+          <method_of_diagnosis> @<CodeableConcept> ? ;
+          <related_specimen> @<Specimen> * ;
+          <primary_tumor_dimensional_measures> @<DimensionalObservationSet> ? ;
+          <supporting_observation> @<Observation> *
+       ) ;
+       rdf:type [ <Diagnosis> ] ?
+    )
+}
+
+<DimensionalObservation> CLOSED {
+    (  $<DimensionalObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> * ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_quantity> @<Quantity>
+       ) ;
+       rdf:type [ <DimensionalObservation> ] ?
+    )
+}
+
+<DimensionalObservationSet> CLOSED {
+    (  $<DimensionalObservationSet_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <method_type> @<CodeableConcept> * ;
+          <performed_by> @<Organization> ? ;
+          <observations> @<DimensionalObservation> *
+       ) ;
+       rdf:type [ <DimensionalObservationSet> ] ?
+    )
+}
+
+<Document> CLOSED {
+    (  $<Document_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <document_type> @<CodeableConcept> ? ;
+          <description> @<CrdchString> ? ;
+          <focus> @<Entity> ? ;
+          <url> @<CrdchString> *
+       ) ;
+       rdf:type [ <Document> ] ?
+    )
+}
+
+<Entity>  (
+    CLOSED {
+       (  $<Entity_tes> rdf:type . * ;
+          rdf:type [ <Entity> ] ?
+       )
+    } OR @<AlcoholExposureObservation> OR @<BiologicProduct> OR @<BodySite> OR @<CancerGradeObservation> OR
+    @<CancerGradeObservationSet> OR @<CancerStageObservation> OR @<CancerStageObservationSet> OR @<CodeableConcept> OR @<Coding> OR
+    @<Diagnosis> OR @<DimensionalObservation> OR @<DimensionalObservationSet> OR @<Document> OR @<EnvironmentalExposureObservation>
+    OR @<ExecutionConditionObservation> OR @<ExecutionTimeObservation> OR @<Exposure> OR @<HistologicalCompositionObservation> OR
+    @<HistologicalCompositionObservationSet> OR @<Identifier> OR @<Observation> OR @<ObservationSet> OR @<Organization> OR
+    @<Quantity> OR @<ResearchProject> OR @<ResearchSubject> OR @<Specimen> OR @<SpecimenContainer> OR @<SpecimenCreationActivity>
+    OR @<SpecimenProcessingActivity> OR @<SpecimenQualityObservation> OR @<SpecimenQuantityObservation> OR
+    @<SpecimenStorageActivity> OR @<SpecimenTransportActivity> OR @<Subject> OR @<Substance> OR @<TimePeriod> OR @<TimePoint> OR
+    @<TobaccoExposureObservation> OR @<Treatment>
+)
+
+<EnvironmentalExposureObservation> CLOSED {
+    (  $<EnvironmentalExposureObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_codeable_concept> @<CodeableConcept>
+       ) ;
+       rdf:type [ <EnvironmentalExposureObservation> ] ?
+    )
+}
+
+<ExecutionConditionObservation> CLOSED {
+    (  $<ExecutionConditionObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_codeable_concept> @<CodeableConcept>
+       ) ;
+       rdf:type [ <ExecutionConditionObservation> ] ?
+    )
+}
+
+<ExecutionTimeObservation> CLOSED {
+    (  $<ExecutionTimeObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_quantity> @<Quantity>
+       ) ;
+       rdf:type [ <ExecutionTimeObservation> ] ?
+    )
+}
+
+<Exposure> CLOSED {
+    (  $<Exposure_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ;
+          <identifier> @<Identifier> * ;
+          <tobacco_exposure> @<TobaccoExposureObservation> * ;
+          <alcohol_exposure> @<AlcoholExposureObservation> * ;
+          <environmental_exposure> @<EnvironmentalExposureObservation> * ;
+          <subject> @<Subject> ?
+       ) ;
+       rdf:type [ <Exposure> ] ?
+    )
+}
+
+<HistologicalCompositionObservation> CLOSED {
+    (  $<HistologicalCompositionObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> * ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_quantity> @<Quantity>
+       ) ;
+       rdf:type [ <HistologicalCompositionObservation> ] ?
+    )
+}
+
+<HistologicalCompositionObservationSet> CLOSED {
+    (  $<HistologicalCompositionObservationSet_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ;
+          <category> @<CodeableConcept> ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <method_type> @<CodeableConcept> * ;
+          <performed_by> @<Organization> ? ;
+          <observations> @<HistologicalCompositionObservation> *
+       ) ;
+       rdf:type [ <HistologicalCompositionObservationSet> ] ?
+    )
+}
+
+<Identifier> CLOSED {
+    (  $<Identifier_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <value> @<CrdchString> ;
+          <system> @<CrdchString> ? ;
+          <type> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <Identifier> ] ?
+    )
+}
+
+<Observation> CLOSED {
+    (  $<Observation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> * ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_entity> @<Entity> ? ;
+          <value_string> @<CrdchString> ? ;
+          <value_integer> @<CrdchDecimal> ? ;
+          <value_decimal> @<CrdchDecimal> ? ;
+          <value_boolean> @<CrdchBoolean> ? ;
+          <value_date_time> @<CrdchDateTime> ? ;
+          <value_quantity> @<Quantity> ? ;
+          <value_codeable_concept> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <Observation> ] ?
+    )
+}
+
+<ObservationSet> CLOSED {
+    (  $<ObservationSet_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ;
+          <category> @<CodeableConcept> ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <method_type> @<CodeableConcept> * ;
+          <performed_by> @<Organization> ? ;
+          <observations> @<Observation> *
+       ) ;
+       rdf:type [ <ObservationSet> ] ?
+    )
+}
+
+<Organization> CLOSED {
+    (  $<Organization_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ;
+          <identifier> @<Identifier> * ;
+          <name> @<CrdchString> ? ;
+          <alias> @<CrdchString> ? ;
+          <organization_type> @<CrdchString> ?
+       ) ;
+       rdf:type [ <Organization> ] ?
+    )
+}
+
+<Quantity> CLOSED {
+    (  $<Quantity_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <value_decimal> @<CrdchDecimal> ? ;
+          <value_codeable_concept> @<CodeableConcept> ? ;
+          <unit> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <Quantity> ] ?
+    )
+}
+
+<ResearchProject> CLOSED {
+    (  $<ResearchProject_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <name> @<CrdchString> ? ;
+          <name_shortened> @<CrdchString> ? ;
+          <description> @<CrdchString> ? ;
+          <description_shortened> @<CrdchString> ? ;
+          <sponsor> @<CrdchString> * ;
+          <date_started> @<TimePoint> ? ;
+          <date_ended> @<TimePoint> ? ;
+          <primary_anatomic_site> @<BodySite> * ;
+          <url> @<CrdchString> * ;
+          <part_of> @<ResearchProject> * ;
+          <research_project_type> @<CodeableConcept> ;
+          <associated_timepoint> @<TimePoint> *
+       ) ;
+       rdf:type [ <ResearchProject> ] ?
+    )
+}
+
+<ResearchSubject> CLOSED {
+    (  $<ResearchSubject_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ;
+          <identifier> @<Identifier> * ;
+          <description> @<CrdchString> ? ;
+          <member_of_research_project> @<ResearchProject> ? ;
+          <age_at_enrollment> @<Quantity> ? ;
+          <primary_diagnosis_condition> @<CodeableConcept> ? ;
+          <primary_diagnosis_site> @<BodySite> ? ;
+          <primary_diagnosis> @<Diagnosis> * ;
+          <comorbid_diagnosis> @<Diagnosis> * ;
+          <index_timepoint> @<CodeableConcept> ? ;
+          <originating_site> @<Organization> ? ;
+          <associated_subject> @<Subject>
+       ) ;
+       rdf:type [ <ResearchSubject> ] ?
+    )
+}
+
+<Specimen> CLOSED {
+    (  $<Specimen_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <description> @<CrdchString> ? ;
+          <specimen_type> @<CodeableConcept> ? ;
+          <analyte_type> @<CodeableConcept> ? ;
+          <associated_project> @<ResearchProject> ? ;
+          <data_provider> @<Organization> ? ;
+          <source_material_type> @<CodeableConcept> ? ;
+          <parent_specimen> @<Specimen> * ;
+          <source_subject> @<Subject> ? ;
+          <tumor_status_at_collection> @<CodeableConcept> ? ;
+          <creation_activity> @<SpecimenCreationActivity> ? ;
+          <processing_activity> @<SpecimenProcessingActivity> * ;
+          <storage_activity> @<SpecimenStorageActivity> * ;
+          <transport_activity> @<SpecimenTransportActivity> * ;
+          <contained_in> @<SpecimenContainer> ? ;
+          <dimensional_measures> @<DimensionalObservationSet> ? ;
+          <quantity_measure> @<SpecimenQuantityObservation> * ;
+          <quality_measure> @<SpecimenQualityObservation> * ;
+          <cellular_composition_type> @<CodeableConcept> ? ;
+          <histological_composition_measures> @<HistologicalCompositionObservationSet> * ;
+          <general_tissue_pathology> @<CodeableConcept> ? ;
+          <specific_tissue_pathology> @<CodeableConcept> ? ;
+          <preinvasive_tissue_morphology> @<CodeableConcept> ? ;
+          <morphology_pathologically_confirmed> @<CrdchBoolean> ? ;
+          <morphology_assessor_role> @<CodeableConcept> ? ;
+          <morphology_assessment_method> @<CodeableConcept> ? ;
+          <degree_of_dysplasia> @<CodeableConcept> ? ;
+          <dysplasia_fraction> @<CrdchString> ? ;
+          <related_document> @<Document> * ;
+          <section_location> @<CodeableConcept> ? ;
+          <derived_product> @<BiologicProduct> * ;
+          <distance_from_paired_specimen> @<Quantity> ?
+       ) ;
+       rdf:type [ <Specimen> ] ?
+    )
+}
+
+<SpecimenContainer> CLOSED {
+    (  $<SpecimenContainer_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <container_type> @<CodeableConcept> ? ;
+          <container_number> @<CrdchString> ? ;
+          <additive> @<Substance> * ;
+          <parent_container> @<SpecimenContainer> ?
+       ) ;
+       rdf:type [ <SpecimenContainer> ] ?
+    )
+}
+
+<SpecimenCreationActivity> CLOSED {
+    (  $<SpecimenCreationActivity_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <activity_type> @<CodeableConcept> ? ;
+          <date_started> @<TimePoint> ? ;
+          <date_ended> @<TimePoint> ? ;
+          <performed_by> @<Organization> ? ;
+          <collection_method_type> @<CodeableConcept> ? ;
+          <derivation_method_type> @<CodeableConcept> ? ;
+          <additive> @<Substance> * ;
+          <collection_site> @<BodySite> ? ;
+          <quantity_collected> @<Quantity> ? ;
+          <execution_time_observation> @<ExecutionTimeObservation> * ;
+          <execution_condition_observation> @<ExecutionConditionObservation> * ;
+          <specimen_order> @<CrdchInteger> ?
+       ) ;
+       rdf:type [ <SpecimenCreationActivity> ] ?
+    )
+}
+
+<SpecimenProcessingActivity> CLOSED {
+    (  $<SpecimenProcessingActivity_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <activity_type> @<CodeableConcept> ? ;
+          <date_started> @<TimePoint> ? ;
+          <date_ended> @<TimePoint> ? ;
+          <duration> @<Quantity> * ;
+          <performed_by> @<Organization> ? ;
+          <method_type> @<CodeableConcept> ? ;
+          <additive> @<Substance> * ;
+          <execution_time_observation> @<ExecutionTimeObservation> * ;
+          <execution_condition_observation> @<ExecutionConditionObservation> *
+       ) ;
+       rdf:type [ <SpecimenProcessingActivity> ] ?
+    )
+}
+
+<SpecimenQualityObservation> CLOSED {
+    (  $<SpecimenQualityObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> * ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_quantity> @<Quantity>
+       ) ;
+       rdf:type [ <SpecimenQualityObservation> ] ?
+    )
+}
+
+<SpecimenQuantityObservation> CLOSED {
+    (  $<SpecimenQuantityObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> * ;
+          <focus> @<Entity> * ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_quantity> @<Quantity>
+       ) ;
+       rdf:type [ <SpecimenQuantityObservation> ] ?
+    )
+}
+
+<SpecimenStorageActivity> CLOSED {
+    (  $<SpecimenStorageActivity_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <date_started> @<TimePoint> ? ;
+          <date_ended> @<TimePoint> ? ;
+          <duration> @<Quantity> ? ;
+          <performed_by> @<Organization> ? ;
+          <method_type> @<CodeableConcept> ? ;
+          <container> @<SpecimenContainer> *
+       ) ;
+       rdf:type [ <SpecimenStorageActivity> ] ?
+    )
+}
+
+<SpecimenTransportActivity> CLOSED {
+    (  $<SpecimenTransportActivity_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <date_started> @<TimePoint> ? ;
+          <date_ended> @<TimePoint> ? ;
+          <duration> @<CrdchString> * ;
+          <performed_by> @<Organization> ? ;
+          <transport_origin> @<Organization> ? ;
+          <transport_destination> @<Organization> ? ;
+          <execution_condition_observation> @<ExecutionConditionObservation> *
+       ) ;
+       rdf:type [ <SpecimenTransportActivity> ] ?
+    )
+}
+
+<Subject> CLOSED {
+    (  $<Subject_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ;
+          <identifier> @<Identifier> * ;
+          <species> @<CodeableConcept> ? ;
+          <breed> @<CodeableConcept> ? ;
+          <sex> @<CodeableConcept> ? ;
+          <ethnicity> @<CodeableConcept> ? ;
+          <race> @<CodeableConcept> * ;
+          <year_of_birth> @<CrdchInteger> ? ;
+          <vital_status> @<CodeableConcept> ? ;
+          <age_at_death> @<Quantity> ? ;
+          <year_of_death> @<CrdchInteger> ? ;
+          <cause_of_death> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <Subject> ] ?
+    )
+}
+
+<Substance> CLOSED {
+    (  $<Substance_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <substance_type> @<CodeableConcept> ? ;
+          <role> @<CodeableConcept> * ;
+          <substance_quantity> @<Quantity> ?
+       ) ;
+       rdf:type [ <Substance> ] ?
+    )
+}
+
+<TimePeriod> CLOSED {
+    (  $<TimePeriod_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <period_start_start> @<TimePoint> ? ;
+          <period_end_end> @<TimePoint> ?
+       ) ;
+       rdf:type [ <TimePeriod> ] ?
+    )
+}
+
+<TimePoint> CLOSED {
+    (  $<TimePoint_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <date_time> @<CrdchDateTime> ? ;
+          <index_time_point> @<TimePoint> ? ;
+          <offset_from_index> @<Quantity> ? ;
+          <event_type> @<CodeableConcept> *
+       ) ;
+       rdf:type [ <TimePoint> ] ?
+    )
+}
+
+<TobaccoExposureObservation> CLOSED {
+    (  $<TobaccoExposureObservation_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <category> @<CodeableConcept> ? ;
+          <observation_type> @<CodeableConcept> ;
+          <method_type> @<CodeableConcept> ? ;
+          <focus> @<Entity> ? ;
+          <subject> @<Subject> ? ;
+          <performed_by> @<Organization> ? ;
+          <value_integer> @<CrdchInteger> ? ;
+          <value_codeable_concept> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <TobaccoExposureObservation> ] ?
+    )
+}
+
+<Treatment> CLOSED {
+    (  $<Treatment_tes> (  &<Entity_tes> ;
+          rdf:type [ <Entity> ] ? ;
+          <id> @<CrdchString> ? ;
+          <identifier> @<Identifier> * ;
+          <treatment_for_diagnosis> @<Diagnosis> * ;
+          <concurrent_treatment> @<Treatment> * ;
+          <treatment_type> @<CodeableConcept> ? ;
+          <subject> @<Subject> ? ;
+          <date_started> @<TimePoint> ? ;
+          <date_ended> @<TimePoint> ? ;
+          <treatment_end_reason> @<CodeableConcept> * ;
+          <regimen> @<CodeableConcept> ? ;
+          <therapeutic_agent> @<Substance> ? ;
+          <number_of_cycles> @<CrdchInteger> ? ;
+          <treatment_frequency> @<CodeableConcept> ? ;
+          <treatment_anatomic_site> @<BodySite> ? ;
+          <treatment_intent> @<CodeableConcept> ? ;
+          <treatment_effect> @<CodeableConcept> ? ;
+          <treatment_outcome> @<CodeableConcept> ?
+       ) ;
+       rdf:type [ <Treatment> ] ?
+    )
+}
+
+
+

@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "crdch-model"
+version = "1.1.5"
+description = "CRDC-H model in LinkML, developed by the Center for Cancer Data Harmonization (CCDH). This Python package contains the dataclasses necessary to build and operate over data objects according to the CRDC-H model."
+readme = "CRDCH_MODEL.md"
+authors = [
+  "Mark A. Miller <MAM@lbl.gov>",
+  "Gaurav Vaidya <gaurav@ggvaidya.com>"
+]
+license = "MIT"
+packages = [
+  { include = "crdch_model.py", from = "crdch_model" }
+]
+include = [
+  "README.md",
+  "model/*",
+  "crdch_model/*"
+]
+
+[tool.poetry.urls]
+"CCDH Website" = "https://ccdh.cancer.gov"
+"CCDH Model" = "https://cancerdhc.github.io/ccdhmodel/"
+"GitHub Repository" = "https://github.com/cancerDHC/ccdhmodel/"
+"Bug Tracker" = "https://github.com/cancerDHC/ccdhmodel/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+linkml-runtime = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,500 @@
+type AlcoholExposureObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    performedBy: Organization
+    valueInteger: CrdchInteger
+    valueCodeableConcept: CodeableConcept
+  }
+
+type BiologicProduct
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    description: CrdchString
+    productType: CodeableConcept
+    passageNumber: [CrdchInteger]
+    growthRate: [CrdchString]
+  }
+
+type BodySite
+  {
+    site: CodeableConcept!
+    qualifier: [CodeableConcept]
+  }
+
+type CancerGradeObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    valueCodeableConcept: CodeableConcept!
+  }
+
+type CancerGradeObservationSet
+  {
+    id: CrdchString
+    category: CodeableConcept
+    focus: [Entity]
+    subject: Subject
+    methodType: [CodeableConcept]
+    performedBy: Organization
+    observations: [CancerGradeObservation]
+  }
+
+type CancerStageObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    performedBy: Organization
+    valueEntity: Entity
+    valueCodeableConcept: CodeableConcept!
+  }
+
+type CancerStageObservationSet
+  {
+    id: CrdchString
+    category: CodeableConcept
+    focus: [Entity]
+    subject: Subject
+    methodType: [CodeableConcept]
+    performedBy: Organization
+    observations: [CancerStageObservation]
+  }
+
+type CodeableConcept
+  {
+    coding: [Coding]
+    text: CrdchString
+  }
+
+type Coding
+  {
+    code: CrdchString!
+    label: CrdchString
+    system: CrdchString!
+    systemVersion: CrdchString
+    valueSet: CrdchString
+    valueSetVersion: CrdchString
+    tag: [CrdchString]
+  }
+
+type Diagnosis
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    subject: Subject
+    ageAtDiagnosis: Quantity
+    diagnosisDate: TimePoint
+    condition: CodeableConcept
+    primarySite: [BodySite]
+    metastaticSite: [BodySite]
+    stage: [CancerStageObservationSet]
+    grade: [CancerGradeObservationSet]
+    morphology: CodeableConcept
+    diseaseStatus: CodeableConcept
+    priorDiagnosis: Diagnosis
+    methodOfDiagnosis: CodeableConcept
+    relatedSpecimen: [Specimen]
+    primaryTumorDimensionalMeasures: DimensionalObservationSet
+    supportingObservation: [Observation]
+  }
+
+type DimensionalObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: [CodeableConcept]
+    focus: [Entity]
+    subject: Subject
+    performedBy: Organization
+    valueQuantity: Quantity!
+  }
+
+type DimensionalObservationSet
+  {
+    id: CrdchString
+    category: CodeableConcept
+    focus: [Entity]
+    subject: Subject
+    methodType: [CodeableConcept]
+    performedBy: Organization
+    observations: [DimensionalObservation]
+  }
+
+type Document
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    documentType: CodeableConcept
+    description: CrdchString
+    focus: Entity
+    url: [CrdchString]
+  }
+
+type Entity
+  {
+  }
+
+type EnvironmentalExposureObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    performedBy: Organization
+    valueCodeableConcept: CodeableConcept!
+  }
+
+type ExecutionConditionObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    performedBy: Organization
+    valueCodeableConcept: CodeableConcept!
+  }
+
+type ExecutionTimeObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    performedBy: Organization
+    valueQuantity: Quantity!
+  }
+
+type Exposure
+  {
+    id: CrdchString!
+    identifier: [Identifier]
+    tobaccoExposure: [TobaccoExposureObservation]
+    alcoholExposure: [AlcoholExposureObservation]
+    environmentalExposure: [EnvironmentalExposureObservation]
+    subject: Subject
+  }
+
+type HistologicalCompositionObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: [CodeableConcept]
+    focus: [Entity]
+    subject: Subject
+    performedBy: Organization
+    valueQuantity: Quantity!
+  }
+
+type HistologicalCompositionObservationSet
+  {
+    id: CrdchString!
+    category: CodeableConcept!
+    focus: [Entity]
+    subject: Subject
+    methodType: [CodeableConcept]
+    performedBy: Organization
+    observations: [HistologicalCompositionObservation]
+  }
+
+type Identifier
+  {
+    value: CrdchString!
+    system: CrdchString
+    type: CodeableConcept
+  }
+
+type Observation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: [CodeableConcept]
+    focus: [Entity]
+    subject: Subject
+    performedBy: Organization
+    valueEntity: Entity
+    valueString: CrdchString
+    valueInteger: CrdchDecimal
+    valueDecimal: CrdchDecimal
+    valueBoolean: CrdchBoolean
+    valueDateTime: CrdchDateTime
+    valueQuantity: Quantity
+    valueCodeableConcept: CodeableConcept
+  }
+
+type ObservationSet
+  {
+    id: CrdchString!
+    category: CodeableConcept!
+    focus: [Entity]
+    subject: Subject
+    methodType: [CodeableConcept]
+    performedBy: Organization
+    observations: [Observation]
+  }
+
+type Organization
+  {
+    id: CrdchString!
+    identifier: [Identifier]
+    name: CrdchString
+    alias: CrdchString
+    organizationType: CrdchString
+  }
+
+type Quantity
+  {
+    valueDecimal: CrdchDecimal
+    valueCodeableConcept: CodeableConcept
+    unit: CodeableConcept
+  }
+
+type ResearchProject
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    name: CrdchString
+    nameShortened: CrdchString
+    description: CrdchString
+    descriptionShortened: CrdchString
+    sponsor: [CrdchString]
+    dateStarted: TimePoint
+    dateEnded: TimePoint
+    primaryAnatomicSite: [BodySite]
+    url: [CrdchString]
+    partOf: [ResearchProject]
+    researchProjectType: CodeableConcept!
+    associatedTimepoint: [TimePoint]
+  }
+
+type ResearchSubject
+  {
+    id: CrdchString!
+    identifier: [Identifier]
+    description: CrdchString
+    memberOfResearchProject: ResearchProject
+    ageAtEnrollment: Quantity
+    primaryDiagnosisCondition: CodeableConcept
+    primaryDiagnosisSite: BodySite
+    primaryDiagnosis: [Diagnosis]
+    comorbidDiagnosis: [Diagnosis]
+    indexTimepoint: CodeableConcept
+    originatingSite: Organization
+    associatedSubject: Subject!
+  }
+
+type Specimen
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    description: CrdchString
+    specimenType: CodeableConcept
+    analyteType: CodeableConcept
+    associatedProject: ResearchProject
+    dataProvider: Organization
+    sourceMaterialType: CodeableConcept
+    parentSpecimen: [Specimen]
+    sourceSubject: Subject
+    tumorStatusAtCollection: CodeableConcept
+    creationActivity: SpecimenCreationActivity
+    processingActivity: [SpecimenProcessingActivity]
+    storageActivity: [SpecimenStorageActivity]
+    transportActivity: [SpecimenTransportActivity]
+    containedIn: SpecimenContainer
+    dimensionalMeasures: DimensionalObservationSet
+    quantityMeasure: [SpecimenQuantityObservation]
+    qualityMeasure: [SpecimenQualityObservation]
+    cellularCompositionType: CodeableConcept
+    histologicalCompositionMeasures: [HistologicalCompositionObservationSet]
+    generalTissuePathology: CodeableConcept
+    specificTissuePathology: CodeableConcept
+    preinvasiveTissueMorphology: CodeableConcept
+    morphologyPathologicallyConfirmed: CrdchBoolean
+    morphologyAssessorRole: CodeableConcept
+    morphologyAssessmentMethod: CodeableConcept
+    degreeOfDysplasia: CodeableConcept
+    dysplasiaFraction: CrdchString
+    relatedDocument: [Document]
+    sectionLocation: CodeableConcept
+    derivedProduct: [BiologicProduct]
+    distanceFromPairedSpecimen: Quantity
+  }
+
+type SpecimenContainer
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    containerType: CodeableConcept
+    containerNumber: CrdchString
+    additive: [Substance]
+    parentContainer: SpecimenContainer
+  }
+
+type SpecimenCreationActivity
+  {
+    activityType: CodeableConcept
+    dateStarted: TimePoint
+    dateEnded: TimePoint
+    performedBy: Organization
+    collectionMethodType: CodeableConcept
+    derivationMethodType: CodeableConcept
+    additive: [Substance]
+    collectionSite: BodySite
+    quantityCollected: Quantity
+    executionTimeObservation: [ExecutionTimeObservation]
+    executionConditionObservation: [ExecutionConditionObservation]
+    specimenOrder: CrdchInteger
+  }
+
+type SpecimenProcessingActivity
+  {
+    activityType: CodeableConcept
+    dateStarted: TimePoint
+    dateEnded: TimePoint
+    duration: [Quantity]
+    performedBy: Organization
+    methodType: CodeableConcept
+    additive: [Substance]
+    executionTimeObservation: [ExecutionTimeObservation]
+    executionConditionObservation: [ExecutionConditionObservation]
+  }
+
+type SpecimenQualityObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: [CodeableConcept]
+    focus: [Entity]
+    subject: Subject
+    performedBy: Organization
+    valueQuantity: Quantity!
+  }
+
+type SpecimenQuantityObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: [CodeableConcept]
+    focus: [Entity]
+    subject: Subject
+    performedBy: Organization
+    valueQuantity: Quantity!
+  }
+
+type SpecimenStorageActivity
+  {
+    dateStarted: TimePoint
+    dateEnded: TimePoint
+    duration: Quantity
+    performedBy: Organization
+    methodType: CodeableConcept
+    container: [SpecimenContainer]
+  }
+
+type SpecimenTransportActivity
+  {
+    dateStarted: TimePoint
+    dateEnded: TimePoint
+    duration: [CrdchString]
+    performedBy: Organization
+    transportOrigin: Organization
+    transportDestination: Organization
+    executionConditionObservation: [ExecutionConditionObservation]
+  }
+
+type Subject
+  {
+    id: CrdchString!
+    identifier: [Identifier]
+    species: CodeableConcept
+    breed: CodeableConcept
+    sex: CodeableConcept
+    ethnicity: CodeableConcept
+    race: [CodeableConcept]
+    yearOfBirth: CrdchInteger
+    vitalStatus: CodeableConcept
+    ageAtDeath: Quantity
+    yearOfDeath: CrdchInteger
+    causeOfDeath: CodeableConcept
+  }
+
+type Substance
+  {
+    substanceType: CodeableConcept
+    role: [CodeableConcept]
+    substanceQuantity: Quantity
+  }
+
+type TimePeriod
+  {
+    periodStartStart: TimePoint
+    periodEndEnd: TimePoint
+  }
+
+type TimePoint
+  {
+    id: CrdchString
+    dateTime: CrdchDateTime
+    indexTimePoint: TimePoint
+    offsetFromIndex: Quantity
+    eventType: [CodeableConcept]
+  }
+
+type TobaccoExposureObservation
+  {
+    id: CrdchString
+    category: CodeableConcept
+    observationType: CodeableConcept!
+    methodType: CodeableConcept
+    focus: Entity
+    subject: Subject
+    performedBy: Organization
+    valueInteger: CrdchInteger
+    valueCodeableConcept: CodeableConcept
+  }
+
+type Treatment
+  {
+    id: CrdchString
+    identifier: [Identifier]
+    treatmentForDiagnosis: [Diagnosis]
+    concurrentTreatment: [Treatment]
+    treatmentType: CodeableConcept
+    subject: Subject
+    dateStarted: TimePoint
+    dateEnded: TimePoint
+    treatmentEndReason: [CodeableConcept]
+    regimen: CodeableConcept
+    therapeuticAgent: Substance
+    numberOfCycles: CrdchInteger
+    treatmentFrequency: CodeableConcept
+    treatmentAnatomicSite: BodySite
+    treatmentIntent: CodeableConcept
+    treatmentEffect: CodeableConcept
+    treatmentOutcome: CodeableConcept
+  }
+
+
