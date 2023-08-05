@@ -1,0 +1,16 @@
+dg_ai_platform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dg_ai_platform/dg_platform.py,sha256=L69GZB-mV3WgNH5Z9YGzgVzg0cK4_2VeHl2MG4upNaQ,7993
+dg_ai_platform/example.py,sha256=24xATj7iGBYYe1rqYt2mN_YvVuwNovIxE7WtZ2p8788,1018
+dg_ai_platform/task_process_1to1.py,sha256=mRc05gpSiQfLQ2VTV7LL2zpZMfT5trcrd-t-2iC4gHM,662
+dg_ai_platform/task_process_1to2.py,sha256=RDHhuY9QErH0bN6L_qkLSkOENExoGDm2Qq9aCPHpEZA,746
+dg_ai_platform/task_process_1toN.py,sha256=XticDFonXu_b6FGZutDRwgkNyzCng7dB5dBh4cFvFoI,772
+dg_ai_platform/task_process_2to1.py,sha256=ur2kA9z52Txmdt7FK0UwfPXUgf94jxVLpHnoiap7Too,954
+dg_ai_platform/task_process_2to2.py,sha256=37EahbvJTQFlIbOtBfb_vdQllXclUF9o1bR8DykHJYk,894
+dg_ai_platform/task_process_use_options.py,sha256=G7FnVQtRywuG_So8NNb8NhBtCa0KFme6FRtAgaRkQcM,741
+dg_ai_platform/test.py,sha256=mPe1XUYZrg-OG38MRp_m3RX92UqLXKibSKZVVcCLLe8,145
+dg_ai_platform/utils.py,sha256=dVhAxcR5q1rtYWRfxj-gnkBcPBdlITywCi8WxiaF7I8,1103
+dg_ai_platform-0.2.0.dist-info/LICENSE,sha256=mybEUJxqr45sb-Wh1VfSNAS4kjc0sp7MrJ5PCrdMrBs,1072
+dg_ai_platform-0.2.0.dist-info/METADATA,sha256=WxzU2iOuaYYJCY1o4e1InPMSkPq3yuDNKjE_tbjNxrc,2389
+dg_ai_platform-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dg_ai_platform-0.2.0.dist-info/top_level.txt,sha256=EJjwKPPPfxaxIDkE_hg0IBrXharyZGQghbWfZkIXcac,15
+dg_ai_platform-0.2.0.dist-info/RECORD,,
