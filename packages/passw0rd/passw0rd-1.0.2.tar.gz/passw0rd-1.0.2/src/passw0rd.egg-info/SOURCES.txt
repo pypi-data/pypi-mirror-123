@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/passw0rd.py
+src/passw0rd.egg-info/PKG-INFO
+src/passw0rd.egg-info/SOURCES.txt
+src/passw0rd.egg-info/dependency_links.txt
+src/passw0rd.egg-info/top_level.txt
+tests/test_generate.py
