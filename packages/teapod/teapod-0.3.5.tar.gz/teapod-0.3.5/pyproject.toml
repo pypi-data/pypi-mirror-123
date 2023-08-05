@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "teapod"
+version = "0.3.5"
+description = "Teapod."
+authors = ["Yevgnen Koh <wherejoystarts@gmail.com>"]
+
+[tool.poetry.scripts]
+information = "teapod.scripts.information:main"
+poetry-add-latest = "teapod.scripts.poetry_add_latest:main"
+pip-update-all = "teapod.scripts.pip_update_all:main"
+org-import = "teapod.scripts.org_import:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytoml = "*"
+resworb = "*"
+rich = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
