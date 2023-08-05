@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: datalad-metadata-model
+Version: 0.1.0b9
+Summary: Datalad Metadata Model
+Home-page: https://github.com/christian-monch/metadata-model
+Author: The Datalad Team
+Author-email: christian.moench@web.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses
+
+[![Build status](https://ci.appveyor.com/api/projects/status/tjkich0nqkjuotxb?svg=true)](https://ci.appveyor.com/project/mih/metadata-model)
+[![codecov](https://codecov.io/gh/datalad/metadata-model/branch/main/graph/badge.svg?token=YBU774L1A7)](https://codecov.io/gh/datalad/metadata-model)
+
+# Datalad Metadata Model
+
+This repository contains the metadata model that datalad and datalad-metalad 
+(will) use for their metadata.
+
+The model is separated into individual components that can be independently
+loaded  and saved in order to have a focus-based view on the potentially very
+large metadata model instance (an application of the "proxy design pattern").
+
+Currently the model elements are stored in git-repositories.
+
+
