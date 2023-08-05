@@ -1,0 +1,12 @@
+ethz_snow/__init__.py,sha256=-pb07VTwZyO9rGBEhTQx_yrogJwtZ2_I_vFmQsV8tl4,596
+ethz_snow/constants.py,sha256=rj0EtmzcGSph_T8s4NGQzIMngvO3onX6pxN16VhVl14,5926
+ethz_snow/operatingConditions.py,sha256=KC4z_exgnBCcDlYnQ96OzPpWUjPn5ndI2Clg1oQlTZU,7449
+ethz_snow/snowfall.py,sha256=cIRXji6bR7hoK_gwVv4B2CyW3KZLNyfVNXpBfZzWXbY,10399
+ethz_snow/snowflake.py,sha256=yoTUpL6iXEnWU-6q1HMWJTVgzTyKcnYhEEFvFNfA0HM,38574
+ethz_snow/config/snowConfig_default.yaml,sha256=JQ8LFR9pLyH-vu9NxtPeD5XoPipw-pPXDaS4x9uf_uU,830
+ethz_snow-1.0.1.dist-info/AUTHORS.rst,sha256=zBMzB2J2yG2sTQArypYixIL9MTbKgieuxdmmxgODC24,147
+ethz_snow-1.0.1.dist-info/LICENSE.txt,sha256=PZxXpHV6pgLnC8bOjCgz8o4bDVF7X8j42f0rXsgLBJw,1121
+ethz_snow-1.0.1.dist-info/METADATA,sha256=xMbfce8F__aTOSkJ0iU78R-1XfYjFCbjcCFLgB_sVLY,1228
+ethz_snow-1.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+ethz_snow-1.0.1.dist-info/top_level.txt,sha256=f9PRW4vzbrSsLWMJw0oJIH4tCqZFZ9e-df1xSax9wCw,10
+ethz_snow-1.0.1.dist-info/RECORD,,
