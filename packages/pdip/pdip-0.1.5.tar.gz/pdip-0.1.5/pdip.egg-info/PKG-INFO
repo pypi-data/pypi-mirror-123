@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pdip
+Version: 0.1.5
+Summary: Python Data Integrator infrastructures package
+Home-page: https://github.com/ahmetcagriakca/pdip
+Author: Ahmet Çağrı AKCA
+Author-email: ahmetcagriakca@gmail.com
+License: MIT
+Download-URL: https://github.com/ahmetcagriakca/pdip/archive/refs/tags/v0.1.5.tar.gz
+Description: UNKNOWN
+Keywords: PDI,API,ETL,PROCESS,MULTIPROCESS,IO,CQRS,MSSQL,ORACLE,POSTGRES,MYSQL,CSV
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
