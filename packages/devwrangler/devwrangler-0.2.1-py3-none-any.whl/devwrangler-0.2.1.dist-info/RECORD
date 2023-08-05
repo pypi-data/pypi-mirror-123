@@ -1,0 +1,8 @@
+devwrangler/__init__.py,sha256=4szB6A7eWwujBIqy0jWAPRp4Q_ldZ-6pM0oMERxd8Rs,133
+devwrangler/cli.py,sha256=diM6aIzp0DCwDFMTDwjlv-Gpk72svXoJpS0x3SQf6Ys,1066
+devwrangler/devwrangler.py,sha256=-wDlSDgFmBawUPSAfmW-2KyarsO6rZwLsMuk0Zy6R_4,5669
+devwrangler-0.2.1.dist-info/entry_points.txt,sha256=zXQFIcsI_YI0psnv1424-klnUuyMOrRalgZ9x9Js-1I,46
+devwrangler-0.2.1.dist-info/LICENSE,sha256=oQx6lrUC0xgAG47PZzFVrU9YAo-IpopNn_5s7jVoclI,1073
+devwrangler-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+devwrangler-0.2.1.dist-info/METADATA,sha256=oYSiNGSI4k3lF-6H9jv5c2ZCk6MszBkwQIq0hVunL8k,3232
+devwrangler-0.2.1.dist-info/RECORD,,
