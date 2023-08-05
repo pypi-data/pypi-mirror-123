@@ -1,0 +1,6 @@
+setup.py
+tanium-delme/__init__.py
+tanium_delme.egg-info/PKG-INFO
+tanium_delme.egg-info/SOURCES.txt
+tanium_delme.egg-info/dependency_links.txt
+tanium_delme.egg-info/top_level.txt
