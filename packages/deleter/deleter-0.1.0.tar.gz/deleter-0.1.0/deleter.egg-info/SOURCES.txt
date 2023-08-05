@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+deleter/__init__.py
+deleter/__main__.py
+deleter/core.py
+deleter/deleters.py
+deleter/util.py
+deleter.egg-info/PKG-INFO
+deleter.egg-info/SOURCES.txt
+deleter.egg-info/dependency_links.txt
+deleter.egg-info/entry_points.txt
+deleter.egg-info/not-zip-safe
+deleter.egg-info/top_level.txt
