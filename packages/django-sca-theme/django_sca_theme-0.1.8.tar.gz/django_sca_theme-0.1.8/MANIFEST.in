@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+include django_theme
+
+prune conf
+exclude Dockerfile manage.py
+exclude Jenkinsfile
+
+global-exclude *.py[cod]
