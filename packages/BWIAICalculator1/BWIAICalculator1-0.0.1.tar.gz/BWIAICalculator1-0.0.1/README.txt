@@ -1,0 +1,1 @@
+This is a basic calculator that adds, subtracts, multiplies or divides three numbers.

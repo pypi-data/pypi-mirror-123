@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: BWIAICalculator1
+Version: 0.0.1
+Summary: A basic calculator
+Home-page: UNKNOWN
+Author: Angle Bush
+Author-email: contact@blackwomeninai.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a basic calculator that adds, subtracts, multiplies or divides three numbers.
+
+Change log
+==========
+
+0.0.1 (10/11/2021)
+--------------------
+-First Release
+

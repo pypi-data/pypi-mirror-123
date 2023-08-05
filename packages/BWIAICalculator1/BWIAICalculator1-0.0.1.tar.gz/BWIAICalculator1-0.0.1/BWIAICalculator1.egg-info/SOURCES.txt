@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+BWIAICalculator1/__init__.py
+BWIAICalculator1.egg-info/PKG-INFO
+BWIAICalculator1.egg-info/SOURCES.txt
+BWIAICalculator1.egg-info/dependency_links.txt
+BWIAICalculator1.egg-info/top_level.txt
