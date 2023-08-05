@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: torchdefenses
+Version: 0.1.1
+Summary: Adversarial Defenses for PyTorch
+Home-page: https://github.com/HarryK24/adversairal-attacks-pytorch
+Author: Harry Kim <24k.harry@gmail.com>
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: torchattacks (==3.2.1)
+
+# Adversarial-Defenses-PyTorch
+*Under Reconstruction*...
+
