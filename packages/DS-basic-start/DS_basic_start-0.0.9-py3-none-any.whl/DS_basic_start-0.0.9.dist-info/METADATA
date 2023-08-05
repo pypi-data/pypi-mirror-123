@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: DS-basic-start
+Version: 0.0.9
+Summary: Start your DS projects with some basic analysis using this package
+Home-page: https://github.com/TengHoo3/DS_start
+Author: TengHoo3
+Author-email: tenghoo3@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TengHoo3/DS_start/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+
+# DS_start
+Package to give you basic info about your dataset (for Data Science)
+
+
