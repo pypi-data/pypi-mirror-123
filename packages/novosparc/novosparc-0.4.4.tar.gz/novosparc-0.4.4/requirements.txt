@@ -1,0 +1,9 @@
+POT>=0.7.0
+numpy
+anndata>=0.7.5
+matplotlib>=3.3.2
+scipy
+pandas
+recommonmark
+scanpy>=1.6.0
+scikit_learn
