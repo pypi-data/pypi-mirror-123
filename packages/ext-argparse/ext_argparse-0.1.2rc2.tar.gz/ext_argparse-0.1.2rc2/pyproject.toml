@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+	"setuptools>=42",
+	"wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests/subroutine_tests.py",
+    "tests/parameter_tests.py",
+    "tests/enum_parameter_tests.py",
+    "tests/nested_parameter_tests.py",
+    "tests/config_io_tests.py"
+]
