@@ -1,0 +1,7 @@
+README.rst
+setup.py
+pl-lib-mercury/__init__.py
+pl_lib_mercury.egg-info/PKG-INFO
+pl_lib_mercury.egg-info/SOURCES.txt
+pl_lib_mercury.egg-info/dependency_links.txt
+pl_lib_mercury.egg-info/top_level.txt
