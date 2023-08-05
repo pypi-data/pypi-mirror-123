@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: koaeda
+Version: 0.0.0.3
+Summary: Using Korean Language A Easier Data Augmentation
+Home-page: https://github.com/Kangsukmin/KoAEDA
+Author: decyma
+Author-email: soos3121@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# KoAEDA
+
+Using Korean Language AEDA Easily
+
+- TQDM 넣기
+- Mecab으로만 동작하게 하기
+- konlpy 설치법 넣기
+- 제외 단어 추가 기능
+
+
