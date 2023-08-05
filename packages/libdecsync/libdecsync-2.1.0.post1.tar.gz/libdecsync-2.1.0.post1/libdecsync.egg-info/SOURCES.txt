@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+libdecsync/__init__.py
+libdecsync.egg-info/PKG-INFO
+libdecsync.egg-info/SOURCES.txt
+libdecsync.egg-info/dependency_links.txt
+libdecsync.egg-info/top_level.txt
+libdecsync/libs/decsync_x64.dll
+libdecsync/libs/decsync_x86.dll
+libdecsync/libs/libdecsync_amd64.dylib
+libdecsync/libs/libdecsync_amd64.so
+libdecsync/libs/libdecsync_arm32.so
+libdecsync/libs/libdecsync_arm64.dylib
+libdecsync/libs/libdecsync_arm64.so
