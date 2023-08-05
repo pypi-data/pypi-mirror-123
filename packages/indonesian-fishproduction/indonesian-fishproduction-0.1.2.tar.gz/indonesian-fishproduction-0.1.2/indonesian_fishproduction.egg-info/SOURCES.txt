@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+indonesian_fishproduction.egg-info/PKG-INFO
+indonesian_fishproduction.egg-info/SOURCES.txt
+indonesian_fishproduction.egg-info/dependency_links.txt
+indonesian_fishproduction.egg-info/top_level.txt
+produksiikan/__init__.py
