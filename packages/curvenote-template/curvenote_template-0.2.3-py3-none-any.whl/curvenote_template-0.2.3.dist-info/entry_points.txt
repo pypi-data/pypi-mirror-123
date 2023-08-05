@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        curvenote_template=curvenote_template.__main__:main
+    
