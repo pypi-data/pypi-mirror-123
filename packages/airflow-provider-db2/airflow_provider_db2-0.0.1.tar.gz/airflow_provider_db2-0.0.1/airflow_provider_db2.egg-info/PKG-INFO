@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: airflow-provider-db2
+Version: 0.0.1
+Summary: A provider package built by AIOPS IBM team
+Home-page: UNKNOWN
+Author: Fernanda Milagres
+Author-email: fernandamilagres@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# airflow-provider-db2
+Creates a custom connection type to use ibm_db library that permits security mechanism 
+
+
