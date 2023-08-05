@@ -1,0 +1,10 @@
+netbox_plugin_azuread/VERSION,sha256=FXXhr0qV8S9wtO5qatzoFglT2T6hfcJhG5CIPMw607g,6
+netbox_plugin_azuread/__init__.py,sha256=X4H7rPgJ2c3M1lRNonfg67Bx3nxmMFzI1fhNsEx47Nw,642
+netbox_plugin_azuread/backends.py,sha256=p7WkD7Ug00grJ_CKH4QYvMc2B28tcARQ2CqVxQi5neE,6019
+netbox_plugin_azuread/urls.py,sha256=H6GvFNBnVB30T47Bfzny1MmsDyqlspZJpDzjQ4xtm14,188
+netbox_plugin_azuread/views.py,sha256=tdmbGrSSoXd9BZFuv6h4vS7OPFE4gJAEGmMI-T6AsnM,2870
+netbox_plugin_azuread/templates/azure/login.html,sha256=rksvsdsYEY7NAlYAMyWbFwErXV1lIMXkFE9x6VdyyCw,1661
+netbox_plugin_azuread-1.1.0.dist-info/METADATA,sha256=l2FivAfqTsN8fhiI-w7Nk1WkJrBIvbbUFxZOPmIGU1U,6898
+netbox_plugin_azuread-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+netbox_plugin_azuread-1.1.0.dist-info/top_level.txt,sha256=3jQTKdkPX4dzfPoMxkUBy_JwQefi_aTTr4oz1muZ-08,22
+netbox_plugin_azuread-1.1.0.dist-info/RECORD,,
