@@ -1,0 +1,114 @@
+#title {
+    font-family: Times;
+    font-size: 20px;
+    font-weight: 800;
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-500;
+}
+#menu-bar {
+    background-color: $primary-500;
+}
+#function-menu {
+    color: $primary-900;
+    text-align: center;
+}
+#subtitle {
+    font-family: Times;
+    font-size: 16px;
+    font-weight: 600;
+}
+#heading {
+    font-family: Times;
+    font-size: 14px;
+    font-weight: 600;
+}
+#input-label {
+    color: $primary-900;
+    font-size: 10px;
+    font-style: italic;
+}
+#label {
+    color: $primary-900;
+    font-size: 14px;
+    font-weight: 600;
+}
+#text {
+    font-family: Times;
+    font-size: 12px;
+    font-weight: 500;
+}
+#error {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#root {
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-800;
+}
+#child {
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-700;
+}
+#grand-child {
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-600;
+}
+#great-grand-child {
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-500;
+}
+#great-great-grand-child {
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-400;
+}
+QLineEdit#line-edit {
+    background-color: $primary-200;
+}
+QPushButton#button {
+    padding: 2px;
+    border-style: outset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-400;
+}
+QPushButton#button:hover {
+    border-style: outset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-100;
+}
+QPushButton#button:pressed {
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: $primary-900;
+    background-color: $primary-700;
+}
+#debug {
+    border-style: inset;
+    border-color: $warn-800;
+    border-radius: 1px;
+    border-width: 5px;
+}
