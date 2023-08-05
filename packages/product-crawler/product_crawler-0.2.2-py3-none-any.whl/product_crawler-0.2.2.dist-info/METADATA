@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: product-crawler
+Version: 0.2.2
+Summary: 
+Author: Terje Lafton
+Author-email: terje@lafton.io
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: dominate (>=2.6.0,<3.0.0)
+Requires-Dist: httpx (>=0.19.0,<0.20.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Product Crawler
+
+A tool for crawling through all Oda's categories and scrape metadata from all products.

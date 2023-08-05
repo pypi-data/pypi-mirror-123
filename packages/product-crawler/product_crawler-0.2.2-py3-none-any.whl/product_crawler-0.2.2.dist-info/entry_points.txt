@@ -1,0 +1,3 @@
+[console_scripts]
+product-crawler=product_crawler.main:app
+
