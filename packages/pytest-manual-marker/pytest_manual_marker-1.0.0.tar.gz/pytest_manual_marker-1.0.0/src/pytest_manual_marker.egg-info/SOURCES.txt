@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/pre-commit.yml
+.github/workflows/pythonapp.yml
+src/pytest_manual_marker/__init__.py
+src/pytest_manual_marker.egg-info/PKG-INFO
+src/pytest_manual_marker.egg-info/SOURCES.txt
+src/pytest_manual_marker.egg-info/dependency_links.txt
+src/pytest_manual_marker.egg-info/entry_points.txt
+src/pytest_manual_marker.egg-info/requires.txt
+src/pytest_manual_marker.egg-info/top_level.txt
+testing/conftest.py
+testing/test_manual.py
