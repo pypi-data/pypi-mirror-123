@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pysshm
+Version: 0.3.3
+Summary: SSM shell client, the python way
+Home-page: https://github.com/pygillier/pysshm
+License: MIT
+Author: Pierre-Yves Gillier
+Author-email: github@pygillier.me
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Shells
+Requires-Dist: boto3 (>=1.18.58,<2.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: pick (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/pygillier/pysshm
+Description-Content-Type: text/markdown
+
+# pysshm
+
+Connect to a SSM session directly in your favorite terminal.
+
+## Install
+
+In your terminal, run:
+
+```bash
+$ pip install pysshm
+```
+
+In order to fully use pysshm, you **MUST** install the [session-manager-plugin](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html) from AWS.
+
+## Usage
+
+```bash
+$ pysshm --help
+Usage: pysshm [OPTIONS]
+
+  Connect to an EC2 instance over SSM, all in your favorite shell.
+
+Options:
+  -p, --profile TEXT      AWS profile
+  -r, --region TEXT       AWS region (default: eu-west-3)
+  -i, --instance-id TEXT  Instance ID for direct connect
+  -d, --debug             Enable debug
+  --help                  Show this message and exit.
+```
+

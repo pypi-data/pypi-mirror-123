@@ -1,0 +1,3 @@
+[console_scripts]
+pysshm=pysshm.cli:run
+
