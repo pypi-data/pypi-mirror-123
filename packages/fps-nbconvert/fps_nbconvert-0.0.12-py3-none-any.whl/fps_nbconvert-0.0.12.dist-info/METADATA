@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fps-nbconvert
+Version: 0.0.12
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fps (>=0.0.8)
+Requires-Dist: fps-auth
+Requires-Dist: nbconvert
+
+UNKNOWN
+
