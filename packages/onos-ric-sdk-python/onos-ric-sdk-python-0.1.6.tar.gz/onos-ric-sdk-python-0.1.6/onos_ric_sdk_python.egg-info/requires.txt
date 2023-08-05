@@ -1,0 +1,5 @@
+aiohttp-swagger<2.0,>=1.0.9
+aiohttp<4.0,>=3.5.4
+betterproto<3.0,>=2.0.0b3
+onos-api>=0.7.49
+prometheus-async==19.2.0
