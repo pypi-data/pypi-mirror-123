@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/DS_basic_start.egg-info/PKG-INFO
+src/DS_basic_start.egg-info/SOURCES.txt
+src/DS_basic_start.egg-info/dependency_links.txt
+src/DS_basic_start.egg-info/requires.txt
+src/DS_basic_start.egg-info/top_level.txt
+src/DS_start/__init__.py
+src/DS_start/basic_EDA.py
