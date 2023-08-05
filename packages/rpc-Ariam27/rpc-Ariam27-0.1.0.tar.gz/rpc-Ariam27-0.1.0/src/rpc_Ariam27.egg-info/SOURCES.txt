@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/rpc/__init__.py
+src/rpc/client.py
+src/rpc/server.py
+src/rpc_Ariam27.egg-info/PKG-INFO
+src/rpc_Ariam27.egg-info/SOURCES.txt
+src/rpc_Ariam27.egg-info/dependency_links.txt
+src/rpc_Ariam27.egg-info/top_level.txt
