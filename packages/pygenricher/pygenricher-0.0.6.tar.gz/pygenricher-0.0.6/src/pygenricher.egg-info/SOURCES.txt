@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pygenricher/GeneEnrichment.py
+src/pygenricher/__init__.py
+src/pygenricher.egg-info/PKG-INFO
+src/pygenricher.egg-info/SOURCES.txt
+src/pygenricher.egg-info/dependency_links.txt
+src/pygenricher.egg-info/entry_points.txt
+src/pygenricher.egg-info/requires.txt
+src/pygenricher.egg-info/top_level.txt
