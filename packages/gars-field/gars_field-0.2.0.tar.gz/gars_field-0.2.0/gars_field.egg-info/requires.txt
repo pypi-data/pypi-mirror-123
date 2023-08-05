@@ -1,0 +1,8 @@
+pyproj>=3.0.0
+shapely
+
+[all]
+pytest-cov
+
+[dev]
+pytest-cov
