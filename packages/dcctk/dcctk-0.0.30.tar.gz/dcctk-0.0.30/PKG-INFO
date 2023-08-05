@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dcctk
+Version: 0.0.30
+Summary: Diachronic Character-based Corpus toolkit
+Home-page: http://github.com/liao961120/dcctk
+Author: Yongfu Liao
+Author-email: liao961120@github.com
+License: MIT
+Description: # Diachronic Character-based Corpus Toolkit
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: sense
+Provides-Extra: all
+Provides-Extra: colab
