@@ -1,0 +1,1 @@
+from numpyplus.module import cos
