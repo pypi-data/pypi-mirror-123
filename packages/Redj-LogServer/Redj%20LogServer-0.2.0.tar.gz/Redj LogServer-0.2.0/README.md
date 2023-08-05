@@ -1,0 +1,157 @@
+# Redj Log Server
+
+## Getting Started
+
+>in `setting.py`:
+
+```
+DEBUG = False
+```
+
+>add code to project(for example add to `url.py`):
+
+```
+import redjlog
+
+redjlog.init(
+    debug=True,
+    response_type='json',
+    api_key='YOUR_API_KEY',
+    server_url='YOUR_SERVER_URL',
+    project_key='YOUR_PROJECT_ID',
+)
+```
+
+>`response_type` is `json` or `url` , if set `url` you must set `response_url` like `response_url='/error_page'`
+
+## change Exception response:
+
+```
+redjlog.init(
+    ...
+    status_key = "your_status_key",
+    message_key = "your_message_key"
+)
+```
+
+
+## Usage
+
+### 1- Log Request
+
+>in file `settings.py` :
+
+```
+MIDDLEWARE = [
+    ...
+    'redjlog.middleware.RequestLog.Base'
+]
+```
+
+### 2- Log Exception
+
+>in file `settings.py` :
+
+```
+MIDDLEWARE = [
+    'redjlog.exception.ExceptionHandler.Base',
+    ...
+]
+```
+
+>in `url.py`:
+
+```
+from django.conf.urls import handler400, handler403, handler404, handler500
+
+handler400 = 'redjlog.exception.HttpException.handler400'
+handler403 = 'redjlog.exception.HttpException.handler403'
+handler404 = 'redjlog.exception.HttpException.handler404'
+handler500 = 'redjlog.exception.HttpException.handler500'
+```
+
+>in try/except:
+
+```
+import redjlog
+
+try:
+    int('test')
+except Exception as ex:
+    redjlog.catch(ex)
+```
+
+### 3- Log Exception Knox
+
+>if install django-rest-knox
+
+>in file `settings.py` :
+
+```
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'redjlog.exception.KnoxException.Authentication',
+    ]
+}
+```
+
+## Exception Handling
+
+>Redj Logserver uses exceptions for flow control. Meaning, instead of writing too many conditionals, we prefer raising exceptions and then handle them to return an appropriate response. For example:
+
+```
+import redjlog
+
+if not request.user.is_authenticated:
+    raise redjlog.AuthException()
+```
+
+OR
+
+```
+import redjlog
+
+if(!serializer.is_valid()):
+    raise redjlog.ValidatorException()
+```
+
+List of Exception
+
+```
+PayException
+DateException
+AuthException
+OtherException
+UploadException
+BlockIpException
+NotFoundException
+ValidatorException
+DuplicateException
+PermissionException
+```
+
+for send custom massage user `OtherException`:
+
+```
+raise OtherException('custom massage for send')
+```
+
+You can change the exception message
+
+exceptionMessage input is optional
+
+```
+import redjlog
+
+redjlog.exceptionMessage(
+    auth_massage='Your Massage',
+    date_massage='Your Massage',
+    block_massage='Your Massage',
+    other_massage='Your Massage',
+    upload_massage='Your Massage',
+    duplicate_massage='Your Massage',
+    validator_massage='Your Massage',
+    not_found_massage='Your Massage',
+    permission_massage='Your Massage'
+)
+```
