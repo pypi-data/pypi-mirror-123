@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CASTEP-dispersion
+Version: 1.0.15
+Summary: CASTEP utility for plotting band structures and phonon dispersions.
+Home-page: https://github.com/zachary-hawk/dispersion.py.git
+Author: Zachary Hawkhead
+Author-email: zachary.hawkhead@durham.ac.uk
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: ase (>=3.18.1)
+Requires-Dist: argparse
+
+UNKNOWN
+
