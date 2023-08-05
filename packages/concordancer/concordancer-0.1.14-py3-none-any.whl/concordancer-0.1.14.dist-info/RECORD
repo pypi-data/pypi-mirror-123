@@ -1,0 +1,11 @@
+concordancer/__init__.py,sha256=4lQvm2o2mdEnwskoXCr6GB1rjFUmHcPkCgAYmEIYs_A,179
+concordancer/concordancer.py,sha256=8Goh-_dPbjp2xqxMdbPxkFHilhr8xPJW9NhQJBH9eec,12793
+concordancer/demo.py,sha256=eelUuT9n3JtlaHTKFP9rM8Xpz0akrugk4Fyz3_fe4FY,1014
+concordancer/indexedCorpus.py,sha256=rP1RgR529QLqH9DmpRsaT_7zj1p-XuBhBjyZ9rFp2WA,3748
+concordancer/kwic_print.py,sha256=Hi77gGUI-C8azO5C7_Ri6XlDV4q8ty18cLHjQY-wp_w,3299
+concordancer/server.py,sha256=f-dXffXrQJmJlbyc8UFCG6YaYuxxLni2Zs3wUi8VsQM,7018
+concordancer/utils.py,sha256=tvSXrCZmDa3nsHbA-eGeOyOdmTsLc0uvIGtytqS_4Ug,2851
+concordancer-0.1.14.dist-info/METADATA,sha256=tYFZhXzOEwDHa8Mm6o7SzwE8t9XYhS543FUX0Ih6Jlc,6107
+concordancer-0.1.14.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+concordancer-0.1.14.dist-info/top_level.txt,sha256=0iEQ6T0M75J2c8V0CiEsWku_PvTrvAYxXhFIC8TiDqY,13
+concordancer-0.1.14.dist-info/RECORD,,
