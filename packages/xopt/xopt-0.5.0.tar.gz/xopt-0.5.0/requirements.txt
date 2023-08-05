@@ -1,0 +1,9 @@
+deap
+numpy
+pyyaml
+torch
+botorch
+gpytorch
+pandas
+ipywidgets
+tqdm
