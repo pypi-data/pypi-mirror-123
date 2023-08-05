@@ -1,0 +1,6 @@
+# Automatically generated configuration for PyQt6.QtDataVisualization.
+
+sip-version = "6.2.1.dev2110011250"
+sip-abi-version = "13.1"
+module-tags = ["QtDataVisualization_6_2_0", "Qt_6_2_0", "macOS"]
+module-disabled-features = ["PyQt_OpenGL_ES2"]
