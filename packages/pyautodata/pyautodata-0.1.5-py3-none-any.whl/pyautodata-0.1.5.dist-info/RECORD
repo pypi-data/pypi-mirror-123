@@ -1,0 +1,16 @@
+pyautodata/__init__.py,sha256=c5pIk9uZ1YR0fOxGL6lo1GuI-9MSwid99kJaNc1GCng,188
+pyautodata/alias.py,sha256=zS64Ag3t1W2OwrC0YOFZsNy_HlqucuEkx6cCGe-n4l4,467
+pyautodata/attributes.py,sha256=U4v1H_vbl3iOJt-HCEMHdB448XNfP6RlVxNG6x0ONxY,543
+pyautodata/autodata.py,sha256=74VkyYlCzBeqOfwiKyPH9rr9twwKggkOVyCL2HB1mlQ,2069
+pyautodata/base.py,sha256=8Knx1IyxFv2D-4KcPkmBanh_SIeXN8ABsWr3E74-jlE,119
+pyautodata/builtins.py,sha256=qaG09AICpsOze8bgVeCVYfWAB29AEPL1o0IGJPdXkGY,522
+pyautodata/dataframe.py,sha256=tgv05JXxNTsh31pBBVexxu67GUpGevhveQnB1nv7tec,1829
+pyautodata/dates.py,sha256=EhoJVjSwPgiBanXa77oYTV-CkKGc1XlCll4RoS94Yhk,901
+pyautodata/fakes.py,sha256=wDoqw7CLN3IwLT7N-7BsD3qfoWVi2fwEuI-SW7kH2Lw,769
+pyautodata/generator.py,sha256=5O6YgiRotK0icg8ZiGxNRcTnQwvcKz7HCVJxw1PTZHM,3020
+pyautodata-0.1.5.dist-info/LICENSE,sha256=VgjJWulX6gjHBQFRGG-MGGKYdqXQzIUtr3_n-sfzjzM,1078
+pyautodata-0.1.5.dist-info/METADATA,sha256=T5qDiV4RKVsWjo2UxJlfSL79Orajn_zH_tQtzssjCEc,10545
+pyautodata-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyautodata-0.1.5.dist-info/entry_points.txt,sha256=0qm5K5QMkmKN-9lIt8IfOOYzKkWYkwlNb2b9Ee-uq-c,54
+pyautodata-0.1.5.dist-info/top_level.txt,sha256=sBVTcQbyTVmQqi49DVCdpK7kAjOBs3zxc6vxerwUAvU,11
+pyautodata-0.1.5.dist-info/RECORD,,
