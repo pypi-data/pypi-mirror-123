@@ -1,0 +1,4 @@
+jaydebeapi
+psutil
+pyyaml
+xtable
