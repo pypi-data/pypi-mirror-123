@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: opax
+Version: 0.2.1
+Summary: A stateful optimizer library for Jax
+Home-page: https://github.com/ntt123/opax
+Author: Thông Nguyễn
+License: UNKNOWN
+Keywords: deep-learning,jax,pax,optimizer,adam,sgd
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: pax3 (>=0.4.0rc2)
+Provides-Extra: test
+
+UNKNOWN
+
