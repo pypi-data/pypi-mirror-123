@@ -1,0 +1,6 @@
+README.md
+setup.py
+package/package_ojjy90.egg-info/PKG-INFO
+package/package_ojjy90.egg-info/SOURCES.txt
+package/package_ojjy90.egg-info/dependency_links.txt
+package/package_ojjy90.egg-info/top_level.txt
