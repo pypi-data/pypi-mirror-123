@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+spiderlab/__init__.py
+spiderlab/main.py
+spiderlab.egg-info/PKG-INFO
+spiderlab.egg-info/SOURCES.txt
+spiderlab.egg-info/dependency_links.txt
+spiderlab.egg-info/top_level.txt
