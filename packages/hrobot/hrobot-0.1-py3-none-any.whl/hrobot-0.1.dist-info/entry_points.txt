@@ -1,0 +1,3 @@
+[console_scripts]
+hrobot = hrobot.hcmd:main
+
