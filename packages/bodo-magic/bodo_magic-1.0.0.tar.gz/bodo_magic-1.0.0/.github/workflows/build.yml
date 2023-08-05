@@ -1,0 +1,68 @@
+name: Build
+
+on:
+  push:
+    branches: 
+      - master
+  
+  pull_request:
+    branches:
+      - master
+
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    - name: Install Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.9'
+        architecture: 'x64'
+    
+    - name: Install dependencies
+      run: |
+        set -exo pipefail
+        python -m pip install build
+        python -m pip install --user --upgrade twine
+    
+    - name: Test install
+      run: |
+        set -exo pipefail
+        pip install .
+
+    - name: Build the extension
+      run: |
+        set -exo pipefail
+        python -m build
+    
+    - name: Publish package to PyPi-Test (if master)
+      if: github.ref == 'refs/heads/master'
+      env:
+        PYPI_USERNAME: "__token__"
+        PYPI_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
+      run: |
+        set -exo pipefail
+        python -m twine upload --repository testpypi --non-interactive --username "$PYPI_USERNAME" --password "$PYPI_PASSWORD" dist/*
+    
+    - name: Publish package to PyPi (if release)
+      if: github.event_name == 'release'
+      env:
+        PYPI_USERNAME: "__token__"
+        PYPI_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+      run: |
+        set -exo pipefail
+        python -m twine upload --non-interactive --username "$PYPI_USERNAME" --password "$PYPI_PASSWORD" dist/*
+
+    - name: Archive Package
+      uses: actions/upload-artifact@v2
+      with:
+        name: bodo-magic
+        path: dist

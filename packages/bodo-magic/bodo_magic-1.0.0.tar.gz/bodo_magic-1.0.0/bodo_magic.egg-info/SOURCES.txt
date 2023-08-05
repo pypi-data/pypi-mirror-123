@@ -1,0 +1,17 @@
+.gitattributes
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+.github/workflows/build.yml
+bodo_magic/__init__.py
+bodo_magic/_version.py
+bodo_magic/utils.py
+bodo_magic.egg-info/PKG-INFO
+bodo_magic.egg-info/SOURCES.txt
+bodo_magic.egg-info/dependency_links.txt
+bodo_magic.egg-info/requires.txt
+bodo_magic.egg-info/top_level.txt
