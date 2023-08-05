@@ -1,0 +1,5 @@
+pyobjc-core<8.0,>=7.3
+pyobjc-framework-Cocoa<8.0,>=7.3
+pyobjc-framework-AppleScriptKit<8.0,>=7.3
+pyobjc-framework-AppleScriptObjC<8.0,>=7.3
+py-applescript==1.0.2
