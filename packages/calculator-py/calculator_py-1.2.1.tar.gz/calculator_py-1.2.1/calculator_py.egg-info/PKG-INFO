@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: calculator-py
+Version: 1.2.1
+Summary: This package is a simple calculator
+Home-page: https://github.com/Kev-in123/calculator-py
+Author: Kev-in123
+Author-email: kevinchoi005@gmail.com
+License: UNKNOWN
+Project-URL: Issue tracker, https://github.com/Kev-in123/calculator-py/issues
+Description: # Calculator.py
+        
+        This package is a simple calculator.
+        
+        ## Installation
+        
+        Stable version:
+        
+        ```
+        pip install calculator_py
+        ```
+        
+        Development version:
+        
+        ```
+        pip install git+https://github.com/Kev-in123/calculator-py
+        ```
+        
+        ## Example Usage
+        
+        ```python
+        from calculator_py import Calc
+        
+        c = Calc(5, 6)
+        print(c.add())
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
