@@ -1,0 +1,13 @@
+UGrid-0.4.0.data/purelib/ugrid/UGridApi.dll,sha256=gnzr5HAyI7OrYjyP3RxnThQ_maDFXdBD2RUWu02nc0M,1658368
+UGrid-0.4.0.data/purelib/ugrid/__init__.py,sha256=iIiRVbzByCd4UqADwHQkpJAtQwdebNAe4oVTg7QtHJ8,282
+UGrid-0.4.0.data/purelib/ugrid/c_structures.py,sha256=QV21Y0YPO-HBV_cahvIzcrOO2bn68Z76a6gJH9vbkgQ,29788
+UGrid-0.4.0.data/purelib/ugrid/errors.py,sha256=5vjfDg5_MSr4bn2OSqlxdpMlKnZS8RRa1gge5tY-CIs,266
+UGrid-0.4.0.data/purelib/ugrid/py_structures.py,sha256=4ls3TIVdU1SPYKwrlc8SGxwHN9t93EttAwhP2BZ5bA8,9407
+UGrid-0.4.0.data/purelib/ugrid/ugrid.py,sha256=bxf0kOwSO744s6-0XYyZaD7JUpJGID-hZwohKAHtf5M,36613
+UGrid-0.4.0.data/purelib/ugrid/utils.py,sha256=jeaEq1L2o1_gJUtT9O_1tgZIIShUF2H42jr_RDXgaIo,82
+UGrid-0.4.0.data/purelib/ugrid/version.py,sha256=Vx47i8QNeXJNuUzstqWuU6eCWE5xtaY0kgN-Gm_d_gE,23
+UGrid-0.4.0.dist-info/LICENSE,sha256=lMA1O5mkI54RB9ZfouO6Hg41Y_-LDKFckjPf5Cl-bME,1086
+UGrid-0.4.0.dist-info/METADATA,sha256=FSIYKDeP9aMdRqX40W0ri-I69PLQrqmo7FfKYlnfwMY,2035
+UGrid-0.4.0.dist-info/WHEEL,sha256=7j5KnvZx7iXyUVyZ-9vLjWs2ne94AvsHS18_YLLWbeE,99
+UGrid-0.4.0.dist-info/top_level.txt,sha256=jJPDX765tTGy-jyV1YmTIfm8Wtj8ga_Y47dR46PrqzU,6
+UGrid-0.4.0.dist-info/RECORD,,
