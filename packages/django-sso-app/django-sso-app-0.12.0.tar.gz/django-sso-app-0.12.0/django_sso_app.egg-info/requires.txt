@@ -1,0 +1,11 @@
+django<3.0
+django-environ==0.7.0
+django-allauth==0.45.0
+django-countries==7.2.1
+django-treebeard==4.5.1
+djangorestframework==3.11.2
+Pillow==7.1.1
+django-filter==2.4.0
+pyjwt==1.7.1
+Jinja2==3.0.2
+celery==4.4.2
