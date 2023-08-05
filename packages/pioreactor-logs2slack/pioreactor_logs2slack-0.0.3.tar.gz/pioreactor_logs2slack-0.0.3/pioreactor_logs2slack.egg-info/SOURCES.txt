@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pioreactor_logs2slack/__init__.py
+pioreactor_logs2slack/additional_config.ini
+pioreactor_logs2slack.egg-info/PKG-INFO
+pioreactor_logs2slack.egg-info/SOURCES.txt
+pioreactor_logs2slack.egg-info/dependency_links.txt
+pioreactor_logs2slack.egg-info/entry_points.txt
+pioreactor_logs2slack.egg-info/top_level.txt
+pioreactor_logs2slack/ui/contrib/jobs/logs2slack.yaml
