@@ -1,0 +1,4 @@
+[console_scripts]
+imasprov = fusionprov.imasprov:main
+mastprov = fusionprov.mastprov:main
+
