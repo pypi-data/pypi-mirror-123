@@ -1,0 +1,8 @@
+{
+  "_copy_without_render": [
+    "{{cookiecutter.project_slug}}/services/caddy/ingress.yaml"
+  ],
+  "domain_name": "datagrep.local",
+  "project_name": "datagrep",
+  "project_slug": "com.datagrep"
+}

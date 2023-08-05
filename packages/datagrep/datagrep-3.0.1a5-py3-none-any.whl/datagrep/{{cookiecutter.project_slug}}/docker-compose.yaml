@@ -1,0 +1,21 @@
+---
+networks:
+  private:
+    name: private
+  public:
+    name: public
+services:
+  caddy:
+    build: services/caddy
+    container_name: caddy
+    env_file: .env
+    networks:
+      - public
+      - private
+    volumes:
+      - caddy_conf:/config
+      - caddy_data:/data
+version: '3.7'
+volumes:
+  caddy_conf: null
+  caddy_data: null
