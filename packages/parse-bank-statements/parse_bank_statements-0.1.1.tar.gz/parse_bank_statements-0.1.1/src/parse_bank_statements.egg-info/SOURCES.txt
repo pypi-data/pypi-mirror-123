@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/parse_bank_statements/__init__.py
+src/parse_bank_statements/bank_path.py
+src/parse_bank_statements/parse_bank_statements.py
+src/parse_bank_statements/pbs_style.py
+src/parse_bank_statements/pdf2csv.py
+src/parse_bank_statements.egg-info/PKG-INFO
+src/parse_bank_statements.egg-info/SOURCES.txt
+src/parse_bank_statements.egg-info/dependency_links.txt
+src/parse_bank_statements.egg-info/requires.txt
+src/parse_bank_statements.egg-info/top_level.txt
