@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: etcd-distro
+Version: 3.5.0
+Summary: Python distribution for etcd, a key-value store, to make the installation easier on various platforms
+Home-page: https://github.com/sighingnow/etcd-distro
+Author: The etcd Authors
+Author-email: sighingnow@gmail.com
+License: Apache License 2.0
+Project-URL: Source, https://github.com/sighingnow/etcd-distro
+Project-URL: Tracker, https://github.com/sighingnow/etcd-distro/issues
+Keywords: etcd Python distribution
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+etcd-distro
+-----------
+
+etcd-distro is a [etcd][1] Python distribution to make it can be easier
+installed on various platforms only with `pip` command,
+
+```bash
+pip install etcd-distro
+```
+
+etcd-distro is inspired by the [CMake Python distribution][2] project.
+
+License
+-------
+
+The etcd-distro package use the same license as etcd, i.e., Apache 2.0 license.
+
+[1]: https://etcd.io/
+[2]: https://github.com/scikit-build/cmake-python-distributions
+
+
