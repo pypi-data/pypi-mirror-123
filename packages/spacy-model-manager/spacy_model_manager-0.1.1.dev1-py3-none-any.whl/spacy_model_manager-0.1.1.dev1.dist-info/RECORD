@@ -1,0 +1,11 @@
+spacy_model_manager/__init__.py,sha256=w5xpWEah6k0e01ZINsMraUfRMBaa_yuFZe4J0wLsLxg,89
+spacy_model_manager/cli.py,sha256=KmTYsHNg5loR655Nmcfs9-ygadnquri56ii9yGgoKNA,2170
+spacy_model_manager/lib.py,sha256=24FOopo3ETGZmjT77TjiQwvTHWIaVwblxfom1pewNMw,6720
+spacy_model_manager-0.1.1.dev1.dist-info/AUTHORS,sha256=UMKi8OYMqS7j190xz2lA5HzlRdaMJPO79-KgZZ6pTJ0,84
+spacy_model_manager-0.1.1.dev1.dist-info/LICENSE,sha256=Uz87ghYQ5BEc_d0SNYGCKDGhg33neDnlmQKxFyn-_Qs,1065
+spacy_model_manager-0.1.1.dev1.dist-info/METADATA,sha256=0FdoRScybz7Pa7WM186bsskzpIErskzA5LDkMCA_S-I,4480
+spacy_model_manager-0.1.1.dev1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+spacy_model_manager-0.1.1.dev1.dist-info/entry_points.txt,sha256=MvSTplRKVh-n2f4J3W-llBvXs6BoX9vlOLf-e4EDSu0,69
+spacy_model_manager-0.1.1.dev1.dist-info/pbr.json,sha256=2fUFNQPkm2vjAHaP7bJbNBnHPhMMWcfITwzxhMBxOGk,47
+spacy_model_manager-0.1.1.dev1.dist-info/top_level.txt,sha256=Q2TG8AFquUUEx80s0J8lLziSDBdRj1-0St9HSymAhc8,20
+spacy_model_manager-0.1.1.dev1.dist-info/RECORD,,
