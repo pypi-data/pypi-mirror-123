@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mngs
+Version: 0.0.28
+Summary: For lazy python users (monogusa people in Japanse), especially in ML/DSP fields
+Home-page: https://github.com/ywatanabe1989/mngs
+Author: ywatanabe1989
+Author-email: ywata1989@gmail.com
+License: GPL3.0
+Keywords: utils,utilities,python,machine learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.0
+Requires-Dist: GitPython
+Requires-Dist: PyYAML
+Requires-Dist: chardet
+Requires-Dist: h5py
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pymatreader
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: torch
+Requires-Dist: xmltodict
+
+UNKNOWN
+
+
