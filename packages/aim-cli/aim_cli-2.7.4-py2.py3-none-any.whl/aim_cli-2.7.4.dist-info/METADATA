@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: aim-cli
+Version: 2.7.4
+Summary: A super-easy way to record, search and compare AI experiments.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5.0
+Requires-Dist: click (>=6.7)
+Requires-Dist: anytree (>=2.8.0)
+Requires-Dist: pyrser (>=0.2.0)
+Requires-Dist: GitPython (>=3.0.4)
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: psutil (>=5.6.7)
+Requires-Dist: py3nvml (>=0.2.5)
+Requires-Dist: docker (>=4.1.0)
+Requires-Dist: aimrecords (==0.0.7)
+Requires-Dist: protobuf (>=3.11.0)
+Requires-Dist: alembic (==1.6.0)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: Flask-Migrate (==2.7.0)
+Requires-Dist: Flask-RESTful (==0.3.8)
+Requires-Dist: Flask-Script (==2.0.6)
+Requires-Dist: Flask-SQLAlchemy (==2.5.1)
+Requires-Dist: SQLAlchemy (==1.4.13)
+Requires-Dist: pysqlite3
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: tensorboard (==2.3.0)
+Requires-Dist: gunicorn (==20.1.0)
+
+A super-easy way to record, search and compare AI experiments.
+
+
