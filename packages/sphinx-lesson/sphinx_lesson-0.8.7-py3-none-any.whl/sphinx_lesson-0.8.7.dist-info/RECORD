@@ -1,0 +1,10 @@
+sphinx_lesson/__init__.py,sha256=LwPDh352WoUN-yHUuplBRhKEuaW-qWDm4WvnBgwCs2A,518
+sphinx_lesson/_version.py,sha256=JGCf_Ym2Ht0sZ3u8dNB1-xTLbDj-N0D-i99vGQQMfWs,22
+sphinx_lesson/directives.py,sha256=HUUb_XV4HYJNmayqabfkMulKClmFg2ul3SMH_jy1vs8,5878
+sphinx_lesson/md_transforms.py,sha256=YSXBHBxYtljQsGgA5OTMkULAptOPAvJSgrOA-0g18Qg,4898
+sphinx_lesson/_static/sphinx_lesson.css,sha256=RiYLmuHxWiFVhcfMj1IP7uKHZfWJBgbjGwrXMmZ0HZg,1408
+sphinx_lesson-0.8.7.dist-info/LICENSE,sha256=YPB113fY1lnl5xUrSUFOOyFIu7vWcrG9lsusxEI51kQ,1074
+sphinx_lesson-0.8.7.dist-info/METADATA,sha256=_Bsw1GKDaUi1ReYDV7dij5kAQOgRjFBkYji4kDF-yFk,3048
+sphinx_lesson-0.8.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sphinx_lesson-0.8.7.dist-info/top_level.txt,sha256=HXRxWtQrIuMKMA2uIAXjsrStLh5Dhc3anlF4IxOKybI,14
+sphinx_lesson-0.8.7.dist-info/RECORD,,
