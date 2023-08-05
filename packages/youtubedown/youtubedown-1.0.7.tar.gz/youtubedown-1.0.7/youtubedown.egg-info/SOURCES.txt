@@ -1,0 +1,10 @@
+README.md
+setup.py
+youtubedown/__init__.py
+youtubedown/downloader.py
+youtubedown/module1.py
+youtubedown.egg-info/PKG-INFO
+youtubedown.egg-info/SOURCES.txt
+youtubedown.egg-info/dependency_links.txt
+youtubedown.egg-info/requires.txt
+youtubedown.egg-info/top_level.txt
