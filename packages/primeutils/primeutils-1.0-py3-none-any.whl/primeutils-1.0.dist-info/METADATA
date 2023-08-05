@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: primeutils
+Version: 1.0
+Summary: A tool to find prime numbers.
+Home-page: UNKNOWN
+Author: Daniel Oliva
+Author-email: daniolivasek10@gmail.com
+License: GNU GPLv3
+Keywords: pyoperaciones mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+Prime Utils
+==============
+
+Este es un ejemplo simple de un paquete Python. 
+Este paquete contiene una funciÃ³n que devuelve una lista de nÃºmeros primos desde el 2 hasta un nÃºmero dado.
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
