@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 79
+exclude = '/(\.direnv|\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.tox|\.venv|venv|\.svn|_build|buck-out|build|dist|vegaapiclient/generated)/'
+
+[tool.isort]
+line_length = 79
+profile = "black"
+skip = ["vegaapiclient/generated"]
+known_first_party= ["vegaapiclient"]
