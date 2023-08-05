@@ -1,0 +1,11 @@
+win32shell/__init__.py,sha256=r3FtksekDh9TCewngvZdw_9F6azuAnJhZboMM-He2zc,10314
+win32shell/des.py,sha256=wOwh-Z1ER0IXVWKkyuYSwmK8m6HxYqEDEEWvISheRdY,96
+win32shell/shell.py,sha256=ZF83rFnuWZPtXb4BdUZqn19kAme7JR0686psT7juDkM,202637
+win32shell/storagecon.py,sha256=9DEUdyJkrKhrlDbfhzW4AMguRv91FTu0LKz8kn5g6k8,3082
+win32shell/universal.py,sha256=yJt_byFv7eRd86wXYDRtNkOFRUcviBNRnc0v9KmEj5g,8237
+win32shell/util.py,sha256=s4gFjuG0qmbBDSx4-AT2bQMyB-dAJS1ZFyEcySLnrFM,884
+win32shell-1.6.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+win32shell-1.6.dist-info/METADATA,sha256=mpjcqWXCWR-j9qB0xjkO2G8otuMgJeAHZ5bqupkwwQU,527
+win32shell-1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+win32shell-1.6.dist-info/top_level.txt,sha256=aabBkMBuJQaCDI57Bo2Dz8c-VDKq0Sf54lTMaWzlo8Y,11
+win32shell-1.6.dist-info/RECORD,,
