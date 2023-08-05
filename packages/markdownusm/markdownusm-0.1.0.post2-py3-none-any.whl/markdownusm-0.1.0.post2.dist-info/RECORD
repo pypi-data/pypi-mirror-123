@@ -1,0 +1,14 @@
+markdownusm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdownusm/cli.py,sha256=xyzxSt6sCrYcD0NR_QtcBZU5u1G3KVePrHR8anA3Zrc,1520
+markdownusm/parser.py,sha256=p5K2cI7J2OgrsWsoFFYGidxXUGlcSZKp0vRKC5ztuAw,9211
+markdownusm/tests/test_integration.py,sha256=1U1BVtUTo2b0spQa9OzHWS0bvhuXlaxk5lKZF2JPCM8,12086
+markdownusm/tests/test_parser.py,sha256=X7G9ydUk1i_htTwAP6IVMfAr3FW7lODJgD96SjdhkFQ,2892
+markdownusm/tests/test_usm.py,sha256=FVflrSBEvs-wgi15Vzj9BSjTZ8SxzulMwZCvqJ574nA,2888
+markdownusm/tests/test_xml.py,sha256=wQI0KS2cPjF4-rn4ibVpcmDH36pqv3h1IXTZKL0mJf0,708
+markdownusm/usm.py,sha256=vDpS1ZHbbz2KzNwKDuxG5QwpVRtf0ayEDth4xB9BbE4,4613
+markdownusm/xml.py,sha256=OVU1WR7cDjQ2lFPCF7sgFeGVJwiQEl0FmWS7wRwe7D4,4269
+markdownusm-0.1.0.post2.dist-info/entry_points.txt,sha256=vBSy44PkAMjM8bmFKOz4gCuK76woaypneld_Nnj2vxk,45
+markdownusm-0.1.0.post2.dist-info/LICENSE,sha256=BWXUj7Ww2dvGeTGlE4ncBNt4d_SW_dnAZ7E4SY1-0Lw,1062
+markdownusm-0.1.0.post2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+markdownusm-0.1.0.post2.dist-info/METADATA,sha256=rJLqbQ41-b8MfBIKkjSs-c28zvE3T7Sdg-tckXg62U8,2550
+markdownusm-0.1.0.post2.dist-info/RECORD,,
