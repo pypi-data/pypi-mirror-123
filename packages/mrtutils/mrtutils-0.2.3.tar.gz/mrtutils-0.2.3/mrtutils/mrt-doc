@@ -1,0 +1,89 @@
+#!/usr/bin/env python
+
+import sys
+import os
+from mrtutils.modsync import *
+import argparse
+import tempfile
+import shutil
+
+from kconfiglib import Kconfig, \
+                       Symbol, MENU, COMMENT, \
+                       BOOL, TRISTATE, STRING, INT, HEX, UNKNOWN, \
+                       expr_value, \
+                       TRI_TO_STR
+
+from menuconfig import menuconfig
+
+localRepo = None #Repo(os.getcwd())
+
+
+args = None
+parser = None
+
+# Initialize the argument parser
+def init_args():
+    global parser
+    parser = argparse.ArgumentParser("Tool to Manage MrT modules")
+    parser.add_argument('localRoot', type=str, nargs='?', help='Local Root of MrT modules', default=".")
+    parser.add_argument('-d', '--doc', type=str, help='path to store doc index', default="")
+
+
+
+def main():
+    global localRepo
+
+    info={}
+    init_args()
+    args= parser.parse_args()
+    indexText = "Modules\n"
+    indexText+= "=======\n"
+    indexText+= ".. toctree::\n"
+    indexText+= "\t:hidden:\n"
+    indexText+= "\n"
+
+
+    #check for git repo
+    if not os.path.exists(".git"):
+        print("This is not a  valid git repo")
+        exit(0)
+
+    localRepo = Repo(os.getcwd())
+    localRepo.setRelativePath("./")
+    localRepo.getSubModules()
+
+
+
+    with open( localRepo.relativePath + 'mrt.yml', 'w') as file:
+        info = localRepo.gatherModuleYamls()
+        doc = yaml.dump(info, file)
+
+    if not args.doc == '':
+        if os.path.isdir(args.doc +"/moddocs"):
+            shutil.rmtree(args.doc +"/moddocs")
+        os.makedirs(args.doc +"/moddocs",exist_ok=True)
+
+        localRepo.dir.dirs['Modules'].copyDocStruct(0, args.doc +"/moddocs")
+        # for key, value in info.items():
+        #     if 'doc' in value: 
+        #         #os.mkdir(args.doc+"/modules/"+value['name'])
+        #         #fileName = shutil.copy(value['doc'], args.doc +"/modules/"+value['name']+"/")
+        #         #print(fileName)
+        #         docPath = args.doc + "/moddocs/" + value['path'] +"/"
+        #         os.makedirs( docPath, exist_ok=True)
+        #         fileName = shutil.copy(value['path']+"/*.rst", docPath)
+        #         fileName = shutil.copy(value['path']+"/*.md", docPath)
+            
+        #         indexText+= '\t' +value['name']+ '\n'
+
+        # f = open(args.doc + "/modules/index.rst",'w')
+        # f.write(indexText)
+        # f.close()
+                
+
+
+
+        
+
+if __name__ == "__main__":
+    main()
