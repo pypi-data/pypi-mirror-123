@@ -1,0 +1,17 @@
+CHANGELOG.md
+CONTRIBUTORS.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+nllgrid/NLLGrid.py
+nllgrid/__init__.py
+nllgrid/_version.py
+nllgrid/ellipsoid.py
+nllgrid.egg-info/PKG-INFO
+nllgrid.egg-info/SOURCES.txt
+nllgrid.egg-info/dependency_links.txt
+nllgrid.egg-info/requires.txt
+nllgrid.egg-info/top_level.txt
