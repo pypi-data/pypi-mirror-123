@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/koaeda/AEDA.py
+src/koaeda/__init__.py
+src/koaeda.egg-info/PKG-INFO
+src/koaeda.egg-info/SOURCES.txt
+src/koaeda.egg-info/dependency_links.txt
+src/koaeda.egg-info/top_level.txt
