@@ -1,0 +1,12 @@
+yamlprocessor/__init__.py,sha256=6DPW-K3zhS53K20sv2qMkX8n4Y7T9ahbqZpomqQ54zA,89
+yamlprocessor/dataprocess.py,sha256=KBRD2NKveLCuIhFLuKWW9bCxGaIgDL5IWmDl7Lb8HQo,9831
+yamlprocessor/schemaprocess.py,sha256=0UCy6bXdm6YMm6ipeLZJKmabaw0GSL4Rkihky3c50zg,3296
+yamlprocessor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yamlprocessor/tests/test_dataprocess.py,sha256=ktXaQOdsHes2XS1UWROOtrPdxFWU9eaC8MMJ8KMKkGQ,5199
+yamlprocessor/tests/test_schemaprocess.py,sha256=jiR02mm_BNLot_PZJXgQoPYdnaNNLfLGwCDx6cPDfcY,4345
+yamlprocessor-0.1.dist-info/LICENSE,sha256=BQZXZvbcBG8T0g6VWMbRyqUqJL59D4c6s3BPH8lUNZA,1518
+yamlprocessor-0.1.dist-info/METADATA,sha256=BQ92UgZBTA651W5-Jq2w0y8G34p_YOb8DzdNgIR6_3o,4906
+yamlprocessor-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+yamlprocessor-0.1.dist-info/entry_points.txt,sha256=eUxNnrJhDgm4JU4IeIZisp5MuZ9XbXl7bsaO7dPFCE4,105
+yamlprocessor-0.1.dist-info/top_level.txt,sha256=afrah_BuFyhtUVw8ZQmkDN5KmTp_z8iZ2GxsmkoeHe8,14
+yamlprocessor-0.1.dist-info/RECORD,,
