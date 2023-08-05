@@ -1,0 +1,6 @@
+setup.py
+taniumlib/__init__.py
+taniumlib.egg-info/PKG-INFO
+taniumlib.egg-info/SOURCES.txt
+taniumlib.egg-info/dependency_links.txt
+taniumlib.egg-info/top_level.txt
