@@ -1,0 +1,5 @@
+biopython>=1.75
+bcbio-gff>=0.6.6
+pysam
+toml
+setuptools
