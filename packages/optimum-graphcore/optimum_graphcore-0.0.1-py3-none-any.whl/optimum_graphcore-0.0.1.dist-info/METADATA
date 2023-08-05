@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: optimum-graphcore
+Version: 0.0.1
+Summary: Optimum Library is an extension of the Hugging Face Transformers library, providing a framework to integrate third-party libraries from Hardware Partners and interface with their specific functionality.
+Home-page: https://huggingface.co/hardware
+Author: HuggingFace Inc. Special Ops Team
+Author-email: hardware@huggingface.co
+License: Apache
+Keywords: transformers,quantization,pruning,training,ipu
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: optimum
+
+# optimum-graphcore
+
