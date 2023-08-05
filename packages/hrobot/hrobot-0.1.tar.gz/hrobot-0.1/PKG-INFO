@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hrobot
+Version: 0.1
+Summary: Hybrid Robot
+Home-page: https://github.com/seoktaehyeon/hrobot
+Author: Jing&Will
+Author-email: v.stone@163.com
+Maintainer: Jing&Will
+Maintainer-email: v.stone@163.com
+License: Apache
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hRobot
+Hybrid Robot 基于 RobotFramework 的二次封装
+
+
