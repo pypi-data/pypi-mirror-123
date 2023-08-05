@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: one-utils
+Version: 0.0.1
+Summary: oneflow tools
+Home-page: https://github.com/rentainhe/OneUtils
+Author: rentianhe
+Author-email: 596106517@qq.com
+License: MIT
+Description: # OneUtils
+        A collection of useful tools for oneflow
+        
+        ## Installation
+        ```bash
+        pip install one_utils
+        ```
+        
+        ## Usage
+        
+Keywords: computer vision
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
