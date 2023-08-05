@@ -1,0 +1,12 @@
+omniclient/__init__.py,sha256=NhECHU_Pj-NtWHezikiQSmJIhOkTDo02KkLWzUIvm5w,596
+omniclient/omniclient.py,sha256=aEKKQEl64VFX5ugEoIK-U_uzvcyjPSCtucIIwi7cX2s,2068
+omniclient/s_cache.py,sha256=C98c6AHDy3BAy-rzA7icdCi2GtJI-fcvYGK-kY47JUY,3198
+omniclient/s_cleanup.py,sha256=7pwazFCgo_GCxVbtif12FGibf3-9Ce0BNYcYndjCyPg,757
+omniclient/s_config.py,sha256=CYNB-j9zx0shTqjW2Qf2jx5xlX6S35bZT4BmcON0Xbg,2625
+omniclient/s_db.py,sha256=r9J7dCLPQ51vvxOBlwCGC6fUjb-zLryaR9prwK-Z_i8,10871
+omniclient/s_log.py,sha256=sS_UOV1ViqUO2SuJQYpiZ94M_N4YTCx53Jsi0e8zrbM,1955
+omniclient/s_net.py,sha256=IyHErCTjCpRKnAwXg3xOhx09g-0K0aV8dSVyso3kGpQ,14029
+omniclient/s_util.py,sha256=UW8PDxgB2MrfzM2xJVT0h9rBfIyDp7wosEif5PgbR1k,2058
+omniclient-0.5.63.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+omniclient-0.5.63.dist-info/METADATA,sha256=YQGz92nqyI01FfHdG6jLnpS531oz-74hOc-kF03Al5I,338
+omniclient-0.5.63.dist-info/RECORD,,
