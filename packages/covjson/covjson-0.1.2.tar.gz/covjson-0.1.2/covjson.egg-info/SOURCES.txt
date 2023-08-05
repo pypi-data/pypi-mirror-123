@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+covjson/__init__.py
+covjson/covjson.py
+covjson.egg-info/PKG-INFO
+covjson.egg-info/SOURCES.txt
+covjson.egg-info/dependency_links.txt
+covjson.egg-info/entry_points.txt
+covjson.egg-info/requires.txt
+covjson.egg-info/top_level.txt
+covjson.egg-info/zip-safe
