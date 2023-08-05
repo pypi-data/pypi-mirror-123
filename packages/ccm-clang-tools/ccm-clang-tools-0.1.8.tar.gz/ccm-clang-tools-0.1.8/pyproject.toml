@@ -1,0 +1,28 @@
+[project]
+name = "ccm-clang-tools"
+version = "0.1.8"
+description = ""
+dependencies = [ "docker~=5.0",]
+requires-python = ">=3.8"
+dynamic = [ "classifiers",]
+[[project.authors]]
+name = "Gabriel Ingram"
+email = "gabriel.ingram@colorado.edu"
+
+[build-system]
+requires = [ "pdm-pep517", "setuptools",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/gjingram/clang_tools"
+
+[tool.pdm]
+package-dir = "src"
+includes = [ "build_bin.py", "LICENSE", "README.md", "src/**/*.py", "src/ccm_clang_tools/**/Makefile*", "src/ccm_clang_tools/libtooling/*.cpp", "src/ccm_clang_tools/libtooling/jsonlib/*.cpp", "src/ccm_clang_tools/libtooling/**/*.h", "src/ccm_clang_tools/Dockerfile", "src/ccm_clang_tools/LICENSE", "src/ccm_clang_tools/LLVM-LICENSE",]
+excludes = [ "**/*.o", "**/*.dylib", "**/*bin", "**/*test.cpp",]
+
+[tool.pdm.dev-dependencies]
+publish = [ "twine~=3.4",]
