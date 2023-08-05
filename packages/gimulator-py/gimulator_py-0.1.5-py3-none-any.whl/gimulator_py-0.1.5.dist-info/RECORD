@@ -1,0 +1,13 @@
+gimulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gimulator/client.py,sha256=VQk6FTXkFAl_jrzsfTHdXTZ27pv4FQGJ1irgnVsRm_s,5681
+gimulator/proto_pb2.py,sha256=mHuCqsIwedIGweB0Mk7u4OXwZ6tzVw8bkPR9X84qA2g,28319
+gimulator/proto_pb2_grpc.py,sha256=-UfkBMDL9P0fNWX5sWZE0OYjDZEAQHfY9E-Dh_AA9kA,17759
+gimulator_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gimulator_py/client.py,sha256=P5DblfutaAoMqWcJ4CxgPLWFkI4153PQYUc154Dj3lQ,5681
+gimulator_py/proto_pb2.py,sha256=mHuCqsIwedIGweB0Mk7u4OXwZ6tzVw8bkPR9X84qA2g,28319
+gimulator_py/proto_pb2_grpc.py,sha256=qyuzOFtkwvI9FlcQCUH1bo3yvo515rJL_2iNZxT7Qw0,17762
+gimulator_py-0.1.5.dist-info/LICENSE,sha256=mq7rTcuNE4nxwJRmuPSirwO7WNMpY52cfSX28gP07Pg,1085
+gimulator_py-0.1.5.dist-info/METADATA,sha256=fi-otQRh6VHB2_JeRTM0UMLxSK90mqmvlvg56uqoslY,1111
+gimulator_py-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gimulator_py-0.1.5.dist-info/top_level.txt,sha256=ZukOSf6QQADT7ckhuGq1zPg_J6W-fVaIxxtexY4MZLo,10
+gimulator_py-0.1.5.dist-info/RECORD,,
