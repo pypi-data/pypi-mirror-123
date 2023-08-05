@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: serverless-local-debugger
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/kekeee-shine/serverless-local-debugger
+Author: kekeee
+Author-email: yangfan-shine@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.0, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3*
+License-File: LICENSE
+
+# Serverless-local-debuger
+
+#####  Very convenient debugging tool for serverless
+
+##### Support:
+
++ [x] AWS
++ [x] ALI
+
+##### Install
+
+```sh
+python setup.py sdist bdist_wheel	
+cd dist && pip3 install  *.whl
+```
+
+
+
+##### Usage
+
+| Static Variable |          Describe          |          Default           |
+| :-------------: | :------------------------: | :------------------------: |
+|   AWS_AK_ENV    |  AWS ACCESS_KEY ENV NAME   |     AWS_ACCESS_KEY_ID      |
+|   AWS_SK_ENV    |  AWS SECRET_KEY ENV NAME   |   AWS_SECRET_ACCESS_KEY    |
+| AWS_ENTRYPOINT  |  AWS Function Entrypoint   |  AWS Function Entrypoint   |
+|   ALI_AK_ENV    | Aliyun ACCESS_KEY ENV NAME |        accessKeyID         |
+|   ALI_SK_ENV    | Aliyun SECRET_KEY ENV NAME |      accessKeySecret       |
+| ALI_ENTRYPOINT  | Aliyun Function Entrypoint | Aliyun Function Entrypoint |
+
+#### more --->>  See Examples
+
+
+
+
+

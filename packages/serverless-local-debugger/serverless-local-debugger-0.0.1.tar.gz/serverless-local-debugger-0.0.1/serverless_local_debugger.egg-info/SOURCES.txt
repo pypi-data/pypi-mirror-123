@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+serverless_local_debugger/__init__.py
+serverless_local_debugger.egg-info/PKG-INFO
+serverless_local_debugger.egg-info/SOURCES.txt
+serverless_local_debugger.egg-info/dependency_links.txt
+serverless_local_debugger.egg-info/not-zip-safe
+serverless_local_debugger.egg-info/top_level.txt
+serverless_local_debugger/core/debuger.py
