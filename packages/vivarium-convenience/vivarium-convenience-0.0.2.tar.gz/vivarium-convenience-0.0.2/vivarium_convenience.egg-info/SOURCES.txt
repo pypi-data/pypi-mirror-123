@@ -1,0 +1,16 @@
+README.md
+setup.py
+vivarium_convenience/__init__.py
+vivarium_convenience.egg-info/PKG-INFO
+vivarium_convenience.egg-info/SOURCES.txt
+vivarium_convenience.egg-info/dependency_links.txt
+vivarium_convenience.egg-info/entry_points.txt
+vivarium_convenience.egg-info/requires.txt
+vivarium_convenience.egg-info/top_level.txt
+vivarium_convenience/composites/__init__.py
+vivarium_convenience/composites/convenience_composite.py
+vivarium_convenience/experiments/__init__.py
+vivarium_convenience/library/__init__.py
+vivarium_convenience/library/kinetic_rate_laws.py
+vivarium_convenience/processes/__init__.py
+vivarium_convenience/processes/convenience_kinetics.py
