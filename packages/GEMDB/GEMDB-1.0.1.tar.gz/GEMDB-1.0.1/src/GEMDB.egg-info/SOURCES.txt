@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/GEMDB/GEMDB.py
+src/GEMDB/__init__.py
+src/GEMDB/loader.py
+src/GEMDB/setting.py
+src/GEMDB.egg-info/PKG-INFO
+src/GEMDB.egg-info/SOURCES.txt
+src/GEMDB.egg-info/dependency_links.txt
+src/GEMDB.egg-info/top_level.txt
