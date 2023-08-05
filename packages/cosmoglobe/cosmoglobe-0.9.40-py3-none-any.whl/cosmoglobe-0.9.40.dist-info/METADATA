@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cosmoglobe
+Version: 0.9.40
+Summary: cosmoglobe is a python package that interfaces the Cosmoglobe Sky Model with commander3 outputs for the purpose of producing astrophysical sky maps.
+License: GNU GPLv3
+Author: Metin San
+Author-email: metinisan@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.3.2)
+Requires-Dist: astropy (>=4.3.1,<5.0.0)
+Requires-Dist: click (>=8.0.1)
+Requires-Dist: cmasher (>=1.6.2,<2.0.0)
+Requires-Dist: h5py (>=3.0.0)
+Requires-Dist: healpy (>=1.15.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numba (>=0.54.0,<0.55.0)
+Requires-Dist: numpy (>=1.17.0,<1.21.0)
+Requires-Dist: rich (>=10.9.0,<11.0.0)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: tqdm (>=4.62.2,<5.0.0)
