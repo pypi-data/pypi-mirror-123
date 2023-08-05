@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rkd.php
+Version: 2.4.1.dev160
+Summary: rkd.php adds support for PHP language in Riotkit-Do
+Home-page: https://github.com/riotkit-org
+Author: RiotKit non-profit organization
+Author-email: riotkit@riseup.net
+License: Apache-2
+Description: rkd.php
+        =======
+        
+        PHP language integration for RiotKit-Do.
+        
+        **Features:**
+        - Integration with composer (composer tasks are available in RKD)
+        
+Keywords: rkd,riotkit,anarchism,php
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
