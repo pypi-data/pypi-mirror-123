@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+purposefully_malicious/__init__.py
+purposefully_malicious.egg-info/PKG-INFO
+purposefully_malicious.egg-info/SOURCES.txt
+purposefully_malicious.egg-info/dependency_links.txt
+purposefully_malicious.egg-info/top_level.txt
