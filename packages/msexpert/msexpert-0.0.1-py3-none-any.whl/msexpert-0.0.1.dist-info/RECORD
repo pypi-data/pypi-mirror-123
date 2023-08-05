@@ -1,0 +1,10 @@
+msexpert/__init__.py,sha256=Bk-cN3o37wgKPbbsKsHDWk1UAmWukqbbGgUcvImnRr8,1368
+msexpert/cli.py,sha256=RljDfBwRzOHgr1ddFtxgaaz17pUQn3MWXvct041n27w,644
+msexpert/gui.py,sha256=5pLQnWh5AyDh83KU9Mt3ZaKXRSBmKTah-6OywYkKnPs,52
+msexpert/__pycache__/__init__.cpython-38.pyc,sha256=F-kQQ3INOd2-U6P7Y9vBZuVkTG36f_GZO-T0XY-5FLE,1155
+msexpert-0.0.1.dist-info/LICENSE.txt,sha256=oyflIMcfw3a5Oq6qDNwzW3Iip9-Wy8oxDRuiKMiHKW4,11338
+msexpert-0.0.1.dist-info/METADATA,sha256=Da4tDSiInRl_daPiBViSKTyfhCCrkAJqJRFHT81VYV8,12023
+msexpert-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+msexpert-0.0.1.dist-info/entry_points.txt,sha256=MSoaMDmuaUIIbVb9wEhJ5tEzUf63aeTXdrDKnA2kFQ8,47
+msexpert-0.0.1.dist-info/top_level.txt,sha256=lo_q7MQk11cYn4PFQ1TM3FFiATiYzgZrwBTMVldee-Q,9
+msexpert-0.0.1.dist-info/RECORD,,
