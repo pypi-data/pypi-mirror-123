@@ -1,0 +1,9 @@
+README.md
+setup.py
+osttools/__init__.py
+osttools/osttools.py
+osttools.egg-info/PKG-INFO
+osttools.egg-info/SOURCES.txt
+osttools.egg-info/dependency_links.txt
+osttools.egg-info/requires.txt
+osttools.egg-info/top_level.txt

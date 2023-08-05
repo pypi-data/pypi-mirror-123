@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: osttools
+Version: 1.0.1
+Summary: Tools used by ordinary-student
+Home-page: https://github.com/ordinary-student/osttools
+Author: ordinary-student
+Author-email: 1113793417@qq.com
+License: MIT License
+Description: UNKNOWN
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
