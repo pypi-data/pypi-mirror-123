@@ -1,0 +1,3 @@
+[console_scripts]
+one_puzzle = one_puzzle.solver:main
+

@@ -1,0 +1,16 @@
+one_puzzle/__init__.py,sha256=3iXUe8l588jLC8kMZK4yIH-6JeCua9dRUm5rFWdgCZ4,143
+one_puzzle/__name__.py,sha256=jlol6qSjl3CDaCUaOMX0oJ80PEEETLJ_uJhzZZrSXeA,47
+one_puzzle/__version__.py,sha256=JSRW2BFo9xpeBOZG5d4GMk5nWpXZonpOdpBlquoRpRA,87
+one_puzzle/element.py,sha256=JSFxQQLFRIf4MvmgJnvylgZPc_wPLyK8pBXp7_HaZC4,1092
+one_puzzle/pattern.py,sha256=SmKe2FL1g1UStmb0ttKsEXi1BGkLRxKh-tS4ijGP464,10049
+one_puzzle/solver.py,sha256=mRFoMygPdtj-JajwLAC3N4W9eITnPiqNEFIZhbliKiE,7228
+tests/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+tests/test_element.py,sha256=yyKqsGKfC8CNEYsnjKK8qstWj8a5U9SNv03qQmVMUmM,1719
+tests/test_pattern.py,sha256=rWzKumdJ48JpQgmWtlwSp2XDnovvH_JDELxQeL51cjA,4335
+tests/test_solver.py,sha256=J0KW-tA8V8LWDFC2fM_z9CR2czBFWMHb8r8OSguUd20,1119
+OnePuzzle-0.2.1.dist-info/LICENSE,sha256=cYgJ7VZ3-BuF1Z9BZ1y9DD8IwOfILayn6mmcmy3-o0Q,1070
+OnePuzzle-0.2.1.dist-info/METADATA,sha256=wcv3lSFo5Jyo3_vbjL-U6mhQzPRKL5CQp6umP7r7Wj4,1979
+OnePuzzle-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+OnePuzzle-0.2.1.dist-info/entry_points.txt,sha256=M9igbG0vElejfdsx0WED0hmhmSF5gYnnE20THALgLno,55
+OnePuzzle-0.2.1.dist-info/top_level.txt,sha256=-Pm1W4Lv5DUWK5qJy2lZk5Gfrc6Y4iBO7toZ7u8rUhE,17
+OnePuzzle-0.2.1.dist-info/RECORD,,
