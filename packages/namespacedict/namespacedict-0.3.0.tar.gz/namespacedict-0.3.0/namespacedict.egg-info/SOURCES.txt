@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+namespacedict.py
+setup.cfg
+setup.py
+namespacedict.egg-info/PKG-INFO
+namespacedict.egg-info/SOURCES.txt
+namespacedict.egg-info/dependency_links.txt
+namespacedict.egg-info/requires.txt
+namespacedict.egg-info/top_level.txt
