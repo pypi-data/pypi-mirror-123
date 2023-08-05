@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SparkLytics
+Version: 0.0.1
+Summary: A library of useful functions to help with ML analysis with PySpark and MLLib.
+Home-page: https://github.com/scottclay/SparkLytics
+Author: Scott Clay
+Author-email: scottclay8@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: seaborn (>=0.8.1)
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: scikit-learn (>=0.19.1)
+
+# SparkLytics
+
+
