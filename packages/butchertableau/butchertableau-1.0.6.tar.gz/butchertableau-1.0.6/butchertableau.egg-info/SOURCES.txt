@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+butchertableau.egg-info/PKG-INFO
+butchertableau.egg-info/SOURCES.txt
+butchertableau.egg-info/dependency_links.txt
+butchertableau.egg-info/top_level.txt
