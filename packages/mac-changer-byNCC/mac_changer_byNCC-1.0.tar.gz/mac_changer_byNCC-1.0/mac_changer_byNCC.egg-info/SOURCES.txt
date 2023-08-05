@@ -1,0 +1,11 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+__init__.py
+main.py
+setup.py
+mac_changer_byNCC.egg-info/PKG-INFO
+mac_changer_byNCC.egg-info/SOURCES.txt
+mac_changer_byNCC.egg-info/dependency_links.txt
+mac_changer_byNCC.egg-info/requires.txt
+mac_changer_byNCC.egg-info/top_level.txt
