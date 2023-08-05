@@ -1,0 +1,8 @@
+discord.py
+aiosqlite
+aiohttp
+fastapi
+uvicorn
+aiofiles
+pydantic
+python-multipart
