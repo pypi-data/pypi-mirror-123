@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mSynOrths
+Version: 0.0.1
+Summary: Multi genome synteny analyse
+Home-page: https://gitee.com/zhanglingkui/msynorths
+Author: zhanglingkui
+Author-email: 1570263833@qq.com
+License: MIT Licence
+Keywords: pip,genome,synteny,ortholog,paralog
+Platform: any
+
+Find syntenic gene pairs and fragments between multi genome
+
