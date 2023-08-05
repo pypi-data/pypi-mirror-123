@@ -1,0 +1,10 @@
+opax/__init__.py,sha256=2exv_ciMlSjOTBj5wfsNoN7Mdy1Vn00xOKRVYYbLywo,388
+opax/optimizer.py,sha256=VnxheGv24FJwvUf6nINW6OVA5CFCNwmgm0gFLHsQRH8,2002
+opax/schedule.py,sha256=9vhpYCR6dCaHV6fvvv_004zeux4DpwFRZcn0glSsJK4,1011
+opax/transform.py,sha256=112l_oANW2G-I6k60cH1GHJUY19ghMF17-GCOLLfYRw,9124
+opax/utils.py,sha256=wvCJyINBXP14kouMrS7r_2mDdTyqMG9QJ3FCveJRCF0,2499
+opax-0.2.2.dist-info/LICENSE,sha256=cq6aVy1PYV3KnItY3EfnFxZR4zNC3saDspHhM3lAZiI,1063
+opax-0.2.2.dist-info/METADATA,sha256=Ng5x1gDkEd67POvXUW56Wv6td8hHPzIA5_TSsHZezYc,355
+opax-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+opax-0.2.2.dist-info/top_level.txt,sha256=IwEmoORHOUtk0Nn3j-fWngJkTInEyqdX4RahJWBJJ-0,5
+opax-0.2.2.dist-info/RECORD,,
