@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "datadis"
+version = "0.8.0"
+description = "Datadis API client"
+readme = "README.md"
+authors = ["Alvaro Tinoco <alvarotinocomarmol@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.19.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.9.2"
+pylint = "^2.11.1"
+black = "^21.9b0"
+pytest-asyncio = "^0.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_toml = "pyproject.toml:tool.poetry.version"
+build_command = "pip install poetry && poetry build"
+
+[tool.black]
+line-length = 79
