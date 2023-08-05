@@ -1,0 +1,3 @@
+[console_scripts]
+oarepo-s3-cli = oarepo_s3_cli.clickdef:cli_main
+
