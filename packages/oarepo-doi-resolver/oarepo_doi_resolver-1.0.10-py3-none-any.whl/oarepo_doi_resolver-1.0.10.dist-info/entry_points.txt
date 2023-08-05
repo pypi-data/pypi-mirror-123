@@ -1,0 +1,6 @@
+[invenio_base.api_apps]
+oarepo_doi_resolver = oarepo_doi_resolver:OARepoDOIResolver
+
+[invenio_base.apps]
+oarepo_doi_resolver = oarepo_doi_resolver:OARepoDOIResolver
+
