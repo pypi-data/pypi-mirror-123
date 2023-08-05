@@ -1,0 +1,11 @@
+clumper/__init__.py,sha256=kTFzIcvd6dNhwsTO4EFX715guVEpSeN5Lb6w1J8Fi80,34
+clumper/clump.py,sha256=6FPPgxl-kncH6fRINNLF2ZOpTDahaH1z_06WMw0ejF8,57161
+clumper/decorators.py,sha256=CfjJLvWoU19-wrXQvX5D7jmlE9WMdABGfQgTp-BSYdI,4607
+clumper/error.py,sha256=RXHJZaVSdIdpoMvgsBOZnck68Mn8VvUMQHzNMGfyqoE,273
+clumper/sequence.py,sha256=oy70NqABNvl924iDsz2c50QUmdHREjozPRg9OeBF19Y,6230
+clumper/this.py,sha256=R32Kt0N11wpuXzX-a0t5AQ832Eb79x8wzTyebavTIf8,568
+clumper-0.2.15.dist-info/LICENSE,sha256=5NY2NmdMDvQAZPNl3u3FoTlXv100JV76V0Oqjp4lUfI,1077
+clumper-0.2.15.dist-info/METADATA,sha256=lH9sfbMbAUZ2LAj7a-HvnShX3goMg-0-JzfkcsIcALc,1166
+clumper-0.2.15.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+clumper-0.2.15.dist-info/top_level.txt,sha256=Lyq-Toh27y15PpHUBzOP2bVg4HYRwYMq5sKrkAVtJWg,8
+clumper-0.2.15.dist-info/RECORD,,
