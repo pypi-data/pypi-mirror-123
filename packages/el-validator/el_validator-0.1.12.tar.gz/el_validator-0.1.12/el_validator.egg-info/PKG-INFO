@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: el-validator
+Version: 0.1.12
+Summary: Cerberus and validator-collection based custom validator python package.
+Home-page: https://bitbucket.org/ellexiinc/el_validator/
+Author: Batkhuu Byambajav
+Author-email: batkhuu@ellexi.com
+License: MIT
+Download-URL: https://bitbucket.org/ellexiinc/el_validator/get/release-0.1.12.tar.gz
+Description: UNKNOWN
+Keywords: el_validator,validator,validators,validate,validation,data-validation,Cerberus,validator-collection,custom-validator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
