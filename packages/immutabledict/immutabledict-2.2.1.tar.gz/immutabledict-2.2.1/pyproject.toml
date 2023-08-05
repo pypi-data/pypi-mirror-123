@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "immutabledict"
+version = "2.2.1"
+description = "Immutable wrapper around dictionaries (a fork of frozendict)"
+authors = ["Corentin Garcia <corenting@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/corenting/immutabledict"
+keywords = ["immutable", "dictionary"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.urls]
+"Changelog" = "https://github.com/corenting/immutabledict/blob/master/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/corenting/immutabledict/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+black = {version = "*", python = ">=3.7"}
+flake8 = "*"
+isort = {version = "*", python = ">=3.7"}
+mypy = "*"
+pdbpp = "*"
+pyproject-flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+tox = "^*"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.flake8]
+max_line_length = 88
+extend-ignore = "D100,D101,D104,E501"
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_defs = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
