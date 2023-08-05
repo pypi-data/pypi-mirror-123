@@ -1,0 +1,7 @@
+README.rst
+setup.py
+plaid-python-monorepo/__init__.py
+plaid_python_monorepo.egg-info/PKG-INFO
+plaid_python_monorepo.egg-info/SOURCES.txt
+plaid_python_monorepo.egg-info/dependency_links.txt
+plaid_python_monorepo.egg-info/top_level.txt
