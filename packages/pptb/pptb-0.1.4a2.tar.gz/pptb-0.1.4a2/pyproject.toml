@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pptb"
+version = "0.1.4-alpha.2"
+description = "🚣 一些常用的但 paddle 里没有的小工具～"
+authors = ["Nyakku Shigure <sigure.qaq@gmail.com>"]
+keywords = ["python", "paddle", "toolbox"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+paddlepaddle = { version = "^2.1.2", optional = true }
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.9b0"
+
+[tool.poetry.extras]
+paddle = ["paddlepaddle"]
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
