@@ -1,0 +1,36 @@
+[console_scripts]
+kiara = kiara.interfaces.cli:cli
+
+[kiara.metadata_schemas]
+python_class = kiara.metadata.core_models:PythonClassMetadata
+
+[kiara.modules]
+metadata.python_class = kiara.modules.metadata:ExtractPythonClass
+pipeline = kiara.pipeline.module:PipelineModule
+value.hash = kiara.operations.calculate_hash:CalculateValueHashModule
+value.load = kiara.modules.save_value:LoadValueModule
+value.pretty_print = kiara.operations.pretty_print:PrettyPrintValueModule
+value.save = kiara.modules.save_value:SaveValueModule
+
+[kiara.operation_types]
+all = kiara.operations:AllOperationType
+calculate_hash = kiara.operations.calculate_hash:CalculateHashOperationType
+convert = kiara.operations.type_convert:ConvertValueOperationType
+extract_metadata = kiara.operations.extract_metadata:ExtractMetadataOperationType
+import_file = kiara.operations.data_import:FileImportOperationType
+import_file_bundle = kiara.operations.data_import:FileBundleImportOperationType
+pretty_print = kiara.operations.pretty_print:PrettyPrintOperationType
+sample = kiara.operations.sample:SampleValueOperationType
+save_value = kiara.operations.save_value:SaveOperationType
+serialize = kiara.operations.serialize:SerializeValueOperationType
+
+[kiara.value_types]
+any = kiara.data.types.core:AnyType
+deserialize_config = kiara.data.types.core:DeserializeConfigData
+load_config = kiara.data.types.core:LoadConfigData
+value_info = kiara.data.types.core:ValueInfoData
+value_lineage = kiara.data.types.core:ValueLineageData
+
+[mkdocs.plugins]
+frkl-docgen = kiara.doc:FrklDocumentationPlugin
+
