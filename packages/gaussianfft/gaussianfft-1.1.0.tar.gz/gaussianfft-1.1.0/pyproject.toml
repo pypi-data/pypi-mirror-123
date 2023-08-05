@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    # We use the oldest compatible version, to make life easier with Emerson RMS
+    # If we use a newer version, the compilation of Boost.Python, will cause the module to crach
+    # (segmentation fault) when imported
+    "numpy>=1.11.3",
+    "mkl-devel",
+    "mkl-static",
+    "pydevd-pycharm~=211.7628.24",
+]
+build-backend = "setuptools.build_meta"
