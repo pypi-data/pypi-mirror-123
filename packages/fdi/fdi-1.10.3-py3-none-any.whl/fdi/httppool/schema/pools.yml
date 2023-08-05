@@ -1,0 +1,621 @@
+openapi: 3.0.3
+info:
+  version: 1.0.1
+  description: "This is an API description of the HTTPPool Server for FDI (Flexible\
+    \ Dataset Integrator)"
+  title: "fdi poolserver"
+  contact:
+    email: "mhuang@nao.syx1026-qq.com"
+  license:
+    name: "LGPL 3.0"
+tags:
+  - name: User
+    description: User services.
+    externalDocs:
+      url: https://fdi.readthedocs.io/en/latest/usage/httppool.html
+  - name: Data
+    description: Operating on data in a data Pool.
+    externalDocs:
+      url: file:///D:/code/fdi/docs/html/usage/pal.html#saving-a-product
+  - name: Pool
+    description: Operating on a data Pool.
+    externalDocs:
+      url: https://fdi.readthedocs.io/en/latest/api/fdi/fdi.pal.html#module-fdi.pal.httpclientpool
+  - name: Pool_Info
+    description: Information about a data Pool.
+    externalDocs:
+      url: https://fdi.readthedocs.io/en/latest/usage/pal.html#productpool
+  - name: Server
+    description: About this HTTP pool server that holds many data *pool*s.
+    externalDocs:
+      url: https://fdi.readthedocs.io/en/latest/usage/httppool.html
+servers:
+  - url: http://127.0.0.1:5000/v0.9
+    description: httppool api flask dev version
+  - url: http://127.0.0.1:9884/v0.9      
+    description: httppool api flask-wsgi-apache2 version
+  - url: http://127.0.0.1:9885/v0.9
+    description: same as above but PORT=9885
+  - url: http://10.0.10.114:9885/v0.9      
+    description: httppool api production flask-wsgi-apache2 version
+security:
+  - BasicAuth: []
+
+paths:
+  /user/login:
+    post:
+      summary: "Login on the server."
+      tags:
+        - User
+      description: "Logging in as read-write or read-only."
+      operationId: login
+      responses:
+        "200":
+          description: "Done logging in."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GenericResponseContents"
+  /user/logout:
+    post:
+      summary: "Logout and possiblly login again on the server."
+      tags:
+        - User
+      description: "Logging out and maybe logging in again as read-write or read-only."
+      operationId: logout
+      responses:
+        "200":
+          description: "Done logging out."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GenericResponseContents"
+  /:
+    get:
+      summary: "Get IDs of all Pools."
+      tags:
+        - Server
+      description: "Returns a list of Pool IDs (pool names) of all pools on the server, including both registered and un-registered ones. **Remove the trailing slash (/) to show URLs.**"
+      operationId: get_pools
+      responses:
+        "200":
+          description: "Done getting all Pool IDs."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GenericResponseContents"
+  /pools/:
+    get:
+      summary: "Get IDs of all registered Pools."
+      tags:
+        - Server
+      description: "Returns a list of Pool IDs (pool names) of all pools registered with the global PoolManager."
+      operationId: get_registered_pools
+      responses:
+        "200":
+          description: "Done getting all ID of registered Pools."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegisteredPools'
+      
+  /pools/register_all:
+    put:
+      summary: "Register (Load) all pools on the server."
+      tags:
+        - Server
+      description: "Make all pools registered with the global PoolManager."
+      operationId: register_all
+      responses:
+        "200":
+          description: "All pools are loaded."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+  /pools/unregister_all:
+    put:
+      summary: "Removing all pools from the PoolManager."
+      tags:
+        - Server
+      description: "Removing all pools from the PoolManager."
+      operationId: unregister_all
+      responses:
+        "200":
+          description: "registered all pools"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+  /pools/wipe_all:
+    delete:
+      summary: "Remove contents of all pools."
+      tags:
+        - Server
+      description: "Only registerable pools will be wiped. Pool directories are not removed."
+      operationId: wipe_all
+      responses:
+        "200":
+          description: "wiping all pool data done"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+
+  /{pool}:
+    get:
+      summary: "Get information of the given pool."
+      tags:
+        - Pool_Info
+      description: "Returns the state of the pool of given Pool IDs."
+      operationId: get_pool
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      responses:
+        "200":
+          description: "Done getting infor of the Pool."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+    put:
+      summary: "Register the given pool."
+      tags:
+        - Pool
+      description: "Register the pool of given Pool IDs to the global PoolManager."
+      operationId: register
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      responses:
+        "200":
+          description: "Done registering the Pool to PoolManager."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+    delete:
+      summary: "Unregister this pool from PoolManager."
+      tags:
+        - Pool
+      description: "Check if the pool exists on server, and unregister or raise exception message to client."
+      operationId: unregister
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      responses:
+        "200":
+          description: "Done unregistering this pool."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+        "400":
+          $ref: '#/components/responses/400Error'
+        "409":
+          $ref: '#/components/responses/409Error'
+  /{pool}/:
+    post:
+      summary: "Save data to the pool with a tag and receive URNs."
+      tags:
+        - Data
+      description: "Save product data item(s) to the pool with an optional tag and receive a URN for each of the saved items."
+      operationId: save_data
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      - $ref: '#/components/parameters/HeaderTags'
+      requestBody:
+        description: Serialised data items
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+            examples:
+              BaseProduct:
+                value:
+                  $ref: "baseproduct.txt"
+                summary: An mostly blank BaseProduct.
+              Dummy:
+                value: '{"meta": {}}'
+                summary: minimal
+          text/plain:
+            schema:
+              type: string
+            examples:
+              BaseProduct:
+                value:
+                  $ref: "baseproduct.txt"
+                summary: A mostly blank BaseProduct.
+              Dummy:
+                value: '{"meta": {}}'
+                summary: minimal
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+
+  /{pool}/hk/:
+    get:
+      summary: "All kinds of pool housekeeping data."
+      tags:
+        - Pool_Info
+      description: "return all pool housekeeping data according to pool ID."
+      operationId: hk
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      responses:
+        "200":
+          description: "Done getting house keeping of the Pool."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+  /{pool}/api/:
+    get:
+      summary: "A list of names of allowed API methods."
+      tags:
+        - Pool
+      description: "Returns a list of name of methods allowed to be called with web APIs on this pool."
+      operationId: api_info
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      responses:
+        "200":
+          description: "Done getting all API calls of the Pool."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+
+  /{pool}/hk/{kind}:
+    get:
+      summary: "Returns the given kind of pool housekeeping data."
+      tags:
+        - Pool_Info
+      description: "requests pool housekeeping data of specified kind: classes or urns or tags"
+      operationId: hk_single
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      - $ref: '#/components/parameters/HkKind'
+      responses:
+        "200":
+          description: "Specified kind of pool housekeeping data returned OK."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+  /{pool}/count/{data_type}:
+    get:
+      summary: "Returns the number of given type of data in the given pool."
+      tags:
+        - Data
+      description: "requests pool housekeeping data of specified kind: classes or urns or tags"
+      operationId: count
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      - $ref: '#/components/parameters/DataType'
+      responses:
+        "200":
+          description: "Specified kind of pool housekeeping data returned OK."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+  /{pool}/wipe:
+    put:
+      summary: "Removes all contents of the pool."
+      tags:
+        - Pool
+      description: "Requests all data in the pool be removed, keeping pool directory."
+      operationId: wipe
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      responses:
+        "200":
+          description: "wiping pool data done"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+
+  /{pool}/api/{method_args}:
+    get:
+      summary: "Call api mathods on the running pool and returns the result."
+      tags:
+        - Pool
+      description: "Call api mathods, with optional args, on the running pool and returns the result."
+      operationId: api
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      - $ref: '#/components/parameters/Method_args'
+      responses:
+        "200":
+          description: "Specified API called and returned OK."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+#  /{pool}/api/{method}/:
+#    $ref: "#/paths/~1%7Bpool%7D~1api~1%7Bmethod%7D~1%7Bargs%7D"
+#  /{pool}/api/{method}:
+#    $ref: "#/paths/~1%7Bpool%7D~1api~1%7Bmethod%7D~1%7Bargs%7D"
+        
+  /{pool}/{data_paths}:
+    get:
+      summary: "Returns magics of given type/data in the given pool."
+      tags:
+        - Data
+      description: "Request related action results depending on the path"
+      operationId: data_paths
+      parameters:
+      - $ref: '#/components/parameters/Pool'
+      - name: "data_paths"
+        in: "path"
+        description: "segmented path string of dynamic lengths"
+        required: true
+        schema:
+          type: "string"
+        examples:
+          1:
+            value: fdi.dataset.product.Product/0/meta/
+            summary: Meta data of a product.
+          2:
+            value: fdi.dataset.product.Product/0/results/Time_Energy_Pos/Energy/data
+            summary: |
+              Sample product from server test pool. e.g.  http://127.0.0.1:5000/v0.9/serv_test_httppool/
+          3:
+            value: fdi.pal.context.Context
+            summary: A Context.
+      responses:
+        "200":
+          description: "Specified kind of  data returned OK."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+        "400":
+          $ref: '#/components/responses/400Error'
+        "401":
+          $ref: '#/components/responses/401Error'
+        "409":
+          $ref: '#/components/responses/409Error'
+          
+  
+  /urn{parts}:
+    get:
+      summary: "Return data item from the given URN (or URN parts)."
+      tags:
+        - Data
+      description: "`parts` consists of the pool ID, a data class type, and a serial number (a.k.a index number). Data type must stay in one path segment."
+      operationId: urn
+      parameters:
+        - $ref: "#/components/parameters/UrnParts"
+      responses:
+        "200":
+          description: "Specified data returned OK."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+        "400":
+          $ref: '#/components/responses/400Error'
+        "409":
+          $ref: '#/components/responses/409Error'
+    delete:
+      summary: "Remove data item with the given URN (or URN parts)."
+      tags:
+        - Data
+      description: "`parts` consists of the pool ID, a data class type, and a serial number (a.k.a index number). Data type must stay in one path segment."
+      operationId: delete_urn
+      parameters:
+        - $ref: "#/components/parameters/UrnParts"
+      responses:
+        "200":
+          description: "Specified data removed OK."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponseContents'
+        "400":
+          $ref: '#/components/responses/400Error'
+        "409":
+          $ref: '#/components/responses/409Error'
+
+
+# Descriptions of common components
+components:
+  # Basic authentication
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+  # Schema for response body
+  parameters:
+    Pool:
+      name: "pool"
+      in: "path"
+      description: "pool ID (also called pool name)"
+      required: true
+      schema:
+        type: "string"
+      examples:
+        1. server:
+          value: serv_test_httppool
+          summary: from server test `test_httppool.py`.
+        2. client:
+          value: serv_test_httpclientpool
+          summary: from client test `test_httpclientpool.py`.
+        3. pal:
+          value: test_pal
+          summary: from `test_pal.py`.
+    HkKind:
+      name: kind
+      in: "path"
+      description: "one of \"classes\", \"urns\", \"tags\"."
+      required: true
+      schema:
+        type: "string"
+        enum: ["classes", "urns", "tags"]
+      example: classes
+    DataType:
+      name: data_type
+      in: "path"
+      description: "(Part of) a dot-separated full class name of data items in pool."
+      required: true
+      schema:
+        type: "string"
+      example: fdi.dataset.product.Product
+    Method:
+      name: method
+      in: "path"
+      description: "Name of the API method of the resource"
+      required: true
+      schema:
+        type: "string"
+      example: getPoolurl
+    Args:
+      name: args
+      in: "path"
+      description: "Arguments of a function/method."
+      required: true
+      schema:
+        type: "string"
+    Method_args:
+      name: method_args
+      in: "path"
+      description: |
+          "A concatenated string of a function/method and its arguments.
+            * Simple typed positional args of method are separated by `Serialize_Args_Sep` ('```__```'). Strings are encoded with :func:`encode_str()`, '```__```' are replaced with '~'. 
+            * A complex type positional args and all positional args to its rigght become the value of the key `apiargs` in a `dict`, updated by the keyword args, and serialized and encoded as above.
+            * For details see :func:`deserialize_args` and :func:`serialize_args`.
+      required: true
+      schema:
+        type: "string"
+      examples:
+        meth:
+          value: getPoolurl
+          summary: A method call without argument.
+        posi:
+          value: '~foo~__1__2__-3__4.0__a__b%20c~d__0xdead__True__None'
+          summary: |
+              Simple typed positional args of a method call ```__foo__(1, 2, -3, 4.0, 'a', 'b c__d', b'\xde\xad', True, None)```
+        posi_comp:
+          value: '~foo__%7B%22apiargs%22%3A%20%5B%7B%223%22%3A%204%7D%5D%2C%20%22d%22%3A%206%7D'
+          summary: |
+              With a complex type positional args and keywords args. ```__foo({3:4}, d=6)``` => ```~foo__{"apiargs": [{"3": 4}], "d": 6}```
+    HeaderTags:
+      name: tags
+      in: header
+      description: "A tag or a list of tags in request header to save with every data item."
+      required: true
+      schema:
+        type: array
+        items:
+          type: string
+      example: [headerTag1, headerTag2]
+    UrnParts:
+      name: parts
+      in: "path"
+      description: "pool ID, followed by data class type, followed by serial number. Examples: ``urn:pool:fdi.dataset.baseproduct.BaseProduct:0``, ``:pool:fdi.dataset.baseproduct.BaseProduct:0``. Also possible URL: ``http.../urn:pool/fdi.dataset.product.Product/0``."
+      required: true
+      schema:
+        type: "string"
+      examples:
+        full:
+          value: "urn:serv_test_httppool:fdi.dataset.product.Product:0"
+          summary: "The full URN string"
+        no_urn:
+          value: ":serv_test_httppool:fdi.dataset.product.Product:0"
+          summary: "No leading 'urn'. The URL is like 'baseURL/urn:serv_test_httppool:fdi.dataset...'"
+  # Schema for response body
+  schemas:
+    Product:
+      type: string
+      description: "A structured container for data processing results."
+    Products:
+      type: array
+      items:
+        $ref: "#/components/schemas/Product"
+      example: [headerTag1, headerTag2]      
+    RegisteredPools:
+      allOf:
+        - $ref: '#/components/schemas/ResponseContentsBase'
+        - type: object
+          properties:
+            result:
+              type: string
+          required:
+            - result
+          example:
+            result: "[200, \"foo\"]"
+    # shared schemas
+    GenericResponseContents:
+      allOf:
+        - $ref: "#/components/schemas/ResponseContentsBase"
+        - type: object
+          properties:
+            result:
+              type: string
+          required:
+            - result
+          example:
+            result: "[200, \"foo\"]"
+    ResponseContentsBase:
+      type: object 
+      properties:
+        code:
+          type: integer
+        msg:
+          type: string
+        time:
+          type: "number"
+          format: "double"
+      required:
+        - code
+        - msg
+        - time
+      example:
+        code: 200
+        msg: "pool is registered."
+        time: 15948800582498.8613281
+      
+  responses:
+    400Error:
+      description: Fails. Invalid request or relevant pool does not exist.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GenericResponseContents'
+    401Error:
+      description: Fails. Authorization information missing or invalid.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GenericResponseContents'
+    404Error:
+      description: Fails. Data or information with the specified ID not found.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GenericResponseContents'
+    409Error:
+      description: Fails. Unavailable. Pool is busy at the moment.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GenericResponseContents'
+    422Error:
+      description: Fails. Bad command or arguement format.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GenericResponseContents'
+    defaultError:
+      description: Fails. Other errors.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GenericResponseContents'
+  
