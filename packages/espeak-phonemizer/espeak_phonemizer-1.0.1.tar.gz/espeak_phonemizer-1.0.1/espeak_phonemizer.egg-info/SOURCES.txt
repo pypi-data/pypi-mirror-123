@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+espeak_phonemizer/VERSION
+espeak_phonemizer/__init__.py
+espeak_phonemizer/__main__.py
+espeak_phonemizer/py.typed
+espeak_phonemizer.egg-info/PKG-INFO
+espeak_phonemizer.egg-info/SOURCES.txt
+espeak_phonemizer.egg-info/dependency_links.txt
+espeak_phonemizer.egg-info/entry_points.txt
+espeak_phonemizer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_phonemizer.py
