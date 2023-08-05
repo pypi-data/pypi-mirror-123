@@ -1,0 +1,8 @@
+rpc/__init__.py,sha256=vc2V_T6_FXvrNQHWfXu9mkh-1Q9BOXteuQ0zK2Ne6VU,60
+rpc/client.py,sha256=R99xsAjUciOM2rUWtG8uuFOgwVm4KkewryTdwu-RU2g,1073
+rpc/server.py,sha256=Nv8E_BNghrb5hPAAZaO1_bC4uYXi3HS3u4DLgcDwsqw,2747
+rpc_Ariam27-0.1.0.dist-info/LICENSE,sha256=H80HFj3UBCqqziLE1BCKW1An8zoYdTDeqyOOIqPkBzA,1062
+rpc_Ariam27-0.1.0.dist-info/METADATA,sha256=QJVdVsJUlY8ZRL5yJ_uWY9D-2O9ny7GhzYXqeY9SzNg,1387
+rpc_Ariam27-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rpc_Ariam27-0.1.0.dist-info/top_level.txt,sha256=dMMjdzobtMMUmMoS3mvB-qSKU_TWlDMgqZreiX5rwP4,4
+rpc_Ariam27-0.1.0.dist-info/RECORD,,
