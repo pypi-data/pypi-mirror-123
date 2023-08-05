@@ -1,0 +1,3 @@
+[pennylane.plugins]
+pytket.pytketdevice = pytket.extensions.pennylane:PytketDevice
+

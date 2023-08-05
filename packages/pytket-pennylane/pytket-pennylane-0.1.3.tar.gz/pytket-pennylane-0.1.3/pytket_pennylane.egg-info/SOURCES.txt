@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+_metadata.py
+setup.py
+pytket/extensions/pennylane/__init__.py
+pytket/extensions/pennylane/_metadata.py
+pytket/extensions/pennylane/pennylane_convert.py
+pytket/extensions/pennylane/pytket_device.py
+pytket_pennylane.egg-info/PKG-INFO
+pytket_pennylane.egg-info/SOURCES.txt
+pytket_pennylane.egg-info/dependency_links.txt
+pytket_pennylane.egg-info/entry_points.txt
+pytket_pennylane.egg-info/not-zip-safe
+pytket_pennylane.egg-info/requires.txt
+pytket_pennylane.egg-info/top_level.txt
