@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+Celeb_Births/celebrities_births.egg-info/PKG-INFO
+Celeb_Births/celebrities_births.egg-info/SOURCES.txt
+Celeb_Births/celebrities_births.egg-info/dependency_links.txt
+Celeb_Births/celebrities_births.egg-info/top_level.txt
