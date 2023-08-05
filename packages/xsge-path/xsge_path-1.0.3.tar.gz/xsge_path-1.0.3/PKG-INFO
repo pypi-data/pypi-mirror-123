@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: xsge_path
+Version: 1.0.3
+Summary: xSGE Path
+Home-page: https://python-sge.github.io
+Author: The Diligent Circle
+Author-email: diligentcircle@riseup.net
+License: GNU Lesser General Public License
+Description: xSGE is a collection of higher-level extensions for the SGE which
+        enhance the core functionality in an implementation-independent way.
+        Like the SGE itself, they are distribted under the terms of the GNU
+        Lesser General Public License.
+        
+        This extension provides paths for the SGE.  Paths are used to make
+        objects move in a certain way.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: DFSG approved
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development
+Requires: sge (>=1.0, <3.0)
+Provides: xsge_path
