@@ -1,0 +1,2 @@
+class TreepConfigFolderNotFound(Exception):
+    pass
