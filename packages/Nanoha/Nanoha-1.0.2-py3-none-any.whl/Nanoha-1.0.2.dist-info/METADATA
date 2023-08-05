@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Nanoha
+Version: 1.0.2
+Summary: Takamachi Nanoha
+Home-page: https://github.com/chunyu-zhang
+Author: Chunyu Zhang
+Author-email: 1821074357@qq.com
+License: MIT Licence
+Keywords: pip,Nanoha
+Platform: any
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+Takamachi Nanoha
+
+
