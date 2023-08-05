@@ -1,0 +1,12 @@
+
+[tests]
+invenio-i18n
+oarepo[tests]
+oarepo-multilingual
+oarepo[tests]~=3.3.0
+
+[tests-es7]
+invenio-i18n
+oarepo[tests]
+oarepo-multilingual
+oarepo[tests-es7]~=3.3.0
