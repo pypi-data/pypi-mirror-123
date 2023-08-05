@@ -1,0 +1,8 @@
+agent.c,sha256=yrbxwIzWIue9sbShbIJQyMC4V4IBnbDwVW28qgJh7Nc,2875
+pyroscope/__init__.py,sha256=Xv3owdoUirAk3JfgTuivh69qMKAgb8or7CZ1azWTWtc,1127
+pyroscope_io/__init__.py,sha256=vs2YETekgOlg7Y7YUFYxb9Fi2Sk1FghmADhMEolM2uE,127
+pyroscope/agent.cpython-39-darwin.so,sha256=pwXVQgBbx6tsJkyE7gQlqZchrYMs-UC8itUHhvjZn-o,17937704
+pyroscope_io-0.4.3.dist-info/LICENSE,sha256=z9T8w4aUv1VpXn1VAvspm4ulyQFTHC1x7PLmTvzu_ZU,11340
+pyroscope_io-0.4.3.dist-info/WHEEL,sha256=naycKaq3sq9LeBN3nxyOzhEJdHJ5Xfb8TIECpa0TfUI,101
+pyroscope_io-0.4.3.dist-info/METADATA,sha256=DwKETbUz9SVG1SqodLyrZNNVvTdz1uwdAns2OPijnG0,2116
+pyroscope_io-0.4.3.dist-info/RECORD,,
