@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ShiningArmor/__init__.py
+ShiningArmor/sqliteDB.py
+ShiningArmor/twitter.py
+ShiningArmor/whatsapp.py
+ShiningArmor.egg-info/PKG-INFO
+ShiningArmor.egg-info/SOURCES.txt
+ShiningArmor.egg-info/dependency_links.txt
+ShiningArmor.egg-info/requires.txt
+ShiningArmor.egg-info/top_level.txt
