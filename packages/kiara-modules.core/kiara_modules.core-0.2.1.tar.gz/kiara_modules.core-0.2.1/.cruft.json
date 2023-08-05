@@ -1,0 +1,19 @@
+{
+  "template": "https://github.com/DHARPA-Project/kiara_modules.project_template.git",
+  "commit": "c037979a3794cf10cae902d5d1517b45171d931f",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Markus Binsteiner",
+      "email": "markus@frkl.io",
+      "project_name": "core",
+      "project_slug": "core",
+      "project_short_description": "Core modules and pipelines for kiara.",
+      "_extensions": [
+        "cookiecutter.extensions.JsonifyExtension"
+      ],
+      "_template": "https://github.com/DHARPA-Project/kiara_modules.project_template.git"
+    }
+  },
+  "directory": null
+}
