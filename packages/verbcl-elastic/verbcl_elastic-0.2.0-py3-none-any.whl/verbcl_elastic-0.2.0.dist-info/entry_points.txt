@@ -1,0 +1,3 @@
+[console_scripts]
+verbcl-elastic=verbcl_elastic.__main__:main
+
