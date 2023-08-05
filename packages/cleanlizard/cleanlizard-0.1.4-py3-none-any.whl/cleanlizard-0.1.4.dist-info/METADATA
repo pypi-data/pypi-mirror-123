@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cleanlizard
+Version: 0.1.4
+Summary: Python library for cleaning CC lizard data
+Home-page: http://pypi.python.org/pypi/cleanlizard/
+Author: Christopher Agard
+Author-email: cragard@gmail.com
+License: ./LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# <i>liz_clean </i>package 
+current version = 0.1.2
+

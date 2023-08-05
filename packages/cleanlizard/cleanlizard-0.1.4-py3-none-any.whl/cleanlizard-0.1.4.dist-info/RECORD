@@ -1,0 +1,14 @@
+cleanlizard/__init__.py,sha256=itkQ4fGOieP-xebHTWSoHavzuvKIM6OrcC93WhHvwaE,18
+cleanlizard/appendstr.py,sha256=CW2b5y21SOueuyCSy919nh2woi1DMQzjSsTZ69EwzRI,1711
+cleanlizard/exportliz.py,sha256=ue8h5sHrpYoLk4t1girosJDcVnivDFbrxtfpt89ERjc,1194
+cleanlizard/getfiles.py,sha256=zLDyDoS3MLZg7C-zbBKc1W9eg6ZYpRh4EyMigh-drU8,4883
+cleanlizard/liz_number.py,sha256=uBNfwHn6x3hWatW5unXs1Gc22Ot2RkGt9SJjdbWjnZs,5316
+cleanlizard/liz_toes.py,sha256=i890b1ZYD7BBj_5eI8RiVZ_RXtEB9vz7UYHuwK87sds,2740
+cleanlizard/monthlit.py,sha256=CQhJnlIugOJixWVBsVbEg-uX-u0pNCGUEnOwOeemx1w,307
+cleanlizard/namefile.py,sha256=SwboGF31xe3Ltx1VmrJJ05mzhl7V0nKo_6hRclCcSLc,1008
+cleanlizard/prettyprint.py,sha256=qD_-u96ysZcABD7N9T5Q0QmxyS1BC97WmcgoK4Jfssc,858
+cleanlizard/summary_functions.py,sha256=8m0ae-Mj6dsuf17PE4I_HSRmoUKuW8z_weoYTllN1-o,1866
+cleanlizard-0.1.4.dist-info/METADATA,sha256=OWdRBZyDQRqdeUJsh3uGf-QuN8OkNeg5mykqxHFrduo,501
+cleanlizard-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cleanlizard-0.1.4.dist-info/top_level.txt,sha256=j6-n1qPBdJ8ASVfqCnAQtEhJnWms8fKDhtQJQLYyi5E,12
+cleanlizard-0.1.4.dist-info/RECORD,,
