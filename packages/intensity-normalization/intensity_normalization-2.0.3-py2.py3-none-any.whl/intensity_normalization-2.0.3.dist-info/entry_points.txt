@@ -1,0 +1,13 @@
+[console_scripts]
+coregister = intensity_normalization.cli:register_main [ants]
+fcm-normalize = intensity_normalization.cli:fcm_main
+kde-normalize = intensity_normalization.cli:kde_main
+lsq-normalize = intensity_normalization.cli:lsq_main
+nyul-normalize = intensity_normalization.cli:nyul_main
+plot-histograms = intensity_normalization.cli:histogram_main
+preprocess = intensity_normalization.cli:preprocessor_main [ants]
+ravel-normalize = intensity_normalization.cli:ravel_main [ants]
+tissue-membership = intensity_normalization.cli:tissue_main
+ws-normalize = intensity_normalization.cli:ws_main
+zscore-normalize = intensity_normalization.cli:zs_main
+
