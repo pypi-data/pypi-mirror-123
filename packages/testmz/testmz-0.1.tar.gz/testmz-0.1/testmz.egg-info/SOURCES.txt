@@ -1,0 +1,7 @@
+setup.py
+testmz/__init__.py
+testmz.egg-info/PKG-INFO
+testmz.egg-info/SOURCES.txt
+testmz.egg-info/dependency_links.txt
+testmz.egg-info/not-zip-safe
+testmz.egg-info/top_level.txt
