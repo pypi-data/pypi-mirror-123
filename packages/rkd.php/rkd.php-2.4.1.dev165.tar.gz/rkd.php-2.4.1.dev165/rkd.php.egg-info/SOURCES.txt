@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+pytest.ini
+requirements-external.txt
+setup.json
+setup.py
+rkd.php.egg-info/PKG-INFO
+rkd.php.egg-info/SOURCES.txt
+rkd.php.egg-info/dependency_links.txt
+rkd.php.egg-info/requires.txt
+rkd.php.egg-info/top_level.txt
+rkd/php/__init__.py
+rkd/php/composer.py
+rkd/php/script.py
