@@ -1,0 +1,330 @@
+{% load static %}
+{% load widget_tweaks %}
+{% load crispy_forms_tags %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+  <head>
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+        <link href="{% static 'css/boot.css' %}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/theme.css' %}">
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.84.0">
+        <title>Nsoft</title>
+
+
+<!--        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">-->
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!--        <link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+        <meta name="theme-color" content="#7952b3">
+        <link rel="stylesheet" media="screen" href="{% static 'css/tiny_slider.css' %}"/>
+        <link rel="stylesheet" media="screen" href="{% static 'css/simple.css' %}"/>
+
+        <link rel="stylesheet" media="screen" href="{% static 'css/theme_min.css' %}">
+
+  </head>
+
+
+<body>
+
+
+
+<main>
+
+<nav class="navbar navbar-light d-block navbar-sticky navbar-expand-lg navbar-light bg-primary navbar-inverse navbar-fixed-topnavbar">
+
+          <div class="collapse navbar-collapse me-auto order-lg-2" id="navbarCollapse">
+
+            <div class="d-lg-none py-3">
+              <div class="input-group"><i class="ci-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <input class="form-control rounded-start" type="text" placeholder="What do you need?">
+              </div>
+            </div>
+
+            <ul class="navbar-nav fixed-top nav-tabs card-header-tabs navbar-expand-lg navbar-light bg-light justify-content-center ml-auto">
+             <li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cuisine</a>
+                <div class="dropdown-menu px-2 ps-0 pb-4 dropdown show">
+                  <div class="d-flex">
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/burger.svg' %}" width="60" alt="Burgers &amp; Fries">
+                          <h6 class="fs-base text-center">Burgers &amp; Fries</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/noodles.svg' %}" width="60" alt="Noodles">
+                          <h6 class="fs-base text-center">Noodles</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/pizza.svg' %}" width="60" alt="Pizza &amp; Pasta">
+                          <h6 class="fs-base text-center">Pizza &amp; Pasta</h6></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" name="cuisine"  href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/steak.svg' %}" width="60" alt="Grill &amp; Steaks">
+                          <h6 class="fs-base text-center">Grill &amp; Steaks</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" name="cuisine" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/fish.svg' %}" width="60" alt="Fish &amp; Seafood">
+                          <h6 class="fs-base text-center">Fish &amp; Seafood</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" name="healthy" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/healthy.svg' %}" width="60" alt="Healthy Food">
+                          <h6 class="fs-base text-center">Healthy Food</h6></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex bg-secondary">
+                    <div class="mega-dropdown-column pt-4 px-3 bg-secondary" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/cuisine.svg' %}" width="60" alt="Haute Cuisine">
+                          <h6 class="fs-base text-center">Haute Cuisine</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/chicken.svg' %}" width="60" alt="Chicken &amp; Snaks">
+                          <h6 class="fs-base text-center">Chicken &amp; Snaks</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/coffee.svg' %}" width="60" alt="Coffee &amp; Desserts">
+                          <h6 class="fs-base text-center">Coffee &amp; Desserts</h6></a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+                </li>
+
+                <li class="nav-item nav-link dropdown-toggle">
+                    Django Project
+                </li>
+
+                <a class="navbar-brand nav-link dropdown-toggle" href="https://docs.djangoproject.com/en/3.2/">
+                    <img src="{% static 'images/django.svg' %}" width="30" height="50" alt="">
+                </a>
+
+                {% if user.is_authenticated %}
+
+                 <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'update_profile' %}"  id="username">{{user.username}}</a>
+                </li>
+                 <li class="nav-item ">
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Account</a>
+
+                  <div class="dropdown-menu px-2 ps-0 pb-4 dropdown show">
+                    <div class="d-flex">
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                            <div class="widget mb-3">
+                                    <a class="d-block" href="{% url 'Password_change' %}" id="password_change">
+                                        <h6 class="fs-base text-center">Password Change</h6>
+                                    </a>
+                                <br>
+                                    <a class="d-block" href="{% url 'update_profile' %}" id="update_profile">
+                                        <h6 class="fs-base text-center">Update Profile</h6>
+                                    </a>
+                                <br>
+                                    <a class="d-block" href="{% url 'Project_idea' %}" id="submit_idea">
+                                        <h6 class="fs-base text-center">Submit Project Idea</h6>
+                                    </a>
+
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+
+                <a class="nav-link dropdown-toggle " href="{% url 'logout' %}" id="logout">Logout</a>
+                </li>
+                {% else %}
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Registration' %}" id="Register">Register</a>
+                </li>
+
+
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Login' %}"  id="login">Login</a>
+                </li>
+
+
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="/admin/login/?next=/admin/" >Admin</a>
+                </li>
+
+                {% endif %}
+
+
+
+
+        </ul>
+        </div>
+
+      </nav>
+
+
+
+
+
+<section class=" bg-darker  bg-size-cover bg-position-center py-5 py-lg-10" style="background-image: url({% static 'images/hero-bg.jpg' %});">
+        <div class="container pb-5">
+          <div class="row justify-content-center pb-5">
+            <div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 text-center">
+              <h5 class="text-light fw-light">#1 Food Delivery Service since 2020</h5>
+              <div class="h1 text-light mb-3 pb-4">We deliver your favorite food fresh &amp; fast in
+                <div class="dropdown d-inline-block ms-1"><a  href="#" data-bs-toggle="dropdown">India</a>
+                    <div class="dropdown-menu dropdown-menu-end">  </div>
+
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </section>
+<section class="container py-4 my-lg-3 py-sm-5" id="cuisine">
+        <h2 class="text-center pt-4 pt-sm-3">Trending food in your city</h2>
+        <p class="text-muted text-center mb-5">Choose what you want and we dilever it to you</p>
+            <div class="album py-5 bg-light">
+                <div class="container">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                      {% for i in all_items %}
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                <a href="{% url 'webapp2:home' %}" name="item_home">
+                                <img src="{{i.item_pic.url}}"  width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" >
+
+                                <div class="card-body py-4 text-center">
+                                <h3 class="h5 mt-1">{{i.item_desc}}</h3>
+                                </div>
+                                </a>
+                                </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                </div>
+            </div>
+</section>
+</main>
+        <section class="bg-primary bg-size-cover bg-position-center pt-5">
+          <div class="container pt-2 pt-sm-0">
+            <div class="row align-items-center">
+              <div class="col-xl-4 col-lg-5 col-sm-6 offset-xl-2 offset-lg-1 mt-md-n5 text-center text-sm-start">
+                <h2 class="text-light mb-3">Order food on the go with Nsoft App</h2>
+                <p class="text-light opacity-70 mb-0 d-block d-sm-none d-md-block">Pay with in app wallet, collect loyalty points, track your orders in real time and much more.</p>
+                    <div class="mt-4 pt-2"><a class="btn-market btn-apple me-3 mb-2" href="" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">App Store</span></a><a class="btn-market btn-google mb-2" href="" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">Google Play</span></a></div>
+              </div>
+                    </q><div class="col-lg-5 col-sm-6 offset-lg-1 pt-5 pt-sm-3">
+                    <img class="d-block mx-auto mx-sm-0" src="{% static 'images/phone.png' %}" width="331" alt="Mobile App Screen"></div>
+              </div>
+          </div>
+        </section>
+
+
+      <section class="container pb-4 pt-lg-5 pb-sm-5">
+        <div class="row pt-4 mt-2 mt-lg-3 mb-md-2">
+          {% for pc in pc_data %}
+          <div class="col-lg-6 mb-grid-gutter">
+            <div class="d-block d-sm-flex justify-content-between align-items-center bg-faded-info rounded-3">
+              <div class="pt-5 py-sm-5 px-4 ps-md-5 pe-md-0 text-center text-sm-start">
+                <h2>{{pc.head}}</h2>
+                <p class="text-muted pb-2">{{pc.desc}}</p><a class="btn btn-primary" href="{% url 'webapp2:home' %}">{{pc.link_text}}</a>
+              </div>
+              <img class="d-block mx-auto mx-sm-0" src="{{pc.pat.url}}" width="272" alt="Become a Courier">
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+
+      <section class="container pb-4 pt-2 pt-sm-0 pt-md-2 pb-sm-5">
+              <h2 class="text-center">Popular restaurants in your city</h2>
+              <p class="text-muted pb-4 text-center">Check the best restaurants near you</p>
+              <div class="row pb-2 pb-sm-5 pb-md-5">
+
+                {% for i in Top %}
+                  <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="{{i.top_img.url}}" style="width: 150px;" alt="Brand"></a></div>
+
+                {% endfor %}
+
+              </div>
+      </section>
+
+
+<footer class="footer bg-darker pt-5">
+      <div class="container pt-2">
+        <div class="row pb-2">
+          <div class="col-lg-2 col-sm-4 pb-2 mb-4">
+ <div class="mt-n1"><img class="d-block mb-4" src="{% static 'images/Logo.png' %}" width="117" alt="Cartzilla"></div>
+            <div class="btn-group dropdown disable-autohide">
+            <ul class="dropdown-menu my-1">
+
+                <li><a class="dropdown-item pb-1" href=""><img class="me-2" src="./saved_resorce_files/fr.png" width="20" alt="Français">Français</a></li>
+                <li><a class="dropdown-item pb-1" href="#"><img class="me-2" src="./saved_resorce_files/de.png" width="20" alt="Deutsch">Deutsch</a></li>
+                <li><a class="dropdown-item" href=""><img class="me-2" src="./saved_resorce_files/it.png" width="20" alt="Italiano">Italiano</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              <h3 class="widget-title text-light">Join us</h3>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-list-link" href="">Careers</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Restaurants</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Become a Courier</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              <h3 class="widget-title text-light">Let us help you</h3>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-list-link" href="">Help Center</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Support</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              <h3 class="widget-title text-light">Follow us</h3>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-list-link" href="">Facebook</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Twitter</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-8">
+            <div class="widget pb-2 mb-4">
+              <h3 class="widget-title text-light pb-1">Download our app</h3>
+              <div class="d-flex flex-wrap"><a class="btn-market btn-apple border border-light me-3 mb-2" href="" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">App Store</span></a><a class="btn-market btn-google border border-light mb-2" href="" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">Google Play</span></a></div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-light mt-md-2 mb-3">
+        <div class="d-md-flex justify-content-between pt-4 pb-1">
+          <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© All rights reserved. Made by Nsoft</a></div>
+          <div class="widget widget-links widget-light pb-4">
+            <ul class="widget-list d-flex flex-wrap justify-content-center justify-content-md-start">
+              <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="">Privacy Policy</a></li>
+              <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="">Terms &amp; Conditions</a></li>
+              <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="">Cookies Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: Nagababu-Django-Webapps
+Version: 0.0.2
+Summary: A Django app to order food items through web either online or offline.
+Home-page: https://github.com/Nagababu995/Django-Food-Webapps
+Author: Upputuri Nagababu
+Author-email: nagababuuupputuri@gmail.com
+License: MIT  # Example license
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Django
+Requires-Dist: crispy
+Requires-Dist: django-crispy-forms
+Requires-Dist: django-widget-tweaks
+Requires-Dist: Pillow
+Requires-Dist: pytest
+Requires-Dist: razorpay
+Requires-Dist: six
+Requires-Dist: selenium
+Requires-Dist: html-testRunner
+
+# Django-Food-Webapps
+  -------------------
+
+
+Nsoft-Food contains three Django apps named as ``webapp1`` , ``webapp2`` , ``webapp3``. 
+``webapp1`` used for Authantication and Autharization 
+``webapp2`` used for navigating Food items
+``webapp3`` used for Adding items to Cart, Remove items from Cart and Payment processing.
+
+
+
+# Quick start
+
+
+1. Add ``webapp1``,``webapp2``,``webapp3`` to your INSTALLED_APPS setting like this::
+    
+    INSTALLED_APPS = [
+        		...
+     			``webapp1``,
+     			``webapp2``,
+     			``webapp3``,
+                        ``widget_tweaks``,
+                        ``crispy_forms``,  
+   	            ]
+    
+
+2. Include the every app URLconf in your project urls.py like this
+       
+      urlpatterns = [
+    			path('food/',include(``webapp1.urls``)),
+    			path('items/',include(``webapp2.urls``)),
+    			path('order_items/',include(``webapp3.urls``)),
+		     ]
+      
+
+3. Run ``python manage.py migrate`` to create the ``webapp1`` , ``webapp2`` , ``webapp3``  models.
+
+4. Start the development server and visit http://127.0.0.1:8000/admin/
+   to create a those three apps (you'll need the Admin app enabled).
+   - create a admin 
+   	-- python manage.py createsuperuser
+
+5. Visit http://127.0.0.1:8000/food/Registration/ to create a Registration 
+6. Visit http://127.0.0.1:8000/food/Login/  Navigates to the Login interface.
+7. Detail documentation [click here](https://github.com/Nagababu91768/Django-Food-Web-Application#readme)
+
+

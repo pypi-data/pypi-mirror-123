@@ -1,0 +1,184 @@
+{% load static %}
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nsoft</title>
+
+    <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
+    <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
+    <meta name="author" content="Createx Studio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" href="{% static 'css/bootstrap.css.min' %}">
+    <link rel="stylesheet" media="screen" href="{% static 'css/simplebar.min.css' %}"/>
+    <link rel="stylesheet" media="screen" href="{% static 'css/theme.min.css' %}"/>
+    <link rel="stylesheet" media="screen" href="{% static 'css/tiny-slider.css' %}">
+
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+
+
+<body>
+
+
+<main id="content">
+
+
+ <nav class="navbar navbar-light d-block navbar-sticky navbar-expand-lg navbar-light bg-primary navbar-inverse navbar-fixed-topnavbar>
+">
+<!--        <div class="container"><a class="navbar-brand d-none d-sm-block me-4 order-lg-1" href="index.html"><img src="img/logo-dark.png" width="142" alt="Cartzilla"></a><a class="navbar-brand d-sm-none me-2 order-lg-1" href="index.html"><img src="img/logo-icon.png" width="74" alt="Cartzilla"></a>-->
+
+          <div class="collapse navbar-collapse me-auto order-lg-2" id="navbarCollapse">
+            <!-- Search (mobile)-->
+            <div class="d-lg-none py-3">
+              <div class="input-group"><i class="ci-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <input class="form-control rounded-start" type="text" placeholder="What do you need?">
+              </div>
+            </div>
+
+            <ul class="navbar-nav fixed-top nav-tabs card-header-tabs navbar-expand-lg navbar-light bg-light justify-content-center ml-auto">
+<!--                <p class="mt-n1"><img class="d-block mb-4" src="{% static 'images/Logo.png' %}" width="117" alt="Cartzilla"></p>-->
+              <li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cuisine</a>
+                <div class="dropdown-menu px-2 ps-0 pb-4 dropdown show">
+                  <div class="d-flex">
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/burger.svg' %}" width="60" alt="Burgers &amp; Fries">
+                          <h6 class="fs-base text-center">Burgers &amp; Fries</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/noodles.svg' %}" width="60" alt="Noodles">
+                          <h6 class="fs-base text-center">Noodles</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/pizza.svg' %}" width="60" alt="Pizza &amp; Pasta">
+                          <h6 class="fs-base text-center">Pizza &amp; Pasta</h6></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/steak.svg' %}" width="60" alt="Grill &amp; Steaks">
+                          <h6 class="fs-base text-center">Grill &amp; Steaks</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/fish.svg' %}" width="60" alt="Fish &amp; Seafood">
+                          <h6 class="fs-base text-center">Fish &amp; Seafood</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/healthy.svg' %}" width="60" alt="Healthy Food">
+                          <h6 class="fs-base text-center">Healthy Food</h6></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex bg-secondary">
+                    <div class="mega-dropdown-column pt-4 px-3 bg-secondary" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/cuisine.svg' %}" width="60" alt="Haute Cuisine">
+                          <h6 class="fs-base text-center">Haute Cuisine</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/chicken.svg' %}" width="60" alt="Chicken &amp; Snaks">
+                          <h6 class="fs-base text-center">Chicken &amp; Snaks</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/coffee.svg' %}" width="60" alt="Coffee &amp; Desserts">
+                          <h6 class="fs-base text-center">Coffee &amp; Desserts</h6></a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+                </li>
+
+                <li class="nav-item nav-link dropdown-toggle">
+                    Django Project
+                </li>
+
+                <a class="navbar-brand nav-link dropdown-toggle" href="https://docs.djangoproject.com/en/3.2/">
+                    <img src="{% static 'images/django.svg' %}" width="30" height="50" alt="">
+                </a>
+
+                {% if user.is_authenticated %}
+
+                 <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Login' %}" >{{user.username}}</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'home' %}" >Home</a>
+                </li>
+
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'webapp3:home' %}" >Edit order</a>
+                </li>
+
+                {% else %}
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Registration' %}" >Register</a>
+                </li>
+
+
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Login' %}" >Login</a>
+                </li>
+
+                {% endif %}
+
+
+
+
+        </ul>
+        </div>
+
+      </nav>
+
+
+<!--    <div class='content'>-->
+<!-- <ul class='messagelist'>-->
+<!--   <li class='alert-success'>-->
+<!--       <div class="container">-->
+<!--        {% for message in messages %}-->
+<!--                <div {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}-->
+<!--                    {% endfor %}-->
+
+<!--                </div>-->
+<!--           </div>-->
+<!--         </li>-->
+
+<!--</ul>-->
+<!--</div>-->
+
+<div class="mt-5">
+    {% for message in messages %}
+<div class="container-fluid p-0">
+  <div class="alert {{ message.tags }} " role="alert" >
+      {{ message }}
+
+
+  </div>
+</div>
+{% endfor %}
+     </div>
+
+
+    <form action="{% url 'home' %}" method="post">
+    <section class=" bg-darker  bg-size-cover bg-position-center py-5 py-lg-10" >   <div class="container pb-5">
+          <div class="row justify-content-center pb-5">
+            <div class="col-xl-6 col-lg-9 col-md-8 col-sm-10 text-center">
+              <h5 class="text-light fw-light"></h5>
+              <div class="h1 text-light mb-3 pb-4">
+               <center><p> Please confirm Email </p></center>
+              </div>
+            </div>
+          </div></div>
+    </section>
+    </form>
+</main>
+</body>
+</html>

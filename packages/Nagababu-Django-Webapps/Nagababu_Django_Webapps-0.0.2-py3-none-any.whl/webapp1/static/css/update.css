@@ -1,0 +1,260 @@
+.yek-app__profile {
+  @include yek-flex(column);
+  @include yek-width(100vw);
+  @include yek-height($min: 100vh);
+}
+
+// app
+.yek-app {
+  & {
+    @include yek-size;
+    @include yek-aligns;
+    @include yek-flex;
+  }
+
+  &__ctrl,
+  &__themes {
+    position: fixed;
+    top: 18px;
+    left: 18px;
+  }
+  &__ctrl {
+    display: none;
+  }
+  &__toggle {
+    @include --clear-btn;
+    padding: 9px;
+    border-radius: 9px;
+    background: #333;
+    color: #cfcfcf;
+    cursor: pointer;
+    span {
+      margin-left: 4px;
+    }
+    &:hover {
+      box-shadow: 0 0 0 9px #ccc;
+    }
+    &:active {
+      transform: scale(0.9);
+      box-shadow: none;
+    }
+  }
+
+  &__themes {
+    @include yek-flex(column);
+    @include yek-aligns(space-around);
+    @include case(title);
+
+    font-size: 1.1rem;
+    padding: 6px;
+    border-radius: 9px;
+    text-align: center;
+    background: #222;
+    color: #fff;
+
+    label {
+      margin: 21px 8px;
+      font-size: 1rem;
+    }
+    label span {
+      padding: 9px;
+      border-radius: 9px;
+      cursor: pointer;
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked ~ span {
+      box-shadow: 0 0 0 2px #c63;
+    }
+    span:hover {
+      box-shadow: 0 0 0 1px #fff;
+    }
+    span:active {
+      box-shadow: 0 0 0 6px #d96;
+    }
+  }
+}
+// themes
+
+/* default */
+.yek-profile {
+  & {
+    @include yek-flex(column);
+    @include yek-align;
+    flex: 1;
+  }
+  &__name {
+    margin: 10px 0;
+  }
+  &__city {
+    @include case(upper);
+    margin: 5px 0;
+  }
+  &__description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__card {
+    @include yek-width(350px, 100%);
+    position: relative;
+    padding-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  }
+  &__pro {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  &__pic {
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 7px;
+  }
+
+  &__button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.5;
+    }
+    &:not(&--primary) {
+      background-color: transparent !important;
+    }
+  }
+
+  &__skills {
+    padding: 12px 6px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  &__skills_title {
+    @include case(upper);
+    padding: 0 7px;
+    margin: 18px 0;
+  }
+  &__skills_items {
+    @include --clear-list;
+  }
+  &__skills_item {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 0 5px 5px;
+    padding: 7px;
+    font-size: 12px;
+  }
+}
+
+/* violet */
+.yek-profile {
+  &--theme_violet {
+    background-color: #28223f;
+  }
+  &--theme_violet &__card {
+    background-color: #231e39; // same-1
+    color: #b3b8cd;
+  }
+  &--theme_violet &__pic {
+    border-color: #03bfcb; // same-2
+  }
+  &--theme_violet &__pro {
+    color: #231e39; // same-1
+    background-color: #febb0b;
+  }
+  &--theme_violet &__button {
+    &--primary {
+      background-color: #03bfcb; // same-2
+      color: #231e39; // same-1
+    }
+    border-color: #03bfcb; // same-2
+    color: #02899c;
+  }
+  &--theme_violet &__skills {
+    background: #1f1a36;
+  }
+  &--theme_violet &__skills_item {
+    border-color: #2d2747;
+  }
+}
+
+/* dark */
+.yek-profile {
+  &--theme_dark {
+    background-color: #1c1c1c;
+  }
+  &--theme_dark &__card {
+    background-color: #313131;
+    color: #d3d3d3;
+  }
+  &--theme_dark &__pic {
+    border-color: #d3d3d3;
+  }
+  &--theme_dark &__pro {
+    color: #1c1c1c;
+    background: #fff;
+  }
+  &--theme_dark &__button {
+    &--primary {
+      background-color: #febb0b;
+      color: #1c1c1c;
+    }
+    border-color: #febb0b;
+    color: #febb0b;
+  }
+  &--theme_dark &__skills {
+    background: #1c1c1c;
+  }
+  &--theme_dark &__skills_item {
+    border-color: #343434;
+  }
+}
+
+/* light */
+
+.yek-profile {
+  &--theme_light {
+    background-color: #cecece;
+  }
+  &--theme_light &__card {
+    background-color: #fff;
+    color: #313131;
+  }
+  &--theme_light &__pic {
+    border-color: #d3d3d3;
+  }
+  &--theme_light &__pro {
+    color: #fff;
+    background: #1c1c1c;
+  }
+  &--theme_light &__button {
+    &--primary {
+      background-color: #febb0b;
+      border-color: #febb0b;
+      color: #1c1c1c;
+    }
+    border-color: #d3d3d3;
+    color: #313131;
+  }
+  &--theme_light &__skills {
+    background: #1c1c1c;
+    color: #a0a0a0;
+  }
+  &--theme_light &__skills_item {
+    border-color: #343434;
+  }
+}

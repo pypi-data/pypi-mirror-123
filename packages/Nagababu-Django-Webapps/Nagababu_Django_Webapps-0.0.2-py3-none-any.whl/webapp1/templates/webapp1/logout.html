@@ -1,0 +1,224 @@
+
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+{% load static %}
+  <head>
+      <link href="{% static 'css/boot.css' %}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="{% static 'css/theme.css' %}">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="generator" content="Hugo 0.84.0">
+      <title>Nsoft</title>
+
+      <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+
+
+      <meta name="theme-color" content="#7952b3">
+      <link href="{% static 'css/brands.2c303be1.css' %}" rel="stylesheet">
+      <link href="{% static 'css/fontawesome.6002a161.css' %}" rel="stylesheet">
+      <link href="{% static 'css/regular.98fbf39a.css' %}" rel="stylesheet">
+      <link href="{% static 'css/solid.c3b5f0b5.css' %}" rel="stylesheet">
+      <link href="{% static 'css/warehouse-ltr.089ce615.css' %}" rel="stylesheet">
+      <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+      <link rel="stylesheet" media="screen" href="{% static 'css/tiny_slider.css' %}"/>
+      <link rel="stylesheet" media="screen" href="{% static 'css/simple.css' %}"/>
+    <!-- Main Theme Styles + Bootstrap-->
+     <link rel="stylesheet" media="screen" href="{% static 'css/theme_min.css' %}">
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+
+
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+  </head>
+
+
+  <body>
+
+
+<main>
+<nav class="navbar navbar-light d-block navbar-sticky navbar-expand-lg navbar-light bg-primary navbar-inverse navbar-fixed-topnavbar>
+">
+<!--        <div class="container"><a class="navbar-brand d-none d-sm-block me-4 order-lg-1" href="index.html"><img src="img/logo-dark.png" width="142" alt="Cartzilla"></a><a class="navbar-brand d-sm-none me-2 order-lg-1" href="index.html"><img src="img/logo-icon.png" width="74" alt="Cartzilla"></a>-->
+
+          <div class="collapse navbar-collapse me-auto order-lg-2" id="navbarCollapse">
+            <!-- Search (mobile)-->
+            <div class="d-lg-none py-3">
+              <div class="input-group"><i class="ci-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <input class="form-control rounded-start" type="text" placeholder="What do you need?">
+              </div>
+            </div>
+
+            <ul class="navbar-nav fixed-top nav-tabs card-header-tabs navbar-expand-lg navbar-light bg-light justify-content-center ml-auto">
+<!--                <p class="mt-n1"><img class="d-block mb-4" src="{% static 'images/Logo.png' %}" width="117" alt="Cartzilla"></p>-->
+              <li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cuisine</a>
+                <div class="dropdown-menu px-2 ps-0 pb-4 dropdown show">
+                  <div class="d-flex">
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/burger.svg' %}" width="60" alt="Burgers &amp; Fries">
+                          <h6 class="fs-base text-center">Burgers &amp; Fries</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/noodles.svg' %}" width="60" alt="Noodles">
+                          <h6 class="fs-base text-center">Noodles</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/pizza.svg' %}" width="60" alt="Pizza &amp; Pasta">
+                          <h6 class="fs-base text-center">Pizza &amp; Pasta</h6></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/steak.svg' %}" width="60" alt="Grill &amp; Steaks">
+                          <h6 class="fs-base text-center">Grill &amp; Steaks</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/fish.svg' %}" width="60" alt="Fish &amp; Seafood">
+                          <h6 class="fs-base text-center">Fish &amp; Seafood</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/healthy.svg' %}" width="60" alt="Healthy Food">
+                          <h6 class="fs-base text-center">Healthy Food</h6></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex bg-secondary">
+                    <div class="mega-dropdown-column pt-4 px-3 bg-secondary" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/cuisine.svg' %}" width="60" alt="Haute Cuisine">
+                          <h6 class="fs-base text-center">Haute Cuisine</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/chicken.svg' %}" width="60" alt="Chicken &amp; Snaks">
+                          <h6 class="fs-base text-center">Chicken &amp; Snaks</h6></a></div>
+                    </div>
+                    <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                      <div class="widget mb-3"><a class="d-block" href=""><img class="d-block mx-auto mb-3" src="{% static 'images/coffee.svg' %}" width="60" alt="Coffee &amp; Desserts">
+                          <h6 class="fs-base text-center">Coffee &amp; Desserts</h6></a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+                </li>
+
+                <li class="nav-item nav-link dropdown-toggle">
+                    Django Project
+                </li>
+
+                <a class="navbar-brand nav-link dropdown-toggle" href="https://docs.djangoproject.com/en/3.2/">
+                    <img src="{% static 'images/django.svg' %}" width="30" height="50" alt="">
+                </a>
+
+                {% if user.is_authenticated %}
+
+                 <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Login' %}" >{{user.username}}</a>
+                </li>
+                 <li class="nav-item ">
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Account</a>
+
+                  <div class="dropdown-menu px-2 ps-0 pb-4 dropdown show">
+                    <div class="d-flex">
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                            <div class="widget mb-3">
+                                    <a class="d-block" href="{% url 'Password_change' %}">
+                                        <h6 class="fs-base text-center">Password Change</h6>
+                                    </a>
+                                <br>
+                                    <a class="d-block" href="">
+                                        <h6 class="fs-base text-center">Update Profile</h6>
+                                    </a>
+                                <br>
+                                    <a class="d-block" href="{% url 'Project_idea' %}">
+                                        <h6 class="fs-base text-center">Submit Project Idea</h6>
+                                    </a>
+
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+
+                <a class="nav-link dropdown-toggle " href="{% url 'logout' %}" >Logout</a>
+                </li>
+                {% else %}
+
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'home' %}" >Home</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Registration' %}" >Register</a>
+                </li>
+
+
+                <li class="nav-item ">
+                <a class="nav-link dropdown-toggle " href="{% url 'Login' %}" >Login</a>
+                </li>
+
+                {% endif %}
+
+
+
+
+        </ul>
+        </div>
+
+      </nav>
+
+
+<div class="horizontal-section">
+<div class="site-container">
+    <h1 class="page-title"></h1>
+<div class="callout-block callout-block--success">
+
+    <h2 class="callout-block__heading">Logged out </h2>
+   </p>Thanks for spending some quality time with the Web site today.</p>
+
+
+</div>
+</div>
+</div>
+</main>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

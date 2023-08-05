@@ -1,0 +1,24 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("login.jpg");
+
+  /* Control the height of the image */
+  min-height: 480px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+/*  background-repeat: no-repeat;*/
+  background-size: cover;
+  /*position: relative;
+}
+
+
+

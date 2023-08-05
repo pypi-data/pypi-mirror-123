@@ -1,0 +1,334 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nsoft</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/theme.min.css' %}">
+        <link rel="stylesheet" href="{%  static 'css/navbar.scss' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
+        <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
+        <meta name="author" content="Createx Studio">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" color="#fe6a6a" href="{% static 'images/safari-pinned-tab.svg' %}">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" media="screen" href="{% static 'css/simplebar.min.css' %}"/>
+        <link rel="stylesheet" media="screen" href="{% static 'css/theme.min.css' %}"/>
+        <link rel="stylesheet" media="screen" href="{% static 'css/tiny-slider.css' %}">
+
+        <script>
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-WKV3GT5');
+        </script>
+  </head>
+
+  <body class="handheld-toolbar-enabled">
+    <noscript>
+      <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+
+
+    <main class="page-wrapper">
+    <header class="navbar d-block navbar-sticky navbar-expand-lg navbar-light bg-light">
+
+         <div class="container">
+                  <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+                    <div class="navbar-tool dropdown ms-3">
+
+                        <a class="navbar-tool-icon-box bg-secondary dropdown-toggle " href="{% url 'webapp3:Cart' %}">
+                            <span class="navbar-tool-label">{{num_of_orders}}</span>
+                            <img src="{% static 'images/cart-check.svg' %}" width="40px" height="50px">
+        <!--                        <img src="{% static 'images/cart-check-fill.svg' %}" width="40px" height="50px">-->
+                                <i class="bi bi-cart-check-fill"></i>
+        <!--                    <i class="bi bi-cart-check-fill"></i>-->
+                        </a>
+                      <div class="dropdown-menu dropdown-menu-end">
+                        <div class="widget widget-cart px-3 pt-2 pb-3" style="width: 20rem;">
+                          <div style="height: 15rem;" data-simplebar data-simplebar-auto-hide="false">
+
+                              {% for i in all_items %}
+
+
+                                        <div class="widget-cart-item py-2 border-bottom">
+                                          <a class="btn-close text-danger" href="{{ i.get_absolute_url_delete }}" aria-label="Remove">
+                                              <span aria-hidden="true">&times;</span>
+                                          </a>
+                                          <div class="d-flex align-items-center">
+                                              <a class="d-block" href="#">
+                                                  <img src="{{i.item_image.url}}" width="64" name="items" alt="Pizza">
+                                              </a>
+                                                    <div class="ps-2">
+                                                        <h6 class="widget-product-title">
+                                                            <a href="#">{{i.item_title}}</a>
+                                                            </h6>
+                                                        <div class="widget-product-meta">
+                                                            <span class="text-accent me-2">${{i.item_price}}.</span>
+                                                            <span class="text-muted">x {{i.item_quantity}}</span>
+                                                        </div>
+                                                    </div>
+                                          </div>
+                                        </div>
+
+
+                            {% endfor %}
+
+                          </div>
+
+
+
+
+                          <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                            <div class="fs-sm me-2 py-2"><span class="text-muted">Total:</span><span class="text-accent fs-base ms-1">${{Total_cost}}.</span></div>
+                          </div><a class="btn btn-primary btn-sm d-block w-100" href="{% url 'webapp3:Cart' %}"></i>Checkout</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cuisine</a>
+                        <div class="dropdown-menu px-2 ps-0 pb-4">
+                          <div class="d-flex">
+                            <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                              <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/burger.svg' %}" width="60" alt="Burgers &amp; Fries">
+                                  <h6 class="fs-base text-center">Burgers &amp; Fries</h6></a></div>
+                            </div>
+                            <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/noodles.svg' %}" width="60" alt="Noodles">
+                              <h6 class="fs-base text-center">Noodles</h6></a></div>
+                        </div>
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/pizza.svg' %}" width="60" alt="Pizza &amp; Pasta">
+                              <h6 class="fs-base text-center">Pizza &amp; Pasta</h6></a></div>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/steak.svg' %}" width="60" alt="Grill &amp; Steaks">
+                              <h6 class="fs-base text-center">Grill &amp; Steaks</h6></a></div>
+                        </div>
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/fish.svg' %}" width="60" alt="Fish &amp; Seafood">
+                              <h6 class="fs-base text-center">Fish &amp; Seafood</h6></a></div>
+                        </div>
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/healthy.svg' %}" width="60" alt="Healthy Food">
+                              <h6 class="fs-base text-center">Healthy Food</h6></a></div>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/cuisine.svg' %}" width="60" alt="Haute Cuisine">
+                              <h6 class="fs-base text-center">Haute Cuisine</h6></a></div>
+                        </div>
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/chicken.svg' %}" width="60" alt="Chicken &amp; Snaks">
+                              <h6 class="fs-base text-center">Chicken &amp; Snaks</h6></a></div>
+                        </div>
+                        <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                          <div class="widget mb-3"><a class="d-block" href="{% url 'webapp2:home' %}"><img class="d-block mx-auto mb-3" src="{% static 'images/coffee.svg' %}" width="60" alt="Coffee &amp; Desserts">
+                              <h6 class="fs-base text-center">Coffee &amp; Desserts</h6></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                    {% if user.is_authenticated %}
+
+                    <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle " href="{% url 'home' %}" >Home</a>
+                    </li>
+                     <li class="nav-item ">
+
+                    <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle " href="{% url 'Login' %}" >{{user.username}}</a>
+                    </li>
+                     <li class="nav-item ">
+
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Account</a>
+
+                      <div class="dropdown-menu px-2 ps-0 pb-4 dropdown show">
+                        <div class="d-flex">
+                            <div class="mega-dropdown-column pt-4 px-3" style="width: 12rem;">
+                                <div class="widget mb-3">
+                                        <a class="d-block" href="{% url 'Password_change' %}">
+                                            <h6 class="fs-base text-center">Password Change</h6>
+                                        </a>
+                                    <br>
+                                        <a class="d-block" href="{% url 'update_profile' %}">
+                                            <h6 class="fs-base text-center">Update Profile</h6>
+                                        </a>
+                                    <br>
+                                        <a class="d-block" href="{% url 'Project_idea' %}">
+                                            <h6 class="fs-base text-center">Submit Project Idea</h6>
+                                        </a>
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <a class="nav-link dropdown-toggle " href="{% url 'logout' %}" >Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle " href="{% url 'Registration' %}" >Register</a>
+                    </li>
+
+                    <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle " href="{% url 'Login' %}" >Login</a>
+                    </li>
+
+                    {% endif %}
+
+                </ul>
+              </div>
+            </div>
+      </header>
+
+
+              <section class="bg-darker bg-size-cover bg-position-center py-5" style="background-image: url({% static 'images/page-title.jpg' %});">
+        <div class="container py-md-4">
+          <nav aria-label="breadcrumb">
+
+          </nav>
+          <h1 class="text-light text-center text-lg-start pt-3">Burgers &amp; Fries</h1>
+        </div>
+      </section>
+      <!-- Categories-->
+      <section class="bg-secondary py-4">
+        <div class="container" data-simplebar>
+
+
+
+          <div class="d-flex justify-content-between">
+              {% for i in page_items %}
+
+              <a class="d-block py-3 pe-sm-3 pe-lg-5 me-5" href="">
+                  <img class="d-block mx-auto mb-3" src="{{i.item_pic.url}}" width="60" alt="Noodles">
+              <h6 class="fs-base text-center text-nowrap">{{i.item_text}}</h6>
+              </a>
+              {% endfor %}
+          </div>
+
+
+
+
+        </div>
+      </section>
+      <!-- Items grid-->
+      <section class="container py-4 py-sm-5">
+
+        <div class="row pt-3 pt-sm-0">
+            {% for i in item_data %}
+              <div class="col-md-4 col-sm-6 mb-grid-gutter">
+                  <a class="card product-card h-100 border-0 shadow pb-2" href="{% url 'webapp3:home' %}">
+                      <span class="badge badge-end badge-shadow bg-success fs-md fw-medium" data-bs-toggle="tooltip" title="Average meal cost">AMC:${{i.item_cost}}</span>
+                        <img class="card-img-top" src="{{i.item_image.url}}" alt="McDonald's">
+                        <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;">
+                            <img class="d-block rounded-3 mx-auto" src="{{i.item_logo.url}}" width="150" alt="Brand"></div>
+                            <div class="card-body text-center pt-3 pb-4">
+                                <h3 class="h5 mb-2">{{i.logo_desc}}</h3>
+                            <div class="fs-ms text-muted">{{i.item_desc}}</div>
+                        </div>
+                  </a>
+              </div>
+            {% endfor %}
+
+        </div>
+      </section>
+    </main>
+
+<footer class="footer bg-darker pt-5">
+      <div class="container pt-2">
+        <div class="row pb-2">
+          <div class="col-lg-2 col-sm-4 pb-2 mb-4">
+ <div class="mt-n1"><img class="d-block mb-4" src="{% static 'images/Logo.png' %}" width="117" alt="Cartzilla"></div>
+            <div class="btn-group dropdown disable-autohide">
+<!--              <button class="btn btn-outline-light border-light btn-sm dropdown-toggle px-2" type="button" data-bs-toggle="dropdown"><img class="me-2" src="./saved_resorce_files/en.png" width="20" alt="English">Eng / $</button>-->
+              <ul class="dropdown-menu my-1">
+
+                <li><a class="dropdown-item pb-1" href=""><img class="me-2" src="./saved_resorce_files/fr.png" width="20" alt="Français">Français</a></li>
+                <li><a class="dropdown-item pb-1" href="#"><img class="me-2" src="./saved_resorce_files/de.png" width="20" alt="Deutsch">Deutsch</a></li>
+                <li><a class="dropdown-item" href=""><img class="me-2" src="./saved_resorce_files/it.png" width="20" alt="Italiano">Italiano</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              <h3 class="widget-title text-light">Join us</h3>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-list-link" href="">Careers</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Restaurants</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Become a Courier</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              <h3 class="widget-title text-light">Let us help you</h3>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-list-link" href="">Help Center</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Support</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              <h3 class="widget-title text-light">Follow us</h3>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-list-link" href="">Facebook</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Twitter</a></li>
+                <li class="widget-list-item"><a class="widget-list-link" href="">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-8">
+            <div class="widget pb-2 mb-4">
+              <h3 class="widget-title text-light pb-1">Download our app</h3>
+              <div class="d-flex flex-wrap"><a class="btn-market btn-apple border border-light me-3 mb-2" href="" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">App Store</span></a><a class="btn-market btn-google border border-light mb-2" href="https://cartzilla.createx.studio/home-food-delivery.html#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">Google Play</span></a></div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-light mt-md-2 mb-3">
+        <div class="d-md-flex justify-content-between pt-4 pb-1">
+          <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© All rights reserved. Made by Nsoft</a></div>
+          <div class="widget widget-links widget-light pb-4">
+            <ul class="widget-list d-flex flex-wrap justify-content-center justify-content-md-start">
+              <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="">Privacy Policy</a></li>
+              <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="">Terms &amp; Conditions</a></li>
+              <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="">Cookies Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toolbar for handheld devices (Food delivery)-->
+    <div class="handheld-toolbar">
+      <div class="d-table table-layout-fixed w-100"><a class="d-table-cell handheld-toolbar-item" href="#signin-modal" data-bs-toggle="modal"><span class="handheld-toolbar-icon"><i class="ci-user"></i></span><span class="handheld-toolbar-label">Account</span></a><a class="d-table-cell handheld-toolbar-item" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" onclick="window.scrollTo(0, 0)"><span class="handheld-toolbar-icon"><i class="ci-menu"></i></span><span class="handheld-toolbar-label">Menu</span></a><a class="d-table-cell handheld-toolbar-item" href="food-delivery-cart.html"><span class="handheld-toolbar-icon"><i class="ci-cart"></i><span class="badge bg-primary rounded-pill ms-1">3</span></span><span class="handheld-toolbar-label">${{Total_cost}}.00</span></a></div>
+    </div>
+    <!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ci-arrow-up">   </i></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  text-align: center;
+  place-items: center;
+  background-color: #dde1e7;
+}
+
+.contact {
+  margin:0 auto;
+  width: 330px;
+  padding: 40px 30px;
+  background-color: #dde1e7;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.contact .text {
+  font-size: 33px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  color: #595959;
+}
+
+.fild {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+.fild:nth-child(2) {
+  margin-top: 20px;
+}
+
+.fild input {
+  width: 100%;
+  height: 100%;
+  padding-left: 45px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #595959;
+  background-color: #dde1e7;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+
+.fild input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff73;
+}
+
+.fild span {
+  width: 50px;
+  color: #595959;
+  position: absolute;
+  line-height: 50px;
+}
+
+.fild label {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  left: 45px;
+  pointer-events: none;
+  color: #666;
+}
+
+.fild input:valid ~ label {
+  opacity: 0;
+}
+
+.forget-pass{
+    margin-top:20px;
+}
+
+.forget-pass a {
+  color: #3498db;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forget-pass:hover a {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #595959;
+  background-color: #dde1e7;
+  box-shadow:
+    inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+}
+
+button:focus {
+  color: #3498db;
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff73;
+}
+
+.signup {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #595959;
+}
+
+.signup a {
+  color: 3498db;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
