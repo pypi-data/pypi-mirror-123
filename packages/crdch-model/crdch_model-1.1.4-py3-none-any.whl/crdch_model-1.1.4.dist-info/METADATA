@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: crdch-model
+Version: 1.1.4
+Summary: CRDC-H model in LinkML, developed by the Center for Cancer Data Harmonization (CCDH). This Python package contains the dataclasses necessary to build and operate over data objects according to the CRDC-H model.
+License: MIT
+Author: Mark A. Miller
+Author-email: MAM@lbl.gov
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: linkml-runtime (>=1.1.2,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/cancerDHC/ccdhmodel/issues
+Project-URL: CCDH Website, https://ccdh.cancer.gov
+Project-URL: CCDH Model, https://cancerdhc.github.io/ccdhmodel/
+Project-URL: GitHub Repository, https://github.com/cancerDHC/ccdhmodel/
+Description-Content-Type: text/markdown
+
+# crdch\_model Python Data Classes
+
+An important artifact generated in this repository are Python Data Classes
+that can be used to load, validate or transform CRDCH Instance Data. These
+are published to the Python Package Index as 
+[crdch\_model](https://pypi.org/project/crdch-model/).
+
