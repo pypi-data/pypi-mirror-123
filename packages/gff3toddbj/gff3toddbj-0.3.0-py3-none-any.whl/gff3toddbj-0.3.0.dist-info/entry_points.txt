@@ -1,0 +1,8 @@
+[console_scripts]
+compare-ddbj = gff3toddbj.evaluate:main
+genbank-to-ddbj = gff3toddbj.genbank_to_ddbj:main
+gff3-to-ddbj = gff3toddbj:main
+list-products = tools.list_products:main
+normalize-entry-names = tools.normalize_seqids:main
+split-fasta = tools.splitfasta:main
+
