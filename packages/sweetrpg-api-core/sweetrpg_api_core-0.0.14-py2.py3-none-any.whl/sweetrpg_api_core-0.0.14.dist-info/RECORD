@@ -1,0 +1,13 @@
+sweetrpg_api_core/__init__.py,sha256=5Jz3MYSCout7elih6tjkJkfwcO1XK0xGYZ0sx1BnuM8,392
+sweetrpg_api_core/data.py,sha256=rxiQmMH45ZLAksScaHSBgONsDaNgsQSry4cXoysIRBo,27772
+sweetrpg_api_core/errors.py,sha256=U_7Z_FvzwcdvnqFUeln50X6OKBwkTPtQxW4e-O0jIqc,798
+sweetrpg_api_core/blueprints/__init__.py,sha256=-aZck5Mj_bhTjywk0RQsOjeBg88ZJ9bMT4Lu2tN3xy4,81
+sweetrpg_api_core/blueprints/health/__init__.py,sha256=URYBX_kcaiZCqXXprG_Ez1aXRKZe_QDEx4EVnbaCyGQ,582
+sweetrpg_api_core/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sweetrpg_api_core/schema/base.py,sha256=fRN59j8vO4nN4EFuBO3bMYcWhWkVxZw6gGNoCGhEMAY,644
+sweetrpg_api_core-0.0.14.dist-info/LICENSE,sha256=l9scQGsqoUwsODCDicrQeU-CHjRnoRzEw_Fe2hO5kW8,1065
+sweetrpg_api_core-0.0.14.dist-info/METADATA,sha256=Dcs_C9zO39sDR268XI4r4nsFiZ7Z80jcnNFAVOgRn_Y,2117
+sweetrpg_api_core-0.0.14.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sweetrpg_api_core-0.0.14.dist-info/entry_points.txt,sha256=rekvkxEVMBnk4ZZS9QvHx0_XcxzkAhxl4bRqDhUxOYk,66
+sweetrpg_api_core-0.0.14.dist-info/top_level.txt,sha256=Q-JbtlBhqftTeiRvfwaMAS_JLQuxQwADZ0JCTxN6_a8,18
+sweetrpg_api_core-0.0.14.dist-info/RECORD,,
