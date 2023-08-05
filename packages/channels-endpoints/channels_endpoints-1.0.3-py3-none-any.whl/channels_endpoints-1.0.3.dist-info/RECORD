@@ -1,0 +1,12 @@
+channels_endpoints/__init__.py,sha256=L_0kLE479p7xua4yk9-TKF9RIMjcgAuKOAJnLSqyPnk,55
+channels_endpoints/apps.py,sha256=UP7caoCTi-5CwQD0QG06wGA4ZTpUGBcCdkIqU-BNMlE,111
+channels_endpoints/auth.py,sha256=Kp5mTFGh2RbqC4R-OoFmrPwtdGpqm0LyNbP_Noh5BT8,277
+channels_endpoints/client.py,sha256=3yY7OkkxSnzHBBEbNfsPEypDMOuia4Hbggi1Zhl-qcc,6025
+channels_endpoints/exceptions.py,sha256=xxyQK_mW1O6f0zCiuu2dNuGj7UlYoi-1pKEG1eMDUdE,739
+channels_endpoints/main.py,sha256=50fELbn-OipkbEg-U_FZ4EbLtOtSfLr1JJQenojVE5c,18883
+channels_endpoints/utils.py,sha256=yeakW54UqNK8WjurG8CdkTEn_8aFBJsYIsop-dFjQIA,693
+channels_endpoints-1.0.3.dist-info/LICENSE,sha256=M29o8CbswSGl3EO05uHFv0ZGWjP45IlWhMyBu-PNf_Q,1070
+channels_endpoints-1.0.3.dist-info/METADATA,sha256=Kej2JcliRBToPrq8EkNDTkY5IIMtiwpq3_ORjtNwW9k,2439
+channels_endpoints-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+channels_endpoints-1.0.3.dist-info/top_level.txt,sha256=QRpHu-_m-xGqPcHNW8jlCecU06kggXP20zk-3C6w2mw,19
+channels_endpoints-1.0.3.dist-info/RECORD,,
