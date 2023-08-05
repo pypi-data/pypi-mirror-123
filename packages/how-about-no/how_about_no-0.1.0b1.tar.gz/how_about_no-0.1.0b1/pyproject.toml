@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "how_about_no"
+version = "0.1.0-beta.1"
+description = "Let's your CI/CD tool know when the build can be skipped."
+authors = ["Mateusz Cisek <cismat@gmail.com>"]
+keywords = ["ci/cd"]
+readme = "README.md"
+license = "MIT"
+
+repository = "https://github.com/mateuszcisek/how_about_no"
+documentation = "https://github.com/mateuszcisek/how_about_no"
+homepage = "https://github.com/mateuszcisek/how_about_no"
+
+include = ["LICENSE"]
+
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.scripts]
+how-about-no = "how_about_no:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PyYAML = "^5.4.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.9.3"
+pylint = "^2.11.1"
+pytest = "^6.2.5"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/mateuszcisek/how_about_no/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
