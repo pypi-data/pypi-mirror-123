@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: jijmodeling
+Version: 0.8.9
+Summary: UNKNOWN
+Home-page: http://www.jijmodeling.jijzept.com
+Author: Jij Inc.
+Author-email: info@j-ij.com
+License: Other/Proprietary License
+Platform: Operating System :: Microsoft :: Windows :: Windows 10
+Platform: Operating System :: MacOS :: MacOS X
+Platform: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7, <3.10
+License-File: LICENSE.txt
+Requires-Dist: dimod
+Requires-Dist: numpy
+Requires-Dist: typeguard
+Requires-Dist: pyqubo
+Requires-Dist: dimod (<=0.11.0,>=0.9.14)
+
+UNKNOWN
+
