@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<title>README</title>
+<style type="text/css">
+
+html body {
+  line-height:1.4em;
+  font-family:"Lucida Grande", verdana, lucida, helvetica, sans-serif;
+  background-color:#f8f8f8;
+}
+
+:link { color: #900; }
+
+h1, h2 {
+  line-height:1.3em;
+  margin:0.2em 0;
+  background-color:#F3EDE7;
+}
+h1 { font-size:160%; }
+h2 { font-size:130%; }
+h3 { font-size:120%; }
+h4 { font-size:115%; }
+h5 { font-size:110%; }
+h6 { font-size:95%; }
+
+pre, code, tt {
+  line-height:1.2em;
+  font-size:120%;
+  color:#7A4707;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+th.head {
+  padding:0.2em 0.6em;
+  text-align:left;
+  background-color:#F3EDE7;
+}
+
+td {
+  padding:0.2em 0.6em;
+}
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<div class="section" id="introduction">
+<h1>Introduction</h1>
+<p><a class="reference external" href="http://pythonreports.sourceforge.net/">PythonReports</a> is a toolkit aimed to build database reports
+in Python® programs.  The toolkit includes the report builder
+and <a class="reference external" href="http://pythonreports.sourceforge.net/prp.shtml">printout</a> renderer for PDF output.</p>
+<p>Report builder applies a <a class="reference external" href="http://pythonreports.sourceforge.net/prt.shtml">template</a> to a sequence of uniform data
+objects and produces a <a class="reference external" href="http://pythonreports.sourceforge.net/prp.shtml">printout</a> structure that can be saved in
+a file and/or rendered to PDF.</p>
+<p>It is possible to render printouts for other presentation formats
+such as a specific printer language or a GUI toolkit display.
+There used to be printing output for <a class="reference external" href="http://www.wxpython.org/">wxPython</a> and screen
+display for Tkinter and <a class="reference external" href="http://www.wxpython.org/">wxPython</a>, but they fell out of use
+and their support is discontinued.</p>
+</div>
+<div class="section" id="requirements">
+<h1>Requirements</h1>
+<p><a class="reference external" href="http://pythonreports.sourceforge.net/">PythonReports</a> require <a class="reference external" href="http://www.python.org/">Python</a> version 2.7.
+Currently there are no plans of porting the code to Python3.</p>
+<p>Report building and <a class="reference external" href="http://pythonreports.sourceforge.net/prp.shtml">printout</a> rendering require the <a class="reference external" href="http://www.reportlab.org/rl_toolkit.html">ReportLab</a> Toolkit.
+Reports containing images additionally require
+<a class="reference external" href="https://pypi.python.org/pypi/Pillow">Python Imaging Library</a>: <a class="reference external" href="https://pypi.python.org/pypi/Pillow">Pillow</a> (preferred) or <a class="reference external" href="http://www.pythonware.com/products/pil/">PIL</a>.</p>
+<p>Templates in RSON format (introduced in v0.7.0) require <a class="reference external" href="https://pypi.python.org/pypi/rsonlite">rsonlite</a>.</p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/QR_code">QR</a> barcodes (introduced in v0.8.0) require <a class="reference external" href="https://pypi.python.org/pypi/qrcode">qrcode</a>.</p>
+</div>
+<div class="section" id="quick-start">
+<h1>Quick Start</h1>
+<p>A report is built from a list of data dictionaries or data objects
+having uniform structure.  An example of such data is a list of rows
+fetched from an SQL server.</p>
+<p>Report layout is defined by a <a class="reference external" href="http://pythonreports.sourceforge.net/prt.shtml">template</a> file which can have
+either XML format or a textual format based on <a class="reference external" href="https://pypi.python.org/pypi/rsonlite">rsonlite</a>.</p>
+<p>Report builder applies loaded template to a list of data
+objects and produces a <a class="reference external" href="http://pythonreports.sourceforge.net/prp.shtml">printout</a> structure.  Printout can
+be saved in XML format.</p>
+<p>PDF writer creates an output file from a printout structure.</p>
+<p>There are example templates in the <a class="reference external" href="http://pythonreports.bzr.sourceforge.net/bzr/pythonreports/files/head:/test/">package sources</a>:
+<cite>sakila.prt</cite> is in XML format, and <cite>sakila.prtr</cite> is the
+same template in RSON format.  The data file for those
+templates can be found in the <a class="reference external" href="https://sourceforge.net/projects/pythonreports/files/Sample%20Data%20file/">project downloads</a>.</p>
+<p>This is an example of building a PDF from that data:</p>
+<pre class="literal-block">
+import cPickle as pickle
+from PythonReports.api import Builder, parse_rson, write_pdf
+
+with open(&quot;sakila.dat&quot;, &quot;rb&quot;) as data_file:
+    data = pickle.load(data_file)[:200]
+template = parse_rson(&quot;sakila.prtr&quot;)
+build = Builder(template)
+printout = build.run(data)
+with open(&quot;sakila.prp&quot;, &quot;wt&quot;) as printout_file:
+    printout.write(printout_file)
+# It is necessary to call .validate()
+# on built or loaded printout
+# before creating PDF output.
+printout.validate()
+write_pdf(printout, &quot;sakila.pdf&quot;)
+</pre>
+<!-- vim: set et ft=rst sts=2 sw=2 : -->
+</div>
+</div>
+</body>
+</html>
