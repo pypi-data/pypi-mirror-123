@@ -1,0 +1,9 @@
+CHANGELOG.md
+MANIFEST.in
+setup.py
+orjson-stubs/METADATA.toml
+orjson-stubs/__init__.pyi
+types_orjson.egg-info/PKG-INFO
+types_orjson.egg-info/SOURCES.txt
+types_orjson.egg-info/dependency_links.txt
+types_orjson.egg-info/top_level.txt
