@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+procfs_sensor/__init__.py
+procfs_sensor/__main__.py
+procfs_sensor.egg-info/PKG-INFO
+procfs_sensor.egg-info/SOURCES.txt
+procfs_sensor.egg-info/dependency_links.txt
+procfs_sensor.egg-info/not-zip-safe
+procfs_sensor.egg-info/top_level.txt
