@@ -1,0 +1,25 @@
+{% load i18n %}
+
+<form class="mt-5 mb-2" method="post" enctype="multipart/form-data">
+  {% if form.non_field_errors %}
+  <div class="alert alert-danger" role="alert">
+    {{ form.non_field_errors }}
+  </div>
+  {% endif %}
+
+  {% csrf_token %}
+  <input name="get_upload_link" value="true" hidden>
+  <div class="form-row">{% with field=form.file_data %}{% include "partials/file_field.html" %}{% endwith %}</div>
+  <div class="form-row">{% with field=form.times_downloadable %}{% include "partials/number_field.html" %}{% endwith %}</div>
+  <div class="form-row">{% with field=form.active_until %}{% include "partials/date_field.html" %}{% endwith %}</div>
+  <div class="form-row mb-5">
+    {% with form.public as field %}{% include "partials/checkbox_field.html" %}{% endwith %}
+    {% with form.active_forever as field %}{% include "partials/checkbox_field.html" %}{% endwith %}
+  </div>
+
+  <div class="form-group row">
+    <div class="col">
+      <button class="primaryAction btn btn-primary btn-lg" type="submit">{% trans "Upload" %}</button>
+    </div>
+  </div>
+</form>
