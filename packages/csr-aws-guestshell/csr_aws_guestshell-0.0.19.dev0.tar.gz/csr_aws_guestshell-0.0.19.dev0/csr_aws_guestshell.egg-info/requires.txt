@@ -1,0 +1,4 @@
+awscli
+boto
+boto3
+future
