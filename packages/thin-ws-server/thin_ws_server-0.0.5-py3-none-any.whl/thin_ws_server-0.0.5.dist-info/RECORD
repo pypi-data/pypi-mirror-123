@@ -1,0 +1,7 @@
+thin_ws_server/__init__.py,sha256=GDq5Yo6Tvq7MBGV_rf2dXn5_p5VAQQ5jvGofwu4hvi0,61
+thin_ws_server/websocket_server.py,sha256=_INt3Z8Envzt5Be10my-iFO1Zu6mECKbvLwaVMSSAdo,4632
+thin_ws_server-0.0.5.dist-info/LICENSE,sha256=3XkS2VEzTbliGf_AakEaUKqxQDSnPs3AprwsjLg5ztU,1063
+thin_ws_server-0.0.5.dist-info/METADATA,sha256=2rGsOoyU4P3LxtvyLhn6B-fCUCP1-lICSmrPTFDMib0,177
+thin_ws_server-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+thin_ws_server-0.0.5.dist-info/top_level.txt,sha256=Gwekz496dRVeCapomKH353MCDAiWDv-xeQx6Y0DTDZ4,15
+thin_ws_server-0.0.5.dist-info/RECORD,,
