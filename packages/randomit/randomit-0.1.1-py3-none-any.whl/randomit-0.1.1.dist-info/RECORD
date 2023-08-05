@@ -1,0 +1,15 @@
+randomit/__init__.py,sha256=1m2WEYqW0Fy2kfQGJ50WfeeH1KnNe2vGkjWADYEoUWg,69
+randomit/parsers/scrape_names_surnames.py,sha256=J3nHilUsWGCzMjcDUiZVdbBF3nUWHxv2KjPpi2l73gM,2867
+randomit/parsers/scrape_random_words.py,sha256=S3vtX2zMi3LO-exFen0QFI-3aWNZ1W0FTTcWucvl8gc,1062
+randomit/random_names_surnames.py,sha256=8EBbIYOzAyW3MMtb3A3oNUDsDVC_nE3GVE4HKQy7awA,1500
+randomit/random_words.py,sha256=WoyUThiEkLsdYB4uPMg93sdjNTYoGOrTbzTqEPlZu48,518
+randomit/themes.txt,sha256=CMai1ri_9XV5cLNmN5VoORnmoqDcfdCrIW4-5C_qwqQ,9706
+randomit/words_loader.py,sha256=nMS-WKhbId3L_pKdOTZxqHtRR3l3OGK0nWU63qJnCAc,1435
+randomit/words_randomizer.py,sha256=2uL6RE1ijyTf2TBlxYdNjagSgOJwmQN0hbiVMGLW1wo,8114
+randomit/words_storage/names_list.txt,sha256=-f0y6wSWrklufOzGOiymb4dsb-cEJI2FG2b_YofA2sE,7668
+randomit/words_storage/random_words.txt,sha256=0MomrtUuYhiermg-rca93sPW0efOKiYUKmxgDA4qpek,195395
+randomit/words_storage/surnames_list.txt,sha256=79twi_YtvR-3eEKmmfhVYMU196VSIUqVPuDsZlxruKM,76749
+randomit-0.1.1.dist-info/LICENSE,sha256=LcN-91vNrBDZhSw2uUAMtbwF2zLNCWBedAvzb2oqBe0,1089
+randomit-0.1.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+randomit-0.1.1.dist-info/METADATA,sha256=ccT51YRI9-Omv3v_Dwi2IGsLqEYuPAZTG12JncC8T7E,4423
+randomit-0.1.1.dist-info/RECORD,,
