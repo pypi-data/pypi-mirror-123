@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/piston_v_taper.egg-info/PKG-INFO
+src/piston_v_taper.egg-info/SOURCES.txt
+src/piston_v_taper.egg-info/dependency_links.txt
+src/piston_v_taper.egg-info/top_level.txt
