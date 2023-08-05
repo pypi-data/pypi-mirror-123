@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+cookielab/__init__.py
+cookielab/main.py
+cookielab.egg-info/PKG-INFO
+cookielab.egg-info/SOURCES.txt
+cookielab.egg-info/dependency_links.txt
+cookielab.egg-info/top_level.txt
