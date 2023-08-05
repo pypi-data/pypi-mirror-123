@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: optimization-lib
+Version: 2.0.0
+Summary: Measures program speed
+Home-page: UNKNOWN
+Author: Ty Crabtree
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Optimization Library 
+
+The optimization library measures the general speed of a program based on the last run. \
+This library can be used by developers to speed up their programs.
+
+![alt text](https://media1.giphy.com/media/YHYmMLkOmqoo/giphy.webp?cid=ecf05e47v65rqtldq6gxecdovfuuw6sw99cg7jccb7ityvrw&rid=giphy.webp&ct=g)
+
+## Example Usage:
+First, import the library:
+
+    from optimization import optimization
+
+Next, the library needs to be initialized:
+
+    opt = optimization.OptimizationLibrary()
+
+Finally, we can start and stop the timer:
+    
+    opt.start_timer()
+    '''
+    implement function/program to meausure 
+    '''
+    opt.end_timer()
+
+![alt text](https://media4.giphy.com/media/14gmG4WWSdTsQw/giphy.gif?cid=ecf05e47f4l2ri2tuzoey6jffnirrrbhr2w1do87lqbhqokk&rid=giphy.gif&ct=g
+)
+
+
+
+## Example File 
+    
+    from optimization import optimization
+
+    def function_to_optiimize()
+        pass
+
+    def test():
+        opt = optimization.OptimizationLibrary() 
+        opt.start_timer()
+        function_to_optiimize()
+        opt.end_timer()
+    if __name__ == '__main__':
+        test()
+
+
+### Additional Notes: 
+
+This is a developer tool. \
+The library has a small performance window (to account for natural program variance). \
+This is an optional parameter that can be changed with the 'variance' optional parameter.\
+The library can also be initialized with an optional parameter to show performance increases/decreases visually. This can be changed with the 'color' parameter:        
+
+    opt = optimization.OptimizationLibrary(variance=2.5, color=True) 
+
+![alt text](https://media2.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif?cid=ecf05e47lzn1ze8ms6at1sw32xif96a59yx346ngz8z6wlxr&rid=giphy.gif&ct=g
+)
+
+
