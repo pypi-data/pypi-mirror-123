@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/BrainNet/BrainDataset.py
+src/BrainNet/__init__.py
+src/brain_network.egg-info/PKG-INFO
+src/brain_network.egg-info/SOURCES.txt
+src/brain_network.egg-info/dependency_links.txt
+src/brain_network.egg-info/top_level.txt

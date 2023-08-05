@@ -1,0 +1,1 @@
+This is the Python package for Brain Network data. It provides a way to download and use Brain Network data. 
