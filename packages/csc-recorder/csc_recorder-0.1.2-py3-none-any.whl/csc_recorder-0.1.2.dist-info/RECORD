@@ -1,0 +1,6 @@
+csc_recorder/__init__.py,sha256=O1y2i1C4m602NbHgLdHmpflu9TGf21O6bs3ZEn_x0w4,23
+csc_recorder/CSC/templates/CreatePackage.xml,sha256=_ObaOUUjXWYE-Yo0bClH5b-hLOSfOzh-OxRuquvfZMc,6315
+csc_recorder/CSCRecorder.py,sha256=ZT2TOrhH2AC0rjN2H3RRbSBQs5AkvQYnUmYrfZvORBQ,3901
+csc_recorder-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+csc_recorder-0.1.2.dist-info/METADATA,sha256=WVrQAdjHlDgPviDP-hK71ipz8-XgvUzgWfjCAUfoDJc,1079
+csc_recorder-0.1.2.dist-info/RECORD,,
