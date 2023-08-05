@@ -1,0 +1,16 @@
+anonymizable_model/__init__.py,sha256=rq5OMW-khxQo_5FAvSrPaAS1lRfG9aG2hSuo-KK2Yfk,22
+anonymizable_model/admin.py,sha256=2el-1jifznE7jNYgm0Lh_9ulkWU7xHlAVwDuqZVvxL8,4496
+anonymizable_model/apps.py,sha256=KwaZC4I_JqBkL5qsb1gIYJOsxtJ1WGPfhUU4zoAblJE,136
+anonymizable_model/decorators.py,sha256=EyKjaTuqG5UnzpdNQdopOo-o1kwd06kS_F3yjCU-tc4,2397
+anonymizable_model/settings.py,sha256=9niJGAQlBN7zq-Z4YaHdtofvmrNf-oVtFcTFyTZYrxM,144
+anonymizable_model/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anonymizable_model/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anonymizable_model/management/commands/anonymize_database.py,sha256=11MMF4GEwdVc7IQTHrxhDJi-UOmVrykwDGQD29oc-GA,2234
+anonymizable_model/static/css/django_anonimizable_model.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anonymizable_model/static/js/django_anonimizable_model.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_anonymizable_model-0.1.8.dist-info/AUTHORS.rst,sha256=BrZjEJQq1IGpIop4B55rjPsTUOgVBtYxQ55ytP8uEGw,175
+django_anonymizable_model-0.1.8.dist-info/LICENSE,sha256=xMpanCMdZ3OIJeh67SPuAB3gh_tGKjZ-mtmppb7aijM,1095
+django_anonymizable_model-0.1.8.dist-info/METADATA,sha256=EWAUI5Z9VC8A-dV5_RITmF0HhV20STsp1oh2BWz7q_4,4326
+django_anonymizable_model-0.1.8.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_anonymizable_model-0.1.8.dist-info/top_level.txt,sha256=ilnYd99D6DnBu-Z1nPY_DydDtZNh9mWmNPcXg4rw-tg,19
+django_anonymizable_model-0.1.8.dist-info/RECORD,,
