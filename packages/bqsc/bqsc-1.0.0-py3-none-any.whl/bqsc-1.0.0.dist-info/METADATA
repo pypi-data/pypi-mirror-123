@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bqsc
+Version: 1.0.0
+Summary: Define schema object from bigquery schema definition json file
+License: MIT
+Author: Yasunori Horikoshi
+Author-email: hotoku@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mypy (>=0.910,<0.911)
