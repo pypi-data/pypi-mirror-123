@@ -1,0 +1,7 @@
+loguru
+Click
+pipenv
+sqlalchemy
+notion-client
+openpyxl
+pandas
