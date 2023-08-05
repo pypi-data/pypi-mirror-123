@@ -1,0 +1,10 @@
+markupsafe-stubs/METADATA.toml,sha256=xrM5Khu7V4uBz-lqxvab7SKISuEyuccWEgaJZPn9BSo,56
+markupsafe-stubs/__init__.pyi,sha256=r-2JF7nf9460niYCbuS_M85rdmH5TZm6vurfWqRx4xc,3100
+markupsafe-stubs/_compat.pyi,sha256=xN1vhSTmy2fXTE5pUrL_NRkYoOLH3lBY6YDf7ZR9czM,435
+markupsafe-stubs/_constants.pyi,sha256=WMs-YfmoJeNrHfpRngKloo_k36jkFpsgdUAY_8Bnc-Q,56
+markupsafe-stubs/_native.pyi,sha256=-PZoi2z18DvsyuwqT1NCTzLgxd0iWd5knNazlLX2tQE,224
+markupsafe-stubs/_speedups.pyi,sha256=-PZoi2z18DvsyuwqT1NCTzLgxd0iWd5knNazlLX2tQE,224
+types_MarkupSafe-1.1.7.dist-info/METADATA,sha256=cvgtABv8zcz-e16NVNYgNr9nMh320Y_oY84Fd9ELfvg,1050
+types_MarkupSafe-1.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+types_MarkupSafe-1.1.7.dist-info/top_level.txt,sha256=92-83idgQKnbclIw7Vwe5xqxgmWcuI-IYQzdzL__sz8,17
+types_MarkupSafe-1.1.7.dist-info/RECORD,,
