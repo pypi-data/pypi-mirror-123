@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: myshare
+Version: 0.0.1
+Summary: library 
+Home-page: UNKNOWN
+Author: aaa
+Author-email: 504355188@qq.com
+License: MIT Licence
+Description: library 
+Keywords: testing testautomation
+Platform: any
+Requires-Python: >=3.7.*

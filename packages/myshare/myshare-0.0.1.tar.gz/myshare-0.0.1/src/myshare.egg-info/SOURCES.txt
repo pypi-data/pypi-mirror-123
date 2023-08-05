@@ -1,0 +1,8 @@
+setup.py
+src/myshare/__init__.py
+src/myshare/a.py
+src/myshare/b.py
+src/myshare.egg-info/PKG-INFO
+src/myshare.egg-info/SOURCES.txt
+src/myshare.egg-info/dependency_links.txt
+src/myshare.egg-info/top_level.txt
