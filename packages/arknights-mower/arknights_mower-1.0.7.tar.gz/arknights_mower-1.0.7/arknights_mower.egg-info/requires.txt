@@ -1,0 +1,9 @@
+colorlog
+opencv_python
+matplotlib
+numpy
+scikit_image
+sklearn
+onnxruntime
+pyclipper
+shapely
