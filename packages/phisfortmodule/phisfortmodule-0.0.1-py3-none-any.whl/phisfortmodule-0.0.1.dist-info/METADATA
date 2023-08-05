@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: phisfortmodule
+Version: 0.0.1
+Summary: PhisFort mostly used method for harvesting url on a link.
+Home-page: https://github.com/adillreza
+Author: Adil Reza
+Author-email: adilreza043@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: fuzzywuzzy
+Requires-Dist: requests
+Requires-Dist: tarfile
+Requires-Dist: zipfile
+
+This module contains hundred of repetitive method. That will help to reduce the coding complexity.
+
+
