@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: si_licon
+Version: 0.7
+Summary: A markup language that makes life easier. Check Github repository for documentation.
+Home-page: https://github.com/ribkix/si_licon/tree/main
+Author: BruhDev
+Author-email: mr.bruh.dev@gmail.com
+License: MIT
+Download-URL: https://github.com/ribkix/si_licon/archive/refs/tags/0.7.tar.gz
+Description: UNKNOWN
+Keywords: markup,language,config,settings,parser,json,silicon
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
