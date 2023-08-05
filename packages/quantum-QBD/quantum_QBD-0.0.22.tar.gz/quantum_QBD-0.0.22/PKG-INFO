@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: quantum_QBD
+Version: 0.0.22
+Summary: Quantum computing.
+Home-page: https://github.com/QuantumBrainDisorder/quantum_QBD
+Author: Rabarbar Batman
+Author-email: 2rr@tuta.io
+License: GPLv3
+Project-URL: Source Code, https://github.com/QuantumBrainDisorder/quantumg_QBD
+Project-URL: Bug Tracker, https://github.com/QuantumBrainDisorder/quantum_QBD/issues
+Keywords: material engineering,physics,quantum wells,layers,QWs,QW
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Quantum side.
+
