@@ -1,0 +1,4 @@
+mypy
+numpy
+opencv-contrib-python
+typing-extensions
