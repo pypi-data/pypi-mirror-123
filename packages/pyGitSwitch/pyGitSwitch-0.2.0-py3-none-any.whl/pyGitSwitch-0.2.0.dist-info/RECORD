@@ -1,0 +1,11 @@
+gitswitch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitswitch/__main__.py,sha256=CSj7hemJbntyqAob_bx6yqI6fuSjXb1US3wsEKWZ44Q,2679
+gitswitch/helpers.py,sha256=y2-sV42FB45UxR3XFYPeflxNQShBOBHWmZz0kyAz3T4,1460
+gitswitch/installer.py,sha256=KHUmd2-oxTVmYB0CSPa4jKTmpzW1-ZN5k5SQkH53RqE,1929
+gitswitch/switcher.py,sha256=vcyBE4G01IcUbEiClTxFRFkaXewtN0ZMFY41yBOmRVU,6811
+pyGitSwitch-0.2.0.dist-info/LICENSE,sha256=WVIHOSKOkyNDwO0WYkH61U3UZvJLU98uhtTM3DMUoP8,1087
+pyGitSwitch-0.2.0.dist-info/METADATA,sha256=hfWlEDTmbsnDnco2CFyPucDUhQbrsIx7QGOblzdvsk0,5693
+pyGitSwitch-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyGitSwitch-0.2.0.dist-info/entry_points.txt,sha256=AFRXkzL-xV3DoUt9LQwXVxYoNgiUcSbGDQQweb7PzNE,55
+pyGitSwitch-0.2.0.dist-info/top_level.txt,sha256=GR6qHpbdQdk3uPMqRr3AqqIylICdOIb4QPaaSsAxLnA,10
+pyGitSwitch-0.2.0.dist-info/RECORD,,
