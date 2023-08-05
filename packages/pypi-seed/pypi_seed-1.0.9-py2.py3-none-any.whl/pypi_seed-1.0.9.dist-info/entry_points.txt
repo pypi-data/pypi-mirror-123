@@ -1,0 +1,7 @@
+[console_scripts]
+ppc = pypi_seed.main:main
+ppseed = pypi_seed.main:main
+pypi-seed = pypi_seed.main:main
+pypi_seed = pypi_seed.main:main
+pypiseed = pypi_seed.main:main
+
