@@ -1,0 +1,11 @@
+TAPE/__init__.py,sha256=10XRXkeZKhqrAJaLDlB9pRDWUzhNVGOsG_KJt5Q4JR4,95
+TAPE/deconvolution.py,sha256=mNNiZiBORNNw7qx6tg7GZ1gXipbYZzHN78OVTLNVVlU,3824
+TAPE/model.py,sha256=bRRv0-fZUt2sWmP7jcvR5pvAt2TFZu-uCuT61k1rU68,3123
+TAPE/simulation.py,sha256=jfEWazM_B3RdVvSR1Xs3FQqFgAxEoR_cLSMU4Zz4Ukw,2597
+TAPE/train.py,sha256=efZibaKZrReZCuWqJg2giIGP_CKlrImQQJzLDUpvbq4,6387
+TAPE/utils.py,sha256=I7473NXHAXtbvqMHHh6pNU7Ws-9i9KciBv-ozRNwhHQ,4473
+scTAPE-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scTAPE-0.1.1.dist-info/METADATA,sha256=__3JWD3B6jz66dzexsGJ9Vh3GqTKgGG6QLI_CIMRb50,597
+scTAPE-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scTAPE-0.1.1.dist-info/top_level.txt,sha256=WmbCTxKKilXn1LHkIObFyJe1AUolANCKoLWR0l0rrOo,5
+scTAPE-0.1.1.dist-info/RECORD,,
