@@ -1,0 +1,8 @@
+funcy
+jinja2>=2.0.0
+miutil[web]>=0.7.0
+python-terraform>=0.10.1
+setuptools
+
+[ssh]
+asyncssh
