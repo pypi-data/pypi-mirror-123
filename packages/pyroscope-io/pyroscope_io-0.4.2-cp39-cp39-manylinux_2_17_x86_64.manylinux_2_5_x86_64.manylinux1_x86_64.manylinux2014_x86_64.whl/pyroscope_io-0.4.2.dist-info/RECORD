@@ -1,0 +1,8 @@
+agent.c,sha256=yrbxwIzWIue9sbShbIJQyMC4V4IBnbDwVW28qgJh7Nc,2875
+pyroscope/__init__.py,sha256=Xv3owdoUirAk3JfgTuivh69qMKAgb8or7CZ1azWTWtc,1127
+pyroscope/agent.cpython-39-x86_64-linux-gnu.so,sha256=WYOpAEfD4pkPcV69cVyWIGwHYH2GJa2tVYsvk-x0C4U,25986448
+pyroscope_io/__init__.py,sha256=vs2YETekgOlg7Y7YUFYxb9Fi2Sk1FghmADhMEolM2uE,127
+pyroscope_io-0.4.2.dist-info/LICENSE,sha256=z9T8w4aUv1VpXn1VAvspm4ulyQFTHC1x7PLmTvzu_ZU,11340
+pyroscope_io-0.4.2.dist-info/WHEEL,sha256=LTkR1SqxK_v3N8IqKrzP5SNiN3bOc04e4de4jQ5ka74,209
+pyroscope_io-0.4.2.dist-info/METADATA,sha256=lo1leaq1pGG2Q16iYduWs-v1SzMdARuoHSfnORtPLNc,2167
+pyroscope_io-0.4.2.dist-info/RECORD,,
