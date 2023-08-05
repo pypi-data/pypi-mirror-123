@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: smokestack
+Version: 1.0.0a0
+Summary: CloudFormation stacks, beautifully
+Home-page: https://github.com/cariad/smokestack
+Author: Cariad Eccleston
+Author-email: cariad@cariad.earth
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# smokestack
+
