@@ -1,0 +1,9 @@
+setup.py
+DistributionsInheritanceAN/Binomialdistribution.py
+DistributionsInheritanceAN/Gaussiandistribution.py
+DistributionsInheritanceAN/__init__.py
+DistributionsInheritanceAN.egg-info/PKG-INFO
+DistributionsInheritanceAN.egg-info/SOURCES.txt
+DistributionsInheritanceAN.egg-info/dependency_links.txt
+DistributionsInheritanceAN.egg-info/not-zip-safe
+DistributionsInheritanceAN.egg-info/top_level.txt
