@@ -1,0 +1,10 @@
+setup.py
+m2im_distributions/Binomialdistribution.py
+m2im_distributions/Gaussiandistribution.py
+m2im_distributions/Generaldistribution.py
+m2im_distributions/__init__.py
+m2im_distributions.egg-info/PKG-INFO
+m2im_distributions.egg-info/SOURCES.txt
+m2im_distributions.egg-info/dependency_links.txt
+m2im_distributions.egg-info/not-zip-safe
+m2im_distributions.egg-info/top_level.txt
