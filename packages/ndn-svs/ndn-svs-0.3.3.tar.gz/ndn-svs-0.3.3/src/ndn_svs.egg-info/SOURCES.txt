@@ -1,0 +1,10 @@
+AUTHORS.rst
+LICENSE.rst
+README.rst
+setup.py
+src/ndn_svs.egg-info/PKG-INFO
+src/ndn_svs.egg-info/SOURCES.txt
+src/ndn_svs.egg-info/dependency_links.txt
+src/ndn_svs.egg-info/not-zip-safe
+src/ndn_svs.egg-info/requires.txt
+src/ndn_svs.egg-info/top_level.txt
