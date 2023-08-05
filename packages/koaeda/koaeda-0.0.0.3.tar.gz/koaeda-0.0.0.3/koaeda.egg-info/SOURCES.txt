@@ -1,0 +1,6 @@
+README.md
+setup.py
+koaeda.egg-info/PKG-INFO
+koaeda.egg-info/SOURCES.txt
+koaeda.egg-info/dependency_links.txt
+koaeda.egg-info/top_level.txt
