@@ -1,0 +1,8 @@
+README
+setup.py
+nicecoding/__init__.py
+nicecoding/password_make.py
+worigip.egg-info/PKG-INFO
+worigip.egg-info/SOURCES.txt
+worigip.egg-info/dependency_links.txt
+worigip.egg-info/top_level.txt
