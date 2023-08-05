@@ -1,0 +1,10 @@
+cli.py,sha256=YcLQK-9ISLwwIvw4danY5F15HPXNT-A9xjoVB0Q8CLU,913
+pydbisam/__init__.py,sha256=Y1UWMDTKC7GfPwVjIsOPgkp7KNKW8xjU5xWNzrSsPW4,2701
+pydbisam/extract.py,sha256=oHXLd2d7UfIM881MPTyTpsAb_nERjjfNJdCFuXaGJfg,2771
+pydbisam/field.py,sha256=14BimglEmJY5e3ZdpoWuAkws3TQayAzpm-2TJp76UDU,4174
+pydbisam-1.0.1.dist-info/LICENSE,sha256=q6onrrEOw-3S8YWBOy309TjeUPWdQBwbc0EvzgxCbyo,754
+pydbisam-1.0.1.dist-info/METADATA,sha256=-goWlpFulKE-HIvbUyGXElzuwztGapPKICEqrpcW3Z0,1781
+pydbisam-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydbisam-1.0.1.dist-info/entry_points.txt,sha256=0aK936OaIlwodQZh2CgvlbEWE0vzT2tfj7_AAUFT9bs,39
+pydbisam-1.0.1.dist-info/top_level.txt,sha256=KHrzTPFVr90rn9k9STpmtSaZ7fBJFDN867g3BenFApg,13
+pydbisam-1.0.1.dist-info/RECORD,,
