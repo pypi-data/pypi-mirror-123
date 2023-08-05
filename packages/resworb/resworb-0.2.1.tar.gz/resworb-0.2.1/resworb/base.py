@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+
+from typing import Dict, Iterable, Union
+
+URLItem = Dict[str, str]
+
+
+class OpenedTabMixin(object):
+    def get_opened_tabs(self) -> Iterable[URLItem]:
+        raise NotImplementedError()
+
+
+class CloudTabMixin(object):
+    cloud_tab_file: str
+
+    def get_cloud_tabs(self) -> Iterable[URLItem]:
+        raise NotImplementedError()
+
+
+class ReadingMixin(object):
+    def get_readings(self) -> Iterable[URLItem]:
+        raise NotImplementedError()
+
+
+class BookmarkMixin(object):
+    bookmark_file: str
+
+    def get_bookmarks(self, flatten: bool = True) -> Union[Iterable[URLItem], Dict]:
+        raise NotImplementedError()
+
+
+class HistoryMixin(object):
+    history_file: str
+
+    def get_histories(self) -> Iterable[Dict]:
+        raise NotImplementedError()
