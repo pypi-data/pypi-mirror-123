@@ -1,0 +1,29 @@
+name: das-nogui-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - zarr
+  - pip
+  - flammkuchen
+  - xarray
+  - defopt
+  - yaml
+  - git
+  - h5py
+  - numpy
+  - tensorflow>=2.1
+  - numpy
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - peakutils
+  - matplotlib
+  - pandas
+  - librosa
+  - matplotlib_scalebar
+  - peakutils
+  - colorcet
+  - keras-tuner
+  - pip:
+    - das
