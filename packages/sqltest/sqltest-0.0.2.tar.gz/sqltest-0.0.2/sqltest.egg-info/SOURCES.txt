@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sqltest.egg-info/PKG-INFO
+sqltest.egg-info/SOURCES.txt
+sqltest.egg-info/dependency_links.txt
+sqltest.egg-info/top_level.txt
