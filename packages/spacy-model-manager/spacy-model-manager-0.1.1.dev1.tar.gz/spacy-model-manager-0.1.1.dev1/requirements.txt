@@ -1,0 +1,5 @@
+click
+pbr
+requests
+spacy>=3.1
+tabulate
