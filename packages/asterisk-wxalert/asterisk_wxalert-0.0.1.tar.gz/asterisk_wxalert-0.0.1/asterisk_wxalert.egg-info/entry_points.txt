@@ -1,0 +1,3 @@
+[console_scripts]
+wxalert = asterisk_wxalert.wxalert:main
+
