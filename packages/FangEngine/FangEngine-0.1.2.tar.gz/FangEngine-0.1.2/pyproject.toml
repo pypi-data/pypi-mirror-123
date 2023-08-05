@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "pygame~=2.0.1",
+    "future~=0.18.2",
+    "screeninfo~=0.6.7",
+    "setuptools >=42"
+]

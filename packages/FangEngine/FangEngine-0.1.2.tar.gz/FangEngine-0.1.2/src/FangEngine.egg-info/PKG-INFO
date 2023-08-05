@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: FangEngine
+Version: 0.1.2
+Summary: This engine allows you to easily create object oriented, event-driven games in Python! You can customize as much or as little of the engine as you need to build your next great game!
+Home-page: https://github.com/CPSuperstore/FangEngineDocs
+Author: CPSuperstore
+Author-email: cpsuperstoreinc@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CPSuperstore/FangEngineDocs/issues
+Project-URL: Documentation, https://github.com/CPSuperstore/FangEngineDocs/wiki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Welcome to the FangEngine!
+
+This engine allows you to easily create object oriented, event-driven games in Python! You can customize as much or as little of the engine as you need to build your next great game!
+
+To get started, simply run the following command in your terminal:
+```
+pip install FangEngine
+```
+
+Now that everything is installed, you can check out the [FangEngine Documentation](https://cpsuperstore.github.io/FangEngineDocs) for a full list of functions and classes, the [FangEngine Wiki](https://github.com/CPSuperstore/FangEngineDocs/wiki) for guides on performing specific tasks, or the [Issue Tracker](https://github.com/CPSuperstore/FangEngineDocs/issues) if you encounter a problem with the engine, or would like a new feature.
+
+Thank you for using FangEngine, and good luck with your next project!
+
+## Examples
+You can view examples of games built in the engine over on [Itch.IO](https://cpsuperstore.itch.io/)
+
+## Donation
+If you would like, you can leave a donation to help keep development of the engine going. Any donations are greatly appreciated.
+
+You can leave donations at https://www.paypal.com/donate?hosted_button_id=6EA6SGLMSN5UJ
+
+
