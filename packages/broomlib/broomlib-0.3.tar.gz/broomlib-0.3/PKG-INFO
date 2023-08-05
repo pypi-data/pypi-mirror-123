@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: broomlib
+Version: 0.3
+Summary: Library created by Data Science Class of June 2021
+Home-page: https://github.com/GonzaloPerez1/broomlib
+Author: ds-jun21
+Author-email: gonzalo.perez.diez@gmail.com
+License: MIT
+Download-URL: https://github.com/GonzaloPerez1/broomlib/releases/tag/beta_version_01.tar.gz
+Description: UNKNOWN
+Keywords: data analysis,machine learning,missings cleaning,visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
