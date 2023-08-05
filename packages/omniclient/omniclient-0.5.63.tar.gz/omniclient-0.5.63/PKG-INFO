@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: omniclient
+Version: 0.5.63
+Summary: 
+Author: Zafar Iqbal
+Author-email: ultrasine@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
