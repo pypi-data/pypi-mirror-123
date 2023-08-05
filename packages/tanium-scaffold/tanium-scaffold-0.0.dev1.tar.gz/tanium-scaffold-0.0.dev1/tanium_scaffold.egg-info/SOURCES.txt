@@ -1,0 +1,6 @@
+setup.py
+tanium-scaffold/__init__.py
+tanium_scaffold.egg-info/PKG-INFO
+tanium_scaffold.egg-info/SOURCES.txt
+tanium_scaffold.egg-info/dependency_links.txt
+tanium_scaffold.egg-info/top_level.txt
