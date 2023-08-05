@@ -1,0 +1,4 @@
+numpy
+matplotlib
+ase>=3.18.1
+argparse

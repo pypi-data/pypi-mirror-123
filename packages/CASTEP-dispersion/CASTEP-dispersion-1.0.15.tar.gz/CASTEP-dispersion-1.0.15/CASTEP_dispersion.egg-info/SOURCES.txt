@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+CASTEP_dispersion.egg-info/PKG-INFO
+CASTEP_dispersion.egg-info/SOURCES.txt
+CASTEP_dispersion.egg-info/dependency_links.txt
+CASTEP_dispersion.egg-info/entry_points.txt
+CASTEP_dispersion.egg-info/requires.txt
+CASTEP_dispersion.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/main.py~
+src/__pycache__/main.cpython-37.pyc
