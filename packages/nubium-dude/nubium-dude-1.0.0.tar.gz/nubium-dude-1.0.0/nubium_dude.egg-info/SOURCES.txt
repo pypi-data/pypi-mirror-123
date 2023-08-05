@@ -1,0 +1,15 @@
+README.md
+setup.py
+dude/__init__.py
+dude/__main__.py
+dude/_utils.py
+dude/_commands/__init__.py
+dude/_commands/app.py
+dude/_commands/cli_base.py
+dude/_commands/topics.py
+nubium_dude.egg-info/PKG-INFO
+nubium_dude.egg-info/SOURCES.txt
+nubium_dude.egg-info/dependency_links.txt
+nubium_dude.egg-info/entry_points.txt
+nubium_dude.egg-info/requires.txt
+nubium_dude.egg-info/top_level.txt
