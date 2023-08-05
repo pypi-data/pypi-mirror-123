@@ -1,0 +1,12 @@
+import __init__ as i
+i.upgrade()
+print(i.decimal(0.01,0.09,3))
+s = i.safe()
+s.encry('6C2F9D6A2E')
+s.decode('>,[*#!#$+===+:?')
+#i.author.phoneNumber()
+a = i.author()
+a.phoneNumber()
+f = i.find()
+f.search('lenovoSBSBSB')
+print(f.show())
