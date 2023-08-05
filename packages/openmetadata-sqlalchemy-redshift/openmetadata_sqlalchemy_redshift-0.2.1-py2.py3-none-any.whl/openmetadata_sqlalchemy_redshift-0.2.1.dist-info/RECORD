@@ -1,0 +1,13 @@
+redshift_sqlalchemy/__init__.py,sha256=QMa5rvcYdIDMmfwYsd3o78Hj8Q1RbR5EdcACMTLdxeo,595
+sqlalchemy_redshift/__init__.py,sha256=cNI3rwjfVj6VZSSfcqXDAVz1ENIyuPZE0JPFVwxgrn4,940
+sqlalchemy_redshift/commands.py,sha256=hvIxsOlTukAhaUE--FaJYtFEzgV6Euf94-v8dhP3MWk,39685
+sqlalchemy_redshift/compat.py,sha256=y8t7SoezbEAFRIBp5EPjnvZy2TwOmx6m2tUnjXGv80s,130
+sqlalchemy_redshift/ddl.py,sha256=qUWlVEJ_baHlPsMnNGkzlzpamHakYacq0Q45LrgZlz8,10015
+sqlalchemy_redshift/dialect.py,sha256=O3WoQb5mlipb5ydYuWQvl8ctbtfdvNzirw0GV3QlRM8,44508
+sqlalchemy_redshift/redshift-ca-bundle.crt,sha256=532qYkOpQOstFE0mdXE1GVtL3v00XDKgZNTr6gK5-KE,8621
+openmetadata_sqlalchemy_redshift-0.2.1.dist-info/LICENSE,sha256=pON9Cuq-0H0cdr5wKVVufihTQFSYT7OXYHcf-AK4LrY,1055
+openmetadata_sqlalchemy_redshift-0.2.1.dist-info/METADATA,sha256=Yt8mQu7AJQyM1zoy1v6O4I46ErDj9Camzo7bmJRgrIA,15855
+openmetadata_sqlalchemy_redshift-0.2.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+openmetadata_sqlalchemy_redshift-0.2.1.dist-info/entry_points.txt,sha256=LkP7ZQAtK7EKjym-Mpf41hlDznvoVh3D8mVnqlGQxpg,334
+openmetadata_sqlalchemy_redshift-0.2.1.dist-info/top_level.txt,sha256=8adSIKaGjUIMknIFjU2HnSGhyjDeQ5x97AZ6i7wE-HU,40
+openmetadata_sqlalchemy_redshift-0.2.1.dist-info/RECORD,,
