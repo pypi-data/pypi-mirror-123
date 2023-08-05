@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+Project/__init__.py
+Project/__main__.py
+Project/celeb_births_date.py
+Project/celeb_births_scraper.py
+Project/example.py
+celebrity_births_AN_CW_IR.egg-info/PKG-INFO
+celebrity_births_AN_CW_IR.egg-info/SOURCES.txt
+celebrity_births_AN_CW_IR.egg-info/dependency_links.txt
+celebrity_births_AN_CW_IR.egg-info/requires.txt
+celebrity_births_AN_CW_IR.egg-info/top_level.txt
