@@ -1,0 +1,9 @@
+modelingDash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelingDash/appModeling.py,sha256=m2QD_zuTYRqbWC2DCP855tOG_EXyHBkjpV0h7IJ8xn8,942
+modelingDash/configModelisation.py,sha256=5as-Z8H9leZkNKwFbG3E0T7MH4Ye1R3KzrjyXv5rm5A,21479
+modelingDash/explorePumpTrialsDash.py,sha256=PHltY_on5-Yc5FrSrRsmmRmgtAgQveGR4a4eexUo-fE,16094
+modelingDash/usefulCircuits.py,sha256=fgivkogt_ewIB1YUfeJS7KkoEU8Iw-mZoLVK5aUJ9-E,2541
+modelingDash-1.3.8.dist-info/METADATA,sha256=SEI40QTqqh1Ux_lq2kimy3y4oY6d7rSBLE1pycF2iBA,462
+modelingDash-1.3.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+modelingDash-1.3.8.dist-info/top_level.txt,sha256=roiAcPYTIXN3doVI5n3lLMIMvqXy2SNz736QUrnN1Co,13
+modelingDash-1.3.8.dist-info/RECORD,,
