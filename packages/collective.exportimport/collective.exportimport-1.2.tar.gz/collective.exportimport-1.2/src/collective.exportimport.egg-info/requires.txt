@@ -1,0 +1,11 @@
+setuptools
+plone.api>=1.8.4
+hurry.filesize
+ijson
+six
+plone.restapi
+
+[test]
+plone.app.testing
+plone.app.robotframework
+plone.app.contenttypes
