@@ -1,0 +1,13 @@
+auto_ds/__init__.py,sha256=uu5Q3IhX9H0fQ9R1ldyPGpIEiFM3aufgb4uF1po6oXs,89
+auto_ds/autods.py,sha256=syDbhTzy8sT6LwaXFoR9vURzlmwrK5EynalzDgf36_c,5265
+auto_ds/predictor.py,sha256=acuZtA6bQsYMzlBcMRdMrlKYJg35SZIQey9-nKBNLqM,3236
+auto_ds/utils.py,sha256=iGhV5pyexTTtbq7lO-taIcuN3Ml1wgrmuvC7cGp-XHA,9453
+auto_ds/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_ds/models/catboost_method.py,sha256=A7XafmGB1vngW_ihY_80Em3T9LaczdfmC3vBZmRMROs,4311
+auto_ds/models/catboost_utils.py,sha256=bzIqQgtu8X9JZJ0NysK4G3Zyk7GfbhHDbM7hNROvaZQ,4039
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_ds-0.0.1.dist-info/LICENSE,sha256=3cyaDfIbVN0Lx4Lfvm-bnACRLEpIUCcNhVzoQ66tIkU,1517
+auto_ds-0.0.1.dist-info/METADATA,sha256=RgdjOl6VpiuXKRzPkUtYmefYuae6AZpyR0IrfkFPi2s,907
+auto_ds-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+auto_ds-0.0.1.dist-info/top_level.txt,sha256=jCIK60-GTo-vmRreg0bZ9e6Y9bPKyhNwv6TINp4rCw0,14
+auto_ds-0.0.1.dist-info/RECORD,,
