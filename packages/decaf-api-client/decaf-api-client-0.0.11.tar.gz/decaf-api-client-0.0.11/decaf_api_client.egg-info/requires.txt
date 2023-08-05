@@ -1,0 +1,6 @@
+pydantic<2,>=1
+requests<3,>=2
+typing-extensions>=3.7.4.3
+
+[:python_version < "3.7"]
+dataclasses>=0.6
