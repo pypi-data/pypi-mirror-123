@@ -1,0 +1,3 @@
+[console_scripts]
+gitswitch = gitswitch.__main__:main
+

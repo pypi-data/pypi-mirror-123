@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gitswitch/__init__.py
+gitswitch/__main__.py
+gitswitch/helpers.py
+gitswitch/installer.py
+gitswitch/switcher.py
+pyGitSwitch.egg-info/PKG-INFO
+pyGitSwitch.egg-info/SOURCES.txt
+pyGitSwitch.egg-info/dependency_links.txt
+pyGitSwitch.egg-info/entry_points.txt
+pyGitSwitch.egg-info/not-zip-safe
+pyGitSwitch.egg-info/top_level.txt
