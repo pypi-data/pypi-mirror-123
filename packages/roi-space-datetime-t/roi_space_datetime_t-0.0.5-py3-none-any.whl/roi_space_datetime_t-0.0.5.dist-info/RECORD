@@ -1,0 +1,9 @@
+roi_space_datetime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roi_space_datetime/check_time.py,sha256=zOrmkqZlMbN1GXmlrssMjRGEGAVOtq2WcY94OAIvjJA,52
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/check_time.py,sha256=zOrmkqZlMbN1GXmlrssMjRGEGAVOtq2WcY94OAIvjJA,52
+roi_space_datetime_t-0.0.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+roi_space_datetime_t-0.0.5.dist-info/METADATA,sha256=T_PZX-NN_xhF7zIt_HTA1MFun-G_RVWI6YYknNNa-1g,315
+roi_space_datetime_t-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+roi_space_datetime_t-0.0.5.dist-info/top_level.txt,sha256=QRBLHKCdHSJeUM6aEJzjRdoP9iW50mHtml0uSbimFOQ,25
+roi_space_datetime_t-0.0.5.dist-info/RECORD,,
