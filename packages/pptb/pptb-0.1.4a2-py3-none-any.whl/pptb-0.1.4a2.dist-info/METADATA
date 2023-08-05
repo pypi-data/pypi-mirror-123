@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pptb
+Version: 0.1.4a2
+Summary: 🚣 一些常用的但 paddle 里没有的小工具～
+Keywords: python,paddle,toolbox
+Author: Nyakku Shigure
+Author-email: sigure.qaq@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: paddle
+Requires-Dist: paddlepaddle (>=2.1.2,<3.0.0); extra == "paddle"
