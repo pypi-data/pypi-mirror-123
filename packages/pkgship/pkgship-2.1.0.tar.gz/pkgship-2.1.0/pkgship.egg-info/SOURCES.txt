@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pkgship/__init__.py
+pkgship.egg-info/PKG-INFO
+pkgship.egg-info/SOURCES.txt
+pkgship.egg-info/dependency_links.txt
+pkgship.egg-info/top_level.txt
