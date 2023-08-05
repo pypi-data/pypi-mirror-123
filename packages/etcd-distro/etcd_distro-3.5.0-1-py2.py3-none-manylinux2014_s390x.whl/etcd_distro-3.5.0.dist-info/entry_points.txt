@@ -1,0 +1,5 @@
+[console_scripts]
+etcd = etcd_distro:etcd
+etcdctl = etcd_distro:etcdctl
+etcdutl = etcd_distro:etcddutl
+
