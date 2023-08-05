@@ -1,0 +1,1 @@
+This is the beginning of what will hopefully be a library of electromagnetic equations.

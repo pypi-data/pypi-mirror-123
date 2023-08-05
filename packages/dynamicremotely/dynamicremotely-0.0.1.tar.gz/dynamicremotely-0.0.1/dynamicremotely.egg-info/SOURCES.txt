@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+dynamicremotely.egg-info/PKG-INFO
+dynamicremotely.egg-info/SOURCES.txt
+dynamicremotely.egg-info/dependency_links.txt
+dynamicremotely.egg-info/top_level.txt
