@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: library-nsxt
+Version: 1.0.8.post18
+Summary: Implements methods and models for interacting with a NSXT cluster.
+Home-page: UNKNOWN
+Author: The_Crazy_Sys_Admin
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: core-commons (<2,>=1.0.3)
+
+
+# Library NSX-T
+Esta librería implementa métodos y servicios para interactuar con un cluster de NSX-T a tavés de su API.
+
+## Requisitos
+
+Los requisitos para instalar y ejecutar el proyecto son:
+- Un IDE o un editor de código:
+  - IDE: *PyCharm*
+  - Editores de Código: *Visual Studio Code*, *Notepad++*, *VIM*
+
+
+- Un entorno de *Python 3.6.8* mínimo con las siguientes librerías:
+  - `PyYAML`
+  - `requests`
+  - `paramiko`
+
+## Instalación
+
+Para instalar el programa localmente o en un Linux remoto:
+
+1. Descargar o clonar el proyecto desde el repositorio.
+2. Asegurarse de tener un entorno de Python funcional con la versión requerida y los paquetes necesarios.
+3. Activar el entorno de Python que fue creado.
+4. Instalar el módulo ejecutando este comando en la ruta del proyecto:
+~~~bash
+python setup.py install
+~~~
+## Configuración
+
+Este proyecto no tiene ficheros de configuración o ninguna configuración adicional.
+
