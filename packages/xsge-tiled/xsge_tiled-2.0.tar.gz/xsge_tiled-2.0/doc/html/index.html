@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xSGE Tiled Library &#8212; xSGE Tiled Library 2.0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="xsge-tiled-library">
+<h1><a class="toc-backref" href="#id1">xSGE Tiled Library</a><a class="headerlink" href="#xsge-tiled-library" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#xsge-tiled-library" id="id1">xSGE Tiled Library</a></p>
+<ul>
+<li><p><a class="reference internal" href="#xsge-tiled-classes" id="id2">xsge_tiled Classes</a></p></li>
+<li><p><a class="reference internal" href="#xsge-tiled-functions" id="id3">xsge_tiled Functions</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<span class="target" id="module-xsge_tiled"></span><p>xSGE is a collection of higher-level extensions for the SGE which
+enhance the core functionality in an implementation-independent way.
+Like the SGE itself, they are distribted under the terms of the GNU
+Lesser General Public License.</p>
+<p>This extension provides support for loading the JSON format of the
+<a class="reference external" href="http://www.mapeditor.org/">Tiled Map Editor</a>.  This allows you to use
+Tiled to edit your game's world (e.g. levels), rather than building a
+level editor yourself.</p>
+<p>To load a tile map, simply use <a class="reference internal" href="#xsge_tiled.load" title="xsge_tiled.load"><code class="xref py py-func docutils literal notranslate"><span class="pre">load()</span></code></a>.  See the documentation for
+this function for more information.</p>
+<div class="section" id="xsge-tiled-classes">
+<h2><a class="toc-backref" href="#id2">xsge_tiled Classes</a><a class="headerlink" href="#xsge-tiled-classes" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="xsge_tiled.Decoration">
+<em class="property">class </em><code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">Decoration</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">checks_collisions</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">tangible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.Decoration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default class for tiles and image layers.  Identical to
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code>, except that it is intangible and doesn't
+check for collisions by default.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="xsge_tiled.Point">
+<em class="property">class </em><code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">Point</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">visible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.Point" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default class for point objects.  Identical to
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code>, except that it is invisible by default.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="xsge_tiled.Rectangle">
+<em class="property">class </em><code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">Rectangle</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">visible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.Rectangle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default class for rectangle objects.  Identical to
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code>, except that it is invisible by default.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="xsge_tiled.Ellipse">
+<em class="property">class </em><code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">Ellipse</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">visible</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">collision_ellipse</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.Ellipse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default class for ellipse objects.  Identical to
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code>, except that it is invisible and uses
+ellipse collision detection by default.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="xsge_tiled.Polygon">
+<em class="property">class </em><code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">Polygon</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">points</span><span class="o">=</span><span class="default_value">()</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">visible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">tangible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.Polygon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default class for polygon objects.  Identical to
+<code class="xref py py-class docutils literal notranslate"><span class="pre">xsge_path.Path</span></code>.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="xsge_tiled.Polyline">
+<em class="property">class </em><code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">Polyline</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">points</span><span class="o">=</span><span class="default_value">()</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">visible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">tangible</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.Polyline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default class for polyline objects.  Identical to
+<code class="xref py py-class docutils literal notranslate"><span class="pre">xsge_path.Path</span></code>.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="xsge-tiled-functions">
+<h2><a class="toc-backref" href="#id3">xsge_tiled Functions</a><a class="headerlink" href="#xsge-tiled-functions" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="xsge_tiled.load">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">load</code><span class="sig-paren">(</span><em class="sig-param">fname</em>, <em class="sig-param">cls=&lt;class 'sge.dsp.Room'&gt;</em>, <em class="sig-param">types=None</em>, <em class="sig-param">z=0</em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.load" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load JSON tilemap <code class="docutils literal notranslate"><span class="pre">fname</span></code> and return a room of the class <code class="docutils literal notranslate"><span class="pre">cls</span></code>.</p>
+<p>The way the map generates the room, in general, is to convert all
+tiles, objects, and image layers into <code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code>
+objects.  As a special exception, the object layer with the name
+&quot;views&quot; defines the views in the room; these objects are converted
+into <code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.View</span></code> objects.</p>
+<p>Objects are given Z-axis positions based on the ordering of the
+layers in the map file: <code class="docutils literal notranslate"><span class="pre">z</span></code> is the Z-axis position of the first
+layer, and each subsequent layer's Z-axis position is the Z-axis
+position of the previous layer plus one.</p>
+<p>Except for views, all tiles, objects, and image layers can be
+defined to be converted into any class derived from
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code> via the <code class="docutils literal notranslate"><span class="pre">types</span></code> argument, which should be
+a dictionary matching strings to corresponding
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.dsp.Object</span></code> classes, or <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>, which is
+equivalent to <code class="docutils literal notranslate"><span class="pre">{}</span></code>.  Classes are determined in the following ways:</p>
+<ul class="simple">
+<li><p>Tiles are converted to the class connected to, in order of
+preference, the name of the tileset, the type of the tileset, or
+the name of the tile layer.  If none of these values are valid
+keys in <code class="docutils literal notranslate"><span class="pre">types</span></code>, <a class="reference internal" href="#xsge_tiled.Decoration" title="xsge_tiled.Decoration"><code class="xref py py-class docutils literal notranslate"><span class="pre">Decoration</span></code></a> is used.</p></li>
+<li><p>Objects are converted to the class connected to, in order of
+preference, the name of the object, the type of the object, the
+appropriate class for the respective tile if applicable (see
+above), or the name of the object group.  If none of these strings
+are valid keys in <code class="docutils literal notranslate"><span class="pre">types</span></code>, the class used depends on what kind
+of object it is:</p>
+<ul>
+<li><p>Point objects default to <a class="reference internal" href="#xsge_tiled.Point" title="xsge_tiled.Point"><code class="xref py py-class docutils literal notranslate"><span class="pre">Point</span></code></a>.</p></li>
+<li><p>Rectangle objects default to <a class="reference internal" href="#xsge_tiled.Rectangle" title="xsge_tiled.Rectangle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Rectangle</span></code></a>.</p></li>
+<li><p>Ellipse objects default to <a class="reference internal" href="#xsge_tiled.Ellipse" title="xsge_tiled.Ellipse"><code class="xref py py-class docutils literal notranslate"><span class="pre">Ellipse</span></code></a>.</p></li>
+<li><p>Polygon objects default to <a class="reference internal" href="#xsge_tiled.Polygon" title="xsge_tiled.Polygon"><code class="xref py py-class docutils literal notranslate"><span class="pre">Polygon</span></code></a>.</p></li>
+<li><p>Polyline objects default to <a class="reference internal" href="#xsge_tiled.Polyline" title="xsge_tiled.Polyline"><code class="xref py py-class docutils literal notranslate"><span class="pre">Polyline</span></code></a>.</p></li>
+<li><p>Tile objects default to <a class="reference internal" href="#xsge_tiled.Decoration" title="xsge_tiled.Decoration"><code class="xref py py-class docutils literal notranslate"><span class="pre">Decoration</span></code></a>.</p></li>
+</ul>
+</li>
+<li><p>Image layers are converted to the class connected to the image
+layer's name.  If the image layer's name is not a valid key in
+<code class="docutils literal notranslate"><span class="pre">types</span></code>, <a class="reference internal" href="#xsge_tiled.Decoration" title="xsge_tiled.Decoration"><code class="xref py py-class docutils literal notranslate"><span class="pre">Decoration</span></code></a> is used.</p></li>
+</ul>
+<p>Property lists are passed to objects as keyword arguments in the
+following ways:</p>
+<ul class="simple">
+<li><p>Tiles have their properties, the properties of their tilesets, and
+the properties of their layers applied to them.  Tileset properties
+override layer properties, and tile properties override tileset
+properties.</p></li>
+<li><p>Tile objects have their properties, the properties of their tiles,
+the properties of their tiles' tilesets, and the properties of
+their object groups applied to them.  Object properties override
+tile properties, tile properties override tileset properties, and
+tileset properties override object group properties.</p></li>
+<li><p>Other objects have their properties and the properties of their
+object groups applied to them.  Object properties override object
+group properties.</p></li>
+<li><p>Image layers have their properties applied to them.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Currently zstd compression is <strong>not</strong> supported. Support for zstd
+will be added later either when it makes it into the Pyhton
+Standard Library or, if that doesn't happen, when it's clear what
+zstd library to use.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only orthogonal, staggered, and hexagonal maps are supported.
+For best results, the following conditions should be adhered to:</p>
+<ul class="simple">
+<li><p>Stagger index should be set to &quot;odd&quot;.</p></li>
+<li><p>For non-hexagonal staggered maps, stagger axis should be set to
+&quot;y&quot;. (Does not apply to hexagonal maps; in the case of
+hexagonal maps, both &quot;x&quot; and &quot;y&quot; will work just as well.)</p></li>
+</ul>
+<p>Maps which do not adhere to these conditions will still render
+correctly, but adhering to these conditions will allow
+<code class="xref py py-class docutils literal notranslate"><span class="pre">sge.gfx.TileGrid</span></code> to be used, which allows for better
+performance.</p>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_get_tilesets">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_get_tilesets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tilemap</span></em>, <em class="sig-param"><span class="n">tmdir</span></em>, <em class="sig-param"><span class="n">types</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_get_tilesets" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse tilesets from loaded JSON data in <code class="docutils literal notranslate"><span class="pre">tilemap</span></code>.  <code class="docutils literal notranslate"><span class="pre">tmdir</span></code>
+indicates the directory that the data from <code class="docutils literal notranslate"><span class="pre">tilemap</span></code> is from.
+Returns a tuple containing the following:</p>
+<ul class="simple">
+<li><p>A dictionary linking Tiled GID keys to classes found in <code class="docutils literal notranslate"><span class="pre">types</span></code>.</p></li>
+<li><p>A dictionary linking Tiled GID keys to SGE sprites.</p></li>
+<li><p>A dictionary linking Tiled GID keys to keyword argument
+dictionaries based on the properties of the tileset and tiles.</p></li>
+<li><p>A dictionary linkint Tiled GID keys to objectalignment values
+specified in Tiled.</p></li>
+</ul>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Due to its nature, this function's return value is subject to
+being extended with additional tuple values without notice.</p>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_parse_layer">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_parse_layer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">layer</span></em>, <em class="sig-param"><span class="n">tilemap</span></em>, <em class="sig-param"><span class="n">tmdir</span></em>, <em class="sig-param"><span class="n">tile_cls</span></em>, <em class="sig-param"><span class="n">tile_sprites</span></em>, <em class="sig-param"><span class="n">tile_kwargs</span></em>, <em class="sig-param"><span class="n">tile_objectalignment</span></em>, <em class="sig-param"><span class="n">types</span></em>, <em class="sig-param"><span class="n">z</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">tintcolor</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_parse_layer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse a layer and return a tuple containing three values:</p>
+<ul class="simple">
+<li><p>A list of objects retrieved by the layer.</p></li>
+<li><p>A list of views retrieved by the layer.</p></li>
+<li><p>The next z index to be used by another layer.</p></li>
+</ul>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Due to its nature, this function's return value is subject to
+being extended with additional tuple values without notice.</p>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_parse_tilechunk">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_parse_tilechunk</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">chunk</span></em>, <em class="sig-param"><span class="n">tilemap</span></em>, <em class="sig-param"><span class="n">layer</span></em>, <em class="sig-param"><span class="n">tile_cls</span></em>, <em class="sig-param"><span class="n">tile_sprites</span></em>, <em class="sig-param"><span class="n">tile_kwargs</span></em>, <em class="sig-param"><span class="n">default_cls</span></em>, <em class="sig-param"><span class="n">default_kwargs</span></em>, <em class="sig-param"><span class="n">types</span></em>, <em class="sig-param"><span class="n">z</span></em>, <em class="sig-param"><span class="n">tintcolor</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_parse_tilechunk" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse a chunk of a layer and return a list of objects generated.</p>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_get_properties">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_get_properties</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">properties</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_get_properties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert Tiled properties list <code class="docutils literal notranslate"><span class="pre">properties</span></code> into a dictionary of
+keyword arguments and return said dictionary.</p>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_gid_parse">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_gid_parse</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">gid</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_gid_parse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse the GID given and return a tuple with the following values:</p>
+<ul class="simple">
+<li><p>The real GID without bitwise flags.</p></li>
+<li><p>Whether or not the tile is horizontally flipped.</p></li>
+<li><p>Whether or not the tile is vertically flipped.</p></li>
+<li><p>Whether or not the tile is &quot;diagonally&quot; flipped.</p></li>
+</ul>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_get_color">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_get_color</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_get_color" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a sge.gfx.Color object corresponding to s, based on Tiled's
+color formatting.</p>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_tiled.t_data_decode">
+<code class="sig-prename descclassname">xsge_tiled.</code><code class="sig-name descname">t_data_decode</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">encoding</span></em>, <em class="sig-param"><span class="n">compression</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_tiled.t_data_decode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decode encoded data and return a list of integers it represents.</p>
+<p>Arguments:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">data</span></code> -- The data to decode.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">encoding</span></code> -- The encoding of the data.  Can be <code class="docutils literal notranslate"><span class="pre">&quot;base64&quot;</span></code>
+or <code class="docutils literal notranslate"><span class="pre">&quot;csv&quot;</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">compression</span></code> -- The compression method used.  Valid
+compression methods are <code class="docutils literal notranslate"><span class="pre">&quot;gzip&quot;</span></code> and <code class="docutils literal notranslate"><span class="pre">&quot;zlib&quot;</span></code>.
+Set to <code class="docutils literal notranslate"><span class="pre">None</span></code> for no compression.</p></li>
+</ul>
+<p>This is a low-level function used internally by this library; you
+don't typically need to use it.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/xsge_logo_alpha_black.png" alt="Logo"/>
+            </a></p>
+<h1 class="logo"><a href="#">xSGE Tiled Library</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
