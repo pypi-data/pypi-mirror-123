@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dFL
+Version: 0.0.1
+Summary: This project aims to build a decentralized federated learning library
+Home-page: https://github.com/a-dirir/decentralized_FL
+Author: Ahmed Mukhtar Dirir
+Author-email: ahmed.m.dirir@gmail.com
+License: MIT
+Keywords: Federated Learning,Decentralized
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cryptography
+Requires-Dist: Flask
+Requires-Dist: mongoengine
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: colorlog
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+UNKNOWN
+
+
