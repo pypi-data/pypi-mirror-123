@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyscf/qsdopt/__init__.py
+pyscf/qsdopt/hesstools.py
+pyscf/qsdopt/qsd_optimizer.py
+pyscf/test/test_hesstools.py
+pyscf/test/test_qsdopt.py
+pyscf_qsdopt.egg-info/PKG-INFO
+pyscf_qsdopt.egg-info/SOURCES.txt
+pyscf_qsdopt.egg-info/dependency_links.txt
+pyscf_qsdopt.egg-info/requires.txt
+pyscf_qsdopt.egg-info/top_level.txt
