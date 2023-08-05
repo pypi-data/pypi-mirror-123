@@ -1,0 +1,12 @@
+fps_kernels/__init__.py,sha256=1SFj-qMOaeO0fOKQaFmYhAKiRwwNda5uWKpYtIcken8,23
+fps_kernels/models.py,sha256=BTr_sMknFRtmhUOBHu8pqaTIAoDKyIY5a1bPZyvmL8I,478
+fps_kernels/routes.py,sha256=eqb71IeQbgtRpHo0vFeNyXt3nlvU5XyZwHWT4X3VlFo,6504
+fps_kernels/kernel_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fps_kernels/kernel_server/connect.py,sha256=AYadjlc0W0vVTsxbS5cL59rpTWL0f2AMCaIiitpm_pk,2525
+fps_kernels/kernel_server/message.py,sha256=JkqiKDGRsmmLMGpe6IZugKog1FyrtU9CqRe4tnKWoWk,3070
+fps_kernels/kernel_server/server.py,sha256=8ISXPwFMqJIvuy-X3X6Qme_U3VaMluuPRDmnq2DLVQc,7943
+fps_kernels-0.0.12.dist-info/METADATA,sha256=3s_r_HYBYkyE60VxKeUngp32UAtEwae42YpodUEwwqo,237
+fps_kernels-0.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fps_kernels-0.0.12.dist-info/entry_points.txt,sha256=Maf_NSAyUMEHe-LkaaUmjerTwVHTi9vpbknoCrsAjgg,47
+fps_kernels-0.0.12.dist-info/top_level.txt,sha256=evndk2D9ZAuKepgDNsLjVuHKJIJ0BvV_NYZGOzksSn4,12
+fps_kernels-0.0.12.dist-info/RECORD,,
