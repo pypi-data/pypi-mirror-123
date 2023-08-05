@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Disecon
+Version: 0.1.6
+Summary: Disecon
+Home-page: UNKNOWN
+Author: LegosAndStuff
+Author-email: UNKNOWN
+License: MIT
+Description: Disecon is a python library that is too build off any discord python library.
+Keywords: economy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
