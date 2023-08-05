@@ -1,0 +1,10 @@
+LICENSE
+README.md
+kitintel.py
+pyproject.toml
+setup.cfg
+kitintel.egg-info/PKG-INFO
+kitintel.egg-info/SOURCES.txt
+kitintel.egg-info/dependency_links.txt
+kitintel.egg-info/entry_points.txt
+kitintel.egg-info/top_level.txt
