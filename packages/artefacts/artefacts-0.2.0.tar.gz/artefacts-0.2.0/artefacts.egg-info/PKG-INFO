@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: artefacts
+Version: 0.2.0
+Summary: Utilities for building on dbt artifacts
+Home-page: https://github.com/tjwaterman99/artefacts
+Author: Tom Waterman
+Author-email: tjwaterman99@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+Please see the documentation site https://github.com/tjwaterman99/artefacts
+
