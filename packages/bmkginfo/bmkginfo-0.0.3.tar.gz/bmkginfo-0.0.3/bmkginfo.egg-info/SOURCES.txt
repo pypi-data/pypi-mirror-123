@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bmkginfo/__init__.py
+bmkginfo.egg-info/PKG-INFO
+bmkginfo.egg-info/SOURCES.txt
+bmkginfo.egg-info/dependency_links.txt
+bmkginfo.egg-info/requires.txt
+bmkginfo.egg-info/top_level.txt
