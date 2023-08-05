@@ -1,0 +1,10 @@
+wrapt/__init__.py,sha256=sOXRx0w52cNo0ggN6_Js7il_uh4tjCz-lfCm8RiaRhU,677
+wrapt/_wrappers.cp36-win32.pyd,sha256=Dd9C_2423tuP1ivfO16ZsPiaWUN9QhDSNuI3AVb4_RE,32768
+wrapt/decorators.py,sha256=t1FzYQPpGuXC6yfymJdSHdv-6k_GmNunphzRDyEKq8k,21908
+wrapt/importer.py,sha256=fJ-Xvxcn2aofibY_-LiYHoCPhevnoyiByan2EQrQpkQ,8125
+wrapt/wrappers.py,sha256=9uzc64SX00Pzn9OnqA3sLo4MQ34SaXFhWCqaycy6JeE,36292
+wrapt-1.13.2rc1.dist-info/LICENSE,sha256=d3bvbQ6v0zQ5nwGA-Z4oB6Ygh41jGB4knkWJTujy6eg,1328
+wrapt-1.13.2rc1.dist-info/METADATA,sha256=WwyCn1ZwRTwNcB0xq9cGhLd2XzML0WZMWllxWzoY9eI,6663
+wrapt-1.13.2rc1.dist-info/WHEEL,sha256=MIcnjHs8vB2T7t3biMROEABHsna_miSfN1s4sPkohUM,97
+wrapt-1.13.2rc1.dist-info/top_level.txt,sha256=Jf7kcuXtwjUJMwOL0QzALDg2WiSiXiH9ThKMjN64DW0,6
+wrapt-1.13.2rc1.dist-info/RECORD,,
