@@ -1,0 +1,14 @@
+tqdm
+colored
+click
+python-box
+anytree
+numpy
+itk
+uproot
+sphinx
+scipy
+sphinx_pdj_theme
+recommonmark
+matplotlib
+colorlog
