@@ -1,0 +1,6 @@
+[console_scripts]
+information=teapod.scripts.information:main
+org-import=teapod.scripts.org_import:main
+pip-update-all=teapod.scripts.pip_update_all:main
+poetry-add-latest=teapod.scripts.poetry_add_latest:main
+
