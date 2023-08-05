@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: edd-utils-martinkim0
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/martinkim0/edd_utils
+Author: Martin Kim
+Author-email: martinkim@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# edd_utils
+Quick prototype for understanding how to upload and make packages available.
+
+
