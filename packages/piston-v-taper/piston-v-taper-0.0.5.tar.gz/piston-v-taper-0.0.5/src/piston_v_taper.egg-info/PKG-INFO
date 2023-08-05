@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: piston-v-taper
+Version: 0.0.5
+Summary: A trained machine learning model for predicting the force due to contact between a deformable end cap and a taper
+Home-page: https://github.com/BenAlheit/piston-vs-taper
+Author: Benjamin Alheit
+Author-email: alhben001@myuct.ac.za
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
