@@ -1,0 +1,3 @@
+[console_scripts]
+meu-cli = meu_pacote.minha_lib:cli
+
