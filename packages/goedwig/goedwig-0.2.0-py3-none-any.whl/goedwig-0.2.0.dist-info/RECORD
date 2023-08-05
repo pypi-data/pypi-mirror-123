@@ -1,0 +1,10 @@
+goedwig/__init__.py,sha256=2Ng3gKIUR0Qjztc4HMez8afT3OHR-4VnCq199BLOAA8,181
+goedwig/cypher.py,sha256=wKZW5LkWirNiA_lBj5IpihPpCz1A35XFLq7AmSChrTQ,1288
+goedwig/query.py,sha256=OSrByUJIfbDr9tMTP56wGQ1wf_1Zj8B0qnKgQJ-FHo8,11669
+goedwig/tag.py,sha256=DH8v1VV8ZmGu7uuddIjt_8I7zfNb0sbqZFhNlpfHM98,25
+goedwig/version.py,sha256=KOqoOBO4aTjc7NlG2zahDawMH4MG_yOnRsynE_iNqzQ,182
+goedwig-0.2.0.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+goedwig-0.2.0.dist-info/METADATA,sha256=8pBoK6qNS56a7l3wyfvD3UBZwH3NzvEURVjJCG-7gCw,2580
+goedwig-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+goedwig-0.2.0.dist-info/top_level.txt,sha256=QiC3xtUkYPvtYHr2zQ_u-cO2OLCWgIGBGaBgsBDOF04,8
+goedwig-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: goedwig
+Version: 0.2.0
+Summary: A generic query engine for graph data, based on abstract syntax trees as input.
+Home-page: https://github.com/DerwenAI/goedwig
+Author: Paco Nathan
+Author-email: paco@derwen.ai
+License: MIT
+Project-URL: Source Code, https://github.com/DerwenAI/goedwig
+Project-URL: Issue Tracker, https://github.com/DerwenAI/goedwig/issues
+Keywords: cypher,query optimization,graph query,knowledge graph
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: icecream (>=2.1)
+Provides-Extra: base
+Requires-Dist: icecream (>=2.1) ; extra == 'base'
+Provides-Extra: docs
+Requires-Dist: bandit (>=1.7) ; extra == 'docs'
+Requires-Dist: codespell (>=2.1) ; extra == 'docs'
+Requires-Dist: mypy (>=0.910) ; extra == 'docs'
+Requires-Dist: pre-commit (>=2.13) ; extra == 'docs'
+Requires-Dist: pylint (>=2.9) ; extra == 'docs'
+Requires-Dist: pytest (>=5.4) ; extra == 'docs'
+
+A generic query engine for graph data, based on abstract syntax trees as input.
+
+
+## Install
+
+```
+python3 -m venv venv
+source venv/bin/activate
+
+python3 -m pip install -r requirements.txt
+```
+
+
+## Run example
+
+```
+python3 sample.py
+```
+
+
+## Build setup
+
+```
+python3 -m pip install -U pip setuptools wheel
+python3 -m pip install -r requirements-dev.txt
+```
+
+We use *pre-commit hooks* based on [`pre-commit`](https://pre-commit.com/)
+and to configure that locally:
+```
+pre-commit install
+git config --local core.hooksPath .git/hooks/
+```
+
+Then initialize the tag-based versioning:
+```
+TAG=$(git tag | sort -r | head -1)
+echo "'git tag'" > goedwig/tag.py
+echo "TAG = '$TAG'" >> goedwig/tag.py
+```
+
+
+## Package release
+
+```
+python3 setup.py install --dry-run
+./bin/push_pypi.sh
+```
+
+
+## About the name
+
+The name [`goedwig`](https://glosbe.com/cy/cy/goedwig) is Welsh/Gymraeg –
+pronounced `/ˈɡɔi̯dwɪɡ/` –
+which means ["forest"](https://en.wiktionary.org/wiki/coedwig).
+Herein we parse many trees.
+
+
