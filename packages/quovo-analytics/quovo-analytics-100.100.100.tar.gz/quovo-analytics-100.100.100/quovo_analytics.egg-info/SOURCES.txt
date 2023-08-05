@@ -1,0 +1,7 @@
+README.rst
+setup.py
+quovo-analytics/__init__.py
+quovo_analytics.egg-info/PKG-INFO
+quovo_analytics.egg-info/SOURCES.txt
+quovo_analytics.egg-info/dependency_links.txt
+quovo_analytics.egg-info/top_level.txt
