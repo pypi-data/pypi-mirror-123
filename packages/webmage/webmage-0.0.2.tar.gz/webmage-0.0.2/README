@@ -1,0 +1,28 @@
+# Description
+A wrapper around requests, BeautifulSoup, and Selenium (Chrome) to facilitate web scraping.
+
+# Installation
+```pip install webmage```
+See documentation at https://javascriptorian.com/webmage
+
+# Usage
+webmage contains a class called WebSpell. It takes 1 required argument: url. It takes 2 optional arguments: driverPath and encoding. If driverPath is left as None, it will use ChromeDriverManager to get the latest chromedriver based on your installation of Chrome.
+```from webmage import WebSpell
+spell = WebSpell(url='https://javascriptorian.com', driverPath=None, encoding='utf-8')
+```
+
+## spell.get() - Get a static webpage using requests
+You can use the .get() function to tell it to get a webpage using requests. This will automatically add the soup object of the webpage to the spell's object.
+
+```spell.get()
+print(spell.soup)
+```
+
+## spell.drive() - Get a dynamic webpage using selenium
+You can use the .drive() function to tell WebSpell to get a webpage using selenium. This will automatically open a Chrome browser and add the soup object of the webpage to the spell's object, but soup will change whenever there is any interaction on the webpage. It has two optional arguments: nextURL and ghost.
+nextURL will allow you to change to a different URL after initialized a WebSpell. ghost will make it so that a browser is considered headless, and it does not open an explicit Chrome window.
+
+```spell = WebSpell('https://javascriptorian.com')
+spell.drive()
+spell.drive('https://google.com')
+```
