@@ -1,0 +1,6 @@
+setup.py
+taas-rest/__init__.py
+taas_rest.egg-info/PKG-INFO
+taas_rest.egg-info/SOURCES.txt
+taas_rest.egg-info/dependency_links.txt
+taas_rest.egg-info/top_level.txt
