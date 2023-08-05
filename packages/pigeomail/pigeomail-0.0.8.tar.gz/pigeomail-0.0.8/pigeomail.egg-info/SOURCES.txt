@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pigeomail/__init__.py
+pigeomail/__version__.py
+pigeomail/cmdline.py
+pigeomail.egg-info/PKG-INFO
+pigeomail.egg-info/SOURCES.txt
+pigeomail.egg-info/dependency_links.txt
+pigeomail.egg-info/entry_points.txt
+pigeomail.egg-info/not-zip-safe
+pigeomail.egg-info/requires.txt
+pigeomail.egg-info/top_level.txt
