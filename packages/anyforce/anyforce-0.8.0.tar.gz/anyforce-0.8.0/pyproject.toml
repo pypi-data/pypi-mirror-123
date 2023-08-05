@@ -1,0 +1,40 @@
+[project]
+name = "anyforce"
+version = "0.8.0"
+description = ""
+dependencies = [ "fastapi~=0.68", "uvicorn[standard]~=0.15", "pydantic[email]~=1.8", "python-jose[cryptography]~=3.3", "tortoise-orm~=0.17", "passlib[bcrypt]~=1.7", "requests~=2.26", "types-requests~=2.25", "orjson~=3.6", "python-json-logger~=2.0", "Jinja2~=3.0", "colorama~=0.4", "aiohttp~=3.7", "starlette-context~=0.3", "itsdangerous~=2.0", "inflection~=0.5", "aenum~=3.1",]
+requires-python = ">=3.8"
+dynamic = [ "classifiers",]
+[[project.authors]]
+name = "exherb"
+email = "i@4leaf.me"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "COPYRIGHT"
+
+[project.urls]
+homepage = "https://github.com/42signal/anyforce-core"
+
+[project.optional-dependencies]
+
+[tool.pdm]
+includes = [ "anyforce/**/*.py", "anyforce/py.typed", "README.md",]
+[[tool.pdm.source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[tool.isort]
+profile = "black"
+line_length = 79
+multi_line_output = 3
+
+[tool.pdm.dev-dependencies]
+dev = [ "flake8~=3.9", "isort~=5.9", "black~=21.7b0", "pytest~=6.2", "typer~=0.3", "pytest-asyncio~=0.15", "Faker~=8.11", "pytest-cov~=2.12", "twine~=3.4",]
+
+[tool.pytest.ini_options]
+testpaths = [ "tests",]
