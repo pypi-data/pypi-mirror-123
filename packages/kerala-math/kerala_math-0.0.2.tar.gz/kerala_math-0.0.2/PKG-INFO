@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kerala_math
+Version: 0.0.2
+Summary: Mathematical methods from the Kerala School of Mathematics
+Home-page: https://github.com/kmadathil/kerala_math
+Author: Karthik Madathil
+Author-email: karthik@madathil.org
+License: MIT
+Keywords: math mathematics kerala sanskrit samskritam
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+UNKNOWN
+

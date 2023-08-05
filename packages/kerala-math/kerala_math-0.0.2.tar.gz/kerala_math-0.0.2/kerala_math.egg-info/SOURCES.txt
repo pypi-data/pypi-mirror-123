@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+kerala_math/__init__.py
+kerala_math.egg-info/PKG-INFO
+kerala_math.egg-info/SOURCES.txt
+kerala_math.egg-info/dependency_links.txt
+kerala_math.egg-info/top_level.txt
+kerala_math/jyatable/__init__.py
+kerala_math/jyatable/aryabhata.py
+kerala_math/jyatable/laghuvivrti.py
+kerala_math/jyatable/madhava.py
+kerala_math/jyatable/tantrasangraha.py
+kerala_math/jyatable/tattajjya.py
+kerala_math/series/__init__.py
+kerala_math/series/circumference.py
+kerala_math/series/jya.py
