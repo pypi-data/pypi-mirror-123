@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: onnion
+Version: 0.7.0
+Summary: onnx compiler
+Home-page: https://github.com/Idein/onnion/tree/master/compiler
+License: Apache-2.0
+Keywords: onnx
+Author: Idein Inc.
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: onnion-rt (>=0.4.0,<0.5.0)
+Requires-Dist: onnx (>=1.9.0,<2.0.0)
+Project-URL: Repository, https://github.com/Idein/onnion/tree/master/compiler
+Description-Content-Type: text/markdown
+
+# onnion
+
+## Installation
+
+```
+$ pip3 install onnion
+```
+
+## Usage
+
+```
+$ onnion ssd-10-post.onnx -o ssd_post_model.py
+$ python
+>>> from ssd_post_model import init_graph
+>>> graph = init_graph()
+>>> inputs = ... # List[np.array]
+>>> outputs = graph.run(*inputs)
+```
+
+The order of the inputs and the outputs in the `run` method corresponds to the order of the inputs and the outputs in the onnx graph.
+
+See also [tutorial](https://github.com/Idein/onnion/tree/master#tutorial).
+
+## Development Guide
+
+```
+$ poetry install
+```
+
