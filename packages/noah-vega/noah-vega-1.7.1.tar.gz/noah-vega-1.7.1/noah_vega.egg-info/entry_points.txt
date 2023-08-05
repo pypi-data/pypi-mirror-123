@@ -1,0 +1,10 @@
+
+        [console_scripts]
+        vega=vega.tools.run_pipeline:run_pipeline
+        vega-kill=vega.tools.kill:_kill
+        vega-verify-cluster=vega.tools.verify_cluster:_verify_cluster
+        vega-fine-tune=vega.tools.fine_tune:_fine_tune
+        vega-progress=vega.tools.query_progress:print_progress
+        vega-process=vega.tools.query_process:print_processes
+        vega-evaluate-service=evaluate_service.main:run
+      
