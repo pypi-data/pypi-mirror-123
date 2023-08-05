@@ -1,0 +1,5 @@
+pydantic
+requests
+typer
+pyyaml
+curvenote-template==0.2.3
