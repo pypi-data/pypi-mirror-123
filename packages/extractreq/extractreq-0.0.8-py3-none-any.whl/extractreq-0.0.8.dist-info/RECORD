@@ -1,0 +1,13 @@
+extractreq/__init__.py,sha256=qtnEzWgf_MWUbejRq2pkOhGpjOYZ9VML5XXjJNHMaeg,358
+extractreq/modul_ekspart.py,sha256=h0lWIbJQvewCtjNeEeefQX2Cnf-rQnvfz985TSSGj_I,17740
+extractreq/modul_spacySent.py,sha256=BwHOyoEnGTAZYQzFyFb4PiTS3kL8bmqjBhUrePhVAow,5564
+extractreq/modul_stanfordSent.py,sha256=_xZIaThDKnqa-Wr9Uas--P65g-WMIAdmuBxsy5Oqvzw,8301
+extractreq/modul_triplet.py,sha256=yTUhJ1ikvCBzWzwpo-eWMORlk65GSmejhfcSdLTXZ_8,7428
+extractreq/usecase_modul1.py,sha256=0nRmZM7lI8GM2xxUnVjJV4LzH6xSAhVIFPVusW1fh60,11944
+extractreq/usecase_modul2.py,sha256=xiJ-TKhaKKE0c7evxYWZ6R1jFumGfLgXush2SUoKGP4,5942
+extractreq/usecase_modul3.py,sha256=i_by4mmwCml-CbLUCOxBvSSlQjsgAdV0coN2IykvoLY,9969
+extractreq-0.0.8.dist-info/LICENSE,sha256=pbIMXbaorAIVW-fDch2tvtZRkVA3mz-UnXQqeCf4LDg,1086
+extractreq-0.0.8.dist-info/METADATA,sha256=_rIeouxBxJ9QC7r1T6vRjHHbQBq2uHEqIpkTAbw5tUs,5171
+extractreq-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+extractreq-0.0.8.dist-info/top_level.txt,sha256=nNbMKRUaZg2jFRuk1rLGt6iBYgIb4ELFbxSVO5lLiAM,11
+extractreq-0.0.8.dist-info/RECORD,,
