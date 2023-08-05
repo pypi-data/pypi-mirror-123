@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: barbarian
+Version: 0.1
+Summary: Utility tool for managing Conan recipes for the Barbarian Conan server.
+Home-page: https://barbarian.bfgroup.xyz
+Author: René Ferdinand Rivera Morell
+Author-email: grafikrobot@gmail.com
+License: BSL 1.0
+Keywords: package,libraries,developer,manager,dependency,tool,c,c++,cpp,conan
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Barbarian
+
+Utility tool for managing Conan recipes for the Barbarian Conan server.
+
+You can find information on how to use this tool to create Conan packages for
+the Barbarian server at the [website](https://barbarian.bfgroup.xyz/).
+
+
