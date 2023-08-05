@@ -1,0 +1,9 @@
+bqsc/__init__.py,sha256=8OudW7xguiX4cqk-5mxbTjFwrOBGf2NgVyy0fjNv-Hc,70
+bqsc/column_info.py,sha256=LkTLOUbtu2uLUW0lpNR2K0ApPtqCKk0Dbttm7L1n4Bk,533
+bqsc/load.py,sha256=LloqfCJvMgmCv780LKFfGBSufrZVWBXmLHBCWmoAf88,761
+bqsc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bqsc/table.py,sha256=XkyzhnWA-SIcSXFDdg6lE3h7SfETymbK7fxWUGg2jCo,1164
+bqsc/table_info.py,sha256=Y34T1QUWBHtz-vV4xJlwhY3m6-2gXFW-gud_v0EXKw8,765
+bqsc-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bqsc-1.0.1.dist-info/METADATA,sha256=r62JjSQOzgPO-Yxik0aS3XUmLuRPuk0UEZp6xMn-iX4,471
+bqsc-1.0.1.dist-info/RECORD,,
