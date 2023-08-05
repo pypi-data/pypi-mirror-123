@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nerf/__init__.py
+nerf/dataset.py
+nerf/model.py
+nerf_pytorch.egg-info/PKG-INFO
+nerf_pytorch.egg-info/SOURCES.txt
+nerf_pytorch.egg-info/dependency_links.txt
+nerf_pytorch.egg-info/top_level.txt

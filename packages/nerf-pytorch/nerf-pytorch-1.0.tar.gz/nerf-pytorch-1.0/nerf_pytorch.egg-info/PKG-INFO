@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: nerf-pytorch
+Version: 1.0
+Summary: Neural Radiance Fields
+Home-page: https://github.com/brandontrabucco/nerf
+Author: Brandon Trabucco
+Author-email: brandon@btrabucco.com
+License: MIT
+Download-URL: https://github.com/brandontrabucco/nerf/archive/v1_0.tar.gz
+Keywords: Deep Learning,Deep Reinforcement Learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Neural Radiance Fields (Re-Implementation)
+
+This repository implements a minimal training and inference package around Neural Radiance Fields (NeRF). See the original paper "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+," by Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng at ECCV 2020.
+
+## Installation
+
+The package may be installed via pip:
+
+```bash
+pip install nerf-pytorch
+```
+
