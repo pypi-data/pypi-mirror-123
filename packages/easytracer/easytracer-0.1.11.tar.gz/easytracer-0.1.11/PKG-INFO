@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: easytracer
+Version: 0.1.11
+Summary: Easy Distributed Tracing
+Home-page: https://github.com/thenetcircle/easytracer
+Author: Oscar Eriksson
+Author-email: oscar.eriks@gmail.com
+License: LICENSE
+Description: Easy Distributed Tracing
+Keywords: easytracer
+Platform: UNKNOWN

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+easytracer/__init__.py
+easytracer/config.py
+easytracer/config_keys.py
+easytracer/tracer.py
+easytracer.egg-info/PKG-INFO
+easytracer.egg-info/SOURCES.txt
+easytracer.egg-info/dependency_links.txt
+easytracer.egg-info/not-zip-safe
+easytracer.egg-info/requires.txt
+easytracer.egg-info/top_level.txt
