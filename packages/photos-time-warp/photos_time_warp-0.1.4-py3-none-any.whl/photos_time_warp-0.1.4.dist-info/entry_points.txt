@@ -1,0 +1,4 @@
+[console_scripts]
+photos_time_warp = photos_time_warp.cli:cli
+ptw = photos_time_warp.cli:cli
+
