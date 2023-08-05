@@ -1,0 +1,13 @@
+pandas-ta
+finta
+ta-lib
+pathos
+tabulate
+dcor
+yfinance
+optuna
+yellowbrick>=1.2.1
+scikit-learn>=0.23.2
+pandas>=1.2.4
+numpy>=1.20
+numba>=0.54.0
