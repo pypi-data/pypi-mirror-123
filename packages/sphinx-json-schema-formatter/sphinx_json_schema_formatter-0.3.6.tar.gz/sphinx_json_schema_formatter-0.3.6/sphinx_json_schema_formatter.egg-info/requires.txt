@@ -1,0 +1,6 @@
+sphinx
+jsonpointer
+pyyaml
+
+[dev]
+black==20.8b1
