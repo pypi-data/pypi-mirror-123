@@ -1,0 +1,10 @@
+intake_pattern_catalog/__init__.py,sha256=SSabF8_BiM8HTMgNe9ifA4neDCGvwpBUq36LpK_Unm0,274
+intake_pattern_catalog/_static_version.py,sha256=0jqoEEAKL4CLwWKG3_dYRCiKKpcAovtyVQ94eoFetmM,64
+intake_pattern_catalog/_version.py,sha256=wtkfcZdMuLK1UWRY5jxgtXjNmocIrH3aBblvPS_uWhc,6499
+intake_pattern_catalog/catalog.py,sha256=h9hMKLw571upjlVxP3wOzYYtSmIRxfqtImJ_mAFvSd4,10278
+intake_pattern_catalog-2021.10.1.dist-info/LICENSE.md,sha256=qzAJ4TWBbQrQyI6chQgZt2hxlbMwyEpbsM_wB7KZP1E,1499
+intake_pattern_catalog-2021.10.1.dist-info/METADATA,sha256=fER9V3Bz4KFWLCNxzA24KuHgncqUxcnxZ-9GGU7QrPs,3141
+intake_pattern_catalog-2021.10.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+intake_pattern_catalog-2021.10.1.dist-info/entry_points.txt,sha256=2f2wGv8wBYpUset86LFSvXDGsk4Z253_yWnPXxx3E-4,141
+intake_pattern_catalog-2021.10.1.dist-info/top_level.txt,sha256=dius28x2V0wN3XN_1Fhj2aoX6RNqd9UkyBWSEdgQqs8,23
+intake_pattern_catalog-2021.10.1.dist-info/RECORD,,
