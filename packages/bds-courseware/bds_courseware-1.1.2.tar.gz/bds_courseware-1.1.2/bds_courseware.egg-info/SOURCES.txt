@@ -1,0 +1,9 @@
+setup.py
+bds_courseware/__init__.py
+bds_courseware/const.py
+bds_courseware/utils.py
+bds_courseware.egg-info/PKG-INFO
+bds_courseware.egg-info/SOURCES.txt
+bds_courseware.egg-info/dependency_links.txt
+bds_courseware.egg-info/requires.txt
+bds_courseware.egg-info/top_level.txt
