@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "jet_jammer"
+version = "0.2.8"
+description = "Jamming tool"
+authors = ["Jack Reilly <jackdreilly@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+MIDIUtil = "^1.2.1"
+pydantic = "^1.8.2"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+platformdirs = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = { version = "^21.9b0", allow-prereleases = true }
+pytest-cov = { version = "^3.0.0", allow-prereleases = true }
+isort = "^5.9.3"
+autoflake = "^1.4"
+pylint = "^2.11.1"
+requests = "^2.26.0"
+pytest-golden = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.semantic_release]
+version_variable = [
+    "jet_jammer.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+commit_subject = "chore(release): {version}"
