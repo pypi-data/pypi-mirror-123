@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: meillionen
+Version: 0.1.4
+Summary: A model interface serialization and rpc framework
+Home-page: https://github.com/openmodelingfoundation/meillionen
+License: MIT
+Author: Calvin Pritchard
+Author-email: calvin.pritchard@asu.edu
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: prefect
+Requires-Dist: flatbuffers (>=2.0,<3.0)
+Requires-Dist: landlab (>=2.3.0,<3.0.0)
+Requires-Dist: netCDF4 (>=1.5.7,<2.0.0)
+Requires-Dist: prefect (>=0.15.6,<0.16.0); extra == "prefect"
+Requires-Dist: pyarrow (>=5.0.0,<6.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: sh (>=1.14.2,<2.0.0)
+Requires-Dist: xarray (>=0.19.0,<0.20.0)
+Project-URL: Documentation, https://openmodelingfoundation.github.io/meillionen
+Description-Content-Type: text/markdown
+
+# Meillionen
+
+Meillionen will be a project to facilitate the interoperability of simulation models written in different languages and frameworks for the physical and social sciences. Current work is focused on combining models with command line interfaces in python but work on bidirectional communication is planned.
+
+## Installation
+
+With pip
+
+```bash
+pip install meillionen
+```
+
+## Development
+
+Setup the environment
+
+```bash
+conda env create -f environment.yml -n meillionen
+conda activate meillionen
+```
+
+Run the tests
+
+```bash
+poetry run pytest
+```
+
+Install the dependencies
+
+```bash
+poetry install
+```
+
+### FAQ
+
+*I've updated the flatbuffer schemas, how do I update the generated Python code?*
+
+Run `flatc` in the root of the project (it is installed in the flatbuffers conda package).
+
+```bash
+flatc -o python --python schema/*.fbs
+```
+
