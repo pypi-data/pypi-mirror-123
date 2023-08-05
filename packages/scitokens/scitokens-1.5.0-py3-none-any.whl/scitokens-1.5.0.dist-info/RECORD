@@ -1,0 +1,16 @@
+scitokens/__init__.py,sha256=75u5AFDqD4KqQ97f-M9fQOC9Dd9jCYnkxcaP4X8L6xc,179
+scitokens/scitokens.py,sha256=52Jo-sC35MiUj0r_5Q21XpkN5GHxiyMiwz6eWToNai0,25228
+scitokens/urltools.py,sha256=QEhBfMUzbTZyXVREmS8D4JkOBNpAey76yQR8Owmwus8,1629
+scitokens/tools/__init__.py,sha256=s0ku5jui3FmRxdJTOcrvEZT3uOyDwld67alTOXNk0KA,42
+scitokens/tools/admin_create_key.py,sha256=zXVtMFets0uqPqrsJKyEx4c5xEUvBL7hMnjnbAPdaDw,7318
+scitokens/tools/admin_create_token.py,sha256=-tM6IvNLvJVpJuJ79bNMaKfMOpA_N2V_13ZA35rlT8c,1777
+scitokens/utils/__init__.py,sha256=Kz2Pq23thFf_hRk_sr8ISarBiPyFDjKfoFkt57Cr5Wc,1037
+scitokens/utils/config.py,sha256=6zVuUlhKKdMSAY4kigGPO0Yuz7sbG2xRrqyH88wS6Xg,2871
+scitokens/utils/errors.py,sha256=xHzykOra-6xpZyvJAcLmL0Zf75nnJRtaY3wfyVV5uGQ,1162
+scitokens/utils/keycache.py,sha256=1HTs1LNWwAx1LAg6GYOVomg87FawRLihFdrRoA5ENZA,14325
+scitokens-1.5.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+scitokens-1.5.0.dist-info/METADATA,sha256=22TSDgkt7MeTKytJdxrktAxHuONFPFPqYx6r6ITbuM8,339
+scitokens-1.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scitokens-1.5.0.dist-info/entry_points.txt,sha256=WSSsMWuGgStuXM03yafollJl9n6x6hNtCALuyJSWQzQ,157
+scitokens-1.5.0.dist-info/top_level.txt,sha256=6UtVxpf-e2YRmeVGM8TlqKYB0dnXa0kJSi57ViSNn8A,10
+scitokens-1.5.0.dist-info/RECORD,,
