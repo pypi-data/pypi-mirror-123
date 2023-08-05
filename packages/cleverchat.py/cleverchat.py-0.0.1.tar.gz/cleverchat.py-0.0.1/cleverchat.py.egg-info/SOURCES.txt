@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+clever_chat/__init__.py
+clever_chat/client.py
+clever_chat/errors.py
+clever_chat/result.py
+cleverchat.py.egg-info/PKG-INFO
+cleverchat.py.egg-info/SOURCES.txt
+cleverchat.py.egg-info/dependency_links.txt
+cleverchat.py.egg-info/requires.txt
+cleverchat.py.egg-info/top_level.txt
