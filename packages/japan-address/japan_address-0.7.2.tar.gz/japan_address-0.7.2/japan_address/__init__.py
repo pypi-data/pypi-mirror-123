@@ -1,0 +1,1 @@
+from japan_address.japan_address import *
