@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+hyperpy/__init__.py
+hyperpy/core.py
+hyperpy/util.py
+py_hyperpy.egg-info/PKG-INFO
+py_hyperpy.egg-info/SOURCES.txt
+py_hyperpy.egg-info/dependency_links.txt
+py_hyperpy.egg-info/top_level.txt
