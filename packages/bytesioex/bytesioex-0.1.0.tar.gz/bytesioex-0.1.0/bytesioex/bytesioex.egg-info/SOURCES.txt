@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+TODO.md
+pyproject.toml
+setup.cfg
+.vscode/settings.json
+.vscode/tasks.json
+bytesioex/__init__.py
+bytesioex/bytesioex.py
+bytesioex/conftest.py
+bytesioex/bytesioex.egg-info/PKG-INFO
+bytesioex/bytesioex.egg-info/SOURCES.txt
+bytesioex/bytesioex.egg-info/dependency_links.txt
+bytesioex/bytesioex.egg-info/top_level.txt
+docs/index.md
+docs/reference.md
