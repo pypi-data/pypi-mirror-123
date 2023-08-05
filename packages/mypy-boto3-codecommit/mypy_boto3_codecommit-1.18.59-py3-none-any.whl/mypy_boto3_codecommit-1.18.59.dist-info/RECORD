@@ -1,0 +1,17 @@
+mypy_boto3_codecommit/__init__.py,sha256=PkJp3JPwpcbplyOxgRUmow_WTjzMcl3U3iGvtgZvIXA,2064
+mypy_boto3_codecommit/__init__.pyi,sha256=G-pXnosaDsEtFy8zLmQr3s-qBHJp5eWztFhvl3WHyCc,2063
+mypy_boto3_codecommit/__main__.py,sha256=TKqAa71wFKWC9jPwsniqYEgi9JL497w-Ow3YbAvy2n0,909
+mypy_boto3_codecommit/client.py,sha256=sOG5HSIA5ThgCByNP7ErP7zqv0mI-DGbya5rg3usE30,71184
+mypy_boto3_codecommit/client.pyi,sha256=KZEVmm5FuI2lwEj22KtRF--iosk0cYZ2XJOSina0S1Y,71092
+mypy_boto3_codecommit/literals.py,sha256=-tx65S3ijJ5Kk3yi2GTluqm04OdvYVngsChwlJqgrM0,8693
+mypy_boto3_codecommit/literals.pyi,sha256=e5eIZI_6m4aXq0X1rzMFKStEPGj-Nq2d-T_6-uNvu-s,8691
+mypy_boto3_codecommit/paginator.py,sha256=668ubqQ78JNzDkKPfKSLU6dhPQFnBOILsXDR57PZrAU,9522
+mypy_boto3_codecommit/paginator.pyi,sha256=F6yZc4E3R4pZGO7IGZYzMd7wACdy7ThlM8E7GGZ81JY,9513
+mypy_boto3_codecommit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_codecommit/type_defs.py,sha256=WzKvusliNQ-u4sXnI1GPvqWeD0VEyM-5gKQTwEoRCPw,73564
+mypy_boto3_codecommit/type_defs.pyi,sha256=M_GVDK_fM0a1UoxJyjBkocmi_a7EnEJKJh6mp5ssNF8,73481
+mypy_boto3_codecommit/version.py,sha256=5X7cEsNQRrWlJRfj3PasKaJOzAfdnL2kEhXSV_SQAdM,61
+mypy_boto3_codecommit-1.18.59.dist-info/METADATA,sha256=54Lxlj-Eet8OUvzreeFbcOVcdzBAOhdNN7TnFFc9BNE,17857
+mypy_boto3_codecommit-1.18.59.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypy_boto3_codecommit-1.18.59.dist-info/top_level.txt,sha256=7dNb5E25s2E9VyXDJTN3EJuv7yR449iv9xSUWssJRZo,22
+mypy_boto3_codecommit-1.18.59.dist-info/RECORD,,
