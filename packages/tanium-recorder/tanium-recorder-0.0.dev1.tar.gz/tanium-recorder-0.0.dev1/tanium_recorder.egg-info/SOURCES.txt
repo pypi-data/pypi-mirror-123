@@ -1,0 +1,6 @@
+setup.py
+tanium-recorder/__init__.py
+tanium_recorder.egg-info/PKG-INFO
+tanium_recorder.egg-info/SOURCES.txt
+tanium_recorder.egg-info/dependency_links.txt
+tanium_recorder.egg-info/top_level.txt
