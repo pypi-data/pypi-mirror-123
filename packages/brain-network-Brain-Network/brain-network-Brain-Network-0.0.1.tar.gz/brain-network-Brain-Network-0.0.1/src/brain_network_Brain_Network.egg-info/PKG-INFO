@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: brain-network-Brain-Network
+Version: 0.0.1
+Summary: Emory Brain Network package
+Home-page: https://github.com/DDavid233/brain-network-package
+Author: Brain Network Research Group
+Author-email: wdai26@emory.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/DDavid233/brain-network-package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is the Python package for Brain Network data. It provides a way to download and use Brain Network data. 
+
