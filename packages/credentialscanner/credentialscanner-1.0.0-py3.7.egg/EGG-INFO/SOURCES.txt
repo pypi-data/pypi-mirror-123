@@ -1,0 +1,7 @@
+README.md
+setup.py
+credentialscanner/__main__.py
+credentialscanner.egg-info/PKG-INFO
+credentialscanner.egg-info/SOURCES.txt
+credentialscanner.egg-info/dependency_links.txt
+credentialscanner.egg-info/top_level.txt

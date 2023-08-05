@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: credentialscanner
+Version: 1.0.0
+Summary: A python module to make sure that no sensitive information gets published when commiting to git.
+Home-page: https://github.com/Matthias1590/CredentialScanner
+Author: Matthias Wijnsma
+Author-email: matthiasx95@gmail.com
+License: MIT
+Description: # CredentialScanner
+        A python module to make sure that no sensitive information gets published when commiting to git.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
