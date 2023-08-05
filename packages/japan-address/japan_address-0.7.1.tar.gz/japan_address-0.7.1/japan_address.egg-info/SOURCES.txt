@@ -1,0 +1,10 @@
+README.md
+setup.py
+japan_address/__init__.py
+japan_address/japan_address.py
+japan_address.egg-info/PKG-INFO
+japan_address.egg-info/SOURCES.txt
+japan_address.egg-info/dependency_links.txt
+japan_address.egg-info/top_level.txt
+tests/__init__.py
+tests/test_japan_address.py
