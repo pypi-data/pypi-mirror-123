@@ -1,0 +1,10 @@
+eclipse_pytorch/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+eclipse_pytorch/_nbdev.py,sha256=tIIYn-sa4GtCa5Z_wQROx3RkAJ1hR_5wbNwMEVkL9MY,1178
+eclipse_pytorch/layers.py,sha256=brq9rtpZ_Ett9TNUfGabUIwsxbXxB-Ds7Rve5PxddZE,20639
+eclipse_pytorch/model.py,sha256=FDfhIdAi8f8u9ByUZXh2oEmbAwiD9GpEPQYrjU-SEAY,3484
+eclipse_pytorch-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eclipse_pytorch-0.0.1.dist-info/METADATA,sha256=hgaM--YShzk0e4giu8WeSW0YIdQ1tVXBY4ktOVB6ej0,1390
+eclipse_pytorch-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eclipse_pytorch-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+eclipse_pytorch-0.0.1.dist-info/top_level.txt,sha256=k12G5uzTZcD-c7_NwXdgr3kTlxf3qw2qCbD2H8asvYA,16
+eclipse_pytorch-0.0.1.dist-info/RECORD,,
