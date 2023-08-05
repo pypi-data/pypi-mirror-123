@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: camiseta
+Version: 0.0.2
+Summary: Framework to generate an html file with python
+Home-page: UNKNOWN
+Author: Adrien (Adrien4g)
+Author-email: <adrien.de.adrien@gmail.com>
+License: UNKNOWN
+Keywords: python,site,html,frontend,camiseta,brazil
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Framework to generate an html file with python
+
