@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-22 16:27+0000\n"
+"PO-Revision-Date: 2021-04-26 17:02+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"python-simpleline/master/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6\n"
+
+#: ../simpleline/render/adv_widgets.py:43
+msgid "Error"
+msgstr "Virhe"
+
+#: ../simpleline/render/adv_widgets.py:52
+#, python-format
+msgid "Press %s to exit"
+msgstr "Paina %s lopettaaksesi"
+
+#: ../simpleline/render/adv_widgets.py:71
+msgid "Password"
+msgstr "Salasana"
+
+#: ../simpleline/render/adv_widgets.py:72
+msgid "Enter your passphrase"
+msgstr "Anna tunnuslauseesi"
+
+#: ../simpleline/render/adv_widgets.py:85
+msgid "Passphrase: "
+msgstr "Tunnuslause: "
+
+#: ../simpleline/render/adv_widgets.py:122
+msgid "Question"
+msgstr "Kysymys"
+
+#: ../simpleline/render/adv_widgets.py:132
+#, python-format
+msgid "Please respond '%(yes)s' or '%(no)s'"
+msgstr "Ole hyvä ja vastaa'%(yes)s' vai '%(no)s'"
+
+#: ../simpleline/render/adv_widgets.py:167
+msgid "Help"
+msgstr "Ohjeet"
+
+#: ../simpleline/render/adv_widgets.py:173
+msgid "The help is not available."
+msgstr "Ohjeita ei ole saatavilla."
+
+#: ../simpleline/render/adv_widgets.py:186
+#, python-format
+msgid "Press %s to return"
+msgstr "Paina %s palataksesi takaisin"
+
+#. Default message of the prompt
+#: ../simpleline/render/prompt.py:32
+msgid "Please make a selection from the above"
+msgstr "Tee valinta yllä olevista"
+
+#. String to use in a prompt when we want users to press the key ENTER.
+#: ../simpleline/render/prompt.py:35
+msgid "ENTER"
+msgstr "ENTER"
+
+#. TRANSLATORS: 'q' to quit
+#: ../simpleline/render/prompt.py:38
+msgid "to quit"
+msgstr "lopettaaksesi"
+
+#. TRANSLATORS:'c' to continue
+#: ../simpleline/render/prompt.py:42
+msgid "to continue"
+msgstr "jatkaaksesi"
+
+#. TRANSLATORS:'r' to refresh
+#: ../simpleline/render/prompt.py:46
+msgid "to refresh"
+msgstr "päivittääksesi"
+
+#. TRANSLATORS:'h' to help
+#: ../simpleline/render/prompt.py:50
+msgid "to help"
+msgstr "ohjeisiin"
