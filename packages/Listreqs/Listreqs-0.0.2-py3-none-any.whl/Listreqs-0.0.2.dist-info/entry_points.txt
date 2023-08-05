@@ -1,0 +1,3 @@
+[console_scripts]
+listreqs = listreqs.__main__:main
+
