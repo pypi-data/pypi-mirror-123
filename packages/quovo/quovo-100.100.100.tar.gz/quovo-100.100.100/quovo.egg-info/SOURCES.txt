@@ -1,0 +1,7 @@
+README.rst
+setup.py
+quovo/__init__.py
+quovo.egg-info/PKG-INFO
+quovo.egg-info/SOURCES.txt
+quovo.egg-info/dependency_links.txt
+quovo.egg-info/top_level.txt
