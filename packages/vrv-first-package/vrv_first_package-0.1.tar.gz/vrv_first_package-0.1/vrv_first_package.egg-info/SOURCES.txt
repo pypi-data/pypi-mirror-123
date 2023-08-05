@@ -1,0 +1,10 @@
+setup.py
+vrv_first_package/Binomialdistribution.py
+vrv_first_package/Gaussiandistribution.py
+vrv_first_package/Generaldistribution.py
+vrv_first_package/__init__.py
+vrv_first_package.egg-info/PKG-INFO
+vrv_first_package.egg-info/SOURCES.txt
+vrv_first_package.egg-info/dependency_links.txt
+vrv_first_package.egg-info/not-zip-safe
+vrv_first_package.egg-info/top_level.txt
