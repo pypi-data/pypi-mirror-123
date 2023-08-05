@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: enmity
+Version: 0.2.0
+Summary: A minimal python discord bot library.
+Home-page: https://github.com/Miravalier/enmity
+Author: Benjamin Miramontes
+Author-email: python@miramontes.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Miravalier/enmity/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Enmity
+Enmity is a minimal python discord bot library.
+
+
