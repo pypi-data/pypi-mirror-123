@@ -1,0 +1,14 @@
+nrn-glia>=0.4
+nrn-patch>=3.0.0
+nrn-subprocess>=1.3.4
+efel
+numpy
+errr
+
+[beam]
+ndsb
+
+[dev]
+sphinx
+sphinx_rtd_theme
+pesticide
