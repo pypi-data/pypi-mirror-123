@@ -1,0 +1,11 @@
+blobconverter==1.2.2
+pytube==11.0.1
+depthai
+
+[:platform_machine != "aarch64" and platform_machine != "armv6l" and platform_machine != "armv7l"]
+opencv-python==4.5.1.48
+opencv-contrib-python==4.5.1.48
+
+[:platform_machine == "armv6l" or platform_machine == "armv7l"]
+opencv-python==4.4.0.46
+opencv-contrib-python==4.4.0.46
