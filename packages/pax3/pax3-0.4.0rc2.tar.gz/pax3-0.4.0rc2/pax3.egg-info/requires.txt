@@ -1,0 +1,13 @@
+jax
+jmp
+
+[test]
+chex
+dm-haiku
+fire
+mypy
+opax
+pytest
+tensorflow_datasets
+tensorflow
+tqdm
