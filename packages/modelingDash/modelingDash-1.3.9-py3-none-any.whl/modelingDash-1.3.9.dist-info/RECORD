@@ -1,0 +1,13 @@
+modelingDash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelingDash/appModeling.py,sha256=m2QD_zuTYRqbWC2DCP855tOG_EXyHBkjpV0h7IJ8xn8,942
+modelingDash/configModelisation.py,sha256=5as-Z8H9leZkNKwFbG3E0T7MH4Ye1R3KzrjyXv5rm5A,21479
+modelingDash/explorePumpTrialsDash.py,sha256=PHltY_on5-Yc5FrSrRsmmRmgtAgQveGR4a4eexUo-fE,16094
+modelingDash/usefulCircuits.py,sha256=fgivkogt_ewIB1YUfeJS7KkoEU8Iw-mZoLVK5aUJ9-E,2541
+modelingDash/confFiles/Moulinette_preparation_manips_bruleur.xlsx,sha256=mxsrGJkBL1CXQPyuJrjYbsJMt_EEzeOKpNwO0iEaprI,17867
+modelingDash/confFiles/copperConductivity-coeff-T.jpg,sha256=hERfrgPk-xi5sJU63_MsL0wbCNkPsAW0HPZ0DB5qd2Q,26781
+modelingDash/confFiles/logModeling.md,sha256=9DufDKTFiVU2tAteo56W2zsh8tCjNUdYNdGX46cWe1o,105
+modelingDash/confFiles/materials.csv,sha256=RoumU19Pum2cFwcUGAcKCMj5sL6eDi6HJ5lk_kOTp6Q,193
+modelingDash-1.3.9.dist-info/METADATA,sha256=sKO8e2VfyFiOdl9T9b0rNEd1pQHPMDkgxyprh25U7KA,462
+modelingDash-1.3.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+modelingDash-1.3.9.dist-info/top_level.txt,sha256=roiAcPYTIXN3doVI5n3lLMIMvqXy2SNz736QUrnN1Co,13
+modelingDash-1.3.9.dist-info/RECORD,,
