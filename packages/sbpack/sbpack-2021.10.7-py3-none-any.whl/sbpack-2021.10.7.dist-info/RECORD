@@ -1,0 +1,12 @@
+sbpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbpack/lib.py,sha256=cxtzDVYLEv_ux6C8AHH91lG1HZgUCzWRteJUpdYvPF4,5719
+sbpack/pack.py,sha256=W5AaTNZHOV6Q9ofnrNI8CS1a223yQEZZi47xOKEEetM,11189
+sbpack/schemadef.py,sha256=eFTsw4Tlh_pX4Wy4PMWOPOp_V3Q98vTLB9hckbN83Fg,5477
+sbpack/unpack.py,sha256=amyfuytRxvsz0-RARfP1Hm4tbpmMVCfLSaM8U3woh-o,3064
+sbpack/version.py,sha256=_4rg6_Ve73DIw-9Xm4oM4Rr4L1brvqNyTSfqNpI5eAc,27
+sbpack-2021.10.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sbpack-2021.10.7.dist-info/METADATA,sha256=Z8C3QE7MO-bs0aziVDhBDdVE9vP-QgdDS-DZnf-mXRg,7251
+sbpack-2021.10.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sbpack-2021.10.7.dist-info/entry_points.txt,sha256=bfuZVbh-4dH2tA3zg_fQC2f8baVs2dhanib_MIeNrJI,105
+sbpack-2021.10.7.dist-info/top_level.txt,sha256=jYfNbA_EM0kCUdebAs2xxFukxE1XlzB_BbAr4t25Jmg,7
+sbpack-2021.10.7.dist-info/RECORD,,
