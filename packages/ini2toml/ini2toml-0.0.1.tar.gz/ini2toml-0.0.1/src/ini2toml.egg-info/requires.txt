@@ -1,0 +1,26 @@
+packaging>=20.7
+
+[:python_version < "3.7"]
+dataclasses
+
+[:python_version < "3.8"]
+importlib-metadata
+typing-extensions
+
+[all]
+configupdater<4,>=3
+atoml<2,>=1.0.3
+tomli_w<2,>=0.3.0
+
+[full]
+configupdater<4,>=3
+atoml<2,>=1.0.3
+
+[lite]
+tomli_w<2,>=0.3.0
+
+[testing]
+setuptools
+tomli
+pytest
+pytest-cov
