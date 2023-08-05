@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hx3
+Version: 0.1.4
+Summary: Hx 3 API
+Home-page: https://github.com/jaredhobbs/hx3
+Author: Jared Hobbs
+Author-email: jared@pyhacker.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/jaredhobbs/hx3/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+API Client for Hx 3 Thermostats
+===============================
+
+Installing
+----------
+
+```shell
+  $ pip install hx3
+```
+
+
