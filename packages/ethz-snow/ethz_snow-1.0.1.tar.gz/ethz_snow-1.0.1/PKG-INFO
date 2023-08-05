@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ethz_snow
+Version: 1.0.1
+Summary: A Python package describing Stochastic Nucleation of Water in vials.
+Home-page: https://github.com/SPL-ethz/snow
+Author: Leif-Thore Deck
+Author-email: deckl@ipe.mavt.ethz.ch
+License: MIT
+Project-URL: Documentation, https://spl-ethz.github.io/snow/
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: testing
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+UNKNOWN
+
