@@ -1,0 +1,16 @@
+jsonschema-stubs/METADATA.toml,sha256=Yxgpd2j2uxhRP-Uq1awsaHxIpFAcQ9_uF9mk7SiXYbQ,18
+jsonschema-stubs/__init__.pyi,sha256=tm0d6XvGNO7IQwVO37lMtYw7EG44E8EsrBnfKjbWQ7k,808
+jsonschema-stubs/_format.pyi,sha256=vjNZzE_YuG5raY8gFE5kYFzG6HskGaf28RjD_kjqRgc,1062
+jsonschema-stubs/_legacy_validators.pyi,sha256=83afZHfq6gvUwZwr_Nf1YRsuCA58OsMz4KNCyM448AU,590
+jsonschema-stubs/_reflect.pyi,sha256=FeXbFrhsadgM3gRYjfmb3mRN5VVISJTbLst6KJN6LzU,222
+jsonschema-stubs/_types.pyi,sha256=PbJHSqLWvJhAGqz_2Cq3mWrFtVHqt9VzvCENDeuY7pY,794
+jsonschema-stubs/_utils.pyi,sha256=gAMdHBFmzWwtgL2BTpiCex7K7vj01ImFRBUK7K0Ur1k,783
+jsonschema-stubs/_validators.pyi,sha256=-23hy9MsBeZ6ZNO-Mw6El0s3_IANwOH03lBL-R3VxNM,2038
+jsonschema-stubs/cli.pyi,sha256=T_WcG4_KvkfrLAXycvXZUTmF7W2GRMB3524stzYyKRs,262
+jsonschema-stubs/compat.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema-stubs/exceptions.pyi,sha256=sb2a-DHm0cgUeJ5LSTaZdlShQFweqP3wfn5r81Zrz14,1896
+jsonschema-stubs/validators.pyi,sha256=zhxH2wB9PzaJWHwLB-R80ig3aubkB70yPHlvQ6QuxKQ,1637
+types_jsonschema-3.2.1.dist-info/METADATA,sha256=YadC8CdQmAWOqxUBTRTu6PDfjdft-nygNLEqcx6_yEs,872
+types_jsonschema-3.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+types_jsonschema-3.2.1.dist-info/top_level.txt,sha256=Q49upbsobYN6k9WtGrY_p7hc3Kda7fCbfhuCjQIwkQs,17
+types_jsonschema-3.2.1.dist-info/RECORD,,
