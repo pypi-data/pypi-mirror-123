@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: stepcord
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Stępującybrat1017
+Author-email: x.higheconomy@gmail.com
+License: MIT
+Keywords: ekonomia discord.py,nextord,pycord
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: db-sqlite3
+Requires-Dist: discord.py
+Requires-Dist: discord
+
+# StepCord by Stępujący brat!
+Change Log
+==========
+0.0.1 (11/10/2021)
+-------------------
+- Dodano możliwość zrbienia ekonomi...
+
