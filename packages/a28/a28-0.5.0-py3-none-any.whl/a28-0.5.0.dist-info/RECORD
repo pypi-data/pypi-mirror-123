@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=ZXA_tsUoZhW2jFRrXH6EuZlGCLphmbB3pRchlgXySJE,4406
+LICENSE,sha256=4Y_OrQ6uIXRzkLOiTwuPf5caiZ8WKzRI15p2CVrERsM,1059
+README.md,sha256=NtRFSRpdkThx5AzBsPkp-88x2AgFlBVPrERvm9qFMAI,2482
+a28/__init__.py,sha256=eQ0v3TlYFdERQ12n0po8zDgghlskn9q_4J2TtKjk0Cw,869
+a28/application.py,sha256=Yj2gIk8Or1p57wZMN8-5LojjX-64S7bH8kyuHb8aJSI,71
+a28/cli.py,sha256=ROoHWAWY_mMrCp8AOUuKkwPThgRvzNgE4BzocV9YA_0,1095
+a28/package-old.py,sha256=2AIBL_sqawbWgCPg6Hj2nWGT_kN0BvkaX1LhWjvk9tA,8863
+a28/package.py,sha256=pf903iUtr6q3LAl0tuLfTzDeMAsPgEBzT9acVcbIArI,9164
+a28/system.py,sha256=0XKJ2iMPBa1CA3WeJ5Hnad5eQM4e6s0SAaskcyqbJlg,4246
+a28/utils.py,sha256=xM-w1DlHBS_pWqcZzfNCVair5ER4i5PzTA4qCYmw2IA,2153
+a28-0.5.0.dist-info/entry_points.txt,sha256=wo36Cz0ak2iwuL8GtCrxNA2ExqpYaklH0KoU3HEfj4E,36
+a28-0.5.0.dist-info/LICENSE,sha256=4Y_OrQ6uIXRzkLOiTwuPf5caiZ8WKzRI15p2CVrERsM,1059
+a28-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+a28-0.5.0.dist-info/METADATA,sha256=-5D_ovFQlFvJPTes24q2JuIN-aoqk4t2767Ko698Irs,3413
+a28-0.5.0.dist-info/RECORD,,
