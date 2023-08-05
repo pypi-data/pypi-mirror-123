@@ -1,0 +1,21 @@
+{
+  "name": "ringdingjs",
+  "version": "0.3.2",
+  "description": "Simple framework to access Python APIs through WebSockets.",
+  "main": "ringdingjs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/pyfox/ringding.git",
+    "directory": "src/_ringding/resources/js"
+  },
+  "keywords": [
+    "python",
+    "websocket",
+    "push"
+  ],
+  "author": "pyfox",
+  "license": "MIT",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
+}

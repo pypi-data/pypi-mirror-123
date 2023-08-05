@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoyo</title>
+</head>
+<body>
+<div>
+    <button onclick="connect()">Connect</button>
+</div>
+<div id='log'>
+</div>
+</body>
+
+<script data-main="scripts/app" src="../../clients/js/ringdingjs.js"></script>
+<script>
+    async function connect() {
+        await RD.connect('ws://localhost:42000', {username: 'hallo'}, print_message)
+        await CallApi().ChatApi.hello()
+    }
+
+    function print_message(message) {
+        console.log(message)
+        const node = document.createElement('div')
+        node.innerText = message
+        document.getElementById('log').appendChild(node)
+    }
+</script>
+</html>
