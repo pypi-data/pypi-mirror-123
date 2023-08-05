@@ -1,0 +1,11 @@
+allennlp==1.5.0
+allennlp-models==1.5.0
+attacut==1.0.6
+benepar==0.2.0
+pythainlp==2.2.5
+malaya==4.0
+networkx==2.5
+spacy-thai==0.6.0
+ssg==0.0.6
+stanza==1.1.1
+underthesea==1.2.3
