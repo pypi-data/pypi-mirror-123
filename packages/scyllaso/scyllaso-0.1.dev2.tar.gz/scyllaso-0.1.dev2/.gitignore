@@ -1,0 +1,7 @@
+*.kate-swp
+__pycache__/
+venv/
+.idea/
+.eggs/
+dist/
+scyllaso.egg-info/
