@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ivaylo/__init__.py
+src/ivaylo/simple.py
+src/ivaylo.egg-info/PKG-INFO
+src/ivaylo.egg-info/SOURCES.txt
+src/ivaylo.egg-info/dependency_links.txt
+src/ivaylo.egg-info/top_level.txt

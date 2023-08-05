@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ivaylo
+Version: 0.0.1
+Summary: A small example package from Ivaylo Toskov.
+Home-page: https://github.com/pypa/sampleproject
+Author: Ivaylo Toskov
+Author-email: ivtoskov@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ivaylo's example project
+
+This is my example project.
+
