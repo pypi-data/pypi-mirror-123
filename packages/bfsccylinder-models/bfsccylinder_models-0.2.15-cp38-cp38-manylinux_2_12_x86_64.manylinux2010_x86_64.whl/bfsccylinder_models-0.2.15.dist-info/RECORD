@@ -1,0 +1,17 @@
+bfsccylinder_models-0.2.15.data/data/README.md,sha256=ddw6x5pDUsIgAV0ZpTLD8mVdcI88TScVR8YP38fDt90,584
+bfsccylinder_models-0.2.15.data/data/LICENSE,sha256=qN7Ivs_EdzuZg-bJN24bbsrKe5EbDiqwoXtsZeNvzK0,1521
+bfsccylinder_models.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
+bfsccylinder_models-0.2.15.dist-info/WHEEL,sha256=4jt3s2SccH6o2ToOLXWl8IJUftjHelTzKdBcGG27rIE,148
+bfsccylinder_models-0.2.15.dist-info/top_level.txt,sha256=Qv4XlktMdI480uiC3myvYchjvLLabKMpFDqeLDU9irU,20
+bfsccylinder_models-0.2.15.dist-info/METADATA,sha256=IJVTsyEMSdSjJ_bePCa8yEgCwJSu-6GGPr92jmf1SqM,1683
+bfsccylinder_models-0.2.15.dist-info/LICENSE,sha256=qN7Ivs_EdzuZg-bJN24bbsrKe5EbDiqwoXtsZeNvzK0,1521
+bfsccylinder_models-0.2.15.dist-info/RECORD,,
+bfsccylinder_models/linbuck_VAFW.cpython-38-x86_64-linux-gnu.so,sha256=bcMGbKGpsF1iRt9NS6W2Dr_YwiGGXZ-1zINHdqr0PrM,4754336
+bfsccylinder_models/models.py,sha256=QXmz0G--DKwdP881BkMIuL1Ls4d9WtdMw4Z6CdbmLhg,4529
+bfsccylinder_models/version.py,sha256=ogr0x4sazo5ruMrKOQDYO_YrTwtaXZTE8fKnwCajH7I,23
+bfsccylinder_models/__init__.py,sha256=LaTc3VkIfggzXYFQJmX95MovcV-1aJuqSUuDioahIS8,302
+bfsccylinder_models/koiter_cylinder_CTS_slow.py,sha256=0POmVOFW4KgkLWbGVfe8sIGz4tujK7G3_FwZNn8I-uY,27940
+bfsccylinder_models/koiter_cylinder_CTS.cpython-38-x86_64-linux-gnu.so,sha256=WFMC8Zp51JRg1llvOreLI9oQTw5jlPYHo5Hylb5zYFs,5996632
+bfsccylinder_models/koiter_cylinder_newton_raphson.py,sha256=7D3exR8ABW0--HobDdnYq3XfXahFe6IhYI8xdXDgEcE,21199
+bfsccylinder_models/vatfunctions.py,sha256=F3VfklAO8O5IufYKLzuUoyCz5D5IZuOnRvPQfAF1vWo,614
+bfsccylinder_models/koiter_cylinder.cpython-38-x86_64-linux-gnu.so,sha256=s6bi4dJVqr2vCyS5wzvrRZXQGi4vClxBXP80ldSJkzk,5115968
