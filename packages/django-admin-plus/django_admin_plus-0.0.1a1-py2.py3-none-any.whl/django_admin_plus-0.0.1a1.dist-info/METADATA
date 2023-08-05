@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: django-admin-plus
+Version: 0.0.1a1
+Summary: Django admin panel extension.
+Home-page: https://github.com/insspb/django-admin-plus
+Author: Andrey Shpak
+Author-email: ashpak@ashpak.ru
+License: MIT
+Project-URL: Docs, https://django-admin-plus.readthedocs.io/
+Project-URL: Source, https://github.com/insspb/django-admin-plus
+Keywords: django,django-filters,django-admin,django-admin-plus
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: django (>=3.0)
+
+# Welcome to Django Admin Plus!
+
+[![pypi](https://img.shields.io/pypi/v/django-admin-plus.svg)](https://pypi.python.org/pypi/django-admin-plus)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/insspb/django-admin-plus/Run%20checks/master)](https://github.com/insspb/django-admin-plus)
+[![docs](https://readthedocs.org/projects/django-admin-plus/badge/?version=latest)](https://django-admin-plus.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/insspb/django-admin-plus/branch/master/graph/badge.svg)](https://codecov.io/gh/insspb/django-admin-plus)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/792c94611eaba16a8dc5/test_coverage)](https://codeclimate.com/github/insspb/django-admin-plus/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/792c94611eaba16a8dc5/maintainability)](https://codeclimate.com/github/insspb/django-admin-plus/maintainability)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+Django Admin Plus is Django Admin Panel extension application.
+
+## Requirements
+
+* Python 3.7+ only
+* Django 3.0+ only
+* No external packages required
+
+## Installation
+
+```bash
+pip install django-admin-plus
+```
+
+## Usage instructions
+
+## Documentation
+
+Check out the [documentation](https://django-admin-plus.readthedocs.io/en/latest/) for
+more info.
+
+## License
+
+MIT License
+
+See [LICENSE](https://github.com/insspb/django-admin-plus/blob/master/LICENSE) to see
+the full text.
+
+
