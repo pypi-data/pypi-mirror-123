@@ -1,0 +1,4 @@
+[console_scripts]
+snudda = snudda.cli:snudda_cli
+snudda_load = snudda.utils.load:snudda_load_cli
+
