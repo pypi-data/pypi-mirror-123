@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: serverhub-agent
+Version: 0.0.20
+Summary: Runtime interface to running docker containers
+Home-page: https://github.yandex-team.ru/skills/serverhub-agent
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
