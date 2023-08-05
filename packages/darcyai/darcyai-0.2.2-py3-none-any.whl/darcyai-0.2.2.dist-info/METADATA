@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: darcyai
+Version: 0.2.2
+Summary: DarcyAI Package
+Home-page: https://github.com/Edgeworx/darcyai_engine
+Author: Edgeworx
+Author-email: info@edgeworx.io
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/Edgeworx/darcyai_engine
+Project-URL: Bug Reports, https://github.com/Edgeworx/darcyai_engine/issues
+Project-URL: Source Code, https://github.com/Edgeworx/darcyai_engine
+Keywords: darcy,darcyai
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow (==8.3.2)
+Requires-Dist: imutils (==0.5.4)
+Requires-Dist: varname (==0.8.1)
+Requires-Dist: pytest (==6.2.5)
+
+# darcyai
+
+
