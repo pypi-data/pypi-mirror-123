@@ -1,0 +1,3 @@
+[console_scripts]
+di = diskimage.__main__:main
+
