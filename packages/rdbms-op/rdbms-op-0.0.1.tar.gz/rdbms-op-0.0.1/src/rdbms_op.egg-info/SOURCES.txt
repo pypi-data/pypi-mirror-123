@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/rdbms_op.egg-info/PKG-INFO
+src/rdbms_op.egg-info/SOURCES.txt
+src/rdbms_op.egg-info/dependency_links.txt
+src/rdbms_op.egg-info/top_level.txt

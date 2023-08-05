@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rdbms-op
+Version: 0.0.1
+Summary: Operational Helper for Relational Database Managemant System
+Home-page: https://github.com/ojjy/rdbms-op
+Author: Yejin Jo
+Author-email: ojjy90@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ojjy/rdbms-op/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ojjy90 let it go
+
