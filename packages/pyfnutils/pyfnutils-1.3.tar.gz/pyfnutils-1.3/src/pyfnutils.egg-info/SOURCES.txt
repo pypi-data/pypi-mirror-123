@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyfnutils/__init__.py
+src/pyfnutils/log.py
+src/pyfnutils/parallel.py
+src/pyfnutils/zstd.py
+src/pyfnutils.egg-info/PKG-INFO
+src/pyfnutils.egg-info/SOURCES.txt
+src/pyfnutils.egg-info/dependency_links.txt
+src/pyfnutils.egg-info/top_level.txt
