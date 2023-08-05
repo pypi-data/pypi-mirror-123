@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rctSlime
+Version: 0.0.2
+Summary: reinforcement learning for axie game
+Home-page: UNKNOWN
+Author: Ash
+Author-email: weizhe@rct.ai
+License: Apache 3.0
+Keywords: Deep Reinforcment Learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: torch
+
+UNKNOWN
+
+
