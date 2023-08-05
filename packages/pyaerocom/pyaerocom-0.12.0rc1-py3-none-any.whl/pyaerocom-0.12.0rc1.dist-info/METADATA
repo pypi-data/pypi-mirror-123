@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pyaerocom
+Version: 0.12.0rc1
+Summary: pyaerocom model evaluation software
+Home-page: https://github.com/metno/pyaerocom.git
+Author: MET Norway
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7,<4
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: scitools-iris (<3.1.0,>=3.0.1)
+Requires-Dist: scitools-pyke (>=1.1.1)
+Requires-Dist: xarray (>=0.16.0)
+Requires-Dist: cartopy (>=0.16.0)
+Requires-Dist: matplotlib (>=3.0.1)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: seaborn (>=0.8.0)
+Requires-Dist: geonum
+Requires-Dist: LatLon23
+Requires-Dist: SRTM.py
+Requires-Dist: numpy
+Requires-Dist: simplejson
+Requires-Dist: requests
+Requires-Dist: reverse-geocode
+Requires-Dist: tqdm
+Requires-Dist: openpyxl
+Requires-Dist: geojsoncontour
+Provides-Extra: docs
+Requires-Dist: nbsphinx ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+Requires-Dist: pytest-dependency ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+|CI| |Docs| |Coverage|
+
+=========
+pyaerocom
+=========
+
+**Website and Documentation:** https://pyaerocom.readthedocs.io/en/latest/
+
+**Installation:** https://pyaerocom.readthedocs.io/en/latest/install.html  
+
+**Tutorials:** https://pyaerocom.readthedocs.io/en/latest/getstarted.html#tutorials-jupyter-notebooks
+
+**AeroCom:** https://aerocom.met.no
+
+**AeroVal** evaluation portal: https://aerocom-evaluation.met.no/
+
+.. |CI| image:: https://github.com/metno/pyaerocom/workflows/CI/badge.svg
+   :target: https://github.com/metno/pyaerocom/actions
+
+.. |Docs| image:: https://readthedocs.org/projects/pyaerocom/badge/?version=latest
+	 :target: https://pyaerocom.readthedocs.io/en/latest/?badge=latest
+	 :alt: Documentation Status
+
+.. |Coverage| image:: https://codecov.io/gh/metno/pyaerocom/branch/main-dev/graph/badge.svg?token=A0AdX8YciZ
+    :target: https://codecov.io/gh/metno/pyaerocom
+
+
+
