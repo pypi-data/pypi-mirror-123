@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+camiseta/Camiseta.py
+camiseta/__init__.py
+camiseta/info.py
+camiseta/tag.py
+camiseta/tempfile.py
+camiseta/utils.py
+camiseta.egg-info/PKG-INFO
+camiseta.egg-info/SOURCES.txt
+camiseta.egg-info/dependency_links.txt
+camiseta.egg-info/top_level.txt
