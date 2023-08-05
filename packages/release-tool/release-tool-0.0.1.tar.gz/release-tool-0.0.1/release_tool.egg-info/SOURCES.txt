@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+release-tool/__init__.py
+release_tool.egg-info/PKG-INFO
+release_tool.egg-info/SOURCES.txt
+release_tool.egg-info/dependency_links.txt
+release_tool.egg-info/top_level.txt

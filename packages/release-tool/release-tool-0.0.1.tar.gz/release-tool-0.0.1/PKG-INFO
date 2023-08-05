@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: release-tool
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://gitee.com/openeuler/release-tools
+Author: tushenmei
+Author-email: tushenmei@huawei.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Tools for version release
+
+
