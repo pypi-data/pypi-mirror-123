@@ -1,0 +1,10 @@
+powerapi>=0.8.0
+
+[docs]
+sphinx>=1.8.1
+
+[influxdb]
+influxdb>=5.2.2
+
+[mongodb]
+pymongo>=3.7.2
