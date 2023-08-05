@@ -1,0 +1,8 @@
+README.md
+setup.py
+bconfig/__init__.py
+bconfig/bconfig.py
+bconfig.egg-info/PKG-INFO
+bconfig.egg-info/SOURCES.txt
+bconfig.egg-info/dependency_links.txt
+bconfig.egg-info/top_level.txt
