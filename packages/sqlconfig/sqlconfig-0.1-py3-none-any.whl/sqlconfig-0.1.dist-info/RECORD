@@ -1,0 +1,10 @@
+sqlconfig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlconfig/__main__.py,sha256=VlwlDPUFQme_ppKS7d1cN-_ww3xpMR2WGOPVqVUcMZo,29
+sqlconfig/cli.py,sha256=JhkOOoaX8-x1PdjaY3WhD3LvJ2Ae9TvGmKfNDvESnwg,3595
+sqlconfig/lib.py,sha256=bWHW5Cz_pwtzooVUq_HQ6fRVFNR3uTBVvE0feV0QYZ4,3271
+sqlconfig-0.1.dist-info/LICENSE.txt,sha256=erORUEfQI-T8MFJKafVSq3IA94YyeL7sQfvOPNRw7Gg,1048
+sqlconfig-0.1.dist-info/METADATA,sha256=B7u6TH96mNqSL0cWCyKdZGqpeVjYCBZZIb73xY1tMRE,4263
+sqlconfig-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqlconfig-0.1.dist-info/entry_points.txt,sha256=1nE5b5HgSqL-fUV0o9VHJsqzkvRv4noImIgRTrQBGcs,50
+sqlconfig-0.1.dist-info/top_level.txt,sha256=ooL9hHcdI_oD6JnNsqZR9vq5-u_fhoYUK9x8Tknpsts,10
+sqlconfig-0.1.dist-info/RECORD,,

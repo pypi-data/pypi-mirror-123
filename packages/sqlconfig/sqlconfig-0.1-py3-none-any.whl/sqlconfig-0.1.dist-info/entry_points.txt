@@ -1,0 +1,3 @@
+[console_scripts]
+sqlconfig = sqlconfig.cli:main
+
