@@ -1,0 +1,14 @@
+GitPython
+PyYAML
+chardet
+h5py
+joblib
+matplotlib
+numpy
+pandas
+pymatreader
+scipy
+seaborn
+sklearn
+torch
+xmltodict
