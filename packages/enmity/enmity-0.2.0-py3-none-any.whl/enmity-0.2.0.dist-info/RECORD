@@ -1,0 +1,16 @@
+enmity/__init__.py,sha256=LsUQKHidrcUOzjZVtJrDiaQOaLdc5bbgI9vAe58qVnI,173
+enmity/__main__.py,sha256=mwprTOIFJrZsPrxkqlVN-knvWRPTzVX26aizIjAuCpg,278
+enmity/bot.py,sha256=oZskhmZIRLrN8ZbeltxsYAIHtQ-Mxf2vKK-GWQRfvX4,17189
+enmity/colors.py,sha256=uAIWSjnDcm8qTsQXBPeJFkwwkaxoh2TpOgy48hz6jY8,1723
+enmity/components.py,sha256=oMYG8oAF0V94eGB726EUwdSg5aMao91fF6x1q0JN3Fs,3172
+enmity/embeds.py,sha256=Lenh8NpuMi5h6MB5d6As27asoYC0lPdUxHL83rYlixU,1583
+enmity/intents.py,sha256=WXeMstMKbAp74b7winrJ1M5hPsWMmqx1L0A2Yktu3bU,527
+enmity/interactions.py,sha256=y4LVD5yMsg-BlGIt8cXc6EtnnQUfA0-zDeZ55Ek3JkQ,6160
+enmity/messages.py,sha256=wkIc_znaC6ROnoydAABgj7-lPcmEFFA07IcLYTdJ0dI,71
+enmity/opcodes.py,sha256=cYeYnsNiqra3JO7x1Cx0zWFmppqqIJ5RHFBEoSSUoZI,385
+enmity/users.py,sha256=iu1ibKV8lgATI_wfVCqvSwqueRzWtYbsxC9FZ1K-jqA,522
+enmity-0.2.0.dist-info/LICENSE,sha256=gtGtf3G50W84TEkEArezFD84rbzcRZdOP0_o3dr9upY,1084
+enmity-0.2.0.dist-info/METADATA,sha256=nms9A38w8C7QBFfYEL8t1Zj3kh4RmTF1abpIVDTvb1E,628
+enmity-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+enmity-0.2.0.dist-info/top_level.txt,sha256=BVsevcLohmkcCayg1lXjxHlKbaNYYRKc2kdttPNsSXw,7
+enmity-0.2.0.dist-info/RECORD,,
