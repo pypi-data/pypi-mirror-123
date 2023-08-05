@@ -1,0 +1,3 @@
+[console_scripts]
+mmcterm = mmcterm.mmcterm:main
+
