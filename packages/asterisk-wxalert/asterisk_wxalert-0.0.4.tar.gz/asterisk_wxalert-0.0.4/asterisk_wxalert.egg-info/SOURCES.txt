@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+./asterisk_wxalert/__init__.py
+./asterisk_wxalert/wxalert.py
+asterisk_wxalert.egg-info/PKG-INFO
+asterisk_wxalert.egg-info/SOURCES.txt
+asterisk_wxalert.egg-info/dependency_links.txt
+asterisk_wxalert.egg-info/entry_points.txt
+asterisk_wxalert.egg-info/top_level.txt
