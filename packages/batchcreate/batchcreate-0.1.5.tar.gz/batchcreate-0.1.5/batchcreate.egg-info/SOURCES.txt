@@ -1,0 +1,8 @@
+README.md
+setup.py
+batchcreate/__init__.py
+batchcreate/batchcreator.py
+batchcreate.egg-info/PKG-INFO
+batchcreate.egg-info/SOURCES.txt
+batchcreate.egg-info/dependency_links.txt
+batchcreate.egg-info/top_level.txt
