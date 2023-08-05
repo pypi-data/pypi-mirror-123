@@ -1,0 +1,15 @@
+skyhub/__init__.py,sha256=jro_fYFaWTpMLcXlRQe53nd8yxygCDFL1sK3eYFcmKI,23
+skyhub/__main__.py,sha256=M4vwKwldSj3wI9cT5mLYdnJ1Xw07yC_WMMylDZnxZ5E,2049
+skyhub/controllers/__init__.py,sha256=a-SvKytY3a3SD_yVq6WccMHqA-Zm_rOpKoQh0mWNqrA,149
+skyhub/controllers/bling_controller.py,sha256=ZjzYml1k0hy3DLMd3KMLnEjkz-SpQkSaw7CK2S-00Pw,1906
+skyhub/controllers/skyhub_controller.py,sha256=yr1Wag_a60WkkedssymLliRLzLdf6DVCPOFXqHY1ycg,1491
+skyhub/controllers/via_varejo_controller.py,sha256=7Y0HFhk9lb-zdUS_rv9rlP0pPgZZOmVlHzI88_oB5x4,28
+skyhub/loggin_config.py,sha256=YsERNS_OmmlnwrUgwPhEBgjYREQfevC4ByXe-QtHVfg,285
+skyhub/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyhub/models/produto.py,sha256=ETAnXqWm6yeXvBBeb9236LzIPlZo5DycoxzZQV64KB4,447
+skyhub/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyhub/utils/csv_parser.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyhub/utils/telegram_erros.py,sha256=9JIgGaY7iPQYymR8ozNtXRjVWoPq_aFLwSIrElHMiYA,763
+skyhub-1.1.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+skyhub-1.1.8.dist-info/METADATA,sha256=sHm7zlQvSaEBNL7MRyuS5pG2XEbKsQqQV06qZLOLJH8,379
+skyhub-1.1.8.dist-info/RECORD,,
