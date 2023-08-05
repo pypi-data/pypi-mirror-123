@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nyflow
+Version: 0.0.6.4
+Summary: nyfow is deeplearning framwork
+Home-page: https://github.com/namyoungkim/nyflow
+Author: namyoungKim
+Author-email: liniarq@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/namyoungkim/nyflow/archive/master.zip
+Keywords: nyflow
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
