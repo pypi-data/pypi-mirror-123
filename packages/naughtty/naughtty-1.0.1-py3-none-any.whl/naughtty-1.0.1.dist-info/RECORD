@@ -1,0 +1,15 @@
+naughtty/__init__.py,sha256=e3TSdKX7zTjD1wzxL2KfcDUFipMryn6B3V8XrMcdCgE,70
+naughtty/__main__.py,sha256=onyS-bejRMhajiS3RUZl1QoL0dJjtHtZMw4gux_z2PM,173
+naughtty/cli.py,sha256=RKl2FJ2BG46yjYOMPBfHDt0xw410XNawQHrcUnIbTyE,2790
+naughtty/constants.py,sha256=L3hFqb4i6-xOyxJ7DLaSi3FlHfCgotlFQT5miPYqRpc,68
+naughtty/naughtty.py,sha256=qyah1iLImRIaOGzE7zpV8nlx_3BKKXZfi1X3hD-CHPA,3321
+naughtty/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+naughtty/version/VERSION,sha256=ROFh5ElcrCz3hYBD6eZBjpV58N3ProJvmjcmIpaM4GY,6
+naughtty/version/__init__.py,sha256=1Hi8CuB5fIa1HiBTzV-FRyG7AAA4QmCNdAcHpv_bQgg,207
+naughtty/version/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+naughtty-1.0.1.dist-info/LICENSE,sha256=jecwHNG8OzeBOT_VaopmQWpty9muYzuw03tmWBQRwPs,1073
+naughtty-1.0.1.dist-info/METADATA,sha256=coTAMkx2Is--wsy3RlAFIYbQy8FEGQ1YiekUJMCFLbc,3268
+naughtty-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+naughtty-1.0.1.dist-info/entry_points.txt,sha256=yNqjGs1PRAVcep1yWeffpHRcHCIkr-8N8yl_KtB35FA,58
+naughtty-1.0.1.dist-info/top_level.txt,sha256=N6yy6AnBbaFDGljFltLoHF7bkaeMq5RvbG99-ON3ulg,9
+naughtty-1.0.1.dist-info/RECORD,,
