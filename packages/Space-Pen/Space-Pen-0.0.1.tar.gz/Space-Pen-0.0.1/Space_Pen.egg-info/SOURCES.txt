@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Space-Pen/__init__.py
+Space_Pen.egg-info/PKG-INFO
+Space_Pen.egg-info/SOURCES.txt
+Space_Pen.egg-info/dependency_links.txt
+Space_Pen.egg-info/top_level.txt
