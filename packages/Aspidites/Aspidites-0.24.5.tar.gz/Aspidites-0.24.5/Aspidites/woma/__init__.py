@@ -1,0 +1,1 @@
+__metadata__ = "{'args': CompilerArgs, 'file_stack': CheckedFileStack, 'fname': PosixPath('Aspidites/woma/library.pyx'), 'app_name': PosixPath('Aspidites/woma/library'), 'project': 'library', 'module_name': 'Aspidites.woma.library', 'file_c': 'Aspidites/woma/library.c', 'root': PosixPath('Aspidites/woma'), 'mode': 'x'}"
