@@ -1,0 +1,9 @@
+colored_traceback>=0.3.0
+colorlog>=4.1.0
+libsass>=0.20.1
+jsbeautifier>=1.14.0
+beautifulsoup4>=4.10.0
+esprima>=4.0.1
+six>=1.14.0
+pathos>=0.2.8
+pyfiglet>=0.8.post1
