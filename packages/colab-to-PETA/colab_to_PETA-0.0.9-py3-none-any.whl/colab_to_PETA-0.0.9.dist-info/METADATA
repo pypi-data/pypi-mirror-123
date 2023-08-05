@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: colab-to-PETA
+Version: 0.0.9
+Summary: tools for curating colab gene test data to bgi-PETA.
+Home-page: UNKNOWN
+Author: JaylanLiu
+Author-email: liujilong@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy
+Requires-Dist: pymysql
+
+# Colab
+Colab are the tools for curating colab gene test data to bgi-PETA.
+
+## Installation
+```
+$ cd colab
+$ python setup.py install
+```
+
+## Usage
+```
+$ colab -h
+usage: colab [-h] -d ROOT_PATH [-s DATABASE] [-u]
+
+tools for curating colab gene test data to bgi-PETA
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d ROOT_PATH, --root_path ROOT_PATH
+                        root path for the product files of a colab
+  -s DATABASE, --database DATABASE
+                        database login path
+  -u, --update          update for existing samples, skip if False
+```
+
+
