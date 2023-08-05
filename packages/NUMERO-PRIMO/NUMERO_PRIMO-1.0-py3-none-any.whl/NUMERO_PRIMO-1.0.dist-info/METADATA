@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: NUMERO-PRIMO
+Version: 1.0
+Summary: A tool to know the prime numbers in an interval.
+Home-page: UNKNOWN
+Author: Justo Mota Márquez
+Author-email: justomotamarquez@gmail.com
+License: GNU GPLv3
+Keywords: pynumeroprimo mathematical operations primenumbers prime numbers numeros primos matematicas operaciones
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+NUMERO PRIMO
+==============
+
+Este es el ejercicio de la lección 4 del Master en Programación avanzada en Python para Machine Learning, Big Data y Hacking ético, en el que contiene este paquete una función a la que se le va a pasar un número, y te va a devolver la función que números primos hay desde el número 2 (Incluido) hasta el número pasado en la función (Excluido).
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
