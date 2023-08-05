@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "beautysh"
+version = "6.2.0"
+description = "A Bash beautifier for the masses."
+authors = ["Bernardo Meurer <bernardo@meurer.org>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/lovesegfault/beautysh"
+repository = "https://github.com/lovesegfault/beautysh"
+keywords = ["beautify", "bash", "shell", "beautifier", "script", "auto"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Text Processing :: Filters",
+    "Topic :: Utilities"
+]
+include = ["LICENSE"]
+
+[tool.poetry.scripts]
+beautysh = "beautysh:main"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+colorama = "^0.4.4"
+types-colorama = "^0.4.3"
+types-setuptools = "^57.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.7b0"
+isort = "^5.9.3"
+mypy = "^0.910"
+flake8 = "^4.0.1"
+
+[tool.pytest.ini_options]
+addopts = "-v -Wdefault"
+
+[tool.black]
+line-length = 99
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 99
+skip_glob = ["/nix/store/*", "result/*"]
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.core.masonry.api"
