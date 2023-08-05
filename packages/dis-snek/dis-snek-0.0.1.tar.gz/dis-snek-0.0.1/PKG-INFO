@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dis-snek
+Version: 0.0.1
+Summary: 
+Author: LordOfPolls
+Author-email: ddavidallen13@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: attrs (>=21.2.0,<22.0.0)
+Requires-Dist: mypy (>=0.910,<0.911)
+Requires-Dist: sentinel[varname] (>=0.3.0,<0.4.0)
