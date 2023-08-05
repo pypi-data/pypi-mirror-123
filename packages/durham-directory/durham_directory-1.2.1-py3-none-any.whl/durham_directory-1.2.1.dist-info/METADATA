@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: durham-directory
+Version: 1.2.1
+Summary: Python Bindings for the Durham University (UK) Directory
+License: MIT
+Author: John Maximilian
+Author-email: 2e0byo@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
