@@ -1,0 +1,8 @@
+pop
+dict-toolbox
+
+[async]
+aiologger[aiofiles]
+
+[full]
+aiologger[aiofiles]
