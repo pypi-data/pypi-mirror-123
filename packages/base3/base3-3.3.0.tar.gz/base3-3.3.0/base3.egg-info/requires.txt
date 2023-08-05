@@ -1,0 +1,16 @@
+aerich
+aiomysql
+aiotask-context
+asynctest
+bcrypt
+logfmt
+psycopg2-binary
+PyJWT
+pyjwt-rsa
+PyYAML
+python-dateutil
+redis
+requests
+tornado
+tortoise-orm[asyncpg]
+tortoise-orm[accel]
