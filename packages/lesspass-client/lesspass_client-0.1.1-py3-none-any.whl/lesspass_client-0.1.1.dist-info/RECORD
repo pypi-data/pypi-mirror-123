@@ -1,0 +1,8 @@
+lesspass_client/__init__.py,sha256=pCq1KbQ1uHJGt3_bIoKLioZOAwsL2CBztZMjGBLDazs,32
+lesspass_client/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+lesspass_client/api.py,sha256=FWgSRuVW6CULomt8P9WhCF8i0TWWJSyyJlWMf1hs5UI,1149
+lesspass_client/cli.py,sha256=cLSiPvCo96HecgteKO4ccS1e8Hno7ULkNsFaZD975AE,2402
+lesspass_client-0.1.1.dist-info/entry_points.txt,sha256=CN97-IoGMkFJN-qcY5JsFP5tinvOLz1-ZVOH39rik5A,60
+lesspass_client-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lesspass_client-0.1.1.dist-info/METADATA,sha256=R28-JBF9EgMy6Mda2rUWMG_1MJm80j4pcFlSbPGvzaQ,3355
+lesspass_client-0.1.1.dist-info/RECORD,,
