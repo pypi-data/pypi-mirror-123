@@ -1,0 +1,8 @@
+setup.py
+phisfortmodule/__init__.py
+phisfortmodule/h_repeatitivemethod.py
+phisfortmodule.egg-info/PKG-INFO
+phisfortmodule.egg-info/SOURCES.txt
+phisfortmodule.egg-info/dependency_links.txt
+phisfortmodule.egg-info/requires.txt
+phisfortmodule.egg-info/top_level.txt
