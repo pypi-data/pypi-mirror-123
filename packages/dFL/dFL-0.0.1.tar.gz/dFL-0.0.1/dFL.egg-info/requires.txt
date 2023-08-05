@@ -1,0 +1,10 @@
+cryptography
+Flask
+mongoengine
+numpy
+pymongo
+requests
+colorlog
+
+[dev]
+pytest>=3.7
