@@ -1,0 +1,6 @@
+setup.py
+tanium-vendor-loader/__init__.py
+tanium_vendor_loader.egg-info/PKG-INFO
+tanium_vendor_loader.egg-info/SOURCES.txt
+tanium_vendor_loader.egg-info/dependency_links.txt
+tanium_vendor_loader.egg-info/top_level.txt
