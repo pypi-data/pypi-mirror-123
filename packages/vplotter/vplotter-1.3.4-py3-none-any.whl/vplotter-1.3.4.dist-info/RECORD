@@ -1,0 +1,13 @@
+vplotter/__init__.py,sha256=CwIkAkE5hAmjBlrqmZ_w9A4KEQNIib1CSf_GZeRD-0Y,524
+vplotter/vplotter.py,sha256=sKBAKmWDae7NSZOunwqpba5_ARj-pt4w6z0H36vjnuA,5797
+vplotter/engines/__init__.py,sha256=47yMM87YfFxQ767HM5hARMTz70YHgqiOTGQKbffk7Cs,38
+vplotter/engines/bot_engine.py,sha256=pohBJRU49Yg5C4p7mBQYVva1FnjXst5jsAR5vCJRxjo,3084
+vplotter/engines/gnuplot_engine.py,sha256=1y8xERWfLK10cef8WQ2CBhGS7iPW4-6s7RkIV7J0Id4,3798
+vplotter/engines/plotter_utils.py,sha256=IN7gG__ERYGKNpMTvH2gGuDVFed67OfznSQ7JOZg_mk,3127
+vplotter/engines/veusz_engine.py,sha256=VrB9Y87hoCF2ViUrDzGpBjrTwPOwCrfgNVD-F8MkjO8,12600
+vplotter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vplotter-1.3.4.dist-info/LICENSE.txt,sha256=zI-kN8YvXTRizk6jlhsYhEjolgUWJaQoRRMPmXQpucE,1090
+vplotter-1.3.4.dist-info/METADATA,sha256=sd-cvtEiHDr_AnsMVekMU2UH1jGj5lWpgdhno6MtKm8,3921
+vplotter-1.3.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vplotter-1.3.4.dist-info/top_level.txt,sha256=JNC4av3YuBBVOlkEyLIOqJi43D6pzysVnA2BPGs5VkA,9
+vplotter-1.3.4.dist-info/RECORD,,
