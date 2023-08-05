@@ -1,0 +1,3 @@
+[console_scripts]
+tideploy=tideploy.cli:run
+

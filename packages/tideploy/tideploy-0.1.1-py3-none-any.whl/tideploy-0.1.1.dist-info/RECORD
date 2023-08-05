@@ -1,0 +1,8 @@
+tideploy/__init__.py,sha256=o2tVh8JdeOndRV902uYvRa_5jIbemsDJhytIiWpBcL8,71
+tideploy/cli.py,sha256=yMG4XyQKbLw4hSqmRSF3bPbF5ajjrtCG24lJQLruCvc,5042
+tideploy/main.py,sha256=1egA2DFh5km5wPYXkq6OOTucSVP6_93sZQceqENrSNY,69
+tideploy/remote.py,sha256=g6K9Abz3-FbvKDyQoBerQeuJqTnt8q9KD-kVmWh9QFk,2975
+tideploy-0.1.1.dist-info/entry_points.txt,sha256=hctXeTOHg6vG8bySIhD-6-6pOea08-Rt6ap6utiyOkg,45
+tideploy-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+tideploy-0.1.1.dist-info/METADATA,sha256=-6SfLIfjKXYHJXyXVjiMuLT0hXlFBDXg9QgyvK8gCv8,6417
+tideploy-0.1.1.dist-info/RECORD,,
