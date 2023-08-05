@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        meldedaten_faker=meldedaten_faker:cli
+    

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: meldedaten_faker
+Version: 0.5.0
+Summary: Generates fake citizen registration data
+Home-page: UNKNOWN
+Author: Dominik Visca
+Author-email: dominik.visca@hs-mainz.de
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
