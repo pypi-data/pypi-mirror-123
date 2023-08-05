@@ -1,0 +1,10 @@
+setup.py
+dsnd_probability_testing/Binomialdistribution.py
+dsnd_probability_testing/Gaussiandistribution.py
+dsnd_probability_testing/Generaldistribution.py
+dsnd_probability_testing/__init__.py
+dsnd_probability_testing.egg-info/PKG-INFO
+dsnd_probability_testing.egg-info/SOURCES.txt
+dsnd_probability_testing.egg-info/dependency_links.txt
+dsnd_probability_testing.egg-info/not-zip-safe
+dsnd_probability_testing.egg-info/top_level.txt
