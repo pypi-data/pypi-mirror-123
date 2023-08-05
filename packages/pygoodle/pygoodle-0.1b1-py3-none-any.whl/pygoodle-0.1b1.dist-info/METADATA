@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pygoodle
+Version: 0.1b1
+Summary: General Python utils
+Home-page: https://github.com/JrGoodle/pygoodle
+Author: Joe DeCapo
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Requires-Dist: argcomplete
+Requires-Dist: colorama
+Requires-Dist: humanize
+Requires-Dist: jsonschema
+Requires-Dist: paramiko
+Requires-Dist: pick
+Requires-Dist: PyYAML
+Requires-Dist: resource-pool
+Requires-Dist: rich
+Requires-Dist: trio
+
+UNKNOWN
+
