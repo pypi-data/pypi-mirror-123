@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: test.centrify.dmc
+Version: 0.5
+Summary: Library to retrieve an access token to Centrify PAS from an enrolled machine
+Home-page: https://github.com/centrify/dmc-python
+Author: Harvey Kwok
+Author-email: harvey.kwok@centrify.com
+License: 	apache-2.0
+Download-URL: https://github.com/centrify/dmc-python/archive/v0.3-alpha.tar.gz
+Keywords: Centrify,DMC,Windows,Linux,PAS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Centrify Delegated Machine Credential for Python Library
+
+Delegated Machine Credentials is the capability to trust a Windows or Linux computer to make specific API calls to privileged access service. Included in the definition are "machine scopes".  A machine scope may contain a range of PAS API endpoints that may be called by the trusted computer using the Centrify Command Line Interface. Some examples include trusting the computer to retrieve the contents of a secret, creating/reading/updating PAS objects (such as systems/accounts ETC) or reading other metadata from the PAS platform. Machine scopes may be configured at the time the computer is enrolled using cenroll or via the privileged access service platform interface (Resources → Systems → Computer → Client Profile)
+

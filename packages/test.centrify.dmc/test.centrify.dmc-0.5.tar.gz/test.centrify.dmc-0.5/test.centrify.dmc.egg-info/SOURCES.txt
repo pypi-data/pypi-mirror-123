@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+dmc/__init__.py
+dmc/lrpc2.py
+test.centrify.dmc.egg-info/PKG-INFO
+test.centrify.dmc.egg-info/SOURCES.txt
+test.centrify.dmc.egg-info/dependency_links.txt
+test.centrify.dmc.egg-info/top_level.txt
