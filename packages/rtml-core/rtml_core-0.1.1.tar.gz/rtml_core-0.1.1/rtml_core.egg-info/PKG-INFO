@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rtml-core
+Version: 0.1.1
+Summary: For generating Resource Tag objects
+Home-page: https://github.com/DeadMeme5441/RTMLCore
+Author: DeadMeme5441
+Author-email: deadunderscorememe@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+UNKNOWN
+
