@@ -1,0 +1,6 @@
+setup.py
+tanium-libcx/__init__.py
+tanium_libcx.egg-info/PKG-INFO
+tanium_libcx.egg-info/SOURCES.txt
+tanium_libcx.egg-info/dependency_links.txt
+tanium_libcx.egg-info/top_level.txt
