@@ -1,0 +1,2 @@
+fps>=0.0.8
+fastapi-users[oretrolab,sqlalchemy]>=8.1.0
