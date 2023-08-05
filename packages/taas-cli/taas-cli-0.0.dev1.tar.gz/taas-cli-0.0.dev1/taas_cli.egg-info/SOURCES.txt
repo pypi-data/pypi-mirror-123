@@ -1,0 +1,6 @@
+setup.py
+taas-cli/__init__.py
+taas_cli.egg-info/PKG-INFO
+taas_cli.egg-info/SOURCES.txt
+taas_cli.egg-info/dependency_links.txt
+taas_cli.egg-info/top_level.txt
