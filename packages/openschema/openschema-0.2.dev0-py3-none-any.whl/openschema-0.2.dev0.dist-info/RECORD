@@ -1,0 +1,13 @@
+openschema/__init__.py,sha256=ganQplBVgmWQOZD9Qq7WDVDujEczVAprI9y-K91JlGY,865
+openschema/kaggle/__init__.py,sha256=w6YaacMxGQHq0CDoNU-UpaJ-w5nLiroTmzAE4E9-hQY,855
+openschema/kaggle/titanic.py,sha256=bxbmCXbTPMhnQPcu9vZMyg4OEe4PqcX7Jj5l2K9RvmQ,2673
+openschema/sklearn/__init__.py,sha256=6Til-6DJyGNuwIzPx0cSqBT4K_u28rEgi0DZshoPE7I,924
+openschema/sklearn/boston.py,sha256=p5e9OPWCFgTgoRwb1rlpzN2AM55ndNLiJn1o8NrKaTM,2830
+openschema/sklearn/breast_cancer.py,sha256=yi-oAIPs4_D45aqyhtTiRU4ZtUhr7JMIJct3jgQEsnw,6995
+openschema/sklearn/iris.py,sha256=ZO-9f4O-bPRkTvKHmRrEMOdimqYRFCOn4UUR35HgUhk,2476
+openschema-0.2.dev0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+openschema-0.2.dev0.dist-info/METADATA,sha256=21db36qGQdy7aeToWz9iL19X5y-nr9a2Xk3rwTlW0FM,2958
+openschema-0.2.dev0.dist-info/NOTICE,sha256=NXci2HFElLh1X4SHchYGTA8w2EJDz-tnt8MAEGdvmVY,124
+openschema-0.2.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+openschema-0.2.dev0.dist-info/top_level.txt,sha256=GcRpznHZnZwRS0MyUGrY4aUTa2b_J4SN3K3-s1jxjeQ,11
+openschema-0.2.dev0.dist-info/RECORD,,
