@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Space-Pen
+Version: 0.0.1
+Summary: A Python Pen
+Home-page: UNKNOWN
+Author: ST
+Author-email: amazingfalcon1@gmail.com
+License: MIT
+Keywords: pen
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This Python Package is A Special Pen Used In Place Of The Regular Pen That Python Modules Use, For Example, The Turtle Module
+
+
+Change Log
+==========
+
+0.0.1(10/11/2021)
+-----------------
+- First Release
+
