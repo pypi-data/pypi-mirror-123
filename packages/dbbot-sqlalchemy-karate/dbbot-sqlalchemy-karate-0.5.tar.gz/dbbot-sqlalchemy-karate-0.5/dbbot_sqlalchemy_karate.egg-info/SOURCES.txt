@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+dbbot/__init__.py
+dbbot/__main__.py
+dbbot/logger.py
+dbbot/run.py
+dbbot/reader/__init__.py
+dbbot/reader/database_writer.py
+dbbot/reader/reader_options.py
+dbbot/reader/robot_results_parser.py
+dbbot_sqlalchemy_karate.egg-info/PKG-INFO
+dbbot_sqlalchemy_karate.egg-info/SOURCES.txt
+dbbot_sqlalchemy_karate.egg-info/dependency_links.txt
+dbbot_sqlalchemy_karate.egg-info/requires.txt
+dbbot_sqlalchemy_karate.egg-info/top_level.txt
