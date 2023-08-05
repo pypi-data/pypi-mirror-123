@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: webcontentdownloader
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.26)
+Requires-Dist: beautifulsoup4 (>=4.10)
+Requires-Dist: selenium (>=3.141)
+Requires-Dist: importlib ; python_version >= "3.6"
+
+UNKNOWN
+
+
