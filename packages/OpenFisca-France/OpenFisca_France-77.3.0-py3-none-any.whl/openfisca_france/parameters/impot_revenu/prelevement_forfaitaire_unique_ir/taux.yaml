@@ -1,0 +1,6 @@
+description: Taux
+reference: https://www.ipp.eu/outils/baremes-ipp/ (hors parser des barèmes)
+unit: /1
+values:
+  2018-01-01:
+    value: 0.128
