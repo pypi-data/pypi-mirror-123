@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+UGrid.egg-info/PKG-INFO
+UGrid.egg-info/SOURCES.txt
+UGrid.egg-info/dependency_links.txt
+UGrid.egg-info/requires.txt
+UGrid.egg-info/top_level.txt
+ugrid/UGridApi.dll
+ugrid/__init__.py
+ugrid/c_structures.py
+ugrid/errors.py
+ugrid/py_structures.py
+ugrid/ugrid.py
+ugrid/utils.py
+ugrid/version.py
