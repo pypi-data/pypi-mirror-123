@@ -1,0 +1,4 @@
+[console_scripts]
+datagrep=datagrep.main:app
+dgp=datagrep.platform.main:app
+
