@@ -1,0 +1,8 @@
+typer
+rich
+questionary
+rich-rst
+beautifulsoup4
+lxml
+requests
+packaging
