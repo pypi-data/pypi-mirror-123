@@ -1,0 +1,71 @@
+{% extends 'portal/base.html' %}
+{% load staticfiles %}
+{% load app_tags %}
+{% load banner_tags %}
+
+{% block subNav %}
+{% banner banner_name="BANNER" %}
+{% endblock subNav %}
+
+{% block content %}
+<div id="kurono_resources_page"></div>
+
+<div class="background">
+    <div class="grid grid-worksheets grid__fit col-sm-8 col-center">
+        <div class="card">
+            <div class="card__images">
+                <img title="Teaching packs" alt="Packs image" class="card__image"
+                     src="{% static 'portal/img/teaching_resources.png' %}">
+            </div>
+            <div class="card__text">
+                <div>
+                    <h4 class="card__title">Teaching packs</h4>
+                    <p>We've created a comprehensive set of teaching materials that are aligned to Key Stages 3 and 4.</p>
+                </div>
+                <div>
+                    <a id="kurono_packs_button" href="{% url 'kurono_packs' %}" class="button button--primary button-right-arrow">
+                        View teaching packs
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__images">
+                <img title="Kurono Common Room" alt="Kurono Common Room" class="card__image"
+                     src="{% static 'portal/img/kurono_common_room.png' %}">
+            </div>
+            <div class="card__text">
+                <div>
+                    <h4 class="card__title">The Common Room</h4>
+                    <p>A place where teachers can share ideas and experiences through using Kurono in the classroom.</p>
+                </div>
+                <div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpxFVxOl3AkCsQF0-aVHoiKFy5daS32jzszR1fFAsN_BqLow/viewform"
+                       class="button button--primary button-right-arrow" target="_blank">
+                        Join us
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__images">
+                <img title="Kurono Story" alt="Kurono Story" class="card__image"
+                     src="{% static 'portal/img/kurono_story.png' %}">
+            </div>
+            <div class="card__text">
+                <div>
+                    <h4 class="card__title">The Kurono Story</h4>
+                    <p>Discover the background story to Kurono and the adventures the students will be taken on.</p>
+                </div>
+                <div>
+                    <a href="{% url 'materials_viewer' pdf_name="Kurono_story" %}"
+                       target="_blank" class="button button--primary button-right-arrow">
+                        View story
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
