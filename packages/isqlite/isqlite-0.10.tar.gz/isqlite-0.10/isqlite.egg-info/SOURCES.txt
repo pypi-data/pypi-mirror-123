@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+isqlite/__init__.py
+isqlite/cli.py
+isqlite/columns.py
+isqlite/database.py
+isqlite/migrations.py
+isqlite.egg-info/PKG-INFO
+isqlite.egg-info/SOURCES.txt
+isqlite.egg-info/dependency_links.txt
+isqlite.egg-info/entry_points.txt
+isqlite.egg-info/requires.txt
+isqlite.egg-info/top_level.txt
