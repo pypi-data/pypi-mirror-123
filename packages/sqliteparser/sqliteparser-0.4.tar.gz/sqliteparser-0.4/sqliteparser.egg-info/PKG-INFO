@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sqliteparser
+Version: 0.4
+Summary: A parser for SQLite's dialect of SQL
+Home-page: UNKNOWN
+Author: Ian Fisher
+Author-email: iafisher@fastmail.com
+License: MIT
+Project-URL: Source, https://github.com/iafisher/sqliteparser
+Description: # sqliteparser
+        A parser for SQLite's dialect of SQL. Built for use by [isqlite](https://github.com/iafisher/isqlite).
+        
+        ## Installation
+        Install sqliteparser with Pip:
+        
+        ```shell
+        $ pip install sqliteparser
+        ```
+        
+        ## Documentation
+        Documentation is available at https://sqliteparser.readthedocs.io/en/latest/.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: SQL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Database
+Description-Content-Type: text/markdown
