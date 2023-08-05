@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rat-simulator
+Version: 1.1.0
+Summary: A rat in an environment simulator
+Home-page: https://github.com/Vemundss/rat-simulator
+Author: Vemund S. Schoyen
+Author-email: vemund@live.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rat-simulator
+A rat in an environment simulator.
+
+
+### Installation:
+`$ pip install rat-simulator`
+
+
+### Links to Project
+Github link: 
+https://github.com/Vemundss/rat-simulator
+
+PyPi link:
+https://pypi.org/project/rat-simulator/
+
+

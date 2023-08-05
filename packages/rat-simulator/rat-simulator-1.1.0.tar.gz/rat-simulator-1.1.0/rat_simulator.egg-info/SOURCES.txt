@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+rat_simulator.egg-info/PKG-INFO
+rat_simulator.egg-info/SOURCES.txt
+rat_simulator.egg-info/dependency_links.txt
+rat_simulator.egg-info/requires.txt
+rat_simulator.egg-info/top_level.txt
+ratsimulator/Agent.py
+ratsimulator/__init__.py
+ratsimulator/Environment/ABCEnvironment.py
+ratsimulator/Environment/OpenField.py
+ratsimulator/Environment/Rectangle.py
+ratsimulator/Environment/Walls.py
+ratsimulator/Environment/__init__.py
+ratsimulator/Environment/methods.py
