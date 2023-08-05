@@ -1,0 +1,3 @@
+[console_scripts]
+colab = colab.colab:main
+
