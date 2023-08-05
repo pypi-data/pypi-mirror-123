@@ -1,0 +1,3 @@
+[console_scripts]
+how-about-no=how_about_no:main
+
