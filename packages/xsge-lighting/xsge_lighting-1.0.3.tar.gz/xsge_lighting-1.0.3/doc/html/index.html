@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xSGE Lighting Library &#8212; xSGE Lighting Library 1.0.3 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="xsge-lighting-library">
+<h1><a class="toc-backref" href="#id1">xSGE Lighting Library</a><a class="headerlink" href="#xsge-lighting-library" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#xsge-lighting-library" id="id1">xSGE Lighting Library</a></p>
+<ul>
+<li><p><a class="reference internal" href="#xsge-lighting-functions" id="id2">xsge_lighting Functions</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<span class="target" id="module-xsge_lighting"></span><p>xSGE is a collection of higher-level extensions for the SGE which
+enhance the core functionality in an implementation-independent way.
+Like the SGE itself, they are distribted under the terms of the GNU
+Lesser General Public License.</p>
+<p>This extension provides a simple interface for lighting.</p>
+<div class="section" id="xsge-lighting-functions">
+<h2><a class="toc-backref" href="#id2">xsge_lighting Functions</a><a class="headerlink" href="#xsge-lighting-functions" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="xsge_lighting.project_light">
+<code class="sig-prename descclassname">xsge_lighting.</code><code class="sig-name descname">project_light</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">sprite</span></em>, <em class="sig-param"><span class="n">image</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_lighting.project_light" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a light to the current frame.  This must be called every frame
+<a class="reference internal" href="#xsge_lighting.project_darkness" title="xsge_lighting.project_darkness"><code class="xref py py-func docutils literal notranslate"><span class="pre">xsge_lighting.project_darkness()</span></code></a> is called to maintain the
+respective light.  This function should be called <em>before</em>
+<a class="reference internal" href="#xsge_lighting.project_darkness" title="xsge_lighting.project_darkness"><code class="xref py py-func docutils literal notranslate"><span class="pre">xsge_lighting.project_darkness()</span></code></a>.</p>
+<p>Arguments:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">x</span></code> -- The horizontal location of the light relative to the
+room.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">y</span></code> -- The vertical location of the light relative to the room.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sprite</span></code> -- The sprite to use as the light.  Black pixels are
+ignored, and all other colors make the appropriate pixel</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">image</span></code> -- The frame of the sprite to use, where <code class="docutils literal notranslate"><span class="pre">0</span></code> is the
+first frame.</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_lighting.clear_lights">
+<code class="sig-prename descclassname">xsge_lighting.</code><code class="sig-name descname">clear_lights</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#xsge_lighting.clear_lights" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all lights that have been projected by
+<a class="reference internal" href="#xsge_lighting.project_light" title="xsge_lighting.project_light"><code class="xref py py-func docutils literal notranslate"><span class="pre">xsge_lighting.project_light()</span></code></a>.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="xsge_lighting.project_darkness">
+<code class="sig-prename descclassname">xsge_lighting.</code><code class="sig-name descname">project_darkness</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">100000</span></em>, <em class="sig-param"><span class="n">ambient_light</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">buffer</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#xsge_lighting.project_darkness" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function must be called every frame to maintain darkness.</p>
+<p>Arguments:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">z</span></code> -- The Z-axis position of the darkness in the room.
+Anything with a higher Z-axis value will not be affected.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ambient_light</span></code> -- A <code class="xref py py-class docutils literal notranslate"><span class="pre">sge.gfx.Color</span></code> object indicating
+the color that should be applied as lighting to the entirety of
+the darkness.  Set to <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code> for no ambient lighting.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">buffer</span></code> -- An extra portion of the room, in addition to what is
+covered by the room's views, to cover with darkness.  This can be
+used to prevent situations where movement of a view at the wrong
+time causes part of the view to not be properly covered in
+darkness.  To ensure maximum efficiency, this should be the
+smallest number possible, i.e. the maximum amount of view movement
+that can happen in a single frame.</p></li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/xsge_logo_alpha_black.png" alt="Logo"/>
+            </a></p>
+<h1 class="logo"><a href="#">xSGE Lighting Library</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
