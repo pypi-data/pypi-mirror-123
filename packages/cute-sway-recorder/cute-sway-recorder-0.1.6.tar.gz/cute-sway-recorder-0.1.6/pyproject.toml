@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cute-sway-recorder"
+version = "0.1.6"
+description = "A small graphical screen recorder for wl-roots, leveraging wf-recorder and slurp"
+authors = ["Maor Kadosh <pypi@avocadosh.xyz>"]
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/it-is-wednesday/cute-sway-recorder"
+repository = "https://github.com/it-is-wednesday/cute-sway-recorder"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+PySide6 = "6.*"
+python = ">=3.6, <3.10" # PySide6 requirements
+
+[tool.poetry.scripts]
+cute-sway-recorder = "cute_sway_recorder.main:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 100
