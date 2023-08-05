@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: top-color-pct
+Version: 0.1.0
+Summary: This library allows you to take N top colors from the image
+Home-page: UNKNOWN
+Author: NasciNSC
+License: MIT
+Keywords: python,image,processing,img,top_colors,color,analitics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Import get_n_top_colors command to work with
+
