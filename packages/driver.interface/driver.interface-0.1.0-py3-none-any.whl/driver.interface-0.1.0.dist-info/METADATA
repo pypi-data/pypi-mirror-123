@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: driver.interface
+Version: 0.1.0
+Summary: A module that exposes a function to get an instance of a driver for a specific interface (module)
+Home-page: https://github.com/grubert65/driver.interface
+Author: Marco Masetti
+Author-email: grubert65@gmail.com
+License: BSD
+Keywords: driver.interface
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+
+A module that exposes a function to get an instance of a driver for a specific interface (module)
+
+
