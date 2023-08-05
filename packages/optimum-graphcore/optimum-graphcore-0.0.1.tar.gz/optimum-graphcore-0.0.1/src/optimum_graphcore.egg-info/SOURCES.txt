@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/optimum-graphcore/__init__.py
+src/optimum-graphcore/version.py
+src/optimum_graphcore.egg-info/PKG-INFO
+src/optimum_graphcore.egg-info/SOURCES.txt
+src/optimum_graphcore.egg-info/dependency_links.txt
+src/optimum_graphcore.egg-info/not-zip-safe
+src/optimum_graphcore.egg-info/requires.txt
+src/optimum_graphcore.egg-info/top_level.txt
