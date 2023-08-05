@@ -1,0 +1,17 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+eclipse_pytorch/__init__.py
+eclipse_pytorch/_nbdev.py
+eclipse_pytorch/layers.py
+eclipse_pytorch/model.py
+eclipse_pytorch.egg-info/PKG-INFO
+eclipse_pytorch.egg-info/SOURCES.txt
+eclipse_pytorch.egg-info/dependency_links.txt
+eclipse_pytorch.egg-info/entry_points.txt
+eclipse_pytorch.egg-info/not-zip-safe
+eclipse_pytorch.egg-info/requires.txt
+eclipse_pytorch.egg-info/top_level.txt

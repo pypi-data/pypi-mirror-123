@@ -1,0 +1,6 @@
+pip
+packaging
+torch>1.6
+fastcore
+
+[dev]
