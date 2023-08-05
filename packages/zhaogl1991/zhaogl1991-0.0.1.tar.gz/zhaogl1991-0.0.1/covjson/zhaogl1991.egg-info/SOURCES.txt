@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+covjson/zhaogl1991.egg-info/PKG-INFO
+covjson/zhaogl1991.egg-info/SOURCES.txt
+covjson/zhaogl1991.egg-info/dependency_links.txt
+covjson/zhaogl1991.egg-info/top_level.txt
