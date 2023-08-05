@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ja_sentence/__init__.py
+ja_sentence/tokenizer.py
+ja_sentence.egg-info/PKG-INFO
+ja_sentence.egg-info/SOURCES.txt
+ja_sentence.egg-info/dependency_links.txt
+ja_sentence.egg-info/top_level.txt
