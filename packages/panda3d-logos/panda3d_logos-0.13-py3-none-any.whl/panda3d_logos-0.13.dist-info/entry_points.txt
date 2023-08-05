@@ -1,0 +1,3 @@
+[console_scripts]
+panda3dsplash = panda3d_logos.panda3dsplash:main
+
