@@ -1,0 +1,7 @@
+h5py>=2.9.0
+mypy-extensions>=0.4.3
+numpy>=1.16.4
+pandas>=1.2.2
+
+[:python_version < "3.7"]
+typing>=3.6.4
