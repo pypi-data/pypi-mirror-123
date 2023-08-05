@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: sc3mylibrary
+Version: 1.0.0
+Summary: my library for project
+Home-page: https://github.com/honeyd3wy/pr3mylibrary.git
+Author: honeyd3wy
+Author-email: holysjy0410@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: aiohttp (==3.7.4.post0)
+Requires-Dist: aniso8601 (==9.0.1)
+Requires-Dist: async-timeout (==3.0.1)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: backoff (==1.11.1)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: cachelib (==0.4.1)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: charset-normalizer (==2.0.6)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: dnspython (==2.1.0)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: Flask (==2.0.2)
+Requires-Dist: Flask-RESTful (==0.3.9)
+Requires-Dist: graphviz (==0.17)
+Requires-Dist: gunicorn (==20.1.0)
+Requires-Dist: idna (==3.2)
+Requires-Dist: importlib-metadata (==4.8.1)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: Jinja2 (==3.0.2)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: keyring (==23.2.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: multidict (==5.2.0)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pymongo (==3.12.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==30.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: scikit-learn (==1.0)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: spotipy (==2.19.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: threadpoolctl (==3.0.0)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==2.0.2)
+Requires-Dist: wincertstore (==0.2)
+Requires-Dist: yarl (==1.6.3)
+Requires-Dist: zipp (==3.6.0)
+
+UNKNOWN
+

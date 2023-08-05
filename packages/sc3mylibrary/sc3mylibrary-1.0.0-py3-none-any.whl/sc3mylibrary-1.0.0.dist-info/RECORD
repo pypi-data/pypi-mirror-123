@@ -1,0 +1,9 @@
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/data_handling.py,sha256=PBrBxWbnaVo4Pw9s7EEqIxEUmam-QKNcPVqDN3tusZ0,7260
+lib/get_myplaylist_api.py,sha256=jZxoRVSU3niFAP20XWum0s6aaSjJQX4gRIgsJ6h0dmw,3773
+lib/model.py,sha256=k0afSj2dpekv5j4queE6Y23QNPuwk-2k6DUy1qlazdQ,2825
+sc3mylibrary-1.0.0.dist-info/LICENSE,sha256=z1iu7W4n_7G-w9GSpWVRznCUn-mWqZMyDRd9AfgWJc8,1101
+sc3mylibrary-1.0.0.dist-info/METADATA,sha256=aeiWZTpQ4e_2_0kEaQ7rgB3Adn6xmiFvOmOS47B7vUE,2189
+sc3mylibrary-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sc3mylibrary-1.0.0.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+sc3mylibrary-1.0.0.dist-info/RECORD,,
