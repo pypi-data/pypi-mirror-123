@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: labxdb
+Version: 0.3
+Summary: Versatile databases for genomic sequencing and lab management.
+Home-page: https://gitlab.com/vejnar/labxdb-python
+Author: Charles E. Vejnar
+License: Mozilla Public License 2.0 (MPL 2.0)
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LabxDB Python
+
+Classes and scripts written in Python for LabxDB.
+
+## Download
+
+See [tags](/../../tags) page.
+
+## Install
+
+```bash
+pip3 install labxdb
+```
+
+## License
+
+*LabxDB* is distributed under the Mozilla Public License Version 2.0 (see /LICENSE).
+
+Copyright (C) 2018-2021 Charles E. Vejnar
+
+
