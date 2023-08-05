@@ -1,0 +1,10 @@
+fourinsight/campaigns/__init__.py,sha256=H85bfQc9M1E8EjowgR8K-hyQdMxrvuKIrbBdinnhqZU,130
+fourinsight/campaigns/api.py,sha256=DYfXcOYVHlaF9oU_GqJJZjJMwQnurLgcSV2rQLvCClQ,16394
+fourinsight/campaigns/campaign.py,sha256=YsAbCLp4sD-JEhX402UdCbk7OjibmBL74EHeV7j5xHs,7415
+fourinsight/campaigns/channels.py,sha256=pQvK6vRcqw_5MUggYI1UR0-cWOy52orFjWXhDDrpkAU,213
+fourinsight/campaigns/client.py,sha256=aW6sDXvXMblpGTvbj0nHtIgdZoAKWNbiYpYWYt0zkMk,1853
+fourinsight/campaigns/utils.py,sha256=N4MJT8G8Q1x4HETXE9Wrb0FqhdZkzah5EkKIgFH3IwA,2535
+fourinsight_campaigns-0.1.5.dist-info/METADATA,sha256=r8lDO_iGBzyfsBMB9zSATFmfgOTIHPvb3KztCBuYsUA,871
+fourinsight_campaigns-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fourinsight_campaigns-0.1.5.dist-info/top_level.txt,sha256=oxGWrcBg2Biv0bKrBHd9Clg_bel4Tqr0lNxMFgxOMrk,12
+fourinsight_campaigns-0.1.5.dist-info/RECORD,,
