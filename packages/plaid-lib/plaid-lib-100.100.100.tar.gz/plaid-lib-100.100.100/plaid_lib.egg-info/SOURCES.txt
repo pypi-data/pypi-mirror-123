@@ -1,0 +1,7 @@
+README.rst
+setup.py
+plaid-lib/__init__.py
+plaid_lib.egg-info/PKG-INFO
+plaid_lib.egg-info/SOURCES.txt
+plaid_lib.egg-info/dependency_links.txt
+plaid_lib.egg-info/top_level.txt
