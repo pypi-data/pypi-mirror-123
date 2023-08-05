@@ -1,0 +1,12 @@
+incognia/__init__.py,sha256=aDd5R_c1OHr27eep8cpfPY5EXJgoQcB8bvPDC1v9Yis,91
+incognia/api.py,sha256=RP2XRUyT1ylCE9ibwrStIaa8zZ6n2oV0yhgrnsHROPg,7274
+incognia/endpoints.py,sha256=uAe3x2DfU5oPu98fCWdn0_D1hO49GBFXnEzjgLobYZc,472
+incognia/exceptions.py,sha256=z8mijoMuFLK5ePjP7nAj5syuMPMFffK_Q8qJ4pvssF4,121
+incognia/feedback_events.py,sha256=0-lHFyVkcjWi4Gdx8lkCPHfle4ZYjYK35yu1YhljAmQ,1268
+incognia/models.py,sha256=cWDN7gX9HbXarLWF8D7sJEqBBuLlWTvDFJR4TB3N9rs,871
+incognia/token_manager.py,sha256=ayV8t9MB52SS9F9AsduZsnxIkT3yjljOv2qj0xLsJuI,2070
+incognia_python-0.0.1.dist-info/LICENSE.txt,sha256=PrqQZSbbqnU3O12KsM5_XOx4bNvzgycqMlilQkprdBA,1064
+incognia_python-0.0.1.dist-info/METADATA,sha256=sc8yJNCzyGArUOUlhG-PR5EkulwL9Z1SXYVk-dCcdMU,7179
+incognia_python-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+incognia_python-0.0.1.dist-info/top_level.txt,sha256=cbbwFP13ccJT4_KyDTRNWcM6r6iqeB4n6W-pD71iJvM,9
+incognia_python-0.0.1.dist-info/RECORD,,
