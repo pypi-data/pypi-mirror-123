@@ -1,0 +1,12 @@
+rvsfunc/NNEDI3.py,sha256=ozLfRLT9Qc8xB7OFvI30NT9ue8qfBRqnDj-5XfV8Wk0,7816
+rvsfunc/__init__.py,sha256=jWgh3HRfg-6V0lTjNfi8isiPJMlzzWk0HqUe9-YyVbs,950
+rvsfunc/dvd.py,sha256=C8waN26bmvjvy-fsYJWZSjE7feoXnFAiF2Rp896b-I8,5135
+rvsfunc/edgecase.py,sha256=DD7m4i1nnVpX4cXBnBREdd1UMm09NyymsvXoXejyAtk,7565
+rvsfunc/errors.py,sha256=B1tIszWU6ujq_LRfqoAZDV7c-FcuJjLsNOYRNurU_WU,1459
+rvsfunc/masking.py,sha256=V6c2ff_joVBoDJ-Lo-xV4tL5qrh00WAnUPq1StDq6aA,7316
+rvsfunc/utils.py,sha256=iq3e9eiKlhNClztex8rxCV6UoplgUeE9Q1E0hy0EhIM,6596
+rvsfunc-0.1.1.dist-info/LICENSE,sha256=ErOhe--jYQ5n9e_5BOzGKhfAbJGQWhVbQIvONuRn63Y,1068
+rvsfunc-0.1.1.dist-info/METADATA,sha256=fQftd6VzUawI5Szga_5EloaJJpLwzvhfBTcBNFdOYBs,3739
+rvsfunc-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rvsfunc-0.1.1.dist-info/top_level.txt,sha256=KaJikZ7gyCBWotdl34N33BeZiJCODoe2iuoxJ5fysvU,8
+rvsfunc-0.1.1.dist-info/RECORD,,
