@@ -1,0 +1,3 @@
+127.0.0.1 {{ cookiecutter.domain_name }}
+127.0.0.1 minio.{{ cookiecutter.domain_name }}
+127.0.0.1 console.minio.{{ cookiecutter.domain_name }}
