@@ -1,0 +1,15 @@
+aws_schema_registry/__init__.py,sha256=-88JUKVm3kdS88w6zYK4_lXzPvYkZ3IsiC9eci1uJ-s,521
+aws_schema_registry/avro.py,sha256=EaCYZj_2CTQ82XSaXM2llE1vZ64l0wTH0kJ3m0rnS58,2377
+aws_schema_registry/client.py,sha256=K4MZggPHILnF2uvBMpDFCJjotK5QjFjgV0MjSdQEuCA,13605
+aws_schema_registry/codec.py,sha256=XGmNxbdpiHRe6buOM9JjqGVIvS26ipz7-GJA-ZoKWlQ,4108
+aws_schema_registry/exception.py,sha256=jsR_AGq_HJvIB1Q8FNK0cCjuOamGNvsywJsVuc-Jaa8,51
+aws_schema_registry/naming.py,sha256=r0uy9vaTrmmSRYw-q7VOLkEmYhs8H2K5iVQXVCWPss4,2298
+aws_schema_registry/schema.py,sha256=Wa4Tdio1EtiC-xxEp2gJCGufMbh4aHF5kND7mCvIdk8,2334
+aws_schema_registry/serde.py,sha256=d1rqNA4ffNrtquPDrIRBGmB6SEcZSTGRHpH9huknD7E,5666
+aws_schema_registry/adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_schema_registry/adapter/kafka.py,sha256=Cwf4ADpOBicobDiGEaWcNsezBwVZiuMEquVd-0vl7CU,725
+aws_glue_schema_registry-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aws_glue_schema_registry-1.0.0.dist-info/METADATA,sha256=-4X61vnebs_nKUGkMwlbdfaj7ARbKv6_xbXhIveNeYw,7532
+aws_glue_schema_registry-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_glue_schema_registry-1.0.0.dist-info/top_level.txt,sha256=JYzbLPpZbbkbWGNpl13FsKdwx95aNUSl8KVWdYi7BD8,20
+aws_glue_schema_registry-1.0.0.dist-info/RECORD,,
