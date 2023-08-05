@@ -1,0 +1,6 @@
+flask
+markdown
+flask_sqlalchemy
+bleach
+pillow
+pydantic
