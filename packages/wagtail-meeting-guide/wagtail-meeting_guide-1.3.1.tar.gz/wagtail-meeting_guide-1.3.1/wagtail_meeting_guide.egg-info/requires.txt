@@ -1,0 +1,2 @@
+django-mptt<0.14.0
+wagtailgeowidget<=5.1
