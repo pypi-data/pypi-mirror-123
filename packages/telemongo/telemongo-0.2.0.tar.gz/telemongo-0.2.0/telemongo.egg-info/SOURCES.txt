@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+telemongo/__init__.py
+telemongo/telemongo.py
+telemongo.egg-info/PKG-INFO
+telemongo.egg-info/SOURCES.txt
+telemongo.egg-info/dependency_links.txt
+telemongo.egg-info/requires.txt
+telemongo.egg-info/top_level.txt
