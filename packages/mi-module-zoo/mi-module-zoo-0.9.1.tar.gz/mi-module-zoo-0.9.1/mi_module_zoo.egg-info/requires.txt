@@ -1,0 +1,11 @@
+torch>=1.9.1
+typing-extensions
+
+[aml]
+azureml
+
+[dev]
+black
+isort
+pre-commit
+numpy
