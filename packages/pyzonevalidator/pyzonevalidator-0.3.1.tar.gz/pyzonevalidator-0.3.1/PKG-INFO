@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyzonevalidator
+Version: 0.3.1
+Summary: Validate DNS Zones programmatically
+Author: Teun Ouwehand
+Author-email: teun@nextpertise.nl
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# PyZoneValidator
+
+Code example:
+
+```python
+
+zv = zoneValidator()
+from pprint import pprint
+pprint(zv.validate('dnssec-failed.org', fail_if_not_signed=False))
+
+# Output:
+#{'errors': [DNSSEC_DS_AND_DNSKEY_RECORD_DO_NOT_MATCH: DNSSEC: DS and DNSKEY key do not align for zone 'dnssec-failed.org'. [dns102.comcast.net.],
+#            DNSSEC_DS_AND_DNSKEY_RECORD_DO_NOT_MATCH: DNSSEC: DS and DNSKEY key do not align for zone 'dnssec-failed.org'. [dns101.comcast.net.],
+#            DNSSEC_DS_AND_DNSKEY_RECORD_DO_NOT_MATCH: DNSSEC: DS and DNSKEY key do not align for zone 'dnssec-failed.org'. [dns105.comcast.net.],
+#            DNSSEC_DS_AND_DNSKEY_RECORD_DO_NOT_MATCH: DNSSEC: DS and DNSKEY key do not align for zone 'dnssec-failed.org'. [dns103.comcast.net.],
+#            DNSSEC_DS_AND_DNSKEY_RECORD_DO_NOT_MATCH: DNSSEC: DS and DNSKEY key do not align for zone 'dnssec-failed.org'. [dns104.comcast.net.]],
+# 'warnings': []}
+
+```
+
+
