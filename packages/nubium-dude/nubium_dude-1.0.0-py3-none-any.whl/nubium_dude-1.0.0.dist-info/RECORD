@@ -1,0 +1,12 @@
+dude/__init__.py,sha256=9PQRlQ9ZhhYR_FeiHs7t_g2NnpMoTAPaL_CS8V1abMM,228
+dude/__main__.py,sha256=ZS-7IPDamLUxz6VvaGTBmCSu_ZdO7XlupKrVIVgxXe0,80
+dude/_utils.py,sha256=V2c4KqGznzxxl6dFHazNblb0v6P6vhdcSeJJoML84Zo,4321
+dude/_commands/__init__.py,sha256=Aan4wzWJXDhSFiCBRVZ9AgAmq0kNFCv9GLsgTJbwDbg,91
+dude/_commands/app.py,sha256=DbmajlAkeR0RPf8zQAbOfvGJqZ_42mVjYqMDTVdqVcU,2310
+dude/_commands/cli_base.py,sha256=xJxffTRo_j20vk55Rz9tz1mziU61amYQP3wavIsKqKs,542
+dude/_commands/topics.py,sha256=e6cYVIGXiQmWQIq7mTzn-z2RHQN2Em4hnJvyRC2vmbY,3918
+nubium_dude-1.0.0.dist-info/METADATA,sha256=fdGaBvOrDZjzRAzZFouMQamybrPTzti92GpXtnzXeSk,3147
+nubium_dude-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nubium_dude-1.0.0.dist-info/entry_points.txt,sha256=5n7V0otESpi_uLUNs24un4KWEicMLdRfES_lQOAu2lc,49
+nubium_dude-1.0.0.dist-info/top_level.txt,sha256=PAMA3BWB3_yTsJOdIl1FOSJhhRlOQMXKlLiD0H9kDLA,5
+nubium_dude-1.0.0.dist-info/RECORD,,
