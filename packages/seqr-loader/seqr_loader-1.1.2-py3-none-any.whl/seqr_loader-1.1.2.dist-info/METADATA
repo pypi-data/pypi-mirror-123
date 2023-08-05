@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: seqr-loader
+Version: 1.1.2
+Summary: The hail scripts in this repo can be used to pre-process variant callsets and export them to elasticsearch
+Home-page: https://github.com/populationgenomics/hail-elasticsearch-pipelines
+License: MIT
+Keywords: bioinformatics
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+
+The hail scripts in this repo can be used to pre-process variant callsets and export them to elasticsearch. 
+
+See [hail_elasticsearch_pipelines/luigi_pipeline/README.md](luigi_pipeline/README.md) for details.
+
+
