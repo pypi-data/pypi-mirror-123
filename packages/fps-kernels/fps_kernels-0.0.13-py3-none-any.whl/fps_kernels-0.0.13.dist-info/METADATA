@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fps-kernels
+Version: 0.0.13
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fps (>=0.0.8)
+Requires-Dist: fps-auth
+Requires-Dist: pyzmq
+Requires-Dist: websockets
+
+UNKNOWN
+
