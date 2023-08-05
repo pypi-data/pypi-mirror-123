@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+roi_space_datetime/__init__.py
+roi_space_datetime/check_time.py
+roi_space_datetime_t.egg-info/PKG-INFO
+roi_space_datetime_t.egg-info/SOURCES.txt
+roi_space_datetime_t.egg-info/dependency_links.txt
+roi_space_datetime_t.egg-info/top_level.txt
+tests/__init__.py
+tests/check_time.py
