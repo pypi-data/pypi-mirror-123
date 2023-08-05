@@ -1,0 +1,9 @@
+pycountry
+jsonschema<4.0.0,>=3.0.0
+
+[build]
+oarepo-model-builder
+
+[tests]
+oarepo-mapping-includes
+oarepo[tests]
