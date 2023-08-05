@@ -1,0 +1,14 @@
+README.md
+setup.py
+diskimage/__init__.py
+diskimage/__main__.py
+diskimage/filesystem.py
+diskimage/item.py
+diskimage.egg-info/PKG-INFO
+diskimage.egg-info/SOURCES.txt
+diskimage.egg-info/dependency_links.txt
+diskimage.egg-info/entry_points.txt
+diskimage.egg-info/requires.txt
+diskimage.egg-info/top_level.txt
+diskimage/tests/__init__.py
+diskimage/tests/test_diskimage.py

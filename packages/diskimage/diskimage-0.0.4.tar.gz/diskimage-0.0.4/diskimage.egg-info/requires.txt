@@ -1,0 +1,2 @@
+pytsk3>=20210419
+libewf-python>=20201230
