@@ -1,0 +1,6 @@
+README.md
+setup.py
+optimization_lib.egg-info/PKG-INFO
+optimization_lib.egg-info/SOURCES.txt
+optimization_lib.egg-info/dependency_links.txt
+optimization_lib.egg-info/top_level.txt
