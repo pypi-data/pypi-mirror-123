@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+cli_tool.py
+requirements.txt
+setup.py
+thanker/__init__.py
+thanker/_scanner.py
+thanker/_thanker.py
+thanker/test_thanker.py
+thanker.egg-info/PKG-INFO
+thanker.egg-info/SOURCES.txt
+thanker.egg-info/dependency_links.txt
+thanker.egg-info/entry_points.txt
+thanker.egg-info/not-zip-safe
+thanker.egg-info/requires.txt
+thanker.egg-info/top_level.txt
