@@ -1,0 +1,15 @@
+flask_collect/__init__.py,sha256=IDNnDtG8NBpKz0mms5dsDjtW5KREJtW3tvYR8lzUXWk,935
+flask_collect/collect.py,sha256=Xzyb4l4rxIw8U3oO-gMqhGXceAh9T7N0Tg0oPwru9Qo,3515
+flask_collect/version.py,sha256=hbJQChI_qIkDmbWRRLybQZM1HyQBeqi0pl5BfApFK6k,558
+flask_collect/storage/__init__.py,sha256=wXSQGkRJkTVyWGkLMJuC017IYQH0q-cER_TZQKVqGw0,366
+flask_collect/storage/base.py,sha256=BkRrFL_oFJVY5d2J0TEgD46UKMBpds8eL4TlBh2aCxA,2264
+flask_collect/storage/file.py,sha256=I-nnx1xjIXnkSpaKbqLwysR1zeYwKRViHOQU4gF_OlU,1352
+flask_collect/storage/link.py,sha256=88qTHwxSydKE9mjJMt4tRcpsryzyIZSSpufA4XI43k4,1697
+flask_collect/storage/test.py,sha256=EGJ_trujW3Swr2MVRY1XQrlFy2ZBww0V554NWz0ZqEU,575
+tests/__init__.py,sha256=1zdOx5reISLsKi7VlMVThco1U4gz5USBm1836KMYTYk,356
+tests/test_collect.py,sha256=a9aJ3RmoNwaTlQ2sMBKjbqaXVCMLlgEXXdiU4WINuAQ,8451
+Flask_Collect_Invenio-1.4.0.dist-info/LICENSE,sha256=ZlMJAdDEcbE1gVoki1PGf--Ou6tZuT_AScCRiHsCLh8,1533
+Flask_Collect_Invenio-1.4.0.dist-info/METADATA,sha256=mSpR5xLUeHexdVY33xSDlZdRcJa73agKLXF9q4rZe2s,5229
+Flask_Collect_Invenio-1.4.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+Flask_Collect_Invenio-1.4.0.dist-info/top_level.txt,sha256=HWx24TylTle3mZ9hAun3RLspyRzj9KjyEQnuFI91HGs,20
+Flask_Collect_Invenio-1.4.0.dist-info/RECORD,,
