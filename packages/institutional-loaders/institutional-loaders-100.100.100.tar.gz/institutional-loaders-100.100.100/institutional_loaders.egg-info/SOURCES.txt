@@ -1,0 +1,7 @@
+README.rst
+setup.py
+institutional-loaders/__init__.py
+institutional_loaders.egg-info/PKG-INFO
+institutional_loaders.egg-info/SOURCES.txt
+institutional_loaders.egg-info/dependency_links.txt
+institutional_loaders.egg-info/top_level.txt
