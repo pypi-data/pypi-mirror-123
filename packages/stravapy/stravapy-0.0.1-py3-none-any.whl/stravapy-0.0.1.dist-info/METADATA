@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: stravapy
+Version: 0.0.1
+Summary: Basic Strava GPX Reader
+Home-page: https://github.com/user/reponame
+Author: DWin
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: lxml
+
+UNKNOWN
+
+
