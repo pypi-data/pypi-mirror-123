@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: lickport_array_interface
+Version: 0.3.0
+Summary: Lickport array interface.
+Home-page: https://github.com/janelia-pypi/lickport_array_interface_python
+Author: Peter Polidoro
+Author-email: peter@polidoro.io
+License: BSD
+Description: lickport_array_interface_python
+        ===============================
+        
+        This Python package creates a class named LickportArrayInterface.
+        
+        Authors::
+        
+            Peter Polidoro <peter@polidoro.io>
+        
+        License::
+        
+            BSD
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
