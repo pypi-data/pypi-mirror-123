@@ -1,0 +1,3 @@
+tokenizers
+tensorflow-addons[tensorflow]
+seqeval
