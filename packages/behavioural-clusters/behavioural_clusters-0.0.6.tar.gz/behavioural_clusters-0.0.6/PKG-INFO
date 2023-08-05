@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: behavioural_clusters
+Version: 0.0.6
+Summary: Create Behavioural clusters with the transaction and GA data
+Home-page: UNKNOWN
+Author: Shashi Bhushan Singh
+Author-email: shashi.bhushansingh@ab-inbev.com
+License: UNKNOWN
+Description: This is a distribution class for clustering of all the D2C customers using transactional and GA data
+        
+        It consist of two functions for now which are 
+        
+        
+        ### Installation
+        
+        pip install behavioural_clusters
+        
+        
+        ### Example
+        
+        from behavioural_clusters import filter_data
+        from behavioural_clusters import create_customer_kpis
+        from behavioural_clusters import browsing_category
+        from behavioural_clusters import browsing_pivot
+        from behavioural_clusters import algo_data
+        from behavioural_clusters import generate_cluster_inputs
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

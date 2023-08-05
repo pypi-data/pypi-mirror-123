@@ -1,0 +1,10 @@
+README.md
+setup.py
+behavioural_clusters/__init__.py
+behavioural_clusters/algo.py
+behavioural_clusters/readData.py
+behavioural_clusters.egg-info/PKG-INFO
+behavioural_clusters.egg-info/SOURCES.txt
+behavioural_clusters.egg-info/dependency_links.txt
+behavioural_clusters.egg-info/not-zip-safe
+behavioural_clusters.egg-info/top_level.txt
