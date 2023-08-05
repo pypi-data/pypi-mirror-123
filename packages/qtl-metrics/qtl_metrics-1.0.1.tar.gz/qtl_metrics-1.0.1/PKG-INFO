@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: qtl-metrics
+Version: 1.0.1
+Summary: Quantalon Metrics
+License: MIT
+Keywords: quant
+Author: Quantalon
+Author-email: dev@quantalon.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.2,<2.0)
+Description-Content-Type: text/markdown
+
+# Quantalon Metrics
+
+## QuickStart
+
+```
+import yfinance as yf
+from qtl_metrics import Metrics
+
+aapl = yf.Ticker("AAPL")
+data = aapl.history()
+prices = data['Close']
+metrics = Metrics(prices)
+
+print(metrics.stats)
+```
