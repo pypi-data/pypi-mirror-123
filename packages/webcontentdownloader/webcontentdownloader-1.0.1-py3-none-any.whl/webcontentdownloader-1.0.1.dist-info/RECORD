@@ -1,0 +1,11 @@
+webcontentdownloader/__init__.py,sha256=SJ-IHJaI1dS7WqHTtjUzbpUK_DIk5lRrzzNWJ6twjCs,145
+webcontentdownloader/complexdownloader.py,sha256=NnxetHqcnZfwjaF3icRvnPFw7FUrFUburHjLrSeA1MY,6085
+webcontentdownloader/downloadmanager.py,sha256=y7CvwmFOHxk6qXhGo_SZKW8Nml519Pv9W-Z-jU7TtEU,1724
+webcontentdownloader/interface.py,sha256=Ozbm-ze93h0br6YXzfiKar_cZ0ETSCxgCS-h2SgLrq0,577
+webcontentdownloader/simpledownloader.py,sha256=B47c-sRpP15pwEnPHy65b65JHUcUVCr1rk9tndr_k0w,1786
+webcontentdownloader/utils.py,sha256=tlnmRkwYOcgdnMsh7nVgZeNBMAitsqardAnavFWZtCo,350
+webcontentdownloader-1.0.1.dist-info/LICENSE,sha256=JtbdTDPQ7Uw2IolIYahzpgNeSSm5P0hbMEiFe6-rh80,1066
+webcontentdownloader-1.0.1.dist-info/METADATA,sha256=jZG70Y7tbUhHiW-xPh7md7TtaDTNE0KbVzYa4SSJFKU,290
+webcontentdownloader-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+webcontentdownloader-1.0.1.dist-info/top_level.txt,sha256=gt_GU88o23JABwWhUqwZkVgBmzwH71O-0r3pHBiH0G8,21
+webcontentdownloader-1.0.1.dist-info/RECORD,,
