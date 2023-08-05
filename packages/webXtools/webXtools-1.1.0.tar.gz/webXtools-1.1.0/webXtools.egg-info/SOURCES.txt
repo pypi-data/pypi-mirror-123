@@ -1,0 +1,12 @@
+README.md
+setup.py
+webXtools/__init__.py
+webXtools/bf.py
+webXtools/helper.py
+webXtools/jwthax.py
+webXtools/race.py
+webXtools.egg-info/PKG-INFO
+webXtools.egg-info/SOURCES.txt
+webXtools.egg-info/dependency_links.txt
+webXtools.egg-info/requires.txt
+webXtools.egg-info/top_level.txt
