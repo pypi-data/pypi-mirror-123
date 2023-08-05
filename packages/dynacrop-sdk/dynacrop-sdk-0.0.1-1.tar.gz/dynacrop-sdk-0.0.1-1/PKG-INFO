@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: dynacrop-sdk
+Version: 0.0.1-1
+Summary: Python Software Development Kit library for DynaCrop API
+Home-page: UNKNOWN
+Author: Jan Chytrý
+License: UNKNOWN
+Description: Python Software Development Kit library for DynaCrop API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
