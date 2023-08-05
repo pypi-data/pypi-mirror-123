@@ -1,0 +1,17 @@
+dcctk/UtilsConcord.py,sha256=DpdGOQl1ivtGNisoJiGE_3JyoXOEzh9G1T6_1jKjV90,2865
+dcctk/UtilsGeneral.py,sha256=fE4_J9pGT6qR_1cWdv0zaZEq7S21CX5mLIr_5U78LiU,1199
+dcctk/UtilsStats.py,sha256=OZPecX3L3TcglFTftyzTVSdjRPdS9fmlsvnOMiYkv_8,286
+dcctk/UtilsTextProcess.py,sha256=COnB79r2zAwJyTEB7f46W0PsFk7M_6sEpg2znLMe-xY,541
+dcctk/__init__.py,sha256=Vmu5tK55SRI6mLjCW3S0w9ocWPwAmLANSJSRDOVlbXg,213
+dcctk/concordancer.py,sha256=9u4WTihddFjMoH3f67xn6GVJzUBa9DoSUJ83t94qqjA,14536
+dcctk/corpus.py,sha256=68xkOXbkC53nkcs3oJV23wKrBgn9stK1lYG3FCFjjqY,3274
+dcctk/corpusReader.py,sha256=8SDWDmsdk26c7GYnJJgh_0bMCN-MIiTPSrW76NuQU0M,2285
+dcctk/diachronicSenseAnalysis.py,sha256=R30pvNzpZXsbiotKUt9YluzmIH0AyiKkeIJDEYaNa5o,2936
+dcctk/dispersion.py,sha256=hZr9uEfnj3f8pTHDHScc67Y2wG07QP4VTxiu-mRFCK0,7066
+dcctk/dispersionStats.py,sha256=KlcktCAxTRME2rdpFkYTt0pSE4K75FS2OP0nsfzcfDg,912
+dcctk/embeddings.py,sha256=zie0YnUOBih7X-5niVH0PooqWZUeEouwk5B9coo6WTI,2461
+dcctk/senseAnalysis.py,sha256=21kb77UuU-J69CanoCr-uoKCloni9gN5DzbUr1x3XWM,8854
+dcctk-0.0.26.dist-info/METADATA,sha256=bLkVbPUTd1X3rmLeYdHBf775qeqYI6k8VltgmHiDrMc,1400
+dcctk-0.0.26.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dcctk-0.0.26.dist-info/top_level.txt,sha256=4huHSjosoUc42vf6ZXsJHNc32HiS4-wzZJsMU2yjX38,6
+dcctk-0.0.26.dist-info/RECORD,,
