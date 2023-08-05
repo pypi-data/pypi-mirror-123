@@ -1,0 +1,3 @@
+[console_scripts]
+seacorenlp = seacorenlp.__main__:main
+
