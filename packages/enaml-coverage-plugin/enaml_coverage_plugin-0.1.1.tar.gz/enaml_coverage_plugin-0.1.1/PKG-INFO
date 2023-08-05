@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: enaml_coverage_plugin
+Version: 0.1.1
+Summary: Coverage plugin for enaml
+Home-page: https://github.com/MatthieuDartiailh/enaml_coverage_plugin
+Author: Matthieu C. Dartiailh
+Author-email: m.dartiailh@gmail.com
+License: BSD
+Description: Enaml coverage plugin
+        =====================
+        
+        .. image:: https://github.com/MatthieuDartiailh/enaml_coverage_plugin/actions/workflows/ci.yml/badge.svg
+            :target: https://github.com/MatthieuDartiailh/enaml_coverage_plugin/actions/workflows/ci.yml
+        
+        Coverage to plugin to provide coverage reports for Enaml files (.enaml).
+        
+        Usage
+        -----
+        
+        To enable the plugin, one simply needs to add the following snippet under the
+        ``run``  section of a project coverage configuration file:
+        
+        .. code::
+        
+            plugins =
+                enaml_coverage_plugin
+        
+        .. note::
+        
+            Branch coverage is always on so in order to be able to combine reports, branch
+            coverage need to be enabled for Python files. The can be done by specifying
+            ``branch=True`` under the ``run`` section of your coverage configuration.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
