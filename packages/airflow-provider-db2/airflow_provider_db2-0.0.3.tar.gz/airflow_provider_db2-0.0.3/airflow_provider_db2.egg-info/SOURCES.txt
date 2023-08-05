@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+airflow_provider_db2/__init__.py
+airflow_provider_db2.egg-info/PKG-INFO
+airflow_provider_db2.egg-info/SOURCES.txt
+airflow_provider_db2.egg-info/dependency_links.txt
+airflow_provider_db2.egg-info/entry_points.txt
+airflow_provider_db2.egg-info/requires.txt
+airflow_provider_db2.egg-info/top_level.txt
+airflow_provider_db2/hooks/db2_hook.py
