@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+auto_ds/__init__.py
+auto_ds/autods.py
+auto_ds/predictor.py
+auto_ds/utils.py
+auto_ds.egg-info/PKG-INFO
+auto_ds.egg-info/SOURCES.txt
+auto_ds.egg-info/dependency_links.txt
+auto_ds.egg-info/requires.txt
+auto_ds.egg-info/top_level.txt
+auto_ds/models/__init__.py
+auto_ds/models/catboost_method.py
+auto_ds/models/catboost_utils.py
+tests/__init__.py

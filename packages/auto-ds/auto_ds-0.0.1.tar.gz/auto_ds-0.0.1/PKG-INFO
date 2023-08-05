@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: auto_ds
+Version: 0.0.1
+Summary: Auto Data Science Toolkit
+Home-page: UNKNOWN
+Author: Kaustuv.kunal@gmail.com
+Author-email: <kaustuv.kunal@amail.com>
+License: UNKNOWN
+Keywords: pipeline optimization,hyperparameter optimization,data science,machine learning,evolutionary computation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+
+A Python tool that automatically creates and optimizes machine learning pipelines .
+Contact
+=============
+If you have any questions or comments about AUTODS, please feel free to mail us at:
+kaustuv.kunal@gmail.com
+This project is hosted at https://github.com/Littilabs/auto_ds
+
+
