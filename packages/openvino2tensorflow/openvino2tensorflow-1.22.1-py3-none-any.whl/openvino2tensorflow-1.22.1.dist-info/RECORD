@@ -1,0 +1,12 @@
+openvino2tensorflow-1.22.1.data/scripts/ir_weight_extractor,sha256=V3Ky85KMSkJMtunmSEFPdeDkJrIhAqgj43GRr9WQp3I,2865
+openvino2tensorflow-1.22.1.data/scripts/openvino2tensorflow,sha256=-S8wrM0GkxkpD6joOlkumIKI5C_RMc3akh9x11hSAtU,335943
+openvino2tensorflow-1.22.1.data/scripts/pb_to_saved_model,sha256=-ineCrfSAbbEjFqx16Y-6XcIgckxYlkLreXUB8vKOUw,1961
+openvino2tensorflow-1.22.1.data/scripts/pb_to_tflite,sha256=y04jjD1hoersAkQQ7mgR5M--5nIv52bJfpCIDzRPmb0,1497
+openvino2tensorflow-1.22.1.data/scripts/saved_model_to_pb,sha256=3dURiravQ_h5EL46QzvD6sMlVitBUsqrU7gcUHUXf_c,2597
+openvino2tensorflow-1.22.1.data/scripts/saved_model_to_tflite,sha256=6zd0QhxT59w7FPhbuXuUYxZZIzSBqXXARDvWNkyKSPU,32152
+openvino2tensorflow-1.22.1.data/scripts/view_npy,sha256=3AcGfffIHNqKdUNPE3PvAmz_EsUnb0_fQRwfBQ5vuFA,583
+openvino2tensorflow-1.22.1.dist-info/LICENSE,sha256=nqlvkX_SX_0m17rp-eCAu6myGzjmVEHCZ4d3mHjfdOI,1070
+openvino2tensorflow-1.22.1.dist-info/METADATA,sha256=Dq7JTe8z0eZhv9Rj56kkMPDTAHte7jkDDZwsRSF3ZNY,43685
+openvino2tensorflow-1.22.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+openvino2tensorflow-1.22.1.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openvino2tensorflow-1.22.1.dist-info/RECORD,,
