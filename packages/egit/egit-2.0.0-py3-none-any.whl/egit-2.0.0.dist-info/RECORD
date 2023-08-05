@@ -1,0 +1,15 @@
+egit/__init__.py,sha256=ZnkpvimdjeLFsZdMlfTomQBj-IHIUvaSO732Gas4olA,277
+egit/config/app_config.yml,sha256=gx5KI625dfnCyRUZqpLa0P2zypYFo9zQm1c-FTtNBi0,273
+egit/config/git_repos_config.json,sha256=NpVs3-2NOreTYwaiOctnRLd7JLSU6wUAPVdUiJgmQWk,45
+egit/egit.py,sha256=qhgtbV0pCqIl_CvC3CfLvz_mIvvkbZoZRjEXurA2oMc,2752
+egit/git_branch.py,sha256=HjiYnK5aVZ0zh9ynP1X9C7J6HqnSwTw7o4csQsmIvWo,1012
+egit/git_clone.py,sha256=TuJgCVlrGEvWE15N5mB9cSXo0apJ52Hee_E2QS7prfs,1364
+egit/git_edit.py,sha256=2WJImHMnQzwrxd6WKux1qEoZ_rPg0WJ72xi3rAzdFns,1822
+egit/git_push.py,sha256=C67WRv3EDaouFWd8ceG6rZ3EU_7sC3Q6Pn9nm2f5qVU,2164
+egit/logs/.logs,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+egit/target/.target,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+egit-2.0.0.dist-info/entry_points.txt,sha256=zo6GyNoPjaTm0OPW0ELwYZk2g9LITKPW07BCreu7WwY,34
+egit-2.0.0.dist-info/LICENSE,sha256=m3b6i4hQnsZezDkuKTOj6dI0aK1SjppyTVR45-t0SlE,1066
+egit-2.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+egit-2.0.0.dist-info/METADATA,sha256=f--fzyjmHhBxaC22KPGurEVWdytJsNmjaW4KIwRmc0Y,4468
+egit-2.0.0.dist-info/RECORD,,

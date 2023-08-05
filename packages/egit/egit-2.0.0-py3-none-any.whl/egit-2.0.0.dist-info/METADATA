@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: egit
+Version: 2.0.0
+Summary: e(g)it is an app for replacing text in files across multiple GitHub repositories.
+Home-page: https://github.com/datadlog/egit
+License: MIT
+Author: Naveen Thurimerla
+Author-email: nawinto99@gmail.com
+Maintainer: Naveen Thurimerla
+Maintainer-email: nawinto99@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: GitPython (>=3.1.18,<4.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: black (>=21.6b0,<22.0); extra == "test"
+Requires-Dist: flake8 (>=3.9.2,<4.0.0); extra == "test"
+Requires-Dist: isort (>=5.9.1,<6.0.0); extra == "test"
+Requires-Dist: mkdocs (>=1.2.1,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.2.1,<0.3.0); extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.1.4,<4.0.0); extra == "doc"
+Requires-Dist: mkdocs-material (>=7.1.9,<8.0.0); extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.1,<2.0.0); extra == "doc"
+Requires-Dist: mkdocstrings (>=0.15.2,<0.16.0); extra == "doc"
+Requires-Dist: pip (>=21.1.3,<22.0.0); extra == "dev"
+Requires-Dist: pytest (>=6.2.4,<7.0.0); extra == "test"
+Requires-Dist: pytest-cov (>=2.12.1,<3.0.0); extra == "test"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "dev"
+Requires-Dist: tox (>=3.23.1,<4.0.0); extra == "dev"
+Requires-Dist: twine (>=3.4.1,<4.0.0); extra == "dev"
+Requires-Dist: virtualenv (>=20.4.7,<21.0.0); extra == "dev"
+Project-URL: Bug Tracker, https://github.com/datadlog/egit/issues
+Project-URL: Documentation, https://datadlog.github.io/egit/
+Project-URL: Repository, https://github.com/datadlog/egit
+Description-Content-Type: text/markdown
+
+# e(g)it
+
+_e(g)it is an app for replacing text in files across multiple GitHub repositories._
+
+[![CodeQL](https://github.com/datadlog/egit/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/datadlog/egit/actions/workflows/codeql-analysis.yml) [![PyPI version](https://badge.fury.io/py/egit.svg)](https://badge.fury.io/py/egit) [![Total alerts](https://img.shields.io/lgtm/alerts/g/datadlog/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/datadlog/egit/alerts/) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/datadlog/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/datadlog/egit/context:python)
+## Features
+
+-   Clones the configured Github repositories to your local.
+-   From a specified base branch, creates a feature branch.
+-   Replaces the content in files if it finds the matching text exists in the local repositories, if there is a file pattern specified in the configuration file, the app replaces only in those files.
+-   Commits the changes and creates a pull request for code review.
+
+## Tech
+
+e(g)it uses a number of open source projects to work properly:
+
+-   [Python] - Python for the backend.
+-   [GitPython] - Python library used to interact with git repositories.
+-   [PyYAML] - PyYAML features a complete YAML 1.1 parser.
+-   [MkDocs] - MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation.
+-   [Flake8] - Flake8 is a great toolkit for checking your code base against coding style (PEP8), programming errors and to check cyclomatic complexity.
+-   [Tox] - Tox is a generic virtualenv management and test command line tool.
+-   [Twine] - Twine is a utility for publishing Python packages on PyPI.
+-   [CodeQL] - CodeQL is the analysis engine used by developers to automate security checks, and by security researchers to perform variant analysis.
+-   [VSCode] - Visual Studio Code is a source-code editor.
+
+## Documentation
+
+Check out the following website for further information **[egit]**
+
+## License
+
+MIT
+
+[egit]: https://datadlog.github.io/egit/
+[python]: https://www.python.org/
+[gitpython]: https://gitpython.readthedocs.io/en/stable/tutorial.html
+[pyyaml]: https://pyyaml.org/wiki/PyYAML
+[mkdocs]: https://www.mkdocs.org/
+[flake8]: https://flake8.pycqa.org/en/latest/
+[tox]: https://tox.readthedocs.io/en/latest/
+[twine]: https://twine.readthedocs.io/en/latest/
+[codeql]: https://securitylab.github.com/tools/codeql/
+[vscode]: https://code.visualstudio.com/
+
