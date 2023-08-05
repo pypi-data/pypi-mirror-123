@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mnl_punct_norm/__init__.py
+mnl_punct_norm/normalizer.py
+mnl_punct_norm.egg-info/PKG-INFO
+mnl_punct_norm.egg-info/SOURCES.txt
+mnl_punct_norm.egg-info/dependency_links.txt
+mnl_punct_norm.egg-info/top_level.txt
