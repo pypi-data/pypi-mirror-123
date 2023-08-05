@@ -1,0 +1,6 @@
+setup.py
+taniumfiletransfer/__init__.py
+taniumfiletransfer.egg-info/PKG-INFO
+taniumfiletransfer.egg-info/SOURCES.txt
+taniumfiletransfer.egg-info/dependency_links.txt
+taniumfiletransfer.egg-info/top_level.txt
