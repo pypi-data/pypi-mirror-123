@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+borgo/src/borgo.py
+borgo/src/borgo.egg-info/PKG-INFO
+borgo/src/borgo.egg-info/SOURCES.txt
+borgo/src/borgo.egg-info/dependency_links.txt
+borgo/src/borgo.egg-info/requires.txt
+borgo/src/borgo.egg-info/top_level.txt
