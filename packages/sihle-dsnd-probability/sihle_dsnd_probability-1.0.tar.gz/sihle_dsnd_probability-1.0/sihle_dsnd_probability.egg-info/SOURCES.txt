@@ -1,0 +1,10 @@
+setup.py
+sihle_dsnd_probability/Binomialdistribution.py
+sihle_dsnd_probability/Gaussiandistribution.py
+sihle_dsnd_probability/Generaldistribution.py
+sihle_dsnd_probability/__init__.py
+sihle_dsnd_probability.egg-info/PKG-INFO
+sihle_dsnd_probability.egg-info/SOURCES.txt
+sihle_dsnd_probability.egg-info/dependency_links.txt
+sihle_dsnd_probability.egg-info/not-zip-safe
+sihle_dsnd_probability.egg-info/top_level.txt
