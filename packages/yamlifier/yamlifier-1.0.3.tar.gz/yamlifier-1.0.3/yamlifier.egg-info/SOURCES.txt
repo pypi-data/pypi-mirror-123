@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.rst
+VERSION
+requirements.txt
+setup.cfg
+setup.py
+test/test_generate.py
+yamlifier/__init__.py
+yamlifier.egg-info/PKG-INFO
+yamlifier.egg-info/SOURCES.txt
+yamlifier.egg-info/dependency_links.txt
+yamlifier.egg-info/entry_points.txt
+yamlifier.egg-info/requires.txt
+yamlifier.egg-info/top_level.txt
