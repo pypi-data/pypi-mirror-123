@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/win32shell/__init__.py
+src/win32shell/des.py
+src/win32shell/shell.py
+src/win32shell/storagecon.py
+src/win32shell/universal.py
+src/win32shell/util.py
+src/win32shell.egg-info/PKG-INFO
+src/win32shell.egg-info/SOURCES.txt
+src/win32shell.egg-info/dependency_links.txt
+src/win32shell.egg-info/top_level.txt
