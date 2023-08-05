@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: api-scene
+Version: 1.0.0
+Summary: unofficial API for Subscene
+Home-page: https://github.com/mmp-8001/subscene_api
+Author: Mohammad Matin Parvin
+Author-email: mohammad123matin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools (~=58.2.0)
+Requires-Dist: requests (~=2.23.0)
+Requires-Dist: beautifulsoup4 (~=4.9.0)
+Requires-Dist: fuzzywuzzy (~=0.18.0)
+Requires-Dist: num2words (~=0.5.10)
+
+# subscene_api
+unofficial API for Subscene
+
+
