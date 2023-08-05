@@ -1,0 +1,10 @@
+concurrent-python2-stubs/METADATA.toml,sha256=GqXciylsCb1zCZnukVIuYJRY-gpd3478R007QFikxzE,33
+concurrent-python2-stubs/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+concurrent-python2-stubs/futures/__init__.pyi,sha256=zAZn69ohscdtL7rotnHyxSu7jzhVMw005ANG7J09apw,436
+concurrent-python2-stubs/futures/_base.pyi,sha256=rPSXJhb-LKP8qcFX9YQou0wCs33t6a3_hgfdD1zO278,3701
+concurrent-python2-stubs/futures/process.pyi,sha256=rGmQHTSHwVsXVPxwu4R1efuU0b8D1gqAEG9N_XH3vr8,195
+concurrent-python2-stubs/futures/thread.pyi,sha256=Rdf6N78dfxS1ckzSyNyYD7H2tTIh3U-2ToxamP271aA,567
+types_futures-3.3.1.dist-info/METADATA,sha256=Rz3iZKtSZY5mj30WXfiGCIqiIc5BiqPPBiyFwpwEtWA,854
+types_futures-3.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+types_futures-3.3.1.dist-info/top_level.txt,sha256=zDjCQ0PPyfTHbnO0ie1Ue1z7Qw-PGarT1wbh_e1X8EE,25
+types_futures-3.3.1.dist-info/RECORD,,
