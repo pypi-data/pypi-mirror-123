@@ -1,0 +1,8 @@
+README.md
+setup.py
+SparkLytics.egg-info/PKG-INFO
+SparkLytics.egg-info/SOURCES.txt
+SparkLytics.egg-info/dependency_links.txt
+SparkLytics.egg-info/not-zip-safe
+SparkLytics.egg-info/requires.txt
+SparkLytics.egg-info/top_level.txt
