@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: video-stream-resolving
+Version: 1.0.0
+Summary: Resolving some video stream
+Home-page: UNKNOWN
+Author: magicalbomb
+Author-email: 17826800084@163.com
+License: BSD License
+Description: # Introduction
+        
+        This project includes some video stream platform video stream resolver
+        
+        
+        # Install
+        
+        ```bash
+        pip install video-stream-resolver
+        ```
+        
+        
+        # Usgae
+        
+        ```Python
+        from video_stream_resolver import resolve_streamtape
+        
+        # Synchronous resolving 
+        # Function resolve_xxx always return requests.models.Response object,
+        # if everything goes well, the response represent video source.
+        response = resolve_streamtape()
+        ```
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
