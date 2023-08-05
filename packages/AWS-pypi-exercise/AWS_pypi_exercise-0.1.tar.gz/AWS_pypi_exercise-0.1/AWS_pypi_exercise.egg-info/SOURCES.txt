@@ -1,0 +1,10 @@
+setup.py
+AWS_pypi_exercise/Binomialdistribution.py
+AWS_pypi_exercise/Gaussiandistribution.py
+AWS_pypi_exercise/Generaldistribution.py
+AWS_pypi_exercise/__init__.py
+AWS_pypi_exercise.egg-info/PKG-INFO
+AWS_pypi_exercise.egg-info/SOURCES.txt
+AWS_pypi_exercise.egg-info/dependency_links.txt
+AWS_pypi_exercise.egg-info/not-zip-safe
+AWS_pypi_exercise.egg-info/top_level.txt
