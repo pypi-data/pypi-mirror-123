@@ -1,0 +1,13 @@
+amazon_textract_geofinder-0.0.3.data/scripts/amazon-textract-geofinder,sha256=-uF4p6LE11zxDbvnPH4lPhlHNLd2SuUIE3HFTSsovKI,1817
+textractgeofinder/__init__.py,sha256=I0XX9ODePfhoC70fG_fN77fvNJ5gxceyP4v1r4zBi4E,137
+textractgeofinder/_version.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+textractgeofinder/ocrdb.py,sha256=RcGtVqG1NvOTuhHxRaf9OK1L0u0ekuN8IKGRSmkAqdo,7570
+textractgeofinder/sample_patient_intake_form_parser.py,sha256=5kkTtBraQK9hnynO7O1YkDHYVvjjHnCudHv_S1wxl4Q,7484
+textractgeofinder/tgeofinder.py,sha256=v9KJOorO-XanrogKmkzxtVa3MLCUhhFZGBUmoXQmT8k,45831
+textractgeofinder/tinterface.py,sha256=Z9sAc8NOjsx-3SKAJSuBpV0Y6oxkdQgN52mBZf7GikA,193
+textractgeofinder/tword.py,sha256=98yG3AbBC0PuCsWJyCYSeZWygz4RSO_u5MX-Ob2zzd0,9334
+amazon_textract_geofinder-0.0.3.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+amazon_textract_geofinder-0.0.3.dist-info/METADATA,sha256=MRzOhl8c4woQA7GiSN8FKrEXCypnDjNWDj7LtPAbn7o,12133
+amazon_textract_geofinder-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+amazon_textract_geofinder-0.0.3.dist-info/top_level.txt,sha256=nTGazl-PD7opIZagRxt10fQrepicvZgLciaGI9eTESw,18
+amazon_textract_geofinder-0.0.3.dist-info/RECORD,,
