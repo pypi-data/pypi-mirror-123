@@ -1,0 +1,6 @@
+anybadge
+iso8601
+python-gitlab
+junitparser
+toml
+requests
