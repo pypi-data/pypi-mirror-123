@@ -1,0 +1,9 @@
+nllgrid/NLLGrid.py,sha256=HE_0HqR1I7baeZ6dqevk1bTrQq9lJ7OKPFQoTiL97d8,33859
+nllgrid/__init__.py,sha256=W8S70NmxHGO5PfPoGltR031G7gtLANNh5Ts2kEf9_bM,121
+nllgrid/_version.py,sha256=g2CmUMzW9c_bPIPfM4Pag1L94ZazIyvshu60PZPeJtY,498
+nllgrid/ellipsoid.py,sha256=x2Q0aiZ78rQaV34HSdpU8JoEV4j8GYpTrnt-Uxv8Ivk,4168
+nllgrid-1.4.1.dist-info/LICENSE.txt,sha256=rWJoZt3vach8ZNdLq-Ee5djzCMFnJ1gIfBeJU5RIop4,21782
+nllgrid-1.4.1.dist-info/METADATA,sha256=_ilhG4dnTmSnPz6cBaNa2wBqYz_aPbnSOtCeyjXXZkw,4527
+nllgrid-1.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nllgrid-1.4.1.dist-info/top_level.txt,sha256=uuL3loMoWvrMoqHv1inOKP09y0T4LUl0avmPsEi9DKs,8
+nllgrid-1.4.1.dist-info/RECORD,,
