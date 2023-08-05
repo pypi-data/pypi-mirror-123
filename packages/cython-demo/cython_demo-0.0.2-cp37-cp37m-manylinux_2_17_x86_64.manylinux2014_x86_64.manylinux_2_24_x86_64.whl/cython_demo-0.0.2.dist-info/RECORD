@@ -1,0 +1,13 @@
+cythondemo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythondemo/tree/ctree.cpython-37m-x86_64-linux-gnu.so,sha256=GKbJ5vx7REvYoL64K5nSOGKjxDEaAGi7c6C8Nf1ohME,371272
+cythondemo/tree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythondemo/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythondemo/config/meta.py,sha256=naWhQ87_GACMlIk6EIHuGlDMCT-cO-NU8GzWJYjMRIw,162
+cythondemo/math/math.py,sha256=6Ha6RSGTRWr298xgJ7PwIQXtqKg6FSF80ErqkWOQ8ro,114
+cythondemo/math/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythondemo/math/cmath.cpython-37m-x86_64-linux-gnu.so,sha256=viq56BDsD9ee1E_P28qmUMvmY1eJKdsJk5dE3ThMfEI,128464
+cython_demo-0.0.2.dist-info/METADATA,sha256=I8PY04Em756N4SzIEkzFioQ5BLYabXNxceDBhGkBdMU,1808
+cython_demo-0.0.2.dist-info/WHEEL,sha256=wuBKfUpV2zjzlYVd_2WvivCDMWoXnXg6chSZCWKbAU0,188
+cython_demo-0.0.2.dist-info/top_level.txt,sha256=RZbGGRb_JjS-y7ia3HM7GqtQL6MdRpdRtx9jWr-T9Mc,11
+cython_demo-0.0.2.dist-info/RECORD,,
+cython_demo-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
