@@ -1,0 +1,17 @@
+gaga_phsp-0.5.5.data/scripts/gaga_convert_pth_to_pt,sha256=phQILuptSBFuwkgVXa0UrncEv0RPIPrrUTT5Ip37cao,4186
+gaga_phsp-0.5.5.data/scripts/gaga_garf_generate_img,sha256=hHwr-thwzakw6cCaSQvlFGMs_L2oMEGLQ-bfMxRSNAg,4621
+gaga_phsp-0.5.5.data/scripts/gaga_gauss_plot,sha256=TxXJCDhD422h3sOjGM6Nr5xCXpOdsMVXuENB-W41Y5w,2001
+gaga_phsp-0.5.5.data/scripts/gaga_gauss_test,sha256=K8_RCM09hztfcJZGy9gu1ZjBNX9pFxr6YJQWhLJO2ko,1920
+gaga_phsp-0.5.5.data/scripts/gaga_generate,sha256=c-WXlvvzGfwYJCWz2aQdNBDqnT7DFA2UafEjMrAOqno,2056
+gaga_phsp-0.5.5.data/scripts/gaga_info,sha256=wmCXPvrRpEg3ZOTW6nxCqH3z2D4LhT5VsOGjbRtTcbE,2036
+gaga_phsp-0.5.5.data/scripts/gaga_pairs_to_tlor,sha256=4urWllu4gL5sGOD8yWOPXDJecp_l2fORm2tYV3mUWeA,2009
+gaga_phsp-0.5.5.data/scripts/gaga_pet_to_pairs,sha256=rqk0VQ7XIzeRmK7kj3oGhXIidQpS1OI3l-DyeqDnWS0,4658
+gaga_phsp-0.5.5.data/scripts/gaga_plot,sha256=37L_X3E0W_lMctHJ1sDhuyGMw9swkClpgtCXmXtdbRI,4232
+gaga_phsp-0.5.5.data/scripts/gaga_tlor_to_pairs,sha256=6H8XHAux0n86cL5GMHp5mfOCHq8gfgvqWPjzHd-iu3M,2231
+gaga_phsp-0.5.5.data/scripts/gaga_train,sha256=zlxWOu3N9epSECDfGCNH695kmwZUyS_fslZ9WVzPd_A,3607
+gaga_phsp-0.5.5.data/scripts/gaga_wasserstein,sha256=Ia0zOpkzabGnxsd5lvCBs-FMvdqG8LrRnTh0GjsjinY,2668
+gaga_phsp-0.5.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gaga_phsp-0.5.5.dist-info/METADATA,sha256=XB1d0IWhjUlGKhWp0EbL6osG-kp-nGi1j8tAE0d_0UA,2334
+gaga_phsp-0.5.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gaga_phsp-0.5.5.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gaga_phsp-0.5.5.dist-info/RECORD,,
