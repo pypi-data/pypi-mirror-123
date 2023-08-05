@@ -1,0 +1,10 @@
+setup.py
+mm_udawsml_distributions/Binomialdistribution.py
+mm_udawsml_distributions/Gaussiandistribution.py
+mm_udawsml_distributions/Generaldistribution.py
+mm_udawsml_distributions/__init__.py
+mm_udawsml_distributions.egg-info/PKG-INFO
+mm_udawsml_distributions.egg-info/SOURCES.txt
+mm_udawsml_distributions.egg-info/dependency_links.txt
+mm_udawsml_distributions.egg-info/not-zip-safe
+mm_udawsml_distributions.egg-info/top_level.txt
