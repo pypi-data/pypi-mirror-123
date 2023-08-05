@@ -1,0 +1,9 @@
+clever_chat/__init__.py,sha256=XLEOWEumOZKAPgZQ3lmNcHlqb8RHi77QVd2uv7MWciA,1217
+clever_chat/client.py,sha256=vLOXLRjB1WFpYLEfzhyf3JXIdp_xPemTUDVt5DV8H6Y,19899
+clever_chat/errors.py,sha256=xtKNGBrxQjPGpMXwapdbSP7fbczlkMl80AQP4nWODbY,243
+clever_chat/result.py,sha256=qFR4oMEM_PwkUqoUkN2DF_dFN71Fff-8iINSlD79_98,1562
+cleverchat.py-0.0.1.dist-info/LICENSE,sha256=ica178Bvc67e6irFs9MGNZzxUJpTSjA3kyTkd6n4SAk,1065
+cleverchat.py-0.0.1.dist-info/METADATA,sha256=JL4hoCW8P7ajiQ7PDx5pqmyWYrZFqsgfLfBHE4UNXfY,1113
+cleverchat.py-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cleverchat.py-0.0.1.dist-info/top_level.txt,sha256=xRgLQNWMfdiAzaPYpFPvaHogi1vjp-IiAPxAtiTqhyg,12
+cleverchat.py-0.0.1.dist-info/RECORD,,
