@@ -1,0 +1,9 @@
+poutyne_transformers/__init__.py,sha256=PLctI7EXahpLBKsvdxQaa_s09PQDhuopYbqZ7zY4EDg,134
+poutyne_transformers/data.py,sha256=PiQEEoG9A9WhZu5DltLGvS76rv6k-UUeKTJ6JiKQJrA,1124
+poutyne_transformers/loss.py,sha256=oLCm5hBd58Yxrx6CZ_ahVvJdPJQY6ZUuAztGBWvzbKk,442
+poutyne_transformers/metrics.py,sha256=Chk0qF27AWTVFDvdYT0uY-A_qLnSbse-Okp6VgI5sSQ,693
+poutyne_transformers/model.py,sha256=a1NLP_Zmo_yCxJmsVeLOI4-K-cio-x5S3UlmBX64BGU,538
+poutyne_transformers-0.1.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+poutyne_transformers-0.1.0.4.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+poutyne_transformers-0.1.0.4.dist-info/METADATA,sha256=3vA8hN6xXXVGmSm6YFxocGDGp7c7rSin5FXxJ3wUPL0,3112
+poutyne_transformers-0.1.0.4.dist-info/RECORD,,
