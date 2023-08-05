@@ -1,0 +1,11 @@
+godaddy_reseller_client/__init__.py,sha256=lwT47AHLrzM_wIFSC3UdnqppqdRCUzV-iR0-XNDbC58,157
+godaddy_reseller_client/certificates.py,sha256=yIdCj49pYoSz5Dt6c-VD0KcxDAOAoc3VZzw-RI4TOM0,346
+godaddy_reseller_client/countries.py,sha256=-FMmqvrYL6bynGkJvi2ejW4ZJZ6y0tqRjjRalruEaCc,339
+godaddy_reseller_client/domains.py,sha256=3boeeCxsccYsnlzv3Ul2_VS09CQpihWTE6Mx7OK7N4w,11105
+godaddy_reseller_client/schema.py,sha256=br1hUlgd-7WBJSzs244djpMQX89KqoQOMljhX8QQ-i0,2894
+godaddy_reseller_client/shoppers.py,sha256=3fSCmaJrb9Po2OESArBX1O6ts9Cg3zl1XYI-GQGtI_0,3069
+godaddy_reseller_client-0.9.0.dist-info/LICENCE,sha256=HOc6Ug6MV9FkJZY1Zq-gPRpjUEVGiuZjJJoZwbIlvQY,1045
+godaddy_reseller_client-0.9.0.dist-info/METADATA,sha256=3uqcJeKEtO7cAfE6Dq666F5PiG6iqX4uuRT8n19sAAM,737
+godaddy_reseller_client-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+godaddy_reseller_client-0.9.0.dist-info/top_level.txt,sha256=PIRCXHdfZNC3XbK_9qxsREbdgQYw0SWifIkzxhhARNw,24
+godaddy_reseller_client-0.9.0.dist-info/RECORD,,
