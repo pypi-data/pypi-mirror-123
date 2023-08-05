@@ -1,0 +1,10 @@
+rapl_formula/__init__.py,sha256=ixmIzKM_tRa0p5VMgUqNDSzQ05N5xF4OnF2PTTMvhgo,1586
+rapl_formula/__main__.py,sha256=vTecbFOKFmWquxrhBx4jcUGRMMOkEBERv4z0VgtKQMg,10244
+rapl_formula/actor.py,sha256=7354eA5Ow_v3FsDLCz7LtrQ4-XDAsZH7316Pya3YKtg,4316
+rapl_formula/context.py,sha256=7k0wRl3aDlizIoO3119HbjHLRMjBhP1_dY4hWyss66A,2248
+rapl_formula/dispatcher.py,sha256=XXNiS1OwQ1qm2jYkt2QR4rq0VKZgwXxWUkh6CmH0kDI,2192
+rapl_formula-0.5.1.dist-info/LICENSE,sha256=vDoZ6SwxEyUCI3g9jYVb7lN74FbcBM4uDb9MsritZ5o,1508
+rapl_formula-0.5.1.dist-info/METADATA,sha256=uh7tc1rnPV4Pj1NNkVBNa_RzI5T-vRmoi9XheLaRwLY,3841
+rapl_formula-0.5.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+rapl_formula-0.5.1.dist-info/top_level.txt,sha256=V1VAQmBKIKUiHOVOlC4eHr_XE0fCbP1OAqTumSY6h8U,13
+rapl_formula-0.5.1.dist-info/RECORD,,
