@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: one-utils
+Version: 0.0.3
+Summary: oneflow tools
+Home-page: https://github.com/rentainhe/OneUtils
+Author: rentianhe
+Author-email: 596106517@qq.com
+License: MIT
+Description: # OneUtils
+        A collection of useful tools for oneflow
+        
+        ## Installation
+        ```bash
+        pip install one-utils==0.0.2
+        ```
+        
+        ## Usage
+        - Weight Transfer
+        ```python
+        from one_utils import convert_torch_to_flow
+        model = model()
+        torch_weight = "path/to/pytorch_pretrained_weight.pth"
+        save_path = "path/to/save"
+        convert_torch_to_flow(model, torch_weight_path, save_path)
+        ```
+        
+        - Eval Pytorch Model Acc on ImageNet
+        ```python
+        from one_utils import eval_torch_acc
+        model = model()
+        data_path = "path/to/imagenet/val"
+        eval_torch_acc(model, data_path, n_gpu_use=1)
+        ```
+        
+        - Eval OneFlow Model Acc on ImageNet
+        ```python
+        from one_utils import eval_flow_acc
+        import multiprocessing as mp
+        mp.set_start_method("spawn")
+        model = model()
+        data_path = "path/to/imagenet/val"
+        eval_flow_acc(model, data_path)
+        ```
+Keywords: computer vision
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
