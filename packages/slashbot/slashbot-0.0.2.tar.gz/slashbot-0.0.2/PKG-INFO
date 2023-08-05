@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: slashbot
+Version: 0.0.2
+Summary: A library for creating Slack slash commands.
+Home-page: https://github.com/ebrassell/slashbot
+Author: Eric Brassell
+Author-email: ebrassell-slashbot@gmail.com
+License: BSD
+Project-URL: Bug Tracker, https://github.com/ebrassell/slashbot/issues
+Keywords: slack bot slash slackbot lambda
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# slashbot
+Slashbot makes it easy to create slash commands using AWS Lambda functions. These can be handy for creating a secure way to execute automated tasks, even from a mobile device.
+
+Features:
+* Uses Slack Apps API (rather than the legacy slash command API)
+* Request authentication following Slack's recommended best practice (https://api.slack.com/authentication/verifying-requests-from-slack)
+* Ability to support multiple slash commands with a single bot
+* Simple ACL model enables you to limit certain commands to specific users.
+
+

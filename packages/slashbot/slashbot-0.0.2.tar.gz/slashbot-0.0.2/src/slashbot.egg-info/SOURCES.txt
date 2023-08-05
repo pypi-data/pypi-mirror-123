@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/slashbot.py
+src/slashbot.egg-info/PKG-INFO
+src/slashbot.egg-info/SOURCES.txt
+src/slashbot.egg-info/dependency_links.txt
+src/slashbot.egg-info/requires.txt
+src/slashbot.egg-info/top_level.txt
