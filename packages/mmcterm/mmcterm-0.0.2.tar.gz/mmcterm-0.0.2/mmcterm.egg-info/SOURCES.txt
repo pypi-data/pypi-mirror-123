@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+mmcterm/__init__.py
+mmcterm/__main__.py
+mmcterm/mmcterm.py
+mmcterm.egg-info/PKG-INFO
+mmcterm.egg-info/SOURCES.txt
+mmcterm.egg-info/dependency_links.txt
+mmcterm.egg-info/entry_points.txt
+mmcterm.egg-info/requires.txt
+mmcterm.egg-info/top_level.txt
