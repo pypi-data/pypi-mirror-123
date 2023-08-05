@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: youtubedown
+Version: 1.0.6
+Summary: Allows you to asynchronously download Youtube_dl.
+Home-page: https://github.com/8954sood/youtubedown
+Author: babihoba
+Author-email: hobabot@gmail.com
+License: MIT
+Description: # youtubedown
+        
+        
+        ![PYTHON](https://img.shields.io/badge/python-v3.8-blue)
+        > Asynchronous download using a simple created youtube_dl.
+        
+        > Required: ffmpeg
+        
+        > testing python version 3.8
+        
+        
+        
+        ## Asynchronous
+        ```py
+        import asyncio
+        from youtubedown import asyncDown
+        
+        
+        async def main():
+            Main = await asyncDown.lookup(title="My Songs title or url", path="./music/music") # path = music polder in music.mp3
+            download = await Main.download() #return json and install mp3 file
+            search = await Main.search() #retrun json
+        
+        asyncio.run(main())
+        ```
+        
+        Examples of source codes can be found through ["Click"](https://github.com/8954sood/youtubedown/tree/main/example).
+        
+        An example of a return value can be found through ["Click"](https://github.com/8954sood/youtubedown/blob/main/example/return.json).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
