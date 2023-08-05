@@ -1,0 +1,15 @@
+rules_metadata:
+  # TODO: Fix this rule's metadata
+  - rule_id: non_car_gcp_sql_database_ssl_required
+    cloud_provider: google_cloud_provider
+    name: Ensure SQL database requires SSL
+    severity: major
+    description: Ensure SQL database requires SSL
+    human_readable_logic: Ensure SQL database requires SSL
+    remediation_steps:
+      terraform: Ensure SQL database requires SSL
+      console: Ensure SQL database requires SSL
+    rule_type: non_context_aware
+    security_layer: networking
+    resource_type:
+      - database
