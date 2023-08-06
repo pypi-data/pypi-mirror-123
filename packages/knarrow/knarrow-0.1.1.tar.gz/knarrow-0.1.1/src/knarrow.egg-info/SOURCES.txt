@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/knarrow/__init__.py
+src/knarrow/main.py
+src/knarrow/py.typed
+src/knarrow/util.py
+src/knarrow.egg-info/PKG-INFO
+src/knarrow.egg-info/SOURCES.txt
+src/knarrow.egg-info/dependency_links.txt
+src/knarrow.egg-info/not-zip-safe
+src/knarrow.egg-info/requires.txt
+src/knarrow.egg-info/top_level.txt
