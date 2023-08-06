@@ -1,0 +1,9 @@
+[invenio_jsonschemas.schemas]
+nr_datasets_metadata=nr_datasets_metadata.jsonschemas
+
+[oarepo_mapping_includes]
+nr_datasets_metadata=nr_datasets_metadata.mapping_includes
+
+[oarepo_model_builder.datamodels]
+nr_datasets_metadata=nr_datasets_metadata.datamodels
+
