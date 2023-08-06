@@ -1,0 +1,4 @@
+[console_scripts]
+scriptz = scriptz:cli
+sz = scriptz:cli
+
