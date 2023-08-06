@@ -1,0 +1,3 @@
+[console_scripts]
+geomet-data-registry = geomet_data_registry:cli
+
