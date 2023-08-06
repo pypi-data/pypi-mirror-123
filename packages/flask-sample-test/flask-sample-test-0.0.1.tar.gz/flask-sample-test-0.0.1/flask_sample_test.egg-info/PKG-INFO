@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-sample-test
+Version: 0.0.1
+Summary: A sample test for project
+Home-page: https://github.com/pypa/sampleproject
+Author: JiaLe.tan
+Author-email: jiale.gfi@outlook.com
+License: UNKNOWN
+Keywords: flask,test,sqlalchemy
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sample Test
+

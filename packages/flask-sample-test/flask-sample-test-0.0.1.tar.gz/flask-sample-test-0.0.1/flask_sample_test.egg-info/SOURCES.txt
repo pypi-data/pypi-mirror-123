@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flask_sample_test.egg-info/PKG-INFO
+flask_sample_test.egg-info/SOURCES.txt
+flask_sample_test.egg-info/dependency_links.txt
+flask_sample_test.egg-info/requires.txt
+flask_sample_test.egg-info/top_level.txt
