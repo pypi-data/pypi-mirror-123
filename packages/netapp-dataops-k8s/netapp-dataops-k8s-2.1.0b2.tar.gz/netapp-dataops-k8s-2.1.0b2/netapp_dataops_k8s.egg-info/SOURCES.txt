@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+netapp_dataops/k8s.py
+netapp_dataops/netapp_dataops_k8s_cli.py
+netapp_dataops_k8s.egg-info/PKG-INFO
+netapp_dataops_k8s.egg-info/SOURCES.txt
+netapp_dataops_k8s.egg-info/dependency_links.txt
+netapp_dataops_k8s.egg-info/requires.txt
+netapp_dataops_k8s.egg-info/top_level.txt
