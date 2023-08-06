@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ShapeY
+Version: 0.0.2
+Summary: Benchmark that tests shape recognition
+Home-page: https://github.com/njw0709/ShapeY
+Author: Jong Woo Nam
+Author-email: namj@usc.edu
+License: MIT
+Keywords: tests shape recognition capacity
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 4 - Beta
+License-File: LICENSE
+
+# ShapeY
+Benchmark for shape recognition capacity
+
+
