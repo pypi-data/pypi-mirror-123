@@ -1,0 +1,4 @@
+fastapi
+cognitojwt[sync]
+pyYAML
+starlette-context
