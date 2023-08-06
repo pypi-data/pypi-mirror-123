@@ -1,0 +1,14 @@
+requests
+cachetools
+pyyaml
+pika
+prompt_toolkit
+pygments
+python-dateutil
+protobuf
+schema
+solrq
+validators
+
+[:platform_system == "Darwin"]
+keyring
