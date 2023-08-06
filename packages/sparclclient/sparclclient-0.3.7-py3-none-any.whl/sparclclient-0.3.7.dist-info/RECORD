@@ -1,0 +1,15 @@
+api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/client.py,sha256=vk6CkxRbLXLOJlESs2ETz599Xlvcw77M8aGj__6B-co,20260
+api/conf.py,sha256=7OW-dpooE4eJWZjIIT78CieDm-vH-uc4XGAkHdTLl74,948
+api/exceptions.py,sha256=AjH_Qh-31P9o6Hk7TSyCJCwpK3kHDUoUHU1xBzQhoO4,1641
+api/sids.py,sha256=UmTQnF0qZ4pcT-z_U9OFaJLR6qYxup17xYOjM4MLA74,14483
+api/specids.py,sha256=W96t0fIMSp9ghu8wUyhCTBKT4HkWn0_az-xp07Fy9Dk,14489
+api/type_conversion.py,sha256=z80UqKsgfkZSiNevrfnvcElnJk_bbRaYsFW1VKibbBA,11832
+api/utils.py,sha256=BKPmJiMj8mkbUQT5CjOXxYxYlUMsMyrrbjdRdYf2nQk,2878
+api/benchmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/benchmarks/benchmarks.py,sha256=EkyksY_q8sHCL3XrLumL1bp2SdCDHf8qFfEN0Zrlnkk,9430
+sparclclient-0.3.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sparclclient-0.3.7.dist-info/METADATA,sha256=ycqgqP8s1YZ8p6YM1JDlp2Coi4sScDgdcFe6iHbEQJg,884
+sparclclient-0.3.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sparclclient-0.3.7.dist-info/top_level.txt,sha256=0XF5TFwfelCuuPcFarhKT7zW-9WUsZmb3a790D78BZE,4
+sparclclient-0.3.7.dist-info/RECORD,,
