@@ -1,0 +1,10 @@
+README.md
+setup.py
+psgfiglet/__init__.py
+psgfiglet/gui.py
+psgfiglet.egg-info/PKG-INFO
+psgfiglet.egg-info/SOURCES.txt
+psgfiglet.egg-info/dependency_links.txt
+psgfiglet.egg-info/entry_points.txt
+psgfiglet.egg-info/requires.txt
+psgfiglet.egg-info/top_level.txt
