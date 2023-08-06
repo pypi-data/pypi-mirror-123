@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/MixacLib/__init__.py
+src/MixacLib/example.py
+src/MixacLib_tumuidle.egg-info/PKG-INFO
+src/MixacLib_tumuidle.egg-info/SOURCES.txt
+src/MixacLib_tumuidle.egg-info/dependency_links.txt
+src/MixacLib_tumuidle.egg-info/top_level.txt

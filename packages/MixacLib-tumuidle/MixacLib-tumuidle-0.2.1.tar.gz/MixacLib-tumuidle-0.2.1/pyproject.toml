@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+    "colorama",
+    "console",
+    "setuptools>=42",
+    "wheel",
+    "arcade>=2.6.3"
+]
+build-backend = "setuptools.build_meta"
