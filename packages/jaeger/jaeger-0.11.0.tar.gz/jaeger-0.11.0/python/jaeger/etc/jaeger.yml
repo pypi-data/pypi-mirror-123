@@ -1,0 +1,87 @@
+---
+actor:
+    name: jaeger
+    host: 0.0.0.0
+    port: 19990
+    verbose: 30
+    status:
+        port: 19991
+        delay: 5
+    tron_host: 127.0.0.1
+    tron_port: 6093
+    ieb_status_delay: 60
+    schema: etc/schema.json
+    log_dir: /data/logs/actors/jaeger
+
+profiles:
+    default: cannet
+    cannet:
+        interface: cannet
+        channels:
+            - sdss-cannet1
+            - sdss-cannet2
+            - sdss-cannet3
+            - sdss-cannet4
+            - sdss-cannet5
+            - sdss-cannet6
+        port: 19228
+        buses: [1, 2, 3, 4]
+        bitrate: 1000000
+        timeout: 1
+        status_interval: 5
+    slcan:
+        interface: slcan
+        channel: /dev/tty.usbserial-LW3HTDSY
+        ttyBaudrate: 1000000
+        bitrate: 1000000
+    virtual:
+        interface: virtual
+        channel: test1
+
+fps:
+    use_database: true
+    allow_unknown: true
+    initialise_timeouts: 0.5
+    start_pollers: false
+    status_poller_delay: 5
+    position_poller_delay: 5
+    skip_positioners: []
+    disable_collision_detection_positioners: []
+
+positioner:
+    reduction_ratio: 1024
+    motor_steps: 1073741824
+    time_step: 0.0005
+    motor_speed: 3000
+    initialise_datums_timeout: 300
+    disable_precise_moves: true
+    uid_bits: 6
+    trajectory_data_n_points: 3
+    firmware_messages_per_positioner: 8
+
+files:
+    log_dir: /data/logs/jaeger
+    ieb_config: etc/ieb.yaml
+    fvc_config: etc/fvc.yaml
+
+low_temperature:
+    sensor: RTD2
+    cold_threshold: 0
+    very_cold_threshold: -10
+    interval: 60
+    rpm_normal: 5000
+    rpm_cold: 3000
+    holding_torque_normal: [0, 30]
+    holding_torque_very_cold: [45, 30]
+
+safe_mode:
+    min_beta: 160
+
+debug: false
+
+observatory: ${OBSERVATORY}
+
+database:
+    dbname: sdss5db
+    host: null
+    port: 5433
