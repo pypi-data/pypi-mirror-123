@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test/test.py
+tkitTagger/__init__.py
+tkitTagger/model.py
+tkitTagger.egg-info/PKG-INFO
+tkitTagger.egg-info/SOURCES.txt
+tkitTagger.egg-info/dependency_links.txt
+tkitTagger.egg-info/requires.txt
+tkitTagger.egg-info/top_level.txt
