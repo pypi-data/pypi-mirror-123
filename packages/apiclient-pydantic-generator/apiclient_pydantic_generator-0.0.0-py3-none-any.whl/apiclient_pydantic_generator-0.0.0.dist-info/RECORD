@@ -1,0 +1,11 @@
+apiclient_pydantic_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apiclient_pydantic_generator/__main__.py,sha256=BwwUaycqalDHIjNXWwZhe1LqdxctyN9tPrZvXg3RrGs,7712
+apiclient_pydantic_generator/format.py,sha256=3hQRv7iq7YQk5nPderCAwbhyRjfEr9KcJX8dMP8LD1E,1580
+apiclient_pydantic_generator/parser.py,sha256=GWc-cUa53ZHoZYKe5fL0WBIdtDRcV_AKwcBmigI7j3M,16492
+apiclient_pydantic_generator/templates/__init__.jinja2,sha256=7G5gfh0fnrf8qCkSDVYDB7kodb4i-k8ZiomxiKtvVgM,86
+apiclient_pydantic_generator/templates/client.jinja2,sha256=8D3A48gXgL-xWOPdqFxTNGoVVKRtz3PjrRYFN7csA4U,1112
+apiclient_pydantic_generator/templates/endpoints.jinja2,sha256=V-PFr5_UMWOCZvn6WbWG8ol8z2GAivcff18zWZDqaJQ,292
+apiclient_pydantic_generator-0.0.0.dist-info/entry_points.txt,sha256=CRSQjgtp3EdBGxfzPywjKrh-TZcca1-YiPYv5eL9Fr8,79
+apiclient_pydantic_generator-0.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+apiclient_pydantic_generator-0.0.0.dist-info/METADATA,sha256=jJHCxcuaevs1w_aPsrf1quz1plZS5AIDo7y79Gq1w5s,10317
+apiclient_pydantic_generator-0.0.0.dist-info/RECORD,,
