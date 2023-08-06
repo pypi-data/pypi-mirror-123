@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+appsync_router/__init__.py
+appsync_router/context.py
+appsync_router/exceptions.py
+appsync_router/matches.py
+appsync_router/routes.py
+appsync_router.egg-info/PKG-INFO
+appsync_router.egg-info/SOURCES.txt
+appsync_router.egg-info/dependency_links.txt
+appsync_router.egg-info/requires.txt
+appsync_router.egg-info/top_level.txt
