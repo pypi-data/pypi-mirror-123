@@ -1,0 +1,12 @@
+sapiclient/__init__.py,sha256=tDpVoLYWfFY-HX8gSx49OQRAKysIKcjhcpW2jC6PFRw,598
+sapiclient/s_cache.py,sha256=bUd9oL9T6cGcW1Gg-yvdYlOBaiUHzhw1L9Es8Ux2zhk,3198
+sapiclient/s_cleanup.py,sha256=Uyaw6RUuW1UN8jIrxmn6Xf8QgR5Do7LDBmmFMSld4n4,757
+sapiclient/s_config.py,sha256=PGx9bA22WQQfM2v_B9Z_R-wgzdyutecNEGllmgX17yA,4707
+sapiclient/s_db.py,sha256=8bJGQB7jD7CCJ8clBNXRkBPRRr0RUhxHCXKwGkmjBfY,10017
+sapiclient/s_log.py,sha256=JpIZQrKDLJiauIGYXt1zGnGEdJboNEEc890LTKUAJEA,1955
+sapiclient/s_net.py,sha256=it06nkFnnr4uLJhkQeOi7nDgh-U8W-HbBHaDkS7FsG4,14113
+sapiclient/s_util.py,sha256=N04ocsXiQ6-WCEozEKbQMnpcdfY8eEN1Em_9DcWiOF0,2058
+sapiclient/sapiclient.py,sha256=tKkeVIfSa4E48qUKVBncn4g1cVGAiZqgk3X0HtKnNx4,1875
+sapiclient-0.1.6731.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sapiclient-0.1.6731.dist-info/METADATA,sha256=8y2zSIBxzDv0ZYtlvihnxX05pG_I_oKbX3jrwjvEjMM,391
+sapiclient-0.1.6731.dist-info/RECORD,,
