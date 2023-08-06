@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+easypyxl/__init__.py
+easypyxl/easypyxl.py
+easypyxl.egg-info/PKG-INFO
+easypyxl.egg-info/SOURCES.txt
+easypyxl.egg-info/dependency_links.txt
+easypyxl.egg-info/requires.txt
+easypyxl.egg-info/top_level.txt
