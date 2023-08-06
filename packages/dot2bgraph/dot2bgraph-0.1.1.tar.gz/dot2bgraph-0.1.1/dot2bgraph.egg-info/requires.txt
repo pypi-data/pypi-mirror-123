@@ -1,0 +1,5 @@
+pygraphviz
+rectpack
+Pillow
+tqdm
+yaspin
