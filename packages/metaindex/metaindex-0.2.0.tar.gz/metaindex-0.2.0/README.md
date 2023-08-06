@@ -1,0 +1,75 @@
+# metaindex
+
+metaindex allows you to find files based on metadata information.
+
+For example, if you want to find all pictures that are have a certain width,
+you could do this:
+
+    metaindex find mimetype:image resolution:1200x
+
+
+## Installation
+
+To install metaindex either install it directly through pypi:
+
+    pip install metaindex
+
+Or clone the repository and install that then through pip:
+
+    git clone https://github.com/vonshednob/metaindex
+    cd metaindex
+    pip install .
+
+Most modules are optional. If you, for example, want to use metaindex for audio
+files and PDFs, you will have to install it like this:
+
+    pip install metaindex[pdf,audio]
+
+or, for the cloned repository:
+
+    pip install .[pdf,audio]
+
+These modules exist for indexing:
+
+ - `pdf`, for PDF files,
+ - `audio`, any type of audio/music file,
+ - `image`, any type of image file,
+ - `video`, any type of video file (overlaps somewhat with `audio`),
+ - `ebook`, ebooks and comic book formats,
+ - `xdg`, support for XDG (if you use Linux, just add it),
+ - `yaml`, extra metadata in YAML format,
+ - `ocr`, find and extract text from images with tesseract (you must have
+   tesseract installed for this to work).
+
+In case you just want everything, this is your install command:
+
+    pip install .[all]
+
+There is also an experimental FuseFS filesystem. To be able to use it, you
+will have to specify ``fuse`` as an additional module:
+
+    pip install .[all,fuse]
+
+
+## Usage
+
+Before you can use metaindex to search for files, you have to initialize the
+cache by telling it where your files to index are, for example:
+
+    metaindex index --recursive --index ~/Pictures
+
+Afterwards you can start searching for files by metadata, like this:
+
+    metaindex find 
+
+
+## Searching
+
+Search queries for use with `metaindex find` allow you to search
+
+ - for files that have a metadata tag: `metaindex find resolution?`
+ - for files that have a metadata tag with a certain value: `metaindex find title:"dude, where is my car"`
+ - for files that have any metadata tag with a certain value: `metaindex find "just anything"`
+
+Each value that you provide is actually a case insensitive regular expression.
+
