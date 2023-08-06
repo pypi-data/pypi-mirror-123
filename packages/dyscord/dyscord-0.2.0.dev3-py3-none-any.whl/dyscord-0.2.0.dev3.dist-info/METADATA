@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: dyscord
+Version: 0.2.0.dev3
+Summary: A simple implementation of the discord API.
+Home-page: https://github.com/jmurrayufo/dyscord
+Author: John Murray
+Author-email: jmurrayufo@gmail.com
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/jmurrayufo/dyscord/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cachetools (>=4.2.4)
+Requires-Dist: colour (>=0.1.5)
+Requires-Dist: emoji (>=1.5.0)
+Requires-Dist: httpx (>=0.19.0)
+Requires-Dist: nest-asyncio (>=1.5.1)
+Requires-Dist: orjson (>=3.6.3)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: websockets (>=10.0)
+Requires-Dist: validators (>=0.18.2)
+
+# dyscord
+
+A simplistic implementation of the discord API.
+
+Main: [![Python Testing](https://github.com/jmurrayufo/dyscord/actions/workflows/python-testing.yml/badge.svg?branch=main)](https://github.com/jmurrayufo/dyscord/actions/workflows/python-testing.yml)
+
+Dev: [![Python Testing](https://github.com/jmurrayufo/dyscord/actions/workflows/python-testing.yml/badge.svg?branch=dev)](https://github.com/jmurrayufo/dyscord/actions/workflows/python-testing.yml)
+
+# Current Status
+
+Very much an active WIP. The API to this library is not at all locked down. Users can expect aggressive changes to the API until we hit v1.0.0
+
+# Documentation
+
+We are following [Google Style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) docstring patterns.
+
+# Community
+
+[Subreddit](https://www.reddit.com/r/dyscord/)
+
+[Discord](https://discord.gg/Q9NFzgZx)
+
+# Changelog
+
+See the [Changelog](docs/changelog.md).
+
