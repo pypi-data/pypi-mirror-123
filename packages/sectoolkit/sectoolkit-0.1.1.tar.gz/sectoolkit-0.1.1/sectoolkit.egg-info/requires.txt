@@ -1,0 +1,16 @@
+bs4
+numpy
+unicodedata
+re
+collections
+urllib
+pandas
+os.path
+pathlib
+webbrowser
+datetime
+urllib.request
+xmltodict
+json
+tqdm.notebook
+multiprocessing
