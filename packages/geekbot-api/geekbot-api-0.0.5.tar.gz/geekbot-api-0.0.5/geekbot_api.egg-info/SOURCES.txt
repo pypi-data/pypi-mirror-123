@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+geekbot_api/__init__.py
+geekbot_api/client.py
+geekbot_api/config.py
+geekbot_api/schemas.py
+geekbot_api.egg-info/PKG-INFO
+geekbot_api.egg-info/SOURCES.txt
+geekbot_api.egg-info/dependency_links.txt
+geekbot_api.egg-info/requires.txt
+geekbot_api.egg-info/top_level.txt
+geekbot_api/clients/__init__.py
+geekbot_api/clients/reports.py
+geekbot_api/clients/standups.py
+geekbot_api/clients/teams.py
