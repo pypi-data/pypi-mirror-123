@@ -1,0 +1,11 @@
+seamm_jobserver/__init__.py,sha256=m3ZEArN-mrmc5_eMFIRQnDVGhN3HapR8nM454idC5Ec,507
+seamm_jobserver/_version.py,sha256=ToYzmgocl7SJbxyk9kNQjGFYecv61uXoPpg1u-zoIbY,502
+seamm_jobserver/jobserver.py,sha256=MWiX0txwv--jaa_rtyV21SDk0X_9tf0gq-WXlotB9FM,5336
+seamm_jobserver/run_jobserver.py,sha256=RBwO3qsgcsJJmTkia5Ob7e2fXgBOlMGp1IA2wSOxzcQ,3026
+seamm_jobserver-2021.10.14.dist-info/AUTHORS.rst,sha256=7VeWlpVO-epb2hxd3kmnovLJJc4TSyA_EJcxP6sGsMM,147
+seamm_jobserver-2021.10.14.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+seamm_jobserver-2021.10.14.dist-info/METADATA,sha256=APWyYkAy44qpmj_yoWiMouBdV1rctdPayNji58n-SeI,2856
+seamm_jobserver-2021.10.14.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+seamm_jobserver-2021.10.14.dist-info/entry_points.txt,sha256=m7TELzG67Qxgkp0NHZwjhJ96LvzUKye9yKok9DFaebw,65
+seamm_jobserver-2021.10.14.dist-info/top_level.txt,sha256=DVLvEWTGk_i5--uRobJIxEAzx9VvjDtoGm-LdMd9LpY,16
+seamm_jobserver-2021.10.14.dist-info/RECORD,,
