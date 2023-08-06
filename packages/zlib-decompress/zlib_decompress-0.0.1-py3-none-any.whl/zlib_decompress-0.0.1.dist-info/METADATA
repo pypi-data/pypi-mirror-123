@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zlib-decompress
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/jgibo/zlib-decompress
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+
+Build: `python3.10 setup.py sdist bdist_wheel`
+
