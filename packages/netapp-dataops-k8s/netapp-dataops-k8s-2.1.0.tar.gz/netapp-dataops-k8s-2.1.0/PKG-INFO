@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: netapp-dataops-k8s
+Version: 2.1.0
+Summary: NetApp DataOps Toolkit for Kubernetes Environments
+Home-page: https://github.com/NetApp/netapp-data-science-toolkit/
+Author: Mike Oglesby
+Author-email: mike.oglesby@netapp.com
+Maintainer: NetApp
+Maintainer-email: ng-ai-inquiry@netapp.com
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/NetApp/netapp-data-science-toolkit/issues
+Project-URL: Documentation, https://github.com/NetApp/netapp-data-science-toolkit/blob/main/README.md
+Project-URL: Source Code, https://github.com/NetApp/netapp-data-science-toolkit/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The NetApp DataOps Toolkit for Kubernetes is a Python library that makes it
+simple for developers, data scientists, DevOps engineers, and data engineers to perform various data management
+tasks within a Kubernetes cluster, such as provisioning a new Kubernetes
+persistent volume or JupyterLab workspace, near-instantaneously cloning a
+Kubernetes persistent volume or JupterLab workspace, and near-instantaneously
+snapshotting a Kubernetes persistent volume or JupyterLab workspace for
+traceability/baselining. This Python library can function as either a command
+line utility or a library of functions that can be imported into any Python 
+program or Jupyter Notebook.
+
+Refer to the documentation for a full list of available functionality.
+
