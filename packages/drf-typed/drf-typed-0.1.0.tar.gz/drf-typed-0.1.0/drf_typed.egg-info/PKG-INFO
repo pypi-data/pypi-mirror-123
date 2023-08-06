@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: drf-typed
+Version: 0.1.0
+Summary: Use type annotations for request validation and serializer fields in Django REST Framework
+Home-page: https://github.com/rsinger86/drf-typed
+Author: Robert Singer
+Author-email: robertgsinger@gmail.com
+License: MIT
+Description: # drf-typed
+Keywords: django rest type annotations automatic validation validate
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
