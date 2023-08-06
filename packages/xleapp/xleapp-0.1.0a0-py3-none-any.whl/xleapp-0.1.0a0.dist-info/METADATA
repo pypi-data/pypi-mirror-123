@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: xleapp
+Version: 0.1.0a0
+Summary: Multiplaform Logs, Events, And Plists Parser
+Home-page: https://github.com/flamusdiu/xleapp
+License: MIT
+Keywords: forensics,dfir,security,framework
+Author: Jesse Spangenberger
+Author-email: azuleonyx@digitalforensics.io
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: Jinja2 (>=3.0.2,<4.0.0)
+Requires-Dist: PySimpleGUI (>=4.49.0,<5.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: prettytable (>=2.2.1,<3.0.0)
+Requires-Dist: python-magic-bin (>=0.4.14,<0.5.0)
+Requires-Dist: simplekml (>=1.3.6,<2.0.0)
+Project-URL: Documentation, https://github.com/flamusdiu/xleapp
+Project-URL: Repository, https://github.com/flamusdiu/xleapp
+Description-Content-Type: text/markdown
+
+# xLEAPP
+
+**Development build. Please be cauious using on real cases.**
+
+Framework for Logs, Events, And Plists Parser (LEAPP)
+
+This framework is a complete rewrite of the excellent tool iLEAPP.Details of iLEAPP can be found in this [blog post](https://abrignoni.blogspot.com/2019/12/xleapp-ios-logs-events-and-properties.html)
+
+xLEAPP is the framework created to merge several tools together. More information about the rewrite is given in by talk ([YouTube](https://www.youtube.com/watch?v=seTpCmSF0Gc)) at Black Hills Info Security&#39;s Wild West Hackin&#39; Fest (WWHF): Deadwood in 2021.
+
+## Features
+
+* Provides a centralized and modular framework
+* Provides a simplified way to write plugins (artifacts) for each different supported platform.
+* Parses iOS, macOS, Android, Chromebook, warranty returns, and Windows artifacts depending on the plugins installed.
+
+## Other Documentation
+
+* [Artifact Creation](docs/current/artifact-creation.md)
+
+## Pre-requisites
+
+This project requires you to have Python >= 3.9
+
+## Installation
+
+### Windows
+
+```powershell
+PS> py -m pip install xleapp
+PS> py -m pip install xleapp-<plugin>
+```
+
+### Linux
+
+```bash
+$ python -m pip install xleapp
+$ python -m pip install xleapp-<plugin>
+```
+
+## Installation from Github and Development Information
+
+* [Windows](docs/current/windows.md)
+* [Linux](docs/current/linux.md)
+
+## VS Code configuration files
+
+There are several [configuration files](https://github.com/flamusdiu/xleapp-project) that I have been using for VS Code.
+
+## Compile to executable
+
+**NOTE:** This may not work at this time with this alpha version.
+
+To compile to an executable so you can run this on a system without python installed.
+
+To create xleapp.exe, run:
+
+```bash
+pyinstaller --onefile xleapp.spec
+```
+
+To create xleappGUI.exe, run:
+
+```bash
+pyinstaller --onefile --noconsole xleappGUI.spec
+```
+
+## Usage
+
+### CLI
+
+```bash
+$ xleapp -h
+usage: xleapp [-h] [-I] [-R] [-A] [-C] [-V] [-o OUTPUT_FOLDER] [-i INPUT_PATH]
+       [--artifact [ARTIFACT ...]] [-p] [-l] [--gui] [--version]
+
+xLEAPP: Logs, Events, and Plists Parser.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -I                    parse ios artifacts
+  -R                    parse Warrant Returns / User Generated Archives artifacts
+  -A                    parse android artifacts
+  -C                    parse Chromebook artifacts
+  -V                    parse vehicle artifacts
+  -o OUTPUT_FOLDER, --output_folder OUTPUT_FOLDER
+                        Output folder path
+  -i INPUT_PATH, --input_path INPUT_PATH
+                        Path to input file/folder
+  --artifact [ARTIFACT ...]
+                        Filtered list of artifacts to run. Allowed: core, <check artifact list in
+                        documentation>
+  -p, --artifact_paths  Text file list of artifact paths
+  -l, --artifact_table  Text file with table of artifacts
+  --gui                 Runs xLEAPP into graphical mode
+  --version             show program&#39;s version number and exit
+
+```
+
+### GUI
+
+This needs work and may not work properly!
+
+```bash
+$ xleapp --gui 
+
+```
+
+### Help
+
+```bash
+$ xleapp.py --help
+
+```
+
+The GUI will open in another window.  
+
+## Acknowledgements
+
+This tool is the result of a collaborative effort of many people in the DFIR community.
+
+This product includes software developed by Sarah Edwards (Station X Labs, LLC, @iamevltwin, mac4n6.com) and other contributors as part of APOLLO (Apple Pattern of Life Lazy Output'er).
+
