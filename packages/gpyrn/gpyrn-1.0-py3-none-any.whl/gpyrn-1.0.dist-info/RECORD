@@ -1,0 +1,13 @@
+gpyrn/__init__.py,sha256=GFF-pqFgjlQxK5loWL_2AWE2P3eMXWwJ95NHelE_j2I,63
+gpyrn/_gp.py,sha256=dsmOGY3cjzWWlMJaWryJy31IGKlkPXKqqzef7swCKfQ,3897
+gpyrn/_utils.py,sha256=-engPoGdJubFwj9zY9MHx1W3kbvlXp1lfm9xgg4bYq4,8075
+gpyrn/covfunc.py,sha256=E5t4_IKxrWOde8bDkeBUCW_eOrTCJi2AEyHyXjgVJUA,12887
+gpyrn/evidence.py,sha256=WU-eBesLq7V0F27KJtpiFet4cShtxcMTgjBZk4uhv-Q,19478
+gpyrn/meanfield.py,sha256=N6ICG8K1dnLQPJ44k5rBxdgcBZjfEWsJKwNMm_xuvc8,23040
+gpyrn/meanfunc.py,sha256=6oDtHhmyb-Ttm_mEP5Lf-B2wXnHFdstOe7WVWOsf5rc,6214
+gpyrn/nonparametric.py,sha256=V4a6yNsc1PJQdN50AclblH0trVtlw_VcTqNBY42qPKA,15069
+gpyrn-1.0.dist-info/LICENSE,sha256=mFg2Ttus9Q8E09I2vXXjOgeO4ZQriq84i3eIz5tWcEU,1070
+gpyrn-1.0.dist-info/METADATA,sha256=5e8iUKlIXWmN0BKDuaRmV6P7fzUWTo58v_XvrbEHfqQ,348
+gpyrn-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gpyrn-1.0.dist-info/top_level.txt,sha256=6VN_CDMZT0AQWXT2wGsQxzheE-z422g8DJ9zeFnU_NA,6
+gpyrn-1.0.dist-info/RECORD,,

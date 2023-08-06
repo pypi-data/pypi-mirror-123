@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gpyrn
+Version: 1.0
+Summary: Modelling stellar activity in radial velocity data with Gaussian processes regression networks 
+Home-page: https://github.com/jdavidrcamacho/gpyrn
+Author: João Camacho
+Author-email: joao.camacho@astro.up.pt
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
