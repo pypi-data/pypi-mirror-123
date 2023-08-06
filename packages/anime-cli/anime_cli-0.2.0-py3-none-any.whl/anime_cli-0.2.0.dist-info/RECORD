@@ -1,0 +1,8 @@
+anime_cli/__init__.py,sha256=iKliDsfubHu7NcUj7RCXqro78cLSD4kqFlw50qtBYLc,52
+anime_cli/__main__.py,sha256=1c2N43AX51aCaMy9A1S-IHYG6sCei9Qik89cqi3v0bU,2039
+anime_cli/anime.py,sha256=Po4Ozgbh8IRCy8lKGMSYoQqoYF-d0xd4nh5_abqB9HQ,170
+anime_cli/search.py,sha256=S_BtyIhBy7u3StsYhf0BlYONhBWApJm-AmzUrd3jDPA,1243
+anime_cli-0.2.0.dist-info/entry_points.txt,sha256=rMwk6s-lywxFFhhRaszsg3CxHw47fSEizujBK7j3jFc,53
+anime_cli-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+anime_cli-0.2.0.dist-info/METADATA,sha256=xEt37PguhIpD1bMOdgy0E0r0HZM2r--U_lPFpXYMhWY,2101
+anime_cli-0.2.0.dist-info/RECORD,,
