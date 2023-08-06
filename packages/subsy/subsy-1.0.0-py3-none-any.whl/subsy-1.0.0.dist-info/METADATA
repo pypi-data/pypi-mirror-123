@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: subsy
+Version: 1.0.0
+Summary: Access to subtitles from various file formats
+Keywords: subtitles,.srt,.ass,.ssa,.vtt,.sub
+Author: John Hennig
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: srt3
+Requires-Dist: aeidon
+Requires-Dist: chardet
+Requires-Dist: Sphinx ; extra == "docs"
+Requires-Dist: Furo ; extra == "docs"
+Requires-Dist: MyST-parser ; extra == "docs"
+Requires-Dist: CommonMark ; extra == "docs"
+Requires-Dist: pyTest ; extra == "test"
+Requires-Dist: pyTest-cov ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: pyproject-flake8 ; extra == "test"
+Project-URL: Documentation, https://subsy.readthedocs.io
+Project-URL: Source, https://github.com/john-hen/subsy
+Provides-Extra: docs
+Provides-Extra: test
+
+﻿*Access to subtitles from various file formats*
+
+This library is not fundamentally different from established ones, but
+offers some helpful abstractions that those others don't. First and
+foremost, subtitles loaded from a file are represented as a linked list.
+This makes it possible to implement search patterns and sanitization
+strategies that take the preceding or following subtitle into account,
+for example to recognize a running sentence.
+
+```python
+>>> import subsy
+>>> subtitles = subsy.load('subtitles.srt')
+>>> first = subtitles[0]
+>>> first.text
+'How are you?'
+>>> second = first.next
+>>> second.text
+'great, thanks.'
+>>> second.text = 'Great, thanks.'
+>>> subtitles.save()
+```
+
+Subtitles can be loaded from and saved to these file formats:
+* Subrip (`.srt`)
+* Advanced Substation Alpha (`.ass`)
+* Substation Alpha (`.ssa`)
+* WebVTT (`.vtt`)
+* SubViewer (`.sub`)
+
+The text encoding of input files is detected automatically.
+
