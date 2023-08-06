@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: psgfiglet
+Version: 1.10.0
+Summary: Create Figlets using a PySimpleGUI GUI and pyfiglet
+Home-page: https://github.com/PySimpleGUI/psg-figlet
+Author: PySimpleGUI
+Author-email: PySimpleGUI@PySimpleGUI.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Operating System :: OS Independent
+Requires-Dist: PySimpleGUI
+Requires-Dist: pyfiglet
+
+UNKNOWN
+
+
