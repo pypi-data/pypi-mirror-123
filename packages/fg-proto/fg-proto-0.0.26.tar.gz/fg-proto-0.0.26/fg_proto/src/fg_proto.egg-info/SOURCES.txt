@@ -1,0 +1,7 @@
+README
+setup.py
+fg_proto/src/fg_proto.egg-info/PKG-INFO
+fg_proto/src/fg_proto.egg-info/SOURCES.txt
+fg_proto/src/fg_proto.egg-info/dependency_links.txt
+fg_proto/src/fg_proto.egg-info/requires.txt
+fg_proto/src/fg_proto.egg-info/top_level.txt
