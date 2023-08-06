@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+mingwtomsys/__init__.py
+mingwtomsys/__main__.py
+mingwtomsys.egg-info/PKG-INFO
+mingwtomsys.egg-info/SOURCES.txt
+mingwtomsys.egg-info/dependency_links.txt
+mingwtomsys.egg-info/entry_points.txt
+mingwtomsys.egg-info/top_level.txt
