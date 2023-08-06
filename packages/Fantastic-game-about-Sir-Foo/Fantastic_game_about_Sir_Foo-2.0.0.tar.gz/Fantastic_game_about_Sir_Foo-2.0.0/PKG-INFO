@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: Fantastic_game_about_Sir_Foo
+Version: 2.0.0
+Summary: My Fantasy Game
+Home-page: https://test.pypi.org/pypi/Fantastic_game_about_Sir_Foo
+Author: Karanaev K.A.
+Author-email: karanaevkosnya@gmail.com
+License: LICENSE.txt
+Description: Attack of the orcs
+        ----------------------------------------
+        Introduction
+        ----------------------------------------
+        This ie a command line fantasy war game!
+        
+        Documentation
+        ----------------------------------------
+        Documentation can be found at...
+        
+        Example Usage
+        ----------------------------------------
+        Here is an example to import the modules from this package.
+        
+        .. code: python
+        
+            from wargame.attackoftheorcs import AttackOfTheorce
+            game = AttackofTheorcs ()
+            game.play()
+        
+        LICENSE
+        ----------------------------------------
+        See LICENSE.txt file.
+Platform: UNKNOWN
