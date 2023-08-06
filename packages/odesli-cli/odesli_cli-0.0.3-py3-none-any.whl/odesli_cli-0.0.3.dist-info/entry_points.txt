@@ -1,0 +1,3 @@
+[console_scripts]
+odesli-cli = odesli_cli.odesli_cli:main
+
