@@ -1,0 +1,5 @@
+fastybird-application-exchange
+fastybird-modules-metadata
+kink
+pony
+setuptools
