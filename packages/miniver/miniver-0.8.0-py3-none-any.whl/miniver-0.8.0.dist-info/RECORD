@@ -1,0 +1,10 @@
+miniver/__init__.py,sha256=TjGafvEmLIFv2fi04KwzeoqzIs3EtOVqtn6_1mNMqyk,120
+miniver/_static_version.py,sha256=9oykmMfsiIv4MoZbbE-mxReoSxQdH9Hup3ezPGJJrsw,60
+miniver/_version.py,sha256=8zBBR1PTDyaz8bALVvx-TYPMB3_wXeuqnCh4mEJGo84,5857
+miniver/app.py,sha256=xs3bIffLbI5PfLyIjOUkRMwpsqRYiKkB3J-MCn3ZAWw,7450
+miniver-0.8.0.dist-info/LICENSE,sha256=Nv_Z3AhdUpp-YOEnbXOuWgMLAgMT5sVAhZOmrirzlnM,6555
+miniver-0.8.0.dist-info/METADATA,sha256=TXBsUcbdKX815yiABb-V04LJdF_FgjJ4yyXDP0KPPmQ,4842
+miniver-0.8.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+miniver-0.8.0.dist-info/entry_points.txt,sha256=EwWqDoHHkVNGjaiAiKnOd110PXzf9gycNzJ0Ybp-kYY,46
+miniver-0.8.0.dist-info/top_level.txt,sha256=ZKKWQskRoaoKb558IJYNFcg93zgTokKrWhqY_Q4MT_o,8
+miniver-0.8.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+miniver = miniver.app:main
+
