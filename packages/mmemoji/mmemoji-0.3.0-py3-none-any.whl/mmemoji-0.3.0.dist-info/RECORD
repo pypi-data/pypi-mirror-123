@@ -1,0 +1,16 @@
+mmemoji/__init__.py,sha256=PUvBWaSSqqEeLjqH83d907_1pa1-tUCIXEJ4V4O4oRQ,349
+mmemoji/cli.py,sha256=t9YIuuyBmNDanqS2vbNsMWPA4LLYlvp3TeehYLL3Pwg,1378
+mmemoji/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmemoji/commands/create.py,sha256=5s2lDlqjU4R9exIBkeVGdZLf9WSCOIUX6SaTgTvx-jQ,1577
+mmemoji/commands/delete.py,sha256=_BBkK3F8hZjLPlqPKr2SA7VTy54znxOOXkpduLP3Z0M,1216
+mmemoji/commands/download.py,sha256=ONJK64_i7tAHDPwTUsHa7KZY0FNYZQVJFxggyY4KYf4,2770
+mmemoji/commands/list.py,sha256=uvWs2W_7d0pxBz1hxml8-5qImXkb6mvleQ4hl6-sxZE,402
+mmemoji/commands/search.py,sha256=AUZidzSyCMGaziHWxXmLQ9RP7H1DlHeUZ-XGnoE6aTQ,631
+mmemoji/decorators.py,sha256=nVMraOQs6prlY8tOtuYCs5PluG3dISnb5savwuRmhMQ,6374
+mmemoji/emoji.py,sha256=pNz7quQmZbyTQWvSZvMm2_PSS6ATozTOuNLXYP9PE2w,6676
+mmemoji/exceptions.py,sha256=r4OTy-gmuv4fsLNDbHF2-2S8dDfnwoonOGdh6ST8eAQ,686
+mmemoji-0.3.0.dist-info/entry_points.txt,sha256=b76dHinw_KxUryvi_Zk93CUlZw6339PzgSe8A6GyCCk,43
+mmemoji-0.3.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+mmemoji-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mmemoji-0.3.0.dist-info/METADATA,sha256=IJ_XpIBi5sAKhGnZPoiLlVGmV9qrYT6eCHqiN7HZ2-8,4166
+mmemoji-0.3.0.dist-info/RECORD,,
