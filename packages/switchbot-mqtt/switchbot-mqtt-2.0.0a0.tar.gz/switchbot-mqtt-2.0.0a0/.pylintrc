@@ -1,0 +1,8 @@
+[MESSAGE CONTROL]
+
+disable=missing-function-docstring,
+        missing-module-docstring
+
+[DESIGN]
+
+max-args=8
