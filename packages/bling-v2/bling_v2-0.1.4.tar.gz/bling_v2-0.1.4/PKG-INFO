@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bling-v2
+Version: 0.1.4
+Summary: 
+Author: Carmo-sousa
+Author-email: carmosousa20@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: dynaconf (>=3.1.7,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
