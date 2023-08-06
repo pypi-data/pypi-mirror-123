@@ -1,0 +1,11 @@
+restalker/__init__.py,sha256=A5Rqm9_7tMoJUniNzNtAgCyMtHqHvipkUYZz6iUcE-Q,118
+restalker/link_extractors.py,sha256=ns1Sws9t_jF4iCKD7Q6WKLw-FY6CD8h5umO10TAeWS4,3086
+restalker/metadata.py,sha256=yuHSDx1zzz2OJKR9_LCWhoJWUsSH7W1VjW7-QnPH-HM,3113
+restalker/restalker.py,sha256=AYqnXJGXlGhxSgCV2Q8pxeR-x3XdyBs5V7zA-hjoA5o,17057
+restalker/textan.py,sha256=Ugfa8vr53yw8jt00BrUblFwJWtyuu4rgwPPP2qGoDOw,343
+restalker-1.1.0.0.dist-info/LICENSE,sha256=RDsn78qzLUj2L1_EEbouUYIp_kpwzT2zFaQab6Gaprs,1103
+restalker-1.1.0.0.dist-info/METADATA,sha256=l5i1TjNykt9nbDzGqbY_WySE990ItShb2Ml0q14oBx0,1285
+restalker-1.1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+restalker-1.1.0.0.dist-info/entry_points.txt,sha256=BpTSX0-PzZ4QynB544xTsb4HO5ypeea6wXoTzl6ktfI,56
+restalker-1.1.0.0.dist-info/top_level.txt,sha256=CKm4IDcMxIAoYGfFU5-1VZEQ2ltWH2-CspNTRM2RCPM,10
+restalker-1.1.0.0.dist-info/RECORD,,
