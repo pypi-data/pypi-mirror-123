@@ -1,0 +1,11 @@
+anytree
+atlassian-python-api
+Jinja2
+PyYAML
+
+[dev]
+coverage
+pre-commit
+pylint
+pytest
+pytest-cov
