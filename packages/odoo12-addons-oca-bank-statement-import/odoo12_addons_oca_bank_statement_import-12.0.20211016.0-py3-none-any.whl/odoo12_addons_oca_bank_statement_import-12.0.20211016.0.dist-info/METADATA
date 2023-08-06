@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-bank-statement-import
+Version: 12.0.20211016.0
+Summary: Meta package for oca-bank-statement-import Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-account-bank-statement-clear-partner
+Requires-Dist: odoo12-addon-account-bank-statement-import-bypass-check
+Requires-Dist: odoo12-addon-account-bank-statement-import-camt-oca
+Requires-Dist: odoo12-addon-account-bank-statement-import-move-line
+Requires-Dist: odoo12-addon-account-bank-statement-import-ofx
+Requires-Dist: odoo12-addon-account-bank-statement-import-online
+Requires-Dist: odoo12-addon-account-bank-statement-import-online-paypal
+Requires-Dist: odoo12-addon-account-bank-statement-import-online-ponto
+Requires-Dist: odoo12-addon-account-bank-statement-import-online-qonto
+Requires-Dist: odoo12-addon-account-bank-statement-import-online-transferwise
+Requires-Dist: odoo12-addon-account-bank-statement-import-paypal
+Requires-Dist: odoo12-addon-account-bank-statement-import-save-file
+Requires-Dist: odoo12-addon-account-bank-statement-import-split
+Requires-Dist: odoo12-addon-account-bank-statement-import-txt-xlsx
+
+UNKNOWN
+
