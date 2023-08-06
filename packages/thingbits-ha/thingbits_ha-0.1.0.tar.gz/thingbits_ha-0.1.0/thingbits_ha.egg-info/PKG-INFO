@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: thingbits-ha
+Version: 0.1.0
+Summary: ThingBits HomeAssistant Integration
+Home-page: https://github.com/thingbits
+Author: ThingBits
+Author-email: dev@thingbits.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
