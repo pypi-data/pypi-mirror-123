@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: one_neuron_pypi-pralaydas
+Version: 0.0.3
+Summary: it is an implementation of perceptron
+Home-page: https://github.com/pralaydas/one_neuron_pypi
+Author: pralaydas
+Author-email: pralay.ceremorphic@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pralaydas/one_neuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# one_neuron_pypi
+create a module single perceptron
+
+# Reference -
+[official puthon docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+# Reference -
+[official github docs for github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
