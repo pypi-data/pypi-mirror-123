@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: rtamt
+Version: 0.2.5
+Summary: Library for specification-based online monitoring.
+Home-page: https://github.com/nickovic/rtamt
+Author: Nickovic Dejan, Tomoya Yamaguchi
+Author-email: dejan.nickovic@ait.ac.at, tomoya.yamaguchi@toyota.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: C++
