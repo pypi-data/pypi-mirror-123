@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: LazySearch
+Version: 1.0rc1
+Summary: Full text search engine with spell correction, pattern matching.
+Home-page: https://github.com/notAI-tech/LazySearch
+Author: BEDAPUDI PRANEETH
+Author-email: praneeth@bpraneeth.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# LazySearch
+
+
+
+

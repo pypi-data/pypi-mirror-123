@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+LazySearch.egg-info/PKG-INFO
+LazySearch.egg-info/SOURCES.txt
+LazySearch.egg-info/dependency_links.txt
+LazySearch.egg-info/entry_points.txt
+LazySearch.egg-info/requires.txt
+LazySearch.egg-info/top_level.txt
+lazysearch/__init__.py
+lazysearch/lazysearch.py
+lazysearch/simple_pattern.py
