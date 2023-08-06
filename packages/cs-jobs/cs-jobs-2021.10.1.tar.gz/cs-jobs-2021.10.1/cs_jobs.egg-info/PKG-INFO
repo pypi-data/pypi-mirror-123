@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cs-jobs
+Version: 2021.10.1
+Summary: Wrap job-based projects on Compute Studio.
+Home-page: https://github.com/compute-tooling/compute-studio
+Author: Hank Doupe
+Author-email: hank@compute.studio
+License: UNKNOWN
+Description: # Lightweight package for executing jobs on CS
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

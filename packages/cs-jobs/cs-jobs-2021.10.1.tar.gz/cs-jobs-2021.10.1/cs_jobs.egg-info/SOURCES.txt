@@ -1,0 +1,11 @@
+README.md
+setup.py
+cs_jobs/__init__.py
+cs_jobs/job.py
+cs_jobs/task_wrapper.py
+cs_jobs.egg-info/PKG-INFO
+cs_jobs.egg-info/SOURCES.txt
+cs_jobs.egg-info/dependency_links.txt
+cs_jobs.egg-info/entry_points.txt
+cs_jobs.egg-info/requires.txt
+cs_jobs.egg-info/top_level.txt
