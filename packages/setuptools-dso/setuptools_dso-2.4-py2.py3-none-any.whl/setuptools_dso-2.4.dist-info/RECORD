@@ -1,0 +1,9 @@
+setuptools_dso/__init__.py,sha256=KZcjaYjkRMkd57jevSeAJD6JpnahuFqVfP35H9nFxLI,3963
+setuptools_dso/dsocmd.py,sha256=wPDHc5_yPLjYwBTpwD714vnjBY8MtKzP2I-xatAPE3A,23443
+setuptools_dso/probe.py,sha256=LDwfqP0Lh29QRTogoOewaASpcTgszroBkMEfsX7gGQA,9149
+setuptools_dso/runtime.py,sha256=QBIXlxmTGV0plsFkPKNXD3HEAy9ByvDB1PrWAHB6-lg,4930
+setuptools_dso-2.4.dist-info/LICENSE,sha256=XViOs7FX1SESr-qTXIin_5793B4tlaQsJdO5atkFUAg,1499
+setuptools_dso-2.4.dist-info/METADATA,sha256=bCXBtxxGCvQFJWsrg3LeO7v3eHJlc0J8F-anZLgcrc8,1571
+setuptools_dso-2.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+setuptools_dso-2.4.dist-info/top_level.txt,sha256=zW1QeWzUUd-5ggYNyFHrwe_tTzbb2o9r3E0K2GFEzog,15
+setuptools_dso-2.4.dist-info/RECORD,,
