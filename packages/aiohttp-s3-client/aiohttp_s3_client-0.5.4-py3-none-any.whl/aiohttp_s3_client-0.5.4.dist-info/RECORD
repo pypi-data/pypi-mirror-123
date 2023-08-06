@@ -1,0 +1,11 @@
+aiohttp_s3_client/__init__.py,sha256=0jMwJuU66dWE-nJXwrVSJibMw8G39LZbEH2R1ouy5c4,165
+aiohttp_s3_client/client.py,sha256=1X5uszJ09a8blqDfetG1vHMGH5d9aqvXHRODn-tyFfs,21461
+aiohttp_s3_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_s3_client/version.py,sha256=fHm5gS18l_cxCMTr6aRSq1rjOtAXauFxQcy_TuD1mus,487
+aiohttp_s3_client/xml.py,sha256=aFmEsayKHDr4W9rvbzrjrvcL9ZJW7hcNpP7wgi4Fdrk,1032
+aiohttp_s3_client-0.5.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aiohttp_s3_client-0.5.4.dist-info/LICENSE.md,sha256=7GQBUOA3dNG1Jk-yaPOCncNnRVURCRMev23QpZ1ew-s,10495
+aiohttp_s3_client-0.5.4.dist-info/METADATA,sha256=qo3mCAa705rbMG5fGvhzz1Oc8iTJLzUDoCeojh0-2gY,5902
+aiohttp_s3_client-0.5.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aiohttp_s3_client-0.5.4.dist-info/top_level.txt,sha256=vUafS45NZt7wDGwFDtMp9w3Idf1CYwTwhMNG-r84H4M,18
+aiohttp_s3_client-0.5.4.dist-info/RECORD,,
