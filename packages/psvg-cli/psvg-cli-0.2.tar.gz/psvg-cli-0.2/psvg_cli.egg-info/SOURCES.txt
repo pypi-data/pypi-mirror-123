@@ -1,0 +1,11 @@
+README.md
+setup.py
+psvg_cli/__init__.py
+psvg_cli/cli.py
+psvg_cli/utils.py
+psvg_cli.egg-info/PKG-INFO
+psvg_cli.egg-info/SOURCES.txt
+psvg_cli.egg-info/dependency_links.txt
+psvg_cli.egg-info/entry_points.txt
+psvg_cli.egg-info/requires.txt
+psvg_cli.egg-info/top_level.txt

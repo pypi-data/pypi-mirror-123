@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        psvg-cli=psvg_cli.cli:cli
+    
