@@ -1,0 +1,3 @@
+[console_scripts]
+flpinfo = flpinfo.__main__:main
+
