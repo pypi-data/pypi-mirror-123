@@ -1,0 +1,16 @@
+click
+click-log
+component-contribution~=0.4.5b1
+equilibrator-cache~=0.4.4b2
+equilibrator-cheminfo[chemaxon,openbabel]~=0.11.0
+numpy
+pandas
+periodictable
+python-dateutil
+requests
+openbabel-wheel>=3
+
+[development]
+black
+isort
+tox
