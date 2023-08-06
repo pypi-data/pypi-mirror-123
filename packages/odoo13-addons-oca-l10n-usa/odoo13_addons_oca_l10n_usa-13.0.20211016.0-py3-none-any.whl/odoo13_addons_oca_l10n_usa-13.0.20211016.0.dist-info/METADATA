@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-l10n-usa
+Version: 13.0.20211016.0
+Summary: Meta package for oca-l10n-usa Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 13.0
+Requires-Dist: odoo13-addon-l10n-us-form-1099
+Requires-Dist: odoo13-addon-l10n-us-gaap
+Requires-Dist: odoo13-addon-l10n-us-gaap-mis-report
+
+UNKNOWN
+
