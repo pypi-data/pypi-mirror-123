@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tap-exacttarget
+Version: 1.7.0
+Summary: Singer.io tap for extracting data from the ExactTarget API
+Home-page: http://fishtownanalytics.com
+Author: Fishtown Analytics
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
