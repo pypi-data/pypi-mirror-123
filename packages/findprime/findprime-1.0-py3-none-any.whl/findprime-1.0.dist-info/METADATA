@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: findprime
+Version: 1.0
+Summary: A tool for finding prime numbers.
+Home-page: UNKNOWN
+Author: Jose Lanzas
+Author-email: jose97lf@gmail.com
+License: GNU GPLv3
+Keywords: pyfinding prime numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+FINDPRIME
+================
+
+Este paquete de Python contiene una funciÃ³n que devuelve todos los nÃºmeros primos contenidos entre 1 y n, donde n es un parÃ¡metro de dicha funciÃ³n. 
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
