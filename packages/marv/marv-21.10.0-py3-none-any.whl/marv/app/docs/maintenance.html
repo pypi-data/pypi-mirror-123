@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maintenance &mdash; MARV Robotics 21.10.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_paramlinks.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon-32x32.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Migration" href="migrate/index.html" />
+    <link rel="prev" title="Access Control" href="accesscontrol.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> MARV Robotics
+          </a>
+              <div class="version">
+                21.10
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/setup-basic-site.html">Tutorial: Setup basic site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/write-your-own.html">Tutorial: Write your own nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTING.html">Contribution guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="patterns.html">Patterns and known issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debug.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scan.html">Scanner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodes.html">Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="httpapi.html">HTTP API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upload.html">Upload (EE)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deploy.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accesscontrol.html">Access Control</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Maintenance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cleanup">Cleanup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#backup">Backup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dump-restore">Dump/restore</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="migrate/index.html">Migration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGES.html">Changelog</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/marv.html">marv</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MARV Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Maintenance</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/maintenance.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="maintenance">
+<span id="id1"></span><h1>Maintenance<a class="headerlink" href="#maintenance" title="Permalink to this headline"></a></h1>
+<section id="cleanup">
+<h2>Cleanup<a class="headerlink" href="#cleanup" title="Permalink to this headline"></a></h2>
+<p>When datasets are discarded (via frontend, API, cli) they are only marked to be removed from marv’s database and can be “undiscarded”.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>marv undiscard --help
+</pre></div>
+</div>
+<p>To actually remove these from the database</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>marv cleanup --discarded
+</pre></div>
+</div>
+<p>After deleting datasets manually from the filesystem, you can remove them from the database as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>marv scan
+marv query --missing <span class="p">|</span> xargs marv discard
+marv cleanup --discarded
+</pre></div>
+</div>
+<p>When searching for <code class="docutils literal notranslate"><span class="pre">subset</span></code> <a class="reference internal" href="config.html#cfg-c-filters"><span class="std std-ref">filters</span></a>, marv presents matching results, including values from meanwhile cleaned-up datasets. Cleanup these filters with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>marv cleanup --filters
+</pre></div>
+</div>
+<p>Additional cleanup operations will be added in one of the next releases.</p>
+</section>
+<section id="backup">
+<h2>Backup<a class="headerlink" href="#backup" title="Permalink to this headline"></a></h2>
+<p>By default, all data related to a marv site is stored in a site directory. It holds the following information:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">db</span></code> marv’s sqlite database</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">marv.conf</span></code> the marv configuration file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sessionkey</span></code> if it changes, users will have to relogin</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">store</span></code> of all node output, theoretically possible to recreate by running all nodes, which might not be feasible</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gunicorn_cfg.py</span></code> configuration for gunicorn serving the marv application</p></li>
+</ul>
+<p>Make sure to create regular backups of this site directory or the individual components in case you placed them elsewhere. It is not necessary to stop marv to create backups.</p>
+</section>
+<section id="dump-restore">
+<h2>Dump/restore<a class="headerlink" href="#dump-restore" title="Permalink to this headline"></a></h2>
+<p>Use <code class="docutils literal notranslate"><span class="pre">marv</span> <span class="pre">dump</span></code> and <code class="docutils literal notranslate"><span class="pre">marv</span> <span class="pre">restore</span></code> to dump marv’s database to a json format and to restore it in a site with the same configuration. You can use the latest version to dump older databases.</p>
+<p>The dump contains:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>datasets for all collections with setid, files, tags, and comments</p></li>
+<li><p>and users with group memberships.</p></li>
+</ul>
+</div></blockquote>
+<p>Apart from the dump, you need to copy from old site:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>marv.conf</p></li>
+<li><p>gunicorn_cfg.py</p></li>
+<li><p>sessionkey (if it changes, users will have to relogin)</p></li>
+<li><p>store (if you don’t copy the store, all nodes will have to rerun)</p></li>
+</ul>
+</div></blockquote>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> old-site
+marv dump ../dump.json
+
+<span class="nb">cd</span> ../new-site
+cp -a ../old-site/marv.conf ./
+cp -a ../old-site/gunicorn_cfg.py ./
+cp -a ../old-site/sessionkey ./
+cp -a ../old-site/store ./
+marv restore ../dump.json
+</pre></div>
+</div>
+<p><strong>DUMP/RESTORE IS NOT A REPLACEMENT FOR MAKING BACKUPS</strong></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="accesscontrol.html" class="btn btn-neutral float-left" title="Access Control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="migrate/index.html" class="btn btn-neutral float-right" title="Migration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright  Copyright 2016-2021  Ternaris.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

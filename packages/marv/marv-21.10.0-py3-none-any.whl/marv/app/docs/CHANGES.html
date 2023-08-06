@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Changelog &mdash; MARV Robotics 21.10.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_paramlinks.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon-32x32.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="marv" href="api/marv.html" />
+    <link rel="prev" title="Migration" href="migrate/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> MARV Robotics
+          </a>
+              <div class="version">
+                21.10
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/setup-basic-site.html">Tutorial: Setup basic site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/write-your-own.html">Tutorial: Write your own nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTING.html">Contribution guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="patterns.html">Patterns and known issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debug.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scan.html">Scanner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodes.html">Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="httpapi.html">HTTP API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upload.html">Upload (EE)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deploy.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accesscontrol.html">Access Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance.html">Maintenance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migrate/index.html">Migration</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#v21-10-0">21.10.0 (2021-10-13)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#added">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changed">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecated">Deprecated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#removed">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fixed">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v21-08-1">21.08.1 (2021-08-11)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v21-08-0">21.08.0 (2021-08-04)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v21-07-0">21.07.0 (2021-07-07)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v21-05-0">21.05.0 (2021-05-31)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v21-03-0">21.03.0 (2021-03-29)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id20">Deprecated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v20-12-0">20.12.0 (2021-02-18)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id25">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id26">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id27">Deprecated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id28">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id29">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v20-08-0">20.08.0 (2020-08-09)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id38">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id39">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id40">Fixed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#security">Security</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v20-06-0">20.06.0 (2020-06-29)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id42">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id43">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id44">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v20-04-0">20.04.0 (2020-04-30)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id47">Security</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id48">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id49">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id50">Deprecated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id51">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id52">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v19-11-1">19.11.1 (2019-12-13)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id57">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v19-11-0">19.11.0 (2019-12-01)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id59">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id60">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id61">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id62">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v19-09-0">19.09.0 (2019-09-09)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id67">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id68">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id69">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id70">Fixed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id71">Security</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v19-07-0">19.07.0 (2019-07-14)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id76">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id77">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v19-04-0">19.04.0 (2019-04-30)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id85">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id86">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id87">Fixed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id88">Security</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v19-02-0">19.02.0 (2019-02-09)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id93">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id94">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v18-07">18.07 (2018-07-22)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id101">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id102">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id103">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v18-05-1">18.05.1 (2018-05-11)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id107">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v18-05">18.05 (2018-05-08)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id109">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id110">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id111">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v18-04">18.04 (2018-04-30)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id117">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id118">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id119">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v18-03">18.03 (2018-03-10)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id121">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id122">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id123">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v18-02">18.02 (2018-02-05)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id129">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id130">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id131">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v17-11">17.11 (2017-11-17)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id135">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id136">Changed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v17-08">17.08 (2017-08-23)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id138">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id139">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v17-06">17.06 (2017-06-16)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id141">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id142">Changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id143">Fixed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v17-05">17.05 (2017-05-05)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id145">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id146">Changed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#v16-10">16.10 (2016-10-07)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/marv.html">marv</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MARV Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Changelog</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/CHANGES.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="changelog">
+<span id="id1"></span><h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline"></a></h1>
+<p>Our versioning scheme uses a two-digit year, a two-digit month, and a release counter within month. Previously the release counter was omitted when zero.</p>
+<p>Changes necessitating migration reference the corresponding migration section. References are only rendered correctly as part of the Sphinx documentation. Within GitLab please find the migration document <a class="reference external" href="./docs/migrate/index.rst">here</a>.</p>
+<p>If we’re deprecating features you rely on, please speak up.</p>
+<section id="v21-10-0">
+<span id="id2"></span><h2>21.10.0 (2021-10-13)<a class="headerlink" href="#v21-10-0" title="Permalink to this headline"></a></h2>
+<section id="added">
+<h3>Added<a class="headerlink" href="#added" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Unified keyboard control for map, pointcloud, and video players</p></li>
+<li><p>Support for subdirectories within site resources and exception if resource is not found</p></li>
+<li><p>Filter for datasets without specific tag in frontend (EE)</p></li>
+<li><p>Userdata annotation editor in web frontend (EE)</p></li>
+<li><p>Option to calculate hashes for ingest and upload in parallel (EE)</p></li>
+<li><p>Display of bag time during video playback and control to jump to specific time (EE)</p></li>
+</ul>
+</section>
+<section id="changed">
+<h3>Changed<a class="headerlink" href="#changed" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Use rosbags library for all rosbag access <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-21-10-0"><span class="std std-ref">21.10.0</span></a></p></li>
+<li><p>Update to latest rosbags and pillow python packages</p></li>
+<li><p>Use ruamel.yaml instead of pyyaml</p></li>
+<li><p>Linter configuration and introduced yapf for automatic code formatting</p></li>
+<li><p>Improve frontend loading times and overall performance</p></li>
+<li><p>Tweak frontend design for improved clarity</p></li>
+<li><p>Improved error message for failed import of node</p></li>
+<li><p>Adhere to strict JSON for rendered details and listing</p></li>
+<li><p>Switch to documentation theme with better use of horizontal space</p></li>
+<li><p>Sort dataset files for rosbag2 scanner, dirscan was already sorting (CE)</p></li>
+<li><p>Sort dataset files for uploaded and locally ingested datasets (EE)</p></li>
+<li><p>Unify upload and local ingest of rosbag2, single bag, and directory-based datasets (EE)</p></li>
+<li><p>Upload and ingest initial dataset userdata as annotation instead of dataset file to allow for changes (EE)</p></li>
+</ul>
+</section>
+<section id="deprecated">
+<h3>Deprecated<a class="headerlink" href="#deprecated" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>21.12.0 will remove support for ROS1 message type names, use new ROS2 names instead</p></li>
+</ul>
+</section>
+<section id="removed">
+<h3>Removed<a class="headerlink" href="#removed" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Checkpoint commands run before uploads (EE)</p></li>
+</ul>
+</section>
+<section id="fixed">
+<h3>Fixed<a class="headerlink" href="#fixed" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Handling of topics without messages</p></li>
+<li><p>Include missing DLLs in Windows leaf binaries (EE)</p></li>
+</ul>
+</section>
+</section>
+<section id="v21-08-1">
+<span id="id3"></span><h2>21.08.1 (2021-08-11)<a class="headerlink" href="#v21-08-1" title="Permalink to this headline"></a></h2>
+<section id="id4">
+<h3>Fixed<a class="headerlink" href="#id4" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix partial loading of capnp data in frontend</p></li>
+</ul>
+</section>
+</section>
+<section id="v21-08-0">
+<span id="id5"></span><h2>21.08.0 (2021-08-04)<a class="headerlink" href="#v21-08-0" title="Permalink to this headline"></a></h2>
+<section id="id6">
+<h3>Added<a class="headerlink" href="#id6" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Dataset userdata read from meta.json/meta.yaml userdata key</p></li>
+<li><p>Option to enforce username from OAuth when using a single OAuth provider (EE)</p></li>
+<li><p>Option to require GitLab group membership for OAuth users (EE)</p></li>
+<li><p>Support for ASAM ODS ATF files (EE)</p></li>
+<li><p>Support for leaf dataset uploads from Windows (EE)</p></li>
+<li><p>Support for partial rosbag2 download, selected topics and sliced by time (EE)</p></li>
+<li><p>MARVIO client library for remote ATF and ROS bag data access with examplary jupyter notebook integration (EE)</p></li>
+<li><p>Docker-compose setup to start fully configured and linked nginx and marv containers (EE)</p></li>
+<li><p>Mechanism to read SMTP URL and OAuth ID and secret from <code class="docutils literal notranslate"><span class="pre">secrets.json</span></code> (EE)</p></li>
+<li><p>Documentation for web-based access control and user, group, and leaf management (EE)</p></li>
+</ul>
+</section>
+<section id="id7">
+<h3>Changed<a class="headerlink" href="#id7" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>NGINX example config for IPv6, HSTS, redirect and resources location</p></li>
+<li><p>Speed up partial download controls in frontend (EE)</p></li>
+<li><p>Improve performance of partial downloads of split rosbag1 (EE)</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>Fixed<a class="headerlink" href="#id8" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Handling of aiohttp SystemRoute instances in auth middleware</p></li>
+<li><p>Authentication issues related to service workers</p></li>
+</ul>
+</section>
+</section>
+<section id="v21-07-0">
+<span id="id9"></span><h2>21.07.0 (2021-07-07)<a class="headerlink" href="#v21-07-0" title="Permalink to this headline"></a></h2>
+<section id="id10">
+<h3>Added<a class="headerlink" href="#id10" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Download of time slices from a bag <a class="reference internal" href="migrate/index.html#migrate-21-07-0"><span class="std std-ref">21.07.0</span></a> (EE)</p></li>
+<li><p>Support direct leaf upload of rosbag2 datasets (EE)</p></li>
+<li><p>Transparent optional zstd compression for direct leaf uploads (EE)</p></li>
+<li><p>Ingestion of leaf datasets from filesystem in addition to direct upload (EE)</p></li>
+</ul>
+</section>
+<section id="id11">
+<h3>Changed<a class="headerlink" href="#id11" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Switch to rosbags for reading and writing of ROS2 bags <strong>needs migration</strong> <a class="reference internal" href="migrate/index.html#migrate-21-07-0"><span class="std std-ref">21.07.0</span></a></p></li>
+</ul>
+</section>
+<section id="id12">
+<h3>Fixed<a class="headerlink" href="#id12" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Management of admin users via frontend (EE)</p></li>
+</ul>
+</section>
+</section>
+<section id="v21-05-0">
+<span id="id13"></span><h2>21.05.0 (2021-05-31)<a class="headerlink" href="#v21-05-0" title="Permalink to this headline"></a></h2>
+<section id="id14">
+<h3>Added<a class="headerlink" href="#id14" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Example for nginx with natively installed marv</p></li>
+<li><p>Support for leaves running on aarch64 (EE)</p></li>
+<li><p>Per dataset ACL management <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-21-05-0"><span class="std std-ref">21.05.0</span></a> (EE)</p></li>
+<li><p>Indexable key-value data for leafs (EE)</p></li>
+</ul>
+</section>
+<section id="id15">
+<h3>Changed<a class="headerlink" href="#id15" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Make nodes select also ROS2 message types</p></li>
+<li><p>Publish timestamped velocity and acceleration (CE)</p></li>
+<li><p>Simplified permission handling and removed route ACL profiles (CE)</p></li>
+</ul>
+</section>
+<section id="id16">
+<h3>Removed<a class="headerlink" href="#id16" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>In 20.12 deprecated marv.types, use marv_api.types instead</p></li>
+<li><p>In 20.12 deprecated marv.utils.popen, use marv_api.utils.popen instead</p></li>
+<li><p>In 20.12 deprecated HTTP listing API, query <a class="reference internal" href="httpapi.html#httpapi-query-collection"><span class="std std-ref">Collection</span></a> instead</p></li>
+<li><p>In 20.12 deprecated list config function, use makelist instead</p></li>
+<li><p>In 21.03 deprecated route-based ACL profiles <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-21-05-0"><span class="std std-ref">21.05.0</span></a> (CE)</p></li>
+</ul>
+</section>
+<section id="id17">
+<h3>Fixed<a class="headerlink" href="#id17" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Docs for proxy_pass nginx directive</p></li>
+<li><p>Docs for using a custom certification authority for HTTPS</p></li>
+</ul>
+</section>
+</section>
+<section id="v21-03-0">
+<span id="id18"></span><h2>21.03.0 (2021-03-29)<a class="headerlink" href="#v21-03-0" title="Permalink to this headline"></a></h2>
+<section id="id19">
+<h3>Changed<a class="headerlink" href="#id19" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Update python packages</p></li>
+<li><p>User and leaf database models <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-21-03-0"><span class="std std-ref">21.03.0</span></a></p></li>
+<li><p>Introduce dedicated marv-leaf binary (EE)</p></li>
+<li><p>User and leaf management interfaces (EE)</p></li>
+<li><p>User invitation and account recovery workflows (EE)</p></li>
+</ul>
+</section>
+<section id="id20">
+<h3>Deprecated<a class="headerlink" href="#id20" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>21.05 will remove route-based ACL profiles</p></li>
+</ul>
+</section>
+<section id="id21">
+<h3>Fixed<a class="headerlink" href="#id21" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Rosbag2 reader path handling independent of declared format version <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/91">#91</a></p></li>
+<li><p>Fetch dependencies when starting docker container <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/92">#92</a></p></li>
+</ul>
+</section>
+</section>
+<section id="v20-12-0">
+<span id="id24"></span><h2>20.12.0 (2021-02-18)<a class="headerlink" href="#v20-12-0" title="Permalink to this headline"></a></h2>
+<section id="id25">
+<h3>Added<a class="headerlink" href="#id25" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Plotly widget <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/37">#37</a></p></li>
+<li><p>Tests for image format conversions</p></li>
+<li><p>Support for sensor_msgs/CompressedImage in cam nodes <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/78">#78</a></p></li>
+<li><p>Warnings if rosbag2 contains subdirectories or files not listed in metadata.yaml</p></li>
+<li><p>Directory-based scanner as alternative to the default rosbag record set-based scanner</p></li>
+<li><p>Pure-python rosbag2 reader</p></li>
+<li><p>Log warning message from node Abort exception</p></li>
+<li><p>New collection query API <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/82">#82</a> <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-12-0"><span class="std std-ref">20.12.0</span></a></p></li>
+<li><p>Formatters for distance, speed, and acceleration</p></li>
+<li><p>Nodes extracting basic motion parameters</p></li>
+<li><p>Support for nested listing summary functions</p></li>
+<li><p>Added filter config function</p></li>
+<li><p>Added makelist config function</p></li>
+<li><p>Fallback to bag message timestamp in case ROS message header timestamp is zero</p></li>
+<li><p>CLI version option to display version and copyright information</p></li>
+<li><p>API call to get path to site resource within node (marv.get_resource_path())</p></li>
+<li><p>Support to publish frontend updates independent of full releases (CE)</p></li>
+<li><p>Let CI run pytest for community edition merge requests (CE)</p></li>
+<li><p>Let CI publish latest documentation as gitlab pages (CE)</p></li>
+<li><p>PDF widget (EE)</p></li>
+<li><p>PDF section to display PDF files contained in dataset (EE)</p></li>
+<li><p>Support finding and reading metadata of rosbag2 datasets (EE); CE got support in <a class="reference internal" href="#v20-08-0"><span class="std std-ref">20.08.0 (2020-08-09)</span></a> already</p></li>
+<li><p>Support reading and deserializing of rosbag2 datasets (EE); CE got support in <a class="reference internal" href="#v20-08-0"><span class="std std-ref">20.08.0 (2020-08-09)</span></a> already</p></li>
+<li><p>Extraction and visualization of autonomous distance driven (EE)</p></li>
+<li><p>Support for DMV reporting workflows (EE)</p></li>
+<li><p>Render markers in pointcloud player (EE)</p></li>
+<li><p>Render ego model and static pointcloud/vector maps in pointcloud views (EE)</p></li>
+</ul>
+</section>
+<section id="id26">
+<h3>Changed<a class="headerlink" href="#id26" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Replace custom rosbag merge sort with heapq.merge <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/72">#72</a></p></li>
+<li><p>Use heapq.merge to read from multiple bags in parallel <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/72">#72</a></p></li>
+<li><p>Serve documentation from marv core</p></li>
+<li><p>Switch to isort for import order management</p></li>
+<li><p>Deprecated module attributes are not displayed in module __dir__ anymore</p></li>
+<li><p>Prepare to run nodes in dedicated environment with marv-api and marv-robotics nodes</p></li>
+<li><p>Use pydantic to model configuration</p></li>
+<li><p>Validate node output on marv.push() to allow debugging of schema violations in node context</p></li>
+<li><p>Check that &#64;marv.node() decorator is called before being applied</p></li>
+<li><p>Changed ffmpeg parameters to improve web streaming</p></li>
+<li><p>Require Python 3.8 for new language features; if you need support for Python 3.7 please let us know</p></li>
+<li><p>Check not to overwrite existing dump file</p></li>
+<li><p>Tagging via CLI to be idempotent by default, previously it failed when trying to add existing or remove non-existing tags</p></li>
+<li><p>Disabled fulltext node in default config as it can lead to excessive DB memory usage; enable selectively instead</p></li>
+<li><p>Publish marv_robotics.trajectory.navsatfix timestamps in nanoseonds <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-12-0"><span class="std std-ref">20.12.0</span></a> for custom nodes directly consuming the navsatfix node</p></li>
+<li><p>Updated python dependencies</p></li>
+<li><p>Silence aiosqlite exception logging, among others when trying to add users or groups that exist already</p></li>
+<li><p>Remove remaining EE-only leaf database model from (CE)</p></li>
+<li><p>Switch CE docker image base to plain Ubuntu focal as we don’t have any external ROS dependencies anymore (CE)</p></li>
+<li><p>Move widget dropdown to CE, previously EE only (CE)</p></li>
+<li><p>Move widget mpld3 to CE, previously EE only (CE)</p></li>
+<li><p>Ship frontend as part of marv python distribution (CE)</p></li>
+<li><p>Publish latest tag as latest image to dockerhub and do not publish image for master branch (CE)</p></li>
+<li><p>Introduce dedicated connections section for partial downloads (EE) <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-12-0"><span class="std std-ref">20.12.0</span></a></p></li>
+</ul>
+</section>
+<section id="id27">
+<h3>Deprecated<a class="headerlink" href="#id27" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>21.04 will remove marv.types, use marv_api.types instead</p></li>
+<li><p>21.04 will remove marv.utils.popen, use marv_api.utils.popen instead</p></li>
+<li><p>21.04 will remove the deprecated HTTP listing API, query <a class="reference internal" href="httpapi.html#httpapi-query-collection"><span class="std std-ref">Collection</span></a> instead</p></li>
+<li><p>21.04 will remove list config function, use makelist instead</p></li>
+</ul>
+</section>
+<section id="id28">
+<h3>Removed<a class="headerlink" href="#id28" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Previously deprecated marv.api_endpoint and marv.api_group, deprecated in <a class="reference internal" href="#v20-04-0"><span class="std std-ref">20.04.0 (2020-04-30)</span></a></p></li>
+<li><p>All marv.* controls, available via marv_api since <a class="reference internal" href="#v20-04-0"><span class="std std-ref">20.04.0 (2020-04-30)</span></a></p></li>
+<li><p>Support to install via pypi; use ./scripts/setup-venv instead</p></li>
+<li><p>rosbag2_py from CE docker image in favor of pure-python rosbag2 contained in marv-robotics</p></li>
+</ul>
+</section>
+<section id="id29">
+<h3>Fixed<a class="headerlink" href="#id29" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Conversion of YUV422 encoded images</p></li>
+<li><p>Return HTTP bad request from query API on unknown filter names <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/83">#83</a></p></li>
+<li><p>Pass user argument to database method from marv show cli command <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/87">#87</a></p></li>
+<li><p>Enabled cloned nodes as input for cloning</p></li>
+<li><p>Prevent worker from restarting in case of errors during marv serve startup</p></li>
+<li><p>Let len, min, max, and sum config functions handle None values</p></li>
+<li><p>Sexp for detail_title may now take multiple arguments</p></li>
+<li><p>Running nodes referenced by dotted name</p></li>
+<li><p>Yielding marv file objects via marv.push() in addition to plain yielding</p></li>
+<li><p>Listing batch processing during re-initialisation of site</p></li>
+<li><p>Sort connection indices in external rosbag module to align with rosbag play <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/72">#72</a></p></li>
+<li><p>Fulltext node treats null characters as whitespace instead of passing them on and producing an invalid SQL query</p></li>
+<li><p>Sorting of incomplete listing columns that prevented rendering in some cases <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/88">#88</a></p></li>
+<li><p>Gracefully handle unindexed rosbag1 files <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/88">#88</a></p></li>
+<li><p>Config error exception handling</p></li>
+<li><p>Authentication using OAuth2 webflow in Firefox (EE)</p></li>
+</ul>
+</section>
+</section>
+<section id="v20-08-0">
+<span id="id37"></span><h2>20.08.0 (2020-08-09)<a class="headerlink" href="#v20-08-0" title="Permalink to this headline"></a></h2>
+<p><strong>This release contains security fixes. We strongly recommend that all affected MARV installations be upgraded immediately and migration instructions be followed.</strong></p>
+<section id="id38">
+<h3>Added<a class="headerlink" href="#id38" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Automatically install custom python packages in site/code (CE)</p></li>
+<li><p>Bagmeta_table supports datasets with bags and non-bag files</p></li>
+<li><p>Support passing nodes to clone without wrapping with marv.select</p></li>
+<li><p>Make DAG nodes hashable to use them as dictionary keys and to create sets of them</p></li>
+<li><p>Support selecting multiple topics and message types by comma-separated selectors</p></li>
+<li><p>Add support for finding and reading rosbag2 datasets (CE)</p></li>
+<li><p>GNSS, fulltext and trajectory nodes also process rosbag2 datasets (CE)</p></li>
+</ul>
+</section>
+<section id="id39">
+<h3>Changed<a class="headerlink" href="#id39" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Improve formatting of null values in listing and table widget</p></li>
+<li><p>Use docker entry point from checkout without rebuilding image</p></li>
+<li><p>Support all json literals in config file s-expressions and relax whitespace handling</p></li>
+<li><p>Update all python dependencies</p></li>
+<li><p>Cleanup home directory cache in docker images (CE)</p></li>
+<li><p>Switch to Python 3.8 while keeping support for Python 3.7</p></li>
+<li><p>Create marv user upon startup with uid and gid of user starting it; remove the need to rebuild image to that end (CE)</p></li>
+</ul>
+</section>
+<section id="id40">
+<h3>Fixed<a class="headerlink" href="#id40" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Sort order of table columns containing links <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-08-0"><span class="std std-ref">20.08.0</span></a></p></li>
+<li><p>Execution of run-container from outside repository root</p></li>
+<li><p>Pushing of false values and values with ambiguous truth</p></li>
+<li><p>Running dependent nodes by marv run –force-dependent</p></li>
+<li><p>Adjusting marv run cache size via the –cachesize option</p></li>
+<li><p>Edge case where nodes would run out-of-sync and requesting messages were not available anymore</p></li>
+<li><p>Properly handle SIGINT and SIGTERM during marv run</p></li>
+</ul>
+</section>
+<section id="security">
+<h3>Security<a class="headerlink" href="#security" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Tighten file permissions for session key file, was readable for all users on host system <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-08-0"><span class="std std-ref">20.08.0</span></a></p></li>
+<li><p>Update Pillow for <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2020-10177">CVE-2020-10177</a>, <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2020-10379">CVE-2020-10379</a>, <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2020-10994">CVE-2020-10994</a>, <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2020-11538">CVE-2020-11538</a></p></li>
+</ul>
+</section>
+</section>
+<section id="v20-06-0">
+<span id="id41"></span><h2>20.06.0 (2020-06-29)<a class="headerlink" href="#v20-06-0" title="Permalink to this headline"></a></h2>
+<section id="id42">
+<h3>Added<a class="headerlink" href="#id42" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>System user for unauthenticated requests</p></li>
+<li><p>System groups for all unauthenticated users</p></li>
+<li><p>Granular access control for collections and datasets (EE)</p></li>
+<li><p>HTTP API to trigger scans and node runs (EE)</p></li>
+<li><p>Support split bags without prefix</p></li>
+<li><p>Dropdown container widget (EE)</p></li>
+<li><p>Database version checks on marv startup</p></li>
+</ul>
+</section>
+<section id="id43">
+<h3>Changed<a class="headerlink" href="#id43" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Streamline action verbs supported by access control profiles, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-06-0"><span class="std std-ref">20.06.0</span></a></p></li>
+<li><p>Collections are reflected in the database schemas, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-06-0"><span class="std std-ref">20.06.0</span></a></p></li>
+<li><p>Publish permissions on a granular per resource basis</p></li>
+<li><p>Improve test coverage of web APIs for site administration</p></li>
+<li><p>Improve testing fixtures and general test coverage</p></li>
+<li><p>Update mpld3 version (EE)</p></li>
+</ul>
+</section>
+<section id="id44">
+<h3>Fixed<a class="headerlink" href="#id44" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix embedding of custom.js and custom.css</p></li>
+<li><p>Handling of changed file mtimes in marv scan <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/77">#77</a></p></li>
+<li><p>Handle exceptions for cli commands with uninitialised site</p></li>
+<li><p>Styling for table action responses</p></li>
+<li><p>Download permissions for dataset files; erroneously no access was given (EE)</p></li>
+</ul>
+</section>
+</section>
+<section id="v20-04-0">
+<span id="id46"></span><h2>20.04.0 (2020-04-30)<a class="headerlink" href="#v20-04-0" title="Permalink to this headline"></a></h2>
+<p><strong>This release contains important security fixes. We strongly recommend that all affected MARV installations be upgraded immediately.</strong></p>
+<section id="id47">
+<h3>Security<a class="headerlink" href="#id47" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix directory traversal bug that allowed arbitrary filesystem reads when running without nginx. The faulty code got introduced with <a class="reference internal" href="#v19-09-0"><span class="std std-ref">19.09.0 (2019-09-09)</span></a>. Earlier versions and setups using nginx are not affected.</p></li>
+<li><p>Upgrade tortoise-orm for <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2020-11010">CVE-2020-11010</a></p></li>
+</ul>
+</section>
+<section id="id48">
+<h3>Added<a class="headerlink" href="#id48" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Support uninstall of python packages in single binary mode (EE)</p></li>
+<li><p>Support for leaves to upload datasets (EE)</p></li>
+<li><p>Add infrastructure to manage deprecations warnings</p></li>
+<li><p>Introduce marv_api package to bundle public API for node development</p></li>
+</ul>
+</section>
+<section id="id49">
+<h3>Changed<a class="headerlink" href="#id49" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Update python dependencies and tooling</p></li>
+<li><p>Update to most recent tortoise-orm, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-20-04-0"><span class="std std-ref">20.04.0</span></a></p></li>
+<li><p>Improved map layer controls</p></li>
+<li><p>Prepare for asynchronous node execution in multiple processes</p></li>
+<li><p>Simplify node testing by introducing a wrapper for run_nodes</p></li>
+<li><p>Start moving code from marv into newly introduced marv_api</p></li>
+<li><p>Use DAG based on pydantic models to represent node graph</p></li>
+<li><p>Change marv serve to bind per default only to localhost for development</p></li>
+<li><p>State clearly that gunicorn without nginx as reverse-proxy is only meant for development</p></li>
+</ul>
+</section>
+<section id="id50">
+<h3>Deprecated<a class="headerlink" href="#id50" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>In 20.07, marv.api_endpoint and marv.api_group will be removed, please let us know if you need these</p></li>
+<li><p>All marv.* controls are now available via marv_api and will be removed from old location in 20.07</p></li>
+</ul>
+</section>
+<section id="id51">
+<h3>Removed<a class="headerlink" href="#id51" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Unittest dependency of node testing base class</p></li>
+<li><p>Unused and long deprecated code</p></li>
+<li><p>Support for shortened setids on CLI</p></li>
+<li><p>Internally used marv.fork and marv.get_stream controls</p></li>
+</ul>
+</section>
+<section id="id52">
+<h3>Fixed<a class="headerlink" href="#id52" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix color conversion for bayer mask images</p></li>
+<li><p>Fix marv discard argument parsing</p></li>
+<li><p>Fix queries for outdated datasets</p></li>
+<li><p>Fix documentation for widget pre</p></li>
+<li><p>Fix pip dist-info discovery for packages contained in bundle (EE)</p></li>
+<li><p>Fix position of CLI config option in docs</p></li>
+<li><p>Fix time-wise sorting of messages from different bags</p></li>
+<li><p>Run ffmpeg in sanitized environment to prevent exec errors in single binary mode (EE)</p></li>
+<li><p>Load marv pip managed user site only when running from pyinstaller bundle (EE)</p></li>
+<li><p>Remove distutils trove classifiers that are not applicable anymore</p></li>
+<li><p>Warning when building documentation</p></li>
+<li><p>Do not reset map zoom on window resize <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/67">#67</a></p></li>
+<li><p>Properly shutdown node and driver generators upon driver restart</p></li>
+<li><p>Support passing parameters to marv serve in docker setup <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/74">#74</a></p></li>
+<li><p>Properly close stream file handles before cleaning up temporary directories <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/75">#75</a></p></li>
+</ul>
+</section>
+</section>
+<section id="v19-11-1">
+<span id="id56"></span><h2>19.11.1 (2019-12-13)<a class="headerlink" href="#v19-11-1" title="Permalink to this headline"></a></h2>
+<section id="id57">
+<h3>Fixed<a class="headerlink" href="#id57" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Let marv pip install understand what packages are contained within bundle (EE)</p></li>
+<li><p>Let marv python see marv pip installed packages (EE)</p></li>
+</ul>
+</section>
+</section>
+<section id="v19-11-0">
+<span id="id58"></span><h2>19.11.0 (2019-12-01)<a class="headerlink" href="#v19-11-0" title="Permalink to this headline"></a></h2>
+<section id="id59">
+<h3>Added<a class="headerlink" href="#id59" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Add query API</p></li>
+<li><p>Add single binary installation method (EE)</p></li>
+</ul>
+</section>
+<section id="id60">
+<h3>Changed<a class="headerlink" href="#id60" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Provide marv serve cli to replace gunicorn, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-19-11-0"><span class="std std-ref">19.11.0</span></a></p></li>
+<li><p>Speedup database queries</p></li>
+<li><p>Switch from sqlalchemy to tortoise-orm, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-19-11-0"><span class="std std-ref">19.11.0</span></a></p></li>
+<li><p>Remove need for four slashes for absolute database URI <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/68">#68</a></p></li>
+<li><p>Contribution guide to require contributions to documentation be licensed under CC-BY-4.0 instead of CC-BY-SA-4.0</p></li>
+<li><p>Upgrade python gnupg library and silence log message upon import</p></li>
+<li><p>Make opencv an optional dependency</p></li>
+</ul>
+</section>
+<section id="id61">
+<h3>Removed<a class="headerlink" href="#id61" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Remove unneeded dependencies</p></li>
+<li><p>Drop support for ancient rosbag formats</p></li>
+<li><p>Drop support to reference multiple datasets by common prefix</p></li>
+</ul>
+</section>
+<section id="id62">
+<h3>Fixed<a class="headerlink" href="#id62" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Support non-ascii characters in API filters <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/70">#70</a></p></li>
+<li><p>Use correct timestamp to playback messages from multiple bags <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/72">#72</a></p></li>
+<li><p>Explicitly set algorithm for json web tokens</p></li>
+</ul>
+</section>
+</section>
+<section id="v19-09-0">
+<span id="id66"></span><h2>19.09.0 (2019-09-09)<a class="headerlink" href="#v19-09-0" title="Permalink to this headline"></a></h2>
+<section id="id67">
+<h3>Added<a class="headerlink" href="#id67" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Add linter and editorconfig</p></li>
+<li><p>Add marv_ros Python package as new home of ROS specific code</p></li>
+<li><p>Ship versions of genmsg, genpy, and rosbag to make MARV independent of a ROS installation</p></li>
+<li><p>Add support for sensor_msgs/CompressedImage <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/60">#60</a></p></li>
+</ul>
+</section>
+<section id="id68">
+<h3>Changed<a class="headerlink" href="#id68" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Include default matplotlibrc in marv-robotics Python distribution</p></li>
+<li><p>Replace cv_bridge with pure python conversions</p></li>
+<li><p><strong>BREAKING</strong> Switch to Ubuntu Bionic base image without ROS but Python 3.7</p></li>
+<li><p><strong>BREAKING</strong> Require Python 3.7</p></li>
+<li><p>Migrate code to Python 3.7</p></li>
+<li><p>Cleanup code according to linter feedback</p></li>
+<li><p>Ignore internal tables of newer sqlite versions for dump and restore</p></li>
+<li><p>Update Python requirements to latest versions</p></li>
+<li><p>Clean older changelog entries and add links to issues and MRs</p></li>
+<li><p>Speed up rendering and sorting of tables with large number of rows</p></li>
+<li><p>Drop flask-sqlalchemy in favour of plain sqlalchemy</p></li>
+<li><p>Switch from flask to aiohttp powered by gunicorn <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-19-09-0"><span class="std std-ref">19.09.0</span></a></p></li>
+</ul>
+</section>
+<section id="id69">
+<h3>Removed<a class="headerlink" href="#id69" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Remove unneeded dependencies</p></li>
+</ul>
+</section>
+<section id="id70">
+<h3>Fixed<a class="headerlink" href="#id70" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix out of range video encoding bug by using newer ffmpeg version (3.4.6) in docker image <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/59">#59</a></p></li>
+<li><p>Correct handling of 16 bit single channel image types <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/29">#29</a></p></li>
+</ul>
+</section>
+<section id="id71">
+<h3>Security<a class="headerlink" href="#id71" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Rebuild images published on dockerhub for latest release and master branch by GitLab CI nightly if a newer base image is available</p></li>
+</ul>
+</section>
+</section>
+<section id="v19-07-0">
+<span id="id75"></span><h2>19.07.0 (2019-07-14)<a class="headerlink" href="#v19-07-0" title="Permalink to this headline"></a></h2>
+<section id="id76">
+<h3>Added<a class="headerlink" href="#id76" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Add marv show cli command to show basic information about datasets <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/62">#62</a></p></li>
+</ul>
+</section>
+<section id="id77">
+<h3>Fixed<a class="headerlink" href="#id77" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix pycapnp wrapper to handle nested lists</p></li>
+<li><p>Fix broken CE docker image builds <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/66">#66</a></p></li>
+<li><p>Fix pasting into multi-select input field <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/65">#65</a></p></li>
+<li><p>Automatically cleanup node output from unsuccessful previous runs <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/64">#64</a></p></li>
+<li><p>Let gnss node gracefully handle bags without valid messages <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/merge_requests/65">!65</a></p></li>
+<li><p>Fix loading of raster tiles during window resize <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/63">#63</a></p></li>
+</ul>
+</section>
+</section>
+<section id="v19-04-0">
+<span id="id84"></span><h2>19.04.0 (2019-04-30)<a class="headerlink" href="#v19-04-0" title="Permalink to this headline"></a></h2>
+<section id="id85">
+<h3>Added<a class="headerlink" href="#id85" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Contribution guide and workflow to accept contributions</p></li>
+<li><p>High-lighting of last visited dataset when returning from detail view to listing view</p></li>
+<li><p>Support display of dates and times in local time, server time, or UTC (EE)</p></li>
+<li><p>Option to filter on table columns (EE)</p></li>
+<li><p>Option to hide table columns (EE)</p></li>
+<li><p>Documentation for adding custom static frontend files</p></li>
+<li><p>Generation and validation of hashes for Python requirements</p></li>
+<li><p>Tests for CE merge requests as part of internal CI runs</p></li>
+<li><p>Filter types for float and int</p></li>
+</ul>
+</section>
+<section id="id86">
+<h3>Changed<a class="headerlink" href="#id86" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>End-to-end tests run reliably (EE)</p></li>
+<li><p>Move to GitLab to consolidate tooling <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/54">#54</a></p></li>
+<li><p>Remove quickstart instructions from README in favour of normal installation instructions</p></li>
+<li><p>Mount scanroot readonly in docker container</p></li>
+<li><p>Manage requirements files in central location for ease of use</p></li>
+<li><p>Derive MARV package inter-dependencies from requirements files</p></li>
+<li><p>Upgrade Python tooling to latest versions</p></li>
+<li><p>Upgrade Python dependencies to latest versions</p></li>
+<li><p>Reformat changelog</p></li>
+<li><p>Improve error message in ffmpeg node when conversion fails</p></li>
+</ul>
+</section>
+<section id="id87">
+<h3>Fixed<a class="headerlink" href="#id87" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Include requirements.in files in Python source distributions</p></li>
+<li><p>Set default unit of timedelta filters to seconds <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/58">#58</a></p></li>
+<li><p>Hitting enter key in subset filter now applies filters</p></li>
+<li><p>Fix initial zoom level for maps with empty geometries</p></li>
+<li><p>Fix support for GeoJSON points in trajectory widget <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/50">#50</a></p></li>
+<li><p>Let trajectory node produce correct GeoJSON for segments with only one coordinate</p></li>
+<li><p>Fix filtering of date fields with greater than or equals operation</p></li>
+<li><p>Only display successfully converted videos in video detail section</p></li>
+</ul>
+</section>
+<section id="id88">
+<h3>Security<a class="headerlink" href="#id88" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Upgrade pyyaml library for <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2017-18342">CVE-2017-18342</a></p></li>
+<li><p>Upgrade requests library for <a class="reference external" href="https://nvd.nist.gov/vuln/detail/CVE-2018-18074">CVE-2018-18074</a></p></li>
+</ul>
+</section>
+</section>
+<section id="v19-02-0">
+<span id="id92"></span><h2>19.02.0 (2019-02-09)<a class="headerlink" href="#v19-02-0" title="Permalink to this headline"></a></h2>
+<section id="id93">
+<h3>Changed<a class="headerlink" href="#id93" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Improve frontend render performance</p></li>
+<li><p>Improve testing and deployment infrastructure</p></li>
+<li><p>Prepare migration to GitLab</p></li>
+<li><p>Unify versioning of frontend and Python packages</p></li>
+<li><p>Dropped ipdb in favour of pdbpp, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-19-02-0"><span class="std std-ref">19.02.0</span></a></p></li>
+</ul>
+</section>
+<section id="id94">
+<h3>Fixed<a class="headerlink" href="#id94" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Support unicode characters in filenames and rosbag string messages <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/42">#42</a>, <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/45">#45</a></p></li>
+<li><p>Only call formatters for values other than None</p></li>
+<li><p>Add support for GeoJSON points to trajectory widget <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/50">#50</a></p></li>
+<li><p>Properly load and initialise custom widgets <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/47">#47</a></p></li>
+<li><p>Properly reset state of button to fetch file lists <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/41">#41</a></p></li>
+</ul>
+</section>
+</section>
+<section id="v18-07">
+<span id="id100"></span><h2>18.07 (2018-07-22)<a class="headerlink" href="#v18-07" title="Permalink to this headline"></a></h2>
+<section id="id101">
+<h3>Added<a class="headerlink" href="#id101" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Document pattern for reducing multiple streams</p></li>
+<li><p>Add cli command for database dump and restore</p></li>
+<li><p>Add controls to adjust point cloud playback speed</p></li>
+<li><p>Support querying for datasets with missing files</p></li>
+<li><p>Support link widgets with download attribute</p></li>
+</ul>
+</section>
+<section id="id102">
+<h3>Changed<a class="headerlink" href="#id102" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Update Python dependencies, most notably latest pycapnp</p></li>
+<li><p>Support streams of individual topics as optional inputs <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/25">#25</a>, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-18-07"><span class="std std-ref">18.07</span></a></p></li>
+</ul>
+</section>
+<section id="id103">
+<h3>Fixed<a class="headerlink" href="#id103" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Allow fulltext node to be used while directly subscribing to string topics</p></li>
+<li><p>Document the need for configured nodes to define a schema</p></li>
+<li><p>Document the need for setting stream headers</p></li>
+<li><p>Improve cli exception handling and error messages for certain edge cases</p></li>
+<li><p>Reset graphical tag filters on collection switch</p></li>
+<li><p>Fix utm conversion for gnss node <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/39">#39</a></p></li>
+<li><p>Properly set and reset outdated state of datasets</p></li>
+<li><p>Consistently set cache control header to disable caching of all content</p></li>
+</ul>
+</section>
+</section>
+<section id="v18-05-1">
+<span id="id106"></span><h2>18.05.1 (2018-05-11)<a class="headerlink" href="#v18-05-1" title="Permalink to this headline"></a></h2>
+<section id="id107">
+<h3>Fixed<a class="headerlink" href="#id107" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Correct coordinate transformations for cached trajectories</p></li>
+</ul>
+</section>
+</section>
+<section id="v18-05">
+<span id="id108"></span><h2>18.05 (2018-05-08)<a class="headerlink" href="#v18-05" title="Permalink to this headline"></a></h2>
+<section id="id109">
+<h3>Added<a class="headerlink" href="#id109" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Enable loading dataset node output in comparison views</p></li>
+<li><p>Support setting UID and GID for docker installation <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/34">#34</a></p></li>
+</ul>
+</section>
+<section id="id110">
+<h3>Changed<a class="headerlink" href="#id110" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Auto-initialise previously unintialised site upon start</p></li>
+<li><p>Set docker container timezone to host timezone</p></li>
+<li><p>Set default matplotlib backend to Agg, removing the need to set it manually</p></li>
+</ul>
+</section>
+<section id="id111">
+<h3>Fixed<a class="headerlink" href="#id111" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Better support for colour formats</p></li>
+<li><p>Add scanroot to documentation deploy example for NGINX</p></li>
+<li><p>Cleanup form submit handling <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/31">#31</a></p></li>
+<li><p>Fix native installation method for Community Edition <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/36">#36</a></p></li>
+<li><p>Fix loading of videos for Community Edition <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/35">#35</a></p></li>
+<li><p>Gracefully handle permission denied upon initialisation</p></li>
+</ul>
+</section>
+</section>
+<section id="v18-04">
+<span id="id116"></span><h2>18.04 (2018-04-30)<a class="headerlink" href="#v18-04" title="Permalink to this headline"></a></h2>
+<section id="id117">
+<h3>Added<a class="headerlink" href="#id117" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Add command-line group management to Community Edition</p></li>
+<li><p>Support configuration of access control lists</p></li>
+<li><p>Add docker setup with example site</p></li>
+</ul>
+</section>
+<section id="id118">
+<h3>Changed<a class="headerlink" href="#id118" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Speed-up streaming of videos and point clouds with NGINX reverse-proxy</p></li>
+<li><p>Improve point cloud player controls</p></li>
+<li><p>Improve trajectory player controls</p></li>
+<li><p>Make styling of widgets more consistent</p></li>
+<li><p>Switch from nosetest to pytest and cleanup requirements</p></li>
+<li><p>Drop Bootstrap v3 in favour of slim custom Bootstrap v4 derivate</p></li>
+<li><p>Merge and cleanup individual repositories</p></li>
+<li><p>Installation methods have significantly changed, <strong>reinstall is recommended:</strong> <a class="reference internal" href="migrate/index.html#migrate-18-04"><span class="std std-ref">18.04</span></a></p></li>
+</ul>
+</section>
+<section id="id119">
+<h3>Fixed<a class="headerlink" href="#id119" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix trajectory generation</p></li>
+<li><p>Fix erroneous self-referentiality of some capnp structs</p></li>
+<li><p>Fix color format for opencv bridge</p></li>
+</ul>
+</section>
+</section>
+<section id="v18-03">
+<span id="id120"></span><h2>18.03 (2018-03-10)<a class="headerlink" href="#v18-03" title="Permalink to this headline"></a></h2>
+<section id="id121">
+<h3>Added<a class="headerlink" href="#id121" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Add more flexible GeoJSON properties to map widget</p></li>
+<li><p>Make marker geometry configurable on map widget</p></li>
+<li><p>Draw markers using last known heading on map in absence of explicit rotation values</p></li>
+<li><p>Document creation of custom capnp types</p></li>
+<li><p>Ship capnp types for atomic values and timed values</p></li>
+<li><p>Add, list, and remove comments via command-line</p></li>
+</ul>
+</section>
+<section id="id122">
+<h3>Changed<a class="headerlink" href="#id122" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Changed GeoJSON property object needs rerender, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-18-03"><span class="std std-ref">18.03</span></a></p></li>
+</ul>
+</section>
+<section id="id123">
+<h3>Fixed<a class="headerlink" href="#id123" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Display correct tags when paging in listing</p></li>
+<li><p>Render GeoJSON lines with correct width in Firefox</p></li>
+<li><p>Fix command-line tagging <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/26">#26</a></p></li>
+<li><p>Gnss node handles absence of valid GPS messages <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/28">#28</a></p></li>
+<li><p>Add missing int and float formatters</p></li>
+<li><p>Validate names for newly added users and groups</p></li>
+<li><p>Document disabling of uwsgi buffering to enable downloads larger than 1GB <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/24">#24</a></p></li>
+<li><p>Fix tags displayed in listing table for any but the first page <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/27">#27</a></p></li>
+<li><p>Fix documentation in several places</p></li>
+</ul>
+</section>
+</section>
+<section id="v18-02">
+<span id="id128"></span><h2>18.02 (2018-02-05)<a class="headerlink" href="#v18-02" title="Permalink to this headline"></a></h2>
+<section id="id129">
+<h3>Added<a class="headerlink" href="#id129" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Support bag sets without timestamp in filenames <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/16">#16</a></p></li>
+<li><p>Support running selected nodes for all collections</p></li>
+<li><p>Support listing of and force running dependent nodes</p></li>
+<li><p>Support loading of custom.css and custom frontend files</p></li>
+</ul>
+</section>
+<section id="id130">
+<h3>Changed<a class="headerlink" href="#id130" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Preliminary support for topics with mixed message types <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/21">#21</a></p></li>
+<li><p>Speedup rendering in frontend</p></li>
+<li><p>Colorize point clouds</p></li>
+<li><p>Take message type definitions from bag files, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-18-02"><span class="std std-ref">18.02</span></a></p></li>
+</ul>
+</section>
+<section id="id131">
+<h3>Fixed<a class="headerlink" href="#id131" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Fix sexpr for getting node without dot qualifier</p></li>
+<li><p>Fix filtering for datetime fields</p></li>
+<li><p>Fix loading of cloned persistent nodes</p></li>
+<li><p>Handle empty bag files</p></li>
+<li><p>Log error messages instead of several exceptions</p></li>
+</ul>
+</section>
+</section>
+<section id="v17-11">
+<span id="id134"></span><h2>17.11 (2017-11-17)<a class="headerlink" href="#v17-11" title="Permalink to this headline"></a></h2>
+<section id="id135">
+<h3>Added<a class="headerlink" href="#id135" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Document MARV Robotics nodes</p></li>
+<li><p>Document configuration directives</p></li>
+<li><p>Document HTTP API</p></li>
+<li><p>Document migration from Community Edition 16.10</p></li>
+<li><p>Support import of datasets from Community Edition 16.10</p></li>
+<li><p>Co-release 17.11 Community and Enterprise Edition</p></li>
+</ul>
+</section>
+<section id="id136">
+<h3>Changed<a class="headerlink" href="#id136" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Improve s-expression functions for configuration file</p></li>
+<li><p>Switch to flat store, <strong>needs migration:</strong> <a class="reference internal" href="migrate/index.html#migrate-17-11"><span class="std std-ref">17.11</span></a></p></li>
+</ul>
+</section>
+</section>
+<section id="v17-08">
+<span id="id137"></span><h2>17.08 (2017-08-23)<a class="headerlink" href="#v17-08" title="Permalink to this headline"></a></h2>
+<section id="id138">
+<h3>Added<a class="headerlink" href="#id138" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Custom widget support</p></li>
+<li><p>OAuth support</p></li>
+<li><p>Improve documentation for scanners</p></li>
+<li><p>Improve documentation for frontend widgets</p></li>
+<li><p>Video widget improvements</p></li>
+<li><p>Support more image formats</p></li>
+<li><p>Support system-wide configuration</p></li>
+<li><p>Improve cli error handling and logging</p></li>
+</ul>
+</section>
+<section id="id139">
+<h3>Fixed<a class="headerlink" href="#id139" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Frontend bug and styling fixes</p></li>
+</ul>
+</section>
+</section>
+<section id="v17-06">
+<span id="id140"></span><h2>17.06 (2017-06-16)<a class="headerlink" href="#v17-06" title="Permalink to this headline"></a></h2>
+<section id="id141">
+<h3>Added<a class="headerlink" href="#id141" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Allow concurrent execution of multiple node run processes</p></li>
+<li><p>Admin panel for user and group management</p></li>
+</ul>
+</section>
+<section id="id142">
+<h3>Changed<a class="headerlink" href="#id142" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Make node syntax clearer to improve the node authoring experience</p></li>
+<li><p>Human readable pathnames in store</p></li>
+<li><p>Improve dataset query via command line</p></li>
+<li><p>Improve CLI logging</p></li>
+<li><p>Advanced access control</p></li>
+<li><p>Improve point cloud handling</p></li>
+</ul>
+</section>
+<section id="id143">
+<h3>Fixed<a class="headerlink" href="#id143" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Improve tag cloud styling with a responsive design</p></li>
+<li><p>Keep frontend state and scroll positions between page refreshes</p></li>
+<li><p>Speed up loading of large collections</p></li>
+<li><p>Render multi colored trajectories with markers correctly</p></li>
+</ul>
+</section>
+</section>
+<section id="v17-05">
+<span id="id144"></span><h2>17.05 (2017-05-05)<a class="headerlink" href="#v17-05" title="Permalink to this headline"></a></h2>
+<section id="id145">
+<h3>Added<a class="headerlink" href="#id145" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Implement generator based node concurrency</p></li>
+<li><p>Optionally spawn node instances per topic or message type</p></li>
+<li><p>Allow collections to define an arbitrary number of scanroots <a class="reference external" href="https://gitlab.com/ternaris/marv-robotics/issues/4">#4</a></p></li>
+<li><p>Improve performance with reduced JavaScript footprint</p></li>
+<li><p>Improve node runner and introduce basic query cli</p></li>
+<li><p>Add configurable compare view to display data of multiple datasets</p></li>
+<li><p>Add graphical live filters to listing page</p></li>
+<li><p>Make summary section of detail view customizable</p></li>
+<li><p>Display time added column</p></li>
+<li><p>Support most of rosbag play switches in marv ros play</p></li>
+</ul>
+</section>
+<section id="id146">
+<h3>Changed<a class="headerlink" href="#id146" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Store data in an efficient binary format</p></li>
+<li><p>Use schemas to enforce data integrity</p></li>
+<li><p>Manage multiple collections of different datasets</p></li>
+<li><p>Configure detail views in Python nodes</p></li>
+<li><p>Replace Python code in config file with simpler expressions</p></li>
+<li><p>Redesign map widget, support trajectory animations</p></li>
+<li><p>Stream huge datasets to point cloud widget</p></li>
+<li><p>Improve mass tagging performance</p></li>
+<li><p>Improve listing update performance</p></li>
+</ul>
+</section>
+</section>
+<section id="v16-10">
+<span id="id148"></span><h2>16.10 (2016-10-07)<a class="headerlink" href="#v16-10" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Initial release</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="migrate/index.html" class="btn btn-neutral float-left" title="Migration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="api/marv.html" class="btn btn-neutral float-right" title="marv" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright  Copyright 2016-2021  Ternaris.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

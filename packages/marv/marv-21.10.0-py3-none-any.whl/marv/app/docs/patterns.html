@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patterns and known issues &mdash; MARV Robotics 21.10.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_paramlinks.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon-32x32.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Debugging" href="debug.html" />
+    <link rel="prev" title="Contribution guide" href="CONTRIBUTING.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> MARV Robotics
+          </a>
+              <div class="version">
+                21.10
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/setup-basic-site.html">Tutorial: Setup basic site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/write-your-own.html">Tutorial: Write your own nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTING.html">Contribution guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Patterns and known issues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#optional-inputs">Optional inputs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reduce-separately">Reduce separately</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-header">Set header</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="debug.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scan.html">Scanner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodes.html">Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="httpapi.html">HTTP API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upload.html">Upload (EE)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deploy.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accesscontrol.html">Access Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance.html">Maintenance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migrate/index.html">Migration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGES.html">Changelog</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/marv.html">marv</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MARV Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Patterns and known issues</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/patterns.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="patterns-and-known-issues">
+<span id="patterns"></span><h1>Patterns and known issues<a class="headerlink" href="#patterns-and-known-issues" title="Permalink to this headline"></a></h1>
+<section id="optional-inputs">
+<span id="id1"></span><h2>Optional inputs<a class="headerlink" href="#optional-inputs" title="Permalink to this headline"></a></h2>
+<p>Starting with 18.07 inputs selecting individual topics are optional. Your node needs to be prepared that such a stream has no messages. The first <code class="docutils literal notranslate"><span class="pre">yield</span> <span class="pre">marv.pull()</span></code> will return <code class="docutils literal notranslate"><span class="pre">None</span></code>. The <code class="docutils literal notranslate"><span class="pre">msg_type</span></code> attribute for a known-to-be-empty stream is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nd">@marv</span><span class="o">.</span><span class="n">node</span><span class="p">()</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;stream&#39;</span><span class="p">,</span> <span class="n">marv</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span> <span class="s1">&#39;/optional/stream&#39;</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">mynode</span><span class="p">(</span><span class="n">stream</span><span class="p">):</span>
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">set_header</span><span class="p">()</span>
+    <span class="n">deserialize</span> <span class="o">=</span> <span class="n">make_deserialize</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">msg</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">rosmsg</span> <span class="o">=</span> <span class="n">deserialize</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">push</span><span class="p">({</span><span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="n">rosmsg</span><span class="o">.</span><span class="n">data</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="reduce-separately">
+<span id="id2"></span><h2>Reduce separately<a class="headerlink" href="#reduce-separately" title="Permalink to this headline"></a></h2>
+<p>Message are read from bag files ordered by timestamp. For every stream (topic) a limited amount of messages is kept in deques in memory. Nodes consuming only one stream are immediately served. Nodes consuming multiple streams might end up waiting for messages from a stream seeing no messages, while the deque of another stream it is subscribed to is already phasing out message the node has not pulled yet. If this happens you will see a message of the form:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">Error: raw_messages pulled bagmeta message 0 not being in memory anymore.</span>
+<span class="go">See https://ternaris.com/marv-robotics/docs/patterns.html#reduce-separately</span>
+</pre></div>
+</div>
+<p>Depending on your use case you might succeed in simply increasing the cache size:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">marv run --cachesize 5000 ...</span>
+</pre></div>
+</div>
+<p>However, typically it is a sign of a wrongly structured node graph.</p>
+<p><strong>BAD</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nd">@marv</span><span class="o">.</span><span class="n">node</span><span class="p">()</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;stream1&#39;</span><span class="p">,</span> <span class="n">marv</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span> <span class="s1">&#39;/low/frequency&#39;</span><span class="p">))</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;stream2&#39;</span><span class="p">,</span> <span class="n">marv</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span> <span class="s1">&#39;/high/frequency&#39;</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">mynode</span><span class="p">(</span><span class="n">stream1</span><span class="p">,</span> <span class="n">stream2</span><span class="p">):</span>
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">set_header</span><span class="p">()</span>
+
+    <span class="n">sum1</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">deserialize</span> <span class="o">=</span> <span class="n">make_deserialize</span><span class="p">(</span><span class="n">stream1</span><span class="p">)</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">stream1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">msg</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">rosmsg</span> <span class="o">=</span> <span class="n">deserialize</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">sum1</span> <span class="o">+=</span> <span class="n">rosmsg</span><span class="o">.</span><span class="n">data</span>
+
+    <span class="n">sum2</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">deserialize</span> <span class="o">=</span> <span class="n">make_deserialize</span><span class="p">(</span><span class="n">stream2</span><span class="p">)</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">stream2</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">msg</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">rosmsg</span> <span class="o">=</span> <span class="n">deserialize</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">sum2</span> <span class="o">+=</span> <span class="n">rosmsg</span><span class="o">.</span><span class="n">data</span>
+
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">push</span><span class="p">({</span><span class="s1">&#39;sums&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">sum1</span><span class="p">,</span> <span class="n">sum2</span><span class="p">]})</span>
+</pre></div>
+</div>
+<p><strong>GOOD</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nd">@marv</span><span class="o">.</span><span class="n">node</span><span class="p">()</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;stream1&#39;</span><span class="p">,</span> <span class="n">marv</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span> <span class="s1">&#39;/low/frequency&#39;</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">sum1</span><span class="p">(</span><span class="n">stream1</span><span class="p">):</span>
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">set_header</span><span class="p">()</span>
+
+    <span class="n">sum1</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">deserialize</span> <span class="o">=</span> <span class="n">make_deserialize</span><span class="p">(</span><span class="n">stream1</span><span class="p">)</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">stream1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">msg</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">rosmsg</span> <span class="o">=</span> <span class="n">deserialize</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">sum1</span> <span class="o">+=</span> <span class="n">rosmsg</span><span class="o">.</span><span class="n">data</span>
+
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">push</span><span class="p">({</span><span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="n">sum1</span><span class="p">})</span>
+
+<span class="nd">@marv</span><span class="o">.</span><span class="n">node</span><span class="p">()</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;stream2&#39;</span><span class="p">,</span> <span class="n">marv</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span> <span class="s1">&#39;/high/frequency&#39;</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">sum2</span><span class="p">(</span><span class="n">stream2</span><span class="p">):</span>
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">set_header</span><span class="p">()</span>
+
+    <span class="n">sum2</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">deserialize</span> <span class="o">=</span> <span class="n">make_deserialize</span><span class="p">(</span><span class="n">stream2</span><span class="p">)</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">stream2</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">msg</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">rosmsg</span> <span class="o">=</span> <span class="n">deserialize</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">sum2</span> <span class="o">+=</span> <span class="n">rosmsg</span><span class="o">.</span><span class="n">data</span>
+
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">push</span><span class="p">({</span><span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="n">sum2</span><span class="p">})</span>
+
+<span class="nd">@marv</span><span class="o">.</span><span class="n">node</span><span class="p">()</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;sum1&#39;</span><span class="p">,</span> <span class="n">sum1</span><span class="p">)</span>
+<span class="nd">@marv</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;sum2&#39;</span><span class="p">,</span> <span class="n">sum2</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">mynode</span><span class="p">(</span><span class="n">sum1</span><span class="p">,</span> <span class="n">sum2</span><span class="p">):</span>
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">set_header</span><span class="p">()</span>
+
+    <span class="n">sum1</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">sum1</span><span class="p">)</span>
+    <span class="n">sum2</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="n">sum2</span><span class="p">)</span>
+
+    <span class="k">yield</span> <span class="n">marv</span><span class="o">.</span><span class="n">push</span><span class="p">({</span><span class="s1">&#39;sums&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">sum1</span><span class="p">,</span> <span class="n">sum2</span><span class="p">]})</span>
+</pre></div>
+</div>
+<p>If this does not cover your use case and you expect MARV to behave differently, please check whether there is a fitting [issue](<a class="reference external" href="https://github.com/ternaris/marv-robotics/issues">https://github.com/ternaris/marv-robotics/issues</a>) already. If no such issue exist, please open a new one providing a [minimal working example](<a class="reference external" href="https://github.com/ternaris/marv-robotics#reporting-issues--minimal-working-example">https://github.com/ternaris/marv-robotics#reporting-issues–minimal-working-example</a>).</p>
+</section>
+<section id="set-header">
+<h2>Set header<a class="headerlink" href="#set-header" title="Permalink to this headline"></a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">yield</span> <span class="pre">marv.set_header(title='Title',</span> <span class="pre">...)</span></code> sets the header for a node’s output stream. The header is available on the handle supplied to a node that requested the stream as input. Before setting a header a node can perform so far undocumented actions. Afterwards it can only pull and push messages. As long as a node did not set a header or started pushing messages, its downstream nodes cannot be instantiated. Therefore, it is good practice to <code class="docutils literal notranslate"><span class="pre">yield</span> <span class="pre">marv.set_header()</span></code> before starting to pull messages, independent of whether you want to set header fields.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="CONTRIBUTING.html" class="btn btn-neutral float-left" title="Contribution guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="debug.html" class="btn btn-neutral float-right" title="Debugging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright  Copyright 2016-2021  Ternaris.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
