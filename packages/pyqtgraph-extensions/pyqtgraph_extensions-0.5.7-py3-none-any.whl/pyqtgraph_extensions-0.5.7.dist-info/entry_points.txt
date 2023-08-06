@@ -1,0 +1,3 @@
+[pyinstaller40]
+hook-dirs=pyqtgraph_extensions:get_pyinstaller_hook_dirs
+
