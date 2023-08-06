@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+imapidle.py
+pymap-copy.py
+setup.py
+utils.py
+pymap_copy.egg-info/PKG-INFO
+pymap_copy.egg-info/SOURCES.txt
+pymap_copy.egg-info/dependency_links.txt
+pymap_copy.egg-info/requires.txt
+pymap_copy.egg-info/top_level.txt
