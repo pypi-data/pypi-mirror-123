@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: know
+Version: 0.0.2
+Summary: Funnel live streams of data into storage and other processes
+Home-page: https://github.com/otosense/know
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # know
+        Funnel live streams of data into storage and other processes
+        
+        
+        To install:	```pip install know```
+        
+Platform: any
+Description-Content-Type: text/markdown
