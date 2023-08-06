@@ -1,0 +1,15 @@
+svmon_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svmon_client/chain_TERENA_SSL_CA_3.pem,sha256=vSbxY_NFmpgjF9G8-6lP5kJaPCDAqpo4h5T9oJY43mw,3707
+svmon_client/config.json,sha256=rVqzhQNoV-VQuUHV55Ta4aYfvBI5KHJuhWDhmdvE4bk,110
+svmon_client/json_operations.py,sha256=3ToG2XYaKzVCm6QOBCO_rhFHWBkOk_a1hlEBoiJUrB0,831
+svmon_client/operating_system_parser.py,sha256=2kAiUqCsd7D9EGjWQzQiy_vUuw-k4tISRTLcjCJe0mk,2986
+svmon_client/remoteConfig.py,sha256=DDLD9KrxOq47KBH8rlcHBDrnKJkhuih_3SNmRcrdgPI,3879
+svmon_client/report.py,sha256=2TIJ2O0p8cpUN29a9ZyS4azVmnOioZwe32aNFgIDBeA,18488
+svmon_client/services.py,sha256=oZKBs_qJjvgFIWKgVeVU2h98wq_L3QKS0DXLoB-PCeM,8827
+svmon_client/token.json,sha256=bNt0f7CXRj2g57yEfC3arJxlXrp3c96d0ZHRgM_09p0,384
+svmon_client-2.3.2.data/scripts/svmon,sha256=K3CoYScRIMDPQR1JW1HQMIKLUukvNfVvfGBIW5e1MJo,7290
+svmon_client-2.3.2.dist-info/LICENSE,sha256=jBBqIkvvpe7AVBZCJ-qBwemqd3QFBUUSDObE7P48GhA,1094
+svmon_client-2.3.2.dist-info/METADATA,sha256=Gg-x0GoeerZ63I6eRfKl7JhbPYhdOOCKeU8mAGPeBeQ,1856
+svmon_client-2.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+svmon_client-2.3.2.dist-info/top_level.txt,sha256=g3EiTeNOa2aq_X-NzFgqxjN8H2dfWs7EcnO_5A6aNVI,13
+svmon_client-2.3.2.dist-info/RECORD,,
