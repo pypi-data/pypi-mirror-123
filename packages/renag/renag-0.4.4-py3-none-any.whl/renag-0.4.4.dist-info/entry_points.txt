@@ -1,0 +1,3 @@
+[console_scripts]
+renag=renag.__main__:main
+

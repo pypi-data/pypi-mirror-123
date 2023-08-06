@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: renag
+Version: 0.4.4
+Summary: A Regex based linter tool that works for any language and works exclusively with custom linting rules.
+Author: Ryan
+Author-email: ryanpeach@icloud.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.17,<4.0.0)
+Requires-Dist: pyparsing (>=2.4.7,<3.0.0)
