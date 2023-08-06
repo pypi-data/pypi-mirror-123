@@ -1,0 +1,14 @@
+jaxex/__init__.py,sha256=-N4jQ1L6aBVHmMxAy75aRTRgPB-FZNvwjKS5BN5rD4k,121
+jaxex/config.py,sha256=SSxylSinXF3ZHJJUBSPl8V7silCMmGhPOqTufGiXIpg,2475
+jaxex/experiment.py,sha256=eFDoHAc5Ji7gUQq_9uQGaklm1ltkt-1CsaKySn793H8,2721
+jaxex/jax_wrapper.py,sha256=DeXF5XnTlhGv7McbR1r9sdU8oIzp2HorTTZcQgiaZEw,3189
+jaxex/model.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+jaxex/registry.py,sha256=Pqy3Ugof6VqXE97PfsMzC2nX0D0_vk7M-aHBos01Ko0,334
+jaxex/settings.py,sha256=6uepOUThoaNsriuidc6MZkvs26ySusb-RgdrHfyv-Uw,1131
+jaxex/tensor_net_experiment.py,sha256=4CXslvD4LUCjF-uZR9adShGhAk42-9P6nQBtHfu3VYk,2879
+jaxex/torch_wrapper.py,sha256=oV3qa_nHSyCH0azYI9N4OVyQrBz6Td8bvezuv6UFDiQ,1837
+jaxex/visualizations.py,sha256=Hm2WVqx0fKD78eqO_D_9j_xuvL6jV-L2WiZclnzI7sQ,618
+jaxex-0.0.2.dist-info/LICENSE,sha256=3vsPvnMTrW-RuK2wp7o4XmhFJFHZkqMU34LLOC2IRfs,1069
+jaxex-0.0.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+jaxex-0.0.2.dist-info/METADATA,sha256=NYF23Do6y3ISKy46FP4v8EvoteSmuvc4zyxXfVOPTBY,911
+jaxex-0.0.2.dist-info/RECORD,,
