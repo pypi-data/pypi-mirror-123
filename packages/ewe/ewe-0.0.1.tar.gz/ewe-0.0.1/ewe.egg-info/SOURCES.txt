@@ -1,0 +1,8 @@
+README.md
+setup.py
+ewe/__init__.py
+ewe/__main__.py
+ewe.egg-info/PKG-INFO
+ewe.egg-info/SOURCES.txt
+ewe.egg-info/dependency_links.txt
+ewe.egg-info/top_level.txt
