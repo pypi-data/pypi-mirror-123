@@ -1,0 +1,14 @@
+tree_aid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_aid/placettes.py,sha256=TYxtpqYrOsjCK7-knc92_ukIKIo16ZLvrf-HMafBFMw,4915
+tree_aid/placettes_utils.py,sha256=rNfRj0aHEy7q4H8Uhx7AeLxFrySbHhbuhsEIuZdwZWQ,1417
+tree_aid/data/.DS_Store,sha256=Ud6EgJaRuR9D0ryyvrVu44xPwp7hcMlk8ex1qIWyp-I,10244
+tree_aid/data/wd_means.csv,sha256=BwKErZojmWcPvDz2tEfPc_RLXCTBgZ4sRX8DAiS-qxA,299740
+tree_aid/data/E/E.bil,sha256=wwlHTiWU8oFtlKMXe_8q_6ZCnksXIPO3q8ghpJw5Hu0,124416000
+tree_aid/data/E/E.bil.aux.xml,sha256=7SSoaaZE6iKZE26EWJPlL97Tc0mHZk215zKNKgQXC6w,127
+tree_aid/data/E/E.hdr,sha256=eH9u1W4cbCQ3kKVtrWUmAqJMGI5Oz6VtZ_dTStSC3V4,332
+tree_aid/data/E/E.prj,sha256=HeQR3N7tzjIZJCMG_Cm_odf6CIg-T_Z3m695jsUNFlc,257
+tree_aid-0.0.1.dist-info/LICENSE,sha256=AMnLd72ReQ4_YvxswaK1l3JY2PiYx9RP4FonwqmrGQs,1073
+tree_aid-0.0.1.dist-info/METADATA,sha256=964NrY0OyWEsf5oTwLqm-n75Ozzf06e2OugNVPfB-ks,1995
+tree_aid-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tree_aid-0.0.1.dist-info/top_level.txt,sha256=ainczlCenGkeH8Dx_f8kcRpFQUh2REzMuHngXELilLQ,9
+tree_aid-0.0.1.dist-info/RECORD,,
