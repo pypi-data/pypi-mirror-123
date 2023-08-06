@@ -1,0 +1,4 @@
+pybase64<5,>=1.2.0
+requests<3,>=2.25
+pyparsing<3,>=2.4
+jsons<3,>=1.5.1
