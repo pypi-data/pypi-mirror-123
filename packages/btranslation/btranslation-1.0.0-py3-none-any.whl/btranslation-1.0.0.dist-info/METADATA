@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: btranslation
+Version: 1.0.0
+Summary: Back Translator using Google translation API
+Home-page: UNKNOWN
+Author: Sumit Mishra
+Author-email: <sumit.mishra0432@gmail.com>
+License: MIT
+Keywords: python,NLP,back transaltion,text augmentation,google translation API
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: googletrans
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+Back translation is the process of translating the text into a target language and then retranslating it into its source language. For example, translating the content from English to Swedish and retranslating it to English. In this process, the text retranslated to its source language from a target language might be a little different but conveys the same meaning or sentiment. In the context of NLP, it's a very useful technique for text augmentation when the text data is not enough and we need more data to train a good model. If the sentence is not the same after the back translation then we'll keep the sentence. This technique is also known as Reverse Translation.
+
+
