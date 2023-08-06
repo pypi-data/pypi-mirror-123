@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: civilianM
+Version: 2.5.97
+Summary: Common functions,More will be added in the future,Look forward to your use
+Home-page: UNKNOWN
+Author: AC97
+Author-email: ehcemc@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: BeautifulSoup4
+Requires: requests
+Requires: lxml
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#civilianM Package
+Welcome to use civilianM package!
+There're have lots of common functions.
+
+
