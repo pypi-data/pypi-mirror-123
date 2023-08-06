@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+SoccerPreddy/__init__.py
+SoccerPreddy.egg-info/PKG-INFO
+SoccerPreddy.egg-info/SOURCES.txt
+SoccerPreddy.egg-info/dependency_links.txt
+SoccerPreddy.egg-info/requires.txt
+SoccerPreddy.egg-info/top_level.txt

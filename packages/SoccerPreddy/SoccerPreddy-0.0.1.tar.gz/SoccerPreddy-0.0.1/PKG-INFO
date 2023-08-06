@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: SoccerPreddy
+Version: 0.0.1
+Summary: A python package for soccer prediction
+Home-page: https://github.com/Taiwo2020/SoccerPred
+Author: Taiwo Gabriel
+Author-email: omomuletaiwo@gmail.com
+License: MIT
+Description: This python package performs detailed data analysis, feature extraction, and prediction for soccer matches.
+        
+        CHANGE LOG
+        ===========================
+        
+        0.0.1 (13/10/2021)
+        -----------------------------------
+        -First Release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: Microsoft :: Windows 
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3

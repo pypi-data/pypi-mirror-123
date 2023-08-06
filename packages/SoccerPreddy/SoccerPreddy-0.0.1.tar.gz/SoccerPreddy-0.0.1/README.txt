@@ -1,0 +1,1 @@
+This python package performs detailed data analysis, feature extraction, and prediction for soccer matches.
