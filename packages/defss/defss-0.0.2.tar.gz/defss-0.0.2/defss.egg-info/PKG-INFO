@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: defss
+Version: 0.0.2
+Summary: defs needed for IgBot
+Home-page: UNKNOWN
+Author: Oliver Gorgiev
+Author-email: ogorgiev1@gmail.com
+License: MIT
+Keywords: def
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+THIS LIBRARY IS FOR SHORT ACCESS AND FOR MAKING SCRIPTS QUICKER!!
+
+Change log 
+=======================
+
+0.0.2 (10.18.2021)
+-----------------------
+-Newest Release
+
