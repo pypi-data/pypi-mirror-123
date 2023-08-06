@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cfof/__init__.py
+src/cfof/cfof.py
+src/cfof/fast_cfof.py
+src/cfof.egg-info/PKG-INFO
+src/cfof.egg-info/SOURCES.txt
+src/cfof.egg-info/dependency_links.txt
+src/cfof.egg-info/requires.txt
+src/cfof.egg-info/top_level.txt
