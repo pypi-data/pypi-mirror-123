@@ -1,0 +1,12 @@
+README.md
+setup.py
+oddsapi/__init__.py
+oddsapi/_types.py
+oddsapi/aio.py
+oddsapi/client.py
+oddsapi/exceptions.py
+oddsapi.egg-info/PKG-INFO
+oddsapi.egg-info/SOURCES.txt
+oddsapi.egg-info/dependency_links.txt
+oddsapi.egg-info/requires.txt
+oddsapi.egg-info/top_level.txt
