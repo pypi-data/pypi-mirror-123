@@ -1,0 +1,13 @@
+data_from_files/__init__.py,sha256=RY2ymFbellHwI0dbxkJu_harqkJO3M6wge3_rLcP0w0,423
+data_from_files/constants.py,sha256=b9gdORuuoAVlCOXRrvckytVxeKzdMMS6GX8uGYv6CCs,573
+data_from_files/datatypes.py,sha256=npX2pNv762shhgD2Us8QGm1QTX4Ewja527tK2LBqD_w,561
+data_from_files/fixtures.py,sha256=6doKh-lnWLc70eaSCSmUaeZ2bNsAb0vazR8kRnTdYfg,1054
+data_from_files/hooks.py,sha256=xRSp2BB9Rn7N-fO5d0Bdn7kift6rVT3lzbO_sHsFnS8,908
+data_from_files/loader.py,sha256=GtqPRvN-g56uY3NJduN9t0EKXkZQEjFncMg9NoUNx0k,3493
+data_from_files/modinfo.py,sha256=prH2lKqzBHVhDHPZ5GmdG3VAb8I3mH62O52t6xXOoNQ,2424
+pytest_data_from_files-0.2.0.dist-info/LICENSE.MIT,sha256=HsnSFX0jPfTSot2RbmVmuyDZM_JzK__ySof9JWsVZ2A,1069
+pytest_data_from_files-0.2.0.dist-info/METADATA,sha256=cJLxX8NG2J4o67hskqYSsvKj3u-w27r-M5iu00yMfP4,4334
+pytest_data_from_files-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pytest_data_from_files-0.2.0.dist-info/entry_points.txt,sha256=_pw0EC4DKpv6O675EHkhU7uymbZg1L-tOdO8TN_r50s,46
+pytest_data_from_files-0.2.0.dist-info/top_level.txt,sha256=PKIXJuLdkeVUGeCsTlazyUch21azKute_cMkMNvlUDM,16
+pytest_data_from_files-0.2.0.dist-info/RECORD,,
