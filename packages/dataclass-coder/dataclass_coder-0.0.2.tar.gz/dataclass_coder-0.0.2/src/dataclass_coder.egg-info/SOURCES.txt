@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dataclass_coder/__init__.py
+src/dataclass_coder/coder.py
+src/dataclass_coder.egg-info/PKG-INFO
+src/dataclass_coder.egg-info/SOURCES.txt
+src/dataclass_coder.egg-info/dependency_links.txt
+src/dataclass_coder.egg-info/top_level.txt
