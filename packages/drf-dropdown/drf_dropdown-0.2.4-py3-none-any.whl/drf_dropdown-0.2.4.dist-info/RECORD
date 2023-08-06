@@ -1,0 +1,13 @@
+dropdown/__init__.py,sha256=9wnkQUZoWSNdHH5ONAXNrVTD2v6606n0KjDH_f9hFH4,152
+dropdown/apps.py,sha256=Gap6QbWtYmAM6ac3cyWOMFPv3bsNyMo6SNximfilQVM,91
+dropdown/functions.py,sha256=8sjlQ4N3Mo_CEkXpwrVqsYdDm6sheatHbhaPIDRtIYE,564
+dropdown/getter.py,sha256=j5291EA8de9kVIF25M8Y-vdZGFYxvVf_aFlPIK34hRw,2090
+dropdown/helpers.py,sha256=_KcWOf0aPlwHOyyXZTs5DRZUbohYrPLoD0GB9kDXtNs,2319
+dropdown/registry.py,sha256=v2BSfDhuJRqJaQu-sRrBNplBaKHzwwJ5-dqcnp9qTxI,1294
+dropdown/serializers.py,sha256=h8wsDje1hsRu_1jkLTWpCn1uKQoJNDXMpPAGPcBfVjY,1419
+dropdown/types.py,sha256=2uGjKmnWxlIH12-oXGzTvsmHyTiq0FF2d-eD0BYPJcg,289
+dropdown/views.py,sha256=t-TtxON6_EmAXoEVGf4KysHV8fxWUcqakcKfcPrOZZ0,518
+drf_dropdown-0.2.4.dist-info/LICENSE,sha256=LMUeGx0mKMdpXmr7vz7L8vYNcd4G_PHGJiJAJjC8GUw,1075
+drf_dropdown-0.2.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+drf_dropdown-0.2.4.dist-info/METADATA,sha256=rev0lImsLMusLNC68KEHKgdmr0nQuXScdjRX1xq9Fuk,1878
+drf_dropdown-0.2.4.dist-info/RECORD,,
