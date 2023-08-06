@@ -1,0 +1,11 @@
+PyYAML
+connexion
+connexion[swagger-ui]
+escapism
+jinja2
+jsonpath-rw
+jupyterhub
+openshift
+pydantic
+requests
+tornado
