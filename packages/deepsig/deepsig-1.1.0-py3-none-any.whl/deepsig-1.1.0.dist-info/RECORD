@@ -1,0 +1,16 @@
+deepsig/__init__.py,sha256=mByXvoF5wgGBovmv3xly6rJSCU9dzeH1kReGiaL3rd8,309
+deepsig/aso.py,sha256=6n5Whk9mZm4JbHPbRqCoM9kDxBjBEYl47PwMai6b76M,14216
+deepsig/bootstrap.py,sha256=FKMIyb_g3ZuL9D5N228n3SQG_-V1-j_H6YTXch6eYTE,1777
+deepsig/conversion.py,sha256=2japL4-tNJWX1KZTgdp4nNLwbZd4nL7d7F3ycbSKpJw,5816
+deepsig/correction.py,sha256=87tCRrymy_En-SjH41KsOWFsHvFKpmFJV-WMK2s9vR4,2448
+deepsig/permutation.py,sha256=zQnLWjDIFwut76TR191SAGhuoE0RCTzjW0i8DuOciUo,1847
+deepsig/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepsig/tests/test_aso.py,sha256=eimEy26UthPOomACpNmlhqnYA-0g6dBssVYZMYw7lNI,12363
+deepsig/tests/test_bootstrap_permutation.py,sha256=QCWDTWhVDTMui3QXTADdyxPQgGCm7zen51dnfaFgWUA,2805
+deepsig/tests/test_conversion.py,sha256=Ezdzvcaaz1TwosuexY1M-qSiU2NfTBmWCmqHV32cEV0,7987
+deepsig/tests/test_correction.py,sha256=iIH0dO3sBeHGltvOh7J3QS6u6ytS5Qe6lFroVdXCv0Y,1732
+deepsig-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+deepsig-1.1.0.dist-info/METADATA,sha256=1pncIG2sUCLv9-VzdNtIld2G-kAYiFVlk44pfRU353E,25802
+deepsig-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+deepsig-1.1.0.dist-info/top_level.txt,sha256=Tsn1BJQfbOKIIQ3r3-pP9GTRowGJ9cFQQye9yIOhKLE,8
+deepsig-1.1.0.dist-info/RECORD,,
