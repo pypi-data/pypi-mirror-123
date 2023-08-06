@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dockerblade
+Version: 0.5.7
+Summary: UNKNOWN
+Home-page: https://github.com/ChrisTimperley/dockerblade
+Author: Christopher Timperley
+Author-email: christimperley@googlemail.com
+License: UNKNOWN
+Keywords: docker,python,files,shell,wrapper
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: attrs (>=19.2.0)
+Requires-Dist: docker (~=4.1)
+Requires-Dist: loguru (>=0.4)
+Requires-Dist: psutil (~=5.7)
+Requires-Dist: mslex (==0.3)
+Provides-Extra: build_sphinx
+Requires-Dist: sphinx (~=2.4.4) ; extra == 'build_sphinx'
+Requires-Dist: sphinx-autodoc-typehints (~=1.10.3) ; extra == 'build_sphinx'
+Provides-Extra: test
+Requires-Dist: pytest (~=5.2.1) ; extra == 'test'
+
+UNKNOWN
+
