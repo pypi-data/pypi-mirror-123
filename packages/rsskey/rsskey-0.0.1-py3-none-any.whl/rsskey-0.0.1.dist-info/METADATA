@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rsskey
+Version: 0.0.1
+Summary: RSS feed mirror on Misskey
+Keywords: rss,misskey
+Author-email: Nguyễn Gia Phong <mcsinyx@disroot.org>
+Maintainer-email: Nguyễn Gia Phong <mcsinyx@disroot.org>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: feedparser
+Requires-Dist: httpx
+Requires-Dist: loca
+Requires-Dist: markdownify
+Requires-Dist: python-dateutil
+Requires-Dist: trio
+Project-URL: project, https://sr.ht/~cnx/rsskey
+
+# rsskey
+
+RSS feed mirror on Misskey
+
