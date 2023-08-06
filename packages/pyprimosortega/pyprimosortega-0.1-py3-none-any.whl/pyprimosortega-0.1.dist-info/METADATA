@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyprimosortega
+Version: 0.1
+Summary: A tool to get prime numbers between 1 and a positive variable
+Home-page: UNKNOWN
+Author: David Ortega
+Author-email: davidortegavanbeers@gmail.com
+License: GNU GPLv3
+Keywords: pyprimosortega matemathical primenumbers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Programa para generar una lista con los numeros primos que existen entre el 1 y otro ingresado por el usuario mediante teclado/nLicense :: OSI Approved :: GNU General Public License v3 (GPLv3)/n
+
+
