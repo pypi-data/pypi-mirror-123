@@ -1,0 +1,13 @@
+bento2seldon/__init__.py,sha256=vWtxTfuMOlj2rBQMp4ZBfrrTPN_dhPFo473uYKokXSU,766
+bento2seldon/adapter.py,sha256=nhak24v38toALX-jQrhBBtwAqlEmNLL9NrnF_a3KpT8,525
+bento2seldon/bento.py,sha256=q-kF2bDRIb1eVJ7DxkwjyQyuneqi44OLDkFoRw03VqI,17909
+bento2seldon/cache.py,sha256=rAfSXXfR4Wbendc72WDmKDlXJAsn9QkoxeggObRBdOY,7153
+bento2seldon/logging.py,sha256=Wo87Dj3LlX2-GO3Wvdn8Tob3oVMbZplSi0n7gew6_Wg,994
+bento2seldon/model.py,sha256=YUIxAxDyA-IOtOVsXGHR_IXkF0C617JTWFrURc5nbh0,178
+bento2seldon/monitoring.py,sha256=_Ak7IFOXqAzV4HmpUhW2dm4euXZ3DTiBCUSll4Qyx_Q,2836
+bento2seldon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bento2seldon/seldon.py,sha256=y0LPp6cG3HYGPeR04hE-TIvSm1MOTDo-itH-9LBZCbY,1738
+bento2seldon-0.3.3.dist-info/LICENSE,sha256=fhufE7rBwaxu6xlDHbwhwun06zJX50ZlGJewzPSEelY,11103
+bento2seldon-0.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bento2seldon-0.3.3.dist-info/METADATA,sha256=VIYIbwiJN2WLXeSMmaOwUaN9o9RcsW32BFp242vknvc,7936
+bento2seldon-0.3.3.dist-info/RECORD,,
