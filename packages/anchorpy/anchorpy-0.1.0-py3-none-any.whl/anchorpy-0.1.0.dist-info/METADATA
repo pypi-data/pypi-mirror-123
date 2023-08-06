@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: anchorpy
+Version: 0.1.0
+Summary: 
+Author: kevinheavey
+Author-email: kevinheavey123@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: apischema (>=0.15.6,<0.16.0)
+Requires-Dist: borsh-construct-tmp (>=0.1.0,<0.2.0)
+Requires-Dist: construct-typing (>=0.5.1,<0.6.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: solana (>=0.16.0,<0.17.0)
+Requires-Dist: sumtypes (>=0.1a5,<0.2)
