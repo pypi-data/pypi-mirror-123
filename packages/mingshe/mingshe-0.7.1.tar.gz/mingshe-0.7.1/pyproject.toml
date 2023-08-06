@@ -1,0 +1,36 @@
+[project]
+classifiers = [ "Programming Language :: Python :: 3",]
+dependencies = []
+description = "A better Python superset language."
+dynamic = [ "classifiers",]
+name = "mingshe"
+readme = "README.md"
+requires-python = ">=3.9"
+version = "0.7.1"
+[[project.authors]]
+name = "abersheeran"
+email = "me@abersheeran.com"
+
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = [ "pdm-pep517",]
+
+[project.license]
+text = "Apache-2.0"
+
+[project.urls]
+homepage = "https://github.com/abersheeran/mingshe"
+repository = "https://github.com/abersheeran/mingshe"
+
+[project.scripts]
+mingshe = "mingshe.commands:main"
+
+[project.optional-dependencies]
+
+[tool.pdm]
+includes = [ "mingshe", "aaa_mingshe.pth",]
+
+[tool.pdm.dev-dependencies]
+dev = [ "flake8",]
+doc = [ "mkdocs[i18n]~=1.2", "mkdocs-material~=7.2", "mkdocs-static-i18n~=0.19",]
+test = [ "pytest~=6.2",]
