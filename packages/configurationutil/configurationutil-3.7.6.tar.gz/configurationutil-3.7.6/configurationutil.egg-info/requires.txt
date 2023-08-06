@@ -1,0 +1,14 @@
+future>=0.16.0
+appdirs>=1.4.0
+jsonschema==2.5.1
+fdutil>=1.16.0
+logging-helper>=1.9.0
+classutils>=1.18.1
+PyYaml>=5.3
+uiutil>=1.38.0
+
+[test]
+uiutil>=1.36.4
+
+[ui]
+uiutil>=1.36.4
