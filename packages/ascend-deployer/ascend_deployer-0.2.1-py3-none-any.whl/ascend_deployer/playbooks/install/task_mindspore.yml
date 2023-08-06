@@ -1,0 +1,39 @@
+- name: install mindspore_ascend for 910
+  shell: python3 -m pip install mindspore_ascend --no-index --find-links {{ resources_dir }}/pylibs {{ pip_install_option }}
+  environment:
+    PATH: "{{ local_path }}/{{ python_version }}/bin:{{ ansible_env.PATH }}"
+    LD_LIBRARY_PATH: "{{ local_path }}/{{ python_version }}/lib:{{ local_path }}/gcc7.3.0/lib64:{{ local_path }}/gcc8.4.0/lib64"
+  register: mindspore_910_result
+  when:
+    - ansible_local.npu_info.scene == "train"
+    - "'CentOS_7.6' in os_and_arch or 'Ubuntu_18.04' in os_and_arch or 'EulerOS_2.8' in os_and_arch or 'OpenEuler_20.03' in os_and_arch or 'Kylin_V10Tercel' in os_and_arch"
+
+- name: install mindspore_ascend for 310
+  shell: python3 -m pip install mindspore_ascend --no-index --find-links {{ resources_dir }}/pylibs {{ pip_install_option }}
+  environment:
+    PATH: "{{ local_path }}/{{ python_version }}/bin:{{ ansible_env.PATH }}"
+    LD_LIBRARY_PATH: "{{ local_path }}/{{ python_version }}/lib:{{ local_path }}/gcc7.3.0/lib64:{{ local_path }}/gcc8.4.0/lib64"
+  register: mindspore_310_result
+  when:
+    - ansible_local.npu_info.scene == "infer"
+    - "'CentOS_7.6' in os_and_arch or 'Ubuntu_18.04' in os_and_arch or 'EulerOS_2.8' in os_and_arch"
+
+- name: install mindspore_cpu
+  shell: python3 -m pip install mindspore --no-index --find-links {{ resources_dir }}/pylibs {{ pip_install_option }}
+  environment:
+    PATH: "{{ local_path }}/{{ python_version }}/bin:{{ ansible_env.PATH }}"
+    LD_LIBRARY_PATH: "{{ local_path }}/{{ python_version }}/lib:{{ local_path }}/gcc7.3.0/lib64"
+  register: mindspore_cpu_result
+  when:
+    - ansible_local.npu_info.scene != "train"
+    - ansible_local.npu_info.scene != "infer"
+    - "'Ubuntu_18.04' in os_and_arch"
+
+- name: message
+  debug:
+    msg:
+      - "not support os: {{ os_and_arch }} in scene: {{ ansible_local.npu_info.scene }}, mindspore install skipped"
+  when:
+    - mindspore_910_result.skipped is true
+    - mindspore_310_result.skipped is true
+    - mindspore_cpu_result.skipped is true
