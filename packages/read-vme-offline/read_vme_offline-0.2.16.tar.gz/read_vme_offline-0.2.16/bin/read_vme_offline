@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+from fire import Fire
+#try:
+import read_vme_offline
+#================= I NEED TO IMPORT LIKE THIS!===
+#from read_vme_offline import unit1
+#print("load asc")
+from read_vme_offline import asc2df
+#print("asc_loaded")
+from read_vme_offline import df2spe
+from read_vme_offline import simple_read
+from read_vme_offline import rserver
+#print("asc_loaded")
+#except:
+#    print("!... module "+"read_vme_offline"," not visible to me.")
+#    print("!...                         Try to install it with:  pip3 install -e . ")
+
+
+#print("version")
+import read_vme_offline.version as version
+from read_vme_offline import version
+from read_vme_offline.version import __version__
+# print("D... my ver file is at  ",version.__file__)
+if version.__file__.find("read_vme_offline")<0:
+    print("!... version of myself not found")
+    quit()
+#print("version")
+
+
+def launch(MODE="help",p=1):
+    if MODE=="help":print("h... available modes: help ...")
+    print("D... MODE=",MODE," param=",p)
+    if MODE=="    ":print("ok")
+    if MODE=="    ":print("ok")
+    return p
+
+def test_launch():
+    assert launch('A',p=1)==1
+
+if __name__=="__main__":
+    #print("D... read_vme_offline script; version:",__version__)
+    #Fire( launch )
+    # read_vme_offline.simple_read.main1()
+    Fire({
+#        "a2df":   read_vme_offline.asc2df.convert,
+#          "df2s":   read_vme_offline.df2spe.convert,
+          "cut":   read_vme_offline.simple_read.eva_cut_time,
+          "coin":   read_vme_offline.simple_read.coincidences,
+          "fast":   read_vme_offline.simple_read.fastread,
+          "rserver":read_vme_offline.rserver.main
+#          "df2":read_vme_offline.df2spe.convert,
+    })
