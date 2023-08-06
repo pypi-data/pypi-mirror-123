@@ -1,0 +1,16 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/generated_program.py,sha256=wOVBBpSjAR4j3vDh3SYT8jHpRK_Q562iYUOLHOBNqvQ,484
+pyautoeasy/__init__.py,sha256=h9q3FaMpFEJ_dg4IY1jwJuYOkZFwIe_rT3k_X9EefO8,82
+pyautoeasy/__main__.py,sha256=GnP-Ko8hgvcyy-zKbFQAkjFLuozI-dDxka6F0POt-yQ,37
+pyautoeasy/cli.py,sha256=2RADychIJoTrTMfpq9-VMHKf4_c7T8D6MDCZZrMhgSU,1371
+pyautoeasy/locate_points.py,sha256=nOqGMj27x8akb26wNBCaG-FtBOxLJyiCTFQkb1x8nRk,4529
+pyautoeasy/sample.py,sha256=bZYzb9vCM6yu9qxENAaWtR8MCKuureQsDCXdHGJd2no,502
+pyautoeasy/screen_point.py,sha256=hykF6t4sPnm1ZZjacXpDnyk3HejnjzNxKp1DIHmUabM,2784
+pyautoeasy/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyautoeasy/examples/generated_program.py,sha256=wOVBBpSjAR4j3vDh3SYT8jHpRK_Q562iYUOLHOBNqvQ,484
+pyautoeasy-0.0.5.dist-info/LICENSE,sha256=dVIUoFwLByCRoYnuEV3n5W30EIa4ofZtmD-ZW77oZxQ,1068
+pyautoeasy-0.0.5.dist-info/METADATA,sha256=NQD-U1cq2Lzu2CvTPes1Qp8OU0fz2upfhHG7WhPrBik,4809
+pyautoeasy-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyautoeasy-0.0.5.dist-info/entry_points.txt,sha256=YGgshKKHmPNC10HpIbLZEf3Nc7CVUM5-r3HK5JGVDus,52
+pyautoeasy-0.0.5.dist-info/top_level.txt,sha256=Y3WG2olXcfFOvF1tyYLqDrwutnZJloqqM2VjvLTr2As,20
+pyautoeasy-0.0.5.dist-info/RECORD,,
