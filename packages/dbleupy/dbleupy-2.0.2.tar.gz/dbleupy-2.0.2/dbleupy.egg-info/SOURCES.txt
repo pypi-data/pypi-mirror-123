@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+dbleupy/__init__.py
+dbleupy.egg-info/PKG-INFO
+dbleupy.egg-info/SOURCES.txt
+dbleupy.egg-info/dependency_links.txt
+dbleupy.egg-info/top_level.txt
