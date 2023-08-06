@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-server-auth
+Version: 11.0.20211016.0
+Summary: Meta package for oca-server-auth Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-auth-brute-force
+Requires-Dist: odoo11-addon-auth-dynamic-groups
+Requires-Dist: odoo11-addon-auth-from-http-remote-user
+Requires-Dist: odoo11-addon-auth-from-http-remote-user-role
+Requires-Dist: odoo11-addon-auth-keycloak
+Requires-Dist: odoo11-addon-auth-ldaps
+Requires-Dist: odoo11-addon-auth-oauth-multi-token
+Requires-Dist: odoo11-addon-auth-saml
+Requires-Dist: odoo11-addon-auth-saml-create-user
+Requires-Dist: odoo11-addon-auth-saml-groups
+Requires-Dist: odoo11-addon-auth-session-timeout
+Requires-Dist: odoo11-addon-auth-signup-verify-email
+Requires-Dist: odoo11-addon-auth-totp
+Requires-Dist: odoo11-addon-auth-totp-password-security
+Requires-Dist: odoo11-addon-auth-u2f
+Requires-Dist: odoo11-addon-auth-user-case-insensitive
+Requires-Dist: odoo11-addon-keychain
+Requires-Dist: odoo11-addon-password-security
+Requires-Dist: odoo11-addon-users-ldap-mail
+
+UNKNOWN
+
