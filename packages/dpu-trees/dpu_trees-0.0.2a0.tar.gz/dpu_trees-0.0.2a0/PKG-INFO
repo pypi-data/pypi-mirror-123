@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dpu_trees
+Version: 0.0.2a0
+Summary: a package for tree algorithms on DPU
+Home-page: https://github.com/SylvanBrocard/dpu_trees
+Author: Sylvan Brocard
+Author-email: sylvan.brocard@gmail.com
+License: MIT
+Download-URL: https://github.com/SylvanBrocard/dpu_trees/archive/refs/tags/v0.0.2-alpha.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
