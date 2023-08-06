@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rock_avatars/__init__.py
+rock_avatars/data.py
+rock_avatars/version.py
+rock_avatars.egg-info/PKG-INFO
+rock_avatars.egg-info/SOURCES.txt
+rock_avatars.egg-info/dependency_links.txt
+rock_avatars.egg-info/requires.txt
+rock_avatars.egg-info/top_level.txt
