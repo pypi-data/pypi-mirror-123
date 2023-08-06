@@ -1,0 +1,10 @@
+ez_settings/__init__.py,sha256=A3KtBq4AT_NoMRuq61yob3FqZTO4L_jxSj6iisJCrAQ,150
+ez_settings/ez_settings_base.py,sha256=rtqDD1dR_4weiROQuxHSs3IqABmSzyA-q59SSmIlTRs,5433
+ez_settings/ez_settings_py2.py,sha256=Z8IFKfSMF3msiWnQ5gIqB5QrSaHcQZVbuD92j0f_Y48,260
+ez_settings/ez_settings_py3.py,sha256=heKwRrPprDjoaOwjrRMS95SXHxTXlOqN1e5U1orGaWI,236
+ez_settings/singleton.py,sha256=d5M-H37o2cqgSBDg-RulXS3pvbVZ4I8SPIAXHPXWAog,238
+ez_settings-1.2.0.dist-info/LICENSE,sha256=debGGEMENQ-SCLkR_W4LVXsFv1j2VurBkhRi4i8-rug,1050
+ez_settings-1.2.0.dist-info/METADATA,sha256=kmVvz6yX3bUrOXnue4sgxWk7obhjBT4oA_LsWTcI9FY,6452
+ez_settings-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ez_settings-1.2.0.dist-info/top_level.txt,sha256=8vGLBZau8xFGJlv-dwVoOTTi5uZg_njtf9MvuuixzkA,12
+ez_settings-1.2.0.dist-info/RECORD,,
