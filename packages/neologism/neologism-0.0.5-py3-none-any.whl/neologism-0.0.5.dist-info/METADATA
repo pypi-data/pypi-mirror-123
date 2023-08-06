@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: neologism
+Version: 0.0.5
+Summary: Dynamically modifiable context-free grammar written in python
+Home-page: https://github.com/alltilla/neologism
+Author: Attila Szakacs
+Author-email: szakacs.attila96@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/alltilla/neologism/issues
+Project-URL: Documentation, https://neologism.readthedocs.io/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx
+
+TODO
+
+
