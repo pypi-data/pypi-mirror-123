@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+shafdelify/__init__.py
+shafdelify/shafdelify.py
+shafdelify.egg-info/PKG-INFO
+shafdelify.egg-info/SOURCES.txt
+shafdelify.egg-info/dependency_links.txt
+shafdelify.egg-info/top_level.txt
