@@ -1,0 +1,8 @@
+README.md
+setup.py
+instatool/__init__.py
+instatool.egg-info/PKG-INFO
+instatool.egg-info/SOURCES.txt
+instatool.egg-info/dependency_links.txt
+instatool.egg-info/requires.txt
+instatool.egg-info/top_level.txt
