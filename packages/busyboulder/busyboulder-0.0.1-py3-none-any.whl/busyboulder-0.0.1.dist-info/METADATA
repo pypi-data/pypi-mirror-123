@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: busyboulder
+Version: 0.0.1
+Summary: Command line utility for checking how busy climbing gyms are.
+Home-page: https://github.com/chillel/busyboulder
+Author: 'Hillel Baderman'
+Author-email: badermanh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: importlib-resources
+
+UNKNOWN
+
