@@ -1,0 +1,12 @@
+pyapi_framework-0.0.1.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyapi_framework-0.0.1.data/data/README.md,sha256=WA4zbIGZc2MVAfcXP4aB0zFqOHUvl1tnbmn0g8v64ts,510
+pyapi_framework-0.0.1.data/data/VERSION,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+pyapi_framework-0.0.1.data/data/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=SizqQ-44FriCbC3PCGnuV5hiLOSJU0UNeBokfyjG9tM,160
+src/routes.py,sha256=_Qp7v-F-aOe3ujbX2V5gXKY-gVg3PV44G6LZ593-x38,1518
+src/service_handler.py,sha256=aBfL9jiTLVuxm8LZsKzceuV0MwC_GDcmzXXYuVb-u60,1730
+pyapi_framework-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyapi_framework-0.0.1.dist-info/METADATA,sha256=ceSsjPvnmPpq6g8RVrp7ll0XFYVXjxfWPWHbTS1Uhi0,824
+pyapi_framework-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyapi_framework-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+pyapi_framework-0.0.1.dist-info/RECORD,,
