@@ -1,0 +1,2 @@
+from bicode import *
+start()
