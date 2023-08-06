@@ -1,0 +1,12 @@
+pytest_psqlgraph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_psqlgraph/helpers.py,sha256=Rh2sbjSMjrAUa5Wvv1UjpNdTvhyd_BAJEsDEwwvtc1M,6250
+pytest_psqlgraph/models.py,sha256=y2WyP7PsD49kH_28UrqLXvxsn0-XPDpC4r5Akmfn59o,3371
+pytest_psqlgraph/plugin.py,sha256=DaLMMsxskvXWufsrDnS6XTtN7iTWIXf0Gq7Ita5NwcU,5748
+pytest_psqlgraph/typings.py,sha256=91MIfpZ9IuEb0fqpaf2MN27oRzhX0U9ZWjEJ8wJqh2I,333
+pytest_psqlgraph-0.2.0rc1.dist-info/LICENSE,sha256=gZMud_70zsMG2lTK99TSId_Q9vttohTHEuNsuVrEeQY,10108
+pytest_psqlgraph-0.2.0rc1.dist-info/METADATA,sha256=lpnzYIb9QBcHjtnsDDbexGT6EU90dACzNtdNG4iCPkQ,4103
+pytest_psqlgraph-0.2.0rc1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytest_psqlgraph-0.2.0rc1.dist-info/entry_points.txt,sha256=tbGpDNUywryacvKuVm4O-2q9dQh9OV1FzBew8kVoHGA,48
+pytest_psqlgraph-0.2.0rc1.dist-info/top_level.txt,sha256=_-WDqtDxzQJBSx50U7ea2FeUp9H81d3we_w-_LyMSnU,17
+pytest_psqlgraph-0.2.0rc1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pytest_psqlgraph-0.2.0rc1.dist-info/RECORD,,
