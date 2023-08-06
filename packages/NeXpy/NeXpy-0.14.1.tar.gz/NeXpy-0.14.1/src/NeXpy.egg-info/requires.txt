@@ -1,0 +1,17 @@
+nexusformat>=0.7.0
+numpy
+scipy
+h5py
+qtpy
+ipykernel>=6.2.0
+qtconsole
+ipython
+matplotlib
+lmfit>=1.0.2
+pylatexenc
+ansi2html
+pillow
+versioneer
+
+[spec]
+spec2nexus>=2017.901.4
