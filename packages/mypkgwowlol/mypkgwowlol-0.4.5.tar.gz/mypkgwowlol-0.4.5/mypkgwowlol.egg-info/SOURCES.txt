@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+mypkgwowlol/__init__.py
+mypkgwowlol.egg-info/PKG-INFO
+mypkgwowlol.egg-info/SOURCES.txt
+mypkgwowlol.egg-info/dependency_links.txt
+mypkgwowlol.egg-info/requires.txt
+mypkgwowlol.egg-info/top_level.txt
+mypkgwowlol/mod1/__init__.py
+mypkgwowlol/mod1/module1.py
+mypkgwowlol/mod2/__init__.py
+mypkgwowlol/mod2/module2.py
