@@ -1,0 +1,15 @@
+oscrypto~=1.2.1
+setuptools~=57.4.0
+asyncio~=3.4.3
+cryptography~=3.4.8
+typing~=3.7.4.3
+loguru~=0.5.3
+betterproto~=1.2.5
+httpx~=0.18.2
+nest_asyncio~=1.4.3
+
+[example]
+appdirs
+
+[listen]
+http-ece
