@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: zabbix-enums
+Version: 0.0.8
+Summary: An Enum collection for Zabbix API scripting
+Home-page: https://github.com/szuro/zabbix-enums
+Author: Robert Szulist
+Author-email: r.szulist@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/szuro/zabbix-enums/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zabbix-enums
+
+Zabbix enumerations for API scripting.
+
+
+This package aims to provide enumerations for Zabbix object parameters.
+So instead of using bare numbers and constantly browsing the docs, you can just use a nice enum.
+
+Take the following code as an example:
+
+```python
+from zabbix_enums.z54 import TriggerState
+from pyzabbix import ZabbixAPI
+
+zapi = ZabbixAPI('http://localhost')
+zapi.login('Admin', 'zabbix')
+
+# this
+unknown_triggers = zapi.trigger.get(filter={'state': 1})
+# becomes this
+unknown_triggers = zapi.trigger.get(filter={'state': TriggerState.UNKNOWN})
+
+```
+
+# Limitations
+Please bare in mind that not all enumerations are present at this time.
+
+
