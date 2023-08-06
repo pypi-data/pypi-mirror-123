@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-maintenance
+Version: 11.0.20211016.0
+Summary: Meta package for oca-maintenance Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-base-maintenance
+Requires-Dist: odoo11-addon-base-maintenance-config
+Requires-Dist: odoo11-addon-base-maintenance-group
+Requires-Dist: odoo11-addon-maintenance-equipment-contract
+Requires-Dist: odoo11-addon-maintenance-equipment-hierarchy
+Requires-Dist: odoo11-addon-maintenance-equipment-scrap
+Requires-Dist: odoo11-addon-maintenance-equipment-sequence
+Requires-Dist: odoo11-addon-maintenance-equipment-status
+Requires-Dist: odoo11-addon-maintenance-equipment-tags
+Requires-Dist: odoo11-addon-maintenance-plan
+Requires-Dist: odoo11-addon-maintenance-plan-activity
+Requires-Dist: odoo11-addon-maintenance-remote
+Requires-Dist: odoo11-addon-maintenance-request-sequence
+Requires-Dist: odoo11-addon-maintenance-request-stage-transition
+Requires-Dist: odoo11-addon-maintenance-team-hierarchy
+
+UNKNOWN
+
