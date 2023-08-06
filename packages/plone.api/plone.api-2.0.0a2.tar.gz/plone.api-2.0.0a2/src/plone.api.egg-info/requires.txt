@@ -1,0 +1,17 @@
+Products.statusmessages
+decorator
+plone.app.uuid
+plone.app.linkintegrity
+plone.uuid
+setuptools
+zope.globalrequest
+
+[test]
+Products.CMFPlone
+manuel
+plone.app.dexterity
+plone.app.intid
+plone.app.testing
+plone.indexer
+plone.registry
+z3c.relationfield
