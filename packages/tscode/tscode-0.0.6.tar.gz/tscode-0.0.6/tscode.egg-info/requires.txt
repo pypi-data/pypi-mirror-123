@@ -1,0 +1,11 @@
+numpy
+scipy
+cclib
+periodictable
+matplotlib
+networkx
+rmsd
+ase
+sella
+sklearn
+numba
