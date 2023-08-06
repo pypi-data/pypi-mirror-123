@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Xnode2vec/XNode2Vec.py
+Xnode2vec/__init__.py
+Xnode2vec.egg-info/PKG-INFO
+Xnode2vec.egg-info/SOURCES.txt
+Xnode2vec.egg-info/dependency_links.txt
+Xnode2vec.egg-info/requires.txt
+Xnode2vec.egg-info/top_level.txt
