@@ -1,0 +1,11 @@
+pyCIAP/ciap_mdt.py,sha256=bRREDrRht5xgpSW-lTBu9jEmqTlT66Muf8iR0rxJJnc,3085
+pyCIAP/dsur.py,sha256=LDvw4RIiirYxkULh686_WEZT6dc7EqdC0kJFlw4Zu7o,2666
+pyCIAP/dsur_cy.cp39-win_amd64.pyd,sha256=17x7mIIG-GPGhB6BxYpm1kqHyk6BFsAYH2uLdpzCwnI,161792
+pyCIAP/__init__.py,sha256=kgQujCfmzPJBHNB1jkR0bmksJnDETHGpKnNuiNOcPoY,1583
+pyCIAP-0.0.2.dist-info/DELVEWHEEL,sha256=OsBpPqFW_BA_69emBEnZC2U3gWtnhn30Pvv3GhFA_ak,8
+pyCIAP-0.0.2.dist-info/METADATA,sha256=uOgnzmJN4sy1W5MhiDnQzxRIE1GeumrRrLSii8gvp90,2371
+pyCIAP-0.0.2.dist-info/RECORD,,
+pyCIAP-0.0.2.dist-info/top_level.txt,sha256=fFVEajkS0OYq0zw6022kxyk6F3CK7Ptq0gtzvfIuzig,7
+pyCIAP-0.0.2.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+pyCIAP.libs/.load-order-pyCIAP-0.0.2,sha256=wy-BqAd9rm5_gtQrsXWxdm3TyuLUPdh3D29l4NtpzCo,14
+pyCIAP.libs/msvcp140.dll,sha256=2GrBWBI6JFuSdZLIDMAg_qKcjErdwURGbEYloAypx3o,565640
