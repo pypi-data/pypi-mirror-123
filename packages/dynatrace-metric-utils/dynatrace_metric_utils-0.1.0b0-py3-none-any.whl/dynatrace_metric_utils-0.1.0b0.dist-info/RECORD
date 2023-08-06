@@ -1,0 +1,15 @@
+dynatrace/metric/utils/__init__.py,sha256=7mpJPwl16e1fSkKylZmcUMAwQszjMIcH3KTI8Kavewg,1068
+dynatrace/metric/utils/_dynatrace_metadata_enricher.py,sha256=rQvTj5jA1Qfo-lA_Ti1W5E1S38GwHHV-o201iWykVSY,3286
+dynatrace/metric/utils/_metric.py,sha256=tfiBCUNEnC-wB2RXoVOXP8DjU19pRVwDywi9-oiqOt0,2474
+dynatrace/metric/utils/_metric_values.py,sha256=7wUHDRUbForImicu9OBhtfKLXKrNRB0NW0aF6gpQwjU,3239
+dynatrace/metric/utils/_normalize.py,sha256=Gko8y3Gy8NAwWoxAdCTUZmYoblSJGlbo7OCtZZuJ1rM,6072
+dynatrace/metric/utils/dynatrace_metrics_api_constants.py,sha256=iwYTTMwVzpjKOrjYgOyc9hXNtp6ReK955wqAwtPfhn0,948
+dynatrace/metric/utils/dynatrace_metrics_factory.py,sha256=O61gFf0v2omm0a7eKbp506sbep0XYCpacqgoXNh2oPE,7968
+dynatrace/metric/utils/dynatrace_metrics_serializer.py,sha256=6XeUR3zwHt--oFRXFsFiYWeky4Xcg_6O-ofs429ZUHY,5926
+dynatrace/metric/utils/metric_error.py,sha256=_tWfSki6c8uh-uqhwRyECo6rQ6t9LfYs11BcFOb5WpY,628
+dynatrace_metric_utils-0.1.0b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dynatrace_metric_utils-0.1.0b0.dist-info/METADATA,sha256=NUHdxwc3yCWDClZDWzqS2nAFdbvQyIfw6PufKZLj2fg,6551
+dynatrace_metric_utils-0.1.0b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dynatrace_metric_utils-0.1.0b0.dist-info/entry_points.txt,sha256=Cjf_QCNgFumx9bJrzFtDmivctWQW_kd2oBnuqsWDdcM,87
+dynatrace_metric_utils-0.1.0b0.dist-info/top_level.txt,sha256=uP7LCY6wi6upc_ziVV2uJ6QMh_reDN4lCDyQSREXI_w,10
+dynatrace_metric_utils-0.1.0b0.dist-info/RECORD,,
