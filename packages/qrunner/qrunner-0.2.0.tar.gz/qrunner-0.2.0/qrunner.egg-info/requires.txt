@@ -1,0 +1,8 @@
+tidevice
+facebook-wda
+uiautomator2
+selenium
+pytest
+pytest-html
+pytest-rerunfailures
+allure-pytest
