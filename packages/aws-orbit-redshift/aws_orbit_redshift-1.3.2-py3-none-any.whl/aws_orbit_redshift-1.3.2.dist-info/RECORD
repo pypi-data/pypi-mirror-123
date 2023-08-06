@@ -1,0 +1,8 @@
+redshift/__init__.py,sha256=AZfo7p462yIrJ1m6H647T-2RDKYzxdSJ9-MjQ7BDKbA,3368
+redshift/orbit_redshift_stack.py,sha256=KC2UJmoBLKlijqWA1NIjitLH4MmGMj-X9wsl9fQ6Y8Q,11647
+redshift/lambda_sources/redshift_db_creator/redshift_functions.py,sha256=-IRmgGg9y6SixyQ0nT-wpVjp1QPWeR2l7lcjpUuq-k0,3244
+aws_orbit_redshift-1.3.2.dist-info/METADATA,sha256=wesU3lzkVnuLNt94Ma_SiIw9l6IvuL1VDOCotMm49ek,891
+aws_orbit_redshift-1.3.2.dist-info/VERSION,sha256=MxWJcqU4d7Qhz-JZi42TyrFpljpJZLRe6InoU0mXkBg,6
+aws_orbit_redshift-1.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_orbit_redshift-1.3.2.dist-info/top_level.txt,sha256=Wxg0yeXO3gehrsGQlkc2Hj3IjTq9BTElisZsnZ46wGY,9
+aws_orbit_redshift-1.3.2.dist-info/RECORD,,
