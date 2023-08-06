@@ -1,0 +1,7 @@
+README.md
+fs.py
+setup.py
+fs_map.egg-info/PKG-INFO
+fs_map.egg-info/SOURCES.txt
+fs_map.egg-info/dependency_links.txt
+fs_map.egg-info/top_level.txt
