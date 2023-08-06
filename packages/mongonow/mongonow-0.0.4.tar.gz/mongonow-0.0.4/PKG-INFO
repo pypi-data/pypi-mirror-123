@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mongonow
+Version: 0.0.4
+Summary: MongoNow is the equivalent of sqlite for MongoDB. It's a local in-memory mongo-like database.
+Home-page: https://github.com/AlexandreMahdhaoui/MongoNow
+Author: Alexandre Mahdhaoui
+Author-email: alexandre.mahdhaoui@gmail.com
+License: MIT
+Download-URL: https://github.com/AlexandreMahdhaoui/MongoNow.git
+Keywords: mongodb,nosql
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Did you ever wonder if there was a quick way to get a dummy MongoDB instance up and running?
+
+With MongoNow, your problem has finally found a solution: 
+``pip install mongonow``
+#### Done! Your Mongo-like database is ready in less than 10 seconds.
+
+
+
