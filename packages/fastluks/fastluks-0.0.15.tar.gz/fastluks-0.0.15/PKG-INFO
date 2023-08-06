@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fastluks
+Version: 0.0.15
+Summary: Storage encryption through LUKS
+Home-page: https://github.com/dacolombo/fast-luks-py
+Author: Daniele Colombo
+Author-email: daniele.colombo39@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dacolombo/fast-luks-py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fastluks
+Python scripts for storage encryption through LUKS. Converted into python from the bash scripts of [fast-luks](https://github.com/Laniakea-elixir-it/fast-luks)
+
+For this package to work properly, both the installation and usage procedure must be run as superuser.
+
+## Installation
+To install this package in a python virtual environment, create and activate the venv, then install the package with pip:
+```bash
+python3 -m virtualenv venv
+. venv/bin/activate
+pip install fastluks
+```
+
+## Usage
+To run the main script (which performs encryption and volume setup) with the default parameters, import the package and call the main_script function inside of a python session in the venv:
+```python
+import fastluks
+fastluks.main_script()
+```
+
