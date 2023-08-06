@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+prototxt_parser/__init__.py
+prototxt_parser/prototxt.py
+prototxt_parser/prototxt_parser_main.py
+prototxt_parser.egg-info/PKG-INFO
+prototxt_parser.egg-info/SOURCES.txt
+prototxt_parser.egg-info/dependency_links.txt
+prototxt_parser.egg-info/requires.txt
+prototxt_parser.egg-info/top_level.txt
