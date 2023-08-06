@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-oca-custom
+Version: 12.0.20211016.0
+Summary: Meta package for oca-oca-custom Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-oca-custom
+Requires-Dist: odoo12-addon-oca-event-badge
+Requires-Dist: odoo12-addon-oca-psc-team
+Requires-Dist: odoo12-addon-project-members
+Requires-Dist: odoo12-addon-website-oca-integrator
+Requires-Dist: odoo12-addon-website-oca-psc-team
+
+UNKNOWN
+
