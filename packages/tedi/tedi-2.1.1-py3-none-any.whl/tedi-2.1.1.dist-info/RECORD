@@ -1,0 +1,13 @@
+tedi/__init__.py,sha256=G0wr8_9CucrZ6LCDHYfKsIYfM3JpL4QZDQoID1LdxLE,279
+tedi/evidence.py,sha256=w5MosTYVFofvlgSKYDP3xvRutb-l-zPukcxk-fzjqmA,18214
+tedi/kernels.py,sha256=GKD1KJuQNDUAbatHce2kvKu1HbwJJXesVW08hjP4v3o,16073
+tedi/lib.py,sha256=a6RB7JSL_I1sYotiBJa0h9CKRs6Z7sg3h6OdULBXXzc,2994
+tedi/means.py,sha256=nf3T6jFNk_7LphbCM2V8zraR73F9OLc_uBmUx38ImOg,6787
+tedi/process.py,sha256=mYPP6ixVwaEETqXuv33te5wRVnCI68ule87VzpcBF5Q,21273
+tedi/time.py,sha256=09n0zPAMQtuhGm0i3SUQiujvbXyv7F9zvkizN6n9MQA,10044
+tedi/utils.py,sha256=x4SE9uzBq9OMSBrAwR4GWhhP7u8TScFCP8tD8UYhyLY,6471
+tedi-2.1.1.dist-info/LICENSE,sha256=PXxebWV5qhkJE2EFZIxR4M-1atHi-aJEgQ4JGDX7PFY,1070
+tedi-2.1.1.dist-info/METADATA,sha256=Nq6cGcdPlg8m_W3gSA93zgeh7b-MY08e9hLuhjZDJsg,337
+tedi-2.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tedi-2.1.1.dist-info/top_level.txt,sha256=7UH0zv_k5w_LV1oVVdvod4iQoR9L6IY4SDZ4g0FuRGU,5
+tedi-2.1.1.dist-info/RECORD,,

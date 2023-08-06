@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tedi
+Version: 2.1.1
+Summary: A python library for Gaussian or Student-t processes regression
+Home-page: https://github.com/jdavidrcamacho/tedi
+Author: João Camacho
+Author-email: joao.camacho@astro.up.pt
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: emcee
+
+UNKNOWN
+
+
