@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: fragmentation-nx
+Version: 0.1.1
+Summary: Graph-theoretic fragment generation
+Home-page: UNKNOWN
+Author: Harry Zhang
+Author-email: zhanghar@iu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+
+# Fragmentation-nx
+
+[![PyPI version](https://img.shields.io/pypi/v/fragmentation-nx.svg)](https://pypi.org/project/fragmentation-nx)
+[![DOI:10.1021/acs.jctc.8b00186](https://zenodo.org/badge/DOI/10.1021/acs.jctc.8b00186.svg)](https://doi.org/10.1021/acs.jctc.8b00186)
+
+Graph-theoretic fragment generation with weight calculation, given a set of nodes. This is a Python library based on [NetworkX](https://networkx.github.io), providing ease of graph editing. A few high-level APIs are exported for C++ through Cython.
+
+
+### Install as a Python library
+
+```Bash
+pip install fragmentation-nx
+```
+
+Check out example usage in the [example-py](example-py) directory.
+
+
+### Integrate into a C++ project
+
+0. Have an accessible Python runtime.
+1. Include `nxx.cpp` and `nxx.h` files in your project. ([Download from release](https://github.iu.edu/IyengarLab/fragmentation-nx/releases)).
+2. Add headers, initialization, and finalization in your `main` function:
+
+```C++
+#include <Python.h>
+#include "nxx.h"
+
+// For Python 3.x runtime
+int main() {
+	auto err = PyImport_AppendInittab("nxx", PyInit_nxx);
+	if (err) { return 1; }
+	Py_Initialize();
+	auto _ = PyImport_ImportModule("nxx");
+
+	// Call any exported functions defined in nxx.h
+
+	Py_Finalize();
+}
+
+// For Python 2.7.x runtime
+int main() {
+	Py_Initialize();
+	initnxx();
+
+	// Call any exported functions defined in nxx.h
+
+	Py_Finalize();
+}
+```
+
+3. Add information on your Python runtime for compilation. For example:
+
+```Bash
+g++ main.cpp ../nxx.cpp -o executable -L`python3-config --prefix`/lib `python3-config --includes --libs`
+```
+
+4. Run your compiled executable with:
+
+```Bash
+# Depend on your local settings, you need to figure out a way to inform the executable of the Python runtime.
+# It could be something like ...
+PYTHONHOME=`python3-config --prefix` ./executable
+# Or ...
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`python3-config --prefix`/lib ./executable
+```
+
+A complete example is in the [example-cpp](example-cpp) directory.
+
+
+### Compile from source and install for Python
+
+It is fine to modify `nxx.py` and drop it into your Python project, as it is a single file, but if you want to enjoy the ~2x performance boost from Cython, you need to compile and install it. This requires [Cython installed](https://cython.readthedocs.io/en/latest/src/quickstart/install.html).
+
+```Bash
+make
+
+make install
+# or if your want --user
+make install_user
+```
+
+### Compile from source for C++
+
+Released `.cpp` and `.h` files are enough for normal usage, but if you want to adopt new modifications, you may want to generate the `.cpp` and `.h` files yourself. This requires [Cython installed](https://cython.readthedocs.io/en/latest/src/quickstart/install.html).
+
+```Bash
+make
+```
+
+### Build Python wheels and release to PyPI
+
+The script `build-wheels.sh` runs in Python's official manylinux Docker images and produce wheels installable in almost all Linux distros. You will also need [twine](https://pypi.org/project/twine/) to upload the wheels.
+
+We need Docker image `quay.io/pypa/manylinux2010_x86_64` (e.g. With Singularity module we can run `singularity run docker://quay.io/pypa/manylinux2010_x86_64`)
+
+```Bash
+./build-wheels.sh
+```
+
+Once its done we have wheels in `./dist`. Upload them with:
+
+```Bash
+twine upload dist/*manylinux*
+# username: __token__
+# password: [Paste your token here]
+```
+
+
