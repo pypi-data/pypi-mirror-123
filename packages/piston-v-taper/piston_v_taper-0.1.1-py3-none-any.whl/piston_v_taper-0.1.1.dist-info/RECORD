@@ -1,0 +1,17 @@
+piston_v_taper/__init__.py,sha256=BheMlKUqL6zY1q06uTRb6Kl2P3qqyv4IcqjxJuD0FEw,118
+piston_v_taper/data_sets.py,sha256=SysPo51r1lORFnH26YqwfgEWq7fFiG4dVWiA7DNIKRI,4393
+piston_v_taper/example.py,sha256=W25yVY6Sa6_dtaH-EwT33JD_MmZtZQ5UjNX1IfUGtNo,1924
+piston_v_taper/example_against_data.py,sha256=ZqcfbSFODzvOiXj_vjpRvj6ShF9ZpUvWmtbOAJFWPQU,2154
+piston_v_taper/model.py,sha256=G8CIDgdAMaB1BX2BDcJ2EcNyrz9UTpwk-INwIT5smQI,2879
+piston_v_taper/nns.py,sha256=6EDA5ds4HI6pmNYio1niOh0aGzbGRFzXyH0jV_-97CM,5584
+piston_v_taper/plotting_config.py,sha256=7nhsDYnIAMLVCtTe4fvEw9WqYNacIXY_bGxk7SPufqg,1107
+piston_v_taper/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piston_v_taper/data/contact_mid_dim_8_n_hidden_0.pth,sha256=FmMfGqlGX8FXZjCD4ng5axR00-H_k4qvhSb9UHsTeO8,1887
+piston_v_taper/data/elastic_mid_dim_3_n_hidden_0.pth,sha256=3nMu4gJ0dWcpU-rgHIFcjkaLIFcwoiVm2SHd_9tiVkE,1695
+piston_v_taper/data/elastoplastic_mid_dim_3_n_hidden_0.pth,sha256=MjOleYu92dciEY-0lt8WS_0tYB_R9ZUOwglAQ_9ZQnM,1695
+piston_v_taper/data/processed_test_data.csv,sha256=TVymy7xTXfpUZzVt9qfIHxMVndCnJzKbPIYZd6rLUZQ,88641
+piston_v_taper-0.1.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+piston_v_taper-0.1.1.dist-info/METADATA,sha256=DU32rBlzTf6GKepgRKRMB6ClwQ6_dE2W3OW2WHN1R1E,10297
+piston_v_taper-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+piston_v_taper-0.1.1.dist-info/top_level.txt,sha256=qPHqxU9Xj4ucX-_muxxEMLHexOx_5GUQeGnZfM4fv7E,15
+piston_v_taper-0.1.1.dist-info/RECORD,,
