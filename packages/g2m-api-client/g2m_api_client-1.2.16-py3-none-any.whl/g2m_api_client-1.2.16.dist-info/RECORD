@@ -1,0 +1,12 @@
+g2mclient/__init__.py,sha256=UsiswupicWUIVa-LGoZ4jau0TMbhFHfSYNrfbOvNRkc,766
+g2mclient/analyzer.py,sha256=LFX5lF6-ozj6QflLvwa59dJXirytUlmPmZjyY1DB-Is,2255
+g2mclient/client_saml_sso.py,sha256=cQyoW9ptWzzHdhny5Fx85kP0kFGaA5iP5jMneT7Izrs,7591
+g2mclient/constants.py,sha256=WVAPb85a1b_KrjDqHxUrHnm9Kz4xdiOQpJYgq418IMM,1362
+g2mclient/runner_base.py,sha256=Ajw-iicpxU0VOPDg-u80Q_aQcy2VJZCxFqP6wM1JnOQ,15334
+g2mclient/runner_propensity.py,sha256=99SwCF9uzGq-IX48elS4yQDrQnCgCMkbgbJoVDfk-cU,9717
+g2mclient/runner_regression.py,sha256=4rZRa4HxyBcTPM-4XaaS_sW-qHtyY17zEQIpcezYkvY,8933
+g2mclient/utils.py,sha256=gWl_0eIC-5shfFG_GXchzUg5K1c_0CqYDzJNf9kHAxQ,9788
+g2m_api_client-1.2.16.dist-info/METADATA,sha256=lZsAFHmNEnMtOF751rOkc3l-PnYWxeCk6fDiyTCJTrc,1135
+g2m_api_client-1.2.16.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+g2m_api_client-1.2.16.dist-info/top_level.txt,sha256=8mRFGMZRKktPSMiiy4NF2kjTHiCWxFJbbvOPk3jl11w,10
+g2m_api_client-1.2.16.dist-info/RECORD,,
