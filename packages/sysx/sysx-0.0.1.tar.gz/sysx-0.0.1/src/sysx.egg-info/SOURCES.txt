@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sysx/__init__.py
+src/sysx/__main__.py
+src/sysx.egg-info/PKG-INFO
+src/sysx.egg-info/SOURCES.txt
+src/sysx.egg-info/dependency_links.txt
+src/sysx.egg-info/entry_points.txt
+src/sysx.egg-info/requires.txt
+src/sysx.egg-info/top_level.txt
