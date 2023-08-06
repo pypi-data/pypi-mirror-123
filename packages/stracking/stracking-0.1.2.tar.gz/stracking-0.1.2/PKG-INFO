@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: stracking
+Version: 0.1.2
+Summary: Particles tracking for scientific imaging
+Home-page: https://github.com/sylvainprigent/stracking
+Maintainer: Sylvain Prigent
+Maintainer-email: meriadec.prigent@gmail.com
+License: GNU General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/sylvainprigent/stracking/issues
+Project-URL: Documentation, https://sylvainprigent.github.io/stracking/
+Project-URL: Source Code, https://github.com/sylvainprigent/stracking
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Provides-Extra: examples
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: benchmark
+License-File: LICENSE
+
+=========
+STracking
+=========
+
+Scientific library track particles in 2D+t and 3D+t images.
+
+
