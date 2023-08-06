@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: hello-mskripchenko
+Version: 0.1.0
+Summary: A example Python package. Very welcoming
+Home-page: https://random-url.com
+Author: Maria Skripchenko
+Author-email: idontwanttowritemyrealemail@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
