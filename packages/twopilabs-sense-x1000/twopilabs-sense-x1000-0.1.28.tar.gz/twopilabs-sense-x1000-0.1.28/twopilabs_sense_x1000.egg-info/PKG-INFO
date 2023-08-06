@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: twopilabs-sense-x1000
+Version: 0.1.28
+Summary: Sense X1000 series hardware control library
+Home-page: https://www.2pi-labs.com
+Author: 2pi-Labs GmbH
+Author-email: opensource@2pi-labs.com
+License: LGPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+README.md
+
