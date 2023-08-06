@@ -1,0 +1,3 @@
+[console_scripts]
+noterm = noterm:run
+
