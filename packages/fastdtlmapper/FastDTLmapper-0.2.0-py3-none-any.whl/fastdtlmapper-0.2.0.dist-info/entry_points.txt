@@ -1,0 +1,4 @@
+[console_scripts]
+FastDTLgoea=fastdtlmapper.scripts.FastDTLgoea:main
+FastDTLmapper=fastdtlmapper.scripts.FastDTLmapper:main
+
