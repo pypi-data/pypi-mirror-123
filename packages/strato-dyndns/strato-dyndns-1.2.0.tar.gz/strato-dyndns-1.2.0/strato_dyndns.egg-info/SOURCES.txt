@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+strato-dyndns/strato-dyndns
+strato_dyndns.egg-info/PKG-INFO
+strato_dyndns.egg-info/SOURCES.txt
+strato_dyndns.egg-info/dependency_links.txt
+strato_dyndns.egg-info/top_level.txt
