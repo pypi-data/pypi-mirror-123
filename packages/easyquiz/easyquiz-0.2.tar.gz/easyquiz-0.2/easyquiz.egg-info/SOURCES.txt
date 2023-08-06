@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+easyquiz/__init__.py
+easyquiz/easyquiz.py
+easyquiz/langs.json
+easyquiz.egg-info/PKG-INFO
+easyquiz.egg-info/SOURCES.txt
+easyquiz.egg-info/dependency_links.txt
+easyquiz.egg-info/requires.txt
+easyquiz.egg-info/top_level.txt

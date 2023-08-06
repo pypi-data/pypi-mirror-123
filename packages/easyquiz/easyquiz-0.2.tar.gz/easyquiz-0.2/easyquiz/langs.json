@@ -1,0 +1,14 @@
+{
+    "eng": {
+        "button_text": "Check",
+        "correct_msg": "Well done! Correct answer.",
+        "wrong_msg": "Ooops, looks like something went wrong. Think it again!",
+        "intro": "Question"
+    },
+    "esp": {
+        "button_text": "Comprobar",
+        "correct_msg": "\u00a1Respuesta correcta!",
+        "wrong_msg": "Ooops, parece que no lo has entendido bien. \u00a1Vuelve a intentarlo!",
+        "intro": "Pregunta"
+    }
+}
