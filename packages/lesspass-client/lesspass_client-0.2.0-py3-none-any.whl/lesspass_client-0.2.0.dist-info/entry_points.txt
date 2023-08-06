@@ -1,0 +1,3 @@
+[console_scripts]
+lesspass-client=lesspass_client.cli:main
+
