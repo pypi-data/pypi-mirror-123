@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: example-pkg-pip
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/gzg/sample-pip-distro
+Author: Ekin Öcalan
+Author-email: ekin@hey.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gzg/sample-pip-distro/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sample pip distribution
+
+This is a simple example package to use as a boilerplate for pip distributions.
+
+

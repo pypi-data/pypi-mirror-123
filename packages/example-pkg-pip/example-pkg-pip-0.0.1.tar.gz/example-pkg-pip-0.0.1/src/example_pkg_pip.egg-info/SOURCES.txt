@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_pkg_pip.egg-info/PKG-INFO
+src/example_pkg_pip.egg-info/SOURCES.txt
+src/example_pkg_pip.egg-info/dependency_links.txt
+src/example_pkg_pip.egg-info/top_level.txt
+src/my_package/__init__.py
+src/my_package/example.py
