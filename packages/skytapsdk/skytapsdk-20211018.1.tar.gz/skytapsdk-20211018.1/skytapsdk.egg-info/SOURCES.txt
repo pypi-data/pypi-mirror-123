@@ -1,0 +1,9 @@
+LICENSE.md
+setup.cfg
+setup.py
+skytapsdk/__init__.py
+skytapsdk.egg-info/PKG-INFO
+skytapsdk.egg-info/SOURCES.txt
+skytapsdk.egg-info/dependency_links.txt
+skytapsdk.egg-info/requires.txt
+skytapsdk.egg-info/top_level.txt
