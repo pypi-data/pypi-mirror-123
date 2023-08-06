@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/arc_lib/__init__.py
+src/arc_lib/text.py
+src/arc_lib_arodroz.egg-info/PKG-INFO
+src/arc_lib_arodroz.egg-info/SOURCES.txt
+src/arc_lib_arodroz.egg-info/dependency_links.txt
+src/arc_lib_arodroz.egg-info/top_level.txt
