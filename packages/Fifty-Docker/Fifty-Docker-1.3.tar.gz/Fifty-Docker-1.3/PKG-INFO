@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: Fifty-Docker
+Version: 1.3
+Summary: Docker utilities.
+Home-page: https://bitbucket.org/50onred/fifty-docker/overview
+Author: Steve Dorazio
+Author-email: sdorazio@50onred.com
+License: BSD
+Description: Fifty-Docker
+        ============
+        
+        Various command-line tools for working with services in docker.
+        
+        Usage
+        ^^^^^
+        
+        .. code:: bash
+        
+           Usage: j2 [OPTIONS]
+        
+           Options:
+             -t, --template PATH         The Jinja template to render
+             -o, --output_file PATH      The output location of the rendered template
+             -d, --default_context PATH  The default context variables to load (YAML)
+             --help         Show this message and exit.
+        
+        Example
+        ^^^^^^^
+        
+        .. code:: bash
+        
+           j2 -t /config-template.properties.j2 -o /etc/config.properties
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: System
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3

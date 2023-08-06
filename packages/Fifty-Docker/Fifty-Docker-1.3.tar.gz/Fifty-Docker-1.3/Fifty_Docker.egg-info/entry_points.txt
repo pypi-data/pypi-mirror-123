@@ -1,0 +1,3 @@
+[console_scripts]
+j2 = fifty_docker.main:render_template
+
