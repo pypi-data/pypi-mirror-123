@@ -1,0 +1,12 @@
+python_aternos/__init__.py,sha256=jTA3DVgOd6T1pdm0QOhKdJkczhZot3xkjmBeNekqaZE,1586
+python_aternos/atconnect.py,sha256=jR9htgTfBIK3VdnOYBfIQzjDIkUbHsNiyIvdYsBD9RY,3295
+python_aternos/aterrors.py,sha256=XxjG1GFkxgfxsW6J_GsqttWETd_rxS0YzUFxy9BCfl0,155
+python_aternos/atfile.py,sha256=XGo7CkyDv9QWRZsAZuPNpj4yM-R7OU5SvuytpFhqsMg,1403
+python_aternos/atfm.py,sha256=C3IkYJ__KhoQ_Uw0UzwZqRJrF1T32SdxTcSC2pulvRg,2434
+python_aternos/atserver.py,sha256=IrF6q3oy0ArsjGkDj82K7WZNfWMUB2eBW_15xajPwQg,3075
+python_aternos-0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_aternos-0.3.dist-info/METADATA,sha256=lCAuJjwfuXd3W0K-a45aiNN2J2ha-jmEZyP2MWOQR-A,3047
+python_aternos-0.3.dist-info/NOTICE,sha256=yxfxhiZP82fWNzKWUSBs6G9g2a6-lE-800zTSkp76p8,571
+python_aternos-0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_aternos-0.3.dist-info/top_level.txt,sha256=LxrWeeYLBfhs_v2shV9ix4eflQvkK_Xb04ec3_zwXHo,15
+python_aternos-0.3.dist-info/RECORD,,
