@@ -1,0 +1,5 @@
+setup.py
+iolib.egg-info/PKG-INFO
+iolib.egg-info/SOURCES.txt
+iolib.egg-info/dependency_links.txt
+iolib.egg-info/top_level.txt
