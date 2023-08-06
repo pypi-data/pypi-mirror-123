@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: saudi-id-validator
+Version: 1.0.7a1
+Summary: Validate ID numbers of Saudi Arabian identity cards
+Home-page: UNKNOWN
+Author: Mohd Alshehri
+Author-email: 
+License: MIT
+Keywords: saudi government validator identity number
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Saudi ID Validator
+==================
+
+This package has been **deprecated** and should be replaced by
+`luhn-validator <https://pypi.org/project/luhn-validator/>`_.
+
+To get the same result with luhn-validator, see this example:
+
+.. code:: python
+
+    from luhn_validator import validate
+    validate(10717243691, 10, [1, 2])
+
+
