@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: flyerops
+Version: 0.1.1
+Summary: Helper functions for AWS and MLOPs
+Home-page: https://git.delta.com/158734/flyer_pkg
+Author: Steven Forrester
+Author-email: sjforrester32@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: awswrangler (>=2.10.0)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: psycopg2 (>=2.7.7)
+Requires-Dist: SQLAlchemy (>=1.4.23)
+Requires-Dist: teradatasql (>=17.10.0.2)
+
+# Flyer MLOps
+
+Package for helper code related to MLOps
+
