@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: noterm
+Version: 0.0.6
+Summary: notebook-terminal application
+Home-page: https://github.com/FallnJump/NoTerm
+Author: fallnjump
+Author-email: tfjsm.app@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: glob2
+
+UNKNOWN
+
+

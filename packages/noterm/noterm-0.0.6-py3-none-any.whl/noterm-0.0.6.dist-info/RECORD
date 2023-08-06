@@ -1,0 +1,14 @@
+noterm/__init__.py,sha256=4_6So4-HsJ4_cpmJiCdxXlkg78W8rDv394T6-Vsb_2Y,239
+noterm/alert_ex.js,sha256=TjSeA53pou_9vltUxDzWjWRgxaiDxMaUsdF4_vWy290,1063
+noterm/consolestyle.js,sha256=IXHhoswRDeMLKlt25I8N4x3W6hKD4ZmA8LmGMT0ZTvE,8299
+noterm/htsv.py,sha256=1oGkCC3WWlK352hzwwDsgipN6ZAryWgLvqD_Bq_P1as,19135
+noterm/movefiler.py,sha256=Rg58x1iW4y0gpSZwCRXkh0pwo04hJhQ5RvzxYgl04io,11513
+noterm/reqbasher.py,sha256=HXgQAMpwpfKCOhyF-8peFhWtiCzKXoTTaUFaTlC1lJg,833
+noterm/srvrun.py,sha256=Zu_gsNOKna1Ge-59jf-JO9IJtnm2lVFcpFJmy2L4Fl4,346
+noterm/tabletemplate.html,sha256=QVCyd1yRpFUD6cmS9CBwJtvW_zbG5l0mwtc_tNyo-7A,64968
+noterm-0.0.6.dist-info/LICENSE,sha256=qWeuUSs06DERYelg1v1S6eh4z2YtfAw2Bvw6iubwcc8,1066
+noterm-0.0.6.dist-info/METADATA,sha256=SeTo2wmsesWS6h8PXR-naos6M4Ogs0iAH6XhGwZpuxU,305
+noterm-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+noterm-0.0.6.dist-info/entry_points.txt,sha256=L2xHWAuz9nPmtkA5HVupu5btjsUCV8iYu__Sn7ZWve0,39
+noterm-0.0.6.dist-info/top_level.txt,sha256=ZS7bwpEWcFsU6mHqu68bKXh3mk-ij5bMXBD2UiqOewM,7
+noterm-0.0.6.dist-info/RECORD,,
