@@ -1,0 +1,7 @@
+README.md
+setup.py
+sharpython/__init__.py
+sharpython.egg-info/PKG-INFO
+sharpython.egg-info/SOURCES.txt
+sharpython.egg-info/dependency_links.txt
+sharpython.egg-info/top_level.txt
