@@ -1,0 +1,14 @@
+alembic
+aiosqlite
+fastapi-users-db-ormar
+uvicorn
+
+[build]
+twine
+
+[dev]
+black
+
+[test]
+pytest-asyncio
+pytest-factoryboy
