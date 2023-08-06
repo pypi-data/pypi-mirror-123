@@ -1,0 +1,12 @@
+psygnal/__init__.cp310-win_amd64.pyd,sha256=RXydpaRP1mcJE-JMgCkm9FwQyR1kg6_Jvuw1SDXtNa8,25600
+psygnal/__init__.py,sha256=sbJFtIyRCYfUys9_5smyVvdwJ9vGDSjbIG7kpoJIBsM,614
+psygnal/_signal.cp310-win_amd64.pyd,sha256=Fv_5OrgIi_Drx5DbHx2hzF8N0J52HpEL6orvRiRTruU,270336
+psygnal/_signal.py,sha256=wAthE7YYRnWfRNOhBpvWbfTDbCZo5pKwUH9VTTp5rlo,32415
+psygnal/_version.cp310-win_amd64.pyd,sha256=TO3IDxTDKlkGX8BgqYlf3LyMx5K68y0oUAIuXhm2_jk,19968
+psygnal/_version.py,sha256=0EuJFVcr3OLh2UdRF9DWTG4SqAkKK-BbLikw6ix3Zi8,147
+psygnal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psygnal-0.1.4.dist-info/LICENSE,sha256=1OkeCM9Twf0WZe8iwfa_ZYIp1D-PoO5NyasIKYYSngY,1544
+psygnal-0.1.4.dist-info/METADATA,sha256=NeOsEuH96aqoRdtg37YdoKZlKHvcciaqJ6b1xh7AcFs,12264
+psygnal-0.1.4.dist-info/WHEEL,sha256=C6CHup2HLC2Rld8AL5u9w89MYULjdaP5k0k7SG83CcI,102
+psygnal-0.1.4.dist-info/top_level.txt,sha256=WYSfWuaSgSarH4remUGlBDSZyIZZqOZhxjWMAGxpCAE,8
+psygnal-0.1.4.dist-info/RECORD,,
