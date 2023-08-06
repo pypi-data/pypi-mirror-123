@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyProtein/__init__.py
+src/pyProtein/amino_acid_properties.py
+src/pyProtein/protein.py
+src/pyProtein.egg-info/PKG-INFO
+src/pyProtein.egg-info/SOURCES.txt
+src/pyProtein.egg-info/dependency_links.txt
+src/pyProtein.egg-info/top_level.txt
