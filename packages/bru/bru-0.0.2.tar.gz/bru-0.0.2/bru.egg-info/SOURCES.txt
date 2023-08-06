@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bru/__init__.py
+bru.egg-info/PKG-INFO
+bru.egg-info/SOURCES.txt
+bru.egg-info/dependency_links.txt
+bru.egg-info/top_level.txt
