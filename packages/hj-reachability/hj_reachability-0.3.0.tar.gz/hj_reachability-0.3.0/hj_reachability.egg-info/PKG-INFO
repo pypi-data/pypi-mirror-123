@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hj-reachability
+Version: 0.3.0
+Summary: Hamilton-Jacobi reachability analysis in JAX.
+Home-page: https://github.com/StanfordASL/hj_reachability
+Author: Ed Schmerling
+Author-email: ednerd@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
