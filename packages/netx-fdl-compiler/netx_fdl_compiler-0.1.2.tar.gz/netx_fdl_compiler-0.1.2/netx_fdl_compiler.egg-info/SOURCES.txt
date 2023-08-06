@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+netx_fdl_compiler/__init__.py
+netx_fdl_compiler/__main__.py
+netx_fdl_compiler/fdlconverter.py
+netx_fdl_compiler.egg-info/PKG-INFO
+netx_fdl_compiler.egg-info/SOURCES.txt
+netx_fdl_compiler.egg-info/dependency_links.txt
+netx_fdl_compiler.egg-info/requires.txt
+netx_fdl_compiler.egg-info/top_level.txt
