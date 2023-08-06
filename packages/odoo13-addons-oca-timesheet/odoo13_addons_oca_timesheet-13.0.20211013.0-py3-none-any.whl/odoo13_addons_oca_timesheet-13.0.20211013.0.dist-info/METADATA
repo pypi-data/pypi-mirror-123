@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-timesheet
+Version: 13.0.20211013.0
+Summary: Meta package for oca-timesheet Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Dist: odoo13-addon-crm-timesheet
+Requires-Dist: odoo13-addon-hr-timesheet-activity-begin-end
+Requires-Dist: odoo13-addon-hr-timesheet-analysis
+Requires-Dist: odoo13-addon-hr-timesheet-sheet
+Requires-Dist: odoo13-addon-hr-timesheet-sheet-autodraft
+Requires-Dist: odoo13-addon-hr-timesheet-sheet-autodraft-project
+Requires-Dist: odoo13-addon-hr-timesheet-sheet-policy-project-manager
+Requires-Dist: odoo13-addon-hr-timesheet-task-domain
+Requires-Dist: odoo13-addon-hr-timesheet-task-required
+Requires-Dist: odoo13-addon-hr-timesheet-task-stage
+Requires-Dist: odoo13-addon-hr-utilization-analysis
+Requires-Dist: odoo13-addon-sale-timesheet-line-exclude
+Requires-Dist: odoo13-addon-sale-timesheet-order-line-sync
+Requires-Dist: odoo13-addon-sale-timesheet-rounded
+Requires-Dist: odoo13-addon-sale-timesheet-task-exclude
+
+UNKNOWN
+
