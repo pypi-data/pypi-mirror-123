@@ -1,0 +1,95 @@
+
+start: instruction+
+
+instruction: declaration
+           | assignment
+           | stack_op
+           | call
+           | if_block
+           | loop
+           | function_definition
+		   | import_statement
+		   | transfer_top
+		   | delete_var
+
+_INDENT: "\x01"
+_DEDENT: "\x02"
+_NL: "\n"
+%ignore /[ \n\f\r]+|#.*/
+%import common.CNAME -> NAME
+%import common.NUMBER -> NUMBER
+%import python.STRING -> STRING
+
+string: STRING // /".*?(?<!\\)"/
+declaration: name "=None"_NL
+assignment: name"=" expression _NL
+
+expression: sum
+?sum: product
+        | sum "+" product   -> add
+        | sum "-" product   -> sub
+        | sum "&" product -> bit_and
+        | sum "|" product -> bit_or
+        | sum "^" product -> xor
+        | sum "==" product -> equality
+		| sum "!=" product -> inequality
+        | sum "<" product -> less_than
+        | sum ">" product -> greater_than
+        | sum "<=" product -> less_than_or_equals
+        | sum ">=" product -> greater_than_or_equals
+        | sum "or" product -> logical_or
+		| sum "and" product -> logical_and
+		
+		
+?product: atom
+        | product "*" atom  -> mul
+        | product "/" atom  -> div
+		| product "%" atom -> modulus
+
+?atom: NUMBER           -> number
+        | "-" atom         -> neg
+		| "~" atom         -> bit_not
+		| "chr(" sum ")" -> char_convert
+        | "(" sum ")"
+		| name
+		| string
+
+stack_op: rot2
+        | rot3
+        | pop
+        | push
+        | switch_stack
+
+push: "stacks.current_stack.appendleft("name")"_NL 
+pop: "stacks.current_stack.pop()"_NL
+rot2: "stacks.current_stack.rot2()"_NL
+rot3: "stacks.current_stack.rot3()"_NL
+switch_stack: "stacks.switch_stack(" "'"name"')"_NL
+
+noarg: "!"
+call: "stacks.current_stack.call_func(len('"noarg*"'))" _NL
+
+bool: " " -> true
+    | "not" -> false
+
+else: "else:" _NL _INDENT instruction+ 
+
+if_block: "if" bool "("expression"):"_NL _INDENT (instruction)+ _DEDENT-> if_block
+         |"if" bool "("expression"):"_NL _INDENT (instruction)+ _DEDENT else _DEDENT-> if_else_block
+
+loop: "while" bool "("expression"):" _NL _INDENT instruction+ _DEDENT
+
+function_args: 
+            | name
+            | (name",")+ name
+function_body: instruction+
+// function_definition: "def" name"("function_args*",stacks):"_NL _INDENT function_body _DEDENT
+
+function_definition: "def" name"("function_args*"):"_NL _INDENT function_body _DEDENT
+
+import_statement: "\x03"string _NL
+
+transfer_top: name"=stacks.current_stack.popleft()"_NL
+delete_var: "del" name
+
+name:  NAME("."NAME)*
