@@ -1,0 +1,10 @@
+jse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jse/__main__.py,sha256=xJrh4ikINkfLI4H0TCEhFJCaj5E_FoFJ497ozhvIuTI,26
+jse/bash.py,sha256=dUcx-ZBpRQcj5enjxHm-NjLj4nIY0XuhUpiKPvIjpjk,4121
+jse/editor.py,sha256=VSOfs7thJ2sr-jw-phWPp50HIrFTb216NGye2g19NUw,6425
+jse/entry.py,sha256=3stjdl8sQ3tZjtdYsuBj4UixnSQgIUXCpPP0Yf2-dsw,4305
+jse-0.1.4.dist-info/entry_points.txt,sha256=Zdk5RXwecf7gbSIdbROdpz4NQsM28vFWDpUxRvknq6I,38
+jse-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jse-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jse-0.1.4.dist-info/METADATA,sha256=tjJydWZ3zi9HYXwlEGQMZoI6Z9_5gnz_22Y36jcfua4,5852
+jse-0.1.4.dist-info/RECORD,,
