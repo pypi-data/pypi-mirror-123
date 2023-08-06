@@ -1,0 +1,6 @@
+edxml>=3.0.0.dev0
+
+[dev]
+flake8
+pytest
+coverage

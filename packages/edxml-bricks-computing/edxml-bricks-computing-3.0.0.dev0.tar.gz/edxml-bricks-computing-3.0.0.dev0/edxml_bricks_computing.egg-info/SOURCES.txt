@@ -1,0 +1,9 @@
+setup.py
+edxml_bricks/computing/email.py
+edxml_bricks/computing/files.py
+edxml_bricks/computing/generic.py
+edxml_bricks_computing.egg-info/PKG-INFO
+edxml_bricks_computing.egg-info/SOURCES.txt
+edxml_bricks_computing.egg-info/dependency_links.txt
+edxml_bricks_computing.egg-info/requires.txt
+edxml_bricks_computing.egg-info/top_level.txt
