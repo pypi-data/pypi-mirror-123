@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: FileOrganiser
+Version: 1.0.6
+Summary: A Modular tool to keep directories organised
+Home-page: https://github.com/lifesgood123/FileOrganiser
+Author: Ellie Mae Galyean
+Author-email: tggalyea@uncg.edu
+License: idgaf
+Download-URL: https://github.com/Lifesgood123/FileOrganiser/archive/refs/tags/1.0.5.tar.gz
+Description: UNKNOWN
+Keywords: files,organisation,productivity,daemon
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Freely Distributable
+Classifier: Programming Language :: Python :: 3.8
