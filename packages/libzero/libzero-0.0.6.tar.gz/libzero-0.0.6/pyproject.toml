@@ -1,0 +1,41 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "libzero"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Yura52", email = "strausmg@gmail.com"}
+]
+keywords = [
+    "artificial intelligence", "deep learning", "library", "python", "pytorch", "torch"
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "numpy >=1.17,<2",
+    "pynvml >=11.0,<12",
+    "torch >=1.7,<2",
+    "tqdm >=4.0,<5"
+]
+urls = {Documentation = "https://yura52.github.io/zero", Code = "https://github.com/Yura52/zero"}
+dynamic = ["version", "description"]
+
+[tool.flit.module]
+name = "zero"
+
+[tool.flit.sdist]
+exclude = ["other"]
+
+[tool.black]
+skip_string_normalization = true
