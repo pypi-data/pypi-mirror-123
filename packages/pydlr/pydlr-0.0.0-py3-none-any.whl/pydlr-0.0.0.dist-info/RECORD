@@ -1,0 +1,10 @@
+pydlr/__init__.py,sha256=idsYQpJZ7G5wHq3OA_Ls9JCQC_1iczeNKOnCKFd9TK4,22
+pydlr/kernel.py,sha256=FAoXQTDWXA8Py_5I9DiPLowPtcWHiKHoOYjY2Fphyhg,13729
+pydlr/kernel_fortran.py,sha256=PvR9cL9oy8GZRyoTtcIRdgD5umYnthCYq3Mhfz7_Ymg,6768
+pydlr/pydlr.py,sha256=6IQp3P86bRVF2QByn2Uxy2PIPXrZhSIP1og4bJT0gZo,27339
+pydlr/utils.py,sha256=jLeO-0luR-UZxLzIbKHMn5z-cso7DiLDtFVWE46UXX0,1633
+pydlr-0.0.0.dist-info/LICENSE,sha256=0jsChjeQ1YIs8D9GVU2X3ugUwZu8bD6gVoWKXg5ovVI,1201
+pydlr-0.0.0.dist-info/METADATA,sha256=l6_xZPNnEibnu5niD90EdOA2quZkxrG7053twok7Oek,1796
+pydlr-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydlr-0.0.0.dist-info/top_level.txt,sha256=AOQoMBknJE6IYPGt2oHUTOgiEU8xnC_WaXiVKrqVarQ,6
+pydlr-0.0.0.dist-info/RECORD,,
