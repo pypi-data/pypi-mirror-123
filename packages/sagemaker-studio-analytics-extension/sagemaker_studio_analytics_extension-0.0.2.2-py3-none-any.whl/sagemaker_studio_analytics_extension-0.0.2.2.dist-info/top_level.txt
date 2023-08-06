@@ -1,0 +1,3 @@
+sagemaker_studio_analytics_extension
+sagemaker_studio_analytics_extension/magics
+sagemaker_studio_analytics_extension/utils
