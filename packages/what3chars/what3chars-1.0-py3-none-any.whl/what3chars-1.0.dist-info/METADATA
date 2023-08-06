@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: what3chars
+Version: 1.0
+Summary: Module to decode/encode indecipherable and confusing characters to/from latitude and longitude.
+Home-page: UNKNOWN
+Author: David Swanlund
+Author-email: david.swanlund@gmail.com
+License: GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Keywords: Geohash What3Chars
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: docutils (>=0.3)
+
+This module provides functions to decode and encode indecipherable characters to and from latitude and longitude coordinates.
+
