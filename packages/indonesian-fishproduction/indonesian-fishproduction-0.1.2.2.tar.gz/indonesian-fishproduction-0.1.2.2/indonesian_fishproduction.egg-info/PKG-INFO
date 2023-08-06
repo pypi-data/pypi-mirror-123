@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: indonesian-fishproduction
+Version: 0.1.2.2
+Summary: This package will give us information about the marine fish productionin Indonesia
+Home-page: https://github.com/wearenotrobot/indomarinefish
+Author: mizan toyyibun
+Author-email: untirta.mizan62@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/wearenotrobot/indomarinefish
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# indomarinefish
+This package will give us information about the latest total marine fish production in Indonesia. 
+The Name of the fish is written in Indonesian. The total production is in Kg.
+
+## How it work?
+This package will scrape from [PIPP](http://pipp.djpt.kkp.go.id/produksi_harga) 
+to get the latest marine fish production in Indonesia.
+
+This package will use BeautifulSoup4 and Request, to produce output in the form of JSON. 
+This package is ready to be used in web or mobile applications.
+
+## How to use
+```
+import produksiikan
+
+if __name__ == '__main__':
+    result = produksiikan.data_extraction()
+    produksiikan.show_data(result)
+```
+
+# Author
+mizan toyyibun
+
+
