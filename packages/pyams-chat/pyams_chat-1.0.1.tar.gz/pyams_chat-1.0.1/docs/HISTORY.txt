@@ -1,0 +1,11 @@
+Changelog
+=========
+
+1.0.1
+-----
+ - added missing translations
+ - updated doctests
+
+1.0.0
+-----
+ - initial release
