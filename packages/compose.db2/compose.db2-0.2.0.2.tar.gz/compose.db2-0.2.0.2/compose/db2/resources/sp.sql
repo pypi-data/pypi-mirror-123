@@ -1,0 +1,36 @@
+CREATE OR REPLACE VIEW DB_BACKUPS AS
+SELECT
+    START_DATETIME
+, END_DATETIME
+, DURATION_MINS
+, OPERATION
+, BACKUP_TYPE
+, BACKUP_LOCATION
+, SQLCODE
+, NUM_TBSPS
+, TABLESPACES
+FROM (
+SELECT DISTINCT -- Use DISTINCT because there are mulitple entries in the database history file for the same events
+        TIMESTAMP(START_TIME)          AS START_DATETIME
+, TIMESTAMP(END_TIME)            AS END_DATETIME
+, DECIMAL(SECONDS_BETWEEN(END_TIME, START_TIME)/60,7,2) AS DURATION_MINS
+, COMMENT AS OPERATION
+, CASE OPERATIONTYPE
+            WHEN 'D' THEN 'Delta Offline'
+            WHEN 'E' THEN 'Delta Online'
+            WHEN 'F' THEN 'Offline'
+            WHEN 'I' THEN 'Incremental Offline'
+            WHEN 'N' THEN 'Online'
+            WHEN 'O' THEN 'Incremental Online'
+        END         AS BACKUP_TYPE
+, LOCATION    AS BACKUP_LOCATION
+, SQLCODE
+, NUM_TBSPS
+, VARCHAR(TBSPNAMES,32000) AS TABLESPACES
+    -- Convert the BLOB to VARCHAR to allow the DISTINCT above
+    FROM
+        SYSIBMADM.DB_HISTORY H
+    WHERE
+    OPERATION = 'B'
+) AS S
+WITH UR

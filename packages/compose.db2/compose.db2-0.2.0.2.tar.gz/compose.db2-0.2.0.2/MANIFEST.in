@@ -1,0 +1,4 @@
+include compose/db2/resources/*.*
+include constraints.txt
+recursive-exclude tests *
+recursive-exclude compose/tests *

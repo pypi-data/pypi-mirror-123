@@ -1,0 +1,12 @@
+-- {{ hostname }};
+-- role: {{ designated_role }};
+!db2start;
+FORCE APPLICATIONS ALL;
+DEACTIVATE DB {{ db_name }};
+DROP DB {{ db_name }};
+{{ db2_backres_cmd }};
+{{ db2_hadr_cfg }};
+!db2stop;
+!db2start;
+{{ db2_hadr_start_cmd }};
+UPDATE ALTERNATE SERVER FOR DATABASE {{ db_name }} USING HOSTNAME {{ db2_acr_host }} PORT {{ db2_acr_port }};
