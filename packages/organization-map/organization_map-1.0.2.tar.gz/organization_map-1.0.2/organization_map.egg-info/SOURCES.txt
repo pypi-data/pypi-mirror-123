@@ -1,0 +1,8 @@
+README.md
+setup.py
+organization_map/__init__.py
+organization_map/generator.py
+organization_map.egg-info/PKG-INFO
+organization_map.egg-info/SOURCES.txt
+organization_map.egg-info/dependency_links.txt
+organization_map.egg-info/top_level.txt
