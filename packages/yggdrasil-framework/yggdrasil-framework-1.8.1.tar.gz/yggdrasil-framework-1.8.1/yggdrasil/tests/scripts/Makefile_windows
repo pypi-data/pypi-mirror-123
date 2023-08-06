@@ -1,0 +1,31 @@
+IDIR = .
+# CC ?= cl.exe
+# LINK ?= link.exe
+CFLAGSZ = $(CFLAGS) /I$(IDIR)
+
+SDIR = .
+ODIR = .
+
+LIBS = $(LDFLAGS)
+
+DEPS = $(IDIR)\hellofunc.h
+
+OBJ = $(ODIR)\gcc_model.obj $(ODIR)\hellofunc.obj
+
+.PHONY: all
+all: gcc_model
+
+gcc_model: $(OBJ)
+	$(CC) $** /link /OUT:$@.exe $(LIBS)
+
+{$(SDIR)}.c{$(ODIR)}.obj:
+	@echo $(OBJ)
+	$(CC) /c $< -Fo$@ $(CFLAGSZ)
+
+{$(SDIR)}.cpp{$(ODIR)}.obj:
+	$(CC) /c $< -Fo$@ $(CFLAGSZ)
+
+($OBJ) :
+
+clean:
+	del $(ODIR)\*.obj *~ gcc_model.exe $(IDIR)\*~ 
