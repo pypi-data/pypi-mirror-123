@@ -1,0 +1,9 @@
+emanpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emanpdf/pdf2image.py,sha256=FKCPhiSyXj-tNDXA0VqlbWzKx6KZPmuJa5cBogvi_4o,40
+emanpdf/pdf2txt.py,sha256=8-Z_K-UDRvjdObZiWihC60ES5-aEA7F06EVSwbtVpjk,384
+emanpdf/pdf3excel.py,sha256=N0FTkumjaWUDA_7rVuEy7D8Y_YopqP6op0TWhDX2wpc,40
+emanpdf-1.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+emanpdf-1.1.dist-info/METADATA,sha256=pLS8YAIV3zIYGPntgGxiY1Q0wg7ixxhcA_8CM9I_ufQ,210
+emanpdf-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+emanpdf-1.1.dist-info/top_level.txt,sha256=iahP-PYYF6sMYkfNAL_0tV4omsRgE9rprjjoFA4V5Z0,8
+emanpdf-1.1.dist-info/RECORD,,
