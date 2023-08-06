@@ -1,0 +1,5 @@
+[console_scripts]
+ewmerge = ewconfig.ewmerge:main_args
+sacpz2ew = ewconfig.sacpz2ew:main_args
+stationxml2ew = ewconfig.stationxml2ew:main_args
+

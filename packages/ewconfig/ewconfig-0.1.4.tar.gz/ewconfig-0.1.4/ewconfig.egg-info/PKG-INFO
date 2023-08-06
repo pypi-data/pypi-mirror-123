@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ewconfig
+Version: 0.1.4
+Summary: Create EW config from Station XML
+Home-page: UNKNOWN
+Author: andrew cooke
+Author-email: andrewcooke@isti.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+
+
+# ewconfig
+
+Create EW config from Station XML
+                 
+
