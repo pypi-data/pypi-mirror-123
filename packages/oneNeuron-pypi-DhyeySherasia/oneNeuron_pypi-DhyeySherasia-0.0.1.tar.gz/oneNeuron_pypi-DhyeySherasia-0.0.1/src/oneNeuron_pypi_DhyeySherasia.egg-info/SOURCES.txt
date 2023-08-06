@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/oneNeuron_pypi/__init__.py
+src/oneNeuron_pypi/perceptron.py
+src/oneNeuron_pypi_DhyeySherasia.egg-info/PKG-INFO
+src/oneNeuron_pypi_DhyeySherasia.egg-info/SOURCES.txt
+src/oneNeuron_pypi_DhyeySherasia.egg-info/dependency_links.txt
+src/oneNeuron_pypi_DhyeySherasia.egg-info/requires.txt
+src/oneNeuron_pypi_DhyeySherasia.egg-info/top_level.txt
