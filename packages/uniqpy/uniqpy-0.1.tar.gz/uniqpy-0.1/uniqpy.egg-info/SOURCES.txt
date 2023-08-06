@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+uniqpy/uni_cli.py
+uniqpy/uniquac.py
+uniqpy.egg-info/PKG-INFO
+uniqpy.egg-info/SOURCES.txt
+uniqpy.egg-info/dependency_links.txt
+uniqpy.egg-info/entry_points.txt
+uniqpy.egg-info/requires.txt
+uniqpy.egg-info/top_level.txt
