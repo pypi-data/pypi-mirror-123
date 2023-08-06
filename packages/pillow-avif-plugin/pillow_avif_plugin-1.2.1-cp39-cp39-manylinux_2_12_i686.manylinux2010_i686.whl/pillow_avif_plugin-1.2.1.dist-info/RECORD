@@ -1,0 +1,10 @@
+pillow_avif/__init__.py,sha256=UCn85lqyJupjHUS4Og9DyLZ6kJ-HJlV7RvcJOCcKp3g,84
+pillow_avif/_avif.cpython-39-i386-linux-gnu.so,sha256=OO-BihGwPTWkMLdZeHMU2kmL0364lJ2RZt-ZUuqd8vA,26416
+pillow_avif/AvifImagePlugin.py,sha256=J-a1lf1yj7RqH9ZI7_WEMCAuG77ofcek_f5GtiY_auc,8177
+pillow_avif_plugin-1.2.1.dist-info/WHEEL,sha256=e026llGEKVMntmKYb62tahap3u35CcCmvkY14eJdPZ0,144
+pillow_avif_plugin-1.2.1.dist-info/top_level.txt,sha256=xrg4zRnqDyl_JEyEQh3oCcAU4BHneocD-DCFDzf4g9E,12
+pillow_avif_plugin-1.2.1.dist-info/METADATA,sha256=_y94PFO1BjNmlJ6ivnT6bzzWYdYIcryOxQ9GM0YK7mQ,1636
+pillow_avif_plugin-1.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pillow_avif_plugin-1.2.1.dist-info/LICENSE,sha256=Y-GPM2BDn_PNAiKqwHfB2ubsfRy0GSy4Y_0XqT_80Sg,23691
+pillow_avif_plugin-1.2.1.dist-info/RECORD,,
+pillow_avif_plugin.libs/libavif-280ecfb9.so.12.0.0,sha256=IYjdl0S_cByJqPWv5a9__uc9ya7pw2bqPUcoJvXOwcI,5370920
