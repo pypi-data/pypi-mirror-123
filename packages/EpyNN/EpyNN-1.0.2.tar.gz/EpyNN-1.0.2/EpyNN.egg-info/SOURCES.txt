@@ -1,0 +1,17 @@
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+environ.yml
+requirements.txt
+setup.cfg
+setup.py
+EpyNN/EpyNN.tar
+EpyNN/__init__.py
+EpyNN.egg-info/PKG-INFO
+EpyNN.egg-info/SOURCES.txt
+EpyNN.egg-info/dependency_links.txt
+EpyNN.egg-info/top_level.txt
+bin/epynn
