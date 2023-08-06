@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: django-ckeditor-s3
+Version: 0.1.0
+Summary: CKEditor 5 for django labtrendig to s3.
+Home-page: https://github.com/LabTrendig/django_ckeditor_5
+Author: josuedjh
+Author-email: josuedjhcayola@outlook.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
