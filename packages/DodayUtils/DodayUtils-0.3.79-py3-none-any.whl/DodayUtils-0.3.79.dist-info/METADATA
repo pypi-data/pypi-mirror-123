@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: DodayUtils
+Version: 0.3.79
+Summary: Doday Utility Package
+Home-page: UNKNOWN
+Author: Gadgethi Develop Team
+Author-email: developers@gadget-hitech.com
+License: AGPLv3+
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries 
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: gadgethiServerUtils (>=0.3.14)
+Requires-Dist: websocket-client
+Requires-Dist: qrcode
+Requires-Dist: Pillow
+
+# DodayUtils
+This is the utility helper functions that can support the doday utility development. 
+
+## New in 0.3.0
+* DodayUtils is 0.2.x compatible, will stop supporting 0.2.x functions in the next big release (0.4.x)
+* DodayUtilManager will be deprecated in the next big release. 
+* *BIGGEST CHANGE* code is categorized into groups:
+	1. assets
+	2. formats
+	3. order
+	4. peripherals
+	5. clienttools
+
+### Assets
+* order.DodayItem
+* order.OrderInfo
+
+
