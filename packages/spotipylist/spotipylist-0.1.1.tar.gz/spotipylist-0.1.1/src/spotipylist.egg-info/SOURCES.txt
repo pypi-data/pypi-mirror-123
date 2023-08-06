@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spotipylist.egg-info/PKG-INFO
+src/spotipylist.egg-info/SOURCES.txt
+src/spotipylist.egg-info/dependency_links.txt
+src/spotipylist.egg-info/entry_points.txt
+src/spotipylist.egg-info/requires.txt
+src/spotipylist.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/playlist_generator.py
