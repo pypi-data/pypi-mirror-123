@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: helloworld2020danh
+Version: 0.0.1
+Summary: Say Hello
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Helloworld
+        
+        This is an example of helloworld project
+        
+        ## Usage
+        
+        ```python
+        from helloworld import say_hello
+        
+        # Generate "Hello world"
+        say_hello()
+        
+        # Generate "Hello everyone"
+        say_hello("everyone")
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
