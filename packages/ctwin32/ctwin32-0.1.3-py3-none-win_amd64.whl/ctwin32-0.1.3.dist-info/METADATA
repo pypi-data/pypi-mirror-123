@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ctwin32
+Version: 0.1.3
+Summary: Access selected win32 APIs through ctypes.
+Home-page: 
+Author: Rocco Matano
+Author-email: 
+License: MIT License
+Platform: win32
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+ctwin32
+=======
+
+Access selected win32 APIs through ctypes.
+
+

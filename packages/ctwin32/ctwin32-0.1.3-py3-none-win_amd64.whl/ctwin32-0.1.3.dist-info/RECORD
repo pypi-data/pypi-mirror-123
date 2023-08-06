@@ -1,0 +1,13 @@
+ctwin32/LICENSE,sha256=k0FDBjRnOJIfHcqp1EkLerbkKRshLpKajoDboyfFwr8,1052
+ctwin32/__init__.py,sha256=MqRa0feGJpMsN-uMYlg_jh7Lt1l7BeXI-YdOc5aiNDo,200411
+ctwin32/advapi.py,sha256=fLY63HYFTz8iZDq2QK1KIX1hS6w4Yv22AWJO6wlQ2vI,25445
+ctwin32/iphlpapi.py,sha256=mlB3HzvdM99q_3rcQ0KrQJCblhEeOoI9kJA-eCOPLtY,9227
+ctwin32/kernel.py,sha256=Zmu442REN6oO7m-W1JBEiyeUJUl7HpQ_-wR9h9dL5KY,13126
+ctwin32/ntdll.py,sha256=NivH9VZAKuvj42ttbRah-PB76uQu6Skerb5dRB7u1Q0,14564
+ctwin32/setupapi.py,sha256=AvyaKitvHMEdyIW0FBR_5Q1x3-F1uelYM7jdDFF1jyw,16743
+ctwin32/shell.py,sha256=CRgij8DSKG-_SwFTpxcCrqHatU4Bq-nmUHbxQUXHpao,3359
+ctwin32/user.py,sha256=P50Lzx2Cq134f5jvOloGNSFfs8L_VACHGSIRnKs_orU,12848
+ctwin32-0.1.3.dist-info/METADATA,sha256=mnaNlPFwVT3a4bv67uLSEhSAf0JyDhwNJrpvz5c6v2M,315
+ctwin32-0.1.3.dist-info/WHEEL,sha256=WoE84lFhzpl5kFoOWeOKUr67l1o9c9Tie8ccxFQmzBU,98
+ctwin32-0.1.3.dist-info/top_level.txt,sha256=SnZXty73y3mostbKyse4Rx3npdjwoeDcvmUOXIZnC8w,8
+ctwin32-0.1.3.dist-info/RECORD,,
