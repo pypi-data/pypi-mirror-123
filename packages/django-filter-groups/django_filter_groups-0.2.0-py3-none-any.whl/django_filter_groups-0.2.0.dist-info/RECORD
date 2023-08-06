@@ -1,0 +1,13 @@
+LICENSE,sha256=EQpmJ0f8qqEDwjTOqDcYqvIrJh3mY3nU1xaNDdQAMHk,1519
+django_filter_groups/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+django_filter_groups/forms.py,sha256=ceUgANn6HAeoo4IO023MHzQ24M7XJX4sboiNz0OBpUc,632
+django_filter_groups/static/django_filter_groups/filter-defaults.js,sha256=tbsw0W-aCFnE-9oQ6lofuDCeuNuv9G52OmKATKVIAhI,56
+django_filter_groups/static/django_filter_groups/filter.css,sha256=jVuPy775LiwvBfUe92S6P9NuhA9bNKgJReQoLFq6kkQ,369
+django_filter_groups/static/django_filter_groups/filter.js,sha256=JGyfAXZKLVesJ3gbpKkBI18x1IiNqfN33zPgow3IXOo,5290
+django_filter_groups/templates/filters.html,sha256=rIJD_NJ2764RH1hiCL19Abu5HZmgjsZUEw5HcZGNM9I,1282
+django_filter_groups/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_filter_groups/templatetags/django_filters_groups.py,sha256=y2ELQQZ2Osc6nJEDQhrBoIrYzK3WeJuiQZSp498v_VA,3098
+django_filter_groups-0.2.0.dist-info/LICENSE,sha256=EQpmJ0f8qqEDwjTOqDcYqvIrJh3mY3nU1xaNDdQAMHk,1519
+django_filter_groups-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_filter_groups-0.2.0.dist-info/METADATA,sha256=hNgKlHptbjpFzeL__ZBlp2Y1DxC7R1if6PR4JnRg-y0,1059
+django_filter_groups-0.2.0.dist-info/RECORD,,
