@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: trading.backtester
+Version: 1.0.1
+Summary: trading-strategies is the Quant Team's Strategy Python Library
+Home-page: UNKNOWN
+Author: SwapooLabs Quantitative Developers
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

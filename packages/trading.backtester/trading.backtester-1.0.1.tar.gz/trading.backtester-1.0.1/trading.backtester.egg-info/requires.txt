@@ -1,0 +1,4 @@
+python-dateutil>=2.0.0
+pytz>=2021.1
+talib-binary~=0.4
+trading.datasets-core~=0.6
