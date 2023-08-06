@@ -1,0 +1,17 @@
+.coveragerc
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tox.ini
+src/futureproof/__init__.py
+src/futureproof/executors.py
+src/futureproof/task_manager.py
+src/futureproof.egg-info/PKG-INFO
+src/futureproof.egg-info/SOURCES.txt
+src/futureproof.egg-info/dependency_links.txt
+src/futureproof.egg-info/requires.txt
+src/futureproof.egg-info/top_level.txt
+tests/conftest.py
+tests/test_futureproof.py
