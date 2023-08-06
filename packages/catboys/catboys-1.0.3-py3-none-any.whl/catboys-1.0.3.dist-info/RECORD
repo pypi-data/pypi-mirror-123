@@ -1,0 +1,10 @@
+catboys/__init__.py,sha256=B0Wnb1O2G2HL-C33q5VhigI_U4O_m2jx6ZJb_4_yeoU,112
+catboys/catboys.py,sha256=II2CwUzm48_8irVOTc5HmLX-wdFa85UHKahwL1gtx80,983
+catboys/dict.py,sha256=R_AHTUL1xdpu_OX5mVsJj6VVhPjK1TUoKh-oliqFxOI,164
+catboys/errors.py,sha256=einr1MUHaPIbuiYjqI4ikeNCJ0itEM9fgy3KDFpN2P4,395
+catboys/http.py,sha256=829EhoEA-Nk18NyMqkdWliRdcwYV-3B7Afel4xEhPes,1064
+catboys-1.0.3.dist-info/LICENSE,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+catboys-1.0.3.dist-info/METADATA,sha256=n39CLcdReLf6ve0jEfOt02esYu8li-j6K5AHZrHIyDc,1227
+catboys-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+catboys-1.0.3.dist-info/top_level.txt,sha256=YWbxy3melG2k3wh_oPuYpLDiceuQmO12zqNetz984B4,8
+catboys-1.0.3.dist-info/RECORD,,
