@@ -1,0 +1,10 @@
+magicgui
+matplotlib
+json5
+napari
+napari-plugin-engine>=0.1.4
+numpy
+pandas
+scikit-image
+scipy
+qtpy
