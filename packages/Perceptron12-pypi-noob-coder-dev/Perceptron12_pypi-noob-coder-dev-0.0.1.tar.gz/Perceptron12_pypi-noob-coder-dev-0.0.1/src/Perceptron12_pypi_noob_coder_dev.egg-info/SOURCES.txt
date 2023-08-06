@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Perceptron12_pypi_noob_coder_dev.egg-info/PKG-INFO
+src/Perceptron12_pypi_noob_coder_dev.egg-info/SOURCES.txt
+src/Perceptron12_pypi_noob_coder_dev.egg-info/dependency_links.txt
+src/Perceptron12_pypi_noob_coder_dev.egg-info/top_level.txt
+src/perceptron/__init__.py
+src/perceptron/perceptron_class.py
