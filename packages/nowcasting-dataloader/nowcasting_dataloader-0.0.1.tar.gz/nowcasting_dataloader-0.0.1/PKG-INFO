@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nowcasting_dataloader
+Version: 0.0.1
+Summary: Nowcasting Dataset
+Home-page: UNKNOWN
+Author: Jack Kelly, Peter Dudfield, Jacob Bieker
+Author-email: info@openclimatefix.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nowcasting-dataloader
+PyTorch Dataloader for working with multi-modal data for nowcasting applications
+
+
