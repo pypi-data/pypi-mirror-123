@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: frolick
+Version: 0.0.1
+Summary: Frolick. Build your frontend with Python.
+Home-page: https://github.com/greentfrapp/frolick
+Author: The Frolick Authors
+Author-email: limsweekiat@gmail.com
+License: Apache License 2.0
+Keywords: frontend,webdev
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# viper
+Build your frontend with Python
+
+

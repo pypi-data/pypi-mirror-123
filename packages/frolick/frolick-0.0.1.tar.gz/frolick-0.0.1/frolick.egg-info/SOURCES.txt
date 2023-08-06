@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+frolick/__init__.py
+frolick.egg-info/PKG-INFO
+frolick.egg-info/SOURCES.txt
+frolick.egg-info/dependency_links.txt
+frolick.egg-info/requires.txt
+frolick.egg-info/top_level.txt
