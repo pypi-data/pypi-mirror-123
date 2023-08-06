@@ -1,0 +1,3 @@
+[console_scripts]
+yabf = yabf.cli:main
+
