@@ -1,0 +1,13 @@
+numpy
+sounddevice
+
+[io]
+scipy
+pyfftw
+
+[lint]
+flake8
+mypy
+
+[tests]
+pytest

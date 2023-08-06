@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/soothingsounds/__init__.py
+src/soothingsounds/generator.py
+src/soothingsounds/plots.py
+src/soothingsounds/signal_acoustics.py
+src/soothingsounds.egg-info/PKG-INFO
+src/soothingsounds.egg-info/SOURCES.txt
+src/soothingsounds.egg-info/dependency_links.txt
+src/soothingsounds.egg-info/not-zip-safe
+src/soothingsounds.egg-info/requires.txt
+src/soothingsounds.egg-info/top_level.txt
