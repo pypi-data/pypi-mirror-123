@@ -1,0 +1,4 @@
+[console_scripts]
+accPlot = accelerometer.accPlot:main
+accProcess = accelerometer.accProcess:main
+
