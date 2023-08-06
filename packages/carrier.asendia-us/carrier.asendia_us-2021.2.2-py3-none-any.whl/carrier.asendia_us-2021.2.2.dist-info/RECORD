@@ -1,0 +1,12 @@
+asendia_us_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asendia_us_lib/shipping_close_dispatch_request.py,sha256=HtaYl_jFpaM-fAKkfaOyuV07Grn52kbbRR9FV2km40E,265
+asendia_us_lib/shipping_close_dispatch_response.py,sha256=HcQiUGrm44b-xl7F2fKQl_ybXYORK4IW6UrDYTaK5vQ,728
+asendia_us_lib/shipping_rate_request.py,sha256=JixC-oOwDezy6tnFglbgAWsBDSSm8RiejNHdTQ12NUI,588
+asendia_us_lib/shipping_rate_response.py,sha256=_c3WAkrEqA38TbcPM_s6rt4yKsumIWqkh11nBLaQ360,564
+asendia_us_lib/shipping_request.py,sha256=Et3AW1HZs1usXvO7_1yaAUfYCf2Pebsu9wWLXSfyAGk,2906
+asendia_us_lib/shipping_response.py,sha256=g0M4u5bUFpVsn2tEcLGTNe4ympquuJn2hGU9IJ8G7YE,704
+asendia_us_lib/tracking_details_response.py,sha256=oFmgh62vE22bYiaiCeTHBIeYLJDD7ZxVMtCr2tLH52c,1128
+asendia_us_lib/tracking_milestone_response.py,sha256=efLslRGcI2Trvj7rHkD5_8BzV_ujPaz6bt-3OY3DnwU,823
+carrier.asendia_us-2021.2.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+carrier.asendia_us-2021.2.2.dist-info/METADATA,sha256=gRQbmG0P8cQNIIyiZkrLKwdkYHmNnyGYwFXvfSrpJmU,1151
+carrier.asendia_us-2021.2.2.dist-info/RECORD,,
