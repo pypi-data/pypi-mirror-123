@@ -1,0 +1,3 @@
+[console_scripts]
+scoach=scoach.cli:app
+
