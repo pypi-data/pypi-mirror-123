@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: click-extra
+Version: 0.0.1
+Summary: 🌈 Extra colorization and configuration file for Click.
+Home-page: https://github.com/kdeldycke/click-extra
+License: GPL-2.0-or-later
+Keywords: CLI,color,toml,yaml,configuration,click,terminal
+Author: Kevin Deldycke
+Author-email: kevin@deldycke.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: boltons (>=21.0.0,<22.0.0)
+Requires-Dist: click (>=8.0.2,<9.0.0)
+Requires-Dist: cloup (>=0.12.1,<0.13.0)
+Requires-Dist: tomli (>=1.2.1,<2.0.0)
+Project-URL: Changelog, https://github.com/kdeldycke/click-extra/blob/main/changelog.md
+Project-URL: Documentation, https://kdeldycke.github.io/click-extra#readme
+Project-URL: Funding, https://github.com/sponsors/kdeldycke
+Project-URL: Issues, https://github.com/kdeldycke/click-extra/issues
+Project-URL: Repository, https://github.com/kdeldycke/click-extra
+Description-Content-Type: text/markdown
+
+# Click Extra
+
+[![Last release](https://img.shields.io/pypi/v/click-extra.svg)](https://pypi.python.org/pypi/click-extra)
+[![Python versions](https://img.shields.io/pypi/pyversions/click-extra.svg)](https://pypi.python.org/pypi/click-extra)
+[![Unittests status](https://github.com/kdeldycke/click-extra/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/kdeldycke/click-extra/actions/workflows/tests.yaml?query=branch%3Amain)
+[![Coverage status](https://codecov.io/gh/kdeldycke/click-extra/branch/main/graph/badge.svg)](https://codecov.io/gh/kdeldycke/click-extra/branch/main)
+
+**What is Click Extra?**
+
+`click-extra` is a collection of helpers and utilities for
+[Click](https://click.palletsprojects.com), the Python CLI framework.
+
+It mainly consist of hacks, workarounds and other patches that have not reached
+upstream yet. Or are unlikely to be accepted upstream.
+
+## Installation
+
+Install `click-extra` with `pip`:
+
+```shell-session
+$ pip install click-extra
+```
+
+## Features
+
+- Platform recognition utilities
+- `unless_linux`, `unless_macos`, `unless_windows` markers for `pytest`
+- `destructive` and `non_destructive` markers for `pytest`
+
+## Dependencies
+
+Here is a graph of Python package dependencies:
+
+![click-extra dependency graph](https://github.com/kdeldycke/click-extra/blob/main/dependencies.png)
+
+## Development
+
+[Development guidelines](https://kdeldycke.github.io/meta-package-manager/development.html)
+are the same as
+[parent project `mpm`](https://github.com/kdeldycke/meta-package-manager), from
+which `click-extra` originated.
+
