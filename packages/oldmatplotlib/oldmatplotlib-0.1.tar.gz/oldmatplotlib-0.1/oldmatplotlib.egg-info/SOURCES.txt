@@ -1,0 +1,7 @@
+setup.py
+oldmatplotlib/__init__.py
+oldmatplotlib.egg-info/PKG-INFO
+oldmatplotlib.egg-info/SOURCES.txt
+oldmatplotlib.egg-info/dependency_links.txt
+oldmatplotlib.egg-info/requires.txt
+oldmatplotlib.egg-info/top_level.txt
