@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pywinschedule/__init__.py
+pywinschedule/main.py
+pywinschedule.egg-info/PKG-INFO
+pywinschedule.egg-info/SOURCES.txt
+pywinschedule.egg-info/dependency_links.txt
+pywinschedule.egg-info/entry_points.txt
+pywinschedule.egg-info/requires.txt
+pywinschedule.egg-info/top_level.txt
