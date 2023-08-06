@@ -1,0 +1,9 @@
+numpy
+pylab
+scipy
+
+[dev]
+check-manifest
+
+[test]
+coverage
