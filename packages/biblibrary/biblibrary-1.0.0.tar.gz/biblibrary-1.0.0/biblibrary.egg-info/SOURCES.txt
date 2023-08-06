@@ -1,0 +1,10 @@
+README.md
+setup.py
+biblibrary/__init__.py
+biblibrary/main.py
+biblibrary.egg-info/PKG-INFO
+biblibrary.egg-info/SOURCES.txt
+biblibrary.egg-info/dependency_links.txt
+biblibrary.egg-info/entry_points.txt
+biblibrary.egg-info/requires.txt
+biblibrary.egg-info/top_level.txt
