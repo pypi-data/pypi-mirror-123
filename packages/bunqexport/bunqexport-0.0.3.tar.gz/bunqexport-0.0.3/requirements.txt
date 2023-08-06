@@ -1,0 +1,2 @@
+bunq_sdk
+pandas

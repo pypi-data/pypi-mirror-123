@@ -1,0 +1,11 @@
+bunq_sdk
+pandas
+
+[dev]
+autopep8
+flake8
+nose
+pre-commit
+pylint
+twine
+coverage
