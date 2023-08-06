@@ -1,0 +1,4 @@
+numpy
+pyyaml
+coolname
+PyQt6
