@@ -1,0 +1,4 @@
+Parsley
+distro
+packaging
+pbr>=2.0.0
