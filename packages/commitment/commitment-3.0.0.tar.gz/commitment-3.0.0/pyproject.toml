@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "commitment"
+version = "3.0.0"
+description = "An incomplete Python 3 wrapper for the GitHub API"
+authors = ["chris48s"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/chris48s/commitment"
+homepage = "https://github.com/chris48s/commitment"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.*"
+
+[tool.poetry.dev-dependencies]
+coverage = "^6.0"
+isort = "^5.8"
+flake8 = "^4.0.1"
+black = { version = "==21.9b0", allow-prereleases = true }
+
+[build-system]
+requires = ["poetry>=1.0.2"]
+build-backend = "poetry.masonry.api"
