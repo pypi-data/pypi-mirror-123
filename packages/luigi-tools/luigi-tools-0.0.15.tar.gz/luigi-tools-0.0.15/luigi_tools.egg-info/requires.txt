@@ -1,0 +1,9 @@
+luigi
+
+[docs]
+m2r2
+sphinx
+sphinx-bluebrain-theme
+
+[graphviz]
+graphviz
