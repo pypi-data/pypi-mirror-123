@@ -1,0 +1,7 @@
+PySDM==1.17
+PyMPDATA==0.9
+atmos-cloud-sim-uj-utils==0.3
+pystrict
+matplotlib
+ipywidgets
+ghapi
