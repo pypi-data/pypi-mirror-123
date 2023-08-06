@@ -1,0 +1,13 @@
+tin/__init__.py,sha256=V8YPseNhrvDpIhLrRlD1KRt4bsRgQEuIioErTQE8stg,211
+tin/api.py,sha256=AfIdfyf96YQSa9SoFwrNFBtt_yBT7L1aSCnS7iK0kbg,16189
+tin/auth.py,sha256=2gef573rbrd6sJ6zLGrg3KM8UrLYB2KlqaE7gcIRvoM,587
+tin/base.py,sha256=uxQ5gbyYQmwWsn4okD9WEUMtxcsrSFRB2mU8QBGKVwo,2411
+tin/config.py,sha256=4IfoXPTITpk0D8Rb4yz9cOJ05Rx19gc10eFDlS2NnA4,15437
+tin/exceptions.py,sha256=IpO2Q1pnAkrdFb1rU2yK7lm9lDKu4m86A3Vz8pCoGiU,737
+tin/models.py,sha256=6o_oihjQTHMw1fTkfPeXFWnGMoC8yyE-SiPkVhQgZ9Q,6062
+tin/response.py,sha256=TvP38tG9tA4lst_2jakQbPqi7TDUhecM7PfBO5CwIwA,4035
+tin/version.py,sha256=dMifhinoNq6r_RI3Bo1xdy0Bm8xfx1gjkqFWcXK9QuM,18
+tin-1.3.6.dist-info/LICENSE,sha256=72eYYhtramxTzu4MKjw0ikaEbN1YLy_X4oKtveSR4n0,11382
+tin-1.3.6.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+tin-1.3.6.dist-info/METADATA,sha256=FCHsYuGH12Xvl37gHOidTc4ntyDZaO-_RabBar7OSmI,4875
+tin-1.3.6.dist-info/RECORD,,
