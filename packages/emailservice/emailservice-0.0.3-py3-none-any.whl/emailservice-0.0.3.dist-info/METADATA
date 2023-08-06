@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: emailservice
+Version: 0.0.3
+Summary: Email Service Package
+Home-page: https://github.com/Chaitanyadp/EmailService.git
+Author: Chaitanya Patil
+Author-email: <cdpgdg@gmail.com>
+License: UNKNOWN
+Keywords: email,smtp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+A package that allows to send emails with ease.
+
+
