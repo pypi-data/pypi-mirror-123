@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+<section class="section" id="app">
+    <div class="container">
+        <h1 class="title is-2">Hausackerweg 18</h1>
+        <hr>
+
+        <h2 class="subtitle is-3">Wake on lan</h2>
+        <div v-for="host in hosts">
+            <button class="button" @click="wakeupHost(host.name)">Wake up "{{host.name}}"</button>
+        </div>
+        <hr/>
+
+        <h2 class="subtitle is-3">Thermostats</h2>
+        <div class="box" v-for="thermostat in thermostats">
+            <h3 class="subtitle is-5">{{thermostat.name}}</h3>
+            <div class="columns">
+                <div class="column is-three-fifths">
+                    <input class="slider"
+                           type="range"
+                           v-model="thermostat.temperature"
+                           min="5"
+                           max="29.5"
+                           step="1"
+                           value="11">
+                </div>
+                <div class="column">
+                    <button class="button" @click="changeTemperature(thermostat)">Change to {{thermostat.temperature}}° C</button>
+                </div>
+            </div>
+            <div class="buttons">
+                <button v-for="temperature in defaultTemperatures" class="button" @click="changeTemperatureTo(thermostat.name, temperature)">
+                    {{temperature}}°C
+                </button>
+                <button class="button" @click="changeToAutomatic(thermostat.name)">
+                    Automatic
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/static/script.js" type="text/javascript"></script>
+</body>
+</html>
