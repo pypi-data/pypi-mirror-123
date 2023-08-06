@@ -1,0 +1,7 @@
+include rvlib/metadata.yaml
+include README.md
+include build_lib.py
+include LICENSE.txt
+recursive-include src *
+recursive-include include *
+include build_interface.py
