@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/py.typed
+src/krdict/__init__.py
+src/krdict/params.py
+src/krdict/results.py
+src/krdict.py.egg-info/PKG-INFO
+src/krdict.py.egg-info/SOURCES.txt
+src/krdict.py.egg-info/dependency_links.txt
+src/krdict.py.egg-info/top_level.txt
