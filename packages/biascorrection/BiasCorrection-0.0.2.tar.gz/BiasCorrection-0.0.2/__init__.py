@@ -1,0 +1,54 @@
+def LS_precipitation(obs, sim, date):
+    for i in zip(obs.columns, sim.columns):
+        obs_station, sim_station = i
+        Jan_obs_mean = (obs.loc[1, [obs_station]]).mean()
+        Feb_obs_mean = (obs.loc[2, [obs_station]]).mean()
+        Mar_obs_mean = (obs.loc[3, [obs_station]]).mean()
+        Apl_obs_mean = (obs.loc[4, [obs_station]]).mean()
+        May_obs_mean = (obs.loc[5, [obs_station]]).mean()
+        Jun_obs_mean = (obs.loc[6, [obs_station]]).mean()
+        Jul_obs_mean = (obs.loc[7, [obs_station]]).mean()
+        Aug_obs_mean = (obs.loc[8, [obs_station]]).mean()
+        Sep_obs_mean = (obs.loc[9, [obs_station]]).mean()
+        Oct_obs_mean = (obs.loc[10, [obs_station]]).mean()
+        Nov_obs_mean = (obs.loc[11, [obs_station]]).mean()
+        Dec_obs_mean = (obs.loc[12, [obs_station]]).mean()
+        Jan_his_mean = (sim.loc[1, [sim_station]]).mean()
+        Feb_his_mean = (sim.loc[2, [sim_station]]).mean()
+        Mar_his_mean = (sim.loc[3, [sim_station]]).mean()
+        Apl_his_mean = (sim.loc[4, [sim_station]]).mean()
+        May_his_mean = (sim.loc[5, [sim_station]]).mean()
+        Jun_his_mean = (sim.loc[6, [sim_station]]).mean()
+        Jul_his_mean = (sim.loc[7, [sim_station]]).mean()
+        Aug_his_mean = (sim.loc[8, [sim_station]]).mean()
+        Sep_his_mean = (sim.loc[9, [sim_station]]).mean()
+        Oct_his_mean = (sim.loc[10, [sim_station]]).mean()
+        Nov_his_mean = (sim.loc[11, [sim_station]]).mean()
+        Dec_his_mean = (sim.loc[12, [sim_station]]).mean()
+        Jan_mean = Jan_obs_mean / Jan_his_mean
+        Feb_mean = Feb_obs_mean / Feb_his_mean
+        Mar_mean = Mar_obs_mean / Mar_his_mean
+        Apl_mean = Apl_obs_mean / Apl_his_mean
+        May_mean = May_obs_mean / May_his_mean
+        Jun_mean = Jun_obs_mean / Jun_his_mean
+        Jul_mean = Jul_obs_mean / Jul_his_mean
+        Aug_mean = Aug_obs_mean / Aug_his_mean
+        Sep_mean = Sep_obs_mean / Sep_his_mean
+        Oct_mean = Oct_obs_mean / Oct_his_mean
+        Nov_mean = Nov_obs_mean / Nov_his_mean
+        Dec_mean = Dec_obs_mean / Dec_his_mean
+        RCM_Jan = sim.loc[1, [sim_station]] * Jan_mean
+        RCM_Feb = sim.loc[2, [sim_station]] * Feb_mean
+        RCM_Mar = sim.loc[3, [sim_station]] * Mar_mean
+        RCM_Apl = sim.loc[4, [sim_station]] * Apl_mean
+        RCM_May = sim.loc[5, [sim_station]] * May_mean
+        RCM_Jun = sim.loc[6, [sim_station]] * Jun_mean
+        RCM_Jul = sim.loc[7, [sim_station]] * Jul_mean
+        RCM_Aug = sim.loc[8, [sim_station]] * Aug_mean
+        RCM_Sep = sim.loc[9, [sim_station]] * Sep_mean
+        RCM_Oct = sim.loc[10, [sim_station]] * Oct_mean
+        RCM_Nov = sim.loc[11, [sim_station]] * Nov_mean
+        RCM_Dec = sim.loc[12, [sim_station]] * Dec_mean
+        df = pd.concat([RCM_Jan, RCM_Feb, RCM_Mar, RCM_Apl, RCM_May, RCM_Jun, RCM_Jul, RCM_Aug, RCM_Sep, RCM_Oct, RCM_Nov, RCM_Dec], axis = 0)
+        df.set_index(date.index, inplace= True)
+        return df
