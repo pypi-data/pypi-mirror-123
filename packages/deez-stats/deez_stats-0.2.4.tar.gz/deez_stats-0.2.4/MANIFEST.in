@@ -1,0 +1,3 @@
+include deez_stats/pyquery/files/json/*.json
+include deez_stats/pyquery/files/database/history.db
+include deez_stats/pyquery/files/output/outfile.json
