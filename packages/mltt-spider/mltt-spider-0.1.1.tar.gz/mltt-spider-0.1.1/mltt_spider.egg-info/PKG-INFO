@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mltt-spider
+Version: 0.1.1
+Summary: help people find spider
+Home-page: https://lossyou.com
+Author: OuYanghaoyue
+Author-email: 111@qq.com
+License: Proprietary
+Description: help people find spider
+        
+Keywords: Pypi
+Platform: UNKNOWN
+Classifier: License :: Free For Educational Use
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
