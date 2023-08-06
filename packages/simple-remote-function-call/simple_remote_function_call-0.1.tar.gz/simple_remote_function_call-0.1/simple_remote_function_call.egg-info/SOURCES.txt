@@ -1,0 +1,12 @@
+README.md
+setup.py
+simple_remote_function_call/__init__.py
+simple_remote_function_call/client.py
+simple_remote_function_call/globals.py
+simple_remote_function_call/wsgi.py
+simple_remote_function_call.egg-info/PKG-INFO
+simple_remote_function_call.egg-info/SOURCES.txt
+simple_remote_function_call.egg-info/dependency_links.txt
+simple_remote_function_call.egg-info/entry_points.txt
+simple_remote_function_call.egg-info/requires.txt
+simple_remote_function_call.egg-info/top_level.txt
