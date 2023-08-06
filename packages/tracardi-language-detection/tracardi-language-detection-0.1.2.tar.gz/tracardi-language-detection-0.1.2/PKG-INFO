@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: tracardi-language-detection
+Version: 0.1.2
+Summary: This plugin detect language from given string with meaningcloud API
+Home-page: UNKNOWN
+Author: Patryk Migaj
+Author-email: patromi123@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Language detection Plugin
+
+The purpose of this plugin is  detect language from given string with meaningcloud API
+
+# Configuration
+
+This node requires configuration. You need have a account in meaningcloud to provide your API https://www.meaningcloud.com/
+
+## Message configuration
+* id - Enter your resource id
+* message: None, - Enter your message
+* key: None, - Enter your Key you can find it on https://www.meaningcloud.com/developer/account/subscriptions
+
+
+## Example of action configuration
+
+```json
+        {"source": {
+                "id": "55584df6-9ee3-4acd-a0ea-e555122f3dbc",
+            },
+                "message": {"message": """Welcome aboard
+        Please pay attention as we demonstrate
+        The safety features of this aircraft"""},
+                "key": {"key": "YOUR KEY"
+                        }}
+```
+
+
+
+# Input payload
+
+This node does not process input payload.
+
+# Output
+
+This node returns json with yours datas.
+
+

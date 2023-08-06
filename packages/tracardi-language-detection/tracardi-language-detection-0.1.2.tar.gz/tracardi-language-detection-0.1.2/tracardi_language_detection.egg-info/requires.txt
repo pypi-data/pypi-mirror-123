@@ -1,0 +1,2 @@
+tracardi-plugin-sdk>=0.6.21
+tracardi<0.7.0,>=0.6.18
