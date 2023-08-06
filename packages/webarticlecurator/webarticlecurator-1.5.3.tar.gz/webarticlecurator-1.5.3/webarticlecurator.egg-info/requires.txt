@@ -1,0 +1,9 @@
+beautifulsoup4
+chardet
+newspaper3k
+pyyaml
+ratelimit
+requests
+urllib3
+warcio
+yamale
