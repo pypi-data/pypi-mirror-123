@@ -1,0 +1,3 @@
+[console_scripts]
+msexpert = msexpert.cli:run
+
