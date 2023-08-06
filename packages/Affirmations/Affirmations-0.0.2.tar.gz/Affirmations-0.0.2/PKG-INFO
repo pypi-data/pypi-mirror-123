@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Affirmations
+Version: 0.0.2
+Summary: Randomly adds affirming print statements to functions.
+Home-page: https://github.com/TimNicholsonShaw/affirmation
+Author: Tim Nicholson-Shaw
+Author-email: timnicholsonshaw@gmail.com
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/TimNicholsonShaw/affirmation
+Keywords: Self Care
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# affirmation
+
