@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython", "numpy", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.cibuildwheel]
+# Skip 32-bit builds & PyPy wheels on all platforms
+skip = ["*-win32", "*-manylinux_i686", "pp*", "*musllinux*"]
+
+[tool.cibuildwheel.macos]
+archs = ["x86_64", "arm64"]
+
+[tool.isort]
+profile = "black"
+src_paths = "bds_sampler"
+multi_line_output = 3
+
+[tool.pydocstyle]
+match_dir = "bds_sampler"
+convention = "numpy"
+add_select = ["D402","D415","D417"]
+
+[tool.pytest.ini_options]
+addopts = "-W error"
+
+[tool.mypy]
+files = "bds_sampler"
+warn_unused_configs = true
+warn_unused_ignores = true
+check_untyped_defs = true
+implicit_reexport = false
+# this is strict!
+# disallow_untyped_defs = true
+show_column_numbers = true
+show_error_codes = true
+ignore_missing_imports = true
