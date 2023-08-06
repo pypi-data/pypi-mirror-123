@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: labelsnow
+Version: 0.0.1
+Summary: Labelbox Connector for Snowflake
+Home-page: https://labelbox.com
+Author: Labelbox
+Author-email: ecosystem+snowflake@labelbox.com
+License: UNKNOWN
+Keywords: labelbox,labelsnow
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: labelbox
+Requires-Dist: pandas
+Requires-Dist: snowflake-connector-python
+
+# labelsnow
+
