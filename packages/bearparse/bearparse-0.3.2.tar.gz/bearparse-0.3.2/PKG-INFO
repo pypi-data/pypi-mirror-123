@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: bearparse
+Version: 0.3.2
+Summary: A custom argument parser for non-standard arguments. Useful for Appworx
+Home-page: https://git.zevaryx.com/zevaryx/bearparse
+License: GPL-3.0-or-later
+Author: Zevaryx
+Author-email: zevaryx@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: attrs (>=21.2.0,<22.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://git.zevaryx.com/zevaryx/bearparse
+Description-Content-Type: text/markdown
+
+# bearparse
+
+![Python Unittests](https://github.com/zevaryx/bearparse/actions/workflows/python-package.yaml/badge.svg) [![codecov](https://codecov.io/gh/zevaryx/bearparse/main/graph/badge.svg?token=GG7DVUW7RJ)](https://codecov.io/gh/zevaryx/bearparse)
+
+[![pipeline status](https://git.zevaryx.com/zevaryx/bearparse/badges/main/pipeline.svg)](https://git.zevaryx.com/zevaryx/bearparse/-/commits/main)
+[![coverage report](https://git.zevaryx.com/zevaryx/bearparse/badges/main/coverage.svg)](https://git.zevaryx.com/zevaryx/bearparse/-/commits/main)
+
+A custom argument parser for non-standard arguments. Useful for Appworx
+
+## Purpose
+
+To simplify
+
+## Requirements
+
+- Python 3.8+
+
+## Usage
+
+```py
+from bearparse import Argument, ArgumentParser
+
+# Create the parser
+parser = ArgumentParser(description="Program Description")
+parser.add_argument(Argument(name="arg", description="First Argument"))
+parser.add_argument(Argument(name="arg2", description="Required Argument", required=True))
+
+# Parse from argv
+args = parser.parse_args()
+
+print(args.parsed)
+```
+
