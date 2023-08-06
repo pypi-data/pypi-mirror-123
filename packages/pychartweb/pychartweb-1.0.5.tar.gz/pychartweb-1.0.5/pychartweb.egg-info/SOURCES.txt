@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pychartweb/__init__.py
+pychartweb/pychart.py
+pychartweb.egg-info/PKG-INFO
+pychartweb.egg-info/SOURCES.txt
+pychartweb.egg-info/dependency_links.txt
+pychartweb.egg-info/requires.txt
+pychartweb.egg-info/top_level.txt
