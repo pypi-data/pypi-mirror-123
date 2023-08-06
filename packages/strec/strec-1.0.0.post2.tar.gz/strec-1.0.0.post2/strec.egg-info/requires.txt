@@ -1,0 +1,7 @@
+blessings
+pexpect
+pyyaml
+
+[test]
+pytest
+pytest-cov
