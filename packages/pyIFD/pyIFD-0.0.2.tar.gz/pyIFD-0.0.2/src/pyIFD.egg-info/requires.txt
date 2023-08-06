@@ -1,0 +1,12 @@
+PyWavelets
+cython
+jpegio
+matplotlib
+numpy
+opencv-python
+pillow
+scikit-image
+scipy
+
+[tests]
+pytest
