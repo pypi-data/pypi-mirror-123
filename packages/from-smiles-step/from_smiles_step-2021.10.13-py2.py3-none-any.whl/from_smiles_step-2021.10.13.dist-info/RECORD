@@ -1,0 +1,14 @@
+from_smiles_step/__init__.py,sha256=iyJc3z_SywzNqbOhH1wfy-AnFaGGn2Dok3gyIu8ZcRQ,734
+from_smiles_step/_version.py,sha256=CKIAh_IxxpkM3ojxbWcUg8Awwsn58TVL3x4N_hYGUfU,502
+from_smiles_step/from_smiles.py,sha256=KKfCkmQkt_nrByYb_2aVBIwQWzVCZsSH0KZF8rg2J9U,8320
+from_smiles_step/from_smiles_parameters.py,sha256=pTSx0uZPoOfeP3PLW1G3CrEp9W8gb-POnDk_2k9i5tw,1009
+from_smiles_step/from_smiles_step.py,sha256=q6Ix5ZkeapjJoMG9Sxvsx4nZDzpCw8kFYGZBQWyOFBw,1207
+from_smiles_step/tk_from_smiles.py,sha256=yhLZ7ObsW0mv4EVyCx1TmGk-yUPAFmmm0tg6kYDTJQQ,1434
+from_smiles_step/data/references.bib,sha256=Y_8OfyPtf6aEoyNmMp8vbYFbKNHzPZ37d6D2Q029TWc,2257
+from_smiles_step-2021.10.13.dist-info/AUTHORS.rst,sha256=f4PS38yy6rjx4kY1k5dOlnzPlM1YNbdUFeOxeoKYKy4,126
+from_smiles_step-2021.10.13.dist-info/LICENSE,sha256=ovhCgaUWhGBfU79cLF7dBkmSMg8aIbyj7r4A0Zso8IE,1510
+from_smiles_step-2021.10.13.dist-info/METADATA,sha256=jrlg0W43WlWEDuQhW-K7fUTE_VNb0MWFy_rdEpnvtlI,5204
+from_smiles_step-2021.10.13.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+from_smiles_step-2021.10.13.dist-info/entry_points.txt,sha256=3ITLMZM1dWrgRjZbOSeoLg7QEUiGsVJPwssqHG_QFrk,141
+from_smiles_step-2021.10.13.dist-info/top_level.txt,sha256=3qasfUd8nNtUIhuQT-JNMyNAqoFeBRbGAPP-gFXYihc,17
+from_smiles_step-2021.10.13.dist-info/RECORD,,
