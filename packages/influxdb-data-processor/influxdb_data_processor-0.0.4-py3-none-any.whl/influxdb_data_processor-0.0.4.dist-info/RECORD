@@ -1,0 +1,7 @@
+influxdbDataProcessor/__init__.py,sha256=9xzPce6YJWLckgJdlES1AjSaCrgeGK42aGf_i1ixYFs,175
+influxdbDataProcessor/processor.py,sha256=uI6f68CSLPalz4UQHpLBpp5RJ8ZQDvyW-1VXZBYbHHg,6995
+influxdb_data_processor-0.0.4.dist-info/LICENSE,sha256=rmReu7jPbxuedCBjArBorVRWFmWu4HUsk7qyfNsI_-o,1070
+influxdb_data_processor-0.0.4.dist-info/METADATA,sha256=5boRKDkmOT-gyBHU7pxMKOrBm_oK9gKr5keBGrwyD9M,2408
+influxdb_data_processor-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+influxdb_data_processor-0.0.4.dist-info/top_level.txt,sha256=OVDNe2dshvRVY5VZeUdES958wGhOetp3EgqC21xblOA,22
+influxdb_data_processor-0.0.4.dist-info/RECORD,,
