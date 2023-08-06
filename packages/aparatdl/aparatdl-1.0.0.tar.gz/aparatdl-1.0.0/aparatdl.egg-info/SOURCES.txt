@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+aparatdl/__init__.py
+aparatdl/exceptions.py
+aparatdl/main.py
+aparatdl/scraper.py
+aparatdl.egg-info/PKG-INFO
+aparatdl.egg-info/SOURCES.txt
+aparatdl.egg-info/dependency_links.txt
+aparatdl.egg-info/top_level.txt
