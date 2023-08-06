@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wraparr"
+version = "0.2.1"
+description = "API wrapper for Radarr/Sonarr"
+authors = ["muqshots <82030029+muqshots@users.noreply.github.com>"]
+license = "GPL-3.0-or-later"
+
+keywords = ["sonarr", "radarr", "api", "wrapper"]
+
+homepage = "https://github.com/muqshots/wraparr"
+repository = "https://github.com/muqshots/wraparr"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
