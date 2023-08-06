@@ -1,0 +1,6 @@
+click~=8.0.1
+simple-term-menu
+kubernetes~=18.20.0
+requests~=2.26.0
+pyyaml
+sentry-sdk
