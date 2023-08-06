@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+fusionprov/__init__.py
+fusionprov/imasprov.py
+fusionprov/mastprov.py
+fusionprov/utilities.py
+fusionprov.egg-info/PKG-INFO
+fusionprov.egg-info/SOURCES.txt
+fusionprov.egg-info/dependency_links.txt
+fusionprov.egg-info/entry_points.txt
+fusionprov.egg-info/requires.txt
+fusionprov.egg-info/top_level.txt
