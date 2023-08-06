@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-account-closing
+Version: 12.0.20211016.0
+Summary: Meta package for oca-account-closing Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-account-cutoff-accrual-base
+Requires-Dist: odoo12-addon-account-cutoff-accrual-dates
+Requires-Dist: odoo12-addon-account-cutoff-accrual-picking
+Requires-Dist: odoo12-addon-account-cutoff-base
+Requires-Dist: odoo12-addon-account-cutoff-prepaid
+Requires-Dist: odoo12-addon-account-fiscal-year-closing
+Requires-Dist: odoo12-addon-account-invoice-start-end-dates
+Requires-Dist: odoo12-addon-account-multicurrency-revaluation
+Requires-Dist: odoo12-addon-account-multicurrency-revaluation-rate-type
+
+UNKNOWN
+
