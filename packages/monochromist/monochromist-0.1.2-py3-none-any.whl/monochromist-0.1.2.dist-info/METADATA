@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: monochromist
+Version: 0.1.2
+Summary: Convert your sketch into contour with transparent background
+Home-page: https://github.com/ozzzzz/monochromist
+License: MIT
+Author: Bogdan Neterebskii
+Author-email: bog2dan1@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colour (>=0.1.5,<0.2.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: numpy (>=1.20.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.1,<5.0.0)
+Project-URL: Repository, https://github.com/ozzzzz/monochromist
+Description-Content-Type: text/markdown
+
+# monochromist
+
+From sketch to contour with transparent background:
+
+![example](doc/images/cat_illustration.png)
+
+Minimum example:
+```bash
+monochromist -i <input image> -o <output image> -c "<color>"
+```
+
+For example:
+```bash
+monochromist -i doc/images/cat.jpg -o /tmp/cat.png -c "black"
+```
+
+For more settings run
+```bash
+monochromist --help
+```
