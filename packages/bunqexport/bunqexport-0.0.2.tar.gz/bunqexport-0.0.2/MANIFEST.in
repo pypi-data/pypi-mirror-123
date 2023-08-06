@@ -1,0 +1,5 @@
+include requirements.txt
+
+# Exclude of pyo and pyc files, (dev) depdencies, caches
+global-exclude *.py[co] .gitkeep
+prune setup.cfg
