@@ -1,0 +1,155 @@
+{
+    "": {
+        "domain": "jupyterlab",
+        "language": "ko-KR",
+        "plural_forms": "nplurals=1; plural=0;",
+        "version": "jupyterlab"
+    },
+    "%1 Item": [
+        "",
+        ""
+    ],
+    "About": [
+        "\uad00\ud558\uc5ec"
+    ],
+    "Add Checkpoint": [
+        "\uccb4\ud06c\ud3ec\uc778\ud2b8 \ucd94\uac00"
+    ],
+    "Are you sure you want to close all open tabs?": [
+        "\uc5f4\ub824\uc788\ub294 \ubaa8\ub4e0 \ud0ed\uc744 \ub2eb\uc73c\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+    ],
+    "Are you sure you want to permanently delete the %1 selected item?": [
+        "",
+        ""
+    ],
+    "Are you sure you want to permanently shut down all running kernels?": [
+        "\ud604\uc7ac \uc791\ub3d9 \uc911\uc778 \ubaa8\ub4e0 \ucee4\ub110\ub4e4\uc744 \uc601\uad6c\uc801\uc73c\ub85c \uc885\ub8cc\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+    ],
+    "Are you sure you want to permanently shut down all running terminals?": [
+        "\ud604\uc7ac \uc791\ub3d9 \uc911\uc778 \ubaa8\ub4e0 \ud130\ubbf8\ub110\ub4e4\uc744 \uc601\uad6c\uc801\uc73c\ub85c \uc885\ub8cc\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+    ],
+    "Cell Tags": [
+        "\uc140 \ud0dc\uadf8"
+    ],
+    "Change interface language?": [
+        "\ud45c\uc2dc \uc5b8\uc5b4\ub97c \ubcc0\uacbd\ud558\uc2dc\uaca0\uc2b5\ub2c8\uac00?"
+    ],
+    "Clear All": [
+        "\ubaa8\ub450 \uc9c0\uc6b0\uae30"
+    ],
+    "Clear Filters": [
+        "\ud544\ud130 \ucd08\uae30\ud654"
+    ],
+    "Close": [
+        "\ub2eb\uae30"
+    ],
+    "Close All": [
+        "\ubaa8\ub450 \ub2eb\uae30"
+    ],
+    "Close and Shutdown Notebook": [
+        "\ub178\ud2b8\ubd81\uc744 \uc885\ub8cc\ud558\uace0 \ub2eb\uae30"
+    ],
+    "Command Palette": [
+        "\uba85\ub839\uc5b4 \ud314\ub808\ud2b8"
+    ],
+    "Critical": [
+        "\uc2ec\uac01"
+    ],
+    "Debug": [
+        "\ub514\ubc84\uadf8"
+    ],
+    "Debugger": [
+        "\ub514\ubc84\uac70"
+    ],
+    "Decrease Terminal Font Size": [
+        "\ud130\ubbf8\ub110 \uae00\uc790 \ud06c\uae30 \uc791\uac8c"
+    ],
+    "Go to Line\u2026": [
+        "\ub77c\uc778\uc73c\ub85c \uac00\uae30"
+    ],
+    "Increase Terminal Font Size": [
+        "\ud130\ubbf8\ub110 \uae00\uc790 \ud06c\uae30 \ud06c\uac8c"
+    ],
+    "Info": [
+        "\uc815\ubcf4"
+    ],
+    "Kernels": [
+        "\ucee4\ub110"
+    ],
+    "New Terminal": [
+        "\uc0c8 \ud130\ubbf8\ub110"
+    ],
+    "No Tags Available": [
+        "\uc774\uc6a9 \uac00\ub2a5\ud55c \ud0dc\uadf8 \uc5c6\uc74c"
+    ],
+    "Reconnect to Kernel": [
+        "\ucee4\ub110 \uc7ac\uc5f0\uacb0 \uc2dc\ub3c4"
+    ],
+    "Scope": [
+        "\uc2a4\ucf54\ud504"
+    ],
+    "Server unavailable or unreachable": [
+        "\uc11c\ubc84\uc5d0 \uc811\uadfc\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4"
+    ],
+    "Settings": [
+        "\uc124\uc815"
+    ],
+    "Simple": [
+        "\ub2e8\uc21c"
+    ],
+    "Simple Interface": [
+        "\ub2e8\uc21c\ud55c \uc778\ud130\ud398\uc774\uc2a4"
+    ],
+    "Simple Interface (%1)": [
+        "\ub2e8\uc21c\ud55c \uc778\ud130\ud398\uc774\uc2a4 (%1)"
+    ],
+    "Spaces: %1": [
+        "",
+        ""
+    ],
+    "Table View": [
+        "\ud14c\uc774\ube14 \ubcf4\uae30"
+    ],
+    "Table of Contents": [
+        "\ucc28\ub840"
+    ],
+    "Terminals": [
+        "\ud130\ubbf8\ub110"
+    ],
+    "Theme": [
+        "\ud14c\ub9c8"
+    ],
+    "This is a prebuilt extension. To uninstall it, please\n    apply following instructions.": [
+        "\ud574\ub2f9 \ud655\uc7a5 \ud504\ub85c\uadf8\ub7a8\uc740 \ube4c\ub4dc \uc774\uc804 \uc0c1\ud0dc\uc5d0 \uc788\uc2b5\ub2c8\ub2e4. \uc81c\uac70\ub97c \uc704\ud558\uc5ec    \ub2e4\uc74c\uc758 \uc808\ucc28\ub97c \uc218\ud589\ud558\uc2ed\uc2dc\uc624."
+    ],
+    "This is a prebuilt extension. To uninstall it, please\n    read the user guide on:": [
+        "\ud574\ub2f9 \ud655\uc7a5 \ud504\ub85c\uadf8\ub7a8\uc740 \ube4c\ub4dc \uc774\uc804 \uc0c1\ud0dc\uc5d0 \uc788\uc2b5\ub2c8\ub2e4. \uc81c\uac70\ub97c \uc704\ud558\uc5ec    \ub2e4\uc74c\uc758 \uc720\uc800 \uac00\uc774\ub4dc\ub97c \ucc38\uc870\ud558\uc2ed\uc2dc\uc624:"
+    ],
+    "Tree View": [
+        "\ud2b8\ub9ac \ubdf0"
+    ],
+    "schema\u0004Language settings.": [
+        "\uc5b8\uc5b4 \uc124\uc815"
+    ],
+    "schema\u0004Markdown Viewer": [
+        "\ub9c8\ud06c\ub2e4\uc6b4 \ubdf0\uc5b4"
+    ],
+    "schema\u0004Markdown viewer settings.": [
+        "\ub9c8\ud06c\ub2e4\uc6b4 \ubdf0\uc5b4 \uc124\uc815"
+    ],
+    "schema\u0004Print": [
+        "\uc778\uc1c4"
+    ],
+    "schema\u0004Print settings.": [
+        "\uc778\uc1c4 \uc124\uc815"
+    ],
+    "schema\u0004Sidebar": [
+        "\uc0ac\uc774\ub4dc\ubc14"
+    ],
+    "schema\u0004Theme": [
+        "\ud14c\ub9c8"
+    ],
+    "waiting for fonts": [
+        "\ud3f0\ud2b8 \ub85c\ub529 \uc911"
+    ]
+}
