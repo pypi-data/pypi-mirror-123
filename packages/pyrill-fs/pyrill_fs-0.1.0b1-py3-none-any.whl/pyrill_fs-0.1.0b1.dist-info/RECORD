@@ -1,0 +1,16 @@
+pyrill_fs/__init__.py,sha256=rZUHQu-9noM141fPnB5EMSblAz7gNVNJoxfwPZ3PbH0,129
+pyrill_fs/base.py,sha256=ZDkC-T1rdychrv4t-wbix17U0zZ_CpLHJwMLMkGxB9c,12899
+pyrill_fs/exceptions.py,sha256=hxVvWMMjoF0gbXUVkkbl1uk5jsjZuLjq7tGqcessC9g,432
+pyrill_fs/local.py,sha256=lrPU9V7m8kaH3AzjLoKC9-ts3pA6ZispKO6O5VU194k,6397
+pyrill_fs/s3.py,sha256=s_ikzrXYu8MbOhv5FxrS0Va35GFicnwqK2ZJcBKmKZA,14319
+pyrill_fs/hdfs/__init__.py,sha256=znMfw4WqjH2vdLSEvoxWBxpBKCyZaZgmgsNtRv_dals,8195
+pyrill_fs/hdfs/client.py,sha256=pYgAIGfiKCD1scPQ45UiCCZLAlHB3GC6YaeuuzaT0X8,11176
+pyrill_fs/hdfs/errors.py,sha256=p8HAml8bM5yMWYwCDsS6eKLRr0RYNR5LGf4rE1y-M8w,392
+pyrill_fs/hdfs/models.py,sha256=s-y0PIWll3VE0hvNkMX8d5c-_s7vn3YG9mE2fbkfvuI,4084
+pyrill_fs/hdfs/webhdfs_api_spec.py,sha256=7Ddmw8wWMLKvRDIOnIJSrTwdW4BBjIuR3Pri7rKD2-E,2140
+pyrill_fs-0.1.0b1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+pyrill_fs-0.1.0b1.dist-info/METADATA,sha256=0iA5Cc1AtZBjec9KBABHhLaytH5sxhtnh3aF4IK6-8M,826
+pyrill_fs-0.1.0b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyrill_fs-0.1.0b1.dist-info/top_level.txt,sha256=LdYSYfar3NxiR1q6AwTCC03ELTyra8fryKZdenYioE0,10
+pyrill_fs-0.1.0b1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyrill_fs-0.1.0b1.dist-info/RECORD,,
