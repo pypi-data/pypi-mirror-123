@@ -1,0 +1,15 @@
+matplotlib
+numpy
+pandas
+celluloid
+importlib_resources
+py2store
+lined
+argh
+graze
+scipy
+scikit-learn
+dol
+i2
+requests
+umap-learn
