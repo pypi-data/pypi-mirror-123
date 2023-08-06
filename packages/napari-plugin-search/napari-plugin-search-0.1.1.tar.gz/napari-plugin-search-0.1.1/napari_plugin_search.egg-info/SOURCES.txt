@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_plugin_search/__init__.py
+napari_plugin_search/_dock_widget.py
+napari_plugin_search.egg-info/PKG-INFO
+napari_plugin_search.egg-info/SOURCES.txt
+napari_plugin_search.egg-info/dependency_links.txt
+napari_plugin_search.egg-info/entry_points.txt
+napari_plugin_search.egg-info/requires.txt
+napari_plugin_search.egg-info/top_level.txt
+napari_plugin_search/_tests/__init__.py
+napari_plugin_search/_tests/test_dock_widget.py
