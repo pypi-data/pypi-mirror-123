@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dcm_processor/__init__.py
+dcm_processor/files.py
+dcm_processor/script.py
+dcm_processor/worker.py
+dcm_processor.egg-info/PKG-INFO
+dcm_processor.egg-info/SOURCES.txt
+dcm_processor.egg-info/dependency_links.txt
+dcm_processor.egg-info/entry_points.txt
+dcm_processor.egg-info/requires.txt
+dcm_processor.egg-info/top_level.txt
