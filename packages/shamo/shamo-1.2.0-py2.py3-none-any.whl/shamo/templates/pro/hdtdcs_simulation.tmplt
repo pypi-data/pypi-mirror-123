@@ -1,0 +1,127 @@
+// Template for simulating HD-tDCS.
+Group {
+{% include "dom.tmplt" %}
+
+{% include "dom_active.tmplt" %}
+    dom_active_point = Region[{ source_point }];
+    dom_active_real = Region[{ source_real, sink_real }];
+}
+
+Function {
+    {% include "sigma.tmplt" %}
+
+    current[source_point] = {{ current }};
+}
+
+Constraint {
+    { Name set_local_potential; Type Assign; Case { { Region sink_point; Value 0.; } } }
+    { Name set_global_potential; Type Assign; Case { { Region sink_real; Value 0.; } } }
+    { Name set_global_current; Type Assign; Case { { Region source_real; Value {{ current }}; } } }
+}
+
+FunctionSpace {
+    {
+        Name func_space; Type Form0;
+        BasisFunction {
+            {
+                Name sn; NameOfCoef vn; Function BF_Node;
+                Support Region[{ dom, dom_active_point, dom_active_real }];
+                Entity NodesOf[ All, Not dom_active_real ];
+            }
+            {
+                Name sf; NameOfCoef vf; Function BF_GroupOfNodes;
+                Support Region[{ dom, dom_active_point, dom_active_real }];
+                Entity GroupsOfNodesOf[ dom_active_real ];
+            }
+        }
+        GlobalQuantity {
+            { Name global_potential; Type AliasOf; NameOfCoef vf; }
+            { Name global_current; Type AssociatedWith; NameOfCoef vf; }
+        }
+        Constraint {
+            { NameOfCoef vn; EntityType NodesOf; NameOfConstraint set_local_potential; }
+            {
+                NameOfCoef global_potential; EntityType GroupsOfNodesOf;
+                NameOfConstraint set_global_potential;
+            }
+            {
+                NameOfCoef global_current; EntityType GroupsOfNodesOf;
+                NameOfConstraint set_global_current;
+            }
+        }
+    }
+}
+
+{% include "jacobian.tmplt" %}
+
+{% include "integration.tmplt" %}
+
+Formulation {
+    {
+        Name form; Type FemEquation;
+        Quantity {
+            { Name v; Type Local; NameOfSpace func_space; }
+            { Name U; Type Global; NameOfSpace func_space[ global_potential ]; }
+            { Name I; Type Global; NameOfSpace func_space[ global_current ]; }
+        }
+        Equation {
+            Integral {
+                [ sigma[] * Dof{ d v } , { d v } ];
+                In dom; Jacobian jac_vol; Integration int;
+            }
+            Integral {
+                [ -current[] , { v } ];
+                In dom_active_point; Jacobian jac_vol; Integration int;
+            }
+            GlobalTerm {
+                [ -Dof{ I } , { U } ];
+                In dom_active_real;
+            }
+        }
+    }
+}
+
+Resolution {
+    {
+        Name res;
+        System {
+            { Name sys; NameOfFormulation form; }
+        }
+        Operation {
+            SetGlobalSolverOptions["-ksp_type gmres -ksp_gmres_restart 1000 -ksp_rtol 1e-8"];
+            SetGlobalSolverOptions["-pc_type ilu -pc_factor_levels 2 "];
+            Generate[sys];
+            SolveAgain[sys];
+            SaveSolution[sys];
+            PostOperation[post_op];
+        }
+    }
+}
+
+PostProcessing {
+    {
+        Name post_pro; NameOfFormulation form;
+        Quantity {
+            {% import "post_pro.tmplt" as post_pro %}
+            {{ post_pro.v() }}
+            {{ post_pro.j() }}
+            {{ post_pro.mag_j() }}
+            {{ post_pro.e() }}
+            {{ post_pro.U() }}
+            {{ post_pro.I() }}
+        }
+    }
+}
+
+PostOperation {
+    {
+        Name post_op; NameOfPostProcessing post_pro;
+        Operation {
+            {% import "post_op.tmplt" as post_op %}
+            {{ post_op.pos("v") }}
+            {{ post_op.pos("j") }}
+            {{ post_op.pos("mag_j") }}
+            {{ post_op.pos("e") }}
+        }
+    }
+}
