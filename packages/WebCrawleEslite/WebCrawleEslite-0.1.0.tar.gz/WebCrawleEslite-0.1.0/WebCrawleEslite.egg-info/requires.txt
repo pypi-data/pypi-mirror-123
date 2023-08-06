@@ -1,0 +1,4 @@
+requests
+pandas
+fake_useragent
+bs4
