@@ -1,0 +1,15 @@
+numpy
+
+[dev]
+nose
+twine
+wheel
+sphinx
+sphinx_rtd_theme
+recommonmark
+m2r
+coverage
+
+[tests]
+mock
+nose

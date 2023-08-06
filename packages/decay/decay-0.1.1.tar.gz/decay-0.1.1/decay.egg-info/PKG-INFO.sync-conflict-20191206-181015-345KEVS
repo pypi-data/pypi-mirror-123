@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: decay
+Version: 0.1.0
+Summary: Groups code for managing changes in values based on a predefined rule.
+Home-page: https://github.com/pyl1b/decay
+Author: Nicu Tofan
+Author-email: nicu.tofan@gmail.com
+License: MIT
+Download-URL: https://github.com/pyl1b/decay/archive/v0.1.0.zip
+Project-URL: Bug Tracker, https://github.com/pyl1b/decay/issues
+Project-URL: Documentation, https://readthedocs.org/projects/decay/
+Project-URL: Source Code, https://github.com/pyl1b/decay
+Description: 
+        # decay
+        
+        decay is an [open source](https://github.com/pyl1b/decay.git),
+        MIT licensed library which groups code for managing changes in values 
+        based on a predefined rule.
+        
+        
+        [![Build Status](https://travis-ci.org/pyl1b/decay.svg?branch=master)](https://travis-ci.org/pyl1b/decay)
+        [![Documentation Status](https://readthedocs.org/projects/decay/badge/?version=latest)](https://decay.readthedocs.io/en/latest/?badge=latest)
+        
+        
+        Install
+        -------
+        
+            pip install decay
+        
+        You can also download/clone the source, in which case you have to:
+        
+            git clone https://github.com/pyl1b/decay.git
+            python setup.py install
+                
+        To contribute a patch clone the repo, create a new branch, install in
+        develop mode:
+                
+            python setup.py develop
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: tests
