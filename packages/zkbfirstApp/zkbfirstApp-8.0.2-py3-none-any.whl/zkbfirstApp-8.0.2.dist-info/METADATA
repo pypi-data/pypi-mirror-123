@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zkbfirstApp
+Version: 8.0.2
+Summary: My first Python project
+Home-page: https://github.com/pypa/sampleproject
+Author: example
+Author-email: example@example.com
+License: UNKNOWN
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Requires-Dist: pyyaml
+
+UNKNOWN
+
