@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pkg/__init__.py
+pkg/__main__.py
+pkg/commands.py
+pkg/decorators.py
+pkg/setup.py
+pkg/utils.py
+pkg_cli.egg-info/PKG-INFO
+pkg_cli.egg-info/SOURCES.txt
+pkg_cli.egg-info/dependency_links.txt
+pkg_cli.egg-info/entry_points.txt
+pkg_cli.egg-info/requires.txt
+pkg_cli.egg-info/top_level.txt
