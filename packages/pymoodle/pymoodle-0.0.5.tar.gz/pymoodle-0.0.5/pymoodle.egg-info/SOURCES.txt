@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+moodle/__init__.py
+moodle/constants.py
+moodle/py.typed
+moodle/session.py
+moodle/util.py
+pymoodle.egg-info/PKG-INFO
+pymoodle.egg-info/SOURCES.txt
+pymoodle.egg-info/dependency_links.txt
+pymoodle.egg-info/requires.txt
+pymoodle.egg-info/top_level.txt

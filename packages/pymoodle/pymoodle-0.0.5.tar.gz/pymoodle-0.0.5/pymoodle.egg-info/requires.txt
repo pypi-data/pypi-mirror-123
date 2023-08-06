@@ -1,0 +1,12 @@
+requests>=2.0.0
+
+[:python_version <= "3.7"]
+typing-extensions>=3.7.4
+
+[test]
+black
+isort
+flake8
+flake8-bugbear
+mypy
+types-requests
