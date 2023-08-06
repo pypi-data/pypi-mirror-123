@@ -1,0 +1,7 @@
+README.md
+setup.py
+lolpros_parser.egg-info/PKG-INFO
+lolpros_parser.egg-info/SOURCES.txt
+lolpros_parser.egg-info/dependency_links.txt
+lolpros_parser.egg-info/requires.txt
+lolpros_parser.egg-info/top_level.txt
