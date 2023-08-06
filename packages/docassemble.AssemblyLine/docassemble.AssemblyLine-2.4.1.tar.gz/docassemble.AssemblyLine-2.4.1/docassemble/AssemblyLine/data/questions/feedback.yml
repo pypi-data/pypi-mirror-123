@@ -1,0 +1,15 @@
+---
+include:
+  - docassemble.GithubFeedbackForm:feedback.yml
+---
+metadata:
+  title: CourtFormsOnline Feedback Form
+  short title: Feedback
+---
+code: |
+  al_feedback_form_title = "CourtFormsOnline Feedback Form"  
+---
+code: |
+  # This email will be used ONLY if there is no valid GitHub config
+  al_error_email = get_config('error notification email')
+  
