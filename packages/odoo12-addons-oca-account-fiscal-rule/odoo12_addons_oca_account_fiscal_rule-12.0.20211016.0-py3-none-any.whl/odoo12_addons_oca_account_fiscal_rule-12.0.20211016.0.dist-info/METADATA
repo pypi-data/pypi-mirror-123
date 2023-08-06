@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-account-fiscal-rule
+Version: 12.0.20211016.0
+Summary: Meta package for oca-account-fiscal-rule Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-account-fiscal-position-partner-type
+Requires-Dist: odoo12-addon-account-fiscal-position-type
+Requires-Dist: odoo12-addon-account-fiscal-position-usage-group
+Requires-Dist: odoo12-addon-account-product-fiscal-classification
+Requires-Dist: odoo12-addon-account-product-fiscal-classification-test
+Requires-Dist: odoo12-addon-l10n-eu-oss
+
+UNKNOWN
+
