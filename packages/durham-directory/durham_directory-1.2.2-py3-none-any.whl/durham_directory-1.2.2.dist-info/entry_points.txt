@@ -1,0 +1,3 @@
+[console_scripts]
+durham-directory=durham_directory:main
+
