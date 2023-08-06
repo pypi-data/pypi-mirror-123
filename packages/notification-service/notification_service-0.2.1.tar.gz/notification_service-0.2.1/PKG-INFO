@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: notification_service
+Version: 0.2.1
+Summary: A Python package which provides stable notification service.
+Home-page: https://github.com/alibaba/flink-ai-extended
+Author: UNKNOWN
+Author-email: flink.aiflow@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
