@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        thanks=cli_tool:cli
+    
