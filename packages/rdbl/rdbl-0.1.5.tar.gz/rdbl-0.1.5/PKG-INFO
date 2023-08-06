@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rdbl
+Version: 0.1.5
+Summary: A lightweight package to format numbers for readability.
+Home-page: https://github.com/PolicyEngine/rdbl
+Author: Nikhil Woodruff
+Author-email: nikhil.woodruff@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+This package is a small utility for handling currency amounts and filesizes and converting to human-readable figures.
+
