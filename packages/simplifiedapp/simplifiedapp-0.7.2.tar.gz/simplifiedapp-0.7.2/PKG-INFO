@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: simplifiedapp
+Version: 0.7.2
+Summary: Boilerplate stuff done for you.
+Home-page: https://github.com/irvingleonard/simplifiedapp
+Author: Irving Leonard
+Author-email: irvingleonard@gmail.com
+License: BSD 2-Clause "Simplified" License
+Keywords: cli main setuptools
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE
+
+This module has some generic classes and functions for several purposes.
+
