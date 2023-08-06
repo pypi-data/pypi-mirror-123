@@ -1,0 +1,8 @@
+djs3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djs3/apps.py,sha256=b-Z6_tjyR0AL61CB6qb7K0ltERzSjP2xkfEmV58xJD0,140
+djs3/s3.py,sha256=Dhvl0aeAp-eOkCwTcr_tTKk62dSkywHTigQrIYt7lYE,4145
+djs3/storage.py,sha256=EPIJRZ_7fjBOOZzVCG3wG-XIxZYJflCspE79Tqt6Z80,863
+djs3-2021.10.11.dist-info/LICENSE,sha256=-P9SI73lfIFxwCzAs3kmZpvhKRIg9SVSelJwkkYaVD0,1067
+djs3-2021.10.11.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+djs3-2021.10.11.dist-info/METADATA,sha256=W27plD35qJ7jRd8qV4Qsc-aMsjzvbUtcHtMl7NB0zQk,437
+djs3-2021.10.11.dist-info/RECORD,,
