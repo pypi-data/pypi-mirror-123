@@ -1,0 +1,16 @@
+hm_pyhelper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hm_pyhelper/gateway_mfr,sha256=yUM3BfQ8N3ZZHsgynrgv9jaSMH2ngV5-jUmZmu00gqg,4961656
+hm_pyhelper/hardware_definitions.py,sha256=JGhi1I-KdNLUDbBahpFX0Iy4u8d9yrVO9PcDsnZqHd0,6018
+hm_pyhelper/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hm_pyhelper/miner_param.py,sha256=7iZM9p73KY4TY-Fnl45SlTYbt37O6AZOPIzhbUE4r44,5010
+hm_pyhelper/miner_json_rpc/__init__.py,sha256=4VRdkoqyLK2pppGR0YUp7W8-qYigXfSU3yKt-OQ1lTU,76
+hm_pyhelper/miner_json_rpc/client.py,sha256=Gw1iXlvvyA4x3WL5feB0YayGxh5BhHz9gIHigIctfXo,668
+hm_pyhelper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hm_pyhelper/tests/test_get_mac_address.py,sha256=1R1OK3w85RmqIMXP4SAbSJ6C3VVv_mtCr0O3sqSvlBY,1285
+hm_pyhelper/tests/test_miner_json_rpc.py,sha256=R8SRIbW6R3vm7_7NdqOHF3BW9T_3OTejqgNUTxcSCIk,3814
+hm_pyhelper/tests/test_miner_param.py,sha256=NnpOFeBqt-9_WsRVv35WahRTc9ZxTp1n3RsM6MmDMDM,4377
+hm_pyhelper-0.8.1.dist-info/LICENSE,sha256=RdYui7hpduqzDCnfS9SHTNZ4VjHnKdrAqZDEKt3BRzg,1062
+hm_pyhelper-0.8.1.dist-info/METADATA,sha256=f-TjBgI1oJ9b-ywuZ14x65bAMVQh-5d_RUf1J6TXKWA,4306
+hm_pyhelper-0.8.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hm_pyhelper-0.8.1.dist-info/top_level.txt,sha256=X-DxFwREYKu6RIqC34Fx_IjmV529rJzWO_vtVlWoiXw,12
+hm_pyhelper-0.8.1.dist-info/RECORD,,
