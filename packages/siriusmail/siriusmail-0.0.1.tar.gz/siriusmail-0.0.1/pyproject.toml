@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+    "setuptools>=41.2.0",
+    "wheel",
+    "chardet~=4.0.0",
+    "compressed-rtf~=1.0.6",
+    "olefile~=0.46",
+]
+build-backend = "setuptools.build_meta"

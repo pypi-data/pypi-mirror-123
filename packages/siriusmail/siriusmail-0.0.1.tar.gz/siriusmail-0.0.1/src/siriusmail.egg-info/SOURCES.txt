@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/siriusmail/__init__.py
+src/siriusmail/parser.py
+src/siriusmail/rtf_extractor.py
+src/siriusmail.egg-info/PKG-INFO
+src/siriusmail.egg-info/SOURCES.txt
+src/siriusmail.egg-info/dependency_links.txt
+src/siriusmail.egg-info/top_level.txt
+test/test.py
