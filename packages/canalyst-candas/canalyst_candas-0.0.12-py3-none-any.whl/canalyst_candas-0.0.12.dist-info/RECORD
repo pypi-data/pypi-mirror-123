@@ -1,0 +1,15 @@
+canalyst_candas/__init__.py,sha256=_gfEKbwzvnU5aQsEwyiK2-r4WAPk86KALMcqeG1YT2g,236
+canalyst_candas/candas.py,sha256=ROFIVC-cqMp3iCcp9xdohBSAL_7NvjugMWlt4kG_6b4,85367
+canalyst_candas/candas_datareader.py,sha256=EfkeWCl7RxRtmm4qfroZggkLunrOHkqeQPKlvwEehfw,19534
+canalyst_candas/connection.py,sha256=H1Bof3hmc9l_Ap8-EKCqm6J87ia4aEBNgVpnEz2JTtE,970
+canalyst_candas/settings.py,sha256=iDCBAfwaSlsbtvvdmoVrl0zEGuH5wkGEamT5yXtWWd4,1725
+canalyst_candas/utils.py,sha256=YPWEh8RdN_GpulUqI6o6UJpo2tp-QN2Hu4ryrABxEfM,41429
+canalyst_candas/version.py,sha256=gQ7C49mS6UtOLIWgjx63yPDF5iyxOv--Y2lO0QB1oc8,49
+canalyst_candas/configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canalyst_candas/configuration/config.py,sha256=zx_K243H9MzNBZ5f0GlMXpgL6K_UnNvvl3vtBc_isho,8319
+canalyst_candas/configuration/exceptions.py,sha256=KE6MOzNvijI54s8g-HDeIYen2ZeAycW3hTpndf91ln4,128
+canalyst_candas-0.0.12.dist-info/LICENSE,sha256=ITe7RKFNVB-SPIjsL17-f411U2ottcLz7qqZqTg8lOY,11338
+canalyst_candas-0.0.12.dist-info/METADATA,sha256=Xr9Tt2k4hWU1qhQweIUFISSKe9eAaUMOZbu6JvJgjNM,5665
+canalyst_candas-0.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+canalyst_candas-0.0.12.dist-info/top_level.txt,sha256=OOjVp8n4y0_uYAtV5ZBWIYAjv6ZgNNS9e1stcQoWmD0,16
+canalyst_candas-0.0.12.dist-info/RECORD,,
