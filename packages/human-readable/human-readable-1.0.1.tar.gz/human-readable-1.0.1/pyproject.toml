@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "human-readable"
+version = "1.0.1"
+description = "Human Readable"
+authors = ["staticdev <staticdev-support@protonmail.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/staticdev/human-readable"
+repository = "https://github.com/staticdev/human-readable"
+documentation = "https://human-readable.readthedocs.io"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+exclude = ["src/human_readable/locale/**/*.po"]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/staticdev/human-readable/releases"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+safety = "^1.10.3"
+mypy = "^0.910"
+typeguard = "^2.13.0"
+xdoctest = {extras = ["colors"], version = "^0.15.10"}
+sphinx = "^4.2.0"
+sphinx-autobuild = "^2021.3.14"
+pre-commit = "^2.15.0"
+flake8 = "^4.0.1"
+black = "^21.9b0"
+flake8-bandit = "^2.1.2"
+flake8-bugbear = "^21.9.2"
+flake8-docstrings = "^1.6.0"
+flake8-rst-docstrings = "^0.2.3"
+pep8-naming = "^0.12.1"
+darglint = "^1.8.0"
+reorder-python-imports = "^2.6.0"
+pre-commit-hooks = "^4.0.1"
+sphinx-rtd-theme = "^1.0.0"
+Pygments = "^2.10.0"
+freezegun = "^1.1.0"
+pytest-mock = "^3.6.1"
+types-freezegun = "^1.1.2"
+coverage = {version = "6.0.2", extras = ["toml"]}
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["human_readable"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
