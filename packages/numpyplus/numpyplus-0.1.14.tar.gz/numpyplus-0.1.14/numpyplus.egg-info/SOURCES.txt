@@ -1,0 +1,8 @@
+setup.py
+numpyplus/__init__.py
+numpyplus/module.py
+numpyplus.egg-info/PKG-INFO
+numpyplus.egg-info/SOURCES.txt
+numpyplus.egg-info/dependency_links.txt
+numpyplus.egg-info/requires.txt
+numpyplus.egg-info/top_level.txt
