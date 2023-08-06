@@ -1,0 +1,12 @@
+skyhub_v2/__init__.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+skyhub_v2/__main__.py,sha256=e8xnjK2995jF_0b79FrXihYyjEJCgXDkc-LMVajQtRk,1795
+skyhub_v2/controllers/__init__.py,sha256=JWmiyb_7IP683lBjfx-2khjqNQ7zDwRDaRByLwgINks,83
+skyhub_v2/controllers/skyhub_controller.py,sha256=EWpodC-QZ5nHumY7gsED-dseDAAesRPNiGdbk-9ZJJU,1949
+skyhub_v2/logging_config.py,sha256=YsERNS_OmmlnwrUgwPhEBgjYREQfevC4ByXe-QtHVfg,285
+skyhub_v2/models/__init__.py,sha256=AMz9aBgRmzW9AXzOfxlKDGg0HhHdTzyms4j7Pa3G3vM,61
+skyhub_v2/models/produto_model.py,sha256=uXq8qV9BKlEZ9XIBM0qZFkKxFpqs9MGMEHO3bz2JxKQ,805
+skyhub_v2/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyhub_v2/utils/telegram.py,sha256=JP4NaTOcN5eiiphx8JNaQdLlq1baS_WXydni6ENJJhw,790
+skyhub_v2-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+skyhub_v2-0.1.1.dist-info/METADATA,sha256=u91ixnRDKEx-RR7XGRsZMhbpgY2noFKQ90DM-THWj9Y,422
+skyhub_v2-0.1.1.dist-info/RECORD,,
