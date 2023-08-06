@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: motr
+Version: 0.1.5
+Summary: Max's Obvious Task Runner.
+Author: Max Woerner Chase
+Author-email: max.chase@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: attrs
+Requires-Dist: blessed
+Requires-Dist: cement~=3.0, >=3.0.4
+Requires-Dist: colorlog
+Requires-Dist: jinja2
+Requires-Dist: pyrsistent
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+Requires-Dist: trio
+Requires-Dist: virtualenv
+Requires-Dist: wheel-filename
+
+##########################
+An Opinionated Task Runner
+##########################
+
+************
+Installation
+************
+
+.. code-block:: console
+
+   pip install motr
+
+***********
+Development
+***********
+

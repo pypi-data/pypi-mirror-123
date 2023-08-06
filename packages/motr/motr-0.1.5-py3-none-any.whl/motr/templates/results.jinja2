@@ -1,0 +1,9 @@
+{% from "maybe_block.jinja2" import maybe_block -%}
+{{ maybe_block(passed, "Passed:\n", "green")
+}}{{ maybe_block(failed, "Failed:\n", "yellow")
+}}{{ maybe_block(aborted, "Aborted:\n", "red")
+}}{% if not passed and not failed and not aborted -%}
+    {% filter color("yellow") -%}
+        No actions ran.
+    {%- endfilter %}
+{% endif -%}
