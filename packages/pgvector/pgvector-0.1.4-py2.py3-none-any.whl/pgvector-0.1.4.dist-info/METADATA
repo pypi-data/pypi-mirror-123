@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pgvector
+Version: 0.1.4
+Summary: pgvector support for Python
+Home-page: https://github.com/ankane/pgvector-python
+Author: Andrew Kane
+Author-email: andrew@ankane.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+UNKNOWN
+

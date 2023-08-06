@@ -1,0 +1,11 @@
+pgvector/asyncpg/__init__.py,sha256=VffBZUNIwvinQdh0lIYoSWgSQq57nFkpj9VhPjp11QQ,272
+pgvector/django/__init__.py,sha256=uafJ2tAm5BG6vdpidYhkc5oPx4TmV8pMgFm-RSAzsWs,2122
+pgvector/psycopg/__init__.py,sha256=Qz52S0XqX1UmKRAGd6g4e5bXoFXaCRlrB8HU6nS9wHo,1349
+pgvector/psycopg2/__init__.py,sha256=w_uHyKJzHMI79IyKYwFv6CK_k1RI1X6sWiML55Wo4b4,881
+pgvector/sqlalchemy/__init__.py,sha256=8IqmO9Cf0-FQjlq5ZCWu5RYrEXLUuCt13zNZlnyl-h8,948
+pgvector/utils/__init__.py,sha256=udvrI2Gl5cjO-eXYkb5opTDUFs0indJIPQJ9qgpH-j4,1305
+pgvector-0.1.4.dist-info/LICENSE.txt,sha256=UaRDMz4nnSri7v-KTEvtmEI1OgX8j2SJWf4aB0INNYo,1078
+pgvector-0.1.4.dist-info/METADATA,sha256=Y-p-ki62PGgkiq0DmjUOuXOcVqqEYnwsQqmUgHEywqQ,305
+pgvector-0.1.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pgvector-0.1.4.dist-info/top_level.txt,sha256=xGGaXFRcSRHEhn0HS1FN_UjCWr1G-WSPgxx4a0NJc0M,9
+pgvector-0.1.4.dist-info/RECORD,,
