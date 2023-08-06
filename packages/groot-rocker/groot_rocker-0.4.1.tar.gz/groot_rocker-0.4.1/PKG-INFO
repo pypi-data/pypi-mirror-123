@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: groot_rocker
+Version: 0.4.1
+Summary: A tool to run docker containers with customized extras
+Home-page: https://github.com/stonier/groot_rocker
+Author: Daniel Stonier
+Author-email: d.stonier@gmail.com
+License: Apache License 2.0
+Description: A tool to run docker containers with customized extra added like git gui support overlayed.
+Keywords: Docker
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.0
+Provides-Extra: tests
+Provides-Extra: packaging
