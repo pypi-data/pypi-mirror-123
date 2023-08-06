@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>mystran-testing.xml</title>
+    <link rel="stylesheet" href="https://unpkg.com/bamboo.css">
+    <style>
+{% include 'custom.css' %}
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script>
+      $(document).ready(function () {
+              $('#data').DataTable({
+                      "columns": [
+                              { "width": "25%" },
+                              { "width": "15%" },
+                              null
+
+                            ]
+                    } );
+            });
+    </script>
+  </head>
+  <body style="margin-bottom: 0px !important">
+    <div class="title">
+      <h1>MYSTRAN "{{mystran_version}} {{mystran_date}}"<small>Testing</small></h1>
+    </div>
+    {% for testsuite in testsuites %}
+      <div class="testsuite">
+        {# build TOC ============================================================== #}
+        <h2>Summary <small>for Test Suite "{{ testsuite.meta["name"] }}"</small></h2>
+        <table id="data" class="table TreeTable">
+          <thead>
+            <tr>
+              <th>Test</th>
+              <th>Status</th>
+              <th>Desc</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for ini_name, testcases in testsuite.testcases.items() %}
+              <tr title="{{ini_name}}" class="alert-{{testcases.status}}">
+                <td><a href="#{{ ini_name|slugify}}">{{ testcases.short_classname }}</a></td>
+                <td> {{ testcases.html_status }}</td>
+                <td>{{ testcases.shortdesc }} <span class="tags">{{ testcases.marks | join(" ")}}</span></td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {# /build TOC ============================================================== #}
+
+        {% for ini_name, testcases in testsuite.testcases.items() %}
+          <hr/>
+          <h3 id="{{ini_name | slugify}}">Test-case {{ ini_name }}</h3>
+          {{ testcases.shortdesc }}
+          <h4>Assets</h4>
+          {% set assets = testcases.rel_assets["DEFAULT"] %}
+          <ul>
+            <li><a href="{{ assets.pop("bulk") }}">Nastran Bulk Data File</a></li>
+            {% if "neutral output" in assets %}
+            <li><a href="{{ assets.pop("neutral output") }}">Mystran Neutral output</a></li>
+          {% endif %}
+            {% if "reference" in assets %}
+            <li><a href="{{ assets.pop("reference") }}">Reference Results File</a></li>
+          {% endif %}
+            {% if "xlsxdiff" in assets %}
+            <li><a href="{{ assets.pop("xlsxdiff") }}">XLSX diff results</a></li>
+          {% endif %}
+            {# remaining of collected assets #}
+              {% for k, path  in testcases.rel_assets["DEFAULT"].items()  %}
+              <li><a href="{{ path }}">{{ k }}</a></li>
+            {% endfor %}
+          </ul>
+          <p>
+          </p>
+          {% for tc in testcases.testcases %}
+            <div class=tc_report_{{tc.status}}>
+              <h4>Test {{ tc }}</h4>
+              {% if testcases.rel_assets[tc.name] | length > 0%}
+                <p>The following assets override defaults</p>
+                <ul>
+                  {% for k, path in testcases.rel_assets[tc.name].items() %}
+                    <li><a href="{{ path }}">{{ k }}</a></li>
+                  {% endfor %}
+                </ul> 
+              {% endif %}
+              <p>{{ tc.properties["description"] }} with the following tolerances:
+              <ul>
+                <li>Absolute Tolerance: {{tc.properties["atol"]}}</li>
+                <li>Relative Tolerance: {{tc.properties["rtol"]}}</li>
+              </ul>
+              </p>
+              {% if tc.skipped %}<b class="alert-skipped">SKIPPED</b> {{tc.skipped['message']}} 
+              {% elif tc.failure %}
+                <details>
+                  <summary> <span class="alert-failed">FAILED</span> (click to reveal Failure details)</summary>
+                  <pre>{{tc.failure['message']}}</pre>
+                </details>
+              {% else %}<b class="alert-success">SUCCESS</b> 
+              {% endif %}
+            </div>
+          {% endfor %}
+
+        {% endfor %}{# end of test cases #}
+      </div>
+    {% endfor %}{# end of test suites #}
+  </body>
+</html>
