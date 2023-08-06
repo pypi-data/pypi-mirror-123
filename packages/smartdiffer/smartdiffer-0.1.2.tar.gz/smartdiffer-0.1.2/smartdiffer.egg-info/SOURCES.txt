@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+smartdiffer/__init__.py
+smartdiffer/cli.py
+smartdiffer/config.py
+smartdiffer/diffchecker.py
+smartdiffer/etherscan_api.py
+smartdiffer/srccode.py
+smartdiffer.egg-info/PKG-INFO
+smartdiffer.egg-info/SOURCES.txt
+smartdiffer.egg-info/dependency_links.txt
+smartdiffer.egg-info/entry_points.txt
+smartdiffer.egg-info/requires.txt
+smartdiffer.egg-info/top_level.txt

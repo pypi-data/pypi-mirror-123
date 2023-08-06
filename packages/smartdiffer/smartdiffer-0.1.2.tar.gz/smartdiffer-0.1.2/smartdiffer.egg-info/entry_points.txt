@@ -1,0 +1,3 @@
+[console_scripts]
+smartdiffer = smartdiffer.cli:main
+
