@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-rest-framework
+Version: 12.0.20211017.0
+Summary: Meta package for oca-rest-framework Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-base-rest
+Requires-Dist: odoo12-addon-base-rest-datamodel
+Requires-Dist: odoo12-addon-base-rest-demo
+Requires-Dist: odoo12-addon-datamodel
+Requires-Dist: odoo12-addon-graphql-base
+Requires-Dist: odoo12-addon-graphql-demo
+
+UNKNOWN
+
