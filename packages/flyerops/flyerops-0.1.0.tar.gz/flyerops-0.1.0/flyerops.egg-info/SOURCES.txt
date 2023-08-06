@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+flyerops/__init__.py
+flyerops/utils.py
+flyerops.egg-info/PKG-INFO
+flyerops.egg-info/SOURCES.txt
+flyerops.egg-info/dependency_links.txt
+flyerops.egg-info/requires.txt
+flyerops.egg-info/top_level.txt
