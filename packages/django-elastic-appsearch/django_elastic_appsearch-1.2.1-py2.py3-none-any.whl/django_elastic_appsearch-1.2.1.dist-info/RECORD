@@ -1,0 +1,13 @@
+django_elastic_appsearch/__init__.py,sha256=dt33rdxQ3rnB6xSjro1kU0qDA3S5qOye91Yrran14UM,214
+django_elastic_appsearch/apps.py,sha256=-LD5QxZAYne-AOoR1PRzCFkLuR2zgVvshmInJrWlrW4,1946
+django_elastic_appsearch/clients.py,sha256=GAERW-jnYpDaoh00u9aybf3bmI-bpnwEIprZFLvuxhs,1262
+django_elastic_appsearch/orm.py,sha256=MfWK9E0657NXudr_zpMIP7Mjcngb1ptEB7JXchUnSBU,9225
+django_elastic_appsearch/serialisers.py,sha256=4fwC22vorRHAERTQzsZID2xAXK55BuVMaeOJLPww71k,640
+django_elastic_appsearch/slicer.py,sha256=UmQbEVN8G_uEOMc6rlvbC0AqEZgAEoLiR-Julcws4tA,728
+django_elastic_appsearch/test.py,sha256=IOeQrOPrwXcSwJ4Hbxh55mzD-mxLlMCL_dAqmxRIibc,4451
+django_elastic_appsearch-1.2.1.dist-info/AUTHORS.rst,sha256=EG0MDTggH2jyJKuuOiUUOf8Oy1Wq9j-H8C074g1o0Xs,207
+django_elastic_appsearch-1.2.1.dist-info/LICENSE,sha256=UTqmg0u3mdTpuEqreXu_tpf98pbpRHm51uLfQcFH_L0,1074
+django_elastic_appsearch-1.2.1.dist-info/METADATA,sha256=jNvxtCajlByFnSsqsWzOCwnVPUPjlO7jSvFkYO9dqoQ,21053
+django_elastic_appsearch-1.2.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_elastic_appsearch-1.2.1.dist-info/top_level.txt,sha256=KPK9Yo6KOIAz2V5_Yz1w1pqkGVWxSNTOPArhp9RbtL4,25
+django_elastic_appsearch-1.2.1.dist-info/RECORD,,
