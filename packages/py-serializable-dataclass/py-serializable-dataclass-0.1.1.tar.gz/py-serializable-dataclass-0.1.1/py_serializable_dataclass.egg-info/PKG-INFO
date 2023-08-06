@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-serializable-dataclass
+Version: 0.1.1
+Summary: Easily makes python object as a serializable dataclass
+Home-page: https://github.com/tinyHui/python-serializable-dataclass
+Author: jason
+Author-email: jiahuic@twitter.com
+License: GNU General Public License v3.0
+Project-URL: Tracker, https://github.com/tinyHui/python-serializable-dataclass/issues
+Description: file: README.md
+Keywords: dataclasses json
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
