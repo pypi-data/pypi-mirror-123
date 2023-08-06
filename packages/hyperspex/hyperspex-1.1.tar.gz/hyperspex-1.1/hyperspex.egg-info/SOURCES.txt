@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+hyperspex/hyperspex.py
+hyperspex/spim.py
+hyperspex.egg-info/PKG-INFO
+hyperspex.egg-info/SOURCES.txt
+hyperspex.egg-info/dependency_links.txt
+hyperspex.egg-info/requires.txt
+hyperspex.egg-info/top_level.txt
