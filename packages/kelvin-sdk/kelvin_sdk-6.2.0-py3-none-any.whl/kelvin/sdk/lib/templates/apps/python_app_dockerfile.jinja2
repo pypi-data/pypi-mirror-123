@@ -1,0 +1,72 @@
+FROM {{ kelvin_app_builder_image }} as builder
+LABEL stage=builder
+
+ARG PIP_EXTRA_INDEX_URL
+ENV PIP_EXTRA_INDEX_URL=${PIP_EXTRA_INDEX_URL}
+
+{#
+#}
+{% if system_packages %}
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && \
+apt-get install -y --no-install-recommends {{ system_packages }} && \
+apt-get clean && \
+rm -rf /var/lib/apt/lists/*
+{% endif %}
+{#
+#}
+{% if requirements_file %}
+COPY {{ requirements_file }} /opt/kelvin/app/
+{% if wheels_dir %}
+COPY {{ wheels_dir }} /opt/kelvin/app/{{ wheels_dir}}
+{% endif %}
+
+RUN ${VIRTUAL_ENV_PYTHON} -m pip install {% if wheels_dir %}-f {{ wheels_dir}} {% endif %}-r /opt/kelvin/app/{{ requirements_file }}
+{% if wheels_dir %}
+RUN rm -rf /opt/kelvin/app/{{ wheels_dir }}
+{% endif %}
+{% endif %}
+{#
+#}
+{#
+#}
+{% if build_for_datatype_compilation %}
+COPY build/datatype/ /datatype
+RUN kelvin-datatype message package /datatype
+RUN ${VIRTUAL_ENV_PYTHON} -m pip install kelvin_message-*.whl
+{% endif %}
+{#
+#}
+COPY . /opt/kelvin/app/
+{#
+#}
+
+FROM {{ kelvin_app_runner_image }}
+ENV PYTHONUNBUFFERED=1
+ENV VIRTUAL_ENV=/opt/kelvin/app/venv
+ENV PATH=${VIRTUAL_ENV}/bin:${PATH}
+WORKDIR /opt/kelvin/app/
+{% if system_packages %}
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && \
+apt-get install -y --no-install-recommends {{ system_packages }} && \
+apt-get clean && \
+rm -rf /var/lib/apt/lists/*
+{% endif %}
+{#
+#}
+COPY --from=builder /opt/kelvin/app /opt/kelvin/app/
+{% if not build_for_upload %}
+COPY build/app.yaml /opt/kelvin/app/app.yaml
+{% endif %}
+{#
+#}
+{% if docker_entrypoint %}
+ENTRYPOINT {{ docker_entrypoint|safe }}
+{% endif %}
+{% if docker_cmd %}
+CMD {{ docker_cmd|safe }}
+{% endif %}
+{#
+  vim:ft=dockerfile.jinja
+#}
