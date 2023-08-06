@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+src/openrpc/__init__.py
+src/openrpc/_rpc_server.py
+src/openrpc/objects.py
+src/openrpc/server.py
+src/openrpc.egg-info/PKG-INFO
+src/openrpc.egg-info/SOURCES.txt
+src/openrpc.egg-info/dependency_links.txt
+src/openrpc.egg-info/requires.txt
+src/openrpc.egg-info/top_level.txt
+test/tests.py
