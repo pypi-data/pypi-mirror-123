@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/covjson.egg-info/PKG-INFO
+src/covjson.egg-info/SOURCES.txt
+src/covjson.egg-info/dependency_links.txt
+src/covjson.egg-info/top_level.txt
