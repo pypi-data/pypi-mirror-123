@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+drome.egg-info/PKG-INFO
+drome.egg-info/SOURCES.txt
+drome.egg-info/dependency_links.txt
+drome.egg-info/entry_points.txt
+drome.egg-info/requires.txt
+drome.egg-info/top_level.txt
+erome/__init__.py
+erome/constants.py
+erome/erome.py
