@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: skorchflow
+Version: 0.1
+Summary: A package
+Home-page: https://github.com/tanglespace/skorchflow
+Author: Jackson Storm
+Author-email: c6lculus8ntr0py@gmail.com
+License: Apache 2
+Project-URL: Documentation, https://github.com/tanglespace/skorchflow
+Project-URL: Source, https://github.com/tanglespace/skorchflow
+Project-URL: Tracker, https://github.com/tanglespace/skorchflow/issues
+Description: SkorchFlow package
+Keywords: GAN,Generative,Machine Learning,Data Modelling,Presentation
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

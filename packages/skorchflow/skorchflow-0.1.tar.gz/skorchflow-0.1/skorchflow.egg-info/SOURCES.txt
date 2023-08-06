@@ -1,0 +1,7 @@
+README.md
+setup.py
+skorchflow.egg-info/PKG-INFO
+skorchflow.egg-info/SOURCES.txt
+skorchflow.egg-info/dependency_links.txt
+skorchflow.egg-info/requires.txt
+skorchflow.egg-info/top_level.txt
