@@ -1,0 +1,15 @@
+vpsearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpsearch/_cli.py,sha256=JL1werqNTPLoWdyF6KpP0GYlNbbgWCB2Smqy3hWOdzY,2876
+vpsearch/_vpsearch.cpython-36m-i386-linux-gnu.so,sha256=ix2sqvf1Yq_GriowhjTnA5MkpoyDFgC8cNRwsX7QvG4,2258124
+vpsearch/tests/test_vpsearch_cli.py,sha256=oAts-Q9XmEbQsQgpTmbjOaSagkP2CPeZBTlsXsj9QqQ,2389
+vpsearch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpsearch/tests/test_vpsearch.py,sha256=KmU-JGYjHIOKQA5jl_ejVm5lOdPydRfUp3k-xBJklng,1926
+vpsearch-0.1.2.dist-info/LICENSE.txt,sha256=W1GLaLRwPqbcndMWxSmkcvg_cysGr8y6sjpG80DBLRc,2214
+vpsearch-0.1.2.dist-info/WHEEL,sha256=VBx7ERriXnr5acYARS16JdX_8hAbtk7NCHe5x2q1KeM,146
+vpsearch-0.1.2.dist-info/top_level.txt,sha256=0gIC-qPy7SMcPJATYS-MDHq4sKa6YC-aTvLNo74VKD4,12
+vpsearch-0.1.2.dist-info/METADATA,sha256=6VkExq3xDL_-gvNXBO1gswxbadynu1wKF1J1Qc_yOnc,9797
+vpsearch-0.1.2.dist-info/RECORD,,
+vpsearch-0.1.2.dist-info/entry_points.txt,sha256=4mdqB7jFjvwPpoJv0cFLo5O0iQsb5Hiad_dHwZ8ajso,49
+ci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ci/__main__.py,sha256=jSbUWPEAf323JmXkw_FErsAk98V6QzKWCIc8GQSaIV0,1933
+vpsearch.libs/libparasail-7aec56ce.so.3.4.2,sha256=MZHQFbhl_pFPsXtXQswV0PUd4IJfmOYYiSZBQBI4UCk,43736960
