@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+focal_frequency_loss/__init__.py
+focal_frequency_loss/focal_frequency_loss.py
+focal_frequency_loss.egg-info/PKG-INFO
+focal_frequency_loss.egg-info/SOURCES.txt
+focal_frequency_loss.egg-info/dependency_links.txt
+focal_frequency_loss.egg-info/requires.txt
+focal_frequency_loss.egg-info/top_level.txt
