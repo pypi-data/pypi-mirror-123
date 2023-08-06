@@ -1,0 +1,8 @@
+[build-system]
+requires = ["numpy"]
+
+
+[project]
+name = "camproject"
+authors = [{name = "Martin Israel", email = "m.israel@thermaldrones.de"}]
+dynamic = ["version", "description"]
