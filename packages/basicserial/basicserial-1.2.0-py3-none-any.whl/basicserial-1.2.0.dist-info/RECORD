@@ -1,0 +1,10 @@
+CHANGES.rst,sha256=s1dQYVTYnfU55nLFGq9J9LkmvErIsgLvedAr2jt2unw,855
+basicserial/__init__.py,sha256=Y5FVG1GzFe3aFO4yO7W9NEbw_xugJQHehoHdiJzwY1s,1027
+basicserial/json.py,sha256=6wbnqX5hG_LDA0QIWeCJs1kuQI8PpK0DRQc5FHJvzd0,5101
+basicserial/toml.py,sha256=sqq3BvdR-vMZwxyyhDfN4Fl59VX5dFQduwPgPBgsCss,3927
+basicserial/util.py,sha256=_RAv-4XbNuhnhORLKS9gVPL0qFixN0L7sFb1oC2FWDs,3223
+basicserial/yaml.py,sha256=HQuBjfr5Vwpy4RrQBvCK5U7DZguN3DFOWXe_sWCmSus,8875
+basicserial-1.2.0.dist-info/LICENSE.rst,sha256=yW33mgeLp5GS9RRiL1rzHj_UbjEPwO03AyLjK80vh4U,1096
+basicserial-1.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+basicserial-1.2.0.dist-info/METADATA,sha256=3uvyIDhuqYvFnOXfPByBoyIkb7q4kjPjFuUNEVWDQTU,7011
+basicserial-1.2.0.dist-info/RECORD,,
