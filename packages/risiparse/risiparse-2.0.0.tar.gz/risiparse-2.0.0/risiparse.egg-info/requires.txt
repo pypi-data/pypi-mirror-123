@@ -1,0 +1,7 @@
+requests
+BeautifulSoup4
+PySide6
+lxml
+colorama
+waybackpy
+PyPDF2
