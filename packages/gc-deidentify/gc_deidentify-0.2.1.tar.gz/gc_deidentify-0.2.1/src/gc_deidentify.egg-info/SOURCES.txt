@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/deidentifier/__init__.py
+src/deidentifier/data.py
+src/gc_deidentify.egg-info/PKG-INFO
+src/gc_deidentify.egg-info/SOURCES.txt
+src/gc_deidentify.egg-info/dependency_links.txt
+src/gc_deidentify.egg-info/top_level.txt
