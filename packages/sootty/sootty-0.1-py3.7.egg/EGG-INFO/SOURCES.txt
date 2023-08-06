@@ -1,0 +1,16 @@
+README.md
+setup.py
+sootty/__init__.py
+sootty/display.py
+sootty/limits.py
+sootty/main.py
+sootty/visualizer.py
+sootty/wiretrace.py
+sootty.egg-info/PKG-INFO
+sootty.egg-info/SOURCES.txt
+sootty.egg-info/dependency_links.txt
+sootty.egg-info/entry_points.txt
+sootty.egg-info/requires.txt
+sootty.egg-info/top_level.txt
+sootty/static/__init__.py
+sootty/static/grammar.lark
