@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mskit
+Version: 0.4.0
+Summary: A tool-kit for MS data processing
+Home-page: https://github.com/gureann/MSKit
+Author: Lou, R.
+Author-email: lourh@shanghaitech.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: requests
+Requires-Dist: prettytable
+Requires-Dist: tqdm
+Provides-Extra: image
+Requires-Dist: opencv-python ; extra == 'image'
+Provides-Extra: parallel
+Requires-Dist: joblib ; extra == 'parallel'
+Requires-Dist: dask ; extra == 'parallel'
+Requires-Dist: distributed ; extra == 'parallel'
+Provides-Extra: speedup
+Requires-Dist: numba ; extra == 'speedup'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow-gpu ; extra == 'tensorflow'
+Provides-Extra: torch
+Requires-Dist: pytorch ; extra == 'torch'
+
+
+# MSKit
+
+A tool-kit for MS data (pre-)processing
+
+Extracted from part of code used in personal data analysis. 
+Though there is no document and description, 
+the name of each module is defined clear (think so). 
+If you find some functions are useful, please feel free to copy them and use.
+If you read the code of this package and find error or have suggestions, 
+please also contact with me and I'll be pleased to improve them.
+
+The recommended modules are
+* TED (theoretical enzyme digestion/ in-silico digestion)
+* SpectronautLibrary (to process Spectronaut library with pre-defined useful functions)
+* Functions in rapik_kit (many easy-to-use tools to save much time)
+* mass_calc (supports the mass/mz calculation for peptides with no modification or some common modifications)
+
+
