@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: jduimage
+Version: 0.1.1
+Summary: Simple opencv interface to simplify image processing.
+Home-page: https://github.com/jeandemeusy/jdu_image
+Author: Jean Demeusy
+Author-email: dev.jdu@gmail.com
+License: UNKNOWN
+Description: # jduimage
+        
+        Simple opencv interface to simplify image processing.
+        
+        ## Installation
+        
+        ``` console
+        > pip(3) install (-U) jduimage
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
