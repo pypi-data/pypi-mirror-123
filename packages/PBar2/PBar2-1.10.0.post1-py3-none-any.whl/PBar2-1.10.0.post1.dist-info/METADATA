@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: PBar2
+Version: 1.10.0.post1
+Summary: Display customizable progress bars on the terminal easily.
+Home-page: https://github.com/DarviL82/PBar
+Author: David Losantos (DarviL82)
+Author-email: davidlosantos89@gmail.com
+License: UNKNOWN
+Project-URL: Tracker, https://github.com/DarviL82/PBar/issues
+Project-URL: Documentation, https://github.com/DarviL82/PBar/wiki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<img width=50% src="https://user-images.githubusercontent.com/48654552/136713737-aebdd652-061b-428a-b750-2faa29cd60b3.png"><br>
+
+<a href="https://github.com/DarviL82/PBar/pulls"> <img src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square"> </a>
+<a href="https://pypi.org/project/PBar2/"> <img src="https://img.shields.io/badge/PyPI-available-blue?style=flat-square"> </a>
+
+---
+
+### PBar is a small work in progress Python package to display customizable progress bars on the terminal easily. Contributions are welcome!
+
+
+
+https://user-images.githubusercontent.com/48654552/136842704-53542e3a-2953-4d73-8057-3a3349b84a04.mp4
+
+
+<details>
+	<summary><b> More examples </b></summary>
+
+https://user-images.githubusercontent.com/48654552/134776865-c7516cf1-0c66-44da-ae2c-f2cbedd2527c.mp4
+
+Source available [here.](https://github.com/DarviL82/PBar/blob/main/resources/examples/anim.py)
+
+</details>
+
+<br>
+
+## Wiki
+Please visit the different wiki pages available **[here](https://github.com/DarviL82/PBar/wiki)** to see all the features of this package!
+
+
+## Requirements
+Python 3.9+
+
+
+## Installation
+PBar is available in the Python Package Index:
+
+`pip install pbar2`
+
+You can also install this package through GitHub:
+
+`pip install git+https://github.com/DarviL82/PBar`
+
+For uninstalling:
+
+`pip uninstall pbar2`
+
+
+## Additional Credits
+| User       | Task          |
+|------------|---------------|
+| DrMeepster | Type Checking |
+
+
