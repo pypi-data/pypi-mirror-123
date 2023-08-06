@@ -1,0 +1,10 @@
+apollo/__init__.py,sha256=6uV3JdJ6eXmgCFzZg5PX2BEIKawlgrPeCn6SDfEH9Pg,61
+apollo/apollo_client.py,sha256=KZcJ4AI_cPZoyja9Nzk-BXP8BWxp5uh5EC597O-B1FU,11008
+apollo/util.py,sha256=FjG7anjWPJuvB8HdiuVsLbk3AKGZPMXcemvLfGtoqHU,2231
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/apollo_client_test.py,sha256=5Y0UguhsuDM7oHdu3B1NgKH_OpMjCNltSH-Z3grYZnw,1057
+CoApollo-0.0.2.dist-info/LICENSE.txt,sha256=jzBdW2CZCJK7uvAItLfd04GG5xg44JvdI1tIW5Emcd4,26930
+CoApollo-0.0.2.dist-info/METADATA,sha256=2cu8FxcTIVSdXdounz8HWBQEjBOujV0fzvwSlCBUCaM,610
+CoApollo-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CoApollo-0.0.2.dist-info/top_level.txt,sha256=FB5cU-q-ZTXTeNCMbwPLva6ivQ8eQ-Z7smfDWCxtx2Q,13
+CoApollo-0.0.2.dist-info/RECORD,,
