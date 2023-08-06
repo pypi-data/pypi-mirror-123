@@ -1,0 +1,14 @@
+wcd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcd/__main__.py,sha256=sp18m2u5jGaYyWrmNytrQPi5CLArmy6xT_0QM-_DVcQ,168
+wcd/cfg.py,sha256=_z8l6zITxEK9bt7C47ovL_ywvrCO7fwcRXD3vvrtZjs,1742
+wcd/event.py,sha256=7o8Fl-SszuePwyCt3aa4Q-jzFKHM8P9Y54GtijB1zAo,977
+wcd/funcs.py,sha256=LKWaoXZFF6Z1edEhtEFOmF7oGdwCLrOAtEH0wiwVclc,3076
+wcd/wcc.py,sha256=fd3lK-uEbRPZXPmu050UrDi1der8zQ_pjeT9OyyPTJU,1527
+wcd/wcd.py,sha256=CIFvO8y2wZbm1cW3F6xPmDkeJEvw5KjFwTpea3Zvq_k,2602
+wcd/wp_cache.py,sha256=AdBNnSYKz9YJVhPOzVGIHEwVtUzJIZaD3bk77c_Eaz4,2194
+wcd-0.0.0a3.dist-info/LICENSE,sha256=wRix-RBk3QhbLFOMFnlPAuQnv9yiP9YsWr75v_JLoTg,1067
+wcd-0.0.0a3.dist-info/METADATA,sha256=MyhPJHBB6A0rSzXuJIXTrB_-0BpaXnctXk8mYkRkqHw,2821
+wcd-0.0.0a3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wcd-0.0.0a3.dist-info/entry_points.txt,sha256=GqmHR4zAWdVof_8PZKCVTwEPJ5gXnfjOJRHhEkZvyZQ,57
+wcd-0.0.0a3.dist-info/top_level.txt,sha256=hsgxv9JV6q9Jvg6YKmaMV19Kvkl9MKuO-n4ZB2j3VwE,4
+wcd-0.0.0a3.dist-info/RECORD,,
