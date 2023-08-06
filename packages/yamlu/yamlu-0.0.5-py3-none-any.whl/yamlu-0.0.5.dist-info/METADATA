@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yamlu
+Version: 0.0.5
+Summary: yet another machine learning utility library
+Home-page: https://github.com/bernhardschaefer/yamlu
+Author: Bernhard Schäfer
+Author-email: bernhard.schaefer1+pypi@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: Pillow
+
+UNKNOWN
+
