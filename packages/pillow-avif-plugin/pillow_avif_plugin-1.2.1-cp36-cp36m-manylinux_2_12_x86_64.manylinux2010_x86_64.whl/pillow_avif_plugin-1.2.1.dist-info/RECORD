@@ -1,0 +1,10 @@
+pillow_avif/_avif.cpython-36m-x86_64-linux-gnu.so,sha256=hAZrdfPiyFtqeTY-RnJOuOEegwfOjOc-2PDCQjmdGuU,26648
+pillow_avif/__init__.py,sha256=UCn85lqyJupjHUS4Og9DyLZ6kJ-HJlV7RvcJOCcKp3g,84
+pillow_avif/AvifImagePlugin.py,sha256=J-a1lf1yj7RqH9ZI7_WEMCAuG77ofcek_f5GtiY_auc,8177
+pillow_avif_plugin-1.2.1.dist-info/WHEEL,sha256=jSYAETKun3X8yDp_zvBDSaL0sIuDwtk9aq685DhXmcU,150
+pillow_avif_plugin-1.2.1.dist-info/top_level.txt,sha256=xrg4zRnqDyl_JEyEQh3oCcAU4BHneocD-DCFDzf4g9E,12
+pillow_avif_plugin-1.2.1.dist-info/METADATA,sha256=_y94PFO1BjNmlJ6ivnT6bzzWYdYIcryOxQ9GM0YK7mQ,1636
+pillow_avif_plugin-1.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pillow_avif_plugin-1.2.1.dist-info/LICENSE,sha256=Y-GPM2BDn_PNAiKqwHfB2ubsfRy0GSy4Y_0XqT_80Sg,23691
+pillow_avif_plugin-1.2.1.dist-info/RECORD,,
+pillow_avif_plugin.libs/libavif-aec1e2b6.so.12.0.0,sha256=tZ55GiwN4fsquFpQwHU2fJ7OY1CQU14CODHdEIBGgy0,19406392
