@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+deteksi_gempa/__init__.py
+latestearthquakeID.egg-info/PKG-INFO
+latestearthquakeID.egg-info/SOURCES.txt
+latestearthquakeID.egg-info/dependency_links.txt
+latestearthquakeID.egg-info/top_level.txt
