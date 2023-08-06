@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: minorimpact
+Version: 0.0.10
+Summary: Personal utility library
+Home-page: https://github.com/minorimpact/python-minorimpact
+Author: Patrick Gillan
+Author-email: pgillan@minorimpact.com
+License: GPLv3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# python-minorimpact
+
+A set of general purpose utility scripts for personal use.
+
+## Installation
+
+    $ pip3 install minorimpact
+
+
+
+
+
