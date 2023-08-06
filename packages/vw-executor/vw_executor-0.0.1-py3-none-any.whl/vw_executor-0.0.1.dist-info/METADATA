@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vw-executor
+Version: 0.0.1
+Summary: Helpers for driving vw execution from python
+Home-page: https://github.com/VowpalWabbit/data-science
+Author: Alexey Taymanov
+Author-email: ataymano@gmail.com
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: tqdm (>=4.0.0)
+
+UNKNOWN
+
+
