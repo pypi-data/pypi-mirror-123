@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: pullkin
+Version: 0.4.1a5
+Summary: Like Pushkin, but subscribe to GCM/FCM and receive notifications
+Home-page: https://github.com/WhiteApfel/pullkin
+Author: WhiteApfel
+Author-email: white@pfel.ru
+License: Mozilla Public License 2.0
+Keywords: fcm gcm push notification receive firebase google
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: oscrypto (~=1.2.1)
+Requires-Dist: setuptools (~=57.4.0)
+Requires-Dist: asyncio (~=3.4.3)
+Requires-Dist: cryptography (~=3.4.8)
+Requires-Dist: typing (~=3.7.4.3)
+Requires-Dist: loguru (~=0.5.3)
+Requires-Dist: betterproto (~=1.2.5)
+Requires-Dist: httpx (~=0.18.2)
+Requires-Dist: nest-asyncio (~=1.4.3)
+Provides-Extra: example
+Requires-Dist: appdirs ; extra == 'example'
+Provides-Extra: listen
+Requires-Dist: http-ece ; extra == 'listen'
+
+# Pullkin
+
+Like Pushkin, but subscribe to FCM (GCM) and receive notifications
+
+My alternative implementation 
+of [python implementation](https://github.com/Francesco149/push_receiver) 
+of [JS implementation](https://github.com/MatthieuLemoine/push-receiver)
+
+Tested on python (3.9.6, TODO: other versions)
+
+I almost didn't write anything to consider it my intellectual property, 
+just wrapped the code already written by Franc[e]sco in a design convenient for my own use 
+
+Note that for the listening part Franc[e]sco has to pull in http-ece which depends
+on a full-blown native crypto library rather than just oscrypto. it is
+an optional dependency, so you'll have to install it explicitly by depending
+on `pullkin[listen]`
+
+## Differences
+
+* Add async listener
+* Add async listener-coroutine
+* Replace functions with class of listener
+
+## Usage
+
+```shell
+pip install pullkin
+```
+
+Basic usage example that stores and loads credentials and persistent ids
+and prints new notifications
+
+You can also run this example with this command (change the sender id)
+
+```shell
+python -m pullkin --sender-id=722915550290
+```
+
+### Compatibility with Franc[e]sco version
+
+You should import familiar functions from `pullkin.old` instead of `push_receiver`
+
+```python
+from pullkin.old import register, listen
+import json
+
+
+def on_notification(obj, notification, data_message):
+  idstr = data_message.persistent_id + "\n"
+
+  # check if we already received the notification
+  with open("persistent_ids.txt", "r") as f:
+    if idstr in f:
+      return
+
+  # new notification, store id so we don't read it again
+  with open("persistent_ids.txt", "a") as f:
+    f.write(idstr)
+
+  # print notification
+  n = notification["notification"]
+  text = n["title"]
+  if n["body"]:
+    text += ": " + n["body"]
+  print(text)
+
+
+if __name__ == "__main__":
+  SENDER_ID = 722915550290  # change this to your sender id
+
+  try:
+    # already registered, load previous credentials
+    with open("credentials.json", "r") as f:
+      credentials = json.load(f)
+
+  except FileNotFoundError:
+    # first time, register and store credentials
+    credentials = register(sender_id=SENDER_ID)
+    with open("credentials.json", "w") as f:
+      json.dump(credentials, f)
+
+  print("send notifications to {}".format(credentials["fcm"]["token"]))
+
+  with open("persistent_ids.txt", "r+") as f:
+    received_persistent_ids = [x.strip() for x in f]
+
+  listen(credentials, on_notification, received_persistent_ids)
+```
+
