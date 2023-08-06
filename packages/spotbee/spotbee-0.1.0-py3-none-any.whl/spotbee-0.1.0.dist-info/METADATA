@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: spotbee
+Version: 0.1.0
+Summary: A simple module that converts Spotify Playlists into a list of Youtube URLs
+License: MIT
+Author: Nishant Sapkota
+Author-email: snishant306@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: spotipy (>=2.19.0,<3.0.0)
