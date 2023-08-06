@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+http_router/__init__.py
+http_router/router.c
+http_router/router.py
+http_router/routes.c
+http_router/routes.py
+http_router/typing.py
+http_router/utils.py
+http_router.egg-info/PKG-INFO
+http_router.egg-info/SOURCES.txt
+http_router.egg-info/dependency_links.txt
+http_router.egg-info/requires.txt
+http_router.egg-info/top_level.txt
