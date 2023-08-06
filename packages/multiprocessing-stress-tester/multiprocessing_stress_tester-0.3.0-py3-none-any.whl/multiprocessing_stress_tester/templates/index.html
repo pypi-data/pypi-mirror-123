@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Multiprocessing Stress Tester</title>
+		<script type="text/javascript" src="scripts"></script>
+		<style>
+		header {
+			padding: 20px 0px;
+		}
+		nav a {
+			text-decoration: none;
+			padding: 10px 25px;
+			background-color: rgb(190, 190, 190);
+			color: #151515;
+			margin: 20px;
+			font-family: sans-serif;
+		}
+		body {
+			padding: 0px 25px;
+			font-family: sans-serif;
+		}
+		</style>
+		
+	</head>
+	<body style="background-color:#dddddd;" >
+		<header>
+			<h1> Multi-Processing Stress Tester </h1>
+		</header>
+		<nav >
+			<a href="#">New Submission</a> 
+			<a href="showSub">Show Submissions</a> 
+		</nav>
+		<br />
+		<h2> Insert here your .cpp files: </h2>
+		<br />
+		
+		Generator:
+		<input type='file' id='generator' name='generator' />
+		<br /><br />
+		Checker:
+		<input type='file' id='checker' name='checker' />
+		<br /><br />
+		Correct:
+		<input type='file' id='correct' name='correct' />
+		<br /><br />
+		Wrong:
+		<input type='file' id='wrong' name='wrong' />
+		<br /><br />
+		Testcase:
+		<input type='text' id='testcase' name='testcase' value='100'/>
+		<br /><br />
+		Time Limit (in seconds):
+		<input type='text' id='timelimit' name='timelimit' value='1'/>
+		<br /><br />
+		Safety: 
+		<input type='radio' id='safety' name='safety' value='False' checked/> False
+		<input type='radio' id='safety' name='safety' value='True' /> True
+		
+		<br /><br /><br />
+		<button onClick='getResponse()'> Send Submission! </button>
+		
+	
+		
+	</body>
+
+</html>
