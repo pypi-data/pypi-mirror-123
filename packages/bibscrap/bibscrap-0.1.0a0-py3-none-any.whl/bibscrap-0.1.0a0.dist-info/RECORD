@@ -1,0 +1,11 @@
+bibscrap/__init__.py,sha256=oD4uEABPtzBuxARtSbj6pj2R9XsvPaYJS3-OUtGh0yE,265
+bibscrap/__main__.py,sha256=wKIFeYxaNOm-hYvzbbOAwrCOurirqfSD1waoNpQodL0,91
+bibscrap/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibscrap/cli/app.py,sha256=KSBNBND1WcqN579zirnSNhG4taYcHo_7PUaszifKT9g,474
+bibscrap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibscrap/util.py,sha256=vJskfr8pAZpKXBE94dSOUOc1vZsbFK61ZQe2RwGYT3U,643
+bibscrap-0.1.0a0.dist-info/entry_points.txt,sha256=II6m57cY57sM__6knKvIQjC-XHCpKbnJ_CdmWAQnAXk,48
+bibscrap-0.1.0a0.dist-info/LICENSE.rst,sha256=Tj76BQRBsdZpL0W__sKVqUupWpKX6hC2A3Zn2o4Zpbo,1089
+bibscrap-0.1.0a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bibscrap-0.1.0a0.dist-info/METADATA,sha256=chGtELYMTv8pP--5UBUTcD_-Ep_bNJ-HIcrouAVi2i0,4007
+bibscrap-0.1.0a0.dist-info/RECORD,,
