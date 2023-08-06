@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: multiprocessing-stress-tester
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask (==2.0.2)
+Requires-Dist: heroku3 (==4.2.3)
+Requires-Dist: psycopg2-binary (==2.9.1)
+
+UNKNOWN
+
