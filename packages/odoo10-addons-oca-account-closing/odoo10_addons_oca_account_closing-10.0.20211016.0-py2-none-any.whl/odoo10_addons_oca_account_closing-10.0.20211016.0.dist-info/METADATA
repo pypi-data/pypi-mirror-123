@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-account-closing
+Version: 10.0.20211016.0
+Summary: Meta package for oca-account-closing Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-account-cutoff-accrual-base
+Requires-Dist: odoo10-addon-account-cutoff-accrual-dates
+Requires-Dist: odoo10-addon-account-cutoff-accrual-subscription
+Requires-Dist: odoo10-addon-account-cutoff-base
+Requires-Dist: odoo10-addon-account-cutoff-prepaid
+Requires-Dist: odoo10-addon-account-fiscal-year-closing
+Requires-Dist: odoo10-addon-account-invoice-accrual
+Requires-Dist: odoo10-addon-account-invoice-accrual-merge
+Requires-Dist: odoo10-addon-account-invoice-start-end-dates
+Requires-Dist: odoo10-addon-account-multicurrency-revaluation
+
+UNKNOWN
+
