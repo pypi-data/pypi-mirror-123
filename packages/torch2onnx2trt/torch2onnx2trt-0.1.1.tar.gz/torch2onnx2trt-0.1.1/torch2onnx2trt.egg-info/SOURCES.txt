@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+torch2onnx2trt/__init__.py
+torch2onnx2trt/main.py
+torch2onnx2trt/utils.py
+torch2onnx2trt.egg-info/PKG-INFO
+torch2onnx2trt.egg-info/SOURCES.txt
+torch2onnx2trt.egg-info/dependency_links.txt
+torch2onnx2trt.egg-info/requires.txt
+torch2onnx2trt.egg-info/top_level.txt
+torch2onnx2trt/tests/__init__.py
+torch2onnx2trt/tests/test_conversion.py
