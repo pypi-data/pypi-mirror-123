@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}All galleries{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>All galleries</h1>
+    </div>
+</div>
+
+{% if object_list %}
+{% for gallery in object_list.all %}
+<div class="row">
+    <div class="col-lg-12">
+        <h2>{{gallery.title}}</h2>
+        <p>{{gallery.date_added}}</p>
+        <ul>
+	{% for photo in gallery.photos.all %}	
+	    <li class="ml-gallery-item ml-gallery-image">
+                <a href="{{ photo.get_absolute_url }}">
+                    <img src="{{photo.image.url}}" width="300" /></li>
+                </a>
+            </li>
+        {% endfor %}
+	{% for video in gallery.videos.all %}	
+         {% if video.thumbnail %}
+	    <li class="ml-gallery-item ml-gallery-video"><a href="{{video.get_absolute_url }}"><img src="{{video.thumbnail.url }}" width="300" /></a></li>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<div class="row">
+    <div class="col-lg-12">No galleries were found.</div>
+</div>
+{% endif %}
+{% endblock %}
