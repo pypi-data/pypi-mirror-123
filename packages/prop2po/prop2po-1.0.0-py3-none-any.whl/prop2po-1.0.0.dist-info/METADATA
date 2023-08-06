@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: prop2po
+Version: 1.0.0
+Summary: Package converting java property file to Gettext PO
+Home-page: https://github.com/mivek/prop2po
+Author: Jean-Kevin KPADEY
+Author-email: jeankevin.kpadey@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mivek/prop2po/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+
+# Prop2PO
+
+Prop2PO package converts a java property file into a Gettext PO file.
+
+## Usage
+
+```shell
+# Basic use of the package
+prop2po messages.properties messages.po
+```
+
+The available options are
+
+| Name       | Shortcut | Type | Explanation                 |
+|------------|----------|------|-----------------------------|
+| --language | -l       | TEXT | Language of the translation |
+| --project  | -p       | TEXT | Name of the project         |
+| --encoding | -e       | TEXT | Encoding of the file        |
+
+
+```shell
+# Print help
+prop2po --help
+```
+
