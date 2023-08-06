@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: batoms
+Version: 0.1.0
+Summary: Drawing and rendering beautiful atoms, molecules using Blender.
+Home-page: https://github.com/superstar54/batoms
+Author: Xing Wang
+Author-email: xingwang1991@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ase
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+
+### Batoms
+
+<img src="docs/source/_static/b-c2h6so.png" align="right" width="200"/>
+
+Batoms is a Python package for editing and rendering atoms and molecules objects using blender. A Python interface that allows for automating workflows.
+
+Features:
+
+* Model: space-filling, ball-stick, polyhedral, cavity and so on.
+* File type: cif, xyz, cube, pdb, json, VASP-out and so on.
+* Volumetric data (Isosurface)
+* Animation
+* GUI
+* ``Flexible``: Python script, run interactively or in background.
+* ``High quality rendering``:  3D models
+* ``Free, Open Source``: Easy to download and install.
+* ``Cross-platform``: (Linux, Windows, macOS)
+
+
+
+### Author
+* Xing Wang  <xingwang1991@gmail.com>
+
+### Dependencies
+
+* Python
+* Blender
+* ASE
+* Scikit-image
+
+
+### How to use
+
+Please vist: https://batoms.readthedocs.io/en/latest/
+
+
