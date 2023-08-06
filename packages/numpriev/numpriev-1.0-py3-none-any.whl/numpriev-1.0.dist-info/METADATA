@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: numpriev
+Version: 1.0
+Summary: A tool to perform mathematical operations.
+Home-page: UNKNOWN
+Author: Eva González
+Author-email: eva78985@hotmail.com
+License: GNU GPLv3
+Keywords: prime number mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+NUMBER UTILS
+==============
+
+Este es un paquete sencillo que contiene una funciÃ³n para el cÃ¡lculo de nÃºmeros primos de un intervalo. 
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation.
+
+
+
