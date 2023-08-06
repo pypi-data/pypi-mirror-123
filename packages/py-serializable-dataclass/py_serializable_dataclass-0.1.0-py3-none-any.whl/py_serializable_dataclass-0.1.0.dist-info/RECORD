@@ -1,0 +1,14 @@
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/dataclasses/__init__.py,sha256=iw_ir4QwAt9zaAubthDnWprfySdbdaNAqIzPVYkCyPI,257
+lib/dataclasses/consts.py,sha256=DmSoRPT16xHV6tJJ1RV3-YD34mMb0mbtNuitdlCfXGE,119
+lib/dataclasses/entry.py,sha256=UzdRd2pWmCukO7LXDVPbXV3W4EijS0GiuDsv28sDWNM,1152
+lib/dataclasses/errors.py,sha256=0IpEU9bQzIigZCwzM0W-YKZo-4saNaeYnbVGZCaQNik,108
+lib/dataclasses/json.py,sha256=26ku8REKWBAJjcc1La8qFMkGnbZDH66EucDWJRDHcxE,3881
+lib/dataclasses/registry.py,sha256=DIXcv07z-1XmdOCzGu__pXsCVRObINPnWyHVQjJfD1g,433
+lib/dataclasses/type_system.py,sha256=7iXLkOEH1E3qBVH8rnMyVpq3mlo3OdWUpePhX4bM-J4,609
+py_serializable_dataclass-0.1.0.data/scripts/publish.py,sha256=0JvDSdLkVoEmPTv6Pe2mKGCFqJAJkZlW4VBR0CdU9pY,632
+py_serializable_dataclass-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+py_serializable_dataclass-0.1.0.dist-info/METADATA,sha256=87w6apdE4PPuOyqCb_swoguBvJf6alxDPXA0lHL-xFE,719
+py_serializable_dataclass-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_serializable_dataclass-0.1.0.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+py_serializable_dataclass-0.1.0.dist-info/RECORD,,
