@@ -1,0 +1,3 @@
+[console_scripts]
+sequana_quality_control = sequana_pipelines.quality_control.main:main
+
