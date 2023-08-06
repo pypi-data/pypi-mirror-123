@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-business-requirement
+Version: 13.0.20211016.0
+Summary: Meta package for oca-business-requirement Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 13.0
+Requires-Dist: odoo13-addon-business-requirement
+Requires-Dist: odoo13-addon-business-requirement-crm
+Requires-Dist: odoo13-addon-business-requirement-deliverable
+Requires-Dist: odoo13-addon-business-requirement-sale
+Requires-Dist: odoo13-addon-business-requirement-sale-timesheet
+
+UNKNOWN
+
