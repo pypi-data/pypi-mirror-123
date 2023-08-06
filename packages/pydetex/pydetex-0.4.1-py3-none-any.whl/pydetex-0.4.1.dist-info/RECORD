@@ -1,0 +1,16 @@
+pydetex/__init__.py,sha256=gS4FADOVBwFadgp7T1gmdg0CdZLkrz5CWEiNRL-t2k8,816
+pydetex/_gui_settings.py,sha256=cIFaLhvFPVABcJ-N1XqHtuAvV4bEpPvWo3kOk87eR3c,15221
+pydetex/_gui_utils.py,sha256=Q_FDRT5TmZOOOYoR4bO_lA4FV4XTexCZWtyIomlXDrk,13883
+pydetex/gui.py,sha256=52av9SBqZZp_py4VtxXQUpjPd-PzP4jJBvPaJNIb_-E,12146
+pydetex/parsers.py,sha256=UGFUjttV28LhR07XwVIxducaOzbrEnR_DJVJ_JIHOEs,9351
+pydetex/pipelines.py,sha256=twOiQvBcLItfIIHcTX_mHesnSjyykgQ_Kw7zdm4g6ok,665
+pydetex/utils.py,sha256=IffTwNLUuF03W9chYuIJaWGxov_xCZ6ghHv0E3HH0xw,11827
+pydetex/version.py,sha256=MhgeUpn0dKd3tKsXLXD95m7LQnS6yCpTfas908mOnF0,811
+pydetex/res/cog.ico,sha256=2YBnQTPRjEIi38JGi5tCvANt4Yo46Nh6EpW7sno_k2Q,4286
+pydetex/res/icon.gif,sha256=fyoHtoD4imQuTxsu0hptZnT_xRWUlzAHbi-ngv5oWDY,13224
+pydetex/res/icon.ico,sha256=xZFgmIrU4d5VSz9lF-iITQkTqiLrh1FqtX7-LjSmZOo,4286
+pydetex-0.4.1.dist-info/LICENSE,sha256=JlCw7T2RNpUl7DTMli5EKEa_xx1od14PH_YUiZ10m2U,1073
+pydetex-0.4.1.dist-info/METADATA,sha256=lgrgFRCkSZ0aDxHa8XBa4a2NgcoGIxuEMmK2LqPIJ6c,4727
+pydetex-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydetex-0.4.1.dist-info/top_level.txt,sha256=Wq8a0GOFTOacYXTd6dYgCj8JKf3Drbt59hmbegg5g4A,8
+pydetex-0.4.1.dist-info/RECORD,,
