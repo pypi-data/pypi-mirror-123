@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Testing_pypi_nik_vaibhav18.egg-info/PKG-INFO
+src/Testing_pypi_nik_vaibhav18.egg-info/SOURCES.txt
+src/Testing_pypi_nik_vaibhav18.egg-info/dependency_links.txt
+src/Testing_pypi_nik_vaibhav18.egg-info/requires.txt
+src/Testing_pypi_nik_vaibhav18.egg-info/top_level.txt
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py
