@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: dwa
+Version: 0.0.38
+Summary: Dynamic Web Application (DWA) framework written with Tornado.
+Home-page: https://github.com/foxe6/dwa
+Author: f̣ộx̣ệ6
+Author-email: foxe6@protonmail.com
+License: AGPL-3.0
+Keywords: tornado ajax wrapper framework
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tornado (>=0.0.1)
+Requires-Dist: sqlq (>=0.0.1)
+Requires-Dist: omnitools (>=0.0.1)
+Requires-Dist: threadwrapper (>=0.0.1)
+Requires-Dist: unencryptedsocket (>=0.0.1)
+Requires-Dist: lxml (>=0.0.1)
+Requires-Dist: aescipher (>=0.0.1)
+Requires-Dist: requests (>=0.0.1)
+
+# Dynamic Web Application (DWA)
+
+<badges>[![version](https://img.shields.io/pypi/v/dwa.svg)](https://pypi.org/project/dwa/)
+[![license](https://img.shields.io/pypi/l/dwa.svg)](https://pypi.org/project/dwa/)
+[![pyversions](https://img.shields.io/pypi/pyversions/dwa.svg)](https://pypi.org/project/dwa/)  
+[![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+[![powered](https://img.shields.io/badge/Powered%20by-UTF8-red.svg)](https://paypal.me/foxe6)
+[![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://paypal.me/foxe6)
+</badges>
+
+<i>Dynamic Web Application (DWA) framework written with Tornado.</i>
+
+# Hierarchy
+
+```
+dwa
+```
+
+# Example
+See [dwa/example](dwa/example).
+
+
