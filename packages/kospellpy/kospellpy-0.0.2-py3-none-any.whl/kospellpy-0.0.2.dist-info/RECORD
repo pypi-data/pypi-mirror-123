@@ -1,0 +1,9 @@
+kospellpy/__init__.py,sha256=s7a689nR0pNPNGxz02HPXfaGHhRWnpw-6KV04xyHlFg,37
+kospellpy/naver_spell_check.py,sha256=T7WqIasTMZDYAzaC0ux9G9wn0knMquU0UE149gHiSQQ,6942
+kospellpy/pusan_spell_check.py,sha256=n8Gh6O3W1RJZ8nKpFPCm6y4qZW5MBqE1xfrLFq7fCck,1056
+kospellpy/spell_select.py,sha256=PFZ8PKYcbZ6bjKvfmTI3AXrT6efTQdE4LWRdysNiCRM,342
+kospellpy-0.0.2.dist-info/LICENSE,sha256=MtTqDeCEnWTRIkt8Nq0Zh54Ow2ButwmYZkdPch78ASI,1067
+kospellpy-0.0.2.dist-info/METADATA,sha256=gB75sk58CdmECNAqI-ZBrKD8DJGLOtTZsfvPg015AuU,908
+kospellpy-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kospellpy-0.0.2.dist-info/top_level.txt,sha256=qrcqF15os1mqwkFtomoQLVbCk94zxP-yzikZ0TIHEqg,10
+kospellpy-0.0.2.dist-info/RECORD,,
