@@ -1,0 +1,12 @@
+requests
+cloudpickle==2.0.0
+
+[pytorch]
+torch
+torchvision
+
+[tf]
+braceexpand
+humanfriendly
+tensorflow
+tensorflow_addons
