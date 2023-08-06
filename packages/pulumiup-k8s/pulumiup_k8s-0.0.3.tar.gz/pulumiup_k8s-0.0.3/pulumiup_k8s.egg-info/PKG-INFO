@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pulumiup-k8s
+Version: 0.0.3
+Summary: Best practice AWS EKS (Kubernetes) Pulumi component with per availability auto scaling group
+Home-page: https://github.com/pulumi-up/pulumi-k8s
+Author: Patrick Wolleb
+Author-email: pat.wolleb@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pulumi-k8s
+
+Best practice AWS EKS (Kubernetes) Pulumi component with per availability auto scaling group
+
+

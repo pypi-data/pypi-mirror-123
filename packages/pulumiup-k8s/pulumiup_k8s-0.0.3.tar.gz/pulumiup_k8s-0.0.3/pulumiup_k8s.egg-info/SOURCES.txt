@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pulumiup_k8s/__init__.py
+pulumiup_k8s/eks.py
+pulumiup_k8s/iam_helpers.py
+pulumiup_k8s.egg-info/PKG-INFO
+pulumiup_k8s.egg-info/SOURCES.txt
+pulumiup_k8s.egg-info/dependency_links.txt
+pulumiup_k8s.egg-info/requires.txt
+pulumiup_k8s.egg-info/top_level.txt
+pulumiup_k8s.egg-info/zip-safe
