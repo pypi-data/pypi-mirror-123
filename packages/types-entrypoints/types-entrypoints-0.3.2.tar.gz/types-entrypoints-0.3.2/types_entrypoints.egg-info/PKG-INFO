@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: types-entrypoints
+Version: 0.3.2
+Summary: Typing stubs for entrypoints
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0 license
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+## Typing stubs for entrypoints
+
+This is a PEP 561 type stub package for the `entrypoints` package.
+It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
+that uses `entrypoints`. The source for this package can be found at
+https://github.com/python/typeshed/tree/master/stubs/entrypoints. All fixes for
+types and metadata should be contributed there.
+
+See https://github.com/python/typeshed/blob/master/README.md for more details.
+This package was generated from typeshed commit `f30b5ae363937553bd7183119fba8377ad78de8d`.
+
+
