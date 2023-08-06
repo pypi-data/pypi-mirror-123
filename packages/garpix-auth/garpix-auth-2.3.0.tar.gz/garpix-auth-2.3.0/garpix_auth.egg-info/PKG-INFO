@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: garpix-auth
+Version: 2.3.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Garpix LTD
+Author-email: info@garpix.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
