@@ -1,0 +1,6 @@
+setup.py
+is_odd/__init__.py
+is_odd_ST.egg-info/PKG-INFO
+is_odd_ST.egg-info/SOURCES.txt
+is_odd_ST.egg-info/dependency_links.txt
+is_odd_ST.egg-info/top_level.txt
