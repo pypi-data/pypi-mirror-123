@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyaffine
+Version: 0.1.5
+Summary: 
+Author: davidshivaji
+Author-email: davidshivaji@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-datamuse (==1.3.0)
