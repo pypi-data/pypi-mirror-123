@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: rctmodelpool
+Version: 0.1.9
+Summary: Hub for rct models
+Home-page: https://github.com/rct-ai/rct-modelpool
+Author: Shen Dezhou
+Author-email: shendezhou@rct.ai
+License: MIT
+Keywords: artificial intelligence,deep learning,attention free transformer,self-attention,transformer,natural language processing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# rct-modelpool
+
+## Installation
+You can git install `rctmodelpool` via `pip`:
+
+```bash
+pip install git+https://github.com/rct-ai/rct-modelpool
+```
+or
+```bash
+pip install rctmodelpool
+```
+
+## Usage
+You can import the *rctmodelpool.modelpool* from the package like so:
+
+### `sync_model`
+```python
+from rctmodelpool import modelpool
+
+path = modelpool.sync_model("rcthub://CPM.csv")
+print(path)
+
+```
+
+### sync tgz
+```python
+import os
+import tarfile
+from rctmodelpool import modelpool
+from pathlib import Path
+
+local_path = modelpool.sync_model("rcthub://"+config.bert_model_path)
+parent_path = Path(local_path).parent
+print("rcthub sync:",local_path)
+modeltar = tarfile.open(local_path)
+inside_folder = os.path.commonprefix(modeltar.getnames())
+real_model_path = os.path.join(parent_path, inside_folder)
+print('model folder:', real_model_path)
+if not os.path.exists(real_model_path):
+    modeltar.extractall(parent_path)
+    print('tar extraction:', parent_path, local_path)
+
+```
+
