@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+suitcase/csv/__init__.py
+suitcase/csv/_version.py
+suitcase_csv.egg-info/PKG-INFO
+suitcase_csv.egg-info/SOURCES.txt
+suitcase_csv.egg-info/dependency_links.txt
+suitcase_csv.egg-info/entry_points.txt
+suitcase_csv.egg-info/requires.txt
+suitcase_csv.egg-info/top_level.txt
