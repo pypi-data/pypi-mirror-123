@@ -1,0 +1,13 @@
+requests<2.26,>=2
+cfgrib<1,>=0.9
+xarray<0.20,>=0.16
+cachetools<5,>=4.2
+PyYAML<5.5,>=5.3
+dask==2021.9.1
+click<9,>=8
+
+[test]
+pytest<7,>=6
+pytest-cov<3,>=2.10
+mock<5,>=4
+responses<1,>=0.12
