@@ -1,0 +1,9 @@
+date_offset/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+date_offset/date_offset.py,sha256=MjP5q_3dhuuNbE-a907qw6FyIx1kC7zaBuZHnLAAb_s,2679
+date_offset/monthdelta.py,sha256=ri8frrtMY70DLQ-0mWZPo8skdhqA96O2U-UaEtz6hJw,6029
+date_offset/tests.py,sha256=JDyXitCVKn9W_HRgXguZMIvc1aSPkJhoD158NJo-GKs,4097
+date_offset-0.0.1.dist-info/LICENSE,sha256=Qs7ImTPYuWNLZYD-bfITXTkp2ObK5HpKdvQm1nzGOC8,1077
+date_offset-0.0.1.dist-info/METADATA,sha256=GY269ZgPhfH_But5Cs77lwg8lYv7Ik2CpXYrLHeB9_M,455
+date_offset-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+date_offset-0.0.1.dist-info/top_level.txt,sha256=rYaXfyOIKfAEBV9QENLWsIiu1XcWpKoR1hNu_rgjhng,12
+date_offset-0.0.1.dist-info/RECORD,,
