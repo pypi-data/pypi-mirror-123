@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dbms/__init__.py
+src/dbms/dbms_con.py
+src/dbmsvalcheck.egg-info/PKG-INFO
+src/dbmsvalcheck.egg-info/SOURCES.txt
+src/dbmsvalcheck.egg-info/dependency_links.txt
+src/dbmsvalcheck.egg-info/top_level.txt
