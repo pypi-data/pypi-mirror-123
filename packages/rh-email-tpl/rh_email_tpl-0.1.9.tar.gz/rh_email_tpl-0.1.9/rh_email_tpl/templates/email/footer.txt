@@ -1,0 +1,22 @@
+
+----------------------------------------
+
+Impressum:
+RegioHelden GmbH
+Rotebühlstraße 50
+70178 Stuttgart
+Fon: 0711 128 501 0
+Fax: 0711 128 501 99
+
+Geschäftsführer: Johannes Bernhardt, Dr. Andreas Müller-Leydig
+Amtsgericht Stuttgart, HRB 733189
+Steuernummer: 99047/10065
+
+AGB: https://regiohelden.de/agb/
+Impressum: https://regiohelden.de/impressum/
+{% if not hide_customer_login %}Kundenlogin: https://kundencenter.stroeer-online-marketing.de/{% endif %}
+
+Besuchen Sie uns!
+Facebook: https://www.facebook.com/regiohelden
+Google+: https://plus.google.com/102816584998659016237/
+Twitter: https://twitter.com/regiohelden
