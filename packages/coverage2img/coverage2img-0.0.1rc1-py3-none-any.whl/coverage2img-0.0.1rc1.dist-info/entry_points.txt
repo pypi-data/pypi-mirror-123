@@ -1,0 +1,3 @@
+[console_scripts]
+coverage2img = coverage2img.main:main
+
