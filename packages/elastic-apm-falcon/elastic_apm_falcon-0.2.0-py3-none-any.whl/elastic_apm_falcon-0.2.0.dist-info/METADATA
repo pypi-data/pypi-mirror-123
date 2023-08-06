@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: elastic-apm-falcon
+Version: 0.2.0
+Summary: Middleware for tracking Falcon requests/responses with Elastic APM.
+Author: Benedikt Brief
+Author-email: b.brief@snapaddy.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: elastic-apm (>=6.0.0,<7.0.0)
+Requires-Dist: falcon (>=3.0.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# elastic-apm-falcon
+

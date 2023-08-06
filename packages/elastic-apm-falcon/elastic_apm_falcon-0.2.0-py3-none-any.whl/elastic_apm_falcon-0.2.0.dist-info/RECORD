@@ -1,0 +1,5 @@
+elastic_apm_falcon/__init__.py,sha256=efLjQ6-3n-MlG0OmWr7MhjWP_vRXLP_k0OAuLhapZeo,1793
+elastic_apm_falcon/utils.py,sha256=-Suj-L44m1kxBNqAGFs5rODdX9TZb582hbEsqk7d4VQ,1320
+elastic_apm_falcon-0.2.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+elastic_apm_falcon-0.2.0.dist-info/METADATA,sha256=VF0xzZfUeKs5pMNrY2VOq2gUd7MzF8faPS4mowKi8Ao,520
+elastic_apm_falcon-0.2.0.dist-info/RECORD,,
