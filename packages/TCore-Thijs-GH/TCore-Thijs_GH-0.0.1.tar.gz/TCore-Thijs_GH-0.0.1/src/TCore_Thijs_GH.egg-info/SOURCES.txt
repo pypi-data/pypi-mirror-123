@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/TCore/__init__.py
+src/TCore_Thijs_GH.egg-info/PKG-INFO
+src/TCore_Thijs_GH.egg-info/SOURCES.txt
+src/TCore_Thijs_GH.egg-info/dependency_links.txt
+src/TCore_Thijs_GH.egg-info/top_level.txt
+src/TProject/__init__.py
