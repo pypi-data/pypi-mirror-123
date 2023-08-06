@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: easydrop
+Version: 0.0.1a1
+Summary: Tool that makes using AirDrop on Linux *easy*
+Home-page: https://github.com/TheLastGimbus/easydrop
+License: Apache-2.0
+Keywords: airdrop,sharing,nearby,wifi,awdl
+Author: TheLastGimbus
+Author-email: mateusz.soszynski@tuta.io
+Maintainer: TheLastGimbus
+Maintainer-email: mateusz.soszynski@tuta.io
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: File Sharing
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: opendrop (>=0.13.0,<0.14.0)
+Project-URL: Repository, https://github.com/TheLastGimbus/easydrop
+Description-Content-Type: text/markdown
+
+# easydrop
+
+Easily share files through AirDrop *without a Mac*
+
+
+`easydrop` is a simple cli utility that's ment for quick and easy ~~send~~/receive files with AirDrop on ~~Windoza~~/Linux
+
+// Strikethough words are stuff that doesn't work yet tho I would really want it to
+
+## Credits
+
+This is a very simple wrapper around much much bigger work of guys @seemoo-lab - it uses [owl](https://github.com/seemoo-lab/owl) for low-level AirDrop network layer as well as [opendrop](https://github.com/seemoo-lab/opendrop) for some app level - HUGE shout-out for them for reverse enineering all of this!!!
+
+// Note: tho I'm thinking of also forking `opendrop` in future for better control over the flow
+
+
+
