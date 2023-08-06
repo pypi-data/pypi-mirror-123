@@ -1,0 +1,10 @@
+dataclass_dict_convert/__init__.py,sha256=51aCDDpkMkUws0EMcxGm4uMArHnNJkGBumiTx-NC5c0,986
+dataclass_dict_convert/autoclass_convert.py,sha256=bP_h9vrUKF9rlYdwgtOnmiXBZtu6mPOi20mbpjVgj58,2962
+dataclass_dict_convert/convert.py,sha256=tcWOUf7jp6DSewm7Haw-aVlTqRn8v-s-TgOO7UJgxyo,22715
+dataclass_dict_convert/dataclass_utils.py,sha256=W8oAeuxBmcm5H7_dWK_12M4svMwknk45qdrsfC-JnsY,19829
+dataclass_dict_convert/rfc3339.py,sha256=AmR_1eF2N3mvQVCsNyjpskRZCgJXfxwPpCXm6Dw4kAk,5493
+dataclass_dict_convert-1.6.0.dist-info/LICENSE,sha256=OBpY814J6vz8TfA3bxY1CzZaB6DVVVDj8zXOzKtLSoE,1060
+dataclass_dict_convert-1.6.0.dist-info/METADATA,sha256=ZM3zT72kubwXQQkdh5H7atTwS_zo76kwXWk2fnf_7_w,2905
+dataclass_dict_convert-1.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dataclass_dict_convert-1.6.0.dist-info/top_level.txt,sha256=NvM-WFcbWT8pnEPO1HuSL5ssd9FPmVSJZelQQDjfKUQ,23
+dataclass_dict_convert-1.6.0.dist-info/RECORD,,
