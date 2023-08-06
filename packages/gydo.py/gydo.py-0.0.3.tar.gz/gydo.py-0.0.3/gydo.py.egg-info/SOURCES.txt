@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gydo/ClientUser.py
+gydo/Intents.py
+gydo/WebsocketManager.py
+gydo/__init__.py
+gydo/client.py
+gydo/errors.py
+gydo/restapi.py
+gydo.py.egg-info/PKG-INFO
+gydo.py.egg-info/SOURCES.txt
+gydo.py.egg-info/dependency_links.txt
+gydo.py.egg-info/requires.txt
+gydo.py.egg-info/top_level.txt
