@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sonus.egg-info/PKG-INFO
+sonus.egg-info/SOURCES.txt
+sonus.egg-info/dependency_links.txt
+sonus.egg-info/top_level.txt
