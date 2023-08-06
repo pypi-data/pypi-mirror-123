@@ -1,0 +1,3 @@
+[console_scripts]
+chronumental = chronumental:__main__.main
+
