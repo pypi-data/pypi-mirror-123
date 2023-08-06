@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-oca-custom
+Version: 10.0.20211017.0
+Summary: Meta package for oca-oca-custom Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-oca-custom
+Requires-Dist: odoo10-addon-project-members
+
+UNKNOWN
+
