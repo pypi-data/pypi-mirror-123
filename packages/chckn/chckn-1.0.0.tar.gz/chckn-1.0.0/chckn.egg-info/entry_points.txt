@@ -1,0 +1,3 @@
+[console_scripts]
+chicken = chicken:_chicken
+

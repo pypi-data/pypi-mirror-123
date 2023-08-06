@@ -1,0 +1,11 @@
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+chicken.py
+setup.py
+chckn.egg-info/PKG-INFO
+chckn.egg-info/SOURCES.txt
+chckn.egg-info/dependency_links.txt
+chckn.egg-info/entry_points.txt
+chckn.egg-info/top_level.txt
