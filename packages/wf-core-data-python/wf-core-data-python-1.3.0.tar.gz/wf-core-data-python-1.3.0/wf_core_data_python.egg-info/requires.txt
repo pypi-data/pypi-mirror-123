@@ -1,0 +1,4 @@
+gspread-pandas>=2.2
+numpy>=1.19
+pandas>=1.3
+requests>=2.25
