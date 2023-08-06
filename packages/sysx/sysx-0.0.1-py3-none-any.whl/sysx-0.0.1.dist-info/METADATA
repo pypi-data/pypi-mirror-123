@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sysx
+Version: 0.0.1
+Summary: The command-line interface to System X.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+
+UNKNOWN
+
