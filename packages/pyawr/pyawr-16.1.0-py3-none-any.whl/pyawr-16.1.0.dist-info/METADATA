@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pyawr
+Version: 16.1.0
+Summary: Python Interface Module for AWR Design Environment
+Home-page: https://kb.awr.com/display/awrscripts/Python
+Author: AWR
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## pyawr: Module for interfacing Python with the AWR Design Environment 
+
+AWR Design Enviroment Python interface module that supports code-completion using external IDEs. 
+
+# Installation
+    pip install pyawr
+
+# Upgrade
+
+    pip install --upgrade pyawr
+
+# Requirements
+* Python >= 3.7
+* pywin32 >= 220
+
+# Usage
+
+    import pyawr.mwoffice as mwoffice
+	awrde = mwo.CMWOffice()
+	
+# History
+
+# 16.1.0
+* AWRDE 16.01 release
+
+# 16.0.2
+* Added version and CLSID options when calling CMWOffice()
+
+# 16.0.1
+* Resolved variable names with double underscores
+
