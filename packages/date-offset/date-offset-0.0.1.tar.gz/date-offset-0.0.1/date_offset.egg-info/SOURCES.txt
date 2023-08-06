@@ -1,0 +1,10 @@
+README.md
+setup.py
+date_offset/__init__.py
+date_offset/date_offset.py
+date_offset/monthdelta.py
+date_offset/tests.py
+date_offset.egg-info/PKG-INFO
+date_offset.egg-info/SOURCES.txt
+date_offset.egg-info/dependency_links.txt
+date_offset.egg-info/top_level.txt
