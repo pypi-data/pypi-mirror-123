@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: agro-met-equations-dynalogic
+Version: 1.0
+Summary: Library for agrometeorological calculation like evapotranspiration, water balance, degree days, water balance ...
+License: BSD 3-Clause
+Author: Bruno Ducraux
+Author-email: bducraux@dynalogic.net
+Requires-Python: >=3.8
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
