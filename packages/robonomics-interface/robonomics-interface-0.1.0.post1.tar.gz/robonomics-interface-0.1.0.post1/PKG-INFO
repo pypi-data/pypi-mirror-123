@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: robonomics-interface
+Version: 0.1.0.post1
+Summary: Robonomics wrapper over https://github.com/polkascan/py-substrate-interface created to facilitate programming with Robonomics
+Home-page: https://github.com/Multi-Agent-io/robonomics-interface
+License: Apache-2.0
+Keywords: python3,wrapper,blockchain,substrate,robonomics,pypi-package
+Author: Pavel Tarasov
+Author-email: p040399@outlook.com
+Requires-Python: >3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: substrate-interface (>=1.0.2,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/Multi-Agent-io/robonomics-interface/issues
+Project-URL: Repository, https://github.com/Multi-Agent-io/robonomics-interface
