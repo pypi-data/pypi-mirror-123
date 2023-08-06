@@ -1,0 +1,5 @@
+ics_courier_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ics_courier_lib/services.py,sha256=ukkmNuFPe2RIhsnTduEqVnBogEM5ofJ0eBHYHck0CtI,737020
+carrier.ics_courier-2021.2a0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+carrier.ics_courier-2021.2a0.dist-info/METADATA,sha256=kQ183Rtfrhg32mXDVLj6d01fCMWISPbVSjMcxlw01yc,1251
+carrier.ics_courier-2021.2a0.dist-info/RECORD,,
