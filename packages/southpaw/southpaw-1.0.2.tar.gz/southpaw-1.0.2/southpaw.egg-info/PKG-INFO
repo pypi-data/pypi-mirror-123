@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: southpaw
+Version: 1.0.2
+Summary: MMA DFS Toolkit
+Home-page: UNKNOWN
+Author: Brandin Canfield
+Author-email: <brandincanfield@gmail.com>
+License: UNKNOWN
+Keywords: fanduel,api,mma,dfs,lineup,optimizer,generator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+MMA DFS Toolkit written in Python
+
