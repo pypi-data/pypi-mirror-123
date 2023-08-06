@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+mangatools/commands/__init__.py
+mangatools/commands/manga_archive.py
+mangatools/commands/manga_ascii.py
+mangatools/commands/manga_extract.py
+mangatools/commands/manga_search.py
+mangatools/mangatools.egg-info/PKG-INFO
+mangatools/mangatools.egg-info/SOURCES.txt
+mangatools/mangatools.egg-info/dependency_links.txt
+mangatools/mangatools.egg-info/entry_points.txt
+mangatools/mangatools.egg-info/not-zip-safe
+mangatools/mangatools.egg-info/requires.txt
+mangatools/mangatools.egg-info/top_level.txt
