@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: micropython-env-sense
+Version: 0.3.0
+Summary: Importers for various institutions for Beancount
+Home-page: https://github.com/redstreet/env_sense
+Author: Red S
+Author-email: redstreet@users.noreply.github.com
+License: GPL-3.0
+Keywords: esp esp8266 micropython environment sensor
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# env_sense
+
+Environment sensor in micropython, designed to run on an ESP8266.
+
+### Features:
+- PMS7003 for air quality
+- BME280 for temperature, pressure, humidity
+- minimal cron job to run each of these
+- warm up PMS7003 for 30sec before taking readings, per manufacturer recommendations
+- apply US EPA's correction factor specifically for PMSX003 sensors
+  - include humidity data from BME280 in the correction factor
+- convert to US EPA AQI
+- publish to thingspeak via MQTT
+- option to deep sleep between runs to save power
+- publish to pypi for OTA
+
+## Installation and updates:
+```
+>> import upip; upip.install('micropython-env-sense')
+```
+
+- assumes boot.py brings up your wifi connection
+- add `import env_sense` to your main.py
+- enable webrepl
+- disable repl in boot.py so the ESP8266's UART can be used for the PMS7003:
+- `uos.dupterm(None, 1)`
+
+
+
