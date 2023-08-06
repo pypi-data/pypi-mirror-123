@@ -1,0 +1,87 @@
+@startuml
+
+/' This line hides "stereotypes" (e.g. <<package>>) from our diagram. '/
+hide stereotype
+
+caption The //**hush**// package's modules.
+
+header
+    WARNING: This document is //only// guaranteed to be up-to-date as of 2021-10-14.
+endheader
+
+legend center
+    **__Italic Attribute__**: This public attribute was imported from somewhere else.
+    **__Solid Arrow__**: (A --> B) Module/package A imports module/package B globally.
+    **__White Box__**: This object box represents a module.
+    **__Yellow Box__**: This object box represents a package.
+endlegend
+
+skinparam object {
+    BackgroundColor WhiteSmoke
+    BorderColor Black
+    ArrowColor Black
+
+    BackgroundColor<<package>> #f0f4aa
+}
+
+object "hush" as h <<package>> {
+    //Hush()//
+    //get_secret()//
+}
+
+object "hush._core" as h.core {
+    Hush()
+    get_secret()
+}
+
+object "hush._cli" as h.cli {
+    main()
+}
+
+object "hush.plugin" as h.p <<package>> {
+    //hookimpl()//
+    //manager()//
+}
+
+object "hush.plugin._core" as h.p.core {
+    manager()
+}
+
+object "hush.plugin._hooks" as h.p.hooks {
+    hookimpl()
+    hookspec()
+}
+
+object "hush.plugin._specs" as h.p.specs {
+    get_secret()
+}
+
+object "hush.plugin._builtin" as h.p.b <<package>> {
+    //get_plugin_modules()//
+}
+
+object "hush.plugin._builtin._core" as h.p.b.core {
+    get_plugin_modules()
+}
+
+object "hush.plugin._builtin.envvars" as h.p.b.envvars {
+    get_secret()
+}
+
+object "hush.plugin._builtin.pass_store" as h.p.b.pass_store {
+    get_secret()
+}
+
+h --> h.core
+h.cli --> h
+h.core --> h.p
+h.p --> h.p.core
+h.p --> h.p.hooks
+h.p.specs --> h.p.hooks
+h.p.b.envvars --> h.p
+h.p.b.pass_store --> h.p
+h.p.b --> h.p.b.core
+h.p.core --> h.p.b
+h.p.core --> h.p.specs
+
+@enduml
