@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/emojy/__init__.py
+src/emojy/__main__.py
+src/emojy.egg-info/PKG-INFO
+src/emojy.egg-info/SOURCES.txt
+src/emojy.egg-info/dependency_links.txt
+src/emojy.egg-info/entry_points.txt
+src/emojy.egg-info/requires.txt
+src/emojy.egg-info/top_level.txt
