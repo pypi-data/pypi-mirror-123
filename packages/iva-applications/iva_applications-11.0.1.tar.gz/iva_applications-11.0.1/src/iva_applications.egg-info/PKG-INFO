@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: iva-applications
+Version: 11.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: IVA Technologies
+Author-email: engineering@iva-tech.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tensorflow
+Provides-Extra: transformers
+Provides-Extra: pytpu
+License-File: LICENSE
+
+UNKNOWN
+
