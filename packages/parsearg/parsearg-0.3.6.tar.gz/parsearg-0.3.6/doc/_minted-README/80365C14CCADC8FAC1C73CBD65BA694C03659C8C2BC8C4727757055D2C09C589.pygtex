@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+python todos.py update user email Harry harry@email.com
+python todos.py update user phone Dick \PYG{l+m}{203}\PYGZhy{}555\PYGZhy{}1212
+\end{Verbatim}

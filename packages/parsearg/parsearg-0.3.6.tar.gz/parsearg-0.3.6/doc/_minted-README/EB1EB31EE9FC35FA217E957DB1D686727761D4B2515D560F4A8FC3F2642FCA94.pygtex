@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kn}{import} \PYG{n+nn}{sys}
+\PYG{k+kn}{from} \PYG{n+nn}{parsearg} \PYG{k+kn}{import} \PYG{n}{ParseArg}
+
+\PYG{k}{def} \PYG{n+nf}{create\PYGZus{}user}\PYG{p}{(}\PYG{n}{args}\PYG{p}{):}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s1}{\PYGZsq{}created user: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{args}\PYG{o}{.}\PYG{n}{name}\PYG{l+s+si}{!r\PYGZcb{}}\PYG{l+s+s1}{ (email: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{args}\PYG{o}{.}\PYG{n}{email}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{, phone: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{args}\PYG{o}{.}\PYG{n}{phone}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{)\PYGZsq{}}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{create\PYGZus{}todo}\PYG{p}{(}\PYG{n}{args}\PYG{p}{):}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s1}{\PYGZsq{}created TO\PYGZhy{}DO for user }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{args}\PYG{o}{.}\PYG{n}{user}\PYG{l+s+si}{!r\PYGZcb{}}\PYG{l+s+s1}{: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{args}\PYG{o}{.}\PYG{n}{title}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{ (due: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{args}\PYG{o}{.}\PYG{n}{due\PYGZus{}date}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{)\PYGZsq{}}\PYG{p}{)}
+
+\PYG{n}{view} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+    \PYG{l+s+s1}{\PYGZsq{}create|user\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}
+        \PYG{l+s+s1}{\PYGZsq{}callback\PYGZsq{}}\PYG{p}{:}   \PYG{n}{create\PYGZus{}user}\PYG{p}{,}
+        \PYG{l+s+s1}{\PYGZsq{}name\PYGZsq{}}\PYG{p}{:}       \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}help\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}create user name\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}store\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+        \PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}e|\PYGZhy{}\PYGZhy{}email\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}help\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s2}{\PYGZdq{}create user\PYGZsq{}s email address\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}store\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}default\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+        \PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}p|\PYGZhy{}\PYGZhy{}phone\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}help\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s2}{\PYGZdq{}create user\PYGZsq{}s phone number\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}store\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}default\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+    \PYG{p}{\PYGZcb{},}
+    \PYG{l+s+s1}{\PYGZsq{}create|todo\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}
+        \PYG{l+s+s1}{\PYGZsq{}callback\PYGZsq{}}\PYG{p}{:}   \PYG{n}{create\PYGZus{}todo}\PYG{p}{,}
+        \PYG{l+s+s1}{\PYGZsq{}user\PYGZsq{}}\PYG{p}{:}       \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}help\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}user name\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}store\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+        \PYG{l+s+s1}{\PYGZsq{}title\PYGZsq{}}\PYG{p}{:}      \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}help\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}title of TO\PYGZhy{}DO\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}store\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+        \PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}d|\PYGZhy{}\PYGZhy{}due\PYGZhy{}date\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}help\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}due date for the TO\PYGZhy{}DO\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}store\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}default\PYGZsq{}}\PYG{p}{:} \PYG{k+kc}{None}\PYG{p}{\PYGZcb{},}
+    \PYG{p}{\PYGZcb{},}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k}{def} \PYG{n+nf}{main}\PYG{p}{(}\PYG{n}{args}\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} ParseArg takes the place of argparse.ArgumentParser}
+    \PYG{n}{parser} \PYG{o}{=} \PYG{n}{ParseArg}\PYG{p}{(}\PYG{n}{d}\PYG{o}{=}\PYG{n}{view}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} parser.parse\PYGZus{}args returns an argparse.Namespace}
+    \PYG{n}{ns}     \PYG{o}{=} \PYG{n}{parser}\PYG{o}{.}\PYG{n}{parse\PYGZus{}args}\PYG{p}{(}\PYG{n}{args}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} ns.callback contains the function in the \PYGZsq{}callback\PYGZsq{} key of \PYGZsq{}view\PYGZsq{}}
+    \PYG{n}{result} \PYG{o}{=} \PYG{n}{ns}\PYG{o}{.}\PYG{n}{callback}\PYG{p}{(}\PYG{n}{ns}\PYG{p}{)}
+
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}\PYGZdq{}}\PYG{p}{:}
+    \PYG{n}{args} \PYG{o}{=} \PYG{n}{sys}\PYG{o}{.}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{:]} \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{sys}\PYG{o}{.}\PYG{n}{argv}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{k}{else} \PYG{p}{[]}
+
+    \PYG{n}{main}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{o}{.}\PYG{n}{join}\PYG{p}{(}\PYG{n}{args}\PYG{p}{))}
+\end{Verbatim}

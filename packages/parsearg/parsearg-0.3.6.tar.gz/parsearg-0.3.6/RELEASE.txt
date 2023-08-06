@@ -1,0 +1,152 @@
+v-0.3.6 :: [2021-10-12] 
+
+    + up-rev doc/README.{org,pdf}
+
+
+v-0.3.5 :: [2021-06-21] 
+
+    + export version in __init__.py
+
+
+v-0.3.4 :: [2021-06-21] 
+
+    + issues in pypi.org
+    + immediately bumped to v-0.3.5
+
+
+v-0.3.3 :: [2021-06-15] 
+
+    + test down to Python 3.6
+    + relax restriction in setup.py to >= 3.6
+
+
+v-0.3.2 :: [2021-06-12] 
+
+    + tweak to quickstart-todos.py in README.md
+    + edits to ./doc/examples/a*.py
+    + edits to ./doc/README.org
+    + re-ran ./doc/README.pdf
+
+
+v-0.3.1 :: [2021-06-12] 
+
+    + edits to ./doc/README.org
+    + re-ran ./doc/README.pdf
+
+
+v-0.3.0 :: [2021-06-12] 
+
+    + restructured:
+
+        - ./examples -> ./doc/examples
+        - ./tests/conftest.py contents -> ./src/parsearg/example_trees.py
+
+    + edits to README.md, ./doc/README.org
+
+
+v-0.2.1 :: [2021-06-10] 
+
+    + restructured:
+
+        - ./parsearg/examples -> ./examples
+        - ./parsearg/tests -> ./tests
+        - ./parsearg -> ./src/parsearg
+
+    + adjusted examples and tests to match restructuring
+    + tweaked setup.py
+
+    
+v-0.2.0 :: [2021-06-08] 
+
+    + README.md at top level (contains Quickstart)
+    + moved README.org within ./doc
+
+    
+v-0.1.10 :: [2020-11-23] 
+
+    + add full parseargs.examples.a.py and parseargs.examples.a_aa.py output
+
+    
+v-0.1.9 :: [2020-11-23] 
+
+    + more tweaks to README.org
+
+    
+v-0.1.8 :: [2020-11-23] 
+
+    + tweaks to README.org
+    
+
+v-0.1.7 :: [2020-11-23] 
+
+    + added README.pdf to the distribution [just in case]
+
+
+v-0.1.6 :: [2020-11-23] 
+
+    + added To-Do example along with A-tree and A-AA tree examples
+
+
+v-0.1.5 :: [2020-11-23] 
+
+    + add README.org, Makefile at the top level
+
+
+v-0.1.4 :: [2020-11-23] 
+
+    + examples -> parsearg/examples
+    + clarified MVC components in examples/{a,a_aa}.py 
+
+
+v-0.1.3 :: [2020-11-23] 
+
+    + clarified the 'todos' example:
+        clearly label the individual Model, View and Controller ("MVC") parts of the design
+
+
+v-0.1.2 :: [2020-11-22] 
+
+    + added two examples:
+        ./examples/a.py     # the A-tree example
+        ./examples/a_aa.py  # the full A-AA-tree example
+
+
+v-0.1.1 :: [2020-11-22] 
+
+    + added comprehensive example:
+        ./examples/todos.sh
+
+    + fixtures in conftest 
+
+
+v-0.1.0 :: [2020-11-20] 
+
+    + first working version [example: tests/test_parser.py]
+
+          base$ SRC=parser/parser
+          base$ cd $SRC
+          bash$ pytest -v -s tests/test_parser.py | less
+
+    + add parser.py
+    + add tests/test_parser.py
+    + add fixtures [tests/conftest.py]
+
+
+v-0.0.3 :: [2020-11-19] 
+
+    + finish test_data_structures.py 
+    + add parser.py
+
+
+v-0.0.2 :: [2020-11-19] 
+
+    + add data_structures.py: Fifo, Tree, &c
+    + add utils.py
+    + add test harness
+
+
+v-0.0.1 :: [2020-08-18] 
+
+    + init repo
+    + basic structure
+

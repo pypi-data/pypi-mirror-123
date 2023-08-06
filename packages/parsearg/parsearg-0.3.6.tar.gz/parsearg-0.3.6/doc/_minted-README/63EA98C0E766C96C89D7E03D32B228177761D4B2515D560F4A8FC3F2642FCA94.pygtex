@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kn}{from} \PYG{n+nn}{a\PYGZus{}aa} \PYG{k+kn}{import} \PYG{n}{main}
+\PYG{n}{main}\PYG{p}{()}
+\end{Verbatim}

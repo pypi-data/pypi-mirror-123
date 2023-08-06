@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kn}{from} \PYG{n+nn}{todos} \PYG{k+kn}{import} \PYG{n}{view}
+\PYG{k+kn}{from} \PYG{n+nn}{parsearg.utils} \PYG{k+kn}{import} \PYG{n}{show}
+
+\PYG{n}{show}\PYG{p}{(}\PYG{n}{view}\PYG{p}{)}
+\end{Verbatim}

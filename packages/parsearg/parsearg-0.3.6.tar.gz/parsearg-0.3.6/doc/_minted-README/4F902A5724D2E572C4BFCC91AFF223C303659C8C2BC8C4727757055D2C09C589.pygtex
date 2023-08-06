@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+python todos.py create user Tom \PYGZhy{}e tom@email.com \PYGZhy{}p \PYG{l+m}{212}\PYGZhy{}555\PYGZhy{}1234
+python todos.py create user Dick \PYGZhy{}e dick@email.com
+python todos.py create user Harry \PYGZhy{}p \PYG{l+m}{212}\PYGZhy{}123\PYGZhy{}5555
+\end{Verbatim}

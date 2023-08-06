@@ -1,0 +1,98 @@
+# -*- org-confirm-babel-evaluate: nil -*- 
+#+author:      Thomas P. Harte
+#+title:       ~parsearg~: turning ~argparse~ on its head the declarative way
+#+email:       tharte@cantab.net
+
+#+latex_class:   review
+#+latex_header:  \usepackage{minted}
+#+latex_header:  \usemintedstyle{colorful}
+#+latex_header:  \usepackage[ruled]{algorithm2e}
+#+latex_header:  \usepackage{enumitem}
+#+options:       tex:imagemagick
+#+include:       /home/tharte/dot/include/newcommands.tex src latex
+#+bind:          org-latex-image-default-width 0.5\linewidth $
+#+bind:          org-latex-prefer-user-labels t
+#+latex_header:  \newtheorem{lemma}{Lemma}[section]
+#+latex_header:  \newtheorem{defn}{Definition}[section]
+#+latex_header:  \newtheorem{remark}{Remark}[section]
+
+#+latex_header_extra: \usepackage{mdframed}
+#+latex_header_extra: \BeforeBeginEnvironment{verbatim}{\begin{mdframed}}
+#+latex_header_extra: \AfterEndEnvironment{verbatim}{\end{mdframed}}
+
+#+begin_export latex
+\newtcbox{\mybox}[1][]{%
+    nobeforeafter, math upper, tcbox raise base,
+    enhanced, colframe=blue!30!black,
+    colback=lightgreen!30, boxrule=0.5pt,
+    #1
+}
+#+end_export
+
+http://micheles.github.io/plac/
+
+1. ~getopt~
+   Note The getopt module is a parser for command line options whose API is
+   designed to be familiar to users of the C getopt() function. Users who
+   are unfamiliar with the C getopt() function or who would like to write
+   less code and get better help and error messages should consider using
+   the argparse module instead.
+2. ~optparse~ 
+    New in Version 2.3; Deprecated since version 2.7: The optparse module is
+    deprecated and will not be developed further; development will continue
+    with the argparse module.)
+3. ~argparse~
+   
+~plac vs the rest of the world~
+Originally plac boasted about being ``the easiest command-line arguments
+parser in the world''. Since then, people started pointing out to me various
+projects which are based on the same idea (extracting the parser from the
+main function signature) and are arguably even easier than plac:
+
+opterator by Dusty Phillips
+
+CLIArgs by Pavel Panchekha
+
+commandline by David Laban
+
+Luckily for me none of such projects had the idea of using function annotations
+and argparse; as a consequence, they are no match for the capabilities of plac.
+
+Of course, there are tons of other libraries to parse the command line. For
+instance Clap by Matthew Frazier which appeared on PyPI just the day before
+plac; Clap is fine but it is certainly not easier than plac.
+
+plac can also be used as a replacement of the cmd module in the standard
+library and as such it shares many features with the module cmd2 by Catherine
+Devlin. However, this is completely coincidental, since I became aware of
+the cmd2 module only after writing plac.
+
+Command-line argument parsers keep coming out; between the newcomers I will
+notice marrow.script by Alice Bevan-McGregor, which is quite similar to plac
+in spirit, but does not rely on argparse at all. Argh by Andrey Mikhaylenko is
+also worth mentioning: it is based on argparse, it came after plac and I must
+give credit to the author for the choice of the name, much funnier than plac!
+
+#+begin_abstract
+Python's module for writing command-line interfaces (``CLI'') is ~argparse~.
+There are many other packages for creating CLIs, but ~argparse~ is Python's
+standard.  Creating a CLI with ~argparse~---and especially a CLI that splits
+its functionality into sub-commands, such as ~git init~, ~git commit~, and
+so on---is an exercise in imperative programming: The structure of the CLI
+is specified command by command until the data that specify the behavior
+of each command-line argument are added.  The imperative nature of this
+process obfuscates the CLI design.  The diametric opposite is ~parsearg~,
+which starts with a data structure containing the data that specify the
+behavior of each command-line argument, from which ~parsearg~ generates a
+parser using ~argparse~.  The declarative nature of the ~parsearg~ approach
+places the CLI design front and center with a data structure (a simple ~dict~
+with an appropriate key schema for specifying a flattened data tree).
+#+end_abstract
+
+# 
+# SET-UP
+#
+#+BEGIN_SRC python :session *Python-3.x* :exports none :results silent :eval yes
+
+#+END_SRC
+

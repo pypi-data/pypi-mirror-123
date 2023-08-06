@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+python quickstart\PYGZhy{}todos.py create user Bob \PYGZhy{}\PYGZhy{}email\PYG{o}{=}bob@email.com \PYGZhy{}\PYGZhy{}phone\PYG{o}{=}+1\PYGZhy{}212\PYGZhy{}555\PYGZhy{}1234
+python quickstart\PYGZhy{}todos.py create todo Bob \PYG{l+s+s1}{\PYGZsq{}taxes\PYGZsq{}} \PYGZhy{}\PYGZhy{}due\PYGZhy{}date\PYG{o}{=}\PYG{l+m}{2021}\PYGZhy{}05\PYGZhy{}17
+\end{Verbatim}

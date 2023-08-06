@@ -1,0 +1,13 @@
+include pyproject.toml
+
+include LICENSE
+include RELEASE.txt
+include README.md
+include setup.py
+
+recursive-include tests *.py
+# graft tests
+graft doc
+
+global-exclude *~ _minted-tmp/* tmp*
+global-exclude *~ *.py[cod]

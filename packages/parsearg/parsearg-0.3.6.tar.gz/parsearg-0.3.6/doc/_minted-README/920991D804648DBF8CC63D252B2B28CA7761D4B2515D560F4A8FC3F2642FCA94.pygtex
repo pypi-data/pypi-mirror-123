@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+c1}{\PYGZsh{} from a import view}
+\PYG{k+kn}{from} \PYG{n+nn}{doc.examples.a} \PYG{k+kn}{import} \PYG{n}{view}
+
+\PYG{n+nb}{print}\PYG{p}{([}\PYG{l+s+s1}{\PYGZsq{}root\PYGZsq{}}\PYG{p}{]} \PYG{o}{+} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n}{view}\PYG{o}{.}\PYG{n}{keys}\PYG{p}{()))}
+\end{Verbatim}

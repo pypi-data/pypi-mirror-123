@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{       A}
+\PYG{l+s+sd}{     / | \PYGZbs{}}
+\PYG{l+s+sd}{    B  BB BBB}
+\PYG{l+s+sd}{      /| \PYGZbs{}}
+\PYG{l+s+sd}{     C CC CCC}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{tree} \PYG{o}{=} \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}A\PYGZsq{}}\PYG{p}{,} \PYG{n}{children}\PYG{o}{=}\PYG{p}{[}
+    \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}B\PYGZsq{}}\PYG{p}{,} \PYG{p}{[]),}
+    \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}BB\PYGZsq{}}\PYG{p}{,} \PYG{n}{children}\PYG{o}{=}\PYG{p}{[}
+        \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}C\PYGZsq{}}\PYG{p}{,} \PYG{p}{[]),}
+        \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}CC\PYGZsq{}}\PYG{p}{,} \PYG{p}{[]),}
+        \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}CCC\PYGZsq{}}\PYG{p}{,} \PYG{p}{[])}
+    \PYG{p}{]),}
+    \PYG{n}{Tree}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}BBB\PYGZsq{}}\PYG{p}{,} \PYG{p}{[]),}
+\PYG{p}{])}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{tree}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{quiet}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{))}
+\end{Verbatim}

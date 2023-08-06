@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+python quickstart\PYGZhy{}todos.py create user Bob \PYGZhy{}\PYGZhy{}email\PYG{o}{=}bob@email.com \PYGZhy{}\PYGZhy{}phone\PYG{o}{=}\PYG{l+m}{212}\PYGZhy{}555\PYGZhy{}1234
+\end{Verbatim}

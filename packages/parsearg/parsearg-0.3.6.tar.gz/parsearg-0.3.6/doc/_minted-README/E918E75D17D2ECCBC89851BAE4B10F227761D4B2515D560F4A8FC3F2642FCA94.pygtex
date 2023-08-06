@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kn}{from} \PYG{n+nn}{parsearg} \PYG{k+kn}{import} \PYG{n}{ParseArg}
+
+\PYG{n+nb}{print}\PYG{p}{(}
+    \PYG{n}{ParseArg}\PYG{p}{(}\PYG{n}{d}\PYG{o}{=}\PYG{n}{view}\PYG{p}{,} \PYG{n}{root\PYGZus{}name}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}TODO\PYGZsq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{tree}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{quiet}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,529 @@
+% Created 2020-11-18 Wed 20:57
+% Intended LaTeX compiler: pdflatex
+\documentclass[10pt]{amsart}
+    \usepackage[english]{isodate}
+    \isodate
+
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{graphicx}
+    \usepackage{longtable}
+    \usepackage{float}
+    \usepackage{wrapfig}
+    \usepackage{rotating}
+
+    \usepackage{fixltx2e}
+    \usepackage[normalem]{ulem}
+    \usepackage{textcomp}
+    \usepackage{marvosym}
+
+    \usepackage[top=2.8cm, bottom=2.8cm, left=3.0cm, right=3.0cm]{geometry}
+    \usepackage{booktabs}
+    \usepackage{amsfonts}
+    \usepackage{amssymb}
+    \usepackage{amsmath}
+
+    \usepackage{amsthm}
+    \usepackage{amsbsy}
+    \usepackage{mathrsfs, calrsfs}
+    \usepackage{stmaryrd}
+    \usepackage{fancyvrb}
+
+    \usepackage[usenames,dvipsnames]{xcolor}
+    \usepackage{stackengine}
+    \usepackage{hyperref}
+    \usepackage[all]{hypcap}
+    \hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=NavyBlue,
+    citecolor=ForestGreen}
+
+    \usepackage{xcolor}
+    \usepackage[most]{tcolorbox}
+    \usepackage{empheq}
+    \usepackage{environ}
+
+    \usepackage{pgf}
+    \usepackage{tikz}
+    \usetikzlibrary{arrows,automata,backgrounds,calc,fit,matrix,positioning,shadows,shapes}
+    \usepackage{dot2texi}
+    \usepackage{txfonts}
+
+    \usepackage{etoolbox}
+    \makeatletter
+    \let\ams@starttoc\@starttoc
+    \makeatother
+    \usepackage[parfill]{parskip}
+    \makeatletter
+    \let\@starttoc\ams@starttoc
+    \patchcmd{\@starttoc}{\makeatletter}{\makeatletter\parskip\z@}{}{}
+    \makeatother
+
+    \let\oldtocsection=\tocsection
+    \let\oldtocsubsection=\tocsubsection
+    \let\oldtocsubsubsection=\tocsubsubsection
+    \renewcommand{\tocsection}[2]{\hspace{0em}\oldtocsection{#1}{#2}}
+    \renewcommand{\tocsubsection}[2]{\hspace{1em}\oldtocsubsection{#1}{#2}}
+    \renewcommand{\tocsubsubsection}[2]{\hspace{2em}\oldtocsubsubsection{#1}{#2}}
+
+    \usepackage{enumerate}
+    \usepackage{multicol}
+    \usepackage{multirow}
+    \usepackage{microtype}
+
+    \numberwithin{equation}{section}
+    \setcounter{tocdepth}{4}
+    \DeclareMathOperator{\Var}{Var}
+    \DeclareMathOperator{\Cov}{cov}
+
+    \RequirePackage{fancyvrb}
+    \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+    \definecolor{lightgreen}{HTML}{90EE90}
+    \definecolor{lightblue}{rgb}{0.94,0.94,0.95}
+
+
+\usepackage{float}
+\usepackage{fixltx2e}
+\usepackage[normalem]{ulem}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsbsy}
+\usepackage{mathrsfs}
+\usepackage{calrsfs}
+\usepackage{stmaryrd}
+\usepackage{fancyvrb}
+\usepackage{dsfont}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{environ}
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{dot2texi}
+\usepackage{txfonts}
+\usepackage{csquotes}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{microtype}
+\usepackage[makeroom]{cancel}
+\usepackage{minted}
+\usemintedstyle{colorful}
+\usepackage[ruled]{algorithm2e}
+\usepackage{enumitem}
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{defn}{Definition}[section]
+\newtheorem{remark}{Remark}[section]
+\usepackage{mdframed}
+\BeforeBeginEnvironment{verbatim}{\begin{mdframed}}
+\AfterEndEnvironment{verbatim}{\end{mdframed}}
+\author{Thomas P. Harte}
+\date{\today}
+\title{\texttt{parsearg}: turning \texttt{argparse} on its head the declarative way}
+\hypersetup{
+ pdfauthor={Thomas P. Harte},
+ pdftitle={\texttt{parsearg}: turning \texttt{argparse} on its head the declarative way},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.2.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% inverse:
+\newcommand{\inv}[1]{{#1}^{-1}}
+
+%    Enclose the argument in vert-bar delimiters:
+\newcommand{\envert}[1]{\left\lvert#1\right\rvert}
+\let\abs=\envert
+
+%    Enclose the argument in double-vert-bar delimiters:
+\newcommand{\enVert}[1]{\left\lVert#1\right\rVert}
+
+% define the vector norm
+\let\norm=\enVert
+
+% bootstrap / cross-validation definitions:
+\newcommand{\PE}{\mbox{PE}}             % Predictive error
+
+% financial definitions:
+\newcommand{\EVA}{\mbox{EVA}}             % Economic Value Added
+\newcommand{\CTE}{\mbox{CTE}}             % Conditional tail expectation (expected shortfall)
+\newcommand{\VaR}{\mbox{VaR}}             % Value-at-Risk
+\newcommand{\PAR}{\mbox{PAR}}             % PAR value of a bond
+%% \newcommand{\AC}{\mbox{AC}}             % accrued interest of a bond
+\newcommand{\TR}{\mbox{TR}}             % total return
+
+% text definitions:
+\newcommand{\Primafacie}{\emph{Prima facie\/}}
+\newcommand{\primafacie}{\emph{prima facie\/}}
+\newcommand{\Mutatis}{\emph{Mutatis mutandis\/}}
+\newcommand{\mutatis}{\emph{mutatis mutandis\/}}
+\newcommand{\Apriori}{\emph{A~priori\/}}
+\newcommand{\apriori}{\emph{a~priori\/}}
+\newcommand{\Adhoc}{\emph{Ad~hoc\/}}
+\newcommand{\adhoc}{\emph{ad~hoc\/}}
+\newcommand{\qua}{\emph{qua\/}}
+\newcommand{\etc}{\emph{etc.\/}}
+\newcommand{\ie}{\emph{i.e.\/}}
+\newcommand{\eg}{\emph{e.g.\/}}
+\newcommand{\viz}{\emph{viz.\/}}
+\newcommand{\perse}{\emph{per~se\/}}
+\newcommand{\intoto}{\emph{in~toto\/}}
+\newcommand{\interalia}{\emph{inter~alia\/}}
+\newcommand{\notabene}{\emph{nota~bene\/}}
+\newcommand{\Notabene}{\emph{Nota~bene\/}}
+\newcommand{\etal}{\emph{et~al.,\/}}
+\newcommand{\cf}{cf.\/}                % confer (L.)
+\newcommand{\sic}{[\emph{sic}]}
+\newcommand{\etseq}{\emph{et~seq.\/}}        % et sequens (L.)
+\newcommand{\etsqq}{\emph{et~sqq.\/}}        % et sequentia (L.)
+\newcommand{\Page}{\emph{p.\/}}            % ``page''  (page number)
+\newcommand{\pp}{\emph{pp.\/}}            % ``pages'' (page numbers)
+\newcommand{\visavis}{\emph{vis~\`a~vis\/}}    % vis a vis (F.)
+
+% fields and things:
+\newcommand{\field}[1]{\mathbb{#1}}
+\newcommand{\BB}{\field{B}}
+\newcommand{\CC}{\field{C}}
+\newcommand{\EE}{\field{E}}
+\newcommand{\FF}{\field{F}}
+\newcommand{\MM}{\field{N}}
+\newcommand{\NN}{\field{N}}
+\newcommand{\PP}{\field{P}}
+\newcommand{\QQ}{\field{Q}}
+\newcommand{\RR}{\field{R}}
+\newcommand{\VV}{\field{V}}
+\newcommand{\WW}{\field{W}}
+\newcommand{\XX}{\field{X}}
+\newcommand{\ZZ}{\field{Z}}
+
+\newcommand{\ww}{\mathrm{w}}
+
+% vectors
+\newcommand{\va}{\vec{a}}
+\newcommand{\vb}{\vec{b}}
+\newcommand{\vc}{\vec{c}}
+\newcommand{\vd}{\vec{d}}
+\newcommand{\ve}{\vec{e}}
+\newcommand{\vf}{\vec{f}}
+\newcommand{\vg}{\vec{g}}
+\newcommand{\vh}{\vec{h}}
+\newcommand{\vi}{\vec{i}}
+\newcommand{\vj}{\vec{j}}
+\newcommand{\vk}{\vec{k}}
+\newcommand{\vl}{\vec{l}}
+\newcommand{\vm}{\vec{m}}
+\newcommand{\vn}{\vec{n}}
+\newcommand{\vo}{\vec{o}}
+\newcommand{\vp}{\vec{p}}
+\newcommand{\vq}{\vec{q}}
+\newcommand{\vr}{\vec{r}}
+\newcommand{\vs}{\vec{s}}
+\newcommand{\vt}{\vec{t}}
+\newcommand{\vu}{\vec{u}}
+\newcommand{\vv}{\vec{v}}
+\newcommand{\vw}{\vec{w}}
+\newcommand{\vx}{\vec{x}}
+\newcommand{\vy}{\vec{y}}
+\newcommand{\vz}{\vec{z}}
+
+% rank
+\newcommand{\rank}[1]{
+         { \mbox{rank}\left[{#1}\right] } 
+}
+
+% Basis vector
+% requires \usepackage{amsmath}:
+\newcommand{\Eone}{{\left(\substack{1\\0}\right)}}
+
+\newcommand{\logm}{\mbox{logm}}
+
+%% PROBABILITY SYMBOLS
+%
+% covariance matrix (boldsymbol requires the package amsbsy in AMS documents)
+\newcommand{\covar}{\boldsymbol{\Sigma}}
+% Expectation operator
+% \newcommand{\Ex}[1]{
+%          { {\mathcal E}\!\left[{#1}\right] }
+% }
+% \newcommand{\Ex}[1]{
+%          { {\mathscr E}\!\left[{#1}\right] }         % \mathscr requires the mathrsfs package
+% }
+
+% Expectation
+\newcommand{\Ex}[1]{
+         { {\varmathbb E}\!\left[{#1}\right] }         % \varmathbb requires the txfonts package
+}
+% Squared expectation
+\newcommand{\ExSq}[1]{
+         { {\varmathbb E}^2\!\left[{#1}\right] }     % \varmathbb requires the txfonts package
+}
+% Expectation : subscript
+\newcommand{\EX}[2]{
+         { {\varmathbb E_{#2}}\!\left[{#1}\right] }         % \varmathbb requires the txfonts package
+}
+% Full Expectation : subscript & superscript
+% \ExFull{ (y-\widehat{y})^2 }{0,\widehat F}{p}
+\newcommand{\ExFull}[3]{
+         { {\varmathbb E}_{#2}^{#3} \!\left[{#1}\right] } % requires the txfonts package
+}
+
+% Variance (VAR to avoid clashes with LaTeX's Var)
+\newcommand{\VAR}[1]{
+         { \VV\!\left[{#1}\right] }         
+}
+% Covariance (COV to avoid clashes with LaTeX's Cov)
+\newcommand{\COV}[1]{
+         { \mbox{\sc Cov}\!\left[{#1}\right] }         
+}
+% Standard deviation 
+\newcommand{\SD}[1]{
+         { \mbox{\sc SD}\!\left[{#1}\right] }         
+}
+
+% \abs  & \norm are already defined somewhere...
+% absolute value
+% \newcommand{\abs}[1]{\lvert#1\rvert}
+% norm
+% \newcommand{\norm}[1]{\lVert#1\rVert}
+
+% std : standard deviation
+\newcommand{\std}{\mbox{std}}   %
+% diag:
+\newcommand{\diag}{\mbox{diag}}   %
+
+
+\newcommand{\Xbar}{\overline{X}}
+\newcommand{\xbar}{\overline{x}}
+\newcommand{\Ybar}{\overline{Y}}
+\newcommand{\ybar}{\overline{y}}
+% NOTE: \mathop works where \stackrel fails due to improper subscript sizing
+%
+% argmax
+%% \newcommand{\argmax}[1]{
+%%          { \mathop{\arg\max}_{ {#1} }\ }   % note: needs the trailing '\' to space text correctly
+%% }
+%% % argmin
+%% \newcommand{\argmin}[1]{
+%%          { \mathop{\arg\min}_{ {#1} }\ }   % note: needs the trailing '\' to space text correctly
+%% }
+%% [2018-11-05]: now using e.g. the following:
+\newcommand{\argmax}[1]{
+    { \operatorname*{arg\,max}_{{#1}}\, }   % note: needs the trailing '\' to space text correctly
+}
+
+\newcommand{\argmin}[1]{
+    { \operatorname*{arg\,min}_{{#1}}\, }   % note: needs the trailing '\' to space text correctly
+}
+
+
+% by definition equals
+\newcommand{\iid}{\stackrel{\mbox{\tiny i.i.d.}}{\sim}}
+\newcommand{\defeq}{\stackrel{\triangle}{=}}
+\newcommand{\bydefn}{\stackrel{\text{def}}{=}}
+\newcommand{\astmapsto}{\stackrel{\ast}{\mapsto}}
+
+
+% inner product
+\newcommand{\inner}[2]{
+    { \langle {#1}, {#2} \rangle } 
+}
+
+% Source: https://tex.stackexchange.com/questions/370364/specific-type-of-box-around-equation
+% 
+\newcommand\redbox[1]{%
+  \fboxsep=-2pt
+  \def\tmp{\displaystyle\strut #1}
+  \def\shadow{\makebox[.4pt]{$\tmp$}}
+  \stackengine{0pt}{%
+    \stackengine{0pt}{%
+      \textcolor{red}{\fbox{~~$\phantom{\tmp}$~~}}%
+    }{\color{white}\shadow\shadow\shadow\shadow\shadow\shadow\shadow%
+      \shadow\shadow\shadow\shadow}{O}{c}{F}{F}{L}%
+  }{$\tmp$}{O}{c}{F}{F}{L}
+}
+
+% Rates: present value and future value
+\newcommand{\PV}{\mbox{PV}}
+\newcommand{\FV}{\mbox{FV}}
+
+% Structured Credit:
+\newcommand{\CPR}{\mbox{CPR}}
+\newcommand{\SMM}{\mbox{SMM}}
+
+% combination
+\newcommand{\nchoosek}[2]{
+    {
+        \left(
+            \begin{matrix}
+                    {#1} \cr
+                    {#2} 
+            \end{matrix}
+        \right)
+    }
+}
+
+
+% derivative, e.g. d^3/dx^3. call with
+% \dd{f}{x}{} to get df\over dx
+\newcommand{\dd}[3]{
+    {
+      {d^{#3}{#1} \over d{#2}^{#3}}
+    }
+}
+
+% Partial derivative, e.g. \partial ^3/\partial x^3. Call with 
+% \pdd{f}{x}{} to get \partial f\over\partial x
+\newcommand{\pdd}[3]{
+    \frac{\textstyle\partial^{#3}{#1}}  
+         {\textstyle\partial{#2}^{#3}}
+}
+
+
+%
+% boxedeq
+%
+\newcommand{\boxedeq}[2]{
+  \begin{empheq}
+    [box={\fboxsep=6pt\fbox}]{align}
+    \label{#1}
+    #2
+  \end{empheq}
+}
+
+%
+% coloredeq
+%
+%% \newcommand{\coloredeq}[2]{
+%%   \begin{empheq}
+%%     [box=\colorbox{lightgreen}]{align}
+%%     {\ifthenelse{\isempty{#1}{}}{}{\label{#1}}}
+%%     #2
+%%   \end{empheq}
+%% }
+
+%%% FIXME 2019-04-10: make environment instead?
+
+%
+% coloredeq
+%
+\newcommand{\coloredeq}[2]{
+  \begin{empheq}
+    [box=\colorbox{lightgray}]{align}
+    {
+        \def\tmp{#1}
+        \ifx\tmp\@empty
+            % Nothing here!
+        \else
+            \label{#1}
+        \fi
+    }
+    #2
+  \end{empheq}
+}
+
+% SOLUTION 1 [from ~/j/dot/org/newenvironment]:
+%
+%     Source: https://tex.stackexchange.com/questions/5639/defining-a-new-environment-whose-contents-go-in-a-tikz-node/5642#5642
+%
+%     package environ manual: http://ctan.math.illinois.edu/macros/latex/contrib/environ/environ.pdf
+%
+% requires 
+%
+%    \usepackage{environ}
+%    \usepackage{xcolor}
+%    \usepackage{empheq}
+%
+\NewEnviron{coloredequation}[1][lightgray]{%
+  \begin{empheq}
+    [box=\colorbox{#1}]{align}
+    \BODY
+  \end{empheq}
+}
+\NewEnviron{coloredequation*}[1][lightgray]{%
+  \begin{empheq}
+    [box=\colorbox{#1}]{align*}
+    \BODY
+  \end{empheq}
+}
+
+
+%
+% mymath
+%
+\newtcbox{\mymath}[1][]{%
+    nobeforeafter, math upper, tcbox raise base,
+    enhanced, colframe=blue!30!black,
+    colback=blue!30, boxrule=1pt,
+    #1
+}
+
+% Independence / conditional independence
+% Whereas independence can be indicated with $\perp$, Dawid originally introduced
+% ``double perpendicular'' symbol for independence, but now it is most 
+% often used to indicated /conditional/ independence only.
+%
+% Source: https://tex.stackexchange.com/questions/154530/resolved-a-conditional-independence-symbol-that-looks-good-with-mid
+\newcommand{\indep}{\mathrel{\text{\scalebox{1.07}{$\perp\mkern-10mu\perp$}}}}
+
+
+% for use with \usepackage[russian,english]{babel}
+\newcommand{\ru}[1]{
+    { \foreignlanguage{russian}{{#1}} }   
+}
+
+
+%%%  INDICATOR FUNCTION 
+% to fix error: 'LaTeX Error: Too many math alphabets used in version normal'
+% Source:
+%     https://tex.stackexchange.com/questions/26637/how-do-you-get-mathbb1-to-work-characteristic-function-of-a-set
+% PROBLEM: package:dsfont co-existing with package:bm
+% After a lot of trial and error I found that the issue was with package:bm
+% which I duly removed from my default list
+
+\newcommand{\indicator}[2]{
+    % \usepackage{dsfont}:
+    { \mathds{1}_{{#1}}({#2}) }
+}
+
+% logit
+\newcommand{\logit}[1]{
+    {\log\,\biggl(\frac{ {#1} }{1- {#1} }\biggr)}
+}
+
+\newtcbox{\mybox}[1][]{%
+    nobeforeafter, math upper, tcbox raise base,
+    enhanced, colframe=blue!30!black,
+    colback=lightgreen!30, boxrule=0.5pt,
+    #1
+}
+
+\begin{abstract}
+Python's module for writing command-line interfaces (``CLI'') is \texttt{argparse}.
+There are many other packages for creating CLIs, but \texttt{argparse} is 
+Python's standard. 
+Creating a CLI with \texttt{argparse}---and especially a CLI that splits
+its functionality into sub-commands, such as \texttt{git init}, \texttt{git commit}, 
+and so on---is an exercise in imperative programming: The structure
+of the CLI is specified command by command until the data that
+specify the behavior of each command-line argument are added.
+The imperative nature of this process obfuscates the CLI design.
+The diametric opposite is \texttt{parsearg}, which starts with a 
+data structure containing the data that specify the behavior of each
+command-line argument, from which \texttt{parsearg} generates a parser
+using \texttt{argparse}.
+The declarative nature of the \texttt{parsearg} approach places the 
+CLI design front and center with a data structure (a 
+simple \texttt{dict} with an appropriate key schema for specifying a 
+flattened data tree).
+\end{abstract}
+\end{document}

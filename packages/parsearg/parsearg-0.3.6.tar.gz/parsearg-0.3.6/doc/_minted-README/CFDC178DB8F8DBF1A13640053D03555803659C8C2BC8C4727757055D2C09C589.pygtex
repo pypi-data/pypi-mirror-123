@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+python todos.py create todo Tom title1 \PYGZhy{}c description1 \PYGZhy{}d \PYG{l+m}{2020}\PYGZhy{}11\PYGZhy{}30
+python todos.py create todo Tom title2 \PYGZhy{}c description2 \PYGZhy{}\PYGZhy{}due\PYGZhy{}date\PYG{o}{=}\PYG{l+m}{2020}\PYGZhy{}12\PYGZhy{}31
+python todos.py create todo Harry todo\PYGZhy{}1 \PYGZhy{}\PYGZhy{}description\PYG{o}{=}Christmas\PYGZhy{}party \PYGZhy{}d \PYG{l+m}{2020}\PYGZhy{}11\PYGZhy{}30
+python todos.py create todo Harry todo\PYGZhy{}2 \PYGZhy{}\PYGZhy{}description\PYG{o}{=}New\PYGZhy{}Year\PYGZhy{}party
+\end{Verbatim}

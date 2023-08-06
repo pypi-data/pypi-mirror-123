@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{1. Quickstart}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{1.1. Overview}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{1.2. Usage}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{2. Overview}{}% 4
+\BOOKMARK [1][-]{section.3}{3. Let's build the interface for a TO-DO app}{}% 5
+\BOOKMARK [1][-]{section.4}{4. How parsearg works}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{4.1. Heterogeneous trees: recursive data structures}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{4.2. The A-tree}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{4.3. The A-AA tree}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.4}{4.4. Trees: flat and unflattened}{section.4}% 10

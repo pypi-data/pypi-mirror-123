@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{key} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}A|BB|C\PYGZsq{}}
+\PYG{n+nb}{print}\PYG{p}{(} \PYG{n}{Key}\PYG{p}{(}\PYG{n}{key}\PYG{p}{)} \PYG{p}{)}
+\end{Verbatim}
