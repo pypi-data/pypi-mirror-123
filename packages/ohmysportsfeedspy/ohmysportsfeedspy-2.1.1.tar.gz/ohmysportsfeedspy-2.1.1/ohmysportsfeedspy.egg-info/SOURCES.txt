@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+ohmysportsfeedspy/MySportsFeeds_API.py
+ohmysportsfeedspy/__init__.py
+ohmysportsfeedspy/v1_0.py
+ohmysportsfeedspy/v1_1.py
+ohmysportsfeedspy/v1_2.py
+ohmysportsfeedspy/v2_0.py
+ohmysportsfeedspy/v2_1.py
+ohmysportsfeedspy.egg-info/PKG-INFO
+ohmysportsfeedspy.egg-info/SOURCES.txt
+ohmysportsfeedspy.egg-info/dependency_links.txt
+ohmysportsfeedspy.egg-info/requires.txt
+ohmysportsfeedspy.egg-info/top_level.txt
