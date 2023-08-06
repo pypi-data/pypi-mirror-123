@@ -1,0 +1,3 @@
+[console_scripts]
+affine=__main__:run
+
