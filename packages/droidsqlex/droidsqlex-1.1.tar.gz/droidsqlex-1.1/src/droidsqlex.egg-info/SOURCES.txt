@@ -1,0 +1,7 @@
+setup.py
+src/droidsqlex/__init__.py
+src/droidsqlex/droidsqlex.py
+src/droidsqlex.egg-info/PKG-INFO
+src/droidsqlex.egg-info/SOURCES.txt
+src/droidsqlex.egg-info/dependency_links.txt
+src/droidsqlex.egg-info/top_level.txt
