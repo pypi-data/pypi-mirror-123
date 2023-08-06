@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+financier/__init__.py
+financier/multiplication.py
+financier.egg-info/PKG-INFO
+financier.egg-info/SOURCES.txt
+financier.egg-info/dependency_links.txt
+financier.egg-info/requires.txt
+financier.egg-info/top_level.txt
