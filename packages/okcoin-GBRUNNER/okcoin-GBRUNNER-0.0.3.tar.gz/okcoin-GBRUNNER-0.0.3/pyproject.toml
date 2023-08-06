@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools",
+    "requests",
+    "plotly>=4.14",
+    "pandas",
+    "azure-storage-blob",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
