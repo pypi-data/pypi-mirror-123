@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: website-sitemap-parser
+Version: 0.0.14
+Summary: Website Sitemap Parser
+Home-page: https://github.com/bartmachielsen/website-sitemap-parser
+Author: Bart Machielsen
+Author-email: bartmachielsen@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
