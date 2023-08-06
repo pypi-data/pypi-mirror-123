@@ -1,0 +1,7 @@
+muffin>=0.85.0
+sentry-sdk>=1.4.3
+
+[tests]
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
