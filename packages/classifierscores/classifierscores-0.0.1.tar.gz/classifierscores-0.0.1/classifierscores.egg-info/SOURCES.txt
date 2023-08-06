@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+classifierscores/__init__.py
+classifierscores.egg-info/PKG-INFO
+classifierscores.egg-info/SOURCES.txt
+classifierscores.egg-info/dependency_links.txt
+classifierscores.egg-info/top_level.txt
