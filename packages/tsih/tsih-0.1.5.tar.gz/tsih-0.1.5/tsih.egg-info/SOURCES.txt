@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+tsih/__init__.py
+tsih/serialization.py
+tsih/utils.py
+tsih.egg-info/PKG-INFO
+tsih.egg-info/SOURCES.txt
+tsih.egg-info/dependency_links.txt
+tsih.egg-info/requires.txt
+tsih.egg-info/top_level.txt
