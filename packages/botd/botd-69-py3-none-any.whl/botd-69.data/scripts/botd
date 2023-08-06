@@ -1,0 +1,65 @@
+#!python
+# This file is placed in the Public Domain.
+
+__version__ = 69
+
+import os
+import readline
+import sys
+import termios
+import threading
+import time
+
+from bot.irc import Cfg as IRC
+from bot.obj import Cfg
+from bot.ofn import fmt
+from bot.run import Runtime
+from bot.run import Cfg as RunCfg
+from bot.tbl import Table
+from bot.utl import spl
+
+Cfg.wd = "/var/lib/botd/"
+
+
+IRC.channel = "#botd"
+IRC.nick = "botd"
+IRC.username = "botd"
+IRC.realname = "24/7 channel daemon"
+IRC.users = False
+
+
+class Kernel(Runtime):
+
+    @staticmethod
+    def error(txt):
+        Kernel.log(txt)
+
+    @staticmethod
+    def log(txt):
+        if not txt:
+            return
+        print(txt)
+        sys.stdout.flush()
+
+
+k = Kernel()
+
+
+import bot.all
+
+
+def main(): 
+    Runtime.cfg.name = "botd"
+    Runtime.cfg.version = __version__
+    k.log("BOTD %s starting at %s" % (__version__, time.ctime(time.time())))
+    k.log("workdir is %s" % Cfg.wd)
+    k.log(fmt(k.cfg, ["console", "daemon", "debug", "systemd", "verbose"]))
+    k.log(",".join(sorted(list(Table.modnames))))
+    k.privileges()
+    k.cfg.mod += "bot.irc,bot.rss"
+    k.start()
+    k.init(k.cfg.mod)
+    k.wait()
+
+
+main()
