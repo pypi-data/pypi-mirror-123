@@ -1,0 +1,15 @@
+LICENSE.rst,sha256=Tj76BQRBsdZpL0W__sKVqUupWpKX6hC2A3Zn2o4Zpbo,1089
+bibscrap/__init__.py,sha256=oD4uEABPtzBuxARtSbj6pj2R9XsvPaYJS3-OUtGh0yE,265
+bibscrap/__main__.py,sha256=wKIFeYxaNOm-hYvzbbOAwrCOurirqfSD1waoNpQodL0,91
+bibscrap/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibscrap/cli/app.py,sha256=nReWMKZeFC3twrI1hY8nZMwUc2Eqxvgs5yNDnF65CAk,2501
+bibscrap/cli/commands/__init__.py,sha256=g5koiSDOvGw6I_KEX-tADaLy1YS7mjkTMGApYVIE65Q,1072
+bibscrap/cli/commands/about.py,sha256=bRYc__GKbkZxkpqBfzSxpD1O4eZjI9hZ3uHUAVU1VcI,614
+bibscrap/cli/commands/command.py,sha256=JXaIQDsBsRR4ajaGQW9ISU1jEf4I63fO1UGwz8KIhuQ,258
+bibscrap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibscrap/util.py,sha256=_PaJ7vpeb85BnTM6-IeMkCgQ4ZnzwEXQ-e9ugPTu_9Y,713
+bibscrap-0.1.0a1.dist-info/entry_points.txt,sha256=0ho-1jdDhmLOVLyyj7heE1gsuhBGldHQeqrHPnzV6oc,50
+bibscrap-0.1.0a1.dist-info/LICENSE.rst,sha256=Tj76BQRBsdZpL0W__sKVqUupWpKX6hC2A3Zn2o4Zpbo,1089
+bibscrap-0.1.0a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bibscrap-0.1.0a1.dist-info/METADATA,sha256=ekd0M5Wxiw3nY8wEGxo3rGQawwBGWj7UBG0wipaVtOA,4613
+bibscrap-0.1.0a1.dist-info/RECORD,,
