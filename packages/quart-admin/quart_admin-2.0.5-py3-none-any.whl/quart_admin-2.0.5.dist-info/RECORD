@@ -1,0 +1,11 @@
+quart_admin/__init__.py,sha256=sLVsmXtGJxNl6tHkU2yVB7jnOAZepeCOXjrVyQ8M1tI,204
+quart_admin/cli.py,sha256=0Y9Hvyf8lPJXBFBySlMS7Av2LYNshjPAai2tko7NF7E,4090
+quart_admin/contents.py,sha256=Kx2-DCkGgEx6vsgQMkD6nXa84lPHp5FSuzNav9V0gdo,5300
+quart_admin/context.py,sha256=r0cKYdnI9DB5zXTkRToMtIi3r0cOlXtG-6-IXFXATOc,699
+quart_admin/helpers.py,sha256=xlhirX5-u7crXTJEJ9xON19dETtJAEo8hl7GFMlBDPQ,835
+quart_admin-2.0.5.dist-info/LICENSE,sha256=46RTpONNEetpwr5Tr0gutMzj8GkIthu1rrcvHrTSN_A,1055
+quart_admin-2.0.5.dist-info/METADATA,sha256=ebyuz1FmD3fhvDBqZJPGNB4LWVjVrhTrO3hULs61H4s,1232
+quart_admin-2.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+quart_admin-2.0.5.dist-info/entry_points.txt,sha256=C1fMi80EkBOKHwM7RtAoYnKItkxB3QJlNhxFyL3Epc8,49
+quart_admin-2.0.5.dist-info/top_level.txt,sha256=lSqE3WT3HkRCJ7e7-PApeCIQH4lhF2YX0NCHfzyrIck,12
+quart_admin-2.0.5.dist-info/RECORD,,

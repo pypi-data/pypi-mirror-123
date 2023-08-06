@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: quart-admin
+Version: 2.0.5
+Summary: A tool to create quart projects faster with a scalable setup
+Home-page: https://github.com/shahriyardx/quart-admin
+Author: Md Shahriyar Alam
+Author-email: contact@shahriyar.dev
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/shahriyardx/quart-admin/issues
+Project-URL: Source, https://github.com/shahriyardx/quart-admin/
+Keywords: quart,quart-admin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: quart
+Requires-Dist: click
+Requires-Dist: python-slugify
+
+# Quart admin
+A tool to create quart projects faster with a scalable setup
+
+# Usage
+Creating peoject
+```sh
+quart-admin startproject --name "project name"
+```
+
+Creating app(inside project)
+```sh
+quart-admin startapp --name "app name"
+```
+
+Run the app locally
+```sh
+python app.py start
+```
+

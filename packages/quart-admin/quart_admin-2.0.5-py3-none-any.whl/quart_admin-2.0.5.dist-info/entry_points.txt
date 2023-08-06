@@ -1,0 +1,3 @@
+[console_scripts]
+quart-admin = quart_admin:cli
+
