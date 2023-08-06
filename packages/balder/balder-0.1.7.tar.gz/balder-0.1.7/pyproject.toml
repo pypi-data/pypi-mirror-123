@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "balder"
+version = "0.1.7"
+description = ""
+authors = ["jhnnsrs <jhnnsrs@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.1"
+graphene-django = "^2.15.0"
+django-filter = "^2.4.0"
+channels = {version = "^3.0.3", optional = true}
+django-channels-graphql-ws = {version = "^0.8.0", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest-django = "^4.4.0"
+pytest = "^6.2.5"
+
+[tool.poetry.extras]
+subscription = ["channels","django-channels-graphql-ws"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
