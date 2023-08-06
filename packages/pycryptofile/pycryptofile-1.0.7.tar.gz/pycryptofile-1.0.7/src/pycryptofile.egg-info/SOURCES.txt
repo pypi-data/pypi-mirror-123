@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pycryptofile/__init__.py
+src/pycryptofile/pyCryptoFile.py
+src/pycryptofile.egg-info/PKG-INFO
+src/pycryptofile.egg-info/SOURCES.txt
+src/pycryptofile.egg-info/dependency_links.txt
+src/pycryptofile.egg-info/requires.txt
+src/pycryptofile.egg-info/top_level.txt

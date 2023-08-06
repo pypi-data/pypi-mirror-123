@@ -1,0 +1,4 @@
+pycrypto
+setuptools>=40.8.0
+wheel
+argparse
