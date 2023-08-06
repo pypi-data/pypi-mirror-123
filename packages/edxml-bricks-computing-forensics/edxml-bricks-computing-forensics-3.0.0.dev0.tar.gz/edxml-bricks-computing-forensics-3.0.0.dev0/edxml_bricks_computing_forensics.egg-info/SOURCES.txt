@@ -1,0 +1,8 @@
+setup.py
+edxml_bricks/computing/forensics/generic.py
+edxml_bricks/computing/forensics/platforms/windows.py
+edxml_bricks_computing_forensics.egg-info/PKG-INFO
+edxml_bricks_computing_forensics.egg-info/SOURCES.txt
+edxml_bricks_computing_forensics.egg-info/dependency_links.txt
+edxml_bricks_computing_forensics.egg-info/requires.txt
+edxml_bricks_computing_forensics.egg-info/top_level.txt
