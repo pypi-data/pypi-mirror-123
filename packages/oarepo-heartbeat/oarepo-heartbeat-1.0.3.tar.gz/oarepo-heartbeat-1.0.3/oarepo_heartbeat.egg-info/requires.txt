@@ -1,0 +1,7 @@
+blinker
+Flask
+pip>=6.0.0
+importlib_metadata
+
+[tests]
+oarepo[tests-es7]
