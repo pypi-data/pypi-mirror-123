@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: fluxhelper
+Version: 0.7
+Summary: Helper library made for my projects
+Home-page: https://github.com/bossauh/fluxhelper
+Author: Philippe Mathew
+Author-email: philmattdev@gmail.com
+License: MIT
+Download-URL: https://github.com/bossauh/fluxhelper/archive/refs/tags/v_07.tar.gz
+Description: UNKNOWN
+Keywords: helper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
