@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: leia-api-sdk
+Version: 1.0.7
+Summary: LEIA RESTful API for AI
+Home-page: UNKNOWN
+Author-email: contact@leia.io
+License: UNKNOWN
+Keywords: Swagger,LEIA RESTful API for AI
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Leia API  # noqa: E501
+    
+
