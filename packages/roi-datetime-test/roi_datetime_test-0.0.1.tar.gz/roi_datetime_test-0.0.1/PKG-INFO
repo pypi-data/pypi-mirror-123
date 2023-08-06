@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: roi_datetime_test
+Version: 0.0.1
+Summary: roi_space_datetime
+Home-page: UNKNOWN
+License: MIT
+Keywords: roi_space_datetime
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# roi-space-datetime
+
+通用开发工具包-时间处理
+

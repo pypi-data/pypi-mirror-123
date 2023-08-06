@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+import sys
+
+# 版本信息
+version = '0.0.1'
+
+# 描述信息
+long_description = ""
+with open('README.md', 'r', encoding='utf-8') as file:
+    long_description = file.read()
+
+# setup
+setup(
+    name="roi_datetime_test",
+    version=version,
+    description="roi_space_datetime",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    keywords=['roi_space_datetime'],
+    license='MIT',
+    python_requires='>=3.5',
+    packages=find_packages(),
+    install_requires=[
+        'pytz==2021.1'
+    ],
+)
