@@ -1,0 +1,8 @@
+requests
+tqdm
+typing
+
+[benchmark]
+pandas
+scikit-learn
+numpy
