@@ -1,0 +1,3 @@
+[console_scripts]
+elba = elba.__main__:main
+

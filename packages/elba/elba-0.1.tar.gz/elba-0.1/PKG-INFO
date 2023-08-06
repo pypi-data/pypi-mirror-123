@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: elba
+Version: 0.1
+Summary: A simple tool for graph-based data persistence
+Home-page: UNKNOWN
+Author: Giuseppe Romano
+Author-email: romanog@mit.edu
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
