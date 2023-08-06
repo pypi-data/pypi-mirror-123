@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: xaitk-saliency
+Version: 0.4.0
+Summary: Visual saliency map generation interfaces and baseline implementations for explainable AI.
+Home-page: https://github.com/XAITK/xaitk-saliency
+License: BSD-3-Clause
+Author: Kitware, Inc.
+Author-email: xaitk@kitware.com
+Requires-Python: >=3.7,<3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: example_deps
+Requires-Dist: jupyter (>=1.0.0,<2.0.0); extra == "example_deps"
+Requires-Dist: matplotlib (>=3.4.1,<4.0.0); extra == "example_deps"
+Requires-Dist: numpy (>=1.20.3,<2.0.0)
+Requires-Dist: papermill (>=2.3.3,<3.0.0); extra == "example_deps"
+Requires-Dist: scikit-image (>=0.18.1,<0.19.0)
+Requires-Dist: scikit-learn (>=0.24.2,<0.25.0)
+Requires-Dist: scipy (>=1.6.3,<2.0.0)
+Requires-Dist: smqtk-classifier (>=0.17.0)
+Requires-Dist: smqtk-core (>=0.18.0)
+Requires-Dist: smqtk-descriptors (>=0.16.0)
+Requires-Dist: torch (>=1.9.0,<2.0.0); extra == "example_deps"
+Requires-Dist: torchvision (>=0.10.0,<0.11.0); extra == "example_deps"
+Requires-Dist: tqdm (>=4.45.0,<5.0.0); extra == "example_deps"
+Project-URL: Documentation, https://xaitk-saliency.readthedocs.io/
+Project-URL: Repository, https://github.com/XAITK/xaitk-saliency
+Description-Content-Type: text/markdown
+
+# XAITK - Saliency
+
+## Intent
+Provide interfaces that convey a standard API for visual saliency
+map generation.
+
+## Documentation
+https://xaitk-saliency.readthedocs.io/en/latest/
+
+You can also build the sphinx documentation locally for the most up-to-date
+reference:
+```bash
+# Install dependencies
+poetry install
+# Navigate to the documentation root.
+cd docs
+# Build the docs.
+poetry run make html
+# Open in your favorite browser!
+firefox _build/html/index.html
+```
+
