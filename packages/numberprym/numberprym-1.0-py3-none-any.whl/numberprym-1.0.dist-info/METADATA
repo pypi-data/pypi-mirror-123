@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: numberprym
+Version: 1.0
+Summary: A tool to perform mathematical operations.
+Home-page: UNKNOWN
+Author: Yuriluz Vega
+Author-email: yuriluzvega@yahoo.com
+License: GNU GPLv3
+Keywords: prime number,number,mathematical
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+NUMBERPRYM
+==============
+
+Este es un ejemplo simple de un paquete Python. Este paquete contiene el calculo para hallar nÃºmeros primos
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
