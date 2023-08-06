@@ -1,0 +1,82 @@
+{
+    "NL_SECRET_KEY": {
+        "type": "string",
+        "required": true
+    },
+    "NL_ALLOW_ORIG": {
+        "type": "string",
+        "required": false
+    },
+    "NL_ROOT_DOC": {
+        "type": "integer",
+        "required": false
+    },
+    "NL_DB_SYS": {
+        "type": "string",
+        "required": true
+    },
+    "NL_MONGODB_URI": {
+        "type": "string",
+        "required": true
+    },
+    "NL_MONGODB_DB": {
+        "type": "string",
+        "required": true
+    },
+    "NL_MONGODB_US_COL": {
+        "type": "string",
+        "required": true
+    },
+    "NL_MONGODB_NB_COL": {
+        "type": "string",
+        "required": true
+    },
+    "NL_MONGODB_NO_COL": {
+        "type": "string",
+        "required": true
+    },
+    "NL_MONGODB_BL_COL": {
+        "type": "string",
+        "required": true
+    },
+    "NL_DYNAMODB_AWS_ENDPOINT": {
+        "type": "string",
+        "required": false
+    },
+    "NL_DYNAMODB_AWS_REGION": {
+        "type": "string",
+        "required": false
+    },
+    "NL_DYNAMODB_AWS_ACCESS_KEY_ID": {
+        "type": "string",
+        "required": false
+    },
+    "NL_DYNAMODB_AWS_SECRET_ACCESS_KEY": {
+        "type": "string",
+        "required": false
+    },
+    "NL_DYNAMODB_AWS_SESSION_TOKEN": {
+        "type": "string",
+        "required": false
+    },
+    "NL_DYNAMODB_US_TAB": {
+        "type": "string",
+        "required": true
+    },
+    "NL_DYNAMODB_NB_TAB": {
+        "type": "string",
+        "required": true
+    },
+    "NL_DYNAMODB_NO_TAB": {
+        "type": "string",
+        "required": true
+    },
+    "NL_DYNAMODB_BL_TAB": {
+        "type": "string",
+        "required": true
+    },
+    "NL_LOCALST_PATH": {
+        "type": "string",
+        "required": true
+    }
+}
