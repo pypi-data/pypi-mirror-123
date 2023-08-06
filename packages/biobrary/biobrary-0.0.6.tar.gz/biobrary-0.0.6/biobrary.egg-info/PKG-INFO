@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: biobrary
+Version: 0.0.6
+Summary: A library for biological computing works
+Home-page: https://github.com/benjaminfang/biobrary
+Author: Benjamin Fang
+Author-email: benjaminfang.ol@outlook.com
+License: MIT
+Description: # biobrary
+        Python3 library for bioinformatics.  
+        
+        ## Install  
+        pip install biobrary --user  
+        
+        ## Usage  
+        import biobrary  
+        dir(biobrary)  
+        
+        ## bioinformatic file parse.
+        * biopaser  
+              Fasta_parser
+        * biocondon
+        * amino_acids_mw
+        * CircleNond
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
