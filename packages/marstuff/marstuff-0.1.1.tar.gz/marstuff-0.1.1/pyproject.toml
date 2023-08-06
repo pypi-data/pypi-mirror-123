@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "marstuff"
+version = "0.1.1"
+description = "A Python Wrapper for NASA's Mars Rover Photos API"
+authors = ["Ajay Ratnam <ajayratnam.satheesh@gmail.com>"]
+maintainers = ["Ajay Ratnam <ajayratnam.satheesh@gmail.com>"]
+homepage = 'https://github.com/ajratnam/randtools'
+documentation = 'https://github.com/ajratnam/randtools'
+repository = 'https://github.com/ajratnam/randtools'
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = {extras = ["http2"], version = "^0.19.0"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
