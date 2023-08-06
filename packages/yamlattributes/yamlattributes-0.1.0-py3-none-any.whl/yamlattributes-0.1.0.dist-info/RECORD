@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/argguard_test.py,sha256=esEyB1DfBdjSjtrKy0SIM5Rd95VRR9qJA2dwr3Rs0M4,5411
+yamlattributes/__init__.py,sha256=5YG6_m2XxsNLw2esnD7NmQIPYeBPHDjagJL6mtSDYGs,73
+yamlattributes/yamlattributes.py,sha256=eV-hk3_T8ZSmclKH_Upj_HwhOGjTtXV1O5D2IIpr00s,3130
+yamlattributes-0.1.0.dist-info/LICENSE,sha256=AF77kIyotQBeAxckQ-2HUmNr7q-PsLk679hLZtKTqxA,1072
+yamlattributes-0.1.0.dist-info/METADATA,sha256=K7cr0hvulA7byo5rBONVS9d98oaPgh9AFB2w4GhQCh0,3589
+yamlattributes-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+yamlattributes-0.1.0.dist-info/top_level.txt,sha256=gL0Pti3jzJPtSJ4U-PhnC5A4rCH-86AxpP4IU_PxP0k,21
+yamlattributes-0.1.0.dist-info/RECORD,,
