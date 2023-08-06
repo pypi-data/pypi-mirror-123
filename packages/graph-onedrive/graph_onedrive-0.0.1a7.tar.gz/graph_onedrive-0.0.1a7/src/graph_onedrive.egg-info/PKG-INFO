@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: graph-onedrive
+Version: 0.0.1a7
+Summary: Perform simple tasks on OneDrive through the Graph API.
+Home-page: https://github.com/dariobauer/graph-onedrive
+Author: Dario Bauer
+Author-email: dariobauer@duck.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://github.com/dariobauer/graph-onedrive/blob/main/docs/DOCUMENTATION.md
+Project-URL: Issue Tracker, https://github.com/dariobauer/graph-onedrive/issues
+Project-URL: Changes, https://github.com/dariobauer/graph-onedrive/blob/main/CHANGES.md
+Project-URL: Source Code, https://github.com/dariobauer/graph-onedrive
+Keywords: onedrive,graph,microsoft
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Graph-OneDrive
+
+Interact with Microsoft's OneDrive service using the Graph API.
+
+The Graph-OneDrive package facilitates the creation of OneDrive class instances which are objects that you can use to interact with OneDrive sessions. Thus multiple OneDrives can be connected to in parallel.
+
+Functions include:
+
+* listing directories;
+* moving, copying, and renaming files and folders;
+* uploading and downloading files;
+* getting drive metadata including usage.
+
+## Azure app requirement
+
+For the package to connect to the Graph API, you need to have an app registered in the Microsoft Azure Portal. The [documentation](https://github.com/dariobauer/graph-onedrive/blob/main/docs/) provides basic guidance on how to register an app.
+
+Note that some Microsoft work and school accounts will not allow apps to connect with them without admin consent.
+
+## Installation
+
+The package currently requires Python 3.7 or greater.
+
+Install and update using [pip](https://pip.pypa.io/en/stable/getting-started/) which will use the releases hosted on [PyPI](https://pypi.org/project/graph-onedrive/#history). Further options in the docs.
+
+    pip install graph-onedrive
+
+## Documentation
+
+Documentation and examples are provided on GitHub: <https://github.com/dariobauer/graph-onedrive/blob/main/docs/>
+
+### A simple example
+
+Run this command in the terminal after installation which will create a config file in the current folder.
+
+    $ graph-onedrive config
+
+Save the following in a .py file in the same folder.
+
+```
+import os
+import graph_onedrive
+
+# Set config path
+config_key = "onedrive"
+config_file_name = "config.json"
+current_file_path = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(current_file_path, config_file_name)
+
+# Create session instance
+my_onedrive = graph_onedrive.create_from_config_file(config_path, config_key)
+
+# Complete tasks using the instance. For this example we will just display the usage
+my_onedrive.get_usage(verbose=True)
+
+# Save the config to retain the refresh token.
+graph_onedrive.save_to_config_file(my_onedrive, config_path, config_key)
+```
+
+## License
+
+This project itself is subject to BSD 3-Clause License detailed in [LICENSE](https://github.com/dariobauer/graph-onedrive/blob/main/LICENSE).
+
+The Graph API is provided by Microsoft Corporation and subject to their [terms of use](https://docs.microsoft.com/en-us/legal/microsoft-apis/terms-of-use).
+
+## Links
+
+* Documentation: <https://github.com/dariobauer/graph-onedrive/blob/main/docs/>
+* License: <https://github.com/dariobauer/graph-onedrive/blob/main/LICENSE>
+* Change Log: <https://github.com/dariobauer/graph-onedrive/blob/main/CHANGES.md>
+* PyPI Releases: <https://pypi.org/project/graph-onedrive>
+* Source Code: <https://github.com/dariobauer/graph-onedrive/>
+* Contributing: <https://github.com/dariobauer/graph-onedrive/blob/main/CONTRIBUTING.md>
+* Issue Tracker: <https://github.com/dariobauer/graph-onedrive/issues>
+
