@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+verygui.egg-info/PKG-INFO
+verygui.egg-info/SOURCES.txt
+verygui.egg-info/dependency_links.txt
+verygui.egg-info/top_level.txt
