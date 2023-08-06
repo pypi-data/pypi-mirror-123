@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jin_spider_tool
+Version: 2.0.1
+Summary: zookeeper ephemeral register
+Home-page: http://git.baijia.com/st-spider/zkclient.git
+Author: jin
+Author-email: 1101156471@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: kazoo
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
