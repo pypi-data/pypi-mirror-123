@@ -1,0 +1,10 @@
+LICENSE
+README.md
+publish.py
+pyproject.toml
+setup.py
+py_serializable_dataclass.egg-info/PKG-INFO
+py_serializable_dataclass.egg-info/SOURCES.txt
+py_serializable_dataclass.egg-info/dependency_links.txt
+py_serializable_dataclass.egg-info/requires.txt
+py_serializable_dataclass.egg-info/top_level.txt
