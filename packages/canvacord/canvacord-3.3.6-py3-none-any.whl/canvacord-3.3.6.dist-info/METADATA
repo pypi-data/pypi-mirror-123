@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: canvacord
+Version: 3.3.6
+Summary: A Python Version of Canvacord
+Home-page: https://github.com/BlazenBoi/canvacord.py/issues
+Author: Blazen
+Author-email: contact@fireballbot.com
+License: MIT
+Project-URL: Discord Server, https://discord.com/invite/mPU3HybBs9
+Project-URL: Bug Tracker, https://github.com/BlazenBoi/canvacord.py/issues
+Project-URL: Source, https://github.com/BlazenBoi/canvacord
+Keywords: canvacord,rankcard,image manipulation,meme,discord,discordpy,discord-py
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: setuptools (>=42)
+Requires-Dist: wheel
+Requires-Dist: pillow
+Requires-Dist: discord
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+Requires-Dist: typing
+Requires-Dist: datetime
+
+[![Discord](https://discord.com/api/guilds/872291125547921459/embed.png)](https://discord.gg/mPU3HybBs9)
+[![PyPi](https://img.shields.io/pypi/v/canvacord.svg)](https://pypi.org/project/canvacord)
+[![Python](https://img.shields.io/pypi/pyversions/dislash.py.svg)](https://pypi.python.org/pypi/canvacord)
+
+A copy of [canvacord](https://www.npmjs.com/package/canvacord) made in python!
+
+
+
+# Table of contents
+1. [Installation](#installation)
+2. [Examples](#examples)
+3. [Creating Images](#creating-images)
+4. [Links](#links)
+5. [Downloads](#downloads)
+
+# Installation
+
+Run any of these commands in terminal:
+
+Mac / Linux
+```
+pip install canvacord
+```
+
+Windows
+```
+python -m pip install canvacord
+```
+
+# Examples
+ðŸ’¡ This library requires **[discord.py](https://github.com/Rapptz/discord.py)**.
+
+
+## Creating-Images
+
+```python
+import discord
+from discord.ext import commands
+import canvacord
+
+client = commands.Bot(command_prefix="!")
+
+@client.command()
+async def rankcard(ctx):
+    user = ctx.author
+    username = ctx.author.name + "#" + ctx.author.discriminator
+    currentxp = 1
+    lastxp = 0
+    nextxp = 2
+    current_level = 1
+    current_rank = 1
+    background = None
+    image = await canvacord.rankcard(user=user, username=username, currentxp=currentxp, lastxp=lastxp, nextxp=nextxp, level=current_level, rank=current_rank, background=background)
+    file = discord.File(filename="rankcard.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def triggered(ctx):
+    user = ctx.author
+    image = await canvacord.trigger(user)
+    file = discord.File(filename="triggered.gif", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def communism(ctx):
+    user = ctx.author
+    image = await canvacord.communism(user)
+    file = discord.File(filename="communism.gif", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def jail(ctx):
+    user = ctx.author
+    image = await canvacord.jail(user)
+    file = discord.File(filename="jail.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def gay(ctx):
+    user = ctx.author
+    image = await canvacord.gay(user)
+    file = discord.File(filename="gay.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def hitler(ctx):
+    user = ctx.author
+    image = await canvacord.hitler(user)
+    file = discord.File(filename="hitler.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def aborted(ctx):
+    user = ctx.author
+    image = await canvacord.aborted(user)
+    file = discord.File(filename="aborted.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def affect(ctx):
+    user = ctx.author
+    image = await canvacord.affect(user)
+    file = discord.File(filename="affect.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def airpods(ctx):
+    user = ctx.author
+    image = await canvacord.airpods(user)
+    file = discord.File(filename="airpods.gif", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def america(ctx):
+    user = ctx.author
+    image = await canvacord.america(user)
+    file = discord.File(filename="america.gif", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def wanted(ctx):
+    user = ctx.author
+    image = await canvacord.wanted(user)
+    file = discord.File(filename="wanted.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def joke(ctx):
+    user = ctx.author
+    image = await canvacord.jokeoverhead(user)
+    file = discord.File(filename="jokeoverhead.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def spank(ctx):
+    user1 = ctx.author
+    user2 = ctx.author
+    image = await canvacord.spank(user1, user2)
+    file = discord.File(filename="spank.png", fp=image)
+    await ctx.send(file=file)
+
+@client.command()
+async def bed(ctx):
+    user1 = ctx.author
+    user2 = ctx.author
+    image = await canvacord.bed(user1, user2)
+    file = discord.File(filename="bed.png", fp=image)
+    await ctx.send(file=file)
+    
+client.run("BOT_TOKEN")
+```
+
+
+# Links
+[![Discord](https://discord.com/api/guilds/872291125547921459/embed.png)](https://discord.gg/mPU3HybBs9)
+[![PyPi](https://img.shields.io/pypi/v/canvacord.svg)](https://pypi.org/project/canvacord)
+
+
+# Downloads
+
+
+[![Downloads](https://pepy.tech/badge/canvacord)](https://pepy.tech/project/canvacord)
+[![Downloads](https://pepy.tech/badge/canvacord/month)](https://pepy.tech/project/canvacord)
+![Downloads](https://pepy.tech/badge/canvacord/week)
+
+
