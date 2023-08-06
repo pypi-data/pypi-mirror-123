@@ -1,0 +1,11 @@
+pyNSID/__init__.py,sha256=98VqY0qF8QIimJdZUsEYRSWCdqlwwWFUd6xIhPZTi2k,138
+pyNSID/__version__.py,sha256=emBiDWiRJh4GAMVVGp7W1PM78FueJDAmmPEF5sbITHE,47
+pyNSID/io/__init__.py,sha256=U3GXiJwFSLazJLmgsijCunpQAKnwdYzV5C3vFMOiDMg,366
+pyNSID/io/hdf_io.py,sha256=FCYnIYU3Yi9TDLgepl2e7rEgqg0RNhoirMVfogMcb48,9108
+pyNSID/io/hdf_utils.py,sha256=WnMJE_cHvNoDiNlNVN9qDcDg3bjCJIWetj3elaQ0c7s,19229
+pyNSID/io/nsi_reader.py,sha256=6BTftcBIV9OiRBI8MAGxO_SKWNmtN8JlOT1YVd-F0NQ,5203
+pyNSID-0.0.3.dist-info/LICENSE,sha256=MDGiJkS4by_I3z7IkZhSaydMUI0U-yb4CRABLWQbs2g,1067
+pyNSID-0.0.3.dist-info/METADATA,sha256=3ronjdjqr2euXb10kXipZcDCKFyAdbOe3CRPTlv2k_0,1405
+pyNSID-0.0.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyNSID-0.0.3.dist-info/top_level.txt,sha256=h2nQRvVD6-RAjYjfvu8Hv8YCJZRZJxJ4qwcti2FW37Y,7
+pyNSID-0.0.3.dist-info/RECORD,,
