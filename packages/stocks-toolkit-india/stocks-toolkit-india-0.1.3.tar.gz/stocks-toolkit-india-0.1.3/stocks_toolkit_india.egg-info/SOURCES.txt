@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+stocks_toolkit/API_wrapper.py
+stocks_toolkit/__init__.py
+stocks_toolkit/candle_analysis.py
+stocks_toolkit/exceptions.py
+stocks_toolkit/helper.py
+stocks_toolkit/retrieval_layer.py
+stocks_toolkit/stocks_toolkit.py
+stocks_toolkit/stocksymbols.csv
+stocks_toolkit_india.egg-info/PKG-INFO
+stocks_toolkit_india.egg-info/SOURCES.txt
+stocks_toolkit_india.egg-info/dependency_links.txt
+stocks_toolkit_india.egg-info/requires.txt
+stocks_toolkit_india.egg-info/top_level.txt

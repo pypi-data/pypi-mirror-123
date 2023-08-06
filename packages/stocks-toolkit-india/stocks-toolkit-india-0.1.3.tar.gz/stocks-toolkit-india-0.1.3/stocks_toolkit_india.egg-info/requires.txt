@@ -1,0 +1,6 @@
+numpy
+pandas
+TA-lib
+requests
+datetime
+bs4
