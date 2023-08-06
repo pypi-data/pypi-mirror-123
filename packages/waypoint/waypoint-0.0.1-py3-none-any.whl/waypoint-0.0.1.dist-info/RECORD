@@ -1,0 +1,14 @@
+waypoint/__init__.py,sha256=Me_HppjkAZsd6Dk93lLNh19FTYBP-u6U3whdg40o7L8,88
+waypoint/client/__init__.py,sha256=c-kYqYCXzqhIPtvoNNdO-sFZbh2xa-9V1Z3Q2aAh9TA,35
+waypoint/client/base.py,sha256=5vakFZK0pvKJOJ8atUpHx1GuFAuT8QTWJT_52a-pKzc,1555
+waypoint/client/client.py,sha256=TTbrZJlomFu4G4k8D-fo2eaQO_OvYkgGKaeBCFIZOCE,1338
+waypoint/enum/__init__.py,sha256=tccBUvlX1Lp5ghbyDL0z3lwkjTjNn3uX7_WnZhhWIhs,61
+waypoint/enum/game.py,sha256=AV06juR2-Y2ay8pQaAvBwVwQrrkxUYVQa7gKVSFgWi4,249
+waypoint/enum/game_variant.py,sha256=qKtRz2I9v1TREZMHQfOLnXVLn4lQXou1nlFX5jhufTA,486
+waypoint/models/__init__.py,sha256=okE_AQhW7YoccR4Z2NT_SKZb7wd-TCBxmfOSR4ZoC-Q,36
+waypoint/models/stat.py,sha256=GI_Psz3i4OXvtgg2OnOP3Fqix5UIuDY4N7HFL9uu3bI,449
+waypoint-0.0.1.dist-info/LICENSE,sha256=wG-Fu6ccFPvI7dJgZhZMuiYr72llnolJ9R68eLOGMO4,1071
+waypoint-0.0.1.dist-info/METADATA,sha256=AkjY6HlJIyvFvXf02F3z9jU5MG1Qj-KLaz2wMLt_w64,544
+waypoint-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+waypoint-0.0.1.dist-info/top_level.txt,sha256=43kIUHTKXnI-UfPkmPH3ErVhn_R7MLEb-bAJiJPla-8,9
+waypoint-0.0.1.dist-info/RECORD,,
