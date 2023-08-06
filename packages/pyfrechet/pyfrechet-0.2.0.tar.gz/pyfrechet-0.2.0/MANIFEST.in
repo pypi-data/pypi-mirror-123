@@ -1,0 +1,2 @@
+include pyfrechet/*.so
+exclude pyfrechet/build.py

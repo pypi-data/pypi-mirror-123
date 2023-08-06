@@ -1,0 +1,4 @@
+numpy
+matplotlib
+shapely
+cffi>=1.0.0

@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyfrechet/__init__.py
+pyfrechet/_strong_distance.cpython-39-darwin.so
+pyfrechet/_weak_distance.cpython-39-darwin.so
+pyfrechet/distance.py
+pyfrechet/optimise.py
+pyfrechet/visualize.py
+pyfrechet.egg-info/PKG-INFO
+pyfrechet.egg-info/SOURCES.txt
+pyfrechet.egg-info/dependency_links.txt
+pyfrechet.egg-info/requires.txt
+pyfrechet.egg-info/top_level.txt
