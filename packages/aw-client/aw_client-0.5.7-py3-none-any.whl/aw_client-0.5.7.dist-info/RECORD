@@ -1,0 +1,12 @@
+aw_client/__init__.py,sha256=kLNbW7W49wRanSFZ9Pue85zmCeXeAMw_ZTzD25rlrG0,48
+aw_client/__main__.py,sha256=5CAe30I2WPrShQInIQd7oQlAw1qFQDYZeSNlTUlGIJI,38
+aw_client/cli.py,sha256=5uBWXr_42mbZ3CrSNYn9VCOlISwxQCf-3p-oS1kSyEs,3685
+aw_client/client.py,sha256=HotteMj4wdGrNCsT0ogIEUkP6ZzWRZ8rLqJbp2jYZkk,15133
+aw_client/config.py,sha256=Ykd0u69WQKcyQeKUqEs5hcb_J3aFXYPO1zCJc5blJAI,326
+aw_client/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aw_client/singleinstance.py,sha256=qa22SuXqJBrTyvhnIO1gTglA_lD-SM8_oTzhmVJyC7A,1605
+aw_client-0.5.7.dist-info/entry_points.txt,sha256=GfBf16Qefzh4KZMYvgWnztyP5Uy5QJMa6W9BRZn6AWo,48
+aw_client-0.5.7.dist-info/LICENSE.txt,sha256=Pz2eACSxkhsGfW9_iN60pgy-enjnbGTj8df8O3ebnQQ,16726
+aw_client-0.5.7.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+aw_client-0.5.7.dist-info/METADATA,sha256=y9WH4XqoqXD_JhlyYDuqSTrJz_x_H5yxUCGbbx0BqPY,2613
+aw_client-0.5.7.dist-info/RECORD,,
