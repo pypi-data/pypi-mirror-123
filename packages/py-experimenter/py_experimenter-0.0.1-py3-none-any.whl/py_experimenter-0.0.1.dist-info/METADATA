@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py-experimenter
+Version: 0.0.1
+Summary: Python experimenter
+Home-page: UNKNOWN
+Author: Lukas Gehring
+Author-email: <lgehring@mail.upb.de>
+License: UNKNOWN
+Keywords: python,executor
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: mysql-connector-python
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+Missing
+
+
