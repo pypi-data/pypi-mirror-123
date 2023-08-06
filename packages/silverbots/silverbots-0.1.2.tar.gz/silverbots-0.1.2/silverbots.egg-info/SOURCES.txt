@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+silverbots/__init__.py
+silverbots/slack.py
+silverbots/telegram.py
+silverbots.egg-info/PKG-INFO
+silverbots.egg-info/SOURCES.txt
+silverbots.egg-info/dependency_links.txt
+silverbots.egg-info/requires.txt
+silverbots.egg-info/top_level.txt
