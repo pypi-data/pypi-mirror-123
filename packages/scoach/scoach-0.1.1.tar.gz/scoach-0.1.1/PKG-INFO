@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: scoach
+Version: 0.1.1
+Summary: Setup for training Tensorflow models on SLURM clusters.
+Home-page: https://github.com/gabriel-milan/scoach
+License: GPL-3.0
+Keywords: tensorflow,machine learning,hpc,slurm
+Author: Gabriel Gazola Milan
+Author-email: gabriel.gazola@poli.ufrj.br
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Django (>=3.2.0,<4.0.0)
+Requires-Dist: Jinja2 (>=3.0.0,<4.0.0)
+Requires-Dist: PyYAML (>=5.4.0,<6.0.0)
+Requires-Dist: dask_jobqueue (>=0.7.0,<0.8.0)
+Requires-Dist: loguru (>=0.5.0,<0.6.0)
+Requires-Dist: minio (>=7.0.0,<8.0.0)
+Requires-Dist: prefect (>=0.15.0,<0.16.0)
+Requires-Dist: psycopg2-binary (>=2.9.0,<3.0.0)
+Requires-Dist: tensorflow (>=2.0.0,<3.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/gabriel-milan/scoach
+Description-Content-Type: text/markdown
+
+# scoach
+
+A setup for training Tensorflow models on SLURM clusters
+
+## How does it work?
+
+- Inputs needed (see examples directory):
+  - A `.json` file with parameters for training
+  - A `.json` file with the model definition
+  - A `.py` file with the training code.
+- There's a CLI app for interacting with scoach
+- Run `scoach init` for setting up your configuration file, such as in `config_example.yaml`
+- On the login machine at the SLURM cluster, run `scoach start`. This will start a daemon that will then launch jobs as requested.
+- On any machine, you can do `scoach run submit` to submit jobs.
+  - This will upload the Python script to MinIO and submit the configurations to the database.
+  - The new runs are consumed by the daemon process, which then uses Jinja2 to render the training script and submit it to the cluster.
+  - The training script is then run on the cluster, using Dask workers, that will grow as needed.
+
+## To do
+
+- [ ] Add support for uploading/managing datasets
+- [ ] No Python script duplicates
+
