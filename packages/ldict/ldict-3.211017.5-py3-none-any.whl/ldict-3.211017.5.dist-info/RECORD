@@ -1,0 +1,17 @@
+ldict/__init__.py,sha256=oPKNa8M3qc1xOn4iVCl1QstyYvQByxH6k-641NrUD-M,232
+ldict/core/__init__.py,sha256=mX3kEBZzRFXc3nH0MWGTTDwXx2Ycgw1f4I1JEckgomM,1027
+ldict/core/base.py,sha256=WnESTZD_3KfAPc1pAZ4LOoWksP0trr8xlFcwcdr2znc,1871
+ldict/core/inspection.py,sha256=Ej0eAEk9YwtbkVoxCQ0lYSUFshPrXbnoGYWm20omTwA,4105
+ldict/core/ldict_.py,sha256=RjZgoK5JVxZLev80RX3fwzGef9L7FUFdoEX0eBXxMgM,5675
+ldict/core/rshift.py,sha256=DzN1io1u2S3wDvLbgfpjP4kziSx_p584g9fLiSynsJk,5687
+ldict/customjson.py,sha256=6sUVEvl5mQtZxNvMshmoYhlhvQbagk59HqjeOdeW6HQ,3597
+ldict/empty.py,sha256=XPA9irbIIWau3ZCRnXrfOHleeQgYeTmhw2DlF1CwWEo,1654
+ldict/exception.py,sha256=bTA36x__5ANQxSFRb3lMDkFvfxGXgrfyaLwId3fWAOg,2722
+ldict/frozenlazydict.py,sha256=QHDNBS3KUXyjb2FIsay1Exm34Vu1hkzJOkwfL9RQZto,6032
+ldict/lazyval.py,sha256=AnE0q88q_LL59l-lTDNWKGLl8235FFHHyiKMxDOhCh8,1678
+ldict/parameter/__init__.py,sha256=mX3kEBZzRFXc3nH0MWGTTDwXx2Ycgw1f4I1JEckgomM,1027
+ldict/parameter/functionspace.py,sha256=_aHTtTDiFiHPWDZK8Mv_X-RH40vTMQULkw62cbH34Y8,3863
+ldict/parameter/let.py,sha256=3FBpwlLAOXg-muyAnHgfLwrYwUjcHlzYyAMTZ0q-W6U,3461
+ldict-3.211017.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ldict-3.211017.5.dist-info/METADATA,sha256=ng6lZguS0Cdf6BSMBXXC9enDTzLpdR-aoAxqlcs3fwk,8907
+ldict-3.211017.5.dist-info/RECORD,,
