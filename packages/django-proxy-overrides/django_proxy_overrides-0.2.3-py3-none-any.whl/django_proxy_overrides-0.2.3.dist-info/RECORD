@@ -1,0 +1,8 @@
+proxy_overrides/__init__.py,sha256=3s85cXPrJNXTz9ZiNiEiq6egjRTM8my8KHlwKe92LbQ,28
+proxy_overrides/base.py,sha256=7GJc6De8kY8FzltWj7_E2367eMmODYxrV5WUcPMCbJI,2212
+proxy_overrides/related.py,sha256=uucfrFQkiwHaQVkPGVHPl0kencqXVt9UD27aCCK5y3A,222
+django_proxy_overrides-0.2.3.dist-info/LICENSE,sha256=Ppsnn6fTXpaEiAeDI5fHzLLq-UD3n1uMBUy26TSHYHE,1459
+django_proxy_overrides-0.2.3.dist-info/METADATA,sha256=kpv0T523P_K_8l1c4p89-Ika_K03T_8Oaj62Yj5Shkc,1292
+django_proxy_overrides-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_proxy_overrides-0.2.3.dist-info/top_level.txt,sha256=tXaT5VkOWUexIXCkG-cMeR1gLIGNa0hDnwQTWtMMpEQ,16
+django_proxy_overrides-0.2.3.dist-info/RECORD,,
