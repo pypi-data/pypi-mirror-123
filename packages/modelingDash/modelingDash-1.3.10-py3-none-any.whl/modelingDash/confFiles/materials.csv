@@ -1,0 +1,4 @@
+Material,Thermal conductivity [W·m−1·K−1],Temperature [K],"Electrical conductivity @ 293 K
+[Ω−1·m−1]",Diffusivity [m2·s-1]
+copper,378,363.2,5.87E+07,
+air1atm,0.023,300,,0.0002239
