@@ -1,0 +1,13 @@
+bento2seldon4recsys/__init__.py,sha256=Kvlvs8SoE1Aji4Sfjtom_Tk_gq0Cyhg78gn_nvug9v4,427
+bento2seldon4recsys/bento.py,sha256=nGVhFweNdJ6DAH77JbRL_Qc9BHAHiGEU1QpsWluh-CQ,8567
+bento2seldon4recsys/model.py,sha256=203EFxzg2Kd_SzDwFbRwhWjqpKuilRdhoAbQkKp0XRA,317
+bento2seldon4recsys/monitoring.py,sha256=ZUNLp8-YQKf0lzLQnXThrPmzcz9PrrI4GHGIXCdnIz8,1393
+bento2seldon4recsys/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bento2seldon4recsys/ranking_metrics.py,sha256=VRf8Zw8ipVcK3Ph-YhXZUQbVCFGd5lI1fBwPkQrTrWg,9738
+bento2seldon4recsys/router/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bento2seldon4recsys/router/ab_test/__init__.py,sha256=gxtyIToVKHKmzmWz812aEq3HpDFk2uQKaS9K79_868M,1052
+bento2seldon4recsys/router/ab_test/model.py,sha256=HRo_uYITd4AbeIXc5zWgpZzE6ZCUoPyl6agYWg0dmLs,93
+bento2seldon4recsys-0.1.0.dist-info/LICENSE,sha256=z7aGy61z1UfxlbWEbPgdnTVyVkG-_iPIjDk2iABkTpw,10895
+bento2seldon4recsys-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bento2seldon4recsys-0.1.0.dist-info/METADATA,sha256=W4Rdv0wwFiqSK-xqr3EdPnGRIRTlWhlYnGOPg8eBSO8,14207
+bento2seldon4recsys-0.1.0.dist-info/RECORD,,
