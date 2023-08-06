@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sgsxmp/__init__.py
+sgsxmp/sgsxmp.py
+sgsxmp.egg-info/PKG-INFO
+sgsxmp.egg-info/SOURCES.txt
+sgsxmp.egg-info/dependency_links.txt
+sgsxmp.egg-info/entry_points.txt
+sgsxmp.egg-info/not-zip-safe
+sgsxmp.egg-info/requires.txt
+sgsxmp.egg-info/top_level.txt
