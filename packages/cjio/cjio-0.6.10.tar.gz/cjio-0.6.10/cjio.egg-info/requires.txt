@@ -1,0 +1,17 @@
+Click
+jsonschema
+fastjsonschema
+jsonschema_rs
+jsonref
+
+[develop]
+pytest
+bump2version
+
+[export]
+numpy
+pandas
+mapbox-earcut
+
+[reproject]
+pyproj
