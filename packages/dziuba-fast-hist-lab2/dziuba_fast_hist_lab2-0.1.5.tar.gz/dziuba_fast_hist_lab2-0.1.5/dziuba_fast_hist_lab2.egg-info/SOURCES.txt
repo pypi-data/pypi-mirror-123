@@ -1,0 +1,8 @@
+setup.py
+dziuba_fast_hist_lab2/__init__.py
+dziuba_fast_hist_lab2/fast_hist.py
+dziuba_fast_hist_lab2.egg-info/PKG-INFO
+dziuba_fast_hist_lab2.egg-info/SOURCES.txt
+dziuba_fast_hist_lab2.egg-info/dependency_links.txt
+dziuba_fast_hist_lab2.egg-info/requires.txt
+dziuba_fast_hist_lab2.egg-info/top_level.txt
