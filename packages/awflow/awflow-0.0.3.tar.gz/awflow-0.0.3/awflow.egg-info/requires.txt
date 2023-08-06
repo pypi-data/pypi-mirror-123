@@ -1,0 +1,11 @@
+cloudpickle
+
+[dev]
+build
+pytest
+pytest-cov
+sphinx
+twine
+
+[examples]
+numpy
