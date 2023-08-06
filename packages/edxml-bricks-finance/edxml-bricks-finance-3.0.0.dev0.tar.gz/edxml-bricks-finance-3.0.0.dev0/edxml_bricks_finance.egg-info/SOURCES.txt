@@ -1,0 +1,9 @@
+setup.py
+edxml_bricks/finance/generic.py
+edxml_bricks/finance/currencies/all.py
+edxml_bricks/finance/currencies/common.py
+edxml_bricks_finance.egg-info/PKG-INFO
+edxml_bricks_finance.egg-info/SOURCES.txt
+edxml_bricks_finance.egg-info/dependency_links.txt
+edxml_bricks_finance.egg-info/requires.txt
+edxml_bricks_finance.egg-info/top_level.txt
