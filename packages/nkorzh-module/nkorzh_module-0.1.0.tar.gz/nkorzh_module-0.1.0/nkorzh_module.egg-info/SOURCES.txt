@@ -1,0 +1,8 @@
+setup.py
+nkorzh_module/__init__.py
+nkorzh_module/demo.py
+nkorzh_module.egg-info/PKG-INFO
+nkorzh_module.egg-info/SOURCES.txt
+nkorzh_module.egg-info/dependency_links.txt
+nkorzh_module.egg-info/requires.txt
+nkorzh_module.egg-info/top_level.txt
