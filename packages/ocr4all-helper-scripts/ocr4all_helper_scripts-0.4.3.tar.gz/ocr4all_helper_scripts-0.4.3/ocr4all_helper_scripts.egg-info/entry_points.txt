@@ -1,0 +1,3 @@
+[console_scripts]
+ocr4all-helper-scripts = ocr4all_helper_scripts.cli:cli
+

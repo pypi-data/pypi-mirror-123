@@ -1,0 +1,6 @@
+click
+numpy
+shapely
+lxml
+scikit-image
+Pillow
