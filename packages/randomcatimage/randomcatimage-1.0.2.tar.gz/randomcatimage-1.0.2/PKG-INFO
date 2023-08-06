@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: randomcatimage
+Version: 1.0.2
+Summary: Random cat image
+Home-page: https://pypi.org/project/randomcatimage/
+Author: Parancsmester
+Author-email: parancsmester@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This module is a re-creation of *random-cat*. It isn't working! It displays HTTP 403 error! **DO NOT DOWNLOAD IT!**
+
+Download this instead. This module same uses Cat API. (https://thecatapi.com)
+>Installation
+
+Install through *pip*.
+```
+pip install randomcatimage
+```
+>Usage
+
+The module has just one function **getCat()** with one argument. *png* is default.
+
+*mime*:
+- png
+- jpg
+- gif
+>Demo
+```
+import randomcatimage as cat
+cat.getCat('png')
+```
+The function return the image link.
+
