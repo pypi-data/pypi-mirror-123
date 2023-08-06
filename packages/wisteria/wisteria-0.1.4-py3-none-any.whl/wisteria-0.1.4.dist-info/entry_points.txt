@@ -1,0 +1,3 @@
+[console_scripts]
+wisteria=wisteria.wisteria:main
+
