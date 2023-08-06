@@ -1,0 +1,5 @@
+exclude LICENSE
+include LICENSE-MIT
+
+include *.md
+include images/*.png
