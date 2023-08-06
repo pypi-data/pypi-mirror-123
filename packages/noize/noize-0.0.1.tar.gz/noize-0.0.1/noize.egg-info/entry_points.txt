@@ -1,0 +1,3 @@
+[console_scripts]
+noize = noize.__main__:main
+
