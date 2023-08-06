@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+tails_of_words/__analyzer__.py
+tails_of_words/__config__.py
+tails_of_words/__distance__.py
+tails_of_words/__init__.py
+tails_of_words/__main__.py
+tails_of_words/__swing__.py
+tails_of_words/__words__.py
+tails_of_words.egg-info/PKG-INFO
+tails_of_words.egg-info/SOURCES.txt
+tails_of_words.egg-info/dependency_links.txt
+tails_of_words.egg-info/entry_points.txt
+tails_of_words.egg-info/requires.txt
+tails_of_words.egg-info/top_level.txt
