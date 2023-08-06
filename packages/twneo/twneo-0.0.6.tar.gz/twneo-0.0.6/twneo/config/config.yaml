@@ -1,0 +1,9 @@
+TWNEO_CONFIG:
+  name: 'dev_config'
+  twitter_bearer_tocken: "<>LKL"
+
+  NEO4J:
+    uri: bolt://127.0.0.1:7687
+    user: neo4j
+    password: admin
+    database: twitter
