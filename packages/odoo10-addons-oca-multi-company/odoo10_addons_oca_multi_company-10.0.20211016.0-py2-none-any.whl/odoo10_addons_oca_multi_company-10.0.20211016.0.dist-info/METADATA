@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-multi-company
+Version: 10.0.20211016.0
+Summary: Meta package for oca-multi-company Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-account-invoice-inter-company
+Requires-Dist: odoo10-addon-account-type-multi-company
+Requires-Dist: odoo10-addon-base-ir-filters-company
+Requires-Dist: odoo10-addon-base-multi-company
+Requires-Dist: odoo10-addon-mail-template-multi-company
+Requires-Dist: odoo10-addon-partner-multi-company
+Requires-Dist: odoo10-addon-product-multi-company
+Requires-Dist: odoo10-addon-purchase-sale-inter-company
+Requires-Dist: odoo10-addon-sale-layout-multi-company
+Requires-Dist: odoo10-addon-stock-production-lot-multi-company
+
+UNKNOWN
+
