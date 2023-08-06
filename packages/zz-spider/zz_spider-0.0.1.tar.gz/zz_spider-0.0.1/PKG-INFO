@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zz_spider
+Version: 0.0.1
+Summary: python-MQ
+Home-page: https://github.com/qpzzk/zz_spider
+Author: zzk
+Author-email: zzk_python@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# 本代码是有关消息中间件组件的一些使用
+
+> 如需帮助请联系 zzk_python@163.com
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rabbit_mq/MqDeal.py
+rabbit_mq/__init__.py
+zz_spider.egg-info/PKG-INFO
+zz_spider.egg-info/SOURCES.txt
+zz_spider.egg-info/dependency_links.txt
+zz_spider.egg-info/requires.txt
+zz_spider.egg-info/top_level.txt
