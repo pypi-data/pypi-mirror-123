@@ -1,0 +1,21 @@
+numpy
+
+[:platform_system != "Windows"]
+cysignals
+
+[deploy]
+build
+bump2version
+
+[dev]
+pre-commit
+tox
+
+[examples]
+glfw
+numpy
+psutil
+pyopengl
+
+[test]
+glfw

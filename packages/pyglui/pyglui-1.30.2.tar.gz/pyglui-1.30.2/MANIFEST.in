@@ -1,0 +1,3 @@
+recursive-include src/pyglui *.pyx *.pxd *.pxi *.h *.c *.cpp
+include scripts/*.py
+include src/pyglui/*.ttf
