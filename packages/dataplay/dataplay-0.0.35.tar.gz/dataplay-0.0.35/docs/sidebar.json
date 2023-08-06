@@ -1,0 +1,11 @@
+{
+  "dataplay": {
+    "Overview": "/",
+    "Importing Data": "Download_and_Load.html",
+    "Merge Data": "Merge_Data.html",
+    "Geo-Data Intake and Operations": "Map_Basics_Intake_and_Operations.html",
+    "nb 2 html": "nb_2_html.html",
+    "Correlation Networks": "Map_Correlation_Networks.html",
+    "Map Gifs": "Timelapse_Data_Gifs.html"
+  }
+}
