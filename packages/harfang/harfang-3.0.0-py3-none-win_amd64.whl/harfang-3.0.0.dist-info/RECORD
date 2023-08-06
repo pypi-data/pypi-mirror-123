@@ -1,0 +1,9 @@
+harfang-3.0.0.data/purelib/harfang/__init__.py,sha256=JwVek8NcI4gEXrGA-efTrCF1TNyomXRSbwoT7Rv8Upg,23
+harfang-3.0.0.data/purelib/harfang/glfw3.dll,sha256=SpfCl4jF8NsTUnjihog6KCyt3CHC_d92xfYbrpuG6Lw,230400
+harfang-3.0.0.data/purelib/harfang/harfang.pyd,sha256=vcAAWMcnbjva1YnAI90hIaBluswd7P-RLw7Eg2B-rkA,9336832
+harfang-3.0.0.data/purelib/harfang/lua53.dll,sha256=iRv8ATOrG76Z1sA4HTouVWnO6AMaF44Ze1pSe10iiCA,211456
+harfang-3.0.0.data/purelib/harfang/openvr_api.dll,sha256=-N2HG-uDK1DLxj7Z6GsDWc1GVkoqYen6oKSaRSw2rf0,598816
+harfang-3.0.0.dist-info/METADATA,sha256=5M9upXrASOizfXKo6gFs8SL-H2LRbWp_-Ht4duGk0Vg,3719
+harfang-3.0.0.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+harfang-3.0.0.dist-info/top_level.txt,sha256=7kNQ_pPyGXt1YElB1CpQ1aAmaptiucqsf0mO7sxUYCQ,8
+harfang-3.0.0.dist-info/RECORD,,
