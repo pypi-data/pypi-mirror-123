@@ -1,0 +1,120 @@
+### Installation
+```shell
+pip install pesepay
+```
+
+### Getting Started
+Import the library into your project/application
+
+```python  
+from pesepay import Pesepay
+```
+
+Create an instance of the `Pesepay` class using your integration key and encryption key as supplied by Pesepay.
+
+```python 
+pesepay = Pesepay("INTEGRATION KEY", "ENCRYPTION KEY");
+```
+
+Set return and result urls
+
+```python 
+pesepay.result_url = 'https://example.com/result'
+pesepay.return_url = 'https://example.com/return'
+```
+
+### Make seamless payment
+
+Create the payment 
+##### NB: Customer email or number should be provided
+
+```python
+payment = pesepay.create_payment('CURRECNCY_CODE', 'PAYMENT_METHOD_CODE', 'CUSTOMER_EMAIL(OPTIONAL)', 'CUSTOMER_PHONE_NUMBER(OPTIONAL)', 'CUSTOMER_NAME(OPTIONAL)')
+```
+
+Create a `dict` of the required fields (if any)
+```python
+required_fields = {'requiredFieldName': 'requiredFieldValue'}
+```
+
+Send of the payment
+```python
+try:
+    response = pesepay.make_seamless_payment(payment, 'PAYMENT_REASON', AMOUNT, required_fields)
+    # Save the poll url and reference number (used to check the status of a transaction)
+    poll_url = response.poll_url
+    
+    reference_number = response.reference_number
+    
+except Exception as err:
+    # Handle error
+```
+
+### Make payment
+#### Step 1: Initiate a transaction
+
+Create a transaction
+```python
+transaction = pesepay.create_transaction('APP_ID', 'APP_CODE','APP_CODE', amount, 'CURRENCY_CODE', 'PAYMENT_REASON')
+```
+
+Initiate the transaction
+```python
+try:
+    response = pesepay.initiate_transaction(transaction)
+    # Get the redirect url and use it as you see fit     
+    redirect_url = response.redirect_url
+    # Save the reference number (used to check the status of a transaction)
+    reference_number = response.reference_number
+except Exception as err:
+    # Handle error
+```
+
+#### Step 2: Make the payment
+
+Create the payment 
+##### NB: Customer email or number should be provided
+
+```python
+payment = pesepay.create_payment('CURRECNCY_CODE', 'PAYMENT_METHOD_CODE', 'CUSTOMER_EMAIL(OPTIONAL)', 'CUSTOMER_PHONE_NUMBER(OPTIONAL)', 'CUSTOMER_NAME(OPTIONAL)')
+```
+
+Create a `dict` of the required fields (if any)
+
+```python
+required_fields = {'requiredFieldName': 'requiredFieldValue'}
+```
+
+Send of the payment
+```python
+try:
+    response = pesepay.make_payment(payment, reference_number, required_fields)
+    # Save the poll url (used to check the status of a transaction)
+    poll_url = response.poll_url
+except Exception as err:
+    # Handle error
+```
+
+### Check Payment Status
+#### Method 1: Check using reference number
+```python
+try:
+    response = pesepay.check_payment(reference_number)
+    
+    if response.transaction_status == 'SUCCESS':
+        # payment was successful
+    
+except Exception as err:
+    # handle error
+```
+#### Method 2: Check using poll url
+```python
+try:
+    response = pesepay.poll_transaction(poll_url)
+    
+    if response.transaction_status == 'SUCCESS':
+        # payment was successful
+    
+except Exception as err:
+    # handle error
+```
