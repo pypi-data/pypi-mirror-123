@@ -1,0 +1,3 @@
+[console_scripts]
+busyboulder = busyboulder.cli:busyboulder
+
