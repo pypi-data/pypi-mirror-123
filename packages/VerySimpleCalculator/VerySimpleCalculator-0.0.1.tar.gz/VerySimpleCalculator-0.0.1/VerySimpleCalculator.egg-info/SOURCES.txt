@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+FelixSimpleCalculator/__init__.py
+VerySimpleCalculator.egg-info/PKG-INFO
+VerySimpleCalculator.egg-info/SOURCES.txt
+VerySimpleCalculator.egg-info/dependency_links.txt
+VerySimpleCalculator.egg-info/top_level.txt
