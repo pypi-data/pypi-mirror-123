@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-oca-connector
+Version: 14.0.20211016.0
+Summary: Meta package for oca-connector Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-component
+Requires-Dist: odoo14-addon-component-event
+Requires-Dist: odoo14-addon-connector
+Requires-Dist: odoo14-addon-connector-base-product
+Requires-Dist: odoo14-addon-test-component
+Requires-Dist: odoo14-addon-test-connector
+
+UNKNOWN
+
