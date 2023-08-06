@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-storage
+Version: 10.0.20211016.0
+Summary: Meta package for oca-storage Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-storage-backend
+Requires-Dist: odoo10-addon-storage-backend-s3
+Requires-Dist: odoo10-addon-storage-backend-sftp
+Requires-Dist: odoo10-addon-storage-file
+Requires-Dist: odoo10-addon-storage-image
+Requires-Dist: odoo10-addon-storage-image-category-pos
+Requires-Dist: odoo10-addon-storage-image-product
+Requires-Dist: odoo10-addon-storage-image-product-pos
+Requires-Dist: odoo10-addon-storage-media
+Requires-Dist: odoo10-addon-storage-media-product
+Requires-Dist: odoo10-addon-storage-thumbnail
+
+UNKNOWN
+
