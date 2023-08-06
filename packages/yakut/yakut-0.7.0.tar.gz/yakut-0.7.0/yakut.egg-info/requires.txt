@@ -1,0 +1,16 @@
+pyuavcan[transport_can_pythoncan,transport_serial,transport_udp]~=1.2
+ruamel.yaml<0.18
+requests~=2.25
+simplejson~=3.17
+coloredlogs~=15.0
+click~=7.1
+psutil~=5.8
+scipy~=1.6
+
+[joystick]
+pysdl2<2.0
+mido~=1.2
+python-rtmidi~=1.4
+
+[joystick:sys_platform == "win32" or sys_platform == "darwin"]
+pysdl2-dll~=2.0
