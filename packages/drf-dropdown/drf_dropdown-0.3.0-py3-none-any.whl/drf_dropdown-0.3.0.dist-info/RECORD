@@ -1,0 +1,14 @@
+dropdown/__init__.py,sha256=6cs5gLQp7CLCYFYXTdo-GXT7-tlY-Rs0ewFesy9NTtA,152
+dropdown/apps.py,sha256=Gap6QbWtYmAM6ac3cyWOMFPv3bsNyMo6SNximfilQVM,91
+dropdown/functions.py,sha256=8sjlQ4N3Mo_CEkXpwrVqsYdDm6sheatHbhaPIDRtIYE,564
+dropdown/getter.py,sha256=JaoqkrYb7gQ5VyeoJrH_mMRp2UwCk6XQ4UmMXTcXBo4,2094
+dropdown/helpers.py,sha256=0vq1p44qvN7h5_g5EUEqawLrGLia8YCZ2Z44EPOl5w4,2835
+dropdown/registry.py,sha256=v2BSfDhuJRqJaQu-sRrBNplBaKHzwwJ5-dqcnp9qTxI,1294
+dropdown/serializers.py,sha256=mr1ftVn9XbvzVZGL9jCbIhj_J4CQaQXX6rOh7e_m2Fc,1479
+dropdown/types.py,sha256=2uGjKmnWxlIH12-oXGzTvsmHyTiq0FF2d-eD0BYPJcg,289
+dropdown/utils.py,sha256=iCYWyKYTA1L92iFTuqB9GRMOb2utpeMrACkCRNXrnDQ,76
+dropdown/views.py,sha256=t-TtxON6_EmAXoEVGf4KysHV8fxWUcqakcKfcPrOZZ0,518
+drf_dropdown-0.3.0.dist-info/LICENSE,sha256=LMUeGx0mKMdpXmr7vz7L8vYNcd4G_PHGJiJAJjC8GUw,1075
+drf_dropdown-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+drf_dropdown-0.3.0.dist-info/METADATA,sha256=66h3PHr_3WubwXxj7KtbLDbfBSV0OYQ6s32BYLwwIUo,1878
+drf_dropdown-0.3.0.dist-info/RECORD,,
