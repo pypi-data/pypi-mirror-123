@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Neuron-pypi-kaushalshah178
+Version: 0.0.2
+Summary: It is an implimentation of perceptron
+Home-page: https://github.com/kaushalshah178/Neuron_pypi
+Author: kaushalshah178
+Author-email: kaushalshah178@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kaushalshah178/Neuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Neuron_pypi
+Neuron_pypi
+
+# How to use this
+
+``` python
+from Newneuron.perceptron import Perceptron
+
+## get x and y first then use below commands
+model= Perceptron(eta=eta, epochs=epochs)
+model.fit(X,y)
+
+```
+
+# Reference -
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github docs for github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+

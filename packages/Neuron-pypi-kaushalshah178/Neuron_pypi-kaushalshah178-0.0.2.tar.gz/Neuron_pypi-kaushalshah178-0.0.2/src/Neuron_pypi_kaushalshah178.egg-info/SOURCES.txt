@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Neuron_pypi_kaushalshah178.egg-info/PKG-INFO
+src/Neuron_pypi_kaushalshah178.egg-info/SOURCES.txt
+src/Neuron_pypi_kaushalshah178.egg-info/dependency_links.txt
+src/Neuron_pypi_kaushalshah178.egg-info/requires.txt
+src/Neuron_pypi_kaushalshah178.egg-info/top_level.txt
+src/Newneuron/__init__.py
+src/Newneuron/perceptron.py
