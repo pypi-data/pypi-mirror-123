@@ -1,0 +1,16 @@
+ecdsa<1,>=0.13
+mnemonic<1,>=0.19
+pysha3<2,>=1.0.2
+base58<3,>=2.0.1
+click<9,>=8.0.3
+click-aliases<2,>=1.0.1
+tabulate<1,>=0.8.9
+
+[docs]
+sphinx<5,>=4.2.0
+sphinx-rtd-theme<2,>=1.0.0
+sphinx-click<4,>=3.0.1
+
+[tests]
+pytest<7,>=6.2.5
+pytest-cov<4,>=3.0.0
