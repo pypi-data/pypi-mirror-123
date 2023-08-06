@@ -1,0 +1,16 @@
+quickforex/__init__.py,sha256=FxuXiFx2ZhOKvXY6JDMcTtyPSozmi83a9dfrZEgRnlo,434
+quickforex/api.py,sha256=UOlKT6RqkgrAoThd1Mh1G_pm9HW6rVMdhJ5vPibQ9L0,6722
+quickforex/command_line.py,sha256=uJUrQ16lzNQX3jasqHsQXxMph23XRFe1BBH21nqDP9w,6641
+quickforex/domain.py,sha256=NduPTEcpyaVCeiew-A52xhugLMx72UGqYtKkvoOqRsY,3255
+quickforex/errors.py,sha256=gjcgRlpoE66cfEPezb-vByxvcwYc6ME-2efECuoDlao,106
+quickforex/logger.py,sha256=WtXeEwqRPbhrERKv7xde9quALV0Tf6B90H4C7R90md8,140
+quickforex/utils.py,sha256=hx8hbxWqw5YDodFA0SR-QxbTwLyohXVCR7cqescK2ZE,3508
+quickforex/backend/__init__.py,sha256=dDK9ZbRs8WFVIAlanEN-5FCEXmEMIDwB0oyuB5_GPLc,186
+quickforex/backend/base.py,sha256=Vpq3OeAkw1MlX1GkjvN25k6s8GQYn-0lT0CVUF_a7iA,1747
+quickforex/backend/exchangerate_host.py,sha256=z8_wmzqPH8vbs9tOHGhsC-2GNjU8Pt6-Y_dM30jSrdY,6501
+quickforex-0.0.4.dist-info/LICENSE,sha256=kpasEuWKFRdobqZ_9awbgst1aCUwz4y2_10JoOjUzEg,1079
+quickforex-0.0.4.dist-info/METADATA,sha256=NJPhx2OaVR1ScSeF-cLBr9SOOv5_YdkGKhc9RXt9zgE,781
+quickforex-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+quickforex-0.0.4.dist-info/entry_points.txt,sha256=HcGQk3c8QOSfi0EGfyhI2lw0DgK0p_i392pwrNYp2Ws,61
+quickforex-0.0.4.dist-info/top_level.txt,sha256=KG-nn-1DPCw7Y1vZUi3JO04PciVYV9q0peEupohci5E,11
+quickforex-0.0.4.dist-info/RECORD,,
