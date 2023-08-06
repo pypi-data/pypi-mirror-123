@@ -1,0 +1,3 @@
+[console_scripts]
+pybcpy = pybcpy.pybcpy:main_func
+
