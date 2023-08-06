@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-MehboobaC
+Version: 0.0.2
+Summary: Its an implimentation of perceptron
+Home-page: https://github.com/MehboobaC/oneNeuron_pypi
+Author: MehboobaC
+Author-email: cmehbooba@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/{USER_NAME}/{PROJECT_NAME}/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+Packaging simple perceptron python project
+
+## How to use this
+```python
+from oneNeuron.perceptron import Perceptron
+
+# get X and y then use below commands
+model = Perceptrin(eta=eta, epocha=epochs)
+model.fit(X,y)
+```
+
+# References
+[Official python projects packaging](https://packaging.python.org/tutorials/packaging-projects/)
+
+[Githhub docs for github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
