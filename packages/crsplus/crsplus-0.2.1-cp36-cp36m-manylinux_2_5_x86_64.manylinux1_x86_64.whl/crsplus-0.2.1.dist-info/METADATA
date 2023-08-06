@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: crsplus
+Version: 0.2.1
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Summary: A simple Rust library
+Author: Isac Cell <isac-cell@protonmail.com>
+Author-email: Isac Cell <isac-cell@protonmail.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/isac-cell/crsplus
+
+# CRS Plus
+
+A simple Rust library
+
+## Installation
+`pip install crsplus`
+
