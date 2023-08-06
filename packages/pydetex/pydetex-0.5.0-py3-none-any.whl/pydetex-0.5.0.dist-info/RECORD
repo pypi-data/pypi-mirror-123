@@ -1,0 +1,17 @@
+pydetex/__init__.py,sha256=gS4FADOVBwFadgp7T1gmdg0CdZLkrz5CWEiNRL-t2k8,816
+pydetex/_fonts.py,sha256=eaQP5Vr-tJDL7rRLwnOJwAk9ONFGAPNW9SC_HB_mKi0,1243
+pydetex/_gui_settings.py,sha256=_uerNojCt0ts2ne2kDGHI6fuqTEemqmV6ACt0_ZoXog,16160
+pydetex/_gui_utils.py,sha256=tX4eKb4KXpTI3NwXFsAVbxJRMrkX-1ksczC5qCHboJI,13976
+pydetex/gui.py,sha256=1IOgFfmosLjBE9F-xcIW27qtM-vnmj8nEZqtK9LodFI,11971
+pydetex/parsers.py,sha256=FeXQ1OYVByEh2MWxzyCrLMN0jd-tJpENVHn3pG4W1Q8,10800
+pydetex/pipelines.py,sha256=twOiQvBcLItfIIHcTX_mHesnSjyykgQ_Kw7zdm4g6ok,665
+pydetex/utils.py,sha256=rpZWy0I47ApT40wwY3RT-Ig6avqqOs1mEW5xGvaC5VI,15787
+pydetex/version.py,sha256=4H1wfrGaEyNUxAFhQg2B5Zl60FwAvARFIVIlOKWpehY,811
+pydetex/res/cog.ico,sha256=2YBnQTPRjEIi38JGi5tCvANt4Yo46Nh6EpW7sno_k2Q,4286
+pydetex/res/icon.gif,sha256=fyoHtoD4imQuTxsu0hptZnT_xRWUlzAHbi-ngv5oWDY,13224
+pydetex/res/icon.ico,sha256=xZFgmIrU4d5VSz9lF-iITQkTqiLrh1FqtX7-LjSmZOo,4286
+pydetex-0.5.0.dist-info/LICENSE,sha256=JlCw7T2RNpUl7DTMli5EKEa_xx1od14PH_YUiZ10m2U,1073
+pydetex-0.5.0.dist-info/METADATA,sha256=N6f1sak2DBaXoqNd8PjIdkVM66Xt-UcCS-VSbHL_MpI,5320
+pydetex-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydetex-0.5.0.dist-info/top_level.txt,sha256=Wq8a0GOFTOacYXTd6dYgCj8JKf3Drbt59hmbegg5g4A,8
+pydetex-0.5.0.dist-info/RECORD,,
