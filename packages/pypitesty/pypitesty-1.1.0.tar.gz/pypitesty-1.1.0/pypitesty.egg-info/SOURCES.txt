@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pypitesty/__init__.py
+pypitesty/foo.py
+pypitesty.egg-info/PKG-INFO
+pypitesty.egg-info/SOURCES.txt
+pypitesty.egg-info/dependency_links.txt
+pypitesty.egg-info/requires.txt
+pypitesty.egg-info/top_level.txt
+pypitesty/bar/__init__.py
+pypitesty/bar/baz.py
