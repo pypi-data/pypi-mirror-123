@@ -1,0 +1,15 @@
+cycler
+matplotlib
+kafka_python
+tornado
+scipy
+qt_material
+numpy
+mne
+psutil
+simple_pid
+figurestream
+gcpds
+openbci_stream
+PySide2
+radiant
