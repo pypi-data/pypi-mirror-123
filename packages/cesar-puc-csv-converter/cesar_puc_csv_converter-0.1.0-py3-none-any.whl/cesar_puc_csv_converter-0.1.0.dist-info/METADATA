@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cesar-puc-csv-converter
+Version: 0.1.0
+Summary: Convert csv to json. Publishing only for learning purposes at PUC.
+Home-page: https://github.com/cesarbruschetta/cesar-puc-csv-converter
+License: MIT
+Author: Cesar Augusto
+Author-email: cesarabruschetta@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: pandas (>=1.3.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# File Converter
+
+CSV para conversor JSON.
+
+## Introdução
+
+Ensinando como implantar uma lib em PyPi na PUC usando Poesia.
+
+
+### O que este projeto pode fazer
+
+Leia um arquivo **csv** ou uma **pasta** com csv's e converta-os em **JSON**.
+Este projeto é um programa em execução no terminal, de preferência instalado com pipx:
+
+
+`` `bash
+pipx install clebs-puc-csv-converter
+`` `
+
+Para usar, basta digitar:
+
+`` `bash
+csv_converter --help
+`` `
+
+Isso listará todas as opções disponíveis.

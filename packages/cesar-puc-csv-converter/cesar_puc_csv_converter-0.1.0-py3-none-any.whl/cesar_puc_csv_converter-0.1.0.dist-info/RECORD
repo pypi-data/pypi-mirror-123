@@ -1,0 +1,11 @@
+cesar_puc_csv_converter/__init__.py,sha256=LkX_GrPHxwgW4z3T0tOGn3dR2nnZkwrG32XD-ozDC0k,151
+cesar_puc_csv_converter/_tests/conftest.py,sha256=qZQrVl8lQrM0y-1q8j6ZElyPtOIeaKEEN6RErB65lmM,2443
+cesar_puc_csv_converter/_tests/test_unit_converter.py,sha256=wUU72C0xQ1Z7C9MbtdOsrBkIXwo1brxtdyfzc8JQULs,1376
+cesar_puc_csv_converter/_tests/test_unit_main.py,sha256=V984JkvDU0XvV_kiQkp1mU5KDG8lOxb64WU6P6icODY,1280
+cesar_puc_csv_converter/converter.py,sha256=vJjMfCD6VnIlOSnGj6Q-1c0oN-yiMXoRVE1d7FTtbq4,1653
+cesar_puc_csv_converter/main.py,sha256=LbK_D43Cl9q1kbGuMS2bYXdzx_NtoKLwh0SGBO1kTTo,1601
+cesar_puc_csv_converter-0.1.0.dist-info/entry_points.txt,sha256=ktFnlMihw__sdy9sgVr5fo9M-vj2ybK-NuJ8ifqWIRA,77
+cesar_puc_csv_converter-0.1.0.dist-info/LICENSE,sha256=XChwLAZMXQ-CJl_AzAKGJTrHLbU39khG6aKbApu-YcE,1080
+cesar_puc_csv_converter-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cesar_puc_csv_converter-0.1.0.dist-info/METADATA,sha256=WFTk18jWYHHmpGrr4GEyDHEPm2XhP25lHW7Mqixxq0U,1077
+cesar_puc_csv_converter-0.1.0.dist-info/RECORD,,
