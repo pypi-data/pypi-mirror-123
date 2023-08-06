@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: anid
+Version: 0.1
+Summary: Anime Downloader
+Home-page: https://github.com/exebixel/anid
+Author: exebixel
+Author-email: ezequielnat7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: tqdm
+
+UNKNOWN
+
