@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 215.9 279.4"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="carta.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="in"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     inkscape:zoom="0.42936809"
+     inkscape:cx="89.666654"
+     inkscape:cy="695.20769"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient44850">
+      <stop
+         style="stop-color:#4ecdc4;stop-opacity:1;"
+         offset="0"
+         id="stop44846" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1"
+         offset="1"
+         id="stop44848" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient44850"
+       id="linearGradient44852"
+       x1="-57.494225"
+       y1="31.310341"
+       x2="-59.097549"
+       y2="134.39127"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f2f2f2;stroke:#e6e6e6;stroke-width:4.39886"
+       id="rect1439"
+       width="196.588"
+       height="196.588"
+       x="-277.28812"
+       y="-107.81678"
+       ry="98.293999"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path361482.png"
+       inkscape:export-xdpi="157.25594"
+       inkscape:export-ydpi="157.25594" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.637022"
+       id="rect1024"
+       width="99.707077"
+       height="93.05706"
+       x="-62.461964"
+       y="-227.46562"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/cell.png"
+       inkscape:export-xdpi="157.256"
+       inkscape:export-ydpi="157.256" />
+    <g
+       id="g5429"
+       transform="translate(-1433.7354,-164.66823)" />
+    <path
+       style="color:#000000;fill:#f9f9f9;fill-opacity:1;stroke-width:1.5294;-inkscape-stroke:none"
+       d="M -1.0517578e-6,8.5738344 H 215.89999 V 43.894148 c 0,0 -16.82302,-10.151392 -26.05371,-11.983596 -9.23068,-1.832204 -18.46959,-0.896317 -27.76567,1.08942 -9.29608,1.985738 -17.40787,10.928818 -27.14312,10.894176 -9.73525,-0.03464 -15.31928,-8.948543 -26.9875,-11.055361 -11.668215,-2.106818 -30.403295,0.04348 -41.956415,1.32308 -11.55313,1.279598 -19.10427,5.842627 -27.27043,5.218972 -8.16615,-0.623656 -12.96318,-7.94907 -20.13973,-7.159025 C 11.406879,33.011859 -1.0517579e-6,43.894148 -1.0517579e-6,43.894148 Z"
+       id="path5901"
+       sodipodi:nodetypes="cccssssssscc"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/top.png"
+       inkscape:export-xdpi="157.256"
+       inkscape:export-ydpi="157.256" />
+    <path
+       style="color:#000000;fill:#f2f2f2;fill-opacity:1;stroke-width:1.5294;-inkscape-stroke:none"
+       d="M -1.0517578e-6,8.5738344 H 215.89999 V 27.159496 c 0,0 -3.2191,-5.91026 -12.5304,-7.62779 -9.3113,-1.71753 -29.8802,7.39334 -41.4446,7.62779 -11.5644,0.23445 -18.2771,-2.33006 -26.9875,-3.84357 -8.7104,-1.51351 -15.9551,-5.66424 -25.2579,-5.18883 -9.3028,0.47541 -18.874895,9.36992 -28.717095,9.0324 -9.8422,-0.33752 -16.5027,-9.52637 -26.9875,-10.56983 -10.4848,-1.04346 -24.7261,4.14159 -33.7138,5.95754 -8.987696,1.81595 -20.2611960517578,4.61229 -20.2611960517578,4.61229 z"
+       id="rect1295"
+       sodipodi:nodetypes="ccczzzzzzzcc"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/top.png"
+       inkscape:export-xdpi="157.256"
+       inkscape:export-ydpi="157.256" />
+    <g
+       id="g1126"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/top.png"
+       inkscape:export-xdpi="157.256"
+       inkscape:export-ydpi="157.256"
+       transform="matrix(0.34355114,0,0,0.34355114,-16.908532,-42.396673)">
+      <path
+         style="color:#000000;-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 117.64152,170.24166 c -0.008,-0.24528 0.4558,0.0877 0.63112,0.26297 0.16947,0.16945 0.2542,0.37692 0.2542,0.62235 v 41.47653 c 0,0.79473 0.28342,1.47554 0.85025,2.04237 0.561,0.561 1.23886,0.84149 2.0336,0.84149 0.80059,0 1.48138,-0.28049 2.04237,-0.84149 0.56684,-0.56683 0.85026,-1.24764 0.85026,-2.04237 0,-0.79474 -0.28342,-1.47261 -0.85026,-2.03361 -0.56099,-0.56683 -1.24178,-0.85025 -2.04237,-0.85025 -0.42074,0 -0.82396,0.0877 -1.20964,0.26296 -0.22206,0.10517 -0.44704,0.11687 -0.67494,0.0351 -0.23375,-0.0877 -0.4003,-0.2425 -0.49964,-0.46457 -0.10518,-0.22206 -0.11687,-0.44704 -0.0351,-0.67495 0.0876,-0.22791 0.24251,-0.39446 0.46457,-0.49964 0.61943,-0.28635 1.271,-0.42951 1.95472,-0.42951 1.28561,0 2.38422,0.45288 3.29583,1.35865 0.91162,0.91161 1.36743,2.01023 1.36743,3.29585 0,1.28561 -0.45581,2.38423 -1.36743,3.29584 -0.91161,0.91161 -2.01022,1.36742 -3.29583,1.36742 -1.27977,0 -2.37546,-0.45581 -3.28708,-1.36742 -0.91161,-0.91161 -1.36742,-2.01023 -1.36742,-3.29584 v -41.47653 c 0,-0.24543 0.0877,-0.45288 0.26297,-0.62235 0.16947,-0.17531 0.63053,-0.0176 0.62235,-0.26297 z"
+         id="path20353"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256" />
+      <path
+         style="color:#000000;-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 97.219011,173.57945 c -0.0081,-0.24528 0.455806,0.0877 0.631117,0.26297 0.169472,0.16945 0.2542,0.37692 0.2542,0.62235 v 41.47653 c 0,0.79473 0.28342,1.47554 0.850257,2.04237 0.560994,0.561 1.238865,0.84149 2.033605,0.84149 0.80059,0 1.48138,-0.28049 2.04238,-0.84149 0.56684,-0.56683 0.85026,-1.24764 0.85026,-2.04237 0,-0.79474 -0.28342,-1.47261 -0.85026,-2.03361 -0.561,-0.56683 -1.24179,-0.85025 -2.04238,-0.85025 -0.42075,0 -0.82396,0.0877 -1.209645,0.26296 -0.22206,0.10517 -0.447042,0.11687 -0.674947,0.0351 -0.233747,-0.0877 -0.400292,-0.2425 -0.499634,-0.46457 -0.105184,-0.22205 -0.116871,-0.44704 -0.03506,-0.67495 0.08764,-0.22791 0.242508,-0.39446 0.464572,-0.49964 0.619431,-0.28635 1.271004,-0.42951 1.954714,-0.42951 1.28562,0 2.38424,0.45288 3.29586,1.35865 0.91161,0.91161 1.36742,2.01023 1.36742,3.29585 0,1.28561 -0.45581,2.38423 -1.36742,3.29584 -0.91162,0.91161 -2.01024,1.36742 -3.29586,1.36742 -1.279767,0 -2.375459,-0.45581 -3.287073,-1.36742 -0.911615,-0.91161 -1.367423,-2.01023 -1.367423,-3.29584 V 174.4648 c 0,-0.24543 0.08766,-0.45288 0.262966,-0.62235 0.169471,-0.17531 0.630531,-0.0176 0.622353,-0.26297 z"
+         id="path20351"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256" />
+      <path
+         style="color:#000000;font-size:10.5833px;font-family:Comfortaa;-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 110.72497,178.37941 c 0.008,-0.24327 -0.4521,0.087 -0.62598,0.26083 -0.16809,0.16807 -0.25213,0.37385 -0.25213,0.61728 v 68.67891 c 0,0.78827 -0.28111,1.46352 -0.84333,2.02574 -0.55642,0.55642 -1.22876,0.83463 -2.01703,0.83463 -0.79406,0 -1.4693,-0.27821 -2.02573,-0.83463 -0.56222,-0.56222 -0.84333,-1.23747 -0.84333,-2.02574 0,-0.78826 0.28111,-1.4606 0.84333,-2.01703 0.55643,-0.56221 1.23167,-0.84333 2.02573,-0.84333 0.41732,0 0.81725,0.087 1.19979,0.26083 0.22025,0.10431 0.4434,0.11591 0.66945,0.0348 0.23184,-0.087 0.39703,-0.24052 0.49556,-0.46078 0.10432,-0.22024 0.11592,-0.4434 0.0348,-0.66945 -0.0869,-0.22605 -0.24053,-0.39125 -0.46078,-0.49557 -0.61439,-0.28401 -1.26065,-0.42601 -1.93879,-0.42601 -1.27514,0 -2.3648,0.44919 -3.26899,1.34759 -0.90418,0.90418 -1.35628,1.99385 -1.35628,3.26898 0,1.27514 0.4521,2.36481 1.35628,3.26899 0.90419,0.90418 1.99385,1.35628 3.26899,1.35628 1.26934,0 2.3561,-0.4521 3.26029,-1.35628 0.90419,-0.90418 1.35628,-1.99385 1.35628,-3.26899 v -68.67891 c 0,-0.24343 -0.087,-0.44919 -0.26082,-0.61728 -0.16809,-0.17388 -0.6254,-0.0175 -0.61728,-0.26083 z"
+         id="path20325"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256" />
+      <path
+         style="color:#000000;-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 107.55463,190.03607 c 0.008,-0.24528 -0.45581,0.0877 -0.63112,0.26297 -0.16947,0.16945 -0.2542,0.37692 -0.2542,0.62235 v 41.47652 c 0,0.79474 -0.28342,1.47555 -0.85026,2.04238 -0.56099,0.56099 -1.23886,0.84148 -2.0336,0.84148 -0.80059,0 -1.48137,-0.28049 -2.04237,-0.84148 -0.56684,-0.56683 -0.85026,-1.24764 -0.85026,-2.04238 0,-0.79473 0.28342,-1.4726 0.85026,-2.0336 0.561,-0.56683 1.24178,-0.85026 2.04237,-0.85026 0.42075,0 0.82396,0.0877 1.20964,0.26297 0.22206,0.10517 0.44704,0.11687 0.67495,0.0351 0.23375,-0.0877 0.40029,-0.24249 0.49963,-0.46456 0.10519,-0.22206 0.11687,-0.44705 0.0351,-0.67495 -0.0876,-0.22791 -0.24251,-0.39446 -0.46457,-0.49965 -0.61943,-0.28634 -1.271,-0.4295 -1.95471,-0.4295 -1.28562,0 -2.38423,0.45288 -3.29585,1.35865 -0.911617,0.91161 -1.367425,2.01023 -1.367425,3.29585 0,1.28561 0.455808,2.38423 1.367425,3.29583 0.91162,0.91161 2.01023,1.36743 3.29585,1.36743 1.27976,0 2.37545,-0.45582 3.28707,-1.36743 0.91161,-0.9116 1.36742,-2.01022 1.36742,-3.29583 v -41.47653 c 0,-0.24543 -0.0877,-0.45288 -0.26296,-0.62235 -0.16948,-0.17531 -0.63053,-0.0176 -0.62236,-0.26297 z"
+         id="path20347"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256" />
+      <path
+         style="color:#000000;-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 114.02855,193.1649 c -0.008,-0.24528 0.45581,0.0877 0.63112,0.26297 0.16947,0.16945 0.2542,0.37692 0.2542,0.62235 v 41.47652 c 0,0.79474 0.28342,1.47554 0.85025,2.04237 0.561,0.561 1.23886,0.84149 2.03361,0.84149 0.80058,0 1.48137,-0.28049 2.04236,-0.84149 0.56684,-0.56683 0.85026,-1.24763 0.85026,-2.04237 0,-0.79473 -0.28342,-1.4726 -0.85026,-2.0336 -0.56099,-0.56683 -1.24178,-0.85025 -2.04236,-0.85025 -0.42075,0 -0.82396,0.0877 -1.20965,0.26296 -0.22206,0.10517 -0.44704,0.11687 -0.67494,0.0351 -0.23375,-0.0877 -0.4003,-0.2425 -0.49964,-0.46457 -0.10518,-0.22206 -0.11687,-0.44704 -0.0351,-0.67495 0.0876,-0.22791 0.24251,-0.39446 0.46457,-0.49965 0.61943,-0.28634 1.27101,-0.4295 1.95472,-0.4295 1.28561,0 2.38422,0.45288 3.29584,1.35865 0.91161,0.91161 1.36742,2.01023 1.36742,3.29584 0,1.28561 -0.45581,2.38423 -1.36742,3.29584 -0.91162,0.91161 -2.01023,1.36743 -3.29584,1.36743 -1.27977,0 -2.37546,-0.45582 -3.28708,-1.36743 -0.91161,-0.91161 -1.36742,-2.01023 -1.36742,-3.29584 v -41.47652 c 0,-0.24543 0.0877,-0.45288 0.26297,-0.62235 0.16947,-0.17531 0.63053,-0.0176 0.62235,-0.26297 z"
+         id="path20349"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256" />
+      <path
+         style="color:#000000;-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 128.18554,184.20521 c 0.008,-0.24527 -0.4558,0.0877 -0.63111,0.26297 -0.16947,0.16946 -0.2542,0.37692 -0.2542,0.62235 v 41.47653 c 0,0.79474 -0.28342,1.47554 -0.85026,2.04237 -0.56099,0.561 -1.23886,0.84149 -2.0336,0.84149 -0.80059,0 -1.48138,-0.28049 -2.04237,-0.84149 -0.56684,-0.56683 -0.85026,-1.24763 -0.85026,-2.04237 0,-0.79474 0.28342,-1.47261 0.85026,-2.0336 0.56099,-0.56684 1.24178,-0.85026 2.04237,-0.85026 0.42074,0 0.82396,0.0877 1.20964,0.26297 0.22206,0.10516 0.44704,0.11687 0.67495,0.0351 0.23374,-0.0877 0.40029,-0.24249 0.49963,-0.46457 0.10519,-0.22205 0.11687,-0.44704 0.0351,-0.67495 -0.0876,-0.2279 -0.24251,-0.39446 -0.46457,-0.49964 -0.61943,-0.28634 -1.271,-0.4295 -1.95471,-0.4295 -1.28561,0 -2.38423,0.45287 -3.29584,1.35865 -0.91162,0.91161 -1.36742,2.01023 -1.36742,3.29584 0,1.28561 0.4558,2.38423 1.36742,3.29584 0.91161,0.91161 2.01023,1.36743 3.29584,1.36743 1.27976,0 2.37546,-0.45582 3.28707,-1.36743 0.91161,-0.91161 1.36742,-2.01023 1.36742,-3.29584 v -41.47653 c 0,-0.24543 -0.0877,-0.45288 -0.26296,-0.62235 -0.16948,-0.1753 -0.63053,-0.0176 -0.62236,-0.26296 z"
+         id="path20355"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256" />
+      <g
+         id="g77528"
+         transform="matrix(0.82763674,0,0,0.82763674,19.320765,38.054076)"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256">
+        <path
+           id="rect20381"
+           style="fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.39226"
+           d="m 83.539892,191.30423 h 57.795618 c 0,0 4.1895,8.37453 0,9.42983 -4.1895,1.05528 -4.29092,-2.42276 -7.22445,-2.42276 -2.93353,0 -4.29092,2.42276 -7.22445,2.42276 -2.93353,0 -4.29092,-2.42276 -7.22445,-2.42276 -2.93353,0 -4.29092,2.42276 -7.22446,2.42276 -2.93353,0 -4.29092,-2.42276 -7.22445,-2.42276 -2.93353,0 -4.29092,2.42276 -7.224454,2.42276 -2.933531,0 -4.290918,-2.42276 -7.224453,-2.42276 -2.933529,0 -3.034951,3.47804 -7.224451,2.42276 -4.189499,-1.0553 0,-9.42983 0,-9.42983 z"
+           sodipodi:nodetypes="cczzzzzzzzzc" />
+        <path
+           style="color:#000000;font-size:10.5833px;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;fill:#4ecdc4;fill-opacity:1;stroke:#4ecdc4;stroke-width:1.68242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 112.4377,158.54442 c -22.869129,0 -29.857918,19.23322 -33.868239,31.5757 -4.01032,12.34251 2.437363,-3.689 12.936515,3.93909 5.281018,3.83687 13.043784,-2.60972 20.931724,-2.6327 7.79402,-0.0227 15.71359,6.42389 20.93172,2.6327 10.49916,-7.62809 16.94684,8.40342 12.93653,-3.93909 -4.01033,-12.34248 -10.99912,-31.5757 -33.86825,-31.5757 z"
+           id="path20323"
+           sodipodi:nodetypes="zsssssz" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.3212px;line-height:1.25;font-family:'Geoma Regular Demo';-inkscape-font-specification:'Geoma Regular Demo';text-align:center;text-anchor:middle;fill:#008080;fill-opacity:1;stroke-width:0.458028"
+         x="114.57788"
+         y="252.80235"
+         id="text68842"
+         inkscape:transform-center-x="29.441059"
+         inkscape:transform-center-y="-26.627485"
+         inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/path20353.png"
+         inkscape:export-xdpi="157.256"
+         inkscape:export-ydpi="157.256"><tspan
+           sodipodi:role="line"
+           id="tspan68840"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Geoma Regular Demo';-inkscape-font-specification:'Geoma Regular Demo';fill:#008080;fill-opacity:1;stroke-width:0.458028"
+           x="114.57788"
+           y="252.80235">DunderLab</tspan></text>
+    </g>
+    <rect
+       style="fill:url(#linearGradient44852);fill-opacity:1;stroke-width:0.79375"
+       id="rect7887"
+       width="30.942465"
+       height="137.21652"
+       x="-76.53244"
+       y="16.521723" />
+    <rect
+       style="fill:#4ecdc4;fill-opacity:1;stroke-width:0.623911"
+       id="rect60646"
+       width="215.89999"
+       height="8.5738344"
+       x="0"
+       y="0"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/top.png"
+       inkscape:export-xdpi="157.256"
+       inkscape:export-ydpi="157.256" />
+    <rect
+       style="fill:#4ecdc4;fill-opacity:1;stroke-width:0.811264"
+       id="rect71687"
+       width="215.89999"
+       height="14.496182"
+       x="0"
+       y="264.90384"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/bottom.png"
+       inkscape:export-xdpi="157.25594"
+       inkscape:export-ydpi="157.25594" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke-width:0.59594"
+       id="rect71711"
+       width="77.761452"
+       height="12.7"
+       x="-8.6157923"
+       y="-35.975449" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.33069px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.0832674"
+       x="207.36113"
+       y="273.04965"
+       id="text73615"
+       inkscape:export-filename="/home/yeison/Development/DunderLab/assets/logo/bottom.png"
+       inkscape:export-xdpi="157.25594"
+       inkscape:export-ydpi="157.25594"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.0832674"
+         x="207.36113"
+         y="273.04965"
+         id="tspan78461">Info@dunderlab.com</tspan></text>
+  </g>
+</svg>
