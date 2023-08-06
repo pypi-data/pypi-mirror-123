@@ -1,0 +1,14 @@
+pep505/__init__.py,sha256=fDBb4yCMenzOVUkbgMVJOEy8G5VkDp6OxFo5tZoVbZU,65
+pep505/_test.py,sha256=86TLeZQzayKN9k0FnsTP5OtJt8FkGSQdnRaU0fq4byE,1918
+pep505/auto.py,sha256=FWBQKOLznVthvMYMASrx2Gw5lqKHEOccQpBisDZ53Dw,24
+pep505/hook.py,sha256=A6oaCQlgVGfI6gATfGC4Fwd8vhwNIg_saaIN9sbOPIo,1766
+pep505/parser.py,sha256=Visq-R3NKc82Fic_sNyJB7N2OKfphz4INi-dBucBl0U,315461
+pep505/test.py,sha256=6QoiTRPaXupbQKo5jfhQPaVsD3ocTQ8VP4QoM_tFqQ4,120
+pep505/pegen/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+pep505/pegen/parser.py,sha256=L-4f3kpkouzjbcn4ImBktaxWQGjtQrqTI5l8PII1afo,11293
+pep505/pegen/tokenizer.py,sha256=1PIqp7A8mnBsWO7eUikisARcAO32XFSv7Wxu217NM08,3697
+pep505-0.9.3.dist-info/LICENSE,sha256=_DS1OwiGM_Df2jzIYFiuDIheTpf8tvNJ8-kXBWzA5LY,1068
+pep505-0.9.3.dist-info/METADATA,sha256=lJJY5lWp9oYA0jeEo0k1cVw_fvYuynUGXNJE7uSpPAs,4965
+pep505-0.9.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pep505-0.9.3.dist-info/top_level.txt,sha256=N72qllfutEVSyLnkPyQeFqGE0Boyg5nOC5GyWBRSlnI,7
+pep505-0.9.3.dist-info/RECORD,,
