@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+SapGuiRobot/sap_gui_robot_framework.egg-info/PKG-INFO
+SapGuiRobot/sap_gui_robot_framework.egg-info/SOURCES.txt
+SapGuiRobot/sap_gui_robot_framework.egg-info/dependency_links.txt
+SapGuiRobot/sap_gui_robot_framework.egg-info/requires.txt
+SapGuiRobot/sap_gui_robot_framework.egg-info/top_level.txt
