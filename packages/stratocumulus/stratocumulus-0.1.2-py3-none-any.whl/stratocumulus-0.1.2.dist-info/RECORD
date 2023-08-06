@@ -1,0 +1,17 @@
+strato/__init__.py,sha256=5SQcFFXk4oALaFTjYgKIGkIB0-z873EheuY3b2Kdu44,24
+strato/__main__.py,sha256=1-1zB3NF4RlCUx9vXu0JDQn5jVHSkd1UgOlGccaaW3w,737
+strato/backends/__init__.py,sha256=C7LrtDFJGVFjNrJe87Ya2yQMTWq5Gox9YWBS5Zu2x2w,91
+strato/backends/_aws.py,sha256=1XiJR9oOLwgSUc46zmktkcYBamMtbS1EbPTyMnFoAGg,2124
+strato/backends/_gcp.py,sha256=x7zzFpN76BgwdOJQ5rDK6Z4-TPO7tUsGjYJJQLJYZPM,1703
+strato/backends/_local.py,sha256=V7ruv8BsTgk3EiRnzQEAf1s3cdUgail1fW21DmVBurc,1351
+strato/commands/__init__.py,sha256=gOhc6eNm7yKSPE9NC-r3FTvCYBzFFMeLwrmh2PXXWmc,78
+strato/commands/cp.py,sha256=paImxkyKmmMy27JiE_MalxoNN_Rygh1rrzA7VNRqgyE,1544
+strato/commands/exists.py,sha256=9_GAcHJO7b5l3S5Fify-UP0_9EQxJcQlUqK-v4f9478,965
+strato/commands/rm.py,sha256=Jh91BGt_m4CHpaXVa7BXXWx9iABL7AnqX07suPyvNNk,1352
+strato/commands/sync.py,sha256=wBQV5qRJuIaqbrZXOmUeak9u-9DtpwBhkkJUOELRAIo,1448
+stratocumulus-0.1.2.dist-info/LICENSE,sha256=CJ2jWFCoVlnE2jvA_3YoZSpxiWUUhgnoIGq0CVM8ZHY,1532
+stratocumulus-0.1.2.dist-info/METADATA,sha256=0Z30PR6HfmKde-bcK_xmn0vl5aNPUjQ0Fyx0HUfqlNo,1520
+stratocumulus-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stratocumulus-0.1.2.dist-info/entry_points.txt,sha256=zAF6Bv3giCJvkrUiwkgQ7D-OBhwDih1lm9anayFThnI,49
+stratocumulus-0.1.2.dist-info/top_level.txt,sha256=2eTsVX5e21oZM8_mXADw9EtsgP12BMTozaK3WQMOQ5A,7
+stratocumulus-0.1.2.dist-info/RECORD,,
