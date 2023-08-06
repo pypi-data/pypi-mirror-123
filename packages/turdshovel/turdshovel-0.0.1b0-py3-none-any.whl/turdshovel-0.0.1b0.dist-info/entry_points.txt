@@ -1,0 +1,3 @@
+[console_scripts]
+turdshovel=turdshovel.main:init
+
