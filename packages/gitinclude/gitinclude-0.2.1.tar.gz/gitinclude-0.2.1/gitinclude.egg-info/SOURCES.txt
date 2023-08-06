@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gitinclude/__init__.py
+gitinclude/_version.py
+gitinclude.egg-info/PKG-INFO
+gitinclude.egg-info/SOURCES.txt
+gitinclude.egg-info/dependency_links.txt
+gitinclude.egg-info/requires.txt
+gitinclude.egg-info/top_level.txt
