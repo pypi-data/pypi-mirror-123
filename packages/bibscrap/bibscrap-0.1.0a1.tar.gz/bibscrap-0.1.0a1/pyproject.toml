@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "bibscrap"
+version = "0.1.0-alpha.1"
+description = "Semi-automated tools for systematic literature reviews."
+readme = "README.rst"
+authors = ["Michael E. Cotterell <mepcotterell@gmail.com>"]
+maintainers = ["Michael E. Cotterell <mepcotterell@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/cotterell/bibscrap"
+repository = "https://github.com/cotterell/bibscrap"
+documentation = "https://bibscrap.readthedocs.io/"
+keywords = [
+    "bibscrap",
+    "literature review",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Utilities",
+]
+include = [
+    "bibscrap",
+    "LICENSE.rst",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/cotterell/bibscrap/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cleo = "^1.0.0a4"
+scrapy = "^2.5.1"
+single-source = "^0.2.0"
+Sphinx = { version = "^4.2.0", optional = true }
+sphinx-rtd-theme = { version = "^1.0.0", optional = true }
+sphinxcontrib-bibtex = { version = "^2.4.1", optional = true }
+black = { version = "^21.9b0", optional = true }
+pre-commit = { version = "^2.15.0", optional = true }
+tox = { version = "^4.0.0a9", optional = true }
+darglint = { version = "^1.8.0", optional = true }
+pytest = { version = "^6.2.5", optional = true }
+coverage = { version = "^6.0.2", optional = true }
+codecov = { version = "^2.1.12", optional = true }
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]
+dev = [
+    "black",
+    "pre-commit",
+    "tox",
+    "darglint",
+    "pytest",
+    "coverage",
+    "codecov",
+]
+docs = [
+    "Sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-bibtex",
+]
+
+[tool.poetry.scripts]
+bibscrap = 'bibscrap.cli.app:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
