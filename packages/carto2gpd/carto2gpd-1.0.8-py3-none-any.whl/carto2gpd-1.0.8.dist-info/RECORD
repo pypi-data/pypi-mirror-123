@@ -1,0 +1,9 @@
+carto2gpd/__init__.py,sha256=RRIUsdhx9q5HzePw_yNQ8XSeCm5i00mC_q1jQVf_BMY,108
+carto2gpd/core.py,sha256=fyW0wYNe1lbLIjHzimmQBP2BaemmFaUUI3kseOU0Y7U,3427
+carto2gpd/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+carto2gpd/tests/test_get.py,sha256=KG9efn4upwU7bFnSca6Ao_KgS55MrbJxUM_eFokJIbw,1156
+carto2gpd/tests/test_get_size.py,sha256=E1XEMBnL5ekpJTgTOif0NHERHD62jIqs7qLFNdsXtv8,320
+carto2gpd-1.0.8.dist-info/LICENSE,sha256=HwRPgGVug4rj5VctPpyZzSeN60rPDAefvFwasA6QbiM,1103
+carto2gpd-1.0.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+carto2gpd-1.0.8.dist-info/METADATA,sha256=FwqrfRkfvSUdcwKNSk998e_jnVUga_jP-9qlIH3rFuM,570
+carto2gpd-1.0.8.dist-info/RECORD,,
