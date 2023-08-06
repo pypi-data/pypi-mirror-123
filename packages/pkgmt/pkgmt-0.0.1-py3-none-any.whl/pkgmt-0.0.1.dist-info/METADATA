@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pkgmt
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: invoke ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
