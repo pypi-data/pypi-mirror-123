@@ -1,0 +1,9 @@
+filetype
+lameenc
+miniaudio
+nnresample
+numpy>1.8
+numpyx>=0.4.1
+scipy
+soundfile
+tinytag
