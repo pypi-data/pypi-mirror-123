@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: dbt-rockset
+Version: 0.1.0
+Summary: The Rockset adapter plugin for dbt (data build tool)
+Home-page: https://github.com/rockset/dbt-rockset
+Author: Venkat Venkataramani
+Author-email: hello@rockset.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dbt-core (>=0.18)
+Requires-Dist: rockset (>=0.7)
+
+The Rockset adapter plugin for dbt (data build tool)
+
+
