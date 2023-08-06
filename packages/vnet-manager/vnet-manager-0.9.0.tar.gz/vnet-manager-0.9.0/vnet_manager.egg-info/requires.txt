@@ -1,0 +1,7 @@
+colorama
+PyYAML
+tabulate
+pylxd==2.2.10
+pyroute2
+psutil
+distro
