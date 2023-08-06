@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-sale-reporting
+Version: 12.0.20211016.0
+Summary: Meta package for oca-sale-reporting Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-sale-backorder
+Requires-Dist: odoo12-addon-sale-comment-template
+Requires-Dist: odoo12-addon-sale-layout-category-hide-detail
+Requires-Dist: odoo12-addon-sale-order-report-product-image
+Requires-Dist: odoo12-addon-sale-report-country-state
+Requires-Dist: odoo12-addon-sale-report-delivered-subtotal
+
+UNKNOWN
+
