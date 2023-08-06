@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tikbot
+Version: 0.1.0
+Summary: Telegram Bot for Mikrotik (RouterOS)
+License: GPL-3.0-only
+Author: hexatester
+Author-email: hexatester@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs (>=21.2.0,<22.0.0)
+Requires-Dist: cattrs (>=1.8.0,<2.0.0)
+Requires-Dist: python-dotenv (>=0.19.1,<0.20.0)
+Requires-Dist: python-telegram-bot (>=13.7,<14.0)
+Description-Content-Type: text/markdown
+
+# TikBot
+
+Mikrotik (RouterOS) Telegram Bot
+

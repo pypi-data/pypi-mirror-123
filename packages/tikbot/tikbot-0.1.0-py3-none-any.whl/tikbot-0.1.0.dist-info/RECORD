@@ -1,0 +1,13 @@
+tikbot/__init__.py,sha256=aodS1gq0t9nNRYBIu6IlaV8nMlhgUR8XEBKjgaXUC0U,42
+tikbot/__main__.py,sha256=1wIcCOLqJ9QzW-YCEmVU9RnhYPoMVa7IYtrNmgKeO54,989
+tikbot/apiros.py,sha256=h7NypqRm51mq5phOJXgc_iOD2L2AhKBPABSRDC8AMYA,6449
+tikbot/config.py,sha256=07EpUyXM5aovJYuSMhBT7cuFdURqSQxH2oqeMJCJxAU,1460
+tikbot/handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tikbot/handler/command/__init__.py,sha256=yDgi_2W4hAgWfY4K_0qQ7zq4aRb9JFRBwkqYUJH5fWQ,379
+tikbot/handler/command/ping.py,sha256=Pf7DScmlwe8BMGcQEmm23VRIwUa4zxOYHjxvORExazs,1012
+tikbot/handler/command/start.py,sha256=awbtQlF3wnj_93n7rpdW4tg_L2sX-nTAwB20dT_GbW0,265
+tikbot/version.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+tikbot-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+tikbot-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+tikbot-0.1.0.dist-info/METADATA,sha256=hISbelec2ihab-T3iQoW7R1VGJWedvesru0zVsBIOTw,890
+tikbot-0.1.0.dist-info/RECORD,,
