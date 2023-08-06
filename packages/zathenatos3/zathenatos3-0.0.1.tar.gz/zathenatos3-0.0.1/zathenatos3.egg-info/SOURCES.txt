@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+zathenatos3/__init__.py
+zathenatos3/athenatos3.py
+zathenatos3.egg-info/PKG-INFO
+zathenatos3.egg-info/SOURCES.txt
+zathenatos3.egg-info/dependency_links.txt
+zathenatos3.egg-info/top_level.txt
