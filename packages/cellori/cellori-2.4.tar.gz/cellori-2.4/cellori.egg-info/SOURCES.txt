@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cellori/__init__.py
+cellori/cellori.py
+cellori/imshowfast.py
+cellori/run_gui.py
+cellori.egg-info/PKG-INFO
+cellori.egg-info/SOURCES.txt
+cellori.egg-info/dependency_links.txt
+cellori.egg-info/requires.txt
+cellori.egg-info/top_level.txt
