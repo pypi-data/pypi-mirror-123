@@ -1,0 +1,2 @@
+include spacetime_tree/*.py
+include spacetime_tree/*.pyx
