@@ -1,0 +1,9 @@
+pysic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysic/engine.py,sha256=eZimMjw6GO6NiTqves0ZsE_p_sSDYLlUxTzYkzhJt04,12353
+pysic/errors.py,sha256=mJFBBZYPp4mu3K6UakzqF-ndJK47qow1jCU_JxX-6O8,829
+pysic/pillow_gif_patch.py,sha256=5yE9m0z__GiJ7pGg2H5N1jrd_7JNoD_-uwy6mmhCvSw,9883
+py_sic-0.3.0a1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+py_sic-0.3.0a1.dist-info/METADATA,sha256=kS4SK-XnC9aPtHjH7sZKJ5l5GZb_4UXJq_yMs6kD53I,5219
+py_sic-0.3.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_sic-0.3.0a1.dist-info/top_level.txt,sha256=DKeBeyLA1EDI-g4I1o6ajvwQOfhGcmbjUTVjVPd6ky4,6
+py_sic-0.3.0a1.dist-info/RECORD,,
