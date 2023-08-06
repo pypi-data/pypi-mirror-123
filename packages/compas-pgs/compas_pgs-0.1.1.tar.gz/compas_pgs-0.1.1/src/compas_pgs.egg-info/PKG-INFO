@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: compas-pgs
+Version: 0.1.1
+Summary: Polyhedral 3D graphic statics based on compas_3gs
+Home-page: https://github.com/Block Research Group/compas_pgs
+Author: Juney Lee
+Author-email: juney.lee@arch.ethz.ch
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# compas-PGS
+
+Polyhedral 3D graphic statics based on compas_3gs
+
+
