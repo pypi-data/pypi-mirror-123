@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "qai"
+version = "6.0.0rc4"
+description = "Helper functions and classes for interacting with the rest of the Writer platform"
+authors = ["Sam Havens <sam.havens@writer.com>"]
+readme = "README.md"
+license = "proprietary"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sanic = "^21.3.4"
+# requests should be in a [testing] extras, but for now ok
+# once testing is heavyweight, make extra
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+spacy = "2.3.2"
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz#egg=en_core_web_sm==2.3.1" }
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+    "ignore::ImportWarning"
+]
+testpaths = "tests"
+norecursedirs = ".git dist .venv"
