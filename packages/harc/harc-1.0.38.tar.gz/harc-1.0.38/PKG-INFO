@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: harc
+Version: 1.0.38
+Summary: Harc equals Hit And Release Code using cloud providers
+Home-page: https://github.com/janripke/harc.git
+Author: Jan Ripke
+Author-email: janripke@gmail.com
+Maintainer: Jan Ripke
+Maintainer-email: janripke@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,3 @@
+[console_scripts]
+harc = harc.harc_cli:main
+
