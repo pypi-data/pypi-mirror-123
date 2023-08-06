@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/python_ci_cd_sample/__init__.py
+src/python_ci_cd_sample/log.py
+src/python_ci_cd_sample/reader.py
+src/python_ci_cd_sample.egg-info/PKG-INFO
+src/python_ci_cd_sample.egg-info/SOURCES.txt
+src/python_ci_cd_sample.egg-info/dependency_links.txt
+src/python_ci_cd_sample.egg-info/not-zip-safe
+src/python_ci_cd_sample.egg-info/requires.txt
+src/python_ci_cd_sample.egg-info/top_level.txt
