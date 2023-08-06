@@ -1,0 +1,4 @@
+jinja2
+fire
+wpkit2
+wheel
