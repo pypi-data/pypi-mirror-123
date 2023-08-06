@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: psipher
+Version: 0.0.1
+Summary: Encryption and Decryption of given input data
+Home-page: UNKNOWN
+Author: Adeesh Unnikrishnan
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## Psipher
+
+Psipher is an encryption or decryption tool based on caesar cipher methodology.
+
+# Installation
+pip install psipher
+## Tool Usage
+from psipher import Encrypt,Decrypt
+
+Encrypt("Enter text")
+Decrypt("Enter text")
+
