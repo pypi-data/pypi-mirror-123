@@ -1,0 +1,10 @@
+label_maker_dask/__init__.py,sha256=4HuWyllUZwTVENloO2Sy8M5PDVk-Z8DddO35yqwpzl0,69
+label_maker_dask/filter.py,sha256=uAz9L3XsvwvRIQM3-pKA4IQy8kx9bhUJyaf3qC1v5js,3204
+label_maker_dask/label.py,sha256=biNl8e7frK8vxnk2hzhDQ_ht6t7HvAXUhhA0MMypDaE,4428
+label_maker_dask/main.py,sha256=pnJHkaCds81P2GFMy0S2ii4l2EXTOXqIg0FCSPHV_q8,3144
+label_maker_dask/result.py,sha256=uNEEQa3dVxBGo89BUITUthLHFNiCJHJXU1Lpul0cXGY,4365
+label_maker_dask/utils.py,sha256=DMKBfo1RiqDPPMXF52fxnIcdBeg9vKn32By1B2Pf1uk,4128
+label_maker_dask-0.1.1.dist-info/METADATA,sha256=lRUGHwgmWSshf6C4w4ci_Zz8ti88l9gsqnhpwBqnSrE,1910
+label_maker_dask-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+label_maker_dask-0.1.1.dist-info/top_level.txt,sha256=2FaBUFijd9inTBulAefNq5at1jqmM64lkghVxeIKH5Q,17
+label_maker_dask-0.1.1.dist-info/RECORD,,
