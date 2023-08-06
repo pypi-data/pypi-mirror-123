@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: balladeer
+Version: 0.4.0
+Summary: Web-enabled interactive fiction in Python.
+Home-page: https://github.com/tundish/balladeer
+Author: D E Haynes
+Author-email: tundish@gigeconomy.org.uk
+License: UNKNOWN
+Description: Balladeer
+        :::::::::
+        
+        This is a Python package for creating web-enabled interactive fiction.
+        
+        Documentation
+        +++++++++++++
+        
+        Documentation is included in the package. You can find both plain text and HTML::
+        
+            pip download balladeer
+        
+        If you'd rather browse online, you can do so `here
+        <https://balladeer.readthedocs.io/en/latest/index.html>`_.
+        
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
