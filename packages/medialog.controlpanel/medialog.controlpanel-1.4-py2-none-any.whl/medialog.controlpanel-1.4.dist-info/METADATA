@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: medialog.controlpanel
+Version: 1.4
+Summary: A pluggable control panel.
+Home-page: https://github.com/espenmn/medialog.controlpanel
+Author: Espen Moe-Nilssen
+Author-email: espen@medialog.no
+License: GPL
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Requires-Dist: plone.app.registry
+
+Please read README and History for full info
+
+

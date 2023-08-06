@@ -1,0 +1,17 @@
+medialog.controlpanel-1.4-py2.7-nspkg.pth,sha256=Oi_SthxWAL06BOh6R4GilLNhsHHHtQAwyGxKp92RdWo,549
+medialog/.DS_Store,sha256=G-7sifMZphyc8N_vdh92qMhZD1gIGGn1jaG-WoijjuQ,8196
+medialog/controlpanel/__init__.py,sha256=rBJcU-QMStFZM19my38shCpJtdGBY2xPzPKZCX7V11E,119
+medialog/controlpanel/configure.zcml,sha256=gdXaIec46T7PrvjWn2vBtNY2aj4rYipliY8RyxjLTrU,1238
+medialog/controlpanel/controlpanel.py,sha256=H6VOD_PHqhOaMZ8yK17v8u7WXByWOC-C4jSjbwPIhSc,2773
+medialog/controlpanel/interfaces.py,sha256=F3LZ6HQGmsL8i23ZRzhwsJ0nMkwTQZkEefiA-rNqYAs,560
+medialog/controlpanel/my_controlpanel_icon.png,sha256=j21EKSbsh1nk71xUrd4FWD3XgxOHhKnEfPu6YDyl57A,692
+medialog/controlpanel/tests.py,sha256=HtJyTcteEcM_Chkcwz2EGstovWc9m1AsLjF0tsTCZgg,1431
+medialog/controlpanel/profiles/default/controlpanel.xml,sha256=WcC7z56FQ-CmHbtP2QCromHPNnwGw7z9wbXhqX2gSqY,556
+medialog/controlpanel/profiles/default/metadata.xml,sha256=pYPZKvOp_JVQGH4RfbKVMDT015R8Gwfm9ias0dTk7Gw,167
+medialog/controlpanel/profiles/default/registry.xml,sha256=tT4haj1keBwQJ9ApRzOLQlvroAuN_0sfSwwg5vo_LGU,147
+medialog.controlpanel-1.4.dist-info/METADATA,sha256=68j2lJOy9-Vj8QSVG3CpjNj25JR7DrUeAR1FX6C0Mzw,404
+medialog.controlpanel-1.4.dist-info/RECORD,,
+medialog.controlpanel-1.4.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+medialog.controlpanel-1.4.dist-info/entry_points.txt,sha256=YUAwlEY6kPJ-aAYeqiyde03a-yf9cs9HctlUrUuvFKM,90
+medialog.controlpanel-1.4.dist-info/namespace_packages.txt,sha256=43ev7MPE-WspTd2Lftsm7Cg_k1_HrCTflv_MWMOatnI,9
+medialog.controlpanel-1.4.dist-info/top_level.txt,sha256=43ev7MPE-WspTd2Lftsm7Cg_k1_HrCTflv_MWMOatnI,9
