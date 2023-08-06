@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: volttron-client
+Version: 0.3.4
+Summary: Client for connecting to a volttron server
+License: Apache 2.0
+Author: C. Allwardt
+Author-email: craig.allwardt@pnnl.gov
+Requires-Python: >=3.6.2,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dateutils (>=0.6,<0.7)
+Requires-Dist: grequests (>=0.6.0,<0.7.0)
+Requires-Dist: idna (>=2.5,<3)
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: volttron-utils (>=0.3,<0.4)

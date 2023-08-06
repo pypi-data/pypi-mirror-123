@@ -1,0 +1,4 @@
+[console_scripts]
+vctl=volttron.commands.control:main
+volttron-ctl=volttron.commands.control:main
+
