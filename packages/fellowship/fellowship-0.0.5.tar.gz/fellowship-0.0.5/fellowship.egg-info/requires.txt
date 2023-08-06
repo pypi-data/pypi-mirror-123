@@ -1,0 +1,7 @@
+Jinja2
+attrs
+genson
+jsonschema
+pyyaml
+requests
+rfc3987
