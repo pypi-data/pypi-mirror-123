@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-product-variant
+Version: 12.0.20211016.0
+Summary: Meta package for oca-product-variant Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-product-variant-configurator
+Requires-Dist: odoo12-addon-product-variant-default-code
+Requires-Dist: odoo12-addon-product-variant-sale-price
+Requires-Dist: odoo12-addon-purchase-order-variant-mgmt
+Requires-Dist: odoo12-addon-sale-order-variant-mgmt
+
+UNKNOWN
+
