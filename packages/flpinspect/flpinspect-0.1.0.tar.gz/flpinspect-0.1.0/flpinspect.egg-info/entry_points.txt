@@ -1,0 +1,3 @@
+[gui_scripts]
+flpinspect = flpinspect.__main__:main
+

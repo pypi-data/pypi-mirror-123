@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: flpinspect
+Version: 0.1.0
+Summary: A GUI tool to inspect the structure of an FLP
+Home-page: https://github.com/demberto/FLPInspect
+Author: demberto
+Author-email: demberto@protonmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/demberto/FLPInspect
+Project-URL: Documentation, https://flpinspect.rtfd.io
+Project-URL: Changelog, https://github.com/demberto/FLPInspect/blob/master/CHANGELOG.md
+Project-URL: Bug Tracker, https://github.com/demberto/FLPInspect/issues
+Project-URL: TODO, https://github.com/demberto/FLPInspect/blob/master/TODO.md
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: COPYING
+
+# FLPInspect
+
+> A GUI tool to inspect and modify an FLP.
+
+**FLPInspect**, is a GUI tool to inspect the internal event structure which is abstracted by [PyFLP](https://github.com/demberto/PyFLP).
+You can read and edit FLP files.
+
+![Event View](docs/img/event_view.png)
+
+## Installation
+
+FLPInspect require Python 3.6+
+
+- Via `pip` [**Recommended**]:
+  ```
+  pip install --upgrade flpinspect
+  ```
+
+- **OR**, via [releases](https://github.com/demberto/FLPInspect/releases)
+  - Install required dependencies:
+    ```
+    pip install -rrequirements.txt
+    ```
+
+### Note for Mac users
+
+_Although FLPInspect is cross-platform, Tkinter has some issues with Mac, I don't have a Mac to test myself. **The bugs will only be minor UI bugs at most.**_
+
+## [Documentation](https://demberto.github.io/FLPInspect)
+
+### [Project Goals & Issues](TODO.md)
+
+## License
+
+**FLPInspect** is licensed under the [GNU Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+
