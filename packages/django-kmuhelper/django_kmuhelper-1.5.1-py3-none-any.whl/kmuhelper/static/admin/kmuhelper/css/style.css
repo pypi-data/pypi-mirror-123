@@ -1,0 +1,135 @@
+@import "colors-kmuhelper.css";
+
+:root {
+    --primary: var(--kmuhelper-default);
+    --secondary: var(--kmuhelper-darkest);
+    --link-fg: var(--kmuhelper-dark);
+    --link-selected-fg: var(--kmuhelper-light);
+}
+
+/* Optimize for more messages */
+
+ul.messagelist li:not(:last-child) {
+    margin-bottom: 2px;
+}
+
+/* Additional app index style */
+
+#pagelist {
+    padding-left: 16px;
+}
+
+#pagelist li i {
+    width: 25px;
+    text-align: center;
+}
+
+#pagelist-container,
+#pageinfo {
+    padding: 0 10px;
+}
+
+/* Fix overlapping object-tools buttons */
+
+@media (min-width: 768px) {
+    .change-form #content-main {
+        margin-top: 50px;
+    }
+
+    .change-form .object-tools li {
+        margin-bottom: 10px;
+    }
+}
+
+.change-form .object-tools li {
+    margin-left: 5px;
+}
+
+/* Dropdowns in object tools */
+
+.object-tools .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.object-tools .dropdown div {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.object-tools .dropdown:hover div,
+.object-tools .dropdown:active div {
+    display: block;
+}
+
+.object-tools .dropdown div a, 
+.object-tools .dropdown div b {
+    width: calc(100% - 24px);
+    display: block;
+    padding: 6px 12px;
+    background: none;
+    border-radius: 0;
+    color: black;
+}
+
+.object-tools .dropdown div a:not(.disabled):hover {
+    background-color: #d3d3d3;
+}
+
+.object-tools .dropdown div > a:first-child,
+.object-tools .dropdown div > abbr:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.object-tools .dropdown div > a:last-child,
+.object-tools .dropdown div > abbr:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.object-tools .dropdown div a.disabled {
+    color: grey;
+}
+
+.object-tools .dropdown div a.disabled:hover {
+    background-color: none !important;
+}
+
+.object-tools .dropdown div hr {
+    color: lightgray;
+    background-color: lightgray;
+}
+/* 
+.object-tools .dropdown > a {
+    padding: 3px 18px 3px 12px;
+    background-image: url(../../img/selector-icons.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -160px;
+} */
+
+/* Additional buttons in submit row */
+
+.submit-row a.button {
+    text-decoration: none;
+    padding: 10px 15px;
+    width: auto;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Object tools overflow */
+
+.object-tools {
+    overflow-y: visible !important;
+}
