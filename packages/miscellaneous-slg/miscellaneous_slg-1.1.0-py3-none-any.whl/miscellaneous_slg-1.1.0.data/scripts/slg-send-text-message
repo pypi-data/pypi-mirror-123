@@ -1,0 +1,90 @@
+#!python
+import aiosmtplib
+from typing import Tuple, Union
+from email.message import EmailMessage
+import re
+import asyncio
+import subprocess
+import os
+import argparse
+
+HOST = "smtp.gmail.com"
+
+
+CARRIER_MAP = {
+    "verizon": "vtext.com",
+    "tmobile": "tmomail.net",
+    "sprint": "messaging.sprintpcs.com",
+    "at&t": "txt.att.net",
+    "boost": "smsmyboostmobile.com",
+    "cricket": "sms.cricketwireless.net",
+    "uscellular": "email.uscc.net",
+}
+
+
+def get_arguments():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        '-e', '--sending_email', default='sgotting21@gmail.com',
+        help='The email to send the text message from')
+
+    parser.add_argument('-p', '--phone_number', default='8139438388',
+                        help='The phone number to send the text to')
+
+    parser.add_argument(
+        '-c', '--phone_carrier', default='at&t',
+        help=f"The phone's carrier. Available options are {', '.join(list(CARRIER_MAP.keys()))}")
+
+    parser.add_argument(
+        '-m', '--message', required=True,
+        help='The message to send to the recipient')
+
+    parser.add_argument('-s', '--subject', default='Automated message',
+                        help='Subject of the text message')
+
+    args = parser.parse_args()
+
+    return args
+
+
+"""Sends TXT message with GMail.
+This is a demonstration on how to send an text message with Python.
+In this example, we use GMail to send the SMS message,
+but any host can work with the correct SMTP settings.
+Each carrier has a unique SMS gateway hostname.
+"""
+
+
+# pylint: disable=too-many-arguments
+async def send_txt(
+    num: Union[str, int], carrier: str, email: str, pword: str, msg: str, subj: str
+) -> Tuple[dict, str]:
+    to_email = CARRIER_MAP[carrier]
+
+    # build message
+    message = EmailMessage()
+    message["From"] = email
+    message["To"] = f"{num}@{to_email}"
+    message["Subject"] = subj
+    message.set_content(msg)
+
+    # send
+    send_kws = dict(username=email, password=pword,
+                    hostname=HOST, port=587, start_tls=True)
+    res = await aiosmtplib.send(message, **send_kws)  # type: ignore
+    msg = "failed" if not re.search(r"\sOK\s", res[1]) else "succeeded"
+    return res
+
+
+if __name__ == "__main__":
+
+    args = get_arguments()
+    asyncio.run(send_txt(
+        args.phone_number,
+        args.phone_carrier,
+        args.sending_email,
+        "xtisfdjmgebslmmw",
+        args.message,
+        args.subject,
+    ))
