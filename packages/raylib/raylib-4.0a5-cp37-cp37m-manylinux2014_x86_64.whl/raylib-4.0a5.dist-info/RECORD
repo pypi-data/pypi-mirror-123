@@ -1,0 +1,17 @@
+pyray/__init__.py,sha256=h2KpWbtsawF3W-7RvF0GWHssZud_nkle1cfTF1g5gys,3259
+raylib/__init__.py,sha256=F7ImdJFinHMMepjKlCQeB9Si9qC09FPvsWYiGioavmE,922
+raylib/__init__.pyi,sha256=UlxQjMQH1l_h7RnD7VW-N3XqRo6HY8UnDEKBpJSO4U8,67747
+raylib/_raylib_cffi.abi3.so,sha256=Tb8xad43WhwACeE6O33PPVkm4QqOHILfpDz27i_1NeY,3882984
+raylib/build.py,sha256=_U6BaBP4EcIq7IWvyjHJBnhBKpEfwDMs-C8cbjl-K7g,5916
+raylib/colors.py,sha256=cH70nGf_i3ddO8kKV79tZJPhRylrH9qAVtTZgsg_pcM,1521
+raylib/physac.h,sha256=r2pFYk-iSJUcWkueAeLtb3voP1mz_2v3dhamAjk1RnM,81301
+raylib/physac_modified.h,sha256=DVHkbm6JFlgxUqArqTQJxy6nN1sdNiQC8_UwK0VYT7A,7386
+raylib/raygui.h,sha256=-ZXT6DkLlGngdQm_NjZDxBC2sMOvwA_2_IkZ-I4aVQ8,206528
+raylib/raygui_modified.h,sha256=PEM43jhEFlz3ml2LYFy1Y6mKb2yOEmEr58MhWkL-QF4,11086
+raylib/raylib.h,sha256=-eMjXYEh7Eegu30WQ7LdQI57QB1tOxM457MGnTjItoE,112364
+raylib/version.py,sha256=IneSz-i5W3wKhByh777XaDbvRTCHWBai8Ah-U5IIHK4,21
+raylib-4.0a5.dist-info/LICENSE,sha256=C-zxZWe-t3-iUrdmRjHdF3yPmhiJ5ImVtFN5xxMOUwM,14198
+raylib-4.0a5.dist-info/METADATA,sha256=pEOXPDmicQO-2o0M9sFnAOtxO0p3HWc_JFa6VcomGBY,4652
+raylib-4.0a5.dist-info/WHEEL,sha256=UAP4HDl5AlazguXYPnu_4lEqJvZ6RTu-G5WsivwA-NY,112
+raylib-4.0a5.dist-info/top_level.txt,sha256=PnMBDWaUP4jsbn_NewagcC9FjHYpzSAIQuhxNzt9hkg,13
+raylib-4.0a5.dist-info/RECORD,,
