@@ -1,0 +1,10 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+polytope/__init__.py
+polytope/version.py
+polytope_client.egg-info/PKG-INFO
+polytope_client.egg-info/SOURCES.txt
+polytope_client.egg-info/dependency_links.txt
+polytope_client.egg-info/not-zip-safe
+polytope_client.egg-info/top_level.txt
