@@ -1,0 +1,3 @@
+[console_scripts]
+tippie = src:type_hint
+
