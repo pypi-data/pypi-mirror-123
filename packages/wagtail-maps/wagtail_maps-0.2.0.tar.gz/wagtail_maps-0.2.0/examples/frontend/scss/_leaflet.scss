@@ -1,0 +1,681 @@
+// ----------------------------------------------------------------------------
+// Leaflet
+// ----------------------------------------------------------------------------
+// see: https://github.com/Leaflet/Leaflet/blob/master/dist/leaflet.css
+
+// stylelint-disable selector-no-qualifying-type
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leaflet-container {
+  overflow: hidden;
+  background: $light;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+
+  a {
+    -webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+
+    &.leaflet-active {
+      outline: 2px solid $primary;
+    }
+  }
+}
+
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  user-select: none;
+}
+
+// Default icon URLs, used by Leaflet to guess options.imagePath and
+// optionally by Webpack to distribute those images
+.leaflet-default-icon-path {
+  background-image: url('leaflet/dist/images/marker-icon.png');
+}
+.leaflet-default-icon-path-2x {
+  background-image: url('leaflet/dist/images/marker-icon-2x.png');
+}
+.leaflet-default-icon-path-shadow {
+  background-image: url('leaflet/dist/images/marker-shadow.png');
+}
+
+// Prevents IE11 from highlighting tiles in blue
+.leaflet-tile::selection {
+  background: transparent;
+}
+
+// Safari renders non-retina tile on retina better with this, but Chrome is worse
+.leaflet-safari .leaflet-tile {
+  image-rendering: -webkit-optimize-contrast; // stylelint-disable-line value-no-vendor-prefix
+}
+
+// Hack that prevents hw layers "stretching" when loading new tiles
+.leaflet-safari .leaflet-tile-container {
+  width: 1600px;
+  height: 1600px;
+  -webkit-transform-origin: 0 0; // stylelint-disable-line property-no-vendor-prefix
+}
+
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  display: block;
+}
+
+// .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x
+// .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles
+.leaflet-container .leaflet-overlay-pane svg,
+.leaflet-container .leaflet-marker-pane img,
+.leaflet-container .leaflet-shadow-pane img,
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container img.leaflet-image-layer,
+.leaflet-container .leaflet-tile {
+  max-width: none !important; // stylelint-disable-line declaration-no-important
+  max-height: none !important; // stylelint-disable-line declaration-no-important
+}
+
+.leaflet-container.leaflet-touch-zoom {
+  touch-action: pan-x pan-y;
+}
+.leaflet-container.leaflet-touch-drag {
+  // Fallback for FF which doesn't support pinch-zoom
+  touch-action: none;
+  touch-action: pinch-zoom;
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  touch-action: none;
+}
+
+.leaflet-tile {
+  visibility: hidden;
+  filter: inherit;
+}
+.leaflet-tile-loaded {
+  visibility: inherit;
+}
+
+// Workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=888319
+.leaflet-overlay-pane svg {
+  -moz-user-select: none; // stylelint-disable-line property-no-vendor-prefix
+}
+
+.leaflet-pane {
+  z-index: 400;
+}
+
+.leaflet-tile-pane {
+  z-index: 200;
+}
+.leaflet-overlay-pane {
+  z-index: 400;
+}
+.leaflet-shadow-pane {
+  z-index: 500;
+}
+.leaflet-marker-pane {
+  z-index: 600;
+}
+.leaflet-tooltip-pane {
+  z-index: 650;
+}
+.leaflet-popup-pane {
+  z-index: 700;
+}
+
+.leaflet-map-pane canvas {
+  z-index: 100;
+}
+.leaflet-map-pane svg {
+  z-index: 200;
+}
+
+.leaflet-vml-shape {
+  width: 1px;
+  height: 1px;
+}
+.lvml {
+  behavior: url('#default#VML');
+  position: absolute;
+  display: inline-block;
+}
+
+//
+// Control positioning
+//
+
+.leaflet-control {
+  position: relative;
+  z-index: 800;
+  float: left;
+  clear: both;
+  pointer-events: visiblePainted; // IE 9-10 doesn't have auto
+  pointer-events: auto;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  position: absolute;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.leaflet-top {
+  top: 0;
+}
+.leaflet-right {
+  right: 0;
+}
+.leaflet-bottom {
+  bottom: 0;
+}
+.leaflet-left {
+  left: 0;
+}
+
+.leaflet-right .leaflet-control {
+  float: right;
+  margin-right: 10px;
+}
+.leaflet-top .leaflet-control {
+  margin-top: 10px;
+}
+.leaflet-bottom .leaflet-control {
+  margin-bottom: 10px;
+}
+.leaflet-left .leaflet-control {
+  margin-left: 10px;
+}
+
+//
+// Zoom and fade animations
+//
+
+.leaflet-fade-anim .leaflet-tile {
+  will-change: opacity;
+}
+.leaflet-fade-anim .leaflet-popup {
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+  opacity: 1;
+}
+.leaflet-zoom-animated {
+  transform-origin: 0 0;
+}
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  will-change: transform;
+  transition: transform 0.25s cubic-bezier(0, 0, 0.25, 1);
+}
+.leaflet-zoom-anim .leaflet-tile,
+.leaflet-pan-anim .leaflet-tile {
+  transition: none;
+}
+
+.leaflet-zoom-anim .leaflet-zoom-hide {
+  visibility: hidden;
+}
+
+//
+// Cursors
+//
+
+.leaflet-interactive {
+  cursor: pointer;
+}
+
+.leaflet-grab {
+  cursor: grab;
+}
+
+.leaflet-crosshair,
+.leaflet-crosshair .leaflet-interactive {
+  cursor: crosshair;
+}
+
+.leaflet-popup-pane,
+.leaflet-control {
+  cursor: auto;
+}
+
+.leaflet-dragging .leaflet-grab,
+.leaflet-dragging .leaflet-grab .leaflet-interactive,
+.leaflet-dragging .leaflet-marker-draggable {
+  cursor: move;
+  cursor: grabbing;
+}
+
+//
+// Marker & overlays interactivity
+//
+
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-image-layer,
+.leaflet-pane > svg path,
+.leaflet-tile-container {
+  pointer-events: none;
+}
+
+.leaflet-marker-icon.leaflet-interactive,
+.leaflet-image-layer.leaflet-interactive,
+.leaflet-pane > svg path.leaflet-interactive,
+svg.leaflet-image-layer.leaflet-interactive path {
+  pointer-events: visiblePainted; // IE 9-10 doesn't have auto
+  pointer-events: auto;
+}
+
+//
+// Visual tweaks
+//
+
+.leaflet-zoom-box {
+  z-index: 800;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  background: rgba($white, 0.5);
+  border: 2px dotted $primary;
+}
+
+//
+// General toolbar styles
+//
+
+.leaflet-control-layers,
+.leaflet-bar {
+  background-color: $white;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+.leaflet-bar a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  color: $black;
+  text-align: center;
+  text-decoration: none;
+  background-color: $white;
+  border-bottom: 1px solid $gray;
+
+  &:hover {
+    background-color: rgba($black, 0.05);
+  }
+
+  &.leaflet-disabled {
+    cursor: default;
+    background-color: $light;
+    opacity: 0.25;
+  }
+
+  &:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  &:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+}
+
+.leaflet-bar a,
+.leaflet-control-layers-toggle {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.leaflet-touch {
+  .leaflet-control-layers,
+  .leaflet-bar {
+    background-clip: padding-box;
+    border: 2px solid rgba($black, 0.2);
+  }
+
+  .leaflet-bar a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+
+    &:first-child {
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 2px;
+      border-bottom-left-radius: 2px;
+    }
+  }
+}
+
+//
+// Zoom control
+//
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  background-repeat: no-repeat;
+  background-size: 22px;
+}
+.leaflet-control-zoom-in {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+}
+.leaflet-control-zoom-out {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+}
+
+//
+// Layers control
+//
+
+.leaflet-control-layers-toggle {
+  width: 36px;
+  height: 36px;
+  background-image: url('leaflet/dist/images/layers.png');
+}
+.leaflet-retina .leaflet-control-layers-toggle {
+  background-image: url('leaflet/dist/images/layers-2x.png');
+  background-size: 26px 26px;
+}
+.leaflet-touch .leaflet-control-layers-toggle {
+  width: 44px;
+  height: 44px;
+}
+
+.leaflet-control-layers .leaflet-control-layers-list,
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+  display: none;
+}
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+  position: relative;
+  display: block;
+}
+
+.leaflet-control-layers-expanded {
+  padding: 6px 10px 6px 6px;
+}
+
+.leaflet-control-layers-scrollbar {
+  padding-right: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.leaflet-control-layers-selector {
+  position: relative;
+  top: 1px;
+  margin-top: 2px;
+}
+
+.leaflet-control-layers label {
+  display: block;
+}
+
+.leaflet-control-layers-separator {
+  height: 0;
+  margin: 5px -10px 5px -6px;
+  border-top: 1px solid $gray;
+}
+
+//
+// Attribution and scale controls
+//
+
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+  padding: 0 5px;
+  color: $dark;
+  background: rgba($white, 0.85);
+}
+
+.leaflet-container .leaflet-control-attribution,
+.leaflet-container .leaflet-control-scale {
+  font-size: 0.75rem;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  margin: 0;
+}
+
+.leaflet-left .leaflet-control-scale {
+  margin-left: 5px;
+}
+.leaflet-bottom .leaflet-control-scale {
+  margin-bottom: 5px;
+}
+
+.leaflet-control-scale-line {
+  box-sizing: border-box;
+  padding: 2px 5px 1px;
+  overflow: hidden;
+  line-height: 1.1;
+  white-space: nowrap;
+  border: 2px solid $dark;
+  border-top: none;
+
+  &:not(:first-child) {
+    margin-top: -2px;
+    border-top: 2px solid $dark;
+    border-bottom: none;
+
+    &:not(:last-child) {
+      border-bottom: 2px solid $dark;
+    }
+  }
+}
+
+.leaflet-touch .leaflet-control-attribution,
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+  box-shadow: none;
+}
+
+//
+// Popup
+//
+
+.leaflet-popup {
+  @include font-size($popover-font-size);
+  @include border-radius($popover-border-radius);
+
+  position: absolute;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  background-color: $popover-bg;
+  background-clip: padding-box;
+  border: $popover-border-width solid $popover-border-color;
+  box-shadow: $popover-box-shadow;
+}
+
+.leaflet-popup-tip-container {
+  position: absolute;
+  bottom: subtract(-$popover-arrow-height, $popover-border-width);
+  left: calc(50% - #{$popover-arrow-width * 0.5});
+  display: block;
+  width: $popover-arrow-width;
+  height: $popover-arrow-height;
+}
+
+.leaflet-popup-tip {
+  &::before,
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    border-color: transparent;
+    border-style: solid;
+  }
+
+  &::before {
+    bottom: 0;
+    border-width: $popover-arrow-height ($popover-arrow-width * 0.5) 0;
+    border-top-color: $popover-arrow-outer-color;
+  }
+
+  &::after {
+    bottom: $popover-border-width;
+    border-width: $popover-arrow-height ($popover-arrow-width * 0.5) 0;
+    border-top-color: $popover-arrow-color;
+  }
+}
+
+.leaflet-popup-header {
+  @include font-size($font-size-base);
+  @include border-top-radius($popover-inner-border-radius);
+
+  display: flex;
+  align-items: center;
+  padding: $popover-header-padding-y $popover-header-padding-x;
+  margin-bottom: 0;
+  color: $popover-header-color;
+  background-color: $popover-header-bg;
+  border-bottom: $popover-border-width solid $popover-border-color;
+
+  &:empty {
+    display: none;
+  }
+
+  &:last-child {
+    @include border-bottom-radius($popover-inner-border-radius);
+
+    border-bottom: 0;
+  }
+
+  .btn-close {
+    margin-right: -($popover-header-padding-x * 0.5);
+    margin-left: 0.75rem;
+    background-size: 0.75em;
+  }
+}
+
+.leaflet-popup-body {
+  padding: $popover-body-padding-y $popover-body-padding-x;
+  color: $popover-body-color;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.leaflet-popup-scrolled {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  > .leaflet-popup-body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+
+    > :last-child {
+      margin-bottom: $popover-body-padding-y;
+    }
+  }
+}
+
+//
+// Tooltip
+//
+
+.leaflet-tooltip {
+  @include font-size($popover-font-size);
+  @include border-radius($popover-border-radius);
+
+  position: absolute;
+  padding: $popover-header-padding-y $popover-header-padding-x;
+  color: $popover-body-color;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  background-color: $popover-bg;
+  background-clip: padding-box;
+  border: $popover-border-width solid $popover-border-color;
+  box-shadow: $popover-box-shadow;
+
+  &.leaflet-clickable {
+    pointer-events: auto;
+    cursor: pointer;
+  }
+}
+
+// Tooltip direction
+//
+// FIXME: The tooltip's position is buggy if direction is set. Thus, the arrow
+// is only displayed when the direction is automatically calculated to prevent
+// a wrong position (see Tooltip._setPosition).
+
+.leaflet-tooltip-top {
+  margin-top: -0.5rem;
+}
+.leaflet-tooltip-bottom {
+  margin-top: 1.25rem;
+}
+
+.leaflet-tooltip-left,
+.leaflet-tooltip-right {
+  &::before,
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    border-color: transparent;
+    border-style: solid;
+  }
+}
+
+.leaflet-tooltip-right {
+  margin-left: $popover-arrow-height;
+
+  &::before,
+  &::after {
+    top: subtract(50%, $popover-arrow-width * 0.5);
+    border-width: ($popover-arrow-width * 0.5) $popover-arrow-height
+      ($popover-arrow-width * 0.5) 0;
+  }
+
+  &::before {
+    left: -$popover-arrow-height;
+    border-right-color: $popover-arrow-outer-color;
+  }
+
+  &::after {
+    left: subtract($popover-border-width, $popover-arrow-height);
+    border-right-color: $popover-arrow-color;
+  }
+}
+
+.leaflet-tooltip-left {
+  margin-left: -$popover-arrow-height;
+
+  &::before,
+  &::after {
+    top: subtract(50%, $popover-arrow-width * 0.5);
+    border-width: ($popover-arrow-width * 0.5) 0 ($popover-arrow-width * 0.5)
+      $popover-arrow-height;
+  }
+
+  &::before {
+    right: -$popover-arrow-height;
+    border-left-color: $popover-arrow-outer-color;
+  }
+
+  &::after {
+    right: subtract($popover-border-width, $popover-arrow-height);
+    border-left-color: $popover-arrow-color;
+  }
+}
