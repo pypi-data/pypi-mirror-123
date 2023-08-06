@@ -1,0 +1,13 @@
+AgroMetEquations/.gitignore,sha256=ouv-zbbBtYJn--l-birALCuWPfdnP8EEcnDw8M_xZzI,1203
+AgroMetEquations/__init__.py,sha256=WOAfs42MEDSKSXHW0dUAcRn0x-9v9yfIA84JhOX4pds,2756
+AgroMetEquations/_check.py,sha256=5Iq7ExjCSlMIYfw69rMtmGAfFBfbPWIQvhnWpeKzEak,1874
+AgroMetEquations/convert.py,sha256=HfriL8i8ozmX_3iTJtMCPsPtMysEq4eoF1M7hWa0oFo,1711
+AgroMetEquations/docs/Evapotranspiration_Equation.pdf,sha256=2lqVbvePQNCrJXDsbsZOPDpiyDLl5OzxEVkBoR4gDtA,307258
+AgroMetEquations/fao.py,sha256=ENOzInSu9KqJZFkSnVZAmEJT3lXVlGAwY9A8ClwYlks,33003
+AgroMetEquations/general.py,sha256=prbtWVUKMBJHJP06tNJcZ_yYOJftg5l6mS2VNdZSeBQ,4590
+AgroMetEquations/thornthwaite.py,sha256=0hbLg2GUCQc0pn8ZjlPVE4UOX5R3KCPrbZo_QVGIWAU,4317
+AgroMetEquations/thornthwaite_mather_1955_waterbalance.py,sha256=-XPPLQOZauI8jJh9URfY0hqeJHJoLwPR3ylZ6kusjbo,3492
+agro_met_equations_dynalogic-1.0.2.dist-info/LICENSE,sha256=ZCodexoL6h_O_RirBCoGOnxNqGXXYjeUeuuqrBgQNtM,1517
+agro_met_equations_dynalogic-1.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+agro_met_equations_dynalogic-1.0.2.dist-info/METADATA,sha256=PmCFP4gJKUYh_E8_4bCC460TUlfXhlQLG93zR2Ce_uQ,3953
+agro_met_equations_dynalogic-1.0.2.dist-info/RECORD,,
