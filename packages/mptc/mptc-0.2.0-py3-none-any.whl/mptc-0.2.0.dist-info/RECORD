@@ -1,0 +1,12 @@
+mptc/ColouredStrings.py,sha256=Qi9wuxWNCvy9Hc_74r2LA5s-4ofb15_qUB0U8JV7B3A,22914
+mptc/__init__.py,sha256=tfL3v3PHBVoI097-gdMQzp26jQMbeSCfy3nA2tT65SM,6651
+mptc/cleanup.py,sha256=S1B50Sx7w0fl2r72y5Ui2ltx5b0DohCnyYWk5C8TAao,3807
+mptc/mptc.py,sha256=hU9h0v6tlaR2Ke2wvZrriR6xTVr0faNfp7g1aVkrBGE,6123
+mptc/newfile.py,sha256=t5fW6pbH3kTU3Qztb6bCoEaOxiccM5uskEUG5iF0oo8,85
+mptc/simplelog.py,sha256=esjKcWcjpltaKC-2Wdl6i5N_3wFzFf1E7Z20A25B25A,1645
+mptc/templates.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mptc-0.2.0.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+mptc-0.2.0.dist-info/METADATA,sha256=oW5jAUP9aT-T9nenFue8dI0GjHqbUoGlSYugxgAXMVI,2137
+mptc-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mptc-0.2.0.dist-info/top_level.txt,sha256=4T0cSWg1NJ4AydxzGXgG3cMCeVGtO56Y5jduUSvkPko,5
+mptc-0.2.0.dist-info/RECORD,,
