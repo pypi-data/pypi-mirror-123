@@ -1,0 +1,7 @@
+twisted
+autobahn
+beautifulsoup4
+selenium
+matplotlib
+PyQt5
+numpy

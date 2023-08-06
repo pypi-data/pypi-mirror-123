@@ -1,0 +1,12 @@
+README.md
+license.txt
+setup.py
+pypdbot/__init__.py
+pypdbot/pumpdumppyqtlite.py
+pypdbot/pypdbot.py
+pypdbot.egg-info/PKG-INFO
+pypdbot.egg-info/SOURCES.txt
+pypdbot.egg-info/dependency_links.txt
+pypdbot.egg-info/entry_points.txt
+pypdbot.egg-info/requires.txt
+pypdbot.egg-info/top_level.txt

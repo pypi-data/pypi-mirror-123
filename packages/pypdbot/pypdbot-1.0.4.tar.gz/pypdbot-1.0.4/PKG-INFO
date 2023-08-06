@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pypdbot
+Version: 1.0.4
+Summary: GUI routine for binance based automated bot
+Home-page: https://github.com/ravipurohit1991/pypdbot
+Author: Ravi raj purohit PURUSHOTTAM RAJ PUROHIT
+Author-email: purushot@esrf.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+A simple python based binance bot
+
