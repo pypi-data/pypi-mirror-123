@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lk-qtquick-scaffold
+Version: 1.0.0
+Summary: A flexible toolset for improving QML coding experience in PySide6 development.
+License: MIT
+Author: Likianta
+Author-email: likianta@foxmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: lk-lambdex
+Requires-Dist: lk-logger
+Requires-Dist: lk-utils
+Requires-Dist: pyside6
