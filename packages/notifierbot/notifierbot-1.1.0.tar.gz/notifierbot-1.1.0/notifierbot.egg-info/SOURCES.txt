@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+notifierbot/__init__.py
+notifierbot/telegram_bot.py
+notifierbot.egg-info/PKG-INFO
+notifierbot.egg-info/SOURCES.txt
+notifierbot.egg-info/dependency_links.txt
+notifierbot.egg-info/requires.txt
+notifierbot.egg-info/top_level.txt
