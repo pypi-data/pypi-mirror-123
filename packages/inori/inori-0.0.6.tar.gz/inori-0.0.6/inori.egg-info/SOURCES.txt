@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+inori/__init__.py
+inori/client.py
+inori/route.py
+inori.egg-info/PKG-INFO
+inori.egg-info/SOURCES.txt
+inori.egg-info/dependency_links.txt
+inori.egg-info/requires.txt
+inori.egg-info/top_level.txt
+inori/utils/__init__.py
+inori/utils/headerdict.py
+inori/utils/safe_keyword.py
+inori/utils/string_template.py
