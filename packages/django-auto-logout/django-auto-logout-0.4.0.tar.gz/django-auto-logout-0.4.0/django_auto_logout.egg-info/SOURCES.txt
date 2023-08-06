@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_auto_logout/__init__.py
+django_auto_logout/middleware.py
+django_auto_logout.egg-info/PKG-INFO
+django_auto_logout.egg-info/SOURCES.txt
+django_auto_logout.egg-info/dependency_links.txt
+django_auto_logout.egg-info/top_level.txt
