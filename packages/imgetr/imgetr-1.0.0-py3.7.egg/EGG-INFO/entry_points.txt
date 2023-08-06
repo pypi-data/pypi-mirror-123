@@ -1,0 +1,3 @@
+[console_scripts]
+imgetr = imgetr.imgetr:main
+

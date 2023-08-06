@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+imgetr/__init__.py
+imgetr/imgetr.py
+imgetr.egg-info/PKG-INFO
+imgetr.egg-info/SOURCES.txt
+imgetr.egg-info/dependency_links.txt
+imgetr.egg-info/entry_points.txt
+imgetr.egg-info/not-zip-safe
+imgetr.egg-info/requires.txt
+imgetr.egg-info/top_level.txt
