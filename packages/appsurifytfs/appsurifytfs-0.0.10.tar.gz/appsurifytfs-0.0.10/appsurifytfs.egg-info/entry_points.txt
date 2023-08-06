@@ -1,0 +1,3 @@
+[console_scripts]
+appsurifytfs = appsurifytfs.appsurifytfs:appsurifytfs
+

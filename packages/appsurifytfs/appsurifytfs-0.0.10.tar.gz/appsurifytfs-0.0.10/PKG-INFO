@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: appsurifytfs
+Version: 0.0.10
+Summary: Package used to integrate Appsurify with TFS
+Home-page: https://appsurify.com
+Author: James Farrier
+Author-email: jamesfarrier@appsurify.com
+License: MIT
+Description: # Appsurify TFS Script
+        
+        
+        Change Log
+        ==========
+        0.0.1 (07/02/2021)
+        -------------------
+        - First Release
+        
+Keywords: appsurify
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
