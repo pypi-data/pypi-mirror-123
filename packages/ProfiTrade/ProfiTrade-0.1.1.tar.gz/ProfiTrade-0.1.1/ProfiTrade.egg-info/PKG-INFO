@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ProfiTrade
+Version: 0.1.1
+Summary: A proprietary open source fintech python package with a plethora of features for building equity and cryptocurrency trading algorithms.
+Home-page: https://github.com/harrisiva/ProfiTrade-Package
+Author: Harriharan Sivakumar
+Author-email: <harrishiv6@gmail.com>
+License: UNKNOWN
+Keywords: python,trading,stock,crypto,profiTrade,profit trade
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+
+Please visit the github for a longer disc.
+
