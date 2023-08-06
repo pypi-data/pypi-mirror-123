@@ -1,0 +1,97 @@
+{% extends "app.html" %}
+
+{% block app_content %}
+<div class="row">
+  <div class="col-md-12">
+
+<div class="jumbotron">
+<div class="media">
+  <div class="media-body">
+    <h4 class="media-heading">Con·bench</h4>
+     <h4>/kənˈben(t)SH/</h4>
+     <h5><i>noun</i></h5>
+     <h3>Language-independent Continuous Benchmarking (CB) Framework</h3>
+  </div>
+  <div class="media-right">
+     <img class="media-object" style="padding: 5px" src="{{ url_for('static', filename='bar-graph.png') }}" height="150">
+  </div>
+</div>
+</div>
+
+  </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table id="runs" class="table table-striped table-bordered table-hover">
+          <caption>Runs</div>
+          </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Run</th>
+                    {% if has_authors %}
+                    <th scope="col">Author</th>
+                    {% endif %}
+                    <th scope="col">Repository</th>
+                    {% if has_commits %}
+                    <th scope="col">Commit</th>
+                    {% endif %}
+                    <th scope="col">Machine</th>
+                    {% if has_reasons %}
+                    <th scope="col">Reason</th>
+                    {% endif %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for run in runs %}
+                <tr>
+                     <td style="white-space: nowrap;"><a href="{{ url_for('app.run', run_id=run.id) }}">{{ run.display_timestamp }}</a></td>
+
+                     {% if has_authors %}
+                     <td style="white-space: nowrap;">
+                       {% if run.commit.author_avatar %}
+                         <image src="{{ run.commit.author_avatar }}" height="30" style="border-radius: 50%;">&nbsp;
+                       {% endif %}
+                       {{ run.commit.author_name }}
+                     </td>
+                     {% endif %}
+
+                     <td style="white-space: nowrap;"><a href="{{ run.commit.repository }}">{{ run.commit.display_repository }}</a></td>
+
+                     {% if has_commits %}
+                       {% if run.commit.message %}
+                         <td><a href="{{ run.commit.url }}">{{ run.commit.message }}</a></td>
+                       {% else %}
+                         <td><a href="{{ run.commit.url }}">{{ run.commit.sha }}</a></td>
+                       {% endif %}
+                     {% endif %}
+
+                     <td><div class="ellipsis-175">{{ run.machine.name }}</div></td>
+
+                     {% if has_reasons %}
+                       {% if run.display_name %}
+                         <td><div class="ellipsis-175">{{ run.display_name }}</div></td>
+                       {% else %}
+                         <td></td>
+                       {% endif %}
+                     {% endif %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+{{super()}}
+<script type="text/javascript">
+  var table = $('#runs').dataTable( {
+      "responsive": true,
+      "order": [[0, 'desc']],
+  } );
+</script>
+{% endblock %}
