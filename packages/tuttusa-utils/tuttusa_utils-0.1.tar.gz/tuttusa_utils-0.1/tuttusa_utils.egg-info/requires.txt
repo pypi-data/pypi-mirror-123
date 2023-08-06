@@ -1,0 +1,7 @@
+fire
+tqdm
+google-cloud-storage
+sklearn
+boto3
+dload
+requests
