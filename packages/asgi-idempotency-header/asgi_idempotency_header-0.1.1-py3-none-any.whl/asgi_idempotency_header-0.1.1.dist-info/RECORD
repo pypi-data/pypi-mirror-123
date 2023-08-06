@@ -1,0 +1,10 @@
+idempotency_header_middleware/__init__.py,sha256=pabIkJrcxeEFjKza4NTqgEhRXaRXFWtrUca97uiaxwA,125
+idempotency_header_middleware/backends/__init__.py,sha256=CD4CpYxsy3aVqYhC7b7uUqA5CBW2ojf2dSKh4BXCNV4,207
+idempotency_header_middleware/backends/aioredis.py,sha256=foconUtRte7q92zRDDPu2B3FWHnITFox1DqAzw4C84M,2784
+idempotency_header_middleware/backends/base.py,sha256=DwsgqMuhglufJZoSgntS8SmBZW2vENstYs8cJkYkyXs,1648
+idempotency_header_middleware/backends/memory.py,sha256=qJ1ia2RMqzNzYMTfTKFh2RumN1i6X2SX5CvqMrT-2nM,2088
+idempotency_header_middleware/middleware.py,sha256=T9gemrRWVp2GCuu3duJqXHu7-_-Si6st2Wybm0VPQlE,4749
+idempotency_header_middleware/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_idempotency_header-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+asgi_idempotency_header-0.1.1.dist-info/METADATA,sha256=Nv5MUel0dlf_QqBN5YdMQ0aaTBiKRtTi_kkGYtRtYG8,1339
+asgi_idempotency_header-0.1.1.dist-info/RECORD,,
