@@ -1,0 +1,3 @@
+[console_scripts]
+keepit = keepit.__main__:main
+
