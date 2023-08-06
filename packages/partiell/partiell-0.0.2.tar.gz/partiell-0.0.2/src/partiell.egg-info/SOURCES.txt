@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+noxfile.py
+setup.cfg
+setup.py
+shell.nix
+test_functools.py
+src/partiell.py
+src/partiell.egg-info/PKG-INFO
+src/partiell.egg-info/SOURCES.txt
+src/partiell.egg-info/dependency_links.txt
+src/partiell.egg-info/requires.txt
+src/partiell.egg-info/top_level.txt

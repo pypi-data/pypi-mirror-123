@@ -1,0 +1,10 @@
+
+[dev]
+black
+flake8
+nox
+
+[dist]
+check-manifest
+twine
+wheel
