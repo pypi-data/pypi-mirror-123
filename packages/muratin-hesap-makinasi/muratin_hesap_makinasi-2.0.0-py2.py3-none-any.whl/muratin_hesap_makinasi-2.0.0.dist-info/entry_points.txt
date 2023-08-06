@@ -1,0 +1,3 @@
+[console_scripts]
+hesap_makinasi = muratin_hesap_makinasi.__main__:main
+
