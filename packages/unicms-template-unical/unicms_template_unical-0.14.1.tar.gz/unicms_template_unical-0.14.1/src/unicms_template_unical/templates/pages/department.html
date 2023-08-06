@@ -1,0 +1,27 @@
+{% extends "bases/unicms_unical.html" %}
+
+{% load i18n %}
+{% load static %}
+
+<!-- load custom template tags -->
+{% load unicms_carousels %}
+{% load unicms_contexts %}
+{% load unicms_menus %}
+{% load unicms_templates %}
+{% load unicms_pages %}
+{% load unicms_publications %}
+
+
+{% block header_center_logo %}
+    <div class="d-none d-lg-flex col-lg-12 px-0 department_logo_lg">
+        {% block header_center_logo_side %}
+        <image src="{% static 'images/unical_logo_bullet_white.svg' %}" class="h-100" />
+        {% endblock header_center_logo_side %}
+    </div>
+{% endblock header_center_logo %}
+
+{% block unical_mobile_logo %}
+    {% block header_slim_mobile_org_name_side %}
+        <image src="{% static 'images/unical_logo_bullet_white.svg' %}" class="mw-100"/>
+    {% endblock header_slim_mobile_org_name_side %}
+{% endblock unical_mobile_logo %}
