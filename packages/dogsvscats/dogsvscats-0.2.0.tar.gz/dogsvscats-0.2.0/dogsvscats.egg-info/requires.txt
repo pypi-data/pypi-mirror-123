@@ -1,0 +1,10 @@
+onnxruntime
+Pillow
+
+[dev]
+black
+flake8
+isort
+jupyterlab
+pre-commit
+mypy
