@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Earthquakeupdate_indonesia.egg-info/PKG-INFO
+Earthquakeupdate_indonesia.egg-info/SOURCES.txt
+Earthquakeupdate_indonesia.egg-info/dependency_links.txt
+Earthquakeupdate_indonesia.egg-info/top_level.txt
+updategempa/__init__.py
