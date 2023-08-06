@@ -1,0 +1,3 @@
+[console_scripts]
+buildbot-worker = buildbot_worker.scripts.runner:run
+
