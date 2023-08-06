@@ -1,0 +1,3 @@
+[console_scripts]
+threedeploy = threedeploy.__main__:main
+
