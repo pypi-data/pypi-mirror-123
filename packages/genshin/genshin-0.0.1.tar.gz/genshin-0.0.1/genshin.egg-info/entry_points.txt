@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        genshin=genshin.__main__:app[cli]
+    
