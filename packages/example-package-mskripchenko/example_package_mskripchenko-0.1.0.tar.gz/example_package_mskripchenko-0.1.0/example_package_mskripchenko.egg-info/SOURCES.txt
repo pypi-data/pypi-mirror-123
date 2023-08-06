@@ -1,0 +1,9 @@
+README.md
+setup.py
+example_package_mskripchenko.egg-info/PKG-INFO
+example_package_mskripchenko.egg-info/SOURCES.txt
+example_package_mskripchenko.egg-info/dependency_links.txt
+example_package_mskripchenko.egg-info/requires.txt
+example_package_mskripchenko.egg-info/top_level.txt
+mskripchenko/__init__.py
+mskripchenko/main.py
