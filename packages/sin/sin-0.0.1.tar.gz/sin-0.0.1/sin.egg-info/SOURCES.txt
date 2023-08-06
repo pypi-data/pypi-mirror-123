@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sin/__init__.py
+sin.egg-info/PKG-INFO
+sin.egg-info/SOURCES.txt
+sin.egg-info/dependency_links.txt
+sin.egg-info/top_level.txt
