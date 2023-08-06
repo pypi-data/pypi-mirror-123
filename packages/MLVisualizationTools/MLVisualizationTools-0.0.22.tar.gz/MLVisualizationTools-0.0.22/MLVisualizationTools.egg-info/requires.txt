@@ -1,0 +1,10 @@
+pandas
+
+[dash]
+dash
+plotly
+dash-bootstrap-components>=1.0.0*
+
+[dash-notebook]
+MLVisualizationTools[dash]
+jupyter-dash
