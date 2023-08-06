@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ansible-cry
+Version: 0.0.3
+Summary: Encrypt and decrypt ansible-vault string/file: Perfect for external tools.
+Home-page: https://github.com/pylanglois/CRY
+License: MIT
+Author: Pierre-Yves Langlois
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ansible
+Requires-Dist: plumbum
+Description-Content-Type: text/markdown
+
+# CRY
+Encrypt and decrypt ansible-vault string/file perfect external tools
+
