@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/NEURON_gopichandu_tech.egg-info/PKG-INFO
+src/NEURON_gopichandu_tech.egg-info/SOURCES.txt
+src/NEURON_gopichandu_tech.egg-info/dependency_links.txt
+src/NEURON_gopichandu_tech.egg-info/requires.txt
+src/NEURON_gopichandu_tech.egg-info/top_level.txt
