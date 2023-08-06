@@ -1,0 +1,11 @@
+visedit/__init__.py,sha256=fCxIrrsGwKAOtjI28yn2jE5cBOlT3coBCwjoBdgryAw,365
+visedit/string_edit.py,sha256=nSYm7cw72okIx40thEnRQo5kbR7xo9mIVhKFRm2dVA8,2212
+visedit/utils/__init__.py,sha256=ieSnHNjcXqjPj3IMCn0Z_oHc1I-WVt2Re6elHwDKhkY,138
+visedit/utils/color_settings.py,sha256=QiLgAqQ3NOwWvNE70pa17CO4AsHfXHbdKIxudhuE7p8,267
+visedit/utils/edit_formatter.py,sha256=Ll_SeLT16MMcBZ-zGOv8E5VawrsjDN_iG5sJbmxghUI,3348
+visedit/utils/levenshtein.py,sha256=kuzRz_ASeH6j2IB-VkEbsmNOjObBsMtMeTGGsPnOoO0,2480
+visedit-1.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+visedit-1.0.5.dist-info/METADATA,sha256=ieqCRpquTJQzMYaVxi0yu6KCeSqA4QI9wM_NUyIfGOE,1837
+visedit-1.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+visedit-1.0.5.dist-info/top_level.txt,sha256=9WagKGDo7Fo-NZuJC4Igza4ZhjYvnXqvteRM_t-UMw0,8
+visedit-1.0.5.dist-info/RECORD,,
