@@ -1,0 +1,11 @@
+mutalyzer_spdi_parser/__init__.py,sha256=DTPb8kXIqKcfLFVMnw4kpLSYFbrldGYLsxthHHcAL9w,788
+mutalyzer_spdi_parser/cli.py,sha256=JO-uTyp4xGuf4R2G49q8P73jOoCnCSHTUXr5AT7L2G0,2458
+mutalyzer_spdi_parser/convert.py,sha256=tt-e1YtjkCkP2_UVksVIVf9xNxGXisk6iqCWQeHT9Qs,3358
+mutalyzer_spdi_parser/spdi_parser.py,sha256=xsjuiKsk1r22vYeXWa1C4rQbl_9KuDgGGPeb1o-oBfQ,1980
+mutalyzer_spdi_parser/ebnf/top.g,sha256=aZbeJHSZtEn4i05oy96k6rTgJhEB1lw7tcTLnzq3b8E,831
+mutalyzer_spdi_parser-0.2.0.dist-info/LICENSE,sha256=Gp2Ugooki8YeycPar5YEJM70hTmkswA3sTpLIUdzNR0,1089
+mutalyzer_spdi_parser-0.2.0.dist-info/METADATA,sha256=V0Ye2QaiYfagEo4_Lv8fykE7RgIfc0tl7OgrPy9CCDk,3378
+mutalyzer_spdi_parser-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mutalyzer_spdi_parser-0.2.0.dist-info/entry_points.txt,sha256=5klFd5V60fPxBm0-leW5bGeSPzi7Ek-fHNbAa01D_fw,74
+mutalyzer_spdi_parser-0.2.0.dist-info/top_level.txt,sha256=OzE1kPLvjyQC_rzSeHc2E9QpdulrrFY66J9MBbtIA2w,22
+mutalyzer_spdi_parser-0.2.0.dist-info/RECORD,,
