@@ -1,0 +1,7 @@
+csc_recorder/__init__.py,sha256=wQL21SKqJmZ-NSboyC8tgIR3EmyN1XDjwrN7CAHZpGQ,23
+csc_recorder/APIHandler.py,sha256=DTMVxK154gyEor_UQ_NXWBOmuHivJP3m9NRAokTsbM4,987
+csc_recorder/CSC/templates/CreatePackage.xml,sha256=Ve24Zaa_5-XtGYpj_R01C7aYss7_4w1cN4OdYtWmK4E,8539
+csc_recorder/CSCRecorder.py,sha256=268kzNHi5OTsh-spapXTG-mQy-xOKuGlMXOtpyX-E3I,4865
+csc_recorder-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+csc_recorder-0.1.4.dist-info/METADATA,sha256=Ncm5L_MnfciVs5wq6GoWy3jI_PLziTjzWQMoSPOnQ5I,2618
+csc_recorder-0.1.4.dist-info/RECORD,,
