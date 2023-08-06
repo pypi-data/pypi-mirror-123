@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: notifierbot
+Version: 0.1.1
+Summary: Python Library for different Notification Bots
+Home-page: https://github.com/SakshayMahna/Notifier-Bot
+Author: Sakshay Mahna
+Author-email: sakshum19@gmail.com
+License: MIT
+Keywords: bot,notification,notifier
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests
+
+UNKNOWN
+
+
