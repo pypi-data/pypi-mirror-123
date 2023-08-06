@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: errornumbers
+Version: 0.10.0
+Summary: Classes and functions for handling with numbers with errors
+Author: Anton Leagre
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
