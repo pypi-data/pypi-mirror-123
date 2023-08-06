@@ -1,0 +1,10 @@
+krdict/__init__.py,sha256=-kuCK_3Qv97KsTNa-CmwiPZQT8aczt8oL4TyFDejNEU,13088
+krdict/_params.py,sha256=-6W4A7z2FbMqqo8gboTU3pU8iDoSWSGwbbDc5d1lTT0,17339
+krdict/_results.py,sha256=gRcZTH6SCpaeRJJ_I6KoE6lMre-Z7WsZFP2VTJ4XM-w,5290
+krdict/_scraper_utils.py,sha256=gJf4H8rTN3tBlaSSpEs-CdsdbzJIJwPiYEGQmuhSGr0,21973
+krdict/scraper.py,sha256=hagkrQOt6eFfd9HRZQhxUIscfL1JueLKJe0B8GFdqN8,12110
+krdict.py-2.0.0.dist-info/LICENSE,sha256=o1htafOT1hHXEoNEU6FmWhILivbNsKsYyewUIpmulws,1085
+krdict.py-2.0.0.dist-info/METADATA,sha256=46ZDCCmWR69a2ZU68b6DTHlktWbSrcQRshGgHBEjESU,2325
+krdict.py-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+krdict.py-2.0.0.dist-info/top_level.txt,sha256=iNU0EjES7bs9Orbd-1zaTMLeAeenGW7VM1mmTZRGhG0,7
+krdict.py-2.0.0.dist-info/RECORD,,
