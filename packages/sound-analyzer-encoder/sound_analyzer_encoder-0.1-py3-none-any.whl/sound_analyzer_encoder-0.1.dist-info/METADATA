@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sound-analyzer-encoder
+Version: 0.1
+Summary: Sound analyzer and encoder
+Home-page: https://gitlab.com/d2davidtb/analyzer-and-encoder
+Author: David Tabla & Deisy Muñoz
+Author-email: d2davidtb@gmail.com
+License: MIT
+Keywords: gui,executable
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt5 (>=5.9.2)
+Requires-Dist: ipython (==7.27.0)
+Requires-Dist: setuptools (==58.0.4)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: matplotlib (==3.4.3)
+Requires-Dist: pyaudio (>=0.2.11)
+Requires-Dist: librosa (==0.8.1)
+Requires-Dist: ipywidgets (==7.5.1)
+
+# Analyzer and Encoder
+
+## Instructions
+
+Requirements:
+
+        - Python 3.8
+
+## How to run
+
+- Create python file
+- Import package and start
+
+``` python
+import analyzer_and_encoder as ae
+ae.start()
+```
+
+
