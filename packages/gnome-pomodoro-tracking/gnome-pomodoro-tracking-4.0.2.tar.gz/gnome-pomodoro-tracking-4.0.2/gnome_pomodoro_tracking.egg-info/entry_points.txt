@@ -1,0 +1,3 @@
+[console_scripts]
+gnome-pomodoro-tracking = gnome_pomodoro_tracking.__main__:main
+

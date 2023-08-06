@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+gnome_pomodoro_tracking/__init__.py
+gnome_pomodoro_tracking/__main__.py
+gnome_pomodoro_tracking/clockify.py
+gnome_pomodoro_tracking/odoo.py
+gnome_pomodoro_tracking/plugin.py
+gnome_pomodoro_tracking/toggl.py
+gnome_pomodoro_tracking/tracking.py
+gnome_pomodoro_tracking/utils.py
+gnome_pomodoro_tracking.egg-info/PKG-INFO
+gnome_pomodoro_tracking.egg-info/SOURCES.txt
+gnome_pomodoro_tracking.egg-info/dependency_links.txt
+gnome_pomodoro_tracking.egg-info/entry_points.txt
+gnome_pomodoro_tracking.egg-info/requires.txt
+gnome_pomodoro_tracking.egg-info/top_level.txt
