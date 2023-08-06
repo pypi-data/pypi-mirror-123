@@ -1,0 +1,12 @@
+bling_v2/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+bling_v2/__main__.py,sha256=kKxC0RMAkxbsrq_ft5uk4ZZ9qzmgg-eS_8Mvto4Ufjw,1449
+bling_v2/controllers/__init__.py,sha256=PTYvdZlO8gAveDeHR_pEcNH5MW9O7061yosmSmztJOo,77
+bling_v2/controllers/bling_controller.py,sha256=hoWmZ5Q086XdoS0H8UUrAsELfqu4fk9lRXygF-CxDJY,2034
+bling_v2/logging_config.py,sha256=iq-W3YX6J4zRS6znu026EqeTc_T3WLXhp0H8R1g_UoE,276
+bling_v2/models/__init__.py,sha256=QXNfS0bXHBW3hAQiimv9PmbPBptnwBM2NL386rwEbQo,52
+bling_v2/models/produto.py,sha256=K_GB6alRtDh4DQgj46VsUP_S-V41pjzTr8sreHEn5jc,726
+bling_v2/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bling_v2/utils/telegram.py,sha256=HTC8JB7nbY4BMslP-FnId72soYGfCxM4UoQQxmDxSbg,758
+bling_v2-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bling_v2-0.1.0.dist-info/METADATA,sha256=-Pr6XlxFYu0SHt9Q7xJhyfOSupckXTY4yvJfmkbwyqI,370
+bling_v2-0.1.0.dist-info/RECORD,,
