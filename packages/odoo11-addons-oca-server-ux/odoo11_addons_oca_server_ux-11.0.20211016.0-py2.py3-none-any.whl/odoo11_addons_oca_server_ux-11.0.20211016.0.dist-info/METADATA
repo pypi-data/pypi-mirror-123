@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-server-ux
+Version: 11.0.20211016.0
+Summary: Meta package for oca-server-ux Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-barcode-action
+Requires-Dist: odoo11-addon-base-export-manager
+Requires-Dist: odoo11-addon-base-import-security-group
+Requires-Dist: odoo11-addon-base-optional-quick-create
+Requires-Dist: odoo11-addon-base-technical-features
+Requires-Dist: odoo11-addon-base-tier-validation
+Requires-Dist: odoo11-addon-base-tier-validation-formula
+Requires-Dist: odoo11-addon-date-range
+Requires-Dist: odoo11-addon-default-multi-user
+Requires-Dist: odoo11-addon-document-quick-access
+Requires-Dist: odoo11-addon-document-quick-access-folder-auto-classification
+Requires-Dist: odoo11-addon-easy-switch-user
+Requires-Dist: odoo11-addon-filter-multi-user
+Requires-Dist: odoo11-addon-mass-editing
+Requires-Dist: odoo11-addon-sequence-check-digit
+Requires-Dist: odoo11-addon-sequence-reset-period
+
+UNKNOWN
+
