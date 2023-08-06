@@ -1,0 +1,4 @@
+graphql-core>=3.0
+
+[relay]
+graphql-relay>=3.0

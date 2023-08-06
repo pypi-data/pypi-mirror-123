@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ceres-graphql
+Version: 0.1.0
+Summary: The GraphQL toolkit for Python.
+Home-page: https://github.com/aryaniyaps/ceres
+Author: Aryan Iyappan
+Author-email: aryaniyappan2006@gmail.com
+License: BSD
+Project-URL: Homepage, https://github.com/aryaniyaps/ceres
+Project-URL: Issue Tracker, https://github.com/aryaniyaps/ceres/issues
+Project-URL: Source Code, https://github.com/aryaniyaps/ceres
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: relay
+License-File: LICENSE
+
+# Ceres GraphQL
+[![Build Status](https://github.com/aryaniyaps/ceres/workflows/tests/badge.svg)](https://github.com/aryaniyaps/ceres/actions)
+[![PyPI version](https://img.shields.io/pypi/v/ceres-graphql?color=%2334D058)](https://pypi.org/project/ceres-graphql)
+[![codecov](https://codecov.io/gh/aryaniyaps/ceres/branch/main/graph/badge.svg?token=BDORVBQP7S)](https://codecov.io/gh/aryaniyaps/ceres)
+
+The Python GraphQL toolkit and schema builder
+
+## Installing
+Ceres can be installed/ updated using [pip].
+
+```text
+pip install -U Ceres
+```
+
+[pip]: https://pip.pypa.io/en/stable/getting-started/
+
+
