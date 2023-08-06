@@ -1,0 +1,11 @@
+python-igraph
+texttable
+tqdm
+biopython
+redis
+redisgraph
+psycopg
+networkx
+gremlinpython
+mysql-connector-python
+cassandra-driver
