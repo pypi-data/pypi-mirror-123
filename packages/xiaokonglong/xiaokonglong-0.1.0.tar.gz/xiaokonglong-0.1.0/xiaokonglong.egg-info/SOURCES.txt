@@ -1,0 +1,10 @@
+README.md
+setup.py
+dinosaur/__init__.py
+dinosaur/read.py
+dinosaur/write.py
+xiaokonglong.egg-info/PKG-INFO
+xiaokonglong.egg-info/SOURCES.txt
+xiaokonglong.egg-info/dependency_links.txt
+xiaokonglong.egg-info/requires.txt
+xiaokonglong.egg-info/top_level.txt
