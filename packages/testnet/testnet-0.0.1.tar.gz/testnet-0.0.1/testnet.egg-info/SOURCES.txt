@@ -1,0 +1,8 @@
+README.md
+setup.py
+testnet/__init__.py
+testnet.egg-info/PKG-INFO
+testnet.egg-info/SOURCES.txt
+testnet.egg-info/dependency_links.txt
+testnet.egg-info/requires.txt
+testnet.egg-info/top_level.txt
