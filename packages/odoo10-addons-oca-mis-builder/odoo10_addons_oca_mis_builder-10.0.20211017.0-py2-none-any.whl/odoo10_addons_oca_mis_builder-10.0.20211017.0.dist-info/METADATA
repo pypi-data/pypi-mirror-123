@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-mis-builder
+Version: 10.0.20211017.0
+Summary: Meta package for oca-mis-builder Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-mis-builder
+Requires-Dist: odoo10-addon-mis-builder-budget
+Requires-Dist: odoo10-addon-mis-builder-demo
+
+UNKNOWN
+
