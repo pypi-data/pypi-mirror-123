@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: edxml
+Version: 3.0.0.dev0
+Summary: The EDXML Software Developers Kit
+Home-page: https://github.com/dtakken/edxml-sdk
+Author: Dik Takken
+Author-email: dik.takken@edxml.org
+License: MIT
+Keywords: edxml sdk xml
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.rst
+Requires-Dist: lxml (>=3.8)
+Requires-Dist: python-dateutil
+Requires-Dist: edxml-schema
+Requires-Dist: iso3166
+Requires-Dist: pytz
+Requires-Dist: termcolor
+Requires-Dist: typing
+Requires-Dist: pytest
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'doc'
+
+Python classes and example applications for use with the EDXML specification at edxml.org
+
