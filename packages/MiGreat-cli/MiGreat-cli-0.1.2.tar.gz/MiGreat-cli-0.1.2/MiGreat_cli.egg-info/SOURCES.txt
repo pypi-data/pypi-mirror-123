@@ -1,0 +1,11 @@
+README.md
+setup.py
+MiGreat_cli.egg-info/PKG-INFO
+MiGreat_cli.egg-info/SOURCES.txt
+MiGreat_cli.egg-info/dependency_links.txt
+MiGreat_cli.egg-info/requires.txt
+MiGreat_cli.egg-info/top_level.txt
+migreat/MiGreat.py
+migreat/__init__.py
+migreat/bin/__init__.py
+migreat/bin/migreat
