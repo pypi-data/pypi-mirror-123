@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/ChangePointDetector/ChangePointDetector.py
+src/ChangePointDetector/__init__.py
+src/ChangePointDetectorEVT.egg-info/PKG-INFO
+src/ChangePointDetectorEVT.egg-info/SOURCES.txt
+src/ChangePointDetectorEVT.egg-info/dependency_links.txt
+src/ChangePointDetectorEVT.egg-info/top_level.txt
