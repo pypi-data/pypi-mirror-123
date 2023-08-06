@@ -1,0 +1,34 @@
+[console_scripts]
+pykeen = pykeen.cli:main
+
+[pykeen.datasets]
+biokg = pykeen.datasets.biokg:BioKG
+ckg = pykeen.datasets.ckg:CKG
+cn3l = pykeen.datasets.wk3l:CN3l
+codexlarge = pykeen.datasets.codex:CoDExLarge
+codexmedium = pykeen.datasets.codex:CoDExMedium
+codexsmall = pykeen.datasets.codex:CoDExSmall
+conceptnet = pykeen.datasets.conceptnet:ConceptNet
+countries = pykeen.datasets.countries:Countries
+cskg = pykeen.datasets.cskg:CSKG
+db100k = pykeen.datasets.db100k:DB100K
+dbpedia50 = pykeen.datasets.dbpedia:DBpedia50
+drkg = pykeen.datasets.drkg:DRKG
+fb15k = pykeen.datasets.freebase:FB15k
+fb15k237 = pykeen.datasets.freebase:FB15k237
+hetionet = pykeen.datasets.hetionet:Hetionet
+kinships = pykeen.datasets.kinships:Kinships
+nations = pykeen.datasets.nations:Nations
+ogbbiokg = pykeen.datasets.ogb:OGBBioKG
+ogbwikikg = pykeen.datasets.ogb:OGBWikiKG
+openbiolink = pykeen.datasets.openbiolink:OpenBioLink
+openbiolinklq = pykeen.datasets.openbiolink:OpenBioLinkLQ
+umls = pykeen.datasets.umls:UMLS
+wd50kt = pykeen.datasets.wd50k:WD50KT
+wikidata5m = pykeen.datasets.wikidata5m:Wikidata5M
+wk3l120k = pykeen.datasets.wk3l:WK3l120k
+wk3l15k = pykeen.datasets.wk3l:WK3l15k
+wn18 = pykeen.datasets.wordnet:WN18
+wn18rr = pykeen.datasets.wordnet:WN18RR
+yago310 = pykeen.datasets.yago:YAGO310
+
