@@ -1,0 +1,3 @@
+[console_scripts]
+xleapp=xleapp.__main__:cli
+
