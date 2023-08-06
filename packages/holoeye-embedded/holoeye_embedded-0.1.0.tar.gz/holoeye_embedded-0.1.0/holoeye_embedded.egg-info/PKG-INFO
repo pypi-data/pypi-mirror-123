@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: holoeye-embedded
+Version: 0.1.0
+Summary: an alternative interface to official API of the Holoeye PLUTO-2 Spatial Light Modulator in order to control multiple devices through RNDIS network rather than classic HDMI.
+Home-page: https://github.com/ehsan2754/HOLOEYE-PLUTO-2-EMBEDDED
+Author: Ehsan Shaghaei
+Author-email: e.shaghaei@innopolis.university
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Changelog
+=========
+
+Version 0.1 (2021-10-15)
+------------------------
+
+* First release after the conversion to the perf module and move to GitHub
+* Included RNDIS and SSH API.
+
+
