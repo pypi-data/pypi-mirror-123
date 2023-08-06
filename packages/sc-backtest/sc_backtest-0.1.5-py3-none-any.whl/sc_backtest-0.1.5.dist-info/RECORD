@@ -1,0 +1,16 @@
+sc_backtest/__init__.py,sha256=G-6S0OGoWEn8nbAQSm3bCVRKwaLB4MF7IZNy7yvHDz8,291
+sc_backtest/backtest.py,sha256=qEDWzcbaUziqQXOFOMCy-M-wjDC_dA10XnedypONHNQ,15747
+sc_backtest/data_set.py,sha256=uuGOw1-cSk69R_mz3jmfLBXEgZRxuqd61xaCON9p_90,1928
+sc_backtest/private_func.py,sha256=1OTRPscHpPxsbgGz2jwoddSffeQ_8uju-eW6bLMuZE4,4649
+sc_backtest/sc_backtest.py,sha256=FJ2XZ4w6sVyUh8ncAp5okHO3FerxrDgm_YdT3zOFwG8,8627
+sc_backtest/simpletest.py,sha256=K6GbyLo5oUuB4n-Pw52p1l2m7LCE9suK-ohtlOwlR-I,19497
+sc_backtest/ta_personal.py,sha256=2h5juK-gZsD_Py89kRv4L8Svrs_WCIL-D27R5ysNYa4,4787
+sc_backtest/technical_analysis.py,sha256=8fVeKxVukpXvx5OVhHxiWY1edIgN8dFD67z3duUctdo,58
+sc_backtest/dataset/_adj_close.csv,sha256=PpP6LPDGBKbd5p_mGZjZdMZe-lZyow5eOnKfPrtpojM,20653605
+sc_backtest/dataset/_close.csv,sha256=IVJ30Civ2UBD4WsvlPdqQCd1bQOtVL_DeowzVuypwrY,18306569
+sc_backtest/dataset/_volume.csv,sha256=DIeq2CapqMaT9ni1etrsqrnQBVV6DAaLRl4nxlwekdI,12257861
+sc_backtest-0.1.5.dist-info/LICENSE.txt,sha256=fygcIjvyfHh75rUyRkDhjO4RsI0nuy-FYd35sjpFKMc,1058
+sc_backtest-0.1.5.dist-info/METADATA,sha256=_eEhi6ROZ5-INOMK3FP9z4aza-iee3_KO2X5PYLWWlU,2684
+sc_backtest-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sc_backtest-0.1.5.dist-info/top_level.txt,sha256=nMLdkblGAj9XVLKY5jDhP2gRI2S8w9UuVSy6mZpq914,12
+sc_backtest-0.1.5.dist-info/RECORD,,
