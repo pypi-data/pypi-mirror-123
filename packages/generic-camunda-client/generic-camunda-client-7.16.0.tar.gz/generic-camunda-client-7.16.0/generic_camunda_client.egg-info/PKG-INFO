@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: generic-camunda-client
+Version: 7.16.0
+Summary: Camunda Platform REST API
+Home-page: https://noordsestern.gitlab.io/camunda-client-for-python/7-16-0/README.html
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: Apache License 2.0
+Description:     OpenApi Spec for Camunda Platform REST API.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Camunda Platform REST API
+Platform: UNKNOWN
