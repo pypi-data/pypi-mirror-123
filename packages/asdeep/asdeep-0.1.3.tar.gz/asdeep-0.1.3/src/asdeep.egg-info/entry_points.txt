@@ -1,0 +1,3 @@
+[console_scripts]
+asdeep = asdeep.main:main
+

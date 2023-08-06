@@ -1,0 +1,9 @@
+pysam
+numpy
+scipy
+matplotlib
+scikit-learn
+torch
+torchvision
+tensorboard
+numpy-hilbert-curve
