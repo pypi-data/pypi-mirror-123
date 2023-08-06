@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-connector-cmis
+Version: 10.0.20211016.0
+Summary: Meta package for oca-connector-cmis Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-cmis
+
+UNKNOWN
+
