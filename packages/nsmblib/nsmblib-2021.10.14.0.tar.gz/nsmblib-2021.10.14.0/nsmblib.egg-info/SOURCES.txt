@@ -1,0 +1,9 @@
+MANIFEST.in
+list.c
+list.h
+nsmblibmodule.c
+setup.py
+nsmblib.egg-info/PKG-INFO
+nsmblib.egg-info/SOURCES.txt
+nsmblib.egg-info/dependency_links.txt
+nsmblib.egg-info/top_level.txt
