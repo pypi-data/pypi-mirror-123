@@ -1,0 +1,11 @@
+LICENSE,sha256=bjdSa2CkAseaIt0-MOjBgUcWkBkpoc6ZWxyiVYGu16A,1078
+README.md,sha256=YGQEkBOqJToZKsOcRZ91VPVhmVr0zyKGERPJi313Z4s,2860
+ariadne_django_ext/__init__.py,sha256=xKEyy25fEYEl1CR6ic7pExfNYCs17e8nxX1xvQKYRjQ,212
+ariadne_django_ext/cache.py,sha256=VgHUYze9bgMOdqUGHeb43805EtdLcKK2QJNrK56wAfI,1286
+ariadne_django_ext/decorators.py,sha256=kH1tmEk-QNg9aCx4_6gc-Hb1e9slCtX3OSFscznUuew,1392
+ariadne_django_ext/directives.py,sha256=kdKKfwKA4pmb6TVrJLnp0hOt3LHrpOmNFfxAt0kEut4,1237
+ariadne_django_ext/utils.py,sha256=qBfvSdUeC-kki6_P-CVBCQouW-JKnJ-Z7sOSPwkSRaI,315
+ariadne_django_ext-1.4.dist-info/LICENSE,sha256=bjdSa2CkAseaIt0-MOjBgUcWkBkpoc6ZWxyiVYGu16A,1078
+ariadne_django_ext-1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ariadne_django_ext-1.4.dist-info/METADATA,sha256=0_JGexkmzk_FmCJUYkwkXc_n58b4UXP6LXXWxOoBPKs,4015
+ariadne_django_ext-1.4.dist-info/RECORD,,
