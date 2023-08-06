@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "getranet_automl"
+version = "0.1.1"
+description = "Wrapper for important language-centric Google APIs"
+authors = ["GeTraNet <dev@getranet.de>"]
+license = "MIT"
+packages = [
+    { include = "getranet_automl" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-cloud-translate = "^3.4.1"
+google-cloud-speech = "^2.9.3"
+google-cloud-storage = "^1.42.3"
+python-docx = "^0.8.11"
+pydub = "^0.25.1"
+srt = "^3.5.0"
+starlette = "^0.16.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+isort = "^5.9.3"
+pytest = "^6.2.5"
+pytest-asyncio = "^0.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
