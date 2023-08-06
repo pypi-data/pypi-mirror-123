@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/cookie_thief/__init__.py
+src/cookie_thief/base.py
+src/cookie_thief.egg-info/PKG-INFO
+src/cookie_thief.egg-info/SOURCES.txt
+src/cookie_thief.egg-info/dependency_links.txt
+src/cookie_thief.egg-info/top_level.txt
