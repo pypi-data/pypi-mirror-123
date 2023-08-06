@@ -1,0 +1,8 @@
+__pycache__
+_build
+.DS_Store
+dist
+MANIFEST
+*.egg-info
+examples/getting_started/output
+examples/getting_started/data
