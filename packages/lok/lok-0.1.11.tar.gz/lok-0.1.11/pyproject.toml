@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lok"
+version = "0.1.11"
+description = "lok is a jwt middleware that works with django channels"
+authors = ["jhnnsrs <jhnnsrs@gmail.com>"]
+license = "CC BY-NC 3.0"
+packages = [{include = "lok"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.7"
+PyJWT = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
