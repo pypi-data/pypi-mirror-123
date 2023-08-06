@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: signalman
+Version: 0.1.15
+Summary: A small application to poll for response code or text
+Home-page: https://github.com/JosephRPalmer/signalman
+Author: Joseph Ryan-Palmer
+Author-email: joseph@ryan-palmer.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JosephRPalmer/signalman/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: interruptingcow
+Requires-Dist: retrying
+
+# signalman
+A small application to poll a remote endpoint for response code or text.
+
+## How to use signalman
+
+`signalman --timeout 60 --endpoint google.com --port 80 --rc 200` will run a test for 60 minutes until google.com returns a HTTP 200 on port 80
+
+
+## Parameter List
+
+| Syntax | Description |
+| ----------- | ----------- |
+| --timeout | Timeout for Signalman in minutes |
+| --endpoint | URL to test against |
+| --port | Port to test against |
+| --r-type | Return type you are expecting, choose from text, json or code |
+| --r-value | Return value of type selected as --r-type, if using `json` then use the format key:value, currently only a single key pair is supported |
+| --ssl (optional) | Use SSL/TLS |
+| --headers (optional) | Any headers which need to be included - for example to request Content-Type: application/json use h.content-type:application/json |
+
+
