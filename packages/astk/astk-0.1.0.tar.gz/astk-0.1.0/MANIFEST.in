@@ -1,0 +1,2 @@
+include astk/R/*.R
+include astk/ChromHMM.jar
