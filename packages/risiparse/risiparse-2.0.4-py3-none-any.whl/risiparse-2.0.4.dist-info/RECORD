@@ -1,0 +1,16 @@
+risiparse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+risiparse/html_to_pdf.py,sha256=9-zRm1ZTPB_T1lOnQIoJiQziUha2-fD1046LTxtvhh4,2446
+risiparse/risiparse.py,sha256=IuVDyk-SLPJNW4MvKChhbDJ0ZBTYK6-ir3IqnyB91Vw,30931
+risiparse/sites_selectors.py,sha256=LPEInIPNrDbpAUbYelJ3NRMAGVg-PXteDV3gs-3VwO4,2044
+risiparse/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+risiparse/utils/database.py,sha256=J1ScA9Q7GAnlh3PaT-o6scfWTHJep8_2kUIEFhTogS4,5090
+risiparse/utils/log.py,sha256=gcDVYTzjPJzS81VmCGSfw1qGnMpDODF7b3OaV_sWWLk,1692
+risiparse/utils/utils.py,sha256=D3w38n3uLhYtjMgQTSVPedqG_2fOXyspP6nf5oVUWRw,13789
+risiparse/utils/utils_page_downloader.py,sha256=CDQzAfq5KKeR24B26kfzPFtDMyqvMshIsSC-AbqpFTw,1921
+risiparse/utils/utils_posts.py,sha256=t5pPl49sOHnWGyisyGTlKjU0KEURXsHPDlso-FDfGXY,2295
+risiparse-2.0.4.dist-info/LICENSE,sha256=jrnw81RZ_yvVPheSPBAF8Xqg_DomPjLcKlWitbkrsYw,35139
+risiparse-2.0.4.dist-info/METADATA,sha256=BBsV23rQb-GJPvm1hGYht8NZ9n0aSmmqFrjI5YndNwU,10686
+risiparse-2.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+risiparse-2.0.4.dist-info/entry_points.txt,sha256=TepwshrzMacX2XJ_MWUl7Zm6QvkWJ7nthvZO9ssH7Es,56
+risiparse-2.0.4.dist-info/top_level.txt,sha256=JrFm9jpfy-akeea8sD-6YFsCH-beQ-2ZTtNlvlgvbqM,10
+risiparse-2.0.4.dist-info/RECORD,,
