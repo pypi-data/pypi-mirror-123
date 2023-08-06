@@ -1,0 +1,15 @@
+satlas2/__init__.py,sha256=_oZFbbwvMbHQVTwzFeGuUpsWfgfvpDUcPrIa9-PqEfU,276
+satlas2/_version.py,sha256=Y19U4fapcQwk6o6ZOuzGK6ku5fm6nsbx7OYOuHjdgME,196
+satlas2/core.py,sha256=lLzS8xmIXyWQ8IeWnpCMPa7epB9nL6Utbyom07MuuaA,15892
+satlas2/overwrite.py,sha256=dHGbp7ibdild-oRosGrmT86VsNjjvpmpqAD8M5BYrTA,14873
+satlas2/plotting.py,sha256=6T0_cnxoRg3BgjmDKnM8l_Lsgz6CIdkBwshE3yEKjrA,20705
+satlas2/models/__init__.py,sha256=rGAsgv3knFp03_6uikogVKBEaiw1gQNRWCx5s6Vwt8M,73
+satlas2/models/fitterModels.py,sha256=x5J_hW5cDi6MeTipPj89yThIUMVm2cZvhHVHKRqLTus,8672
+satlas2/models/hfsModel.py,sha256=wNXaxyyV735kLFdlggoybrnB-Pmr4luqFBnBcs2zuvI,7518
+satlas2/models/models.py,sha256=xyneR7VdHJUJdX27YkWya3VcJ4Uhw_x-oGVuyb31NYs,1369
+satlas2/models/tofModel.py,sha256=WzTZs7qkpha2mK8WgPLwQtOUnFkYkesO3IeVZluhe8o,19258
+satlas2-0.0.1.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+satlas2-0.0.1.dist-info/METADATA,sha256=v4jzQxltg7ucWwzADettkox3jpZQIFoPFRbyCWHOn4w,1022
+satlas2-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+satlas2-0.0.1.dist-info/top_level.txt,sha256=WVCVbow-TuRc1z0I4UBKpctCQ98UCWdU5bp-qkGaRUs,8
+satlas2-0.0.1.dist-info/RECORD,,
