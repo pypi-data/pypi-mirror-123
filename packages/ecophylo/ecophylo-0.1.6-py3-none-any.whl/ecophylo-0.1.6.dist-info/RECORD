@@ -1,0 +1,13 @@
+ecophylo/__init__.py,sha256=XLZI1kVnFf1GqbczAGKpHdq3zGUvxIPWVAYJAe0miFg,370
+ecophylo/dosimulate.py,sha256=z0fqXNv9SwajIicmgILwf8YqaGTHmk39RHXYFGiBRH0,46710
+ecophylo/islmodel.py,sha256=bVF8Z9Ryp52hP2Ged924tiQFcsDvCrOkzR72J7CBQPk,28407
+ecophylo/islmodel_mugger.py,sha256=OXusHjbB-Q-WmriRuG2ymoY3LG_8NyrowfE_LohyiNo,3014
+ecophylo/pastdemo.py,sha256=fR-Abcv_I6uJbXARZtwwt8R_kjeTcDzjcVjyGTuEUpQ,1816
+ecophylo/phylogen.py,sha256=dUjsCITAd1S3_id2zKMXRRYrNiPqlVVrvZ--SYg6Oic,11724
+ecophylo/sumstat.py,sha256=x3U_AX65RadKQhYTU3SlxnVxnttDdXMYACS0_YcyZ60,3411
+ecophylo/toPhylo.py,sha256=TY7rzxfWZmJdn7-f-3Rnt88TEhX7NC6DghcxFw99kf8,6811
+ecophylo-0.1.6.dist-info/LICENSE,sha256=cO-aXHOHgmsETgzx_UywuoEagDSn-oy6cCCdgFKtTz8,21098
+ecophylo-0.1.6.dist-info/METADATA,sha256=YrLs7Y0gTaLVIlOTMaqw15Z8v8cpo-86CEcslSvVikw,3689
+ecophylo-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ecophylo-0.1.6.dist-info/top_level.txt,sha256=9uBvUDygapKBNJgELCH5n1yVb76IFWnTM9IHTOBZ0BM,9
+ecophylo-0.1.6.dist-info/RECORD,,
