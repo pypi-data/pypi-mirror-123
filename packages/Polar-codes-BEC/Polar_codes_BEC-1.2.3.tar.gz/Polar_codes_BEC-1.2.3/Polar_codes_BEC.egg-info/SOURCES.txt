@@ -1,0 +1,9 @@
+README.md
+setup.py
+Polar_codes_BEC/__init__.py
+Polar_codes_BEC/bec_polar_lib.py
+Polar_codes_BEC.egg-info/PKG-INFO
+Polar_codes_BEC.egg-info/SOURCES.txt
+Polar_codes_BEC.egg-info/dependency_links.txt
+Polar_codes_BEC.egg-info/requires.txt
+Polar_codes_BEC.egg-info/top_level.txt
