@@ -1,0 +1,8 @@
+LICENSE.mit
+README.md
+setup.py
+notecard_pseudo_sensor.egg-info/PKG-INFO
+notecard_pseudo_sensor.egg-info/SOURCES.txt
+notecard_pseudo_sensor.egg-info/dependency_links.txt
+notecard_pseudo_sensor.egg-info/requires.txt
+notecard_pseudo_sensor.egg-info/top_level.txt
