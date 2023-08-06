@@ -1,0 +1,7 @@
+arrow
+blessings
+Flask>=2
+flask-socketio
+ldap3
+requests
+watchdog

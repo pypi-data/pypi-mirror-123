@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: samlab
+Version: 0.2.0
+Summary: Tools for managing machine learning experiments.
+Home-page: UNKNOWN
+Maintainer: Timothy M. Shead
+Maintainer-email: tshead@sandia.gov
+License: UNKNOWN
+Project-URL: Chat, https://github.com/sandialabs/samlab/discussions
+Project-URL: Coverage, https://coveralls.io/r/sandialabs/samlab
+Project-URL: Documentation, https://samlab.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/sandialabs/samlab/issues
+Project-URL: Regression Tests, https://github.com/sandialabs/samlab/actions
+Project-URL: Source, https://github.com/sandialabs/samlab
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
