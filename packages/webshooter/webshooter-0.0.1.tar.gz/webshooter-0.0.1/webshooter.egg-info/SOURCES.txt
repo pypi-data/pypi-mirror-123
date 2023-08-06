@@ -1,0 +1,10 @@
+README.md
+setup.py
+webshooter/__init__.py
+webshooter/request.py
+webshooter/scraper.py
+webshooter.egg-info/PKG-INFO
+webshooter.egg-info/SOURCES.txt
+webshooter.egg-info/dependency_links.txt
+webshooter.egg-info/requires.txt
+webshooter.egg-info/top_level.txt

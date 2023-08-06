@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: webshooter
+Version: 0.0.1
+Summary: Python package for almost all web scraping scenarios.
+Home-page: https://github.com/respect5716/webshooter
+Author: Yoon Yong Sun
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
