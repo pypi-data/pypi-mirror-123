@@ -1,0 +1,24 @@
+# Default values.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+namespace: ${team}
+team: ${team}
+nameOverride: ${plugin_id}
+fullnameOverride: ""
+serviceAccountName: default-editor
+storageClassName: fsx-lustre-${team}-${plugin_id}
+user: placeholder
+
+## Change this to modify the storage file system and create new file systems
+fs_name: ${fs_name}
+storage: ${storage}
+folder: ${folder}
+volumeName: ${volumeName}
+
+#fsx details
+csi:
+  dnsname: ${dnsname}
+  mountname: ${mountname}
+  csiProvisionerIdentity: ${csiProvisionerIdentity}
+volumeHandle: ${volumeHandle}
