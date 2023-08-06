@@ -1,0 +1,3 @@
+[console_scripts]
+runassg = 2021assignment1calculator1.main:main
+
