@@ -1,0 +1,3 @@
+[console_scripts]
+armadillin = armadillin:__main__.main
+
