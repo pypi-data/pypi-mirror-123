@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/niftystocks/__init__.py
+src/niftystocks/ns.py
+src/niftystocks.egg-info/PKG-INFO
+src/niftystocks.egg-info/SOURCES.txt
+src/niftystocks.egg-info/dependency_links.txt
+src/niftystocks.egg-info/top_level.txt
