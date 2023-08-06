@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+miniver/__init__.py
+miniver/_static_version.py
+miniver/_version.py
+miniver/app.py
+miniver.egg-info/PKG-INFO
+miniver.egg-info/SOURCES.txt
+miniver.egg-info/dependency_links.txt
+miniver.egg-info/entry_points.txt
+miniver.egg-info/top_level.txt
