@@ -1,0 +1,11 @@
+dizzle/__init__.py,sha256=MkFSemZVP6FDcKHNH7oTFkdzSJd8DcFpBhdoE4kawuo,1192
+dizzle/db.py,sha256=ugcYvKEVTNUQ908VSbjY18l6eHQ0iXSZ2HA2Trqgj-g,1335
+dizzle/excel.py,sha256=dIiRhlcJIxguBcHnjlFvpVUVmo9bjbbcgv9zi4CUB5g,573
+dizzle/fun.py,sha256=yRsDTayLVcTOUTugaEbwbUDsjXVCeKrGTvtd3BgomVQ,4087
+dizzle/geo.py,sha256=3EFYA-AuyukKUsO07u7WMhsX7mDJfs98lLz1pr7d6SM,2308
+dizzle/io.py,sha256=7vCmNrgbgt--NqqJ74vBzj67Sb3tEgVFA1AbQysxbCA,629
+dizzle/utils.py,sha256=SA-K9DixGte_k5TJIVuCyuChU_Mn9qlsBW74_9MH8xY,304
+dizzle-0.2.1.dist-info/COPYING,sha256=xh8S2nza1Sa9y-1HpMCmA-YNu_2vi2aTPNCI6RMsMD8,32472
+dizzle-0.2.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+dizzle-0.2.1.dist-info/METADATA,sha256=vXmEAtd7AWVu0nWUB7LCtUFa8UNGgElf57f_06Dr9z4,1022
+dizzle-0.2.1.dist-info/RECORD,,
