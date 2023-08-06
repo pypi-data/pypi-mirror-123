@@ -1,0 +1,19 @@
+adabelief-tf
+dataclasses-json
+GitPython
+imageio
+nptyping
+opencv-python-headless
+openpyxl
+paiargparse==1.1.2
+pandas
+pillow
+prettytable
+python-Levenshtein
+scikit-image
+pooch==1.4.0
+tensorflow>=2.4.0,<2.7.0
+tensorflow_addons>=0.12.0  # must be compatible with tensorflow version
+tqdm
+typeguard
+xlrd==1.2.0
