@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qservice/__init__.py
+qservice/exemplo.py
+qservice/service.py
+qservice.egg-info/PKG-INFO
+qservice.egg-info/SOURCES.txt
+qservice.egg-info/dependency_links.txt
+qservice.egg-info/not-zip-safe
+qservice.egg-info/top_level.txt
