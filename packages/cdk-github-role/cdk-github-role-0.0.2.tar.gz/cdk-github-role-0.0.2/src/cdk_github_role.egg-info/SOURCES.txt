@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+pyproject.toml
+setup.py
+src/cdk_github_role/__init__.py
+src/cdk_github_role/py.typed
+src/cdk_github_role.egg-info/PKG-INFO
+src/cdk_github_role.egg-info/SOURCES.txt
+src/cdk_github_role.egg-info/dependency_links.txt
+src/cdk_github_role.egg-info/requires.txt
+src/cdk_github_role.egg-info/top_level.txt
+src/cdk_github_role/_jsii/__init__.py
+src/cdk_github_role/_jsii/cdk-github-role@0.0.2.jsii.tgz
