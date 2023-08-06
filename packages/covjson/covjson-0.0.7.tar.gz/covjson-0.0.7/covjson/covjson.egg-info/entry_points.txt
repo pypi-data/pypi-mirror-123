@@ -1,0 +1,3 @@
+[console_scripts]
+covjson = covjson.covjson:process
+
