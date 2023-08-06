@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bughotspots/__init__.py
+bughotspots.egg-info/PKG-INFO
+bughotspots.egg-info/SOURCES.txt
+bughotspots.egg-info/dependency_links.txt
+bughotspots.egg-info/entry_points.txt
+bughotspots.egg-info/requires.txt
+bughotspots.egg-info/top_level.txt
