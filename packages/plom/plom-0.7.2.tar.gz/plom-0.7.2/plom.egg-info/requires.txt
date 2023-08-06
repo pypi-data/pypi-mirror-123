@@ -1,0 +1,26 @@
+opencv-python
+PyQt5
+appdirs>=1.4.3
+packaging
+numpy
+passlib
+pyzbar
+segno
+lapsolver
+toml>=0.10.0
+pymupdf>=1.18.15
+stdiomask>=0.0.6
+scikit-learn>=0.23.1
+weasyprint<53
+canvasapi>=2.0.0
+tqdm
+aiohttp~=3.7.2
+imutils
+requests-toolbelt
+pandas>=1.0.0
+Pillow>=7.0.0
+requests
+peewee>=3.13.3
+
+[:python_version < "3.7"]
+importlib_resources
