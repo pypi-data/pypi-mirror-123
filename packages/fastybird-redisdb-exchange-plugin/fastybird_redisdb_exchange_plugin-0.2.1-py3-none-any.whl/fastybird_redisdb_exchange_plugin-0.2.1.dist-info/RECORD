@@ -1,0 +1,15 @@
+redisdb_exchange_plugin/__init__.py,sha256=ctf96XsOWvhRItCz7UjoaNKWDQMj4bncMDYRL6gzQto,678
+redisdb_exchange_plugin/bootstrap.py,sha256=-Ke7njn_t1OBB5AYgR7LjFOZKCuuXeHJ4E0-NK3Xe_E,2023
+redisdb_exchange_plugin/connection.py,sha256=ePqahmTaaVKOMOgVn7Ubu_ytESaFyHg7bQsjFEQ6kik,5502
+redisdb_exchange_plugin/exceptions.py,sha256=vTzDJnv3Mh5WKuEhvHeZSmkhouM1tNEK5BUpxVXqzNA,1192
+redisdb_exchange_plugin/exchange.py,sha256=RjJ9UjWlzCodxDZ9mwTpmbRNzlouFqp8DxeXlg1nrKg,8198
+redisdb_exchange_plugin/logger.py,sha256=60aAxrXdaijVboIEPFI2VgxHsuJ1vm3MRpZ3HSTJy30,2575
+redisdb_exchange_plugin/publisher.py,sha256=xIFzZaAcLYVNMnVK-TSrMDbN5-ecADPYphp3ZofUKyE,1809
+tests/__init__.py,sha256=qg_xkeaf03H09HFnKlerE3I2siF8RaBa4EIP25WXuF0,654
+tests/pytests/__init__.py,sha256=qg_xkeaf03H09HFnKlerE3I2siF8RaBa4EIP25WXuF0,654
+tests/pytests/tests.py,sha256=eY5wWVRkuZnxyx9bCpETrtHYLs82cKdiA4kwxjRztQo,2397
+fastybird_redisdb_exchange_plugin-0.2.1.dist-info/LICENSE.md,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+fastybird_redisdb_exchange_plugin-0.2.1.dist-info/METADATA,sha256=idwfUttOe2jkcpRaVHa2d00hiFtKNcWI5n2zomudWeg,4170
+fastybird_redisdb_exchange_plugin-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastybird_redisdb_exchange_plugin-0.2.1.dist-info/top_level.txt,sha256=Rxkg9p5k8cNPB3qWqUb71iJxW_Cf9Zb4OL9M6mkHp_E,30
+fastybird_redisdb_exchange_plugin-0.2.1.dist-info/RECORD,,
