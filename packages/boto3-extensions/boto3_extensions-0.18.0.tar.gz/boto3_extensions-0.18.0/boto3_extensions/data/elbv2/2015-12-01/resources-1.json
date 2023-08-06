@@ -1,0 +1,159 @@
+{
+  "service": {
+    "has": {
+      "LoadBalancer": {
+        "resource": {
+          "type": "LoadBalancer",
+          "identifiers": [{
+            "target": "Name",
+            "source": "input"
+          }]
+        }
+      }
+    },
+    "hasMany": {
+      "LoadBalancers": {
+        "request": {
+          "operation": "DescribeLoadBalancers"
+        },
+        "resource": {
+          "type": "LoadBalancer",
+          "identifiers": [{
+            "target": "Name",
+            "source": "response",
+            "path": "LoadBalancers[].LoadBalancerName"
+          }],
+          "path": "LoadBalancer[]"
+        }
+      },
+      "TargetGroups": {
+        "request": {
+          "operation": "DescribeTargetGroups"
+        },
+        "resource": {
+          "type": "TargetGroup",
+          "identifiers": [{
+            "target": "Name",
+            "source": "response",
+            "path": "TargetGroups[].TargetGroupName"
+          }],
+          "path": "TargetGroups[]"
+        }
+      }
+    }
+  },
+  "resources": {
+    "LoadBalancer": {
+      "identifiers": [{
+        "name": "Name",
+        "memberName": "LoadBalancerName"
+      }],
+      "shape": "LoadBalancer",
+      "load": {
+        "request": {
+          "operation": "DescribeLoadBalancers",
+          "params": [{
+            "target": "Names[0]",
+            "source": "identifier",
+            "name": "Name"
+          }]
+        },
+        "path": "LoadBalancers[0]"
+      },
+      "hasMany": {
+        "Listeners": {
+          "request": {
+            "params": [{
+              "target": "LoadBalancerArn",
+              "source": "arn"
+            }],
+            "operation": "DescribeListeners"
+          },
+          "resource": {
+            "type": "Listener",
+            "identifiers": [{
+              "target": "Arn",
+              "source": "response",
+              "path": "Listeners[].ListenerArn"
+            }],
+            "path": "Listeners[]"
+          }
+        },
+        "Tags": {
+          "request": {
+            "params": [{
+              "target": "ResourceArns[0]",
+              "source": "arn"
+            }],
+            "operation": "DescribeTags"
+          },
+          "resource": {
+            "type": "Tag",
+            "identifiers": [{
+              "target": "Key",
+              "source": "response",
+              "path": "TagDescriptions[].Tags[].Key"
+            }],
+            "path": "TagDescriptions[].Tags[]"
+          }
+        }
+      }
+    },
+    "Listener": {
+      "identifiers": [{
+        "name": "Arn",
+        "memberName": "ListenerArn"
+      }],
+      "shape": "Listener",
+      "load": {
+        "request": {
+          "operation": "DescribeListeners",
+          "params": [
+            { "target": "ListenerArns[0]", "source": "identifier", "name": "Arn" }
+          ]
+        },
+        "path": "Listeners[0]"
+      },
+      "hasMany": {
+        "Rules": {
+          "request": {
+            "params": [{
+              "target": "ListenerArn",
+              "source": "arn"
+            }],
+            "operation": "DescribeRules"
+          },
+          "resource": {
+            "type": "Rule",
+            "identifiers": [{
+              "target": "Arn",
+              "source": "response",
+              "path": "Rules[].RuleArn"
+            }],
+            "path": "Rules[]"
+          }
+        }
+      }
+    },
+    "Rule": {
+      "identifiers": [{
+        "name": "Arn",
+        "memberName": "RuleArn"
+      }],
+      "shape": "Rule"
+    },
+    "Tag": {
+      "shape": "Tag",
+      "identifiers": [{
+        "name": "Key"
+      }]
+    },
+    "TargetGroup": {
+      "shape": "TargetGroup",
+      "identifiers": [{
+        "name": "Name",
+        "memberName": "TargetGroupName"
+      }]
+    }
+  }
+}

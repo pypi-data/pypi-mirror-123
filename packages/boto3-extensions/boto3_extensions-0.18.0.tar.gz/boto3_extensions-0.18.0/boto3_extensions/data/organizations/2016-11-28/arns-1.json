@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "resources": {
+        "Policy": {
+            "arn": {
+                "dataPath": [
+                    "PolicySummary",
+                    "Arn"
+                ]
+            }
+        }
+    }
+}

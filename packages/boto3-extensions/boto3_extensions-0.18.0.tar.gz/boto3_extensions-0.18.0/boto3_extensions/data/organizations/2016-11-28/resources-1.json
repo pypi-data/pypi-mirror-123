@@ -1,0 +1,117 @@
+{
+    "service": {
+        "hasMany": {
+            "ServiceControlPolicies": {
+                "request": {
+                    "operation": "ListPolicies",
+                    "params": [
+                        {
+                            "target": "Filter",
+                            "source": "string",
+                            "value": "SERVICE_CONTROL_POLICY"
+                        }
+                    ]
+                },
+                "resource": {
+                    "type": "Policy",
+                    "identifiers": [
+                        {
+                            "target": "Id",
+                            "source": "response",
+                            "path": "Policies[].Id"
+                        }
+                    ]
+                }
+            },
+            "BackupPolicies": {
+                "request": {
+                    "operation": "ListPolicies",
+                    "params": [
+                        {
+                            "target": "Filter",
+                            "source": "string",
+                            "value": "BACKUP_POLICY"
+                        }
+                    ]
+                },
+                "resource": {
+                    "type": "Policy",
+                    "identifiers": [
+                        {
+                            "target": "Id",
+                            "source": "response",
+                            "path": "Policies[].Id"
+                        }
+                    ]
+                }
+            },
+            "TagPolicies": {
+                "request": {
+                    "operation": "ListPolicies",
+                    "params": [
+                        {
+                            "target": "Filter",
+                            "source": "string",
+                            "value": "TAG_POLICY"
+                        }
+                    ]
+                },
+                "resource": {
+                    "type": "Policy",
+                    "identifiers": [
+                        {
+                            "target": "Id",
+                            "source": "response",
+                            "path": "Policies[].Id"
+                        }
+                    ]
+                }
+            },
+            "AIServicesOptOutPolicies": {
+                "request": {
+                    "operation": "ListPolicies",
+                    "params": [
+                        {
+                            "target": "Filter",
+                            "source": "string",
+                            "value": "AISERVICES_OPT_OUT_POLICY"
+                        }
+                    ]
+                },
+                "resource": {
+                    "type": "Policy",
+                    "identifiers": [
+                        {
+                            "target": "Id",
+                            "source": "response",
+                            "path": "Policies[].Id"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "resources": {
+        "Policy": {
+            "identifiers": [
+                {
+                    "name": "Id"
+                }
+            ],
+            "shape": "Policy",
+            "load": {
+                "request": {
+                    "operation": "DescribePolicy",
+                    "params": [
+                        {
+                            "target": "PolicyId",
+                            "source": "identifier",
+                            "name": "Id"
+                        }
+                    ]
+                },
+                "path": "Policy"
+            }
+        }
+    }
+}
