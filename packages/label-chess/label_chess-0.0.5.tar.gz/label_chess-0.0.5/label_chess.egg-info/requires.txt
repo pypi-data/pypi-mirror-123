@@ -1,0 +1,8 @@
+pandas<1.2,>=1.1
+opencv-python<4.6,>=4.5
+chess<1.5,>=1.4
+sqlalchemy<1.5,>1.4
+Pillow<8.2,>=8.1.2
+fen2pil>=0.0.1
+youtube-dl
+requests
