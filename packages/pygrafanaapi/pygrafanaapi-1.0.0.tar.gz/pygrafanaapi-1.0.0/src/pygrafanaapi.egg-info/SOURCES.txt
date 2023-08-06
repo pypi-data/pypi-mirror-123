@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pygrafanaapi/__init__.py
+src/pygrafanaapi/pygrafanaapi.py
+src/pygrafanaapi.egg-info/PKG-INFO
+src/pygrafanaapi.egg-info/SOURCES.txt
+src/pygrafanaapi.egg-info/dependency_links.txt
+src/pygrafanaapi.egg-info/requires.txt
+src/pygrafanaapi.egg-info/top_level.txt
