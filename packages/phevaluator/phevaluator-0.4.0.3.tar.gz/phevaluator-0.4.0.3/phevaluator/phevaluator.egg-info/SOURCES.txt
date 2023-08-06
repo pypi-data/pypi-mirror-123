@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+phevaluator/phevaluator.egg-info/PKG-INFO
+phevaluator/phevaluator.egg-info/SOURCES.txt
+phevaluator/phevaluator.egg-info/dependency_links.txt
+phevaluator/phevaluator.egg-info/requires.txt
+phevaluator/phevaluator.egg-info/top_level.txt
+phevaluator/tables/__init__.py
+phevaluator/tables/dptables.py
+phevaluator/tables/hashtable.py
+phevaluator/tables/hashtable5.py
+phevaluator/tables/hashtable6.py
+phevaluator/tables/hashtable7.py
+phevaluator/tables/hashtable_omaha.py
