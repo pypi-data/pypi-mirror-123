@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+eric_rf_snmplibrary.egg-info/PKG-INFO
+eric_rf_snmplibrary.egg-info/SOURCES.txt
+eric_rf_snmplibrary.egg-info/dependency_links.txt
+eric_rf_snmplibrary.egg-info/requires.txt
+eric_rf_snmplibrary.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: eric-rf-snmplibrary
+Version: 0.2.2
+Summary: Ericsson SNMP Library for Robot Framework
+Home-page: UNKNOWN
+Author: Davide Battaglia
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/eric-rf-snmplibrary
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Robot Framework
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Testing
