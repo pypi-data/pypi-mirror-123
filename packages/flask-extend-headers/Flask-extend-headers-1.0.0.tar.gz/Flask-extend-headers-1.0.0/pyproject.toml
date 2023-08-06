@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "Flask-extend-headers"
+version = "v1.0.0"
+description = "Flask extend headers module for API versioning."
+authors = [
+    "Luis Emilio Moreno <emilio@touchof.tech>"
+]
+license = "MIT"
+readme = "README.md"
+include = [
+    { path = "tests", format = "sdist" }
+]
+homepage = "https://github.com/lemiliomoreno/flask-extend-headers"
+repository = "https://github.com/lemiliomoreno/flask-extend-headers"
+keywords = ["flask", "extend", "custom", "headers"]
+classifiers=[
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+flask = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+pytest-cov = "^3.0.0"
