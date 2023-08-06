@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+crowdstrikeclient/crowdstrike_client.egg-info/PKG-INFO
+crowdstrikeclient/crowdstrike_client.egg-info/SOURCES.txt
+crowdstrikeclient/crowdstrike_client.egg-info/dependency_links.txt
+crowdstrikeclient/crowdstrike_client.egg-info/top_level.txt
