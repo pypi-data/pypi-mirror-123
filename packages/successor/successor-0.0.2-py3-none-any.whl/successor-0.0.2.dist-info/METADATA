@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: successor
+Version: 0.0.2
+Summary: Predict the next number in a sequence, or the next k
+Home-page: https://github.com/microprediction/successor
+Author: microprediction
+Author-email: peter.cotton@microprediction.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: pathlib
+Requires-Dist: getjson
+Requires-Dist: tensorflow
+
+# successor
+Predicts the next number in a sequence, or next k
+
+
