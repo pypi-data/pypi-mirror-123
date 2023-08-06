@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: isqlite
+Version: 0.11
+Summary: An improved Python interface to SQLite
+Home-page: UNKNOWN
+Author: Ian Fisher
+Author-email: iafisher@fastmail.com
+License: MIT
+Project-URL: Source, https://github.com/iafisher/isqlite
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: SQL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Database
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: sqliteparser (>=0.2.5)
+Requires-Dist: tabulate (>=0.8.9)
+Requires-Dist: xcli (>=0.2)
+
+# isqlite
+isqlite is an improved Python interface to SQLite. It has a more convenient API, support for database migrations, and a command-line interface.
+
+
+```python
+from isqlite import Database
+
+with Database(":memory:") as db:
+    pk = db.create("employees", {"name": "John Doe", "age": 30})
+
+    person = db.get_by_pk("employees", pk)
+    print(person["name"], person["age"])
+
+    db.update_by_pk("employees", pk, {"age": 35})
+
+    employees = db.list(
+        "employees",
+        where="name LIKE :name_pattern AND age > 40",
+        values={"name_pattern": "John%"},
+    )
+
+    pairs = db.sql(
+        """
+        SELECT
+          teams.name, employees.name
+        FROM
+          employees
+        INNER JOIN
+          teams
+        ON
+          employees.team = teams.id
+        """
+    )
+```
+
+
+## Features
+- A convenient Python API
+- Database migrations
+- A command-line interface
+
+
+## Installation
+Install isqlite with Pip:
+
+```shell
+$ pip install isqlite
+```
+
+
+## Documentation
+Comprehensive documentation, including the API reference, is available at <https://isqlite.readthedocs.io/en/latest/>.
+
+
