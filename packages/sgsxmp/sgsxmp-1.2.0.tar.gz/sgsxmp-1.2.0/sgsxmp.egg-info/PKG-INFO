@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sgsxmp
+Version: 1.2.0
+Summary: Add xmp to Image Carriers
+Home-page: UNKNOWN
+Author: Andrew Neary
+Author-email: andrew.neary@sgsco.com
+License: SGS
+Keywords: sgsxmp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Package for adding custom xmp to Image Carriers
+
