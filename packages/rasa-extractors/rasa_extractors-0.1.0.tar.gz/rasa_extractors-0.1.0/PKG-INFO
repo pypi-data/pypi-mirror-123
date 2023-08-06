@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rasa-extractors
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/4thel00z/rasa_extractors
+License: MIT
+Author: 4thel00z
+Author-email: 4thel00z@gmail.com
+Requires-Python: >=3.8,<3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: flashtext (>=2.7,<3.0)
+Requires-Dist: rasa (==2.8.4)
+Description-Content-Type: text/markdown
+
+# rasa_extractors
+
+## Motivation
+
+Provide a dumpyard for rasa extractors without annoying dependencies.
+
+## License
+
+This project is licensed under the MIT license.
+
