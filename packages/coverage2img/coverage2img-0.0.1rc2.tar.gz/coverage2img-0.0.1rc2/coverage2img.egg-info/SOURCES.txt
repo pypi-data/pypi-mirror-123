@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+coverage2img/__init__.py
+coverage2img/coverage2img.py
+coverage2img/coverage_model.py
+coverage2img/main.py
+coverage2img.egg-info/PKG-INFO
+coverage2img.egg-info/SOURCES.txt
+coverage2img.egg-info/dependency_links.txt
+coverage2img.egg-info/entry_points.txt
+coverage2img.egg-info/requires.txt
+coverage2img.egg-info/top_level.txt
