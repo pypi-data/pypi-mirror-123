@@ -1,0 +1,10 @@
+jctl-1.1.11.data/scripts/jctl,sha256=VUve0yXowiNb_uCi4dZdIr-S_e5OI7W1G-222BWkf2k,20361
+jctl-1.1.11.data/scripts/patch.py,sha256=GrjAAxOdTebXcX3bfni-b8GwSRExmuoMlaH56-XTcJE,15033
+jctl-1.1.11.data/scripts/pkgctl,sha256=yOrwCHRP4wWU2hG010cQ25Y04bdJ1roUMd0prV1rF0I,11687
+jctl-1.1.11.data/scripts/setconfig.py,sha256=mpT2UaT8l-KnHAQAkyC8qYqyjj2ojOB5XQ0D73RbcvQ,3856
+jctl-1.1.11.dist-info/LICENSE,sha256=WqmkFiJzyymD8UH2sD7-HGd_7PIuT8yqazvOWpy7dpc,1195
+jctl-1.1.11.dist-info/METADATA,sha256=Lh3oz9Ku1gFtI5ZKrEkfKy1k0xhIqmE0mONoAArfMW8,3392
+jctl-1.1.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jctl-1.1.11.dist-info/entry_points.txt,sha256=OQbYWqmhOFtevxKwle_0yDJVkEQDLSE63ESMm8J7Eyk,52
+jctl-1.1.11.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jctl-1.1.11.dist-info/RECORD,,
