@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tests/__init__.py
+tests/argguard_test.py
+yamlattributes/__init__.py
+yamlattributes/yamlattributes.py
+yamlattributes.egg-info/PKG-INFO
+yamlattributes.egg-info/SOURCES.txt
+yamlattributes.egg-info/dependency_links.txt
+yamlattributes.egg-info/top_level.txt
