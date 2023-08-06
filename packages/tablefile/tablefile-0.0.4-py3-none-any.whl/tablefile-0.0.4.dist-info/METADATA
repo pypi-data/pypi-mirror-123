@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: tablefile
+Version: 0.0.4
+Summary: A package for reading and processing tabular data files for analytical applications
+Home-page: https://github.com/dwaipayandeb/scifile
+Author: Dwaipayan Deb
+Author-email: dwaipayandeb@yahoo.co.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# tablefile package for python for reading a data file with multiple columns separated by space or any other character
+
+Install command: 
+---------------
+`pip install tablefile`
+
+
+Use example:
+------------
+```
+from tablefile import file
+f1=file("C:/Folder/SubFolder/data-file-name.txt","\t") # Last argument here specifies the column separator (here tab). 
+#    or
+f1=file("C:/Folder/SubFolder/data-file-name.txt") #If separator is blank or space (" ") one need not specify separator.
+lines=[] # An empty list to store lines from the file
+cols=[]  # An empty list to store columns from the file 
+average=[] # An empty list to store average of column values
+sum=[] # An empty list to store summation of column values
+sd=[] # An empty list to store standard deviation of column values
+max=[] # An empty list to store maximum number among column values
+min=[] # An empty list to store minimum number among column values
+ 
+f1.read(lines,"l/c") # or just 'f1.read(lines)'. This will read all the lines and store in 'lines' as list array
+f1.read(cols,"c/l")# Will read all the columns and store in 'cols' as list array
+f1.read(average,"av")
+f1.read(sum,"sm")
+f1.read(sd,"sd")
+f1.read(max,"mx")
+f1.read(min,"mn")
+
+print(lines[i][j]) # Prints column j element of line number i  (e.g. for 1st line i=0 and for 1st column j=0)
+print(cols[i][j]) # Prints column i element of line number j  
+print("Average=",average,"Sum=",sum,"Sigma=",sd,"Maximum=",max,"Minimum=",min)
+
+# In the below operations the argument can be any 'list'
+List_converted=convert(cols[0],'(x**2+sin(x))/2') # converts elements of a list by following any pre-defined expression
+Value_sum=sm(cols[0]) # Summation of numeric elements. Strings will be neglected 
+Value_av=av(cols[0]) # Average of numeric elements. Strings will be neglected
+Value_sd=sd(cols[0]) # Standard deviation of numeric elements. Strings will be neglected
+Value_mx=mx(cols[0]) # Maximum of numeric elements. Strings will be neglected
+Value_mn=mn(cols[0]) # Minimum of numeric elements. Strings will be neglected 
+
+print(List_converted,Value_sum,Value_av,Value_sd,Value_mx,Value_mn)
+```
+
+For details please follow the link https://www.respt.in/p/python-package-tablefile.html
+
+
