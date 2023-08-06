@@ -1,0 +1,10 @@
+sbclassifier/__init__.py,sha256=VxpTywnGIFOr9N6JZ_dxkszD8ZmSYUiIth2EHc8Rcw8,292
+sbclassifier/chi2.py,sha256=_Bk6b-ulnS8LV-kBVG4GNM3-iKbtFekUfPhjCYkykaA,5339
+sbclassifier/classifier.py,sha256=JP8IayglCl9O0e0JzSXro7NCuFQWwBxfw3zTb2dc1QM,13773
+sbclassifier/histogram.py,sha256=fiBadl3T7D9FcekAKNNda8XISDX5TFKsHZKj9lyeDHc,6135
+sbclassifier/tokenizer.py,sha256=ZSTVB4EwtcyI8wFsN6_6bxBC_vTGOApZtfcQ8vLjUKY,24528
+sbclassifier-0.1.1.dist-info/LICENSE.txt,sha256=St1Bz5WZ55fACUoP1H9oysBayXXll6lsV8lJOz3_qzg,2649
+sbclassifier-0.1.1.dist-info/METADATA,sha256=CWeeffj7Ms06NNf6tz6y1tYspG0CRwYdgszuHCCOxm0,4001
+sbclassifier-0.1.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+sbclassifier-0.1.1.dist-info/top_level.txt,sha256=g6n6R5dKDw-dbbzMzvTQfJ1hrnW8L-RGyEl2Aw_QD5Y,13
+sbclassifier-0.1.1.dist-info/RECORD,,
