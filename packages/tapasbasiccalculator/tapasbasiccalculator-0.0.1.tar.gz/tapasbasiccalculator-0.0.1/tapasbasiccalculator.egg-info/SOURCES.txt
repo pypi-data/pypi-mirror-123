@@ -1,0 +1,9 @@
+MANIFEST.in
+changelog.txt
+license.txt
+setup.py
+tapasbasiccalculator/__init__.py
+tapasbasiccalculator.egg-info/PKG-INFO
+tapasbasiccalculator.egg-info/SOURCES.txt
+tapasbasiccalculator.egg-info/dependency_links.txt
+tapasbasiccalculator.egg-info/top_level.txt
