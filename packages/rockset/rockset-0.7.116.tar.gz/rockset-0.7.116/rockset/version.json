@@ -1,0 +1,12 @@
+{
+    "format": "v1",
+    "major": "0",
+    "minor": "7",
+    "patch": "116",
+    "pre_release": ["rel", "20211015"],
+    "build_info": ["8bde0553cc"],
+    "version": "0.7.116-rel.20211015+8bde0553cc",
+    "dockertag": "0.7.116-rel.20211015-8bde0553cc",
+    "python": "0.7.116",
+    "commit_hash": "8bde0553cc62208d1e84"
+}
