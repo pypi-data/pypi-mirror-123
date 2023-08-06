@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+printDebugging/__init__.py
+printDebugging/debugger.py
+print_debugging.egg-info/PKG-INFO
+print_debugging.egg-info/SOURCES.txt
+print_debugging.egg-info/dependency_links.txt
+print_debugging.egg-info/requires.txt
+print_debugging.egg-info/top_level.txt
