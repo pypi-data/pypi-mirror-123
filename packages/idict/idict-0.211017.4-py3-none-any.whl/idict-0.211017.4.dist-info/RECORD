@@ -1,0 +1,14 @@
+idict/__init__.py,sha256=TwgcyPyqT1kcrMF_EGDXs5LD6EQ2YEGJcDSraHU-Mjg,1371
+idict/appearance.py,sha256=CUv6W3bT17scJ5bJEJr9uknAXZ7kGHkzxQnSxG4gbbY,4744
+idict/compression.py,sha256=i5DlKNDOTPzAYSp5uKFrPIVVbzZhnn6MK2LQrhmlgxI,3212
+idict/config.py,sha256=LC2yyktluIvDwCAtGa1OrtWOf4V7_Xey_Jt8yTHUrkU,1693
+idict/core/__init__.py,sha256=A_YCIoahDNoxBIlAWSny_ysb8fKhv1uxr4irUxXc8Ks,1027
+idict/core/identification.py,sha256=UC5p4x0TvSZJRHFavS7sAnVtE8qIlJaGjgUG3s5w5zc,3222
+idict/core/idict_.py,sha256=xe63eXj_MeOwoZm15-_koDw62QkE6yWruRGwKB2YDqY,10762
+idict/core/rshift.py,sha256=kSY1uRinuc1HLp0MkGN23UqUPhU9y7qpO5eobf-c52c,8797
+idict/empty.py,sha256=RnNK78ORxcrslaeJAZeF-ow1FqSmhlMoGG_Q1wIJEBU,1643
+idict/frozenidentifieddict.py,sha256=BPdegjxBuh7MZWSsD_ZYBhtN15XwsrCFoQ8KnOerkNo,11962
+idict-0.211017.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+idict-0.211017.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+idict-0.211017.4.dist-info/METADATA,sha256=S1hhvMjulc5PNxhfMBy9Zwun5yZM7dv9PoUkAqvpxW0,13143
+idict-0.211017.4.dist-info/RECORD,,
