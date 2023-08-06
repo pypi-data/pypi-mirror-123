@@ -1,0 +1,11 @@
+flake8-bugbear
+black
+isort
+autoflake
+sqlalchemy[mypy]
+mypy
+pydantic[email]
+pytest
+coverage[toml]
+pytest-cov
+faker
