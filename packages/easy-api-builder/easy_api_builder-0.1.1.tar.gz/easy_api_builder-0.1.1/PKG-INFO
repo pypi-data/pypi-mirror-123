@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: easy_api_builder
+Version: 0.1.1
+Summary: easy_api_builder is an easy way to create you own API in python
+Home-page: https://github.com/Envyre-Development/easy_api_builder
+Author: Areo
+Author-email: areo@envyre.de
+License: MIT
+Download-URL: https://github.com/Envyre-Development/easy_api_builder/archive/refs/tags/easy_api_builder.tar.gz
+Description: API\_Easy
+        =========
+        
+        An Python Package for easily create APIs in Python
+        
+        ``pip install easy-api-builder``
+        
+        Requiremnets: <= python 3.6
+        
+        Required modules --> Flask
+        
+        Documentation
+        -------------
+        
+        Make an API and Docs with easy\_api\_builder
+        
+        .. code:: py
+        
+        
+            from easy_api_builder import EasyAPI
+        
+            json = {
+               "api_version": 0.1,
+               "bot_version": 1.2.3
+            }
+        
+            app = EasyAPI()
+            app.start(json, "<h1>Docs</h1>","Sitename", "siteDescription", "/")
+        
+        The API runs on default localhost port 80 (localhost/)
+        
+        You can replace the / with you path to the API Site.
+        
+        The Docs can you find under localhost/docs
+        
+        **How to customize?**
+        
+        To customize the Documentation and error page, go in the package folder
+        and edit the index.html and the 404.html
+        
+Keywords: api,easy,api_maker
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
