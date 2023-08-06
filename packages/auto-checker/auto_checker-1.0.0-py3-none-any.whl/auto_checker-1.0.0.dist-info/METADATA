@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: auto-checker
+Version: 1.0.0
+Summary: A  light weight package to check the codes of candidates who interview with me.
+Home-page: https://github.com/kevinscaria/autochecker
+Author: Kevin Scaria
+Author-email: scariakevin1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
