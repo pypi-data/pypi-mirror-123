@@ -1,0 +1,4 @@
+[console_scripts]
+dascasi_download = dascutils.__main__:dascasi_download
+dascasi_movie = dascutils.__main__:dascasi_movie
+
