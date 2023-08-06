@@ -1,0 +1,14 @@
+{
+    "mainJar": "kotlin-jupyter-kernel-0.10.3-20.jar",
+    "mainClass": "org.jetbrains.kotlinx.jupyter.IkotlinKt",
+    "classPath": [
+        "lib-0.10.3-20.jar",
+        "api-0.10.3-20.jar",
+        "kotlin-script-runtime-1.6.20-dev-3702.jar",
+        "kotlin-reflect-1.5.30.jar",
+        "kotlin-stdlib-1.5.30.jar",
+        "annotations-13.0.jar",
+        "kotlin-stdlib-common-1.5.30.jar"
+    ],
+    "debuggerConfig": ""
+}
