@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: visedit
+Version: 1.0.5
+Summary: Python Library to visualize string edit
+Home-page: https://github.com/ukiuki-satoshi/visedit
+Author: uki.uki.satoshi
+Author-email: 39693776+ukiuki-satoshi@users.noreply.github.com
+License: MIT
+Description: # Abstract
+        VisEdit is a visualiation library for string edit and differences between two strings.
+        
+        # Main Features
+        
+        * visualize differences between two strings
+        * generate formatted text and html
+        
+        
+        # Installation
+        
+        install using pip:
+        
+        ```
+        $ pip install visedit
+        ```
+        
+        # Example Codes
+        
+        ## Generate formatted text or html
+        
+        ```
+        from visedit import StringEdit
+        source_str = "kitten"
+        target_str = "sitting"
+        se = StringEdit(source_str, target_str)
+        text = se.generate_text()
+        print(text)
+        
+        # spaces will be truncated if truncate=True
+        text = se.generate_text(truncate=True)
+        # also available html as well as text
+        html = se.generate_html()
+        ```
+        
+        ## Change color setting
+        
+        ```
+        # setting for text
+        e = StringEdit(source_str, target_str, text_color_settings={
+        "wrong": "YELLOW",
+        "correct": "GREEN",
+        "base": "WHITE",
+        })
+        # setting for html
+        e = StringEdit(source_str, target_str, html_color_settings={
+        "wrong": "YELLOW",
+        "correct": "GREEN",
+        "base": "WHITE",
+        })
+        ```
+        
+        available colors are:
+        
+        * BLACK
+        * RED
+        * GREEN
+        * YELLOW
+        * BLUE
+        * PURPLE
+        * CYAN
+        * WHITE
+        
+Keywords: EditDistance,LevenshteinDistance,NLP
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
