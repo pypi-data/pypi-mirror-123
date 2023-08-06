@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-connector-telephony
+Version: 12.0.20211016.0
+Summary: Meta package for oca-connector-telephony Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-asterisk-click2dial
+Requires-Dist: odoo12-addon-base-phone
+Requires-Dist: odoo12-addon-base-phone-popup
+Requires-Dist: odoo12-addon-connector-voicent
+Requires-Dist: odoo12-addon-crm-phone
+Requires-Dist: odoo12-addon-event-phone
+Requires-Dist: odoo12-addon-hr-phone
+Requires-Dist: odoo12-addon-hr-recruitment-phone
+Requires-Dist: odoo12-addon-sms-ovh-http
+
+UNKNOWN
+
