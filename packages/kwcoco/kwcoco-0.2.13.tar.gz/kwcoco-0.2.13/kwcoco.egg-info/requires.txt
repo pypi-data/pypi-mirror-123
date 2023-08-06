@@ -1,0 +1,76 @@
+jsonschema
+kwarray
+kwimage
+numpy
+pandas
+parse
+scikit-learn
+scipy
+scriptconfig
+six
+sortedcontainers
+ubelt
+uritools
+xarray
+
+[:python_version < "3.7.0" and python_version >= "3.6.0"]
+networkx
+networkx
+
+[:python_version >= "3.7.0"]
+networkx
+
+[all]
+jsonschema
+kwarray
+kwimage
+numpy
+pandas
+parse
+scikit-learn
+scipy
+scriptconfig
+six
+sortedcontainers
+ubelt
+uritools
+xarray
+kwplot
+seaborn
+sqlalchemy
+jq
+coverage
+xdoctest
+timerit
+pytest
+
+[all:python_version < "3.6.0"]
+pytest-cov
+
+[all:python_version < "3.7.0" and python_version >= "3.6.0"]
+networkx
+networkx
+
+[all:python_version >= "3.6.0"]
+pytest-cov
+
+[all:python_version >= "3.7.0"]
+networkx
+
+[optional]
+kwplot>=0.4.8
+seaborn>=0.9.0
+sqlalchemy>=1.3.22
+jq>=1.1.3
+
+[tests]
+coverage
+xdoctest
+timerit
+pytest
+
+[tests:python_version < "3.6.0"]
+pytest-cov
+
+[tests:python_version >= "3.6.0"]
+pytest-cov
