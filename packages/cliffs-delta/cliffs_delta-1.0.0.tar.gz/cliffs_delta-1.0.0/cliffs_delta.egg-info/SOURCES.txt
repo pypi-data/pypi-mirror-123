@@ -1,0 +1,8 @@
+README.md
+setup.py
+cliffs_delta/__init__.py
+cliffs_delta/test_cliff.py
+cliffs_delta.egg-info/PKG-INFO
+cliffs_delta.egg-info/SOURCES.txt
+cliffs_delta.egg-info/dependency_links.txt
+cliffs_delta.egg-info/top_level.txt
