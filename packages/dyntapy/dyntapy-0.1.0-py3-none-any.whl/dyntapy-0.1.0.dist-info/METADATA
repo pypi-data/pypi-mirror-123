@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: dyntapy
+Version: 0.1.0
+Summary: Macroscopic Static and Dynamic Traffic Assignment in Python 
+Home-page: https://gitlab.kuleuven.be/ITSCreaLab/mobilitytools
+Author: Paul Ortmann
+Author-email: itscrealab@kuleuven.be
+License: GPLv3
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numba
+Requires-Dist: bokeh
+Requires-Dist: osmnx
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: geojson
+Requires-Dist: pyyaml
+Requires-Dist: networkx
+Requires-Dist: pyproj
+Requires-Dist: geopandas
+Requires-Dist: Shapely
+Requires-Dist: matplotlib
+Requires-Dist: notebook
+Requires-Dist: setuptools
+
+# Dyntapy - Dynamic Traffic Assignment in Python
+Provided functionalities:
+- Network generation from OSM using OSMnx complying with [GMNS](https://github.com/zephyr-data-specs/GMNS) attribute names.
+- Static Assignments (deterministic user equilibrium: FW, DialB, MSA; stochastic, uncongested: Dial's Algorithm)
+- Dynamic User Equilibrium using the iterative link transmission model [^1]
+- Visualization of real and toy networks with Static and Dynamic attributes using Bokeh, including bidirectional flow visualization
+
+[^1]: convergence according to the provided excess cost criteria cannot be guaranteed for a reasonable amount of iterations
+
+There are demo tutorials available that you can run in Binder.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.kuleuven.be%2FITSCreaLab%2Fpublic-toolboxes%2Fdyntapy/HEAD)
+
+# How to install
+If you want this to be part of a particular conda environment, activate it first.
+```shell
+conda activate your-environment
+```
+## from PyPi
+dyntapy is available from PyPi 
+```shell
+python -m pip install dyntapy
+```
+## from this repository 
+Download the repository
+we now can install the package with
+```shell
+python -m pip install -e path-to-folder
+```
+pip automatically pulls all the dependencies that are listed in the setup.py.
+Using -e makes the repo editable.
+If you make changes or add a functionality it will be available in a fresh session
+or if you reload the module.
+verify that importing works as expected, open the interpreter
+```shell
+python
+```
+and try
+```python
+import dyntapy
+```
+voila!
+
+
