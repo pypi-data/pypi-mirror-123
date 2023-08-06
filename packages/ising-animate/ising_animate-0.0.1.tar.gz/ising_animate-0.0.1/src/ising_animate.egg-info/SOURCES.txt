@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/ising_animate/__init__.py
+src/ising_animate/__main__.py
+src/ising_animate/ising.py
+src/ising_animate/lattice.py
+src/ising_animate/timer.py
+src/ising_animate.egg-info/PKG-INFO
+src/ising_animate.egg-info/SOURCES.txt
+src/ising_animate.egg-info/dependency_links.txt
+src/ising_animate.egg-info/requires.txt
+src/ising_animate.egg-info/top_level.txt
+src/ising_animate/examples/__init__.py
+src/ising_animate/examples/heating.py
