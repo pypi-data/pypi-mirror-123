@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/win64pyinstaller/__init__.py
+src/win64pyinstaller.egg-info/PKG-INFO
+src/win64pyinstaller.egg-info/SOURCES.txt
+src/win64pyinstaller.egg-info/dependency_links.txt
+src/win64pyinstaller.egg-info/top_level.txt
