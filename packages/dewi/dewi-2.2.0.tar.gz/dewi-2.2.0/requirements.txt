@@ -1,0 +1,5 @@
+nose
+pycodestyle
+pyyaml
+Jinja2
+watchdog

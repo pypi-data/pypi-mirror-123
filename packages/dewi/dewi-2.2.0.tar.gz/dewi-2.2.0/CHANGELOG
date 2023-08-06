@@ -1,0 +1,101 @@
+2.2.0
+ - requires Python 3.8
+ - updated to use dewi-core 4.0.0
+
+2.1.0
+  - Updated to run with latest other DEWI modules:
+    dewi-core 3.1.0 and dewi-commands 2.1.0
+
+2.0.0
+  - !!! DEWI goes into multiple repositories and packages
+  - use only 'protected' members with single leading underscore ('_')
+  - commands: argparse.Namespace object's 'protected', custom
+    members end with '_' instead of leading '_',
+  - add sortphotos command to sort a bunch of photos into directories
+    named based on shoot date
+  - add http command to stream /dev/urandom, mainly for testing purposes
+  - add primes command to calculate the first N primes
+  - add packt command to download books and codes from packtpub
+    note, that it's broken as of now as the web UI is modified already
+  - keep commands only
+  - start using semantic versioning
+1.5
+  - MainApplication: --debug implies --log-level debug
+    default log level: info
+  - images/filedb: add count() to count entries in photo_file_info table
+  - images related dewi_commands.commands: use exiftool-5.26 as MacPorts updated it
+  - safe_delete_images: handle Exceptions at unlink(), mainly PermissionErrors
+  - add further log_*() calls into dewi.rrdtool & realtime_sync
+
+1.4
+  - pretty-print output command list (e.g. 'list-all')
+  - add dewi.utils.archive, which contains an UnZip class to (partially) unzip
+    .zip files
+  - if a command is mistyped or non-existing, print at most 6 similar command
+    names, or list all of them
+  - dewi_commands.common.images.filedb: add rollback() method to FileDatabase
+  - dewi_core.context: Context got 'dewi_commands.commands' and 'command_registry'
+    properties, and always contains the corresponding 'dewi_commands.commands' and
+    'commandregistry' fields
+  - introduce dewi_core.logger module, log_debug, log_info, etc. can be used
+
+1.3
+  - fix setup.py
+
+1.2
+  - add Connection class and ensure_connection() method to kayako module
+    to reuse calculated signature and provide an object for easier testing
+  - config/node: add NodeList and also test the module
+  - rrdtool: use NodeList & fix modifiers
+  - NetworkCardVendors: add option to prevent network usage
+  - logparsers: add support to add multiple callbacks to a pattern:
+    during log processing one pattern matching - multiple calls.
+    And ensure that '\n' (0x10) is handled only as log line separator
+  - add lithurical command to print events of a calendar year
+  - kayako: add TicketStatus and TicketStatuses classes
+
+1.1
+  - add support of generating .PNG files from .rrd files in a munin directory
+  - dewi.utils.yaml: add the module to save a dict to a YAML file
+  - config/node.py: add Node.load_from() to load from a dict (from eg. YAML);
+  - config/node: __setattr__ checks whether key is already in the node
+  - config/config: add _top_level_unsafe_set() used by subclasses, for self[key] = value
+  - logparser: add ISO8601Parser.to_datetime, reuse it in to_timestamp
+  - dewi_core.application: add list and list-all dewi_commands.commands, w/o args 'list' is used
+
+1.0
+  - It can be marked as stable.
+  - Changed to LGPL, to use freely in proprietary code (eg. by me)
+
+0.90
+  - Major update
+  - in_directory() context manager
+  - a product list loader
+  - module for lutheran lithurgical feasts
+  - main app: --wait to wait before exiting (useful on Windows)
+  - main app: --debug / --print-backtrace options
+  - module_framework: add module support for any command (see README.rst)
+     * another Config() as dewi_core.config.Config() class
+     * Messages() class
+  - dewi_logparsers.logparser: parse logs in a directory + modules (see README.rst)
+  - dewi.utils.network: MAC to vendor mapping
+  - dewi.utils.dictionaries: customized behaviour of dicts
+  - dewi.utils.render.py: add Jinja2 TemplateRenderer
+  - dewi_commands.common.realtime_sync + filesync (treesync):
+    sync a directory tree (source code) to a local or remote directory with rules
+  - dewi.utils.process: find_binary/which to search for executable in PATH
+  - dewi.utils.kayako_rest: Request + Host classes to communicate with Kayako's REST API
+  - dewi_core.config.node: Node is a typesafe dict for dewi_core.config module
+  - dewi_commands.common.images + 4 dewi_commands.commands to sort photos from multiple locations:
+      * collect-images -> to an SQLite DB
+      * select-images: select useful entries from collected images
+      * dedup-images: copy unique images into a new location (original -> new mapping is in DB)
+      * safe-delete-images: delete images that are copied by dedup-images (if already copied)
+  - add examples + updated README.rst
+
+0.1
+  - Initial release
+  - Supports / provide plugins and dewi_commands.commands
+  - Added edit command, to easily open file with vim at a specific line,
+    the argument can be copied directly from anything which have similar
+    output as grep -nH ... | cut -f-2 -d:
