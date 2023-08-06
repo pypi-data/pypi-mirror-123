@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+odesli_cli/__init__.py
+odesli_cli/odesli_cli.py
+odesli_cli.egg-info/PKG-INFO
+odesli_cli.egg-info/SOURCES.txt
+odesli_cli.egg-info/dependency_links.txt
+odesli_cli.egg-info/entry_points.txt
+odesli_cli.egg-info/top_level.txt
