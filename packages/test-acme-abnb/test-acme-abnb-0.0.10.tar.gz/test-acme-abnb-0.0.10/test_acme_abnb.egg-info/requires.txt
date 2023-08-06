@@ -1,0 +1,7 @@
+boto3
+botocore
+pyOpenSSL
+tldextract==3.1.0
+
+[dev]
+pytest
