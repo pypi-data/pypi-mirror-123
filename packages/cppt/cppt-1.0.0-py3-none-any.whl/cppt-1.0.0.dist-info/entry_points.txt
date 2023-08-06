@@ -1,0 +1,3 @@
+[console_scripts]
+cppt = cppt.bin.cppt:cli
+
