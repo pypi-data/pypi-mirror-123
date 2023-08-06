@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: yamlizer
+Version: 1.0.0
+Summary: Yamlizer simplifies loading (dumping) of custom Python objects from (to) yaml configuration files
+Author: Atharv Joshi
+Author-email: atharvjoshi@ymail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
