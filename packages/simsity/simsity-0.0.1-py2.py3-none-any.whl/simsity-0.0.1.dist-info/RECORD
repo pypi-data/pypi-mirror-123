@@ -1,0 +1,10 @@
+simsity/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+simsity/datasets.py,sha256=v7Ppk8QpWtwvXtPwegmRCi_rW75O6ruvigQp1HlWT_4,226
+simsity/service.py,sha256=ePvhdS2UdEL4JI4-YoOdnkBvaHCj82lIj-6T27YngnM,4235
+simsity/indexer/__init__.py,sha256=gE-3Zzs3oM2anAWZiYi4hZOE9TS21a0wmPKGqKAnnhA,71
+simsity/indexer/pynn.py,sha256=RBwMGrjzyJv2cqu4KZFkX5x2woKK35eVhFsb4DzMvk0,944
+simsity-0.0.1.dist-info/LICENSE,sha256=d7-Yf9jsOJ5x0cLyKnj0cYbRrENKwTZEEKacwStkdJ0,1077
+simsity-0.0.1.dist-info/METADATA,sha256=DHhn9f7Tqg6_9GJiQ3Tk1RwLAJ2pcAdqilF7zxdKP2w,2755
+simsity-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+simsity-0.0.1.dist-info/top_level.txt,sha256=yIwppQC14GIhzGMSlv2YL7uxincwzbn-siMCUr9JIxw,8
+simsity-0.0.1.dist-info/RECORD,,
