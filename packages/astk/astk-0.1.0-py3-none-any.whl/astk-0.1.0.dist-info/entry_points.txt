@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        astk=astk.astk:cli
+    
