@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: suitcase-core
+Version: 0.9.1
+Summary: Exporters / serializers for bluesky documents.
+Home-page: https://github.com/NSLS-II/suitcase
+Author: Brookhaven National Lab
+Author-email: dallan@bnl.gov
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+===============================
+suitcase
+===============================
+
+.. image:: https://img.shields.io/travis/NSLS-II/suitcase.svg
+        :target: https://travis-ci.org/NSLS-II/suitcase
+
+.. image:: https://img.shields.io/pypi/v/suitcase.svg
+        :target: https://pypi.python.org/pypi/suitcase
+
+
+Exporters / serializers for bluesky documents.
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!) https://NSLS-II.github.io/suitcase.
+
+Features
+--------
+
+* TODO
+
+
