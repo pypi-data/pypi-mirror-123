@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lagrange_interpolation_genii_evgenii
+Version: 0.2
+Summary: Lagrange interpolation package
+Home-page: https://www.instagram.com/eug_borodin/
+Author: Borodin Evgenii
+Author-email: j.borodin1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Some info
+
+
