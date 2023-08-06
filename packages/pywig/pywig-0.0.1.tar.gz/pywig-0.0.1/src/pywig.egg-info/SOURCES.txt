@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/pywig/__init__.py
+src/pywig/templates.py
+src/pywig/webpage.py
+src/pywig.egg-info/PKG-INFO
+src/pywig.egg-info/SOURCES.txt
+src/pywig.egg-info/dependency_links.txt
+src/pywig.egg-info/requires.txt
+src/pywig.egg-info/top_level.txt

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pywig
+Version: 0.0.1
+Summary: A Python package made to create HTML files and web pages seamlessly.
+Home-page: https://github.com/BobBrown1/pywig
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/BobBrown1/pywig/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PyWig
+
+Welcome to PyWig, a Python library that helps you build HTML webpages saemlessly. PyWig stands for Python Webpage Interactive Generator. This package allows you to set headers, text, links, lists, and more. Learn more about PyWig and how you can use it in our [documentation](https://pywig.readthedocs.io).
+
+## Install The Package
+
+`pip install pywig`
+
+## Examples
+
+**Import Py2HTML:**
+
+`from pywig import webpage`
+
+**Define your Builder:**
+
+`builder = PyWig()`
+
+**Create Your Page:**
+
+`builder.create(title="Your webpage title")`
+
+After following these three steps, you are free to do anything you want with your webpage! Remember to save your file when you are done:
+
+`builder.save(filename="sample.html")`
+
