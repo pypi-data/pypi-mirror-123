@@ -1,0 +1,7 @@
+pandas>=0.14.1
+six>=1.15.0
+
+[test]
+pandas>=0.20.1
+coverage==5.4
+semver==2.10.1
