@@ -1,0 +1,16 @@
+{
+    "classes": {
+    },
+	"properties": {
+		"abstract": "SOCIB:abstract",
+		"catalog": "SOCIB:catalog",
+		"citation": "SOCIB:citation",
+		"contributor": "SOCIB:contributor",
+		"type": "SOCIB:kind",
+		"volume": "SCHEMA:volumeNumber"	
+	},
+	"alias": {
+	}
+}
+
+

@@ -1,0 +1,16 @@
+{
+    "classes": {
+    },
+	"properties": {
+		"abstract": "EPOS:abstract",
+		"catalog": "EPOS:catalog",
+		"citation": "EPOS:citation",
+		"contributor": "EPOS:contributor",
+		"type": "EPOS:kind",
+		"volume": "SCHEMA:volumeNumber"	
+	},
+	"alias": {
+	}
+}
+
+
