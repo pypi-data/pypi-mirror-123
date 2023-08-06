@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sindhu/__init__.py
+sindhu/another.py
+sindhu/mypackage.py
+sindhu.egg-info/PKG-INFO
+sindhu.egg-info/SOURCES.txt
+sindhu.egg-info/dependency_links.txt
+sindhu.egg-info/top_level.txt
