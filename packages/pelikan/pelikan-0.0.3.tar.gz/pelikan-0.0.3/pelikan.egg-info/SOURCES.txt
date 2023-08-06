@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pelikan/Pelikan.py
+pelikan/__init__.py
+pelikan.egg-info/PKG-INFO
+pelikan.egg-info/SOURCES.txt
+pelikan.egg-info/dependency_links.txt
+pelikan.egg-info/entry_points.txt
+pelikan.egg-info/requires.txt
+pelikan.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
