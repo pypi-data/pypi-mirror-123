@@ -1,0 +1,13 @@
+README.md
+setup.py
+director/__init__.py
+director/common.py
+director/formats.py
+director/formatters.py
+director/identify.py
+director/mocking.py
+director_tester.egg-info/PKG-INFO
+director_tester.egg-info/SOURCES.txt
+director_tester.egg-info/dependency_links.txt
+director_tester.egg-info/requires.txt
+director_tester.egg-info/top_level.txt
