@@ -1,0 +1,17 @@
+[console_scripts]
+base100 = codext.base.base100:main
+base122 = codext.base.base122:main
+base16 = codext.base.baseN:main16
+base36 = codext.base.baseN:main36
+base45 = codext.base.base45:main
+base58-bitcoin = codext.base.baseN:main58bc
+base58-flickr = codext.base.baseN:main58fl
+base58-ripple = codext.base.baseN:main58rp
+base62 = codext.base.baseN:main62
+base63 = codext.base.baseN:main63
+base67 = codext.base.baseN:main67
+base85 = codext.base.base85:main
+base91 = codext.base.base91:main
+codext = codext.__init__:main
+debase = codext.base.__init__:main
+
