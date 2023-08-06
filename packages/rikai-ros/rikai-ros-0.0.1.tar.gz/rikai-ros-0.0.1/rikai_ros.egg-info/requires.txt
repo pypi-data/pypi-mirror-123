@@ -1,0 +1,15 @@
+rikai
+numpy
+rosbag
+
+[dev]
+black
+isort
+pytest
+actionlib_msgs
+diagnostic-msgs
+geometry-msgs
+rosgraph-msgs
+sensor-msgs
+tf2-msgs
+trajectory-msgs

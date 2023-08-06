@@ -1,0 +1,9 @@
+README.md
+setup.py
+rikai/contrib/ros/__init__.py
+rikai/contrib/ros/convert.py
+rikai_ros.egg-info/PKG-INFO
+rikai_ros.egg-info/SOURCES.txt
+rikai_ros.egg-info/dependency_links.txt
+rikai_ros.egg-info/requires.txt
+rikai_ros.egg-info/top_level.txt
