@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: convo-engine
+Version: 1.0
+Summary: Convo: the AI powered chatbot API 2.0
+Home-page: UNKNOWN
+Author: Abdelrahman Ahmed
+Author-email: abdelrahman.ahmed@smarttechsys.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6,<3.9
+Provides-Extra: full
+Provides-Extra: gh-release-notes
+Provides-Extra: jieba
+Provides-Extra: spacy
+Provides-Extra: transformers
+
+UNKNOWN
+
