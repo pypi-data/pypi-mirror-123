@@ -1,0 +1,3 @@
+git+https://github.com/phenobarbital/asyncdb.git#egg=asyncdb
+git+https://github.com/phenobarbital/NavConfig.git@main#egg=navconfig
+git+https://github.com/phenobarbital/aiohttp-session@master#egg=aiohttp-session
