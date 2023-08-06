@@ -1,0 +1,5 @@
+pandas
+pythonnet
+
+[dev]
+pytest>=3.7

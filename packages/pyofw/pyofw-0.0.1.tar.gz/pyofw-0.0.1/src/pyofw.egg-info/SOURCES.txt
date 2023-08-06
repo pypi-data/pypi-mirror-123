@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/pyOpenFlows/__init__.py
+src/pyOpenFlows/networkInput.py
+src/pyOpenFlows/setupOpenFlows.py
+src/pyofw.egg-info/PKG-INFO
+src/pyofw.egg-info/SOURCES.txt
+src/pyofw.egg-info/dependency_links.txt
+src/pyofw.egg-info/requires.txt
+src/pyofw.egg-info/top_level.txt
