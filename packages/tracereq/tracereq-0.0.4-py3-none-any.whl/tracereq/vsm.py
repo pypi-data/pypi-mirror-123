@@ -1,0 +1,58 @@
+import math, numpy as np, pandas as pd
+from scipy.sparse import data
+from sklearn.cluster import KMeans
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import pairwise_kernels
+from tabulate import tabulate
+from tracereq.preprocessing_evaluation import cleaned_text, id_req, pengukuranEvaluasi
+
+class measurement:
+    def __init__(self):
+        pass
+  
+    def bow(self, data_raw, id_req, stopwords_list):
+        vectorizer = CountVectorizer(stop_words= stopwords_list)
+        X = vectorizer.fit_transform(data_raw)
+        name_fitur = vectorizer.get_feature_names()
+        df = pd.DataFrame(X.toarray(), index= id_req, columns = name_fitur)
+        return df
+
+    def tfidf(self, data_raw, id_req, norm_list, stopwords_list):
+        vectorizer = TfidfVectorizer(norm= norm_list, stop_words= stopwords_list)
+        X = vectorizer.fit_transform(data_raw)
+        name = vectorizer.get_feature_names()
+        df = pd.DataFrame(X.toarray(), index= id_req, columns= name)
+        return df
+
+    def cosine_measurement(self, data, req):
+        X = np.array(data[0:])
+        Y = np.array(req)
+        cosine_similaritas = pairwise_kernels(X, Y, metric='linear')
+        frequency_cosine = pd.DataFrame(cosine_similaritas, index=X, columns=Y)
+        return frequency_cosine    
+
+    def main(self, cleaned_text, id_req, stopwords_list = 'english' , 
+            norm_list= ['l1', 'l2', 'max'], output= ['bow', 'tfidf', 'th_bow', 'th_tfidf'], threshold= 0.2):
+        data_bow = measurement.bow(self, cleaned_text, id_req, stopwords_list)
+        th_bow = pengukuranEvaluasi.threshold_value(self, data_bow, threshold)
+        data_tfidf = measurement.tfidf(self, cleaned_text, id_req, norm_list, stopwords_list)
+        th_tfiidf = pengukuranEvaluasi.threshold_value(self, data_tfidf, threshold)
+        if 'bow' in output:
+            return data_bow
+        elif 'th_bow' in output:
+            return th_bow
+        elif 'tfidf' in output:
+            return data_tfidf
+        elif 'th_tfidf' in output:
+            return th_tfiidf
+
+
+if __name__ == "__main__":
+  try:
+    a = measurement().main(cleaned_text, id_req, norm_list= 'l2', output= 'tfidf')
+    print(tabulate(a, headers = 'keys', tablefmt = 'psql'))
+
+
+  except OSError as err:
+    print("OS error: {0}".format(err))
