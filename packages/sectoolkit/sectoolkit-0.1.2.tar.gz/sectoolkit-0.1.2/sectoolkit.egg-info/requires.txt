@@ -1,0 +1,11 @@
+bs4
+numpy
+unicodedata
+collections
+pandas
+webbrowser
+datetime
+xmltodict
+json
+tqdm.notebook
+multiprocessing
