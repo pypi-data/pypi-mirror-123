@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+mptc/ColouredStrings.py
+mptc/__init__.py
+mptc/cleanup.py
+mptc/mptc.py
+mptc/newfile.py
+mptc/simplelog.py
+mptc/templates.py
+mptc.egg-info/PKG-INFO
+mptc.egg-info/SOURCES.txt
+mptc.egg-info/dependency_links.txt
+mptc.egg-info/top_level.txt
