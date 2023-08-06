@@ -1,0 +1,3 @@
+[console_scripts]
+grc = grc.scripts.grc:main
+

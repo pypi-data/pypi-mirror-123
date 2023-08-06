@@ -1,0 +1,4 @@
+blessings
+pexpect
+pyyaml
+strec
