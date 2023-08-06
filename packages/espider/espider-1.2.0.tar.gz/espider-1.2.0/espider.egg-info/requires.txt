@@ -1,0 +1,7 @@
+requests
+aiohttp
+parsel
+pymysql
+lxml
+w3lib
+six
