@@ -1,0 +1,11 @@
+shopping_list_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shopping_list_generator/__main__.py,sha256=O4vvI2Oxi_ga4eruVULGxu9wTXiStEp1EMlDaAO3WNQ,1937
+shopping_list_generator/parsingutils.py,sha256=TMXQFpimrTIMX3IqWvGBEPXpXyz6conIyNeJB7qnwdk,566
+shopping_list_generator/recipe.py,sha256=Xk-XW2Mjof6izlZwXWB_ciKSF3axPl0CYITWfZua3cM,559
+shopping_list_generator/recipelocator.py,sha256=R7z6c0qFl4_Dx2AJYTKHwIYzTh0T8Wz9yLmyV6t2iQ0,1401
+shopping_list_generator/shoppinglist.py,sha256=I8UQ3J7A9uSudKM5HEmrjLJkpiHV-1ph_lPNWQtLJY8,864
+shopping_list_generator-0.0.6.dist-info/METADATA,sha256=sO1LFgGtUkr2gBkSihjWyL00bQF0XY9Tid0E4nlh2_I,1501
+shopping_list_generator-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+shopping_list_generator-0.0.6.dist-info/entry_points.txt,sha256=0wi5X_fDGSAoMP26josmyHPFTphmUHGSOU6GBG8iNgE,93
+shopping_list_generator-0.0.6.dist-info/top_level.txt,sha256=lcn3nPjSePFUaXKv7nsT6K0s8WN49RfrYrv3dPaLu3Y,24
+shopping_list_generator-0.0.6.dist-info/RECORD,,
