@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: prove-assignment
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Akshay Pawar
+Author-email: author@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# AlDa Pipeline
+
+Setting up a CI/CD pipeline to automate development process using the Gitlab CI/CD infrastructure. 1st Assignment for Processo e sviluppo del software course @unimib
+
+## What's has been done so far
+We created ```.gtilab-ci.yml``` file where are definded all the stages and jobs listed in the Assignment file.
+
+The project is a simple Python program using ```yfinance``` and ```pandas``` as a requirement. It downloads, using Yahoo Finance APIs, the latest stock prices and volume order of Apple stock. A function able to compute returns (based on adj closes) will be added later.
+
+Regarding the stages developed this is the current status:
+| Stage            | Status                                                                                                           |
+|------------------|------------------------------------------------------------------------------------------------------------------|
+| **Build**            | :heavy_check_mark: This stage is currently working fine |
+| **Verify**           | :heavy_check_mark: This stage is currently performing static and dynamic analysis correctly using ```Prospector``` and ```Bandit``` |
+| **Unit test**        | :heavy_check_mark: This stage is currently working fine|
+| **Integration test** | This stage is currently under development|
+| **Package**          | :heavy_check_mark: Stage is working and creating pkgs in ```./dist/``` folder |
+| **Relase**           | This stage is currently under development |
+| **Deploy**           | This stage is currently under development |
+
+
