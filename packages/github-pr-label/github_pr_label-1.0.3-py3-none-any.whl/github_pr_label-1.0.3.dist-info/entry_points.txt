@@ -1,0 +1,3 @@
+[console_scripts]
+github_pr_label = github_pr_label.__main__:main
+
