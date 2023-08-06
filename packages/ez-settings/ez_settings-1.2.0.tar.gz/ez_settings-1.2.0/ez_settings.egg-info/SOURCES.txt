@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ez_settings/__init__.py
+ez_settings/ez_settings_base.py
+ez_settings/ez_settings_py2.py
+ez_settings/ez_settings_py3.py
+ez_settings/singleton.py
+ez_settings.egg-info/PKG-INFO
+ez_settings.egg-info/SOURCES.txt
+ez_settings.egg-info/dependency_links.txt
+ez_settings.egg-info/top_level.txt
