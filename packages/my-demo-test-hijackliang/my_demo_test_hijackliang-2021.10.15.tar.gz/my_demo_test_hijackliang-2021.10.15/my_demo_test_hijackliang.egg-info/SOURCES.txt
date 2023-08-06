@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+my_demo_test_hijackliang.egg-info/PKG-INFO
+my_demo_test_hijackliang.egg-info/SOURCES.txt
+my_demo_test_hijackliang.egg-info/dependency_links.txt
+my_demo_test_hijackliang.egg-info/top_level.txt
+package_test/__init__.py
+package_test/main.py
