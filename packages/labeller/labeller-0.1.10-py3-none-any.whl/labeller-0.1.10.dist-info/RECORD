@@ -1,0 +1,15 @@
+labeller/__main__.py,sha256=7E48WJEoU26SYfnI1E4Hd7p2OlQxSXN59J-jJkK72Js,35
+labeller/createLabeller.py,sha256=Xc0YklF3XLqPqxsb0DX0jUF-whjiCEEeSrOr5g82P8s,6465
+labeller/htmlElements.py,sha256=v9N_a7qjC8Ctit3PTD2Ykn4QxyptLVFqAAqS7S9AK7w,14566
+labeller/resources/about.html,sha256=jZY3_kqb9TYSaZbJKqNBN-EbBt7uBJ8dIWCRFvcTECc,885
+labeller/resources/app.py,sha256=FVLpftXKX0jilhQl4OEmLy7b0-ZcN0u5mBt8rTjGrRs,4124
+labeller/resources/dashboard.css,sha256=BB28PPQZLe7WfUwxup251ToqEIDwwtOfdnnFeeFcA9k,1691
+labeller/resources/favicon.ico,sha256=w-2Z-jESnf0IhbwEBfOxB72gdHUfU17KVoJENHP0Lcw,15406
+labeller/resources/index.html,sha256=1BRqh47NC4Gd73zVYyfVyNM5RhS6pFQG6hEl6bUtvuY,7237
+labeller/resources/labels.html,sha256=bil8OMI72DprlIgh8l-qZCps9XYgPtGft3BD14teMdM,1096
+labeller/resources/navbar.html,sha256=c4uwvIpME4RQgZti6DrtZWx2s6H6BYfqaEsdBy5dttY,843
+labeller-0.1.10.dist-info/LICENSE,sha256=mHWNz628hoWBTXKALxd9fnfCgJyeI0KsTm4wRdeAzok,1073
+labeller-0.1.10.dist-info/METADATA,sha256=lx9v3NeSlTQuq7SIFXOHutQKnVGAZ2M-Byb5ovw8ioc,5398
+labeller-0.1.10.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+labeller-0.1.10.dist-info/top_level.txt,sha256=F_3wKVFVUxHqlNyzxuFpI_OKMHSnnyOEoKQqV0QIms4,9
+labeller-0.1.10.dist-info/RECORD,,
