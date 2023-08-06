@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Earthquakeupdate-indonesia
+Version: 0.3
+Summary: This package will receive the latest earthquake information from BMKG | Meteorological, Climatological, and Geophysical Agency
+Home-page: https://github.com/Rosita222-bit/Indonesia-earthquake-monitoring
+Author: Vivi Rosita R
+Author-email: vivirosita.r@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Indonesia Earthquake Monitoring
+This package will receive the latest earthquake information from BMKG | Meteorological, Climatological, and Geophysical Agency
+
+## HOW IT WORKS
+This package will scrape form [BMKG](https:bmkg.go.id) to get latest information of earthquake in Indonesia
+
+It utilizes Beautifulsoup4 and Requests to produce JSON output that is ready to be used in web or mobile applications
+
