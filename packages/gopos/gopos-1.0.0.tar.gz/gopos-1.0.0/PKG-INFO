@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gopos
+Version: 1.0.0
+Summary: Python bindings for gopos (https://github.com/thepieterdc/gopos).
+Home-page: https://github.com/thepieterdc/gopos-python
+License: Apache Software License 2.0
+Keywords: bindings,gopos
+Author: Pieter De Clercq
+Author-email: pieterdeclercq@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dacite (>=1.2.0,<2.0.0)
+Requires-Dist: requests (>=2.21.0,<3.0.0)
+Project-URL: Repository, https://github.com/thepieterdc/gopos-python
+Description-Content-Type: text/markdown
+
+# gopos-python
+Python bindings for gopos (https://github.com/thepieterdc/gopos).
+
