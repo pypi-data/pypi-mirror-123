@@ -1,0 +1,9 @@
+feast_azure_provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feast_azure_provider/azure_provider.py,sha256=pt-7xRM12NSlSvstAvq9mcl-5b9EXKHQK1Q8sOFEigs,4995
+feast_azure_provider/mssqlserver.py,sha256=MA8ZK9FJrxAsSTqfvt48KQC3zF6rzi7if4GBvf4JiNk,21603
+feast_azure_provider/mssqlserver_source.py,sha256=4OdxPMMnWSQ8yuposeKpVqJ77wDT15C9d8RSaVij9MY,6935
+feast_azure_provider/registry_store.py,sha256=udge-WtZNM5XCbCBT0Zj4BUnIQQy1vaOmzUjvcXWklE,3068
+feast_azure_provider-0.1.0.dist-info/METADATA,sha256=Pta7YD4cbe-n-J7FGL9BLB4STJZjtdPclL_n3zgFycE,879
+feast_azure_provider-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+feast_azure_provider-0.1.0.dist-info/top_level.txt,sha256=r228_R0Vtik5Ei7XCqiYV4-DqzHP86-_iGFDYoFUpjo,21
+feast_azure_provider-0.1.0.dist-info/RECORD,,
