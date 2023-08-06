@@ -1,0 +1,10 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+pyfdb/__init__.py
+pyfdb/version.py
+pyfdb.egg-info/PKG-INFO
+pyfdb.egg-info/SOURCES.txt
+pyfdb.egg-info/dependency_links.txt
+pyfdb.egg-info/not-zip-safe
+pyfdb.egg-info/top_level.txt
