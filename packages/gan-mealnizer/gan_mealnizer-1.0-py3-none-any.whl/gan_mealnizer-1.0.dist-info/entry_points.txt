@@ -1,0 +1,3 @@
+[console_scripts]
+gan-mealnizer=gan_mealnizer.main:app
+
