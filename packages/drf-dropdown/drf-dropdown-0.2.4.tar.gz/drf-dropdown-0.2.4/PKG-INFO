@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: drf-dropdown
+Version: 0.2.4
+Summary: Dropdown population implementation for Django REST Framework
+Home-page: https://github.com/earthpyy/drf-dropdown
+License: MIT
+Keywords: django,restframework,drf,dropdown
+Author: Preeti Yuankrathok
+Author-email: preetisatit@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django (>=3.0.0,<4.0.0)
+Requires-Dist: djangorestframework (>=3.11.0,<4.0.0)
+Project-URL: Repository, https://github.com/earthpyy/drf-dropdown
+Description-Content-Type: text/markdown
+
+# drf-dropdown
+
+![GitHub](https://img.shields.io/github/license/earthpyy/drf-dropdown)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/earthpyy/drf-dropdown/CI)
+![PyPI](https://img.shields.io/pypi/v/drf-dropdown)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/drf-dropdown)
+![Django Version](https://img.shields.io/badge/django-3.0%20%7C%203.1%20%7C%203.2-blue)
+![Django REST Version](https://img.shields.io/badge/djangorestframework-3.11%20%7C%203.12-blue)
+![Pre-commit Enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)
+
+Dropdown population implementation for Django REST Framework
+
+## Usage
+
+### Add `DropdownView` to API URL
+
+```python
+# urls.py
+import dropdown
+
+urlpatterns = [
+    ...
+    path('dropdown/', dropdown.DropdownView.as_view(), name='dropdown'),
+]
+```
+
+### Define new dropdown
+
+```python
+# someapp/dropdown.py
+import dropdown
+
+@dropdown.register
+def users(query='', **kwargs):
+    return dropdown.from_model(User, label_field='email')
+```
+
+## Development
+
+### Set Up
+
+```bash
+make setup
+```
+
