@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+alot_checkmail/__init__.py
+alot_checkmail/checkmail.py
+alot_plugin_checkmail.egg-info/PKG-INFO
+alot_plugin_checkmail.egg-info/SOURCES.txt
+alot_plugin_checkmail.egg-info/dependency_links.txt
+alot_plugin_checkmail.egg-info/requires.txt
+alot_plugin_checkmail.egg-info/top_level.txt
