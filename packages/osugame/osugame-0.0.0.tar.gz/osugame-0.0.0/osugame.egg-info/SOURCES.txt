@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+osugame.egg-info/PKG-INFO
+osugame.egg-info/SOURCES.txt
+osugame.egg-info/dependency_links.txt
+osugame.egg-info/top_level.txt
