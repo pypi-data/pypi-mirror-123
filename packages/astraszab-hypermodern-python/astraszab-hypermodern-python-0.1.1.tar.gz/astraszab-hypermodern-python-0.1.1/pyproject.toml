@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "astraszab-hypermodern-python"
+version = "0.1.1"
+description = "The hypermodern Python project"
+authors = ["astraszab <u.astraszab@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/astraszab/astraszab-hypermodern-python"
+repository = "https://github.com/astraszab/astraszab-hypermodern-python"
+documentation = "https://hypermodern-python.readthedocs.io"
+keywords = ["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.2"
+requests = "^2.26.0"
+desert = "^2020.11.18"
+marshmallow = "^3.13.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+coverage = {extras = ["toml"], version = "^6.0.2"}
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.6.1"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+flake8-bandit = "^2.1.2"
+flake8-black = "^0.2.3"
+flake8-bugbear = "^21.9.2"
+flake8-import-order = "^0.18.1"
+safety = "^1.10.3"
+mypy = "^0.910"
+types-requests = "^2.25.11"
+types-click = "^7.1.7"
+flake8-docstrings = "^1.6.0"
+darglint = "^1.8.0"
+Sphinx = "^4.2.0"
+sphinx-autodoc-typehints = "^1.12.0"
+codecov = "^2.1.12"
+
+[tool.poetry.scripts]
+hypermodern-python = "astraszab_hypermodern_python.console:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["astraszab_hypermodern_python"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
