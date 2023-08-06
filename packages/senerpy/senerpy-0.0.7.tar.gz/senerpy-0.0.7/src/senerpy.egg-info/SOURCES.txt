@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/senerpy/__init__.py
+src/senerpy/betterpandas.py
+src/senerpy/info.py
+src/senerpy/solar_common.py
+src/senerpy/solar_general.py
+src/senerpy.egg-info/PKG-INFO
+src/senerpy.egg-info/SOURCES.txt
+src/senerpy.egg-info/dependency_links.txt
+src/senerpy.egg-info/top_level.txt
