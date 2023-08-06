@@ -1,0 +1,4 @@
+[console_scripts]
+biopal = biopal.__main__:main
+biopal-quickstart = biopal.quickstart.__main__:main
+
