@@ -1,0 +1,12 @@
+httpx>=0.20.0
+httpcore>=0.13.7
+python-socks>=1.2.4
+
+[asyncio]
+async-timeout>=3.0.1
+
+[curio]
+curio>=1.4
+
+[trio]
+trio>=0.16.0
