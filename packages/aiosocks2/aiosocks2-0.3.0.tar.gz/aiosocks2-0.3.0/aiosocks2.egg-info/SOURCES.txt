@@ -1,0 +1,14 @@
+README.rst
+setup.py
+aiosocks2/__init__.py
+aiosocks2/connector.py
+aiosocks2/constants.py
+aiosocks2/errors.py
+aiosocks2/helpers.py
+aiosocks2/protocols.py
+aiosocks2/test_utils.py
+aiosocks2.egg-info/PKG-INFO
+aiosocks2.egg-info/SOURCES.txt
+aiosocks2.egg-info/dependency_links.txt
+aiosocks2.egg-info/requires.txt
+aiosocks2.egg-info/top_level.txt
