@@ -1,0 +1,3 @@
+[console_scripts]
+erome = erome.erome:main
+
