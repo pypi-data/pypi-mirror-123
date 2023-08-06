@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/pkgmt/__init__.py
+src/pkgmt/versioneer.py
+src/pkgmt.egg-info/PKG-INFO
+src/pkgmt.egg-info/SOURCES.txt
+src/pkgmt.egg-info/dependency_links.txt
+src/pkgmt.egg-info/requires.txt
+src/pkgmt.egg-info/top_level.txt
