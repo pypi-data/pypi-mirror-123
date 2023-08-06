@@ -1,0 +1,9 @@
+nimrod_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nimrod_reader/nimrod_data_defs.py,sha256=BY5jcNdAijlPtb8UpBG4eB8z8H6lcarajO6B_H2aFI4,4768
+nimrod_reader/nimrod_funcs.py,sha256=TuvnptQeRaCxWsG_bGUN3FVcD-DLWdco3Mo9o9LD_CA,3197
+nimrod_reader/read_nimrod.py,sha256=GcVR6Bemo2NSG4YiACWdlEhvZXw2wjw2N2WdLVT1yF0,4360
+nimrod_reader_aricooperdavis-0.0.6.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nimrod_reader_aricooperdavis-0.0.6.dist-info/METADATA,sha256=kWKzretepqSJqA8tbswL0_cocAzy7TTx0TLnyQ6mAeI,1065
+nimrod_reader_aricooperdavis-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nimrod_reader_aricooperdavis-0.0.6.dist-info/top_level.txt,sha256=_L3fv5hgl8sDkezGoy1M6TP9kSIH73p_lMzZWvuSreY,14
+nimrod_reader_aricooperdavis-0.0.6.dist-info/RECORD,,
