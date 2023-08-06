@@ -1,0 +1,7 @@
+-r _docs/requirements-docs.txt
+
+pytest-cov
+pytest-pep8
+tox
+requests-mock
+tox-gh-actions
