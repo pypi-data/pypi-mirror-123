@@ -1,0 +1,8 @@
+setup.py
+instail/__init__.py
+instail/demo.py
+instail.egg-info/PKG-INFO
+instail.egg-info/SOURCES.txt
+instail.egg-info/dependency_links.txt
+instail.egg-info/requires.txt
+instail.egg-info/top_level.txt
