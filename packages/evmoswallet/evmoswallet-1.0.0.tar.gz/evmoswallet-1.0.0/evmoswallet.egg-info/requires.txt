@@ -1,0 +1,4 @@
+base58==2.1.0
+pycryptodomex==3.11.0
+mnemonic==0.20
+coincurve==15.0.1

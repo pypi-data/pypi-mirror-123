@@ -1,0 +1,2 @@
+evmoswallet
+tests
