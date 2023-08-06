@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: badger-opt
+Version: 0.4
+Summary: Core of the Badger optimizer
+Home-page: https://github.com/SLAC-ML/Badger
+Author: Zhe Zhang
+Author-email: zhezhang@slac.stanford.edu
+License: GPL
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: coolname
+Requires-Dist: PyQt6
+
+UNKNOWN
+
