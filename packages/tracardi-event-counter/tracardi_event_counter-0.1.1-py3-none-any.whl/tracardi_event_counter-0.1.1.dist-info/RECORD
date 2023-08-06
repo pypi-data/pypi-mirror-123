@@ -1,0 +1,11 @@
+tracardi_event_counter/plugin.py,sha256=hmOTNsO_SrlTVXgMIKkTz1KDvnYkRqpgYhC6svu6Zc8,1905
+tracardi_event_counter/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_event_counter/model/configuration.py,sha256=9rRuLPmC9cM-j4PqUMXRVHzyhQDRhJ5cShI7DsLmNQA,362
+tracardi_event_counter/model/__pycache__/__init__.cpython-38.pyc,sha256=Y74MRDRVKFSLBdnEl7rRmhta4RIBHJVYyRpbE3zHQyg,182
+tracardi_event_counter/model/__pycache__/configuration.cpython-38.pyc,sha256=RBUkHOdMwaUE9-8vbuN2nHe7WArZqxSpOIXDHj_1zwg,691
+tracardi_event_counter/test/manual_test.py,sha256=AQBwfXgsQp4Amh8P6fPd5VUr7siWSfGMweLbubo9bEk,881
+tracardi_event_counter-0.1.1.dist-info/LICENSE.md,sha256=uc8qBLFmZ8Ko8q4-eJwq1H7jE8fuLfgUwu_QW3oRglQ,1064
+tracardi_event_counter-0.1.1.dist-info/METADATA,sha256=s692NIi44xg9yMOnt_HcxbYcLbkHnr8Hp8Gho7fruoU,1621
+tracardi_event_counter-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tracardi_event_counter-0.1.1.dist-info/top_level.txt,sha256=JN_L8HO2R-D8rsuVxKlSqEjzo29gBT343fA3uubKAeo,23
+tracardi_event_counter-0.1.1.dist-info/RECORD,,
