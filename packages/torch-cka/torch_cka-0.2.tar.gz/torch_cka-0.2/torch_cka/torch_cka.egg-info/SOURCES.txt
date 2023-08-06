@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+torch_cka/torch_cka.egg-info/PKG-INFO
+torch_cka/torch_cka.egg-info/SOURCES.txt
+torch_cka/torch_cka.egg-info/dependency_links.txt
+torch_cka/torch_cka.egg-info/top_level.txt
