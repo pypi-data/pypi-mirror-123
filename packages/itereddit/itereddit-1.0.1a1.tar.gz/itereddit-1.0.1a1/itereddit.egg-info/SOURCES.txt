@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+itereddit/__init__.py
+itereddit/client.py
+itereddit.egg-info/PKG-INFO
+itereddit.egg-info/SOURCES.txt
+itereddit.egg-info/dependency_links.txt
+itereddit.egg-info/requires.txt
+itereddit.egg-info/top_level.txt
