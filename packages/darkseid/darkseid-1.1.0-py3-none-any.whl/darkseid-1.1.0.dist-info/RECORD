@@ -1,0 +1,11 @@
+darkseid/__init__.py,sha256=PHdK0LM0Nw4O4x_lV94XOEy4aHRo9wXp707Hue-SQHM,45
+darkseid/comicarchive.py,sha256=8XFvPXys0mcoyYtJyj1HFKDJO6qQbZH2EL3pqoPQK0c,11881
+darkseid/comicinfoxml.py,sha256=plrayYxwamUTmcD9MkcN0yo1ADd886GJ4hUwzEs-E_g,11387
+darkseid/filenameparser.py,sha256=iF_8_uXyAeCSNri5jCsRhK4ImljNfuMNZn8PAU21hlg,10073
+darkseid/genericmetadata.py,sha256=5hQruL_nhkR9hTmo2Ygx_94QBuiEobd2pHzisaazd_E,8346
+darkseid/issuestring.py,sha256=iK-4bHXDHbjM9BJnwPUuplNfhYOOeqzKSgAyTfjgsog,3767
+darkseid/utils.py,sha256=sSrSJbqBXAk23d9lVOH3Q6xtvK7hdl4RKU4k3aEoXb4,1812
+darkseid-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+darkseid-1.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+darkseid-1.1.0.dist-info/METADATA,sha256=utK1oPXiPZBiS4XIMYD_7LlhxpgpbEeaWOEXkJir8WU,2264
+darkseid-1.1.0.dist-info/RECORD,,
