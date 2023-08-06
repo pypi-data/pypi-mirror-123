@@ -1,0 +1,8 @@
+cs_jobs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cs_jobs/job.py,sha256=elTl3bnG8UQm7L6eC-30bcEHI464wDdX7FEH_h-Ix7s,1143
+cs_jobs/task_wrapper.py,sha256=ODwhy4xrbnvES8SSPuM3PEK9V-ue5ZbfUno6-EgIPxs,2386
+cs_jobs-2021.10.1.dist-info/METADATA,sha256=sxQa-jPYDE3roMWn2I-EVFUF0fQBOj5PQD0CkYQDydA,564
+cs_jobs-2021.10.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cs_jobs-2021.10.1.dist-info/entry_points.txt,sha256=_kU5KDkhT7TiMsz73W0x2_5dV1-SXOlGnClq7aEtxcM,45
+cs_jobs-2021.10.1.dist-info/top_level.txt,sha256=L6PMMFsodFcleFDkCWrKDBjV193Y4x5w5ek7gMSPUg4,8
+cs_jobs-2021.10.1.dist-info/RECORD,,
