@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pygitinterface/__init__.py
+pygitinterface/git_interface.py
+pygitinterface.egg-info/PKG-INFO
+pygitinterface.egg-info/SOURCES.txt
+pygitinterface.egg-info/dependency_links.txt
+pygitinterface.egg-info/top_level.txt
