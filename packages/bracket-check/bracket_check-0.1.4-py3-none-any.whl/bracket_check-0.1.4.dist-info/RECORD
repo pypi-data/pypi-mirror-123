@@ -1,0 +1,8 @@
+bracket_check/__init__.py,sha256=xCcaF5P-UYShpzZ3_p8e-3QahkkbKAPayiRLPwWmv88,544
+bracket_check/__main__.py,sha256=Yo8xrn4gRrhPBWJkFnP8LP_pYiw5NvcPAQfKwgYsplY,91
+bracket_check/app/__init__.py,sha256=tfnajkIW2NKWAKgPuDP5lNuiVJ752VlwX5Z6nb3B1hw,170
+bracket_check/app/__main__.py,sha256=mkxqywxijD_L0CwEAOX60q_0-2ZWhxy47qXD4QhqNVQ,96
+bracket_check/app/handler.py,sha256=UEG_mZjbxtKvjHJ0oTFNR9pX_EpezKUa2vkFfFDQU2c,3239
+bracket_check-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bracket_check-0.1.4.dist-info/METADATA,sha256=oEF2kHroLAePlYGX9cflI8EFUP-L0h-D6FiQtUxI36c,394
+bracket_check-0.1.4.dist-info/RECORD,,
