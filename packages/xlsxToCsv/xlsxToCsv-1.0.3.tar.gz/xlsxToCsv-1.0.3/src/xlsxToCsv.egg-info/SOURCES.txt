@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/excelToCSV.py
+src/xlsxToCsv.egg-info/PKG-INFO
+src/xlsxToCsv.egg-info/SOURCES.txt
+src/xlsxToCsv.egg-info/dependency_links.txt
+src/xlsxToCsv.egg-info/requires.txt
+src/xlsxToCsv.egg-info/top_level.txt
