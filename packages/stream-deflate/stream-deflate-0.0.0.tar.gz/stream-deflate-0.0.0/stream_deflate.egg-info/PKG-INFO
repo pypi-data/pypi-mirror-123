@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: stream-deflate
+Version: 0.0.0
+Summary: Uncompress DEFLATE streams in pure Python
+Home-page: https://github.com/michalc/stream-deflate
+Author: Michal Charemza
+Author-email: michal@charemza.name
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Archiving :: Compression
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stream-deflate
+Uncompress DEFLATE streams in pure Python
+
+

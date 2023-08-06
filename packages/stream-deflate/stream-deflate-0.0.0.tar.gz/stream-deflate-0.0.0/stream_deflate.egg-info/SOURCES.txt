@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+stream_deflate.egg-info/PKG-INFO
+stream_deflate.egg-info/SOURCES.txt
+stream_deflate.egg-info/dependency_links.txt
+stream_deflate.egg-info/top_level.txt
