@@ -1,0 +1,6 @@
+class DeserializeConfusedError(RuntimeError):
+    ...
+
+
+class DeserializeFailedError(RuntimeError):
+    ...
