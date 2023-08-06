@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+README_PYINDEX.md
+setup.py
+src/digital_twin_platform.egg-info/PKG-INFO
+src/digital_twin_platform.egg-info/SOURCES.txt
+src/digital_twin_platform.egg-info/dependency_links.txt
+src/digital_twin_platform.egg-info/entry_points.txt
+src/digital_twin_platform.egg-info/requires.txt
+src/digital_twin_platform.egg-info/top_level.txt
+src/digital_twin_tooling/__init__.py
+src/digital_twin_tooling/amqp_data_repeater.py
+src/digital_twin_tooling/basic.py
+src/digital_twin_tooling/rabbitmq_fmu.py
