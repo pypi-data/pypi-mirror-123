@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nimrod_reader/__init__.py
+src/nimrod_reader/nimrod_data_defs.py
+src/nimrod_reader/nimrod_funcs.py
+src/nimrod_reader/read_nimrod.py
+src/nimrod_reader_aricooperdavis.egg-info/PKG-INFO
+src/nimrod_reader_aricooperdavis.egg-info/SOURCES.txt
+src/nimrod_reader_aricooperdavis.egg-info/dependency_links.txt
+src/nimrod_reader_aricooperdavis.egg-info/requires.txt
+src/nimrod_reader_aricooperdavis.egg-info/top_level.txt
