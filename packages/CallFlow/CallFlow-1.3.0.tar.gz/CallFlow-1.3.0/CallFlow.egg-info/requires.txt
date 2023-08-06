@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+hatchet
+statsmodels
+scikit_learn
+colorlog
+jsonschema
+networkx
+matplotlib
+ipython
+flask_cors
+psutil

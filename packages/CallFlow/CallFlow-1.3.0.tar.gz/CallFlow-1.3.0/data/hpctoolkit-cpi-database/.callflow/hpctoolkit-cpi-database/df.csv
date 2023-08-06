@@ -1,0 +1,105 @@
+,node,rank,time (inc),time,nid,name,type,file,line,module,callees,callers,path,group_path,component_path
+0,"{'name': '<program root>', 'type': 'function'}",0,999238.0,0.0,2,11,PF,<unknown file>,0,0,[18],[],[11],[0],[11]
+1,"{'name': '<program root>', 'type': 'function'}",1,999390.0,0.0,2,11,PF,<unknown file>,0,0,[18],[],[11],[0],[11]
+2,"{'name': '<program root>', 'type': 'function'}",2,1000306.0,0.0,2,11,PF,<unknown file>,0,0,[18],[],[11],[0],[11]
+3,"{'name': '<program root>', 'type': 'function'}",3,999308.0,0.0,2,11,PF,<unknown file>,0,0,[18],[],[11],[0],[11]
+4,"{'name': 'main', 'type': 'function'}",0,999238.0,0.0,4,18,PF,./src/cpi.c,19,4,"[4, 10]",[11],"[11, 18]",[0 4],[18]
+5,"{'name': 'main', 'type': 'function'}",1,999390.0,0.0,4,18,PF,./src/cpi.c,19,4,"[4, 10]",[11],"[11, 18]",[0 4],[18]
+6,"{'name': 'main', 'type': 'function'}",2,1000306.0,0.0,4,18,PF,./src/cpi.c,19,4,"[4, 10]",[11],"[11, 18]",[0 4],[18]
+7,"{'name': 'main', 'type': 'function'}",3,999308.0,0.0,4,18,PF,./src/cpi.c,19,4,"[4, 10]",[11],"[11, 18]",[0 4],[18]
+36,"{'name': '<unknown procedure>', 'type': 'function'}",0,0.0,0.0,20,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+37,"{'name': '<unknown procedure>', 'type': 'function'}",1,0.0,0.0,20,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+38,"{'name': '<unknown procedure>', 'type': 'function'}",2,0.0,0.0,20,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+39,"{'name': '<unknown procedure>', 'type': 'function'}",3,0.0,0.0,20,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+40,"{'name': '<unknown procedure>', 'type': 'function'}",0,0.0,0.0,22,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+41,"{'name': '<unknown procedure>', 'type': 'function'}",1,0.0,0.0,22,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+42,"{'name': '<unknown procedure>', 'type': 'function'}",2,0.0,0.0,22,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+43,"{'name': '<unknown procedure>', 'type': 'function'}",3,0.0,0.0,22,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+48,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",0,0.0,0.0,25,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+49,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",1,0.0,0.0,25,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+50,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",2,0.0,0.0,25,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+51,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",3,0.0,0.0,25,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+52,"{'name': '62:MPI_Finalize', 'type': 'function'}",0,999238.0,0.0,27,10,PF,<unknown file>,0,0,[14],[18],"[11, 18, 10]",[0 4 0],[10]
+53,"{'name': '62:MPI_Finalize', 'type': 'function'}",1,999390.0,0.0,27,10,PF,<unknown file>,0,0,[14],[18],"[11, 18, 10]",[0 4 0],[10]
+54,"{'name': '62:MPI_Finalize', 'type': 'function'}",2,1000306.0,0.0,27,10,PF,<unknown file>,0,0,[14],[18],"[11, 18, 10]",[0 4 0],[10]
+55,"{'name': '62:MPI_Finalize', 'type': 'function'}",3,999308.0,0.0,27,10,PF,<unknown file>,0,0,[14],[18],"[11, 18, 10]",[0 4 0],[10]
+56,"{'name': 'PMPI_Finalize', 'type': 'function'}",0,999238.0,0.0,29,14,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpi/init/finalize.c,294,3,[5],[10],"[11, 18, 10, 14]",[0 4 0 3],[14]
+57,"{'name': 'PMPI_Finalize', 'type': 'function'}",1,999390.0,0.0,29,14,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpi/init/finalize.c,294,3,[5],[10],"[11, 18, 10, 14]",[0 4 0 3],[14]
+58,"{'name': 'PMPI_Finalize', 'type': 'function'}",2,1000306.0,0.0,29,14,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpi/init/finalize.c,294,3,[5],[10],"[11, 18, 10, 14]",[0 4 0 3],[14]
+59,"{'name': 'PMPI_Finalize', 'type': 'function'}",3,999308.0,0.0,29,14,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpi/init/finalize.c,294,3,[5],[10],"[11, 18, 10, 14]",[0 4 0 3],[14]
+60,"{'name': '294:MPID_Finalize', 'type': 'function'}",0,999238.0,0.0,31,5,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/src/mpid_finalize.c,162,3,[0],[14],"[11, 18, 10, 14, 5]",[0 4 0 3],"[14, 5]"
+61,"{'name': '294:MPID_Finalize', 'type': 'function'}",1,999390.0,0.0,31,5,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/src/mpid_finalize.c,162,3,[0],[14],"[11, 18, 10, 14, 5]",[0 4 0 3],"[14, 5]"
+62,"{'name': '294:MPID_Finalize', 'type': 'function'}",2,1000306.0,0.0,31,5,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/src/mpid_finalize.c,162,3,[0],[14],"[11, 18, 10, 14, 5]",[0 4 0 3],"[14, 5]"
+63,"{'name': '294:MPID_Finalize', 'type': 'function'}",3,999308.0,0.0,31,5,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/src/mpid_finalize.c,162,3,[0],[14],"[11, 18, 10, 14, 5]",[0 4 0 3],"[14, 5]"
+64,"{'name': '162:MPIDI_CH3_Finalize', 'type': 'function'}",0,999238.0,0.0,33,0,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/mpidi_calls.c,230,3,[2],[5],"[11, 18, 10, 14, 5, 0]",[0 4 0 3],"[14, 5, 0]"
+65,"{'name': '162:MPIDI_CH3_Finalize', 'type': 'function'}",1,999390.0,0.0,33,0,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/mpidi_calls.c,230,3,[2],[5],"[11, 18, 10, 14, 5, 0]",[0 4 0 3],"[14, 5, 0]"
+66,"{'name': '162:MPIDI_CH3_Finalize', 'type': 'function'}",2,1000306.0,0.0,33,0,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/mpidi_calls.c,230,3,[2],[5],"[11, 18, 10, 14, 5, 0]",[0 4 0 3],"[14, 5, 0]"
+67,"{'name': '162:MPIDI_CH3_Finalize', 'type': 'function'}",3,999308.0,0.0,33,0,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/mpidi_calls.c,230,3,[2],[5],"[11, 18, 10, 14, 5, 0]",[0 4 0 3],"[14, 5, 0]"
+68,"{'name': '230:psm_dofinalize', 'type': 'function'}",0,999238.0,0.0,35,2,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/psm_exit.c,36,3,[8],[0],"[11, 18, 10, 14, 5, 0, 2]",[0 4 0 3],"[14, 5, 0, 2]"
+69,"{'name': '230:psm_dofinalize', 'type': 'function'}",1,999390.0,0.0,35,2,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/psm_exit.c,36,3,[8],[0],"[11, 18, 10, 14, 5, 0, 2]",[0 4 0 3],"[14, 5, 0, 2]"
+70,"{'name': '230:psm_dofinalize', 'type': 'function'}",2,1000306.0,0.0,35,2,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/psm_exit.c,36,3,[8],[0],"[11, 18, 10, 14, 5, 0, 2]",[0 4 0 3],"[14, 5, 0, 2]"
+71,"{'name': '230:psm_dofinalize', 'type': 'function'}",3,999308.0,0.0,35,2,PF,/tmp/dpkg-mkdeb.gouoc49UG7/src/mvapich/src/build/../src/mpid/ch3/channels/psm/src/psm_exit.c,36,3,[8],[0],"[11, 18, 10, 14, 5, 0, 2]",[0 4 0 3],"[14, 5, 0, 2]"
+72,"{'name': '36:<unknown procedure>', 'type': 'function'}",0,999238.0,0.0,37,8,PF,<unknown file>,0,2,[13],[2],"[11, 18, 10, 14, 5, 0, 2, 8]",[0 4 0 3 2],[8]
+73,"{'name': '36:<unknown procedure>', 'type': 'function'}",1,999390.0,0.0,37,8,PF,<unknown file>,0,2,[13],[2],"[11, 18, 10, 14, 5, 0, 2, 8]",[0 4 0 3 2],[8]
+74,"{'name': '36:<unknown procedure>', 'type': 'function'}",2,1000306.0,0.0,37,8,PF,<unknown file>,0,2,[13],[2],"[11, 18, 10, 14, 5, 0, 2, 8]",[0 4 0 3 2],[8]
+75,"{'name': '36:<unknown procedure>', 'type': 'function'}",3,999308.0,0.0,37,8,PF,<unknown file>,0,2,[13],[2],"[11, 18, 10, 14, 5, 0, 2, 8]",[0 4 0 3 2],[8]
+76,"{'name': '<unknown procedure>', 'type': 'function'}",0,999238.0,0.0,39,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+77,"{'name': '<unknown procedure>', 'type': 'function'}",1,999390.0,0.0,39,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+78,"{'name': '<unknown procedure>', 'type': 'function'}",2,1000306.0,0.0,39,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+79,"{'name': '<unknown procedure>', 'type': 'function'}",3,999308.0,0.0,39,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+80,"{'name': '<unknown procedure>', 'type': 'function'}",0,999238.0,0.0,41,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+81,"{'name': '<unknown procedure>', 'type': 'function'}",1,999390.0,0.0,41,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+82,"{'name': '<unknown procedure>', 'type': 'function'}",2,1000306.0,0.0,41,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+83,"{'name': '<unknown procedure>', 'type': 'function'}",3,999308.0,0.0,41,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+84,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",0,59960.0,59960.0,60,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+85,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",1,35980.0,35980.0,60,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+86,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",2,59961.0,59961.0,60,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+87,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",3,23976.0,23976.0,60,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+88,"{'name': '<unknown procedure>', 'type': 'function'}",0,298806.0,0.0,43,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+89,"{'name': '<unknown procedure>', 'type': 'function'}",1,293767.0,0.0,43,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+90,"{'name': '<unknown procedure>', 'type': 'function'}",2,317865.0,0.0,43,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+91,"{'name': '<unknown procedure>', 'type': 'function'}",3,310812.0,0.0,43,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+92,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",0,298806.0,298806.0,44,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+93,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",1,293767.0,293767.0,44,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+94,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",2,317865.0,317865.0,44,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+95,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",3,310812.0,310812.0,44,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+96,"{'name': '<unknown procedure>', 'type': 'function'}",0,316840.0,0.0,46,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+97,"{'name': '<unknown procedure>', 'type': 'function'}",1,316759.0,0.0,46,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+98,"{'name': '<unknown procedure>', 'type': 'function'}",2,376650.0,0.0,46,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+99,"{'name': '<unknown procedure>', 'type': 'function'}",3,377648.0,0.0,46,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+100,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",0,316840.0,316840.0,47,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+101,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",1,316759.0,316759.0,47,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+102,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",2,376650.0,376650.0,47,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+103,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",3,377648.0,377648.0,47,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+104,"{'name': '<unknown procedure>', 'type': 'function'}",0,305643.0,0.0,49,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+105,"{'name': '<unknown procedure>', 'type': 'function'}",1,334893.0,0.0,49,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+106,"{'name': '<unknown procedure>', 'type': 'function'}",2,245830.0,0.0,49,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+107,"{'name': '<unknown procedure>', 'type': 'function'}",3,286872.0,0.0,49,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+108,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",0,47965.0,47965.0,56,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+109,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",1,53972.0,53972.0,56,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+110,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",2,17988.0,17988.0,56,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+111,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",3,77022.0,77022.0,56,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+112,"{'name': '<unknown procedure>', 'type': 'function'}",0,59960.0,0.0,51,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+113,"{'name': '<unknown procedure>', 'type': 'function'}",1,35982.0,0.0,51,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+114,"{'name': '<unknown procedure>', 'type': 'function'}",2,5996.0,0.0,51,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+115,"{'name': '<unknown procedure>', 'type': 'function'}",3,35974.0,0.0,51,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+116,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",0,59960.0,59960.0,52,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+117,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",1,35982.0,35982.0,52,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+118,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",2,5996.0,5996.0,52,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+119,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",3,35974.0,35974.0,52,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+120,"{'name': '<unknown procedure>', 'type': 'function'}",0,197718.0,0.0,54,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+121,"{'name': '<unknown procedure>', 'type': 'function'}",1,244939.0,0.0,54,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+122,"{'name': '<unknown procedure>', 'type': 'function'}",2,221846.0,0.0,54,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+123,"{'name': '<unknown procedure>', 'type': 'function'}",3,173876.0,0.0,54,13,PF,<unknown file>,0,2,[12],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13]",[0 4 0 3 2],"[8, 13, 13, 13, 13]"
+124,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",0,197718.0,197718.0,55,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+125,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",1,244939.0,244939.0,55,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+126,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",2,221846.0,221846.0,55,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+127,"{'file': '<unknown file>', 'line': '0', 'type': 'statement'}",3,173876.0,173876.0,55,12,S,<unknown file>,0,-1,[],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 13, 13, 12]",[0 4 0 3 2],"[8, 13, 13, 13, 13, 12]"
+128,"{'name': '__GI_sched_yield', 'type': 'function'}",0,17989.0,0.0,58,16,PF,interp.c,0,1,[17],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16]",[0 4 0 3 2 1],[16]
+129,"{'name': '__GI_sched_yield', 'type': 'function'}",1,17991.0,0.0,58,16,PF,interp.c,0,1,[17],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16]",[0 4 0 3 2 1],[16]
+130,"{'name': '__GI_sched_yield', 'type': 'function'}",2,0.0,0.0,58,16,PF,interp.c,0,1,[17],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16]",[0 4 0 3 2 1],[16]
+131,"{'name': '__GI_sched_yield', 'type': 'function'}",3,0.0,0.0,58,16,PF,interp.c,0,1,[17],[13],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16]",[0 4 0 3 2 1],[16]
+132,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",0,17989.0,17989.0,59,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+133,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",1,17991.0,17991.0,59,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+134,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",2,0.0,0.0,59,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"
+135,"{'file': 'interp.c', 'line': '0', 'type': 'statement'}",3,0.0,0.0,59,17,S,interp.c,0,-1,[],[16],"[11, 18, 10, 14, 5, 0, 2, 8, 13, 13, 16, 17]",[0 4 0 3 2 1],"[16, 17]"

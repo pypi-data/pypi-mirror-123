@@ -1,0 +1,161 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "<program root>"
+    },
+    {
+      "id": "main"
+    },
+    {
+      "id": "27:MPI_Init"
+    },
+    {
+      "id": "PMPI_Init"
+    },
+    {
+      "id": "198:MPIR_Init_thread"
+    },
+    {
+      "id": "512:MPID_Init"
+    },
+    {
+      "id": "363:MPIDI_CH3_Init"
+    },
+    {
+      "id": "24:psm_doinit"
+    },
+    {
+      "id": "348:<unknown procedure>"
+    },
+    {
+      "id": "<unknown procedure>"
+    },
+    {
+      "id": "pthread_create"
+    },
+    {
+      "id": "<unknown file>:0"
+    },
+    {
+      "id": "62:MPI_Finalize"
+    },
+    {
+      "id": "PMPI_Finalize"
+    },
+    {
+      "id": "294:MPID_Finalize"
+    },
+    {
+      "id": "162:MPIDI_CH3_Finalize"
+    },
+    {
+      "id": "230:psm_dofinalize"
+    },
+    {
+      "id": "36:<unknown procedure>"
+    },
+    {
+      "id": "interp.c:0"
+    },
+    {
+      "id": "__GI_sched_yield"
+    }
+  ],
+  "links": [
+    {
+      "source": "<program root>",
+      "target": "main"
+    },
+    {
+      "source": "main",
+      "target": "27:MPI_Init"
+    },
+    {
+      "source": "main",
+      "target": "62:MPI_Finalize"
+    },
+    {
+      "source": "27:MPI_Init",
+      "target": "PMPI_Init"
+    },
+    {
+      "source": "PMPI_Init",
+      "target": "198:MPIR_Init_thread"
+    },
+    {
+      "source": "198:MPIR_Init_thread",
+      "target": "512:MPID_Init"
+    },
+    {
+      "source": "512:MPID_Init",
+      "target": "363:MPIDI_CH3_Init"
+    },
+    {
+      "source": "363:MPIDI_CH3_Init",
+      "target": "24:psm_doinit"
+    },
+    {
+      "source": "24:psm_doinit",
+      "target": "348:<unknown procedure>"
+    },
+    {
+      "source": "348:<unknown procedure>",
+      "target": "<unknown procedure>"
+    },
+    {
+      "source": "<unknown procedure>",
+      "target": "<unknown procedure>"
+    },
+    {
+      "source": "<unknown procedure>",
+      "target": "pthread_create"
+    },
+    {
+      "source": "<unknown procedure>",
+      "target": "interp.c:0"
+    },
+    {
+      "source": "<unknown procedure>",
+      "target": "<unknown file>:0"
+    },
+    {
+      "source": "<unknown procedure>",
+      "target": "__GI_sched_yield"
+    },
+    {
+      "source": "pthread_create",
+      "target": "<unknown file>:0"
+    },
+    {
+      "source": "62:MPI_Finalize",
+      "target": "PMPI_Finalize"
+    },
+    {
+      "source": "PMPI_Finalize",
+      "target": "294:MPID_Finalize"
+    },
+    {
+      "source": "294:MPID_Finalize",
+      "target": "162:MPIDI_CH3_Finalize"
+    },
+    {
+      "source": "162:MPIDI_CH3_Finalize",
+      "target": "230:psm_dofinalize"
+    },
+    {
+      "source": "230:psm_dofinalize",
+      "target": "36:<unknown procedure>"
+    },
+    {
+      "source": "36:<unknown procedure>",
+      "target": "<unknown procedure>"
+    },
+    {
+      "source": "__GI_sched_yield",
+      "target": "interp.c:0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "append_path": "",
+  "chunk_idx": "0",
+  "chunk_size": "0",
+  "data_path": "./data/caliper-simple-json",
+  "ensemble_process": false,
+  "experiment": "caliper-simple-json",
+  "filter_by": "time (inc)",
+  "filter_perc": 0.0,
+  "group_by": "module",
+  "read_parameter": false,
+  "runs": [
+    {
+      "name": "caliper-simple",
+      "path": "caliper-simple.json",
+      "profile_format": "caliper_json"
+    }
+  ],
+  "save_path": "./data/caliper-simple-json/.callflow"
+}
