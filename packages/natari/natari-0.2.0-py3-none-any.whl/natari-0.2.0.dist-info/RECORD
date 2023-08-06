@@ -1,0 +1,12 @@
+natari/__init__.py,sha256=2kV82w6SyLKclVP--DntWQVvopyGk5mxBu7CSZTr4zc,96
+natari/_function.py,sha256=YSQgdzpIlGQe6vhDx32BN6CGyo-axZvnwnQcr4ILBpA,1922
+natari/_utils.py,sha256=fcbWOa8BdDzgzKYZLuxLbN7GZgv7Et4bQU6-aktSZVY,106
+natari/cell_counting_arcade.py,sha256=abZx3cKIr0xnchhmjTYRVqEc-peSOhoGXMQSEjAuD1E,8022
+natari/ping_pong.py,sha256=TbEnAzarV1eR5HSYeGFow-ySBit5_9oRQSDHkay5D0Q,6147
+natari/snake.py,sha256=6aoc4i0_uCqgbSmAEm05s5Y4WuplLmuvl1hW55E1spg,8688
+natari-0.2.0.dist-info/METADATA,sha256=8S2Htk0Qa0VSTXFni30fBJSjDBzXuT2CYifXuTfEJOw,3777
+natari-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+natari-0.2.0.dist-info/entry_points.txt,sha256=HRAjtTkMHOkLMpW6BGbGEcKMUxBM-6sFowbJ9RNll-A,33
+natari-0.2.0.dist-info/license,sha256=FHo3YUVhJ7y4raLDRyijAdAazTFpRqrX1gXDqc435vI,1233
+natari-0.2.0.dist-info/top_level.txt,sha256=fzA9p2-cpFkyvt5GoXa6nudGcbNdP0fslDTzWATJc2E,7
+natari-0.2.0.dist-info/RECORD,,
