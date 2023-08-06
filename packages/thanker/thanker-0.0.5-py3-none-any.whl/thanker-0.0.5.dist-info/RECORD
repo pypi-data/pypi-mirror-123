@@ -1,0 +1,12 @@
+cli_tool.py,sha256=fE-SuCULqp0h3RubR7JqXRJgc2725Gnbxst_ahFZnCg,2098
+thanker/__init__.py,sha256=f0E19_VPEwBYXm0zWsjsrDzwD62LMWBgZFCmsgko-DE,334
+thanker/_group_by.py,sha256=ayfPpHh69_ibW_a0t7gxdnU0nUJC6ZwD65fvU2HB8Fc,740
+thanker/_scanner.py,sha256=BO4mQSJ2f98QzOC6XIdmP8uCZOFqi4Ewi-oRtjUhU64,1482
+thanker/_thanker.py,sha256=SUnHwMtfL-KhehxxPwl1HA72AXji4Vd_o183NXpzYcg,4058
+thanker/test_thanker.py,sha256=0CXHbSM94o6yn3oNeOck-jaxEnX5jHxmgGm8SsdEWVM,1415
+thanker-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thanker-0.0.5.dist-info/METADATA,sha256=QOV88Xsa5JBtY3e5gcFd7Ja6eXXSWdZ_VJ3dCXtn6UE,3162
+thanker-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+thanker-0.0.5.dist-info/entry_points.txt,sha256=s2k2j3sL5rU8cegRIvaulKVWk9RtVq1qn6a7yNj1yI8,59
+thanker-0.0.5.dist-info/top_level.txt,sha256=kSY0sAF0bKjm1o20U983fxvvDCl4MZfAWGnYHslwcCI,17
+thanker-0.0.5.dist-info/RECORD,,
