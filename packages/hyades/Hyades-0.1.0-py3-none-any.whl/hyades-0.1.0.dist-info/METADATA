@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hyades
+Version: 0.1.0
+Summary: Network Automation Inventory
+Author: Renato Almeida de Oliveira
+Author-email: renato.almeida.oliveira@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: asyncssh (>=2.7.2,<3.0.0)
+Requires-Dist: genie (>=21.7,<22.0)
+Requires-Dist: netmiko (>=3.4.0,<4.0.0)
+Requires-Dist: pyats (>=21.7,<22.0)
+Requires-Dist: scrapli-community (>=2021.7.30,<2022.0.0)
+Requires-Dist: scrapli[ssh2] (>=2021.7.30,<2022.0.0)
