@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tfbert
+Version: 0.2.4
+Summary: NLP tool
+Home-page: https://github.com/deepdialog/tfbert
+Author: deepdialog
+Author-email: thebotbot@sina.com
+License: Private
+Keywords: pip,tensorflow
+Platform: any
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-addons
+
+NLP tool
+
