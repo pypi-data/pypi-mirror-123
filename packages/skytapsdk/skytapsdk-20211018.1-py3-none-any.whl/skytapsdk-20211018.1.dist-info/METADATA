@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: skytapsdk
+Version: 20211018.1
+Summary: SDK for interacting with Skytap's APIs.
+Home-page: https://gitlab.com/daxm/skytapsdk
+Author: Dax Mickelson
+Author-email: dmickelson@zscaler.com
+License: BSD
+Keywords: skytap
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+SDK for interacting with Skytap's APIs.
+
+
