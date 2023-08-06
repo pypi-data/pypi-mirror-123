@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "alarmer"
+version = "0.1.4"
+description = "A tool focus on error reporting for your application"
+authors = ["long2ice <long2ice@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/long2ice/alarmer"
+repository = "https://github.com/long2ice/alarmer.git"
+documentation = "https://github.com/long2ice/alarmer"
+keywords = ["sentry", "error", "alert", "alarm"]
+packages = [
+    { include = "alarmer" }
+]
+include = ["CHANGELOG.md", "LICENSE", "README.md"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+better-exceptions = "*"
+apprise = "*"
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+isort = "*"
+black = "*"
+pytest = "*"
+pytest-xdist = "*"
+pytest-asyncio = "*"
+mypy = "*"
+bandit = "*"
+types-requests = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py36', 'py37', 'py38', 'py39']
