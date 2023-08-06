@@ -1,0 +1,6 @@
+setup.py
+anananananas/__init__.py
+anananananas.egg-info/PKG-INFO
+anananananas.egg-info/SOURCES.txt
+anananananas.egg-info/dependency_links.txt
+anananananas.egg-info/top_level.txt
