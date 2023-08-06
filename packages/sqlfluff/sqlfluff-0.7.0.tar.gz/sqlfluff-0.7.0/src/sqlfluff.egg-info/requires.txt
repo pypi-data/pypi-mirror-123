@@ -1,0 +1,16 @@
+click>=7.1
+colorama>=0.3
+configparser
+oyaml
+Jinja2
+diff-cover>=2.5.0
+pathspec
+appdirs
+cached-property
+typing_extensions
+pytest
+toml
+tblib
+
+[:python_version < "3.7"]
+dataclasses
