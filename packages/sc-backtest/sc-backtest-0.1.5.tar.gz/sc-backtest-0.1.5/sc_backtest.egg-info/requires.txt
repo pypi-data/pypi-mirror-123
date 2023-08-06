@@ -1,0 +1,4 @@
+pandas>=1.2.4
+numpy>=1.1
+ta>=0.7.0
+seaborn>=0.10.0
