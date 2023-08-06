@@ -1,0 +1,6 @@
+tensorflow>=1.13.1
+numpy
+scikit-learn>0.20.0
+tqdm
+annoy>=1.15.2
+dill
