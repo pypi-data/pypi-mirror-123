@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: pdfextractor
+Version: 0.1
+Summary: This Project Extract Images,Text and Tables from a single package
+Home-page: https://https://github.com/shehrozkapoor/PDFEXTRACTOR.git/shehrozkapoor/PDFEXTRACTOR
+Author: Shehroz Kapoor
+Author-email: shehrozkapoor@gmail.com
+License: BSD-2-Clause
+Project-URL: Documentation, https://PDFEXTRACTOR.readthedocs.io/
+Project-URL: Changelog, https://PDFEXTRACTOR.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://https://github.com/shehrozkapoor/PDFEXTRACTOR.git/shehrozkapoor/PDFEXTRACTOR/issues
+Keywords: extractImages,extractTable,extractText,extractTableCsv,extractTableJson,extractTableHTML,extractSpecPageTableHTML,extractSpecPageTableCsv,extractSpecPageTableJson,extractImageAll,extractImageSpecPage,extractTextAll,extractTextSpecPage,summarizer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+
+
+
+
+
+
+# PDF EXTRACTOR
+
+- This is an PDF Extractor which can extract Text,Images,Table and Summarize the whole PDF text from the PDF. 
+
+# GITHUB REPO LINK:
+- https://github.com/shehrozkapoor/PDFEXTRACTOR.git
+
+
+
+# How to Install
+
+- pip install pdfextractor
+## or 
+- dowload source file from GITHUB
+
+
+## HOW to Use
+
+## Extract Table 
+
+- from pdfextractor import Table
+
+- table = Table("pdfPath")
+
+- extractTableCsv = table.extractTableCsv()
+
+- extractTableJson = table.extractTableJson()
+
+- extractTableHTML = table.extractTableHTML()
+
+- extractSpecPageTableHTML = table.extractSpecPageTableHTML(page_num)
+
+
+- extractSpecPageTableCsv = table.extractSpecPageTableCsv(page_num)
+
+- extractSpecPageTableJson = table.extractSpecPageTableJson(page_num)
+
+## Extract Images 
+- from pdfextractor import Image
+
+- image = Image("pdfPath")
+
+- extractImageAll = image.extractImageAll()
+
+- extractSpecImageMulti = image.extract_images([page_num,page_num...])
+
+- extractImageSpecPage = image.extractImageSpecPage(page_num)
+
+
+
+## Extract Text 
+- from pdfextractor import Text
+
+- text = Text(pdfPath)
+
+- extractTextAll = text.extractTextAll()
+
+- extractTextSpecPage = text.extractTextSpecPage()
+
+
+## Extract Summarize 
+- from pdfextractor import Summarize
+
+- summary = Summarize(pdfPath)
+
+- summarizer = summary.summarizer()
+
+
