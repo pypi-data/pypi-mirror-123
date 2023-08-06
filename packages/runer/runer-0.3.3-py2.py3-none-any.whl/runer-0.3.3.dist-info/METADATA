@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: runer
+Version: 0.3.3
+Summary: Python runer lib support shell, ssh ...
+Home-page: https://github.com/rinetd/python-runer
+Author: rinetd
+Author-email: rinetd@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: paramiko (!=0.0.1,>=2.7.0)
+Requires-Dist: serial (==0.0.97)
+Requires-Dist: PyYAML (==5.4.1)
+
+# runer 0.1.8
+
+
+This is a execute Python library that enables the user to run shell command, ssh command. The library reads ssh config from json or yaml file .
+
+# Requirements
+
+1. Python 3.5 and above
+
+# Installation
+
+To install this module type the following (for PyPI):
+
+```bash
+pip uninstall runer
+pip install -U runer -i https://www.pypi.org/simple/
+```
+
+pip install pyc-wheel
+
+# Usage
+
+You can check the **sample.py** file to learn more about usage.
+
+
+1. lazy import
+2. upload without src code 
+3. 
+
+
+How can I include only *.pyc files in a python wheel? 
+
+When creating eggs, it used to be possible to run `python setup.py bdist_egg --exclude-source-files`
+> dist/runer-0.3.3-py3.9.egg
+
+I haven't tried it, but it looks like `pyc-wheel` does precisely that.
+
+`pip install pyc-wheel`
+
+$ `python -m pyc_wheel your_wheel-1.0.0-py3-none-any.whl`
+# Output: your_wheel-1.0.0-py3-none-any.whl
+
+### 1. create egg package
+
+`python3 setup.py bdist_egg --exclude-source-files`
+
+### 2. create archive package
+
+Create a source distribution. From your root directory:
+
+`python setup.py sdist`
+This creates a dist/ directory containing a compressed archive of the package (e.g. <PACKAGE_NAME>-<VERSION>.tar.gz in Linux). This file is your source distribution. If it does not automatically contain what you want, then you might consider using a MANIFEST file (see https://docs.python.org/distutils/sourcedist).
+
+### 3. create whl package
+
+There are different types of wheels. However, if your project is pure python and python2/3 compatible create a universal wheel:
+
+`python setup.py bdist_wheel --universal`
+
+### 4. uploading 
+
+Create an account on PYPI: Go to: https://pypi.python.org and select Register. Follow instructions.
+
+Create an account on testpypi: Go to: https://testpypi.python.org and select Register. Follow instructions.
+
+The best approach to uploading to PyPI is to use twine.
+
+`pip install twine`
+
+
+### Uploading to testpypi
+This section shows how to upload a source distribution of your package.
+
+Further documentation at: https://packaging.python.org/guides/using-testpypi Note: This link includes the option of using a pypirc file to abbreviate some of the command lines below.
+
+A source distribution provides everything needed to build/install the package on any supported platform. Testsuites, documentation and supporting data can also be included.
+
+You can now upload your package to testpypi as follows. Assuming your source distribution under dist/ is called pyexample-0.1.0.tar.gz:
+
+`twine upload --repository-url https://test.pypi.org/legacy/ dist/pyexample-0.1.0.tar.gz`
+Alternatively, the following line will upload all your generated distrbutions under the dist/ directory. This may be used if you create wheels (see below) in addition to a source distribution.
+
+`twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
+You will be requested to give your username and password for your testpypi account.
+
+Option: You have the option to digitally sign your package when you upload. You will need a gpg key set up to do this. It should be noted, however, that pip does not currently check gpg signatures when installing - this has to be done manually.
+
+To digitally sign using your gpg key (e.g. for package pyexample at version 0.1.0):
+
+`gpg --detach-sign -a dist/pyexample-0.1.0.tar.gz`
+A file pyexample-0.1.0.tar.gz.asc will be created. Now upload:
+
+`twine upload --repository-url https://test.pypi.org/legacy/ dist/pyexample-0.1.0.tar.gz pyexample-0.1.0.tar.gz.asc`
+Note: --detach-sign means you are writing the signature into a separate file *.asc
+
+The package should now be uploaded to: https://testpypi.python.org/pypi
+
+Note how the info/classifiers you supplied in setup.py are shown on the page.
+
+You can now test pip install from the command line. E.g. To install package pyexample into your user install space:
+
+`pip install --index-url https://test.pypi.org/simple/ pyexample --user`
+Uploading to PyPI
+Once you are happy with the repository in testpyi, uploading to PYPI will be the same command line process, but without having to specify the url arguments. For example, the steps above would simply become:
+
+E.g. To upload all distributions created under dist/
+
+`twine upload dist/*`
+E.g. To upload the source distribution with a gpg signature:
+
+`twine upload dist/pyexample-0.1.0.tar.gz pyexample-0.1.0.tar.gz.asc`
+You package should now be uploaded to: https://pypi.python.org/pypi
+
+The package should pip install. E.g:
+
+`pip install pyexample --user`
+
