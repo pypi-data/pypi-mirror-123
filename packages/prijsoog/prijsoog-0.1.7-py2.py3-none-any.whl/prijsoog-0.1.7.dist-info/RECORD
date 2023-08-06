@@ -1,0 +1,11 @@
+prijsoog/__init__.py,sha256=RwG7ez1C7tmzFgBIkeXPn0gyqhEQ33v5aYqvmI2dbFs,244
+prijsoog/_base.py,sha256=U8cAJz8G_JTawB3B-YsL_Uzt9ezy8yHbJe-8Vy8BGiE,1470
+prijsoog/supermarkets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prijsoog/supermarkets/ah.py,sha256=JWbYD6BipZ2DzgPlN2XS1H6zLi63pLe5s34u-6k46bY,1438
+prijsoog/supermarkets/jumbo.py,sha256=59PIY8HifbtmQ_HvePP7OkCNo8ZK-QrYxtFSdADiidI,1275
+prijsoog-0.1.7.dist-info/AUTHORS.rst,sha256=tw5uaqCYX3ZDxzozyPBpwIRpiRSuSBcCSOf7p-qLcnI,156
+prijsoog-0.1.7.dist-info/LICENSE,sha256=1SV7L6iiMDFhYFCtGLGNcrNRI-AP1nE04O_uGNkl-ZY,1071
+prijsoog-0.1.7.dist-info/METADATA,sha256=rJA1qRgklESELfFThJC7mbPnu5BwlwQY7ndgaXaLAZM,3503
+prijsoog-0.1.7.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+prijsoog-0.1.7.dist-info/top_level.txt,sha256=0TbX43bBbnZQIA-H9b09EKTN40ic0Y5YoVh4niRMUmA,9
+prijsoog-0.1.7.dist-info/RECORD,,
