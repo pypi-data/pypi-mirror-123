@@ -1,0 +1,1 @@
+spine_aws_common
