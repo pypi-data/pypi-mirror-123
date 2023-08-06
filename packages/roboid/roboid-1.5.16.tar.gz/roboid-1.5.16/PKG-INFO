@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: roboid
+Version: 1.5.16
+Summary: Python Package for Hamster, Hamster-S, Turtle, Albert Ai, and Zerone
+Home-page: UNKNOWN
+Author: Kwang-Hyun Park
+Author-email: akaii@kw.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# roboid
+
+## Overview
+Part of the ROBOID project - http://hamster.school
+Copyright (C) 2016 Kwang-Hyun Park (akaii@kw.ac.kr)
+
+## Installation
+``pip install -U roboid`` should work for most users.
+
+
