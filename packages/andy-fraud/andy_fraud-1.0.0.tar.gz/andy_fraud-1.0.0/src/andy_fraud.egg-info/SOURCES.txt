@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/andy/__main__.py
+src/andy/schema.py
+src/andy/suite.py
+src/andy_fraud.egg-info/PKG-INFO
+src/andy_fraud.egg-info/SOURCES.txt
+src/andy_fraud.egg-info/dependency_links.txt
+src/andy_fraud.egg-info/requires.txt
+src/andy_fraud.egg-info/top_level.txt
