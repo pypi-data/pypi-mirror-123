@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: microstrategy-api
+Version: 0.6.4
+Summary: Python API library for interacting with MicroStrategy Intelligence Server and/or MicroStrategy Web Server.
+Home-page: https://github.com/arcann/mstr_python_api
+License: MIT
+Author: Derek Wood
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Repository, https://github.com/arcann/mstr_python_api
+Description-Content-Type: text/markdown
+
+# MicroStrategy Python API (microstrategy-api)
+
+[![pypi](https://img.shields.io/pypi/v/microstrategy-api.svg)](https://pypi.org/project/microstrategy-api/)
+[![license](https://img.shields.io/github/license/arcann/mstr_python_api.svg)](https://github.com/arcann/mstr_python_api/blob/master/license.txt)
+
+
+Python API library for interacting with MicroStrategy Intelligence Server and/or MicroStrategy Web Server.
+
+This library is not endorsed by, directly affiliated with, maintained, authorized, or sponsored by MicroStragy Incorporated.
+
+Supported MicroStrategy sub-APIs
+
+ - TaskProc API
+ - COM API
+ - REST API (Work in progress)
+
+## Installation
+
+Install using `pip install -U microstrategy-api` or `conda install microstrategy-api -c conda-forge`.
+
+# Examples
+
+See `examples` folder
