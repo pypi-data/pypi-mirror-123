@@ -1,0 +1,327 @@
+{% extends "app.html" %}
+
+{% block app_content %}
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Compare</li>
+        <li class="breadcrumb-item active">
+          <a href="{{ compare_runs_url }}">Runs</a>
+        </li>
+        <li class="breadcrumb-item active">
+          <a href="{{ compare_batches_url }}">Batches</a>
+        </li>
+        <li class="breadcrumb-item active">Benchmarks</li>
+        <li class="breadcrumb-item active" aria-current="page">
+          <a href="{{ url_for('app.benchmark', benchmark_id=baseline_id) }}">Baseline</a>
+           ...
+          <a href="{{ url_for('app.benchmark', benchmark_id=contender_id) }}">Contender</a>
+        </li>
+      </ol>
+    </nav>
+
+
+    <div class="row">
+
+      <div class="col-md-6" >
+        <div id="plot" align="center"></div>
+        <br/>
+      </div>
+
+        {% if comparisons %}
+        <div class="col-md-5">
+            <table id="benchmarks" class="table table-striped table-bordered table-hover">
+            <caption>{% include 'units-tooltip.html' %}</caption>
+                <thead>
+                    <tr>
+                        <th width="25%" scope="col">Z-Score</th>
+                        <th width="25%" scope="col">Change</th>
+                        <th width="25%" scope="col">Baseline</th>
+                        <th width="25%" scope="col">Contender</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for c in comparisons %}
+                    <tr>
+                         <td>
+                           {% if c.contender_z_score %}
+                             {{ c.contender_z_score }} z
+                           {% endif %}
+                           {% if c.contender_z_regression %}
+                           <span class="glyphicon glyphicon-arrow-down"></span></b>
+                           {% endif %}
+                           {% if c.contender_z_improvement %}
+                           <span class="glyphicon glyphicon-arrow-up"></span></b>
+                           {% endif %}
+                         </td>
+                         <td>
+                           {{ c.change }}
+                           {% if c.regression %}
+                           <span class="glyphicon glyphicon-arrow-down"></span></b>
+                           {% endif %}
+                           {% if c.improvement %}
+                           <span class="glyphicon glyphicon-arrow-up"></span></b>
+                           {% endif %}
+                         </td>
+                         <td>{{ c.baseline }}</td>
+                         <td>{{ c.contender }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% endif %}
+
+    </div>
+
+    <div id="plot-history" align="center"></div>
+    <br/>
+
+    {% if baseline %}
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item active">Baseline</li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>run</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ url_for('app.run', run_id=baseline.run_id) }}">{{ baseline.run_id }}</a>
+              </div>
+            </li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>batch</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ url_for('app.batch', batch_id=baseline.batch_id ) }}">{{ baseline.display_batch }}</a>
+              </div>
+            </li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>benchmark</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ url_for('app.benchmark', benchmark_id=baseline.id) }}">{{ baseline.display_name }}</a>
+              </div>
+            </li>
+            {% if baseline_run %}
+            {% if baseline_run.commit.url %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>commit</b>
+              <div class="ellipsis-500" align="right" style="display:inline-block; float: right;">
+                {% if baseline_run.commit.message %}
+                  <a href="{{ baseline_run.commit.url }}">{{ baseline_run.commit.message }}</a>
+                {% else %}
+                  <a href="{{ baseline_run.commit.url }}">{{ baseline_run.commit.sha }}</a>
+                {% endif %}
+              </div>
+            </li>
+            {% endif %}
+            {% if baseline_run.commit.display_timestamp %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>date</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ baseline_run.commit.display_timestamp }}
+              </div>
+            </li>
+            {% endif %}
+            {% if baseline_run.commit.author_name %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>author</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ baseline_run.commit.author_name }}
+                {% if baseline_run.commit.author_avatar %}
+                  &nbsp; <image src="{{ baseline_run.commit.author_avatar }}" height="30" style="border-radius: 50%;">
+                {% endif %}
+              </div>
+            </li>
+            {% endif %}
+            {% if baseline_run.commit.display_repository %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>repository</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ baseline_run.commit.repository }}">{{ baseline_run.commit.display_repository }}</a>
+              </div>
+            </li>
+            {% endif %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>machine</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ baseline_run.machine.name }}
+              </div>
+            </li>
+            {% endif %}
+          <li class="list-group-item active">Result</li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>timestamp</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ baseline.display_timestamp }}
+              </div>
+            </li>
+          {% for k,v in baseline.stats.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              {% if v is not none %}
+                <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+              {% endif %}
+            </li>
+          {% endfor %}
+          <li class="list-group-item active">Tags</li>
+          {% for k,v in baseline.tags.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              {% if v is not none %}
+                <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+              {% endif %}
+            </li>
+          {% endfor %}
+          <li class="list-group-item active">Machine</li>
+          {% for k,v in baseline_run.machine.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+            </li>
+          {% endfor %}
+          <li class="list-group-item active" >Context</li>
+          {% for k,v in baseline.context.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if contender %}
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item active">Contender</li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>run</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ url_for('app.run', run_id=contender.run_id) }}">{{ contender.run_id }}</a>
+              </div>
+            </li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>batch</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ url_for('app.batch', batch_id=contender.batch_id ) }}">{{ contender.display_batch }}</a>
+              </div>
+            </li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>benchmark</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ url_for('app.benchmark', benchmark_id=contender.id) }}">{{ contender.display_name }}</a>
+              </div>
+            </li>
+            {% if contender_run %}
+            {% if contender_run.commit.url %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>commit</b>
+              <div class="ellipsis-500" align="right" style="display:inline-block; float: right;">
+                {% if contender_run.commit.message %}
+                  <a href="{{ contender_run.commit.url }}">{{ contender_run.commit.message }}</a>
+                {% else %}
+                  <a href="{{ contender_run.commit.url }}">{{ contender_run.commit.sha }}</a>
+                {% endif %}
+              </div>
+            </li>
+            {% endif %}
+            {% if contender_run.commit.display_timestamp %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>date</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ contender_run.commit.display_timestamp }}
+              </div>
+            </li>
+            {% endif %}
+            {% if contender_run.commit.author_name %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>author</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ contender_run.commit.author_name }}
+                {% if contender_run.commit.author_avatar %}
+                  &nbsp; <image src="{{ contender_run.commit.author_avatar }}" height="30" style="border-radius: 50%;">
+                {% endif %}
+              </div>
+            </li>
+            {% endif %}
+            {% if contender_run.commit.display_repository %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>repository</b>
+              <div align="right" style="display:inline-block; float: right;">
+                <a href="{{ contender_run.commit.repository }}">{{ contender_run.commit.display_repository }}</a>
+              </div>
+            </li>
+            {% endif %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>machine</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ contender_run.machine.name }}
+              </div>
+            </li>
+            {% endif %}
+          <li class="list-group-item active">Result</li>
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>timestamp</b>
+              <div align="right" style="display:inline-block; float: right;">
+                {{ contender.display_timestamp }}
+              </div>
+            </li>
+          {% for k,v in contender.stats.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              {% if v is not none %}
+                <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+              {% endif %}
+            </li>
+          {% endfor %}
+          <li class="list-group-item active">Tags</li>
+          {% for k,v in contender.tags.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              {% if v is not none %}
+                <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+              {% endif %}
+            </li>
+          {% endfor %}
+          <li class="list-group-item active">Machine</li>
+          {% for k,v in contender_run.machine.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+            </li>
+          {% endfor %}
+          <li class="list-group-item active">Context</li>
+          {% for k,v in contender.context.items() %}
+            <li class="list-group-item" style="overflow-y: auto;">
+              <b>{{ k }}</b>
+              <div align="right" style="display:inline-block; float: right;">{{ v }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+
+{{ resources | safe }}
+
+<script type="text/javascript">
+$(document).ready(function() {
+    Bokeh.embed.embed_item({{ plot | safe }});
+});
+
+{% if plot_history %}
+$(document).ready(function() {
+    Bokeh.embed.embed_item({{ plot_history | safe }});
+});
+{% endif %}
+
+$(document).ready(function() {
+    $('#unit-tooltip').tooltip()
+   });
+</script>
+
+{% endblock %}
