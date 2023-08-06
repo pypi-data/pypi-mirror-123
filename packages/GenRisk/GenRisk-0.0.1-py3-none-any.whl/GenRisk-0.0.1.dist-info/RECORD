@@ -1,0 +1,16 @@
+genrisk/__init__.py,sha256=Tt8PSCXQ2yqIsqY1i_WScuUAdOYXQ7mDmM5I9zm34Hg,32
+genrisk/__main__.py,sha256=dAzNJpRYWUw_Uov0nso3PZYLI1eEUgDsPD-lioya1JA,154
+genrisk/association_analysis.py,sha256=73bhrxI4QzpN-QdehzaBe-ghqBFKB3ZYestbwGicmik,6165
+genrisk/cli.py,sha256=nfqNxSrT_kJoreDGKrjZaxUxVc3WcsggGz3xySqMLoA,22219
+genrisk/gene_scoring.py,sha256=291sNV0J_8ZobhnkqI0p5vWaDZsxBvVjy6gV9pVsqDY,7054
+genrisk/helpers.py,sha256=VEiiE58Att0zaPAnOcko5PBfxykR5ucxYw9-WNHJWXs,2911
+genrisk/pipeline.py,sha256=4Iao0GUWTBJ49_9rouJhUhG8hSfwST89ENKbERW_P0I,10495
+genrisk/prediction_models.py,sha256=I9_9qKP1nU1Qe3uo9GM9o3UHPcrPk45GaRStY4BCBBc,4086
+genrisk/prs_scoring.py,sha256=k2Pa7_FuBIfKGryfgzJ9KfrNCkXVjruWA05toFxDSPw,2645
+genrisk/utils.py,sha256=7HrkqWIor008HOsLUXWz0d6DKnYvtKL585K7J-z_bIM,5118
+GenRisk-0.0.1.dist-info/LICENSE,sha256=fgcSR56MqNAqbnR-rMXv53xFxSawsmHtt89dUIXnniw,1068
+GenRisk-0.0.1.dist-info/METADATA,sha256=t1JazV-cuXzL-KILoqtzFHM_7kwLDDm9vImDAJXSDJQ,4257
+GenRisk-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+GenRisk-0.0.1.dist-info/entry_points.txt,sha256=s1x_g3mjdxOcrNrdy5RQZpmPLtwNwAmBvOgagT2HoBo,46
+GenRisk-0.0.1.dist-info/top_level.txt,sha256=1nyIso4lqufvA8XQqOFb-MsDnR8G4QQw3P-hlaY_UCo,8
+GenRisk-0.0.1.dist-info/RECORD,,
