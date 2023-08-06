@@ -1,0 +1,9 @@
+face_lib/__init__.py,sha256=XetROL4kRyHmm0kNsYiNH2-WXMPWzM7FsAxR7JaxKMc,30
+face_lib/face_lib.py,sha256=WBfWjuAuXh66PgvFiN9DtglmPqsmFeVr1tOGyLQD-Tc,5729
+face_lib/graph_final.pb,sha256=YFdv-nxhj4Caczg77S67kcTchQVM58rDAbnMmbZGt48,94027862
+face_lib/haarcascade_frontalface_alt2.xml,sha256=ewyWfZq7373gJeuceGlH0VG2QmBA0HqPlWLtj9kHJLQ,540616
+face_library-1.0.0.dist-info/LICENSE,sha256=YSk0Ge_VWVQ4ukSQOKGa8upQVcMIJketMdy-70Eapp4,1067
+face_library-1.0.0.dist-info/METADATA,sha256=v5FzNXYhCTr9upVxwbfdKgG9DhSNs4UOucixuDBpHgo,4139
+face_library-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+face_library-1.0.0.dist-info/top_level.txt,sha256=6ubknaMvssSRO5ochLzBVA4cQy5-3WpCyGIX0JEmCBg,9
+face_library-1.0.0.dist-info/RECORD,,
