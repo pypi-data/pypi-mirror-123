@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: thingbits-ha
+Version: 0.1.0
+Summary: ThingBits HomeAssistant Integration
+Home-page: https://github.com/thingbits
+Author: ThingBits
+Author-email: dev@thingbits.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: paho-mqtt (==1.5.1)
+
+UNKNOWN
+
+
