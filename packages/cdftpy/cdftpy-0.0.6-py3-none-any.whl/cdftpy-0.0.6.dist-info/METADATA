@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cdftpy
+Version: 0.0.6
+Summary: Classical density functional theory code
+Home-page: UNKNOWN
+Author: Marat Valiev and Gennady Chuev
+Author-email: marat.valiev@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: scipy (>=1.6.1)
+Requires-Dist: numpy (>=1.20.1)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: click
+Requires-Dist: prompt-toolkit
+
+UNKNOWN
+
