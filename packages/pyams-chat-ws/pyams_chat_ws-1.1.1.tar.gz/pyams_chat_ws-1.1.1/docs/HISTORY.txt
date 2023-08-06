@@ -1,0 +1,16 @@
+Changelog
+=========
+
+1.1.1
+-----
+ - updated package dependencies
+
+1.1.0
+-----
+ - added HTTP monitoring endpoint
+ - added Elastic-APM support
+ - added configuration file example
+
+1.0.0
+-----
+ - initial release
