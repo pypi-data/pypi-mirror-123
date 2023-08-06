@@ -1,0 +1,31 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Scrap11888/GUI.py
+Scrap11888/__init__.py
+Scrap11888.egg-info/PKG-INFO
+Scrap11888.egg-info/SOURCES.txt
+Scrap11888.egg-info/dependency_links.txt
+Scrap11888.egg-info/entry_points.txt
+Scrap11888.egg-info/not-zip-safe
+Scrap11888.egg-info/requires.txt
+Scrap11888.egg-info/top_level.txt
+Scrap11888/lib/Controller.py
+Scrap11888/lib/__init__.py
+Scrap11888/lib/DataManagement/Cacher.py
+Scrap11888/lib/DataManagement/Exporter.py
+Scrap11888/lib/DataManagement/Filter.py
+Scrap11888/lib/DataManagement/Importer.py
+Scrap11888/lib/DataManagement/Miner.py
+Scrap11888/lib/DataManagement/Utils.py
+Scrap11888/lib/DataManagement/__init__.py
+Scrap11888/lib/Decorators/Debugging.py
+Scrap11888/lib/Decorators/__init__.py
+Scrap11888/lib/Fetching/QueryMaker.py
+Scrap11888/lib/Fetching/__init__.py
+Scrap11888/namelists/GR Big.xlsx
+Scrap11888/namelists/GR Small.xlsx
+Scrap11888/res/help_msg.txt
+Scrap11888/res/icon.ico
