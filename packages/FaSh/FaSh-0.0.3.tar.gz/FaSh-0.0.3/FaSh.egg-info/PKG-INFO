@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: FaSh
+Version: 0.0.3
+Summary: Easy tools helping build iSpace programs
+Home-page: https://github.com/Loveinwei/FaSh
+Author: HK.xu
+Author-email: xhkdwyyx@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
