@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bayeshist/__init__.py
+bayeshist/bayeshist.py
+bayeshist/plotting.py
+bayeshist.egg-info/PKG-INFO
+bayeshist.egg-info/SOURCES.txt
+bayeshist.egg-info/dependency_links.txt
+bayeshist.egg-info/not-zip-safe
+bayeshist.egg-info/requires.txt
+bayeshist.egg-info/top_level.txt
