@@ -1,0 +1,8 @@
+one_neuron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+one_neuron/all_utils.py,sha256=4sDPyDYarY0IqYS-q_O23bAUY6S9tJ6Z3w1CLRc9Z0k,2995
+one_neuron/perceptron.py,sha256=GmkV4ZD-PdEweeP-JV5fQ3qCEeea4-P5WUmcCzfQDG8,1681
+one_neuron_pypi_pralaydas-0.0.5.dist-info/LICENSE,sha256=PHwRDKNgcaz2nuPMxfl4AqNGVEyNGI5IH54iABrxf68,1067
+one_neuron_pypi_pralaydas-0.0.5.dist-info/METADATA,sha256=n9yJaARlQu3qve0Uz_3eQCO6b7W5JwXU1Jh6M9hIhVA,932
+one_neuron_pypi_pralaydas-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+one_neuron_pypi_pralaydas-0.0.5.dist-info/top_level.txt,sha256=AoSaWxCGQjVAqtT4dwB1IbVxrp1mOFRtfloHQ3oiEtI,11
+one_neuron_pypi_pralaydas-0.0.5.dist-info/RECORD,,
