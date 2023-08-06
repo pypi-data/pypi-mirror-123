@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "classy-ml"
+version = "0.1.0_dev1"
+description = "A powerful tool to train and use your classification models."
+authors = [
+    "Sunglasses AI",
+    "Edoardo Barba <edoardo.barba@gmail.com>",
+    "Niccolò Campolungo <niccolo.campolungo@gmail.com>",
+    "Luigi Procopio <luigi.p.procopio@gmail.com>"
+]
+keywords = ["classy", "sunglassesai", "sunglasses", "classification"]
+homepage = "https://github.com/sunglasses-ai"
+repository = "https://github.com/sunglasses-ai/classy"
+license = "Apache"
+include = ["LICENSE", "configurations/*"]
+exclude = ["data/*"]
+readme = "README.md"
+packages = [
+    { include = "classy" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.poetry.scripts]
+classy = "classy.scripts.cli.__init__:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+torch = "1.9.0"
+pytorch-lightning = "^1.4.5"
+transformers = "^4.10.0"
+hydra-core = "^1.1.1"
+argcomplete = "1.12.3"
+
+# datasets and metrics
+datasets = "^1.11.0"
+seqeval = "1.2.2"
+scikit-learn = "0.24.2"
+matplotlib = "3.4.3"
+
+# web
+fastapi = "0.68.1"
+"uvicorn[standard]" = "0.15.0"
+streamlit = "0.88.0"
+st-annotated-text = "2.0.0"
+
+# black
+black = "21.8b0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
