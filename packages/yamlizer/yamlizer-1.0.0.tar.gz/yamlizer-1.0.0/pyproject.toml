@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yamlizer"
+version = "1.0.0"
+description = "Yamlizer simplifies loading (dumping) of custom Python objects from (to) yaml configuration files"
+authors = ["Atharv Joshi <atharvjoshi@ymail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyYAML = "^5.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.8b0"
+Sphinx = "^4.1.2"
+sphinxcontrib-napoleon = "^0.7"
+sphinx-rtd-theme = "^1.0.0"
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
