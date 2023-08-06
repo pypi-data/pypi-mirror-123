@@ -1,0 +1,3 @@
+[console_scripts]
+syneto-clio = clio.syneto_clio:cli
+
