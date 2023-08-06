@@ -1,0 +1,13 @@
+kaskada/__init__.py,sha256=cFwC18avBYochOa9-ymfrj4A_gUFBth3heTF33qxA28,7645
+kaskada/client.py,sha256=5UpT6gNMN5GRGN0A9imdxdmVDcFijKdehZhcVLm-VPc,6444
+kaskada/compute.py,sha256=jummCQwt2ySjUZKco8pwysCiaXBhn57eUAXPle9VJ5M,1058
+kaskada/materialization.py,sha256=WWMNEzy19EJ5azUmv7y3Ayyj8JC9m_srGnmS32PR8Vk,6902
+kaskada/staging.py,sha256=YzNSjik7BVz4OsULbX_CKk-CHicGI2IxUBGt7MA24ec,6615
+kaskada/table.py,sha256=0Iwvihezu4_JvaGe9elhxlnh8cwVK5ZGq0o7BQMET_U,9134
+kaskada/utils.py,sha256=VEBkK4DceERgx1ACoUT6FjKzPZRhDFmcEdmhGFQUuUw,572
+kaskada/view.py,sha256=QCvzuvOYee49Q-DG7B-pFsG0PYnZafA111cXCdEi5oE,4547
+kaskada-0.0.6.dist-info/LICENSE,sha256=3LSpRBAUBI96TgMwWsKLur4oiZMrYB4-ntDs6mFwY_E,377
+kaskada-0.0.6.dist-info/METADATA,sha256=8q1gz8G17tzYTwrh6DWf9YKnbfWBXjWCGCNjr4gHVUs,1110
+kaskada-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kaskada-0.0.6.dist-info/top_level.txt,sha256=UOAI3IljJvn2KC880GI7qplUs3s1PC2P7O02VIa-4SQ,8
+kaskada-0.0.6.dist-info/RECORD,,
