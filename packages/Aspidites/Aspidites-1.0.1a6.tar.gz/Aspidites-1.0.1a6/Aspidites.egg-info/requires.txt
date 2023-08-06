@@ -1,0 +1,10 @@
+pyrsistent
+numpy
+cython<3,>0.28
+pyparsing
+mypy
+pytest
+pytest-xdist
+pytest-mock
+hypothesis
+future
