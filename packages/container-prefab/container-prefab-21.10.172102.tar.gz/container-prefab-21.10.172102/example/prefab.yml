@@ -1,0 +1,15 @@
+targets:
+
+  app:
+    dockerfile: Dockerfile.app
+    build_options:
+      platform: linux/amd64
+    depends_on:
+      - packages
+    watch_files:
+      - app.py
+
+  packages:
+    dockerfile: Dockerfile.packages
+    build_options:
+      platform: linux/amd64

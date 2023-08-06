@@ -1,0 +1,24 @@
+ARG PREFAB_TOOLS
+ARG PREFAB_WHEELS
+ARG PREFAB_DEV_WHEELS
+
+FROM $PREFAB_WHEELS as wheels
+FROM $PREFAB_DEV_WHEELS as dev-wheels
+FROM $PREFAB_TOOLS
+
+COPY --from=wheels /wheels /wheels
+COPY --from=dev-wheels /wheels /wheels
+
+RUN pip3 install -U pip && \
+    pip3 install /wheels/*.whl && \
+    rm -fr /wheels && \
+    apk -U add git bash bash-completion git-bash-completion && \
+    rm -fr /var/cache/apk/* /root/.cache
+
+RUN mkdir -p /root/.docker && \
+    echo '{"auths":{}}' > /auth.json && \
+    ln -fs /auth.json /root/.docker/config.json && \
+    touch /docker.sock && \
+    ln -fs /docker.sock /var/run/docker.sock
+
+ENTRYPOINT []

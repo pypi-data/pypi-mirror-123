@@ -1,0 +1,45 @@
+options:
+  allowed_pull_errors:
+    - ImageAccessError
+    - ImageNotFoundError
+    - ImageValidationError
+  buildarg_prefix: prefab_
+  digest_label: prefab.digest
+  hash_algorithm: sha256
+  hash_chunk_size: 65535
+  prune_after_build: false
+  short_digest_size: 12
+  target_label: prefab.target
+  validate_image: true
+  ignore_files:
+    - "__cache__/"
+    - "*.build/"
+    - "*.kruft"
+    - "watch_files/a/b/exclude.me"
+    - "watch_files/a/.git/"
+
+targets:
+  a:
+    dockerfile: Dockerfile.a
+    depends_on:
+      - b
+      - c
+    watch_files:
+      - prefab.yml
+      - watch_files/a
+    build_options:
+      labels:
+        fixture: "true"
+      squash: false
+
+  b:
+    dockerfile: Dockerfile.b
+    depends_on:
+      - c
+    watch_files:
+      - prefab.yml
+
+  c:
+    dockerfile: Dockerfile.c
+    watch_files:
+      - prefab.yml

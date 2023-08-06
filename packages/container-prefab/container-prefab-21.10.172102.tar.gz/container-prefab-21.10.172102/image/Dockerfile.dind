@@ -1,0 +1,14 @@
+ARG PREFAB_DIST
+
+FROM $PREFAB_DIST as dist
+FROM docker:20.10.9-dind
+
+RUN apk --no-cache upgrade && \
+    mkdir -p /root/.docker && \
+    echo '{"auths":{}}' > /auth.json && \
+    ln -fs /auth.json /root/.docker/config.json
+
+COPY --from=dist /prefab /usr/local/bin/prefab
+COPY image/entrypoint.dind /entrypoint-prefab
+
+ENTRYPOINT ["/entrypoint-prefab"]
