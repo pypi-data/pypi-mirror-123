@@ -1,0 +1,9 @@
+{
+  "FSMRecord": {
+    "properties": {
+      "oarepo:recordStatus": {
+        "type": "keyword"
+      }
+    }
+  }
+}

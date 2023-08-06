@@ -1,0 +1,14 @@
+{
+  "definitions": {
+    "oarepo:recordStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "pendingApproval",
+        "approved",
+        "public"
+      ],
+      "description": "Field representing the current FSM status of the record"
+    }
+  }
+}

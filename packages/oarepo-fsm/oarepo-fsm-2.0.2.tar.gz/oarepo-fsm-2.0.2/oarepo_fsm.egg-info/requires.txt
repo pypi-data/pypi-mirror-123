@@ -1,0 +1,16 @@
+wrapt>=1.11.2
+
+[build]
+oarepo-model-builder
+
+[deploy]
+oarepo[deploy]~=3.3.0
+
+[devel]
+oarepo[tests]~=3.3.0
+
+[tests]
+oarepo[tests]~=3.3.0
+
+[tests-es7]
+oarepo[tests-es7]~=3.3.0
