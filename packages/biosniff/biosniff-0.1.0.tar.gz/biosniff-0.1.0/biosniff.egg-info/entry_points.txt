@@ -1,0 +1,3 @@
+[console_scripts]
+biosniff = biosniff.main:sniffer
+
