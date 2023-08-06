@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: esri2gpd
+Version: 1.0.8
+Summary: Scrape features from the ArcGIS Server REST API and return a geopandas GeoDataFrame
+License: MIT
+Author: Nick Hand
+Author-email: nick.hand@phila.gov
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: arcgis2geojson (>=2.0.1,<3.0.0)
+Requires-Dist: geopandas (>=0.10.1,<0.11.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
