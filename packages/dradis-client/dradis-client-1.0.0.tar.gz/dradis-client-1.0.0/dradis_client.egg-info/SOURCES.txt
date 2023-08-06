@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dradis/__init__.py
+dradis_client.egg-info/PKG-INFO
+dradis_client.egg-info/SOURCES.txt
+dradis_client.egg-info/dependency_links.txt
+dradis_client.egg-info/top_level.txt
