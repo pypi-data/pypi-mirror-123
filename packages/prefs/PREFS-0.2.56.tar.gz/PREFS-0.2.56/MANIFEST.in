@@ -1,0 +1,9 @@
+include requirements.txt
+include MANIFEST.in
+include LICENSE.txt
+include CHANGELOG.md
+exclude img/*
+exclude assets/*
+exclude website/*
+exclude PREFS/Test/*
+global-exclude __pycache__
