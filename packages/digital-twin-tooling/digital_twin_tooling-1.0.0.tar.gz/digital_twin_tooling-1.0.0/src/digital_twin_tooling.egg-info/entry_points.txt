@@ -1,0 +1,3 @@
+[console_scripts]
+cli = digital_twin_tooling:main
+
