@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: iot-ccm-config-builder
+Version: 1.0.0
+Summary: A tool to build config files for the IOT CCM SDK project
+Home-page: https://gitlab.com/prometheuscomputing/nist-ssd-iot-testbed/iot-ccm-config-builder
+Author: NIST IT Lab
+Author-email: itl_inquiries@nist.gov
+License: UNKNOWN
+Description: ======================
+        IOT CCM CONFIG BUILDER
+        ======================
+        
+        A tool to build config files for the IOT CCM SDK project.
+        
+        
+        Usage
+        =====
+        
+        Create a configurations file for an IOT component
+        -------------------------------------------------
+        
+            $ python config_file.py --create
+        
+        Check if a configurations file is validated by the Schema
+        ---------------------------------------------------------
+        
+            $ python config_file.py --check path/to/file.json
+Platform: UNKNOWN
