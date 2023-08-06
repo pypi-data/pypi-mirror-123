@@ -1,0 +1,3 @@
+[console_scripts]
+checkip = checkip.cli:main
+
