@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: cryptbase
+Version: 1.0.0
+Summary: Protect yourself and your customers with database encryption.
+Home-page: https://code.eghuro.com/cryptbase/python-cryptbase
+Author: Alexandr Mansurov
+Author-email: alex@eghuro.cz
+License: MIT
+Project-URL: Documentation, https://python-cryptbase.readthedocs.io/
+Project-URL: Changelog, https://python-cryptbase.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://code.eghuro.com/cryptbase/python-cryptbase/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: cryptography
+Provides-Extra: django
+Requires-Dist: django (>=3.2) ; extra == 'django'
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlalchemy (>=1.4) ; extra == 'sqlalchemy'
+
+========
+Overview
+========
+
+Protect yourself and your customers with database encryption.
+
+* Free software: MIT license
+
+Installation
+============
+
+    pip install cryptbase
+
+
+Usage
+============
+
+You can use cryptbase with django ORM or with SQLAlchemy.
+
+To use with SQLAlchemy:
+
+    from cryptbase import EncryptedText
+    sensitive = Column(EncryptedText(key=DB_KEY))
+
+To use with django:
+
+    from cryptbase import EncryptedTextField
+    sensitive = EncryptedTextField(key=DB_KEY)
+
+DB_KEY is 32 bytes encryption key as hex encoded string. Fields behave as TEXT fields, data are transparently encrypted
+when storing into the database and decrypted on retrieval.
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+
+Changelog
+=========
+
+1.0.0 (2021-10-17)
+------------------
+
+* Encrypted text field for Django and SQLAlchemy with AES-256-CTR
+
