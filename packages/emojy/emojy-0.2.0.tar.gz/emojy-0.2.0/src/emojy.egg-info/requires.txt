@@ -1,0 +1,6 @@
+tokenize-rt>=4.1.0
+
+[dev]
+black
+mypy
+pytest

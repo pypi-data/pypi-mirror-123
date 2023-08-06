@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: emojy
+Version: 0.2.0
+Summary: Write Python, in emojis
+Home-page: https://github.com/tusharsadhwani/emojy
+Author: Tushar Sadhwani, Rodrigo Girão Serrão
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# emojy
+
+Write Python with emojis!
+
+Inspired by [this tweet][1], so blame Paul, not us.
+
+## Installation / Usage
+
+```console
+$ pip install emojy
+[...]
+Successfully installed emojy.
+$ cat code.emojy
+📺('Hello 👋!')
+$ emojy code.emojy
+Hello 👋!
+```
+
+## Examples
+
+Code:
+
+```python
+📺('✅' if 👍 👐 👎 else '❌')
+```
+
+Output:
+
+```python
+✅
+```
+
+---
+
+Code:
+
+```python
+🤞:
+    👍/👎
+💣:
+    📺('Boom💥')
+```
+
+Output:
+
+```python
+Boom💥
+```
+
+[1]: https://twitter.com/ptmcguire/status/1447588788465815557
+
+
