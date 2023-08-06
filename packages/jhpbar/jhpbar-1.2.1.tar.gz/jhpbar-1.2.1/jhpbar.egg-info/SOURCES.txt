@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+jhpbar/__init__.py
+jhpbar/pbar.py
+jhpbar.egg-info/PKG-INFO
+jhpbar.egg-info/SOURCES.txt
+jhpbar.egg-info/dependency_links.txt
+jhpbar.egg-info/not-zip-safe
+jhpbar.egg-info/top_level.txt
