@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: jla-tailer
+Version: 0.1.3
+Summary: Tool to find 3' tailing of non-coding RNAs
+Home-page: https://github.com/TimNicholsonShaw/tailer
+Author: Tim Nicholson-Shaw
+Author-email: timnicholsonshaw@gmail.com
+License: UNKNOWN
+Project-URL: Lab Website, https://labs.biology.ucsd.edu/lykkeandersen/index.html
+Keywords: Sequencing,ncRNAs,Bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tailer: A tool for 3' end analysis of non-polyadenylated RNAs from 3' sequencing data
+
+## Requirements
+- ``Python >= 3.6``
+- ``pysam``
+- ``Bio``
+- ``gffuitls``
+- ``requests``
+- ``tqdm``
+
+## Installation
+
+```bash
+pip install jla-tailer
+```
+
+## Usage
+
+Global alignment with a GTF annotation and SAM/BAM formatted files
+```bash
+Tailer -a [GTF Annotation] [SAM or BAM Files]
+```
+
+Local alignment with with FASTA/Q and specific Ensembl IDs of interest or reference fasta
+```bash
+Tailer -e [comma separated list of EnsIDs no spaces] [FASTA/Q files]
+Tailer -f fasta_reference_file.fasta [FASTA/Q files]
+```
+
+Optional arguments
+
+* ``-t, --threshold [int, default=100]``
+    - Any alignment identified further than this distance in nucleotides from the mature end will be considered spurious and discarded
+* ``-x, --trim [int, default=0]``
+    - Helper for local mode only, can remove X nucleotides from adapter on the 3' end
+* ``-r, --rev_comp``
+    - Helper for local mode only. If set, will reverse complement the reads which is necessary for the Lykke-Andersen pipeline
+* ``-f, --fasta``
+    - Use a fasta file as a reference instead of building one from ensembl IDs (Local Only)
+* ``-s, --sequence``
+    - Output sequence in the tail file. Useful for debugging.
+
+
+
+
