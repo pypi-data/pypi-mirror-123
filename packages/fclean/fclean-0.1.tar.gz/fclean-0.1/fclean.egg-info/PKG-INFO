@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: fclean
+Version: 0.1
+Summary: simple project, simple life
+Home-page: UNKNOWN
+Author: madhavth
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Flutter clean architecture cli helper
+        
+        bloc/cubit for business logic
+        equatable for comparision
+        dio for network call 
+Platform: UNKNOWN

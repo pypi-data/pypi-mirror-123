@@ -1,0 +1,203 @@
+#!/usr/bin/python3
+version="0.1"
+import argparse
+import subprocess as sp
+import os
+import re
+from typing import List
+
+def exec(command:str):
+    return sp.run(command.split(' '), capture_output=True)
+
+
+def to_snake_case(name):
+    name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
+    name = re.sub('__([A-Z])', r'_\1', name)
+    name = re.sub('([a-z0-9])([A-Z])', r'\1_\2', name)
+    return name.lower()
+
+def camel(s):
+    s = re.sub(r"(_|-)+", " ", s).title().replace(" ", "")
+    return ''.join([s[0].lower(), s[1:]])
+
+
+def get_module_name(name: str):
+    return name.replace("_", " ").title().replace(" ", "")
+
+def mkdir(name:str):
+    if not os.path.exists(name):
+        os.makedirs(name)
+
+
+def make_folders(list: List[str]):
+    for i in list:
+        mkdir(i)
+
+def check_if_exists(name:str):
+    if(os.path.exists(name)):
+        yn = input('directory already exists are you sure you want to continue?')
+        if yn != 'y':
+            print('exiting as folder already exists')
+            exit(1)
+
+
+def create_folders(name: str):
+    check_if_exists(name)
+    mkdir(name)
+    os.chdir(name)
+    make_folders(['entities', 'models', 'widgets', 'cubits'])
+
+def success_message(pre:str):
+    print(f'{pre} created successfully!')
+
+
+def create_repository(snake_case, module_name, network_call:bool):
+    template_string = f"""import 'package:dio/dio.dart';
+    
+    class {module_name}Repository {{ 
+        
+    }}
+    """ if not network_call else f"""import 'package:dio/dio.dart';
+    
+    class {module_name}Repository {{ 
+        Future<dynamic> fetchData() async {{
+            var response = await dio.get('dummy');
+            return response;
+        }}
+    }}
+    """
+    
+    
+    with open(f'{snake_case}_repository.dart', 'w') as f:
+        f.write(template_string)
+        success_message('repository class')
+
+
+def create_view_class(snake_case, module_name):
+    
+    template_string = f"""import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+class {module_name}Page extends StatelessWidget {{
+    const {module_name}Page({{Key? key}}): super(key:key);
+
+    @override
+    Widget build(BuildContext context) {{
+        return Container();   
+    }}
+}}
+"""
+    
+    with open(f'{snake_case}_view.dart', 'w') as f:
+        f.write(template_string)
+        success_message('view')
+
+
+def create_cubit(snake_case, module_name, is_network_call:bool):
+    folder = os.path.join('cubits', snake_case)
+    camel_case = camel(snake_case)
+    
+    mkdir(folder)
+    template_cubit = f"""import 'package:bloc/bloc.dart';
+import 'package:equatable/equatable.dart';
+    part '{snake_case}_state.dart';
+    
+    class {module_name}Cubit extends Cubit<{module_name}State> {{
+        
+        {module_name}Cubit(): super({module_name}Initial());
+    }}
+    """ if not is_network_call else f"""import 'package:bloc/bloc.dart';
+import 'package:equatable/equatable.dart';
+import '../../{snake_case}_repository.dart';
+part '{snake_case}_state.dart';
+    
+    class {module_name}Cubit extends Cubit<{module_name}State> {{
+        
+        {module_name}Repository {camel_case}Repository = {module_name}Repository(); 
+        
+        {module_name}Cubit(): super({module_name}Initial());
+        
+        late var data;
+        
+        fetchData() async {{
+        try{{
+          emit({module_name}LoadingState());
+          data = await {camel_case}Repository.fetchData();
+          emit({module_name}LoadedState(data));  
+            }}
+        catch(e) {{
+            emit({module_name}ErrorState(e));
+        }}
+        }}
+    }}
+    """
+    
+    with open(os.path.join(folder, f'{snake_case}_cubit.dart'), 'w') as f:
+        f.write(template_cubit)
+    
+    
+    template_cubit_state = f"""part of '{snake_case}_cubit.dart';
+    
+    abstract class {module_name}State extends Equatable {{
+        @override
+        List<Object> get props => [];
+    }}
+    
+    class {module_name}Initial extends {module_name}State {{}}
+    
+    class {module_name}LoadingState extends {module_name}State {{}}
+    
+    class {module_name}LoadedState extends {module_name}State {{
+        final data;
+        
+        {module_name}LoadedState(this.data);
+    }}
+    
+    class {module_name}ErrorState extends {module_name}State {{
+        final error;
+        
+        {module_name}ErrorState(this.error);
+    }}
+    
+    """ if is_network_call else f"""part of '{snake_case}_cubit.dart';
+    
+    abstract class {module_name}State extends Equatable {{
+        @override
+        List<Object> get props => [];
+    }}
+    
+    class {module_name}Initial extends {module_name}State {{}}
+    """
+    
+    with open(os.path.join(folder, f'{snake_case}_state.dart'), 'w') as f:
+        f.write(template_cubit_state)
+    
+
+def create_base_files(name: str, is_network_call: bool):
+    snake_case = to_snake_case(name)
+    module_name = get_module_name(name)
+    [
+        create_repository(snake_case, module_name, is_network_call),
+        create_view_class(snake_case, module_name),
+        create_cubit(snake_case, module_name, is_network_call)
+    ]
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('file', metavar='File name')
+    parser.add_argument('--network', '-n', action='store_true', default=False, help= 'network call states for cubit')
+    args = parser.parse_args()
+    snake_case = to_snake_case(args.file)
+    module_name = get_module_name(args.file)
+    
+    if args.network:
+        print('creating network call version of cubit and repository...')
+    
+    create_folders(args.file)
+    create_base_files(args.file, args.network)
+
+
+if __name__ == '__main__':
+    main()
