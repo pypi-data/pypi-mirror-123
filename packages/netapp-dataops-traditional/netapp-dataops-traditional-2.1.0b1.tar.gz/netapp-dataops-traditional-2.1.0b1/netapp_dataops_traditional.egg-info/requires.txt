@@ -1,0 +1,6 @@
+netapp-ontap
+pandas
+tabulate
+requests
+boto3
+pyyaml
