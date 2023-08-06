@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-role-policy
+Version: 13.0.20211016.0
+Summary: Meta package for oca-role-policy Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 13.0
+Requires-Dist: odoo13-addon-role-policy
+Requires-Dist: odoo13-addon-role-policy-account
+Requires-Dist: odoo13-addon-role-policy-demo
+Requires-Dist: odoo13-addon-role-policy-sale
+
+UNKNOWN
+
