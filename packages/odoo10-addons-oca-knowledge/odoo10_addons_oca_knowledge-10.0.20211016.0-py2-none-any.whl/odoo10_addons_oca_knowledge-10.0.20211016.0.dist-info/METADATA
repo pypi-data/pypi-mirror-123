@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-knowledge
+Version: 10.0.20211016.0
+Summary: Meta package for oca-knowledge Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-attachment-action
+Requires-Dist: odoo10-addon-attachment-attach-non-editable
+Requires-Dist: odoo10-addon-attachment-edit
+Requires-Dist: odoo10-addon-attachment-preview
+Requires-Dist: odoo10-addon-document-page
+Requires-Dist: odoo10-addon-document-page-approval
+Requires-Dist: odoo10-addon-document-page-partner-id
+Requires-Dist: odoo10-addon-document-page-tags
+Requires-Dist: odoo10-addon-knowledge
+
+UNKNOWN
+
