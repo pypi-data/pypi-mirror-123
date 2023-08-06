@@ -1,0 +1,11 @@
+
+[build]
+bump2version
+wheel
+
+[tests]
+pytest
+pytest-benchmark
+
+[tests:implementation_name == "cpython"]
+pytest-mypy
