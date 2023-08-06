@@ -1,0 +1,22 @@
+aioredis<2.0.0
+bluesky
+bluesky-kafka
+databroker
+event-model
+json-rpc
+jsonschema
+matplotlib
+scikit-image
+msgpack>=1.0.0
+msgpack_numpy
+numpydoc
+openpyxl
+ophyd
+pydantic
+python-multipart
+pyyaml
+pyzmq
+requests
+
+[:python_version < "3.8"]
+typing-extensions
