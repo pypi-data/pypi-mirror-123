@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+firebolt = firebolt_db.firebolt_dialect:FireboltDialect
+
