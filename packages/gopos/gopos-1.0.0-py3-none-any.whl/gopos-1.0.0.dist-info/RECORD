@@ -1,0 +1,10 @@
+gopos/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+gopos/client.py,sha256=esK2jlIa-CJ98WU0hX7b_C3RZkCwXo-d_wbsC09VRQE,2624
+gopos/models/__init__.py,sha256=pUSZmLlfZYSK6i0dhr8j1uwl1qCqBd7F8x6Ga8-i7uk,69
+gopos/models/address.py,sha256=ti2QLEljZqnv67gbZYjxewVZZ4ybrgIVPLzXwTH0hAY,1019
+gopos/models/health.py,sha256=pBXrSkX56Sps69oAxGrykmoke-ejZ3CWewZb8SC2Joo,204
+gopos/models/timezone.py,sha256=mV3gddS-8Tw0uJLK0_OtmhuNkBbaXpmyhQCZ52dUyq4,252
+gopos-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gopos-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gopos-1.0.0.dist-info/METADATA,sha256=zfPmyt-UbpMuYlJF0LvFanr4ufviAnkocPd6VuVm9gc,954
+gopos-1.0.0.dist-info/RECORD,,
