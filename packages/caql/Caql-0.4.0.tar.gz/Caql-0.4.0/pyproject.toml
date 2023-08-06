@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "Caql"
+version = "0.4.0"
+description = "Tell your front-end team they have a perfectly good graph query language at home"
+authors = ["ExplosionAI GmbH"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.7.0,<3.10"
+pkginfo = ">=1.7, <2.0"
+
+[tool.poetry.dev-dependencies]
+sqlalchemy = ">=1.3.16,<2.0.0"
+mock = "*"
+pytest = ">=6.2.4,<7.0.0"
+pytest-cov = "*"
+coverage = "*"
+pytest-mock = "^3.6.1"
+hypothesis = "*"
+mypy = "*"
+flake8 = "*"
+autoflake = "*"
+isort = "*"
+black = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
