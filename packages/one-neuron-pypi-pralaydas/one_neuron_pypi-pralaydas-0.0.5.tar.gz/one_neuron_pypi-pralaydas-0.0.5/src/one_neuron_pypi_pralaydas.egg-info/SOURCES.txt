@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/one_neuron/__init__.py
+src/one_neuron/all_utils.py
+src/one_neuron/perceptron.py
+src/one_neuron_pypi_pralaydas.egg-info/PKG-INFO
+src/one_neuron_pypi_pralaydas.egg-info/SOURCES.txt
+src/one_neuron_pypi_pralaydas.egg-info/dependency_links.txt
+src/one_neuron_pypi_pralaydas.egg-info/requires.txt
+src/one_neuron_pypi_pralaydas.egg-info/top_level.txt
