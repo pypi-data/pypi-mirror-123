@@ -1,0 +1,11 @@
+eppconvert/__init__.py,sha256=LfTfaWfbCKH56D9xLa3wgvPNyEUNcedUT-HxHFMrqz8,878
+eppconvert/eppformat.py,sha256=b30AIWAwRFDeyRDz3LhuPN-GY6FC9IZADMN-0iN8GPk,8116
+eppconvert/eppread.py,sha256=SsMkXNCCh2UMDlO8US6jOuzFODCR7d-2GZMx9rD9r5w,2880
+eppconvert/gpx2epp.py,sha256=HC3oPL3_DA71lp7GW0UBrSoQNL3QCaIDmsleYBNDiNs,8461
+eppconvert/release.py,sha256=PVDbiFrldqgTbjgLodvcpFYmtvAoWpR1wfvPLjuR3Cs,853
+eppconvert-0.9.3.dist-info/LICENSE,sha256=K69QVsIz9VLLNx8U5zgwj9LZjqv4fKlL4yQShRoDPlw,748
+eppconvert-0.9.3.dist-info/METADATA,sha256=zpPdTqct_6j9P_Zngi0BT9pdntbYop9k02aDeMyvqm4,3572
+eppconvert-0.9.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+eppconvert-0.9.3.dist-info/entry_points.txt,sha256=EvFErL8cQW7n6djI7R1ciFEzMiuRIeQMewLRQwzZE4w,87
+eppconvert-0.9.3.dist-info/top_level.txt,sha256=tjM0fxvHZouGwrry2ZrIPSU-kTLv3IycZiUE4sOplys,11
+eppconvert-0.9.3.dist-info/RECORD,,
