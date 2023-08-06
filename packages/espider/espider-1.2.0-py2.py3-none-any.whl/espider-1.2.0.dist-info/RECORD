@@ -1,0 +1,15 @@
+espider/__init__.py,sha256=6txhV3H4-SDdO8aGrxJAyENK5KmLwPUCLZxiy8lVjFE,12528
+espider/request.py,sha256=0prljzSsoo6tFc7wOKH-DbP3QEnXTH0HkMSW6BkxHkw,359
+espider/response.py,sha256=e0fWw5EVX3oT_6vGdOCXqTz1AD04KL4MEQQG3ueaKu4,24402
+espider/selector.py,sha256=w-1ApzvIe0u6ve4udcgSAGwLzDTvU_cIsY-ayX3RmbM,17308
+espider/spider.py,sha256=_m3DIYXoyXUIC5_ravrofOTARLg1GanLAcxx4FsSTq8,9329
+espider/utils.py,sha256=0uBs4ULbJdpdIzKFn6lSinm26z4YAgjLxTx6dCOESnI,11188
+espider/_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+espider/_utils/_bs4.py,sha256=wXOLJ4CZyo04BGmpAk15OgqX_93Njp1tQrdfwiv7O6A,27293
+espider/_utils/_colorlog.py,sha256=YDSNoh5803cz4tyyJq5dGLSygha0AnLX7uy5RziRdNU,7492
+espider/_utils/_requests.py,sha256=eYwg5zlXgNm8XOizXIsXUlp2nP4d3zzqDsA2auPMkP8,30982
+espider-1.2.0.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+espider-1.2.0.dist-info/METADATA,sha256=rB56pat3BGKTmIww9nBmn0tqMUe-Ncdcy4dxx_La-bc,1452
+espider-1.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+espider-1.2.0.dist-info/top_level.txt,sha256=wEHCEqOkLYHFMrfkiCrThj5-IvH1K15Tn4xSZFs9qXc,8
+espider-1.2.0.dist-info/RECORD,,
