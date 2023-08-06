@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: yaml2args
+Version: 0.0.2
+Summary: A simple pkg to update your yaml configs to args
+Home-page: https://github.com/LOOKCC/Yaml2args
+Author: LOOKCC
+Author-email: wang1397665447@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Yaml to args
+A Sample code for you to update your yaml config to args.
+## Usage
+See example.py
+
+
+
