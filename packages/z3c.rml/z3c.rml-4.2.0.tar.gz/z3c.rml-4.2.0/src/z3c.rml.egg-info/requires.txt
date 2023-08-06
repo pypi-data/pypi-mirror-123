@@ -1,0 +1,17 @@
+Pygments
+backports.tempfile
+lxml
+pikepdf>=3.0
+reportlab>=3.5.0
+setuptools
+zope.interface
+zope.schema
+
+[pagetemplate]
+zope.pagetemplate
+
+[test]
+Pillow
+coverage
+zope.pagetemplate
+zope.testrunner
