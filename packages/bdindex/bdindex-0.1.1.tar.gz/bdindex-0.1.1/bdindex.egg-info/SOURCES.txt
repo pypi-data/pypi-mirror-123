@@ -1,0 +1,8 @@
+setup.py
+bdindex/__init__.py
+bdindex/index.py
+bdindex.egg-info/PKG-INFO
+bdindex.egg-info/SOURCES.txt
+bdindex.egg-info/dependency_links.txt
+bdindex.egg-info/requires.txt
+bdindex.egg-info/top_level.txt

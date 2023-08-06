@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bdindex
+Version: 0.1.1
+Summary: A spider on baidu and toutiao
+Home-page: https://github.com/zhyzhyzhy123/baidutoutiaoindex
+Author: Hongyi Zhu
+Author-email: 472739561@qq.com
+License: MIT License
+Description: UNKNOWN
+Keywords: spider baidu toutiao
+Platform: any
