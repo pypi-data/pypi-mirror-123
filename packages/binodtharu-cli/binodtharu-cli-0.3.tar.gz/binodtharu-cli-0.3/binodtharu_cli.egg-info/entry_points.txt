@@ -1,0 +1,3 @@
+[console_scripts]
+binodcli = binodcli.__main__:main
+
