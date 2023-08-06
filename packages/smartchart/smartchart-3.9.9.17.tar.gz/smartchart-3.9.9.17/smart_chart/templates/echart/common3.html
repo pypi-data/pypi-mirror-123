@@ -1,0 +1,8 @@
+{% extends "echart/base.html" %}
+{% block head %}{% endblock %}
+{% block body %}
+    {% for div in div_list %}
+      {{div|safe}}
+    {% endfor %}
+{% endblock %}
+{% block javascript %}{% endblock %}
