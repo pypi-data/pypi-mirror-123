@@ -1,0 +1,7 @@
+pyserial
+numpy
+zmq
+pyqt5
+pyqtwebengine
+opencv-python-headless
+opencv-contrib-python-headless
