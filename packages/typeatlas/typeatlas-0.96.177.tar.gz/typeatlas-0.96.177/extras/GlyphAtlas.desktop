@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=GlyphAtlas
+GenericName=Character Map
+Exec=glyphatlas-qt
+Icon=glyphatlas
+Comment=
+MimeType=
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Categories=Utility;

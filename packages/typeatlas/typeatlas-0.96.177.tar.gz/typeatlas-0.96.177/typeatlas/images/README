@@ -1,0 +1,105 @@
+
+   TypeAtlas Splash Screens (splash.svgz, splash-typeatlas-archaic.svgz,
+        splash-glyphatlas.svgz)
+
+   Copyright (C) 2018-2021 Milko Krachounov
+
+   The TypeAtlas Splash Screens are licensed under a Creative Commons
+   Attribution 4.0 International License.
+
+   You should have received a copy of the license along with this
+   work.  If not, see <http://creativecommons.org/licenses/by/4.0/>.
+
+
+Trademarked logos
+=================
+
+(python-powered-w.svgz)
+
+
+"Python" and the Python logos are trademarks or registered
+trademarks of the Python Software Foundation, used in TypeAtlas under
+PSF Trademark Usage Policy <https://www.python.org/psf/trademarks/>
+as published by the Foundation.
+
+As per <https://www.python.org/community/logos/>, 2021-09-05:
+«Projects and companies that use Python are encouraged to incorporate the Python
+logo on their websites, brochures, packaging, and elsewhere to indicate
+suitability for use with Python or implementation in Python.»
+
+
+FreeType logo
+=============
+
+(freetype-logo.png)
+
+The FreeType logo can distributed under the terms of the FreeType 
+Project LICENSE. As quoted in the license:
+
+"This  license applies  to all  files found  in such  packages, and
+which do not  fall under their own explicit  license.  The license
+affects  thus  the  FreeType   font  engine,  the  test  programs,
+documentation and makefiles, at the very least."
+
+
+Freedesktop logo
+================
+
+(freedesktop-logo.svgz)
+<https://commons.wikimedia.org/wiki/File:Freedesktop-logo.svg>
+
+The freedesktop.org logo can be redistributed under the GPL v.2 
+license. It's part of the freedesktop.org GIT repositories
+under the terms of the terms of the GPL
+
+
+Public domain graphics
+======================
+
+cubic-bezier.svgz
+-----------------
+
+<https://en.wikipedia.org/wiki/File:Circle_and_cubic_bezier.svg>
+
+Source 	Own work
+Author 	Damian Yerrick
+
+I, the copyright holder of this work, release this work into the public domain.
+This applies worldwide.
+
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any
+conditions, unless such conditions are required by law.
+
+
+quadratic-bezier.svgz
+---------------------
+
+Date 	15 October 2009
+Source 	Own work
+Author 	Damian Yerrick
+
+<https://en.wikipedia.org/wiki/File:Circle_and_quadratic_bezier.svg>
+
+I, the copyright holder of this work, release this work into the public domain.
+This applies worldwide.
+
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any
+conditions, unless such conditions are required by law.
+
+
+bitmap-font-character.png
+-------------------------
+
+A screenshot of GBDFEditor 1.6 (gbdfed), unlikely to meet threshold
+of originality. Taken in 2018 by Milko Krachounov
+
+To the extent possible under law, Milko Krachunov has waived all copyright
+and related or neighboring rights to this bitmap character screenshot.
+This software is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+GBDFEditor 1.6 itself is released under the Expat license.

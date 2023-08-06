@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=TypeAtlas
+GenericName=Font Explorer
+Exec=typeatlas-qt
+Icon=typeatlas
+Comment=
+MimeType=
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Categories=Graphics;

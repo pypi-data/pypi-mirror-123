@@ -1,0 +1,11 @@
+Except otherwise noted, all flags are by Hampus Nilsson. 
+They are public domain, under the SAX-PD notice.
+https://hampusborgos.github.io/country-flags/
+https://github.com/hampusborgos/country-flags
+https://github.com/hjnilsson/country-flags
+
+The flag of the Arab League is public domain, uploaded by Flad 
+to Wikimedia Commons.
+
+In the bare repository the flags are missing. On GNU/Linux, use
+the fetchflags.sh to fetch them.

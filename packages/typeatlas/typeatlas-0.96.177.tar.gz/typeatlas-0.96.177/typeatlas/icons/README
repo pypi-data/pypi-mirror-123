@@ -1,0 +1,312 @@
+The majority of icons shipped with TypeAtlas (the ones in the TypeAtlas Icons
+list) are distributed under the following terms (noticed for the others below):
+
+   TypeAtlas Icons (all files listed in the first list below)
+
+   Copyright (C) 2018-2021 Milko Krachounov
+
+   The TypeAtlas icons are licensed under a Creative Commons
+   Attribution 4.0 International License.
+
+   You should have received a copy of the license along with this
+   work.  If not, see <http://creativecommons.org/licenses/by/4.0/>.
+
+
+https://creativecommons.org/licenses/by-sa/4.0/
+----------------------------------------------
+
+(TypeAtlas Icons)
+
+bdf.svgz bitmap-color.svgz bitmap.svgz character-ambiguous.svgz
+character-ascii-graphical.svgz character-control.svgz character-emoji.svgz
+character-format.svgz character-invalid.svgz character-letter.svgz
+character-mark.svgz character-number.svgz character-private-use.svgz
+character-punctuation.svgz character-separator.svgz character-surrogate.svgz
+character-symbol.svgz character-unassigned.svgz cursive.svgz duel.svgz
+fantasy.svgz fnt.svgz font-file-bdf.svgz font-file-bitmap-color.svgz
+font-file-bitmap.svgz font-file-collection.svgz font-file-cursive.svgz
+font-file-family.svgz font-file-fantasy.svgz font-file-fnt.svgz
+font-file-legacy.svgz font-file-metafont.svgz font-file-metrics.svgz
+font-file-monospace.svgz font-file-otf.svgz font-file-outline.svgz
+font-file-pcf.svgz font-file-pfr.svgz font-file-ps-color.svgz font-file-psf.svgz
+font-file-ps-old.svgz font-file-ps.svgz font-file-sans-serif.svgz
+font-file-serif.svgz font-file-snf.svgz font-file-style.svgz font-file-svg.svgz
+font-file-symbol.svgz font-file-ttf-color.svgz font-file-ttf.svgz
+font-file-type1.svgz font-file-type2.svgz font-file-woff.svgz font-item-bdf.svgz
+font-item-bitmap-color.svgz font-item-bitmap.svgz font-item-collection.svgz
+font-item-cursive.svgz font-item-family.svgz font-item-fantasy.svgz
+font-item-fnt.svgz font-item-legacy.svgz font-item-metafont.svgz
+font-item-metrics.svgz font-item-monospace.svgz font-item-otf.svgz
+font-item-outline.svgz font-item-pcf.svgz font-item-pfr.svgz
+font-item-ps-color.svgz font-item-psf.svgz font-item-ps-old.svgz
+font-item-ps.svgz font-item-sans-serif.svgz font-item-serif.svgz
+font-item-snf.svgz font-item-style.svgz font-item-svg.svgz font-item-symbol.svgz
+font-item-ttf-color.svgz font-item-ttf.svgz font-item-type1.svgz
+font-item-type2.svgz font-item-unknown.svgz font-item-woff.svgz glyphatlas.svgz
+legacy.svgz metafont.svgz monospace.svgz otf.svgz outline.svgz pcf.svgz pfr.svgz
+platform-dos.svgz ps-color.svgz psf.svgz ps-old.svgz ps.svgz sampler.svgz
+sans-serif.svgz scalable.svgz select-writing-system.svgz serif.svgz snf.svgz
+svg.svgz symbol.svgz text-acute-sans.svgz text-cove-serif.svgz
+text-exaggerated-serif.svgz text-flared-transitional-serif.svgz
+text-normal-sans.svgz text-obtuse-cove-serif.svgz text-obtuse-sans.svgz
+text-obtuse-square-cove.svgz text-oval-serif.svgz text-perpendicular-sans.svgz
+text-rounded-transitional-serif.svgz text-square-cove-serif.svgz
+text-square-serif.svgz text-thin-serif.svgz text-triangle-serif.svgz
+ttf-color.svgz ttf.svgz type1.svgz type2.svgz typeatlas.svgz unknown.svgz
+woff.svgz
+
+
+https://creativecommons.org/publicdomain/zero/1.0/
+http://creativecommons.org/licenses/publicdomain/
+-------------------------------------------------
+
+font-file-unknown.svgz font-language-samples.svgz font-long-sample.svgz
+font-sample-gui.svgz font-size-samples.svgz international.svgz
+platform-redmond.svgz select-tags.svgz show-character.svgz
+show-font-information.svgz font-class.svgz platform-bigiron.svgz
+platform-cupertino.svgz standard.svgz
+
+
+Trademarked icons
+=================
+
+(Python-logo.svgz)
+
+"Python" and the Python logos are trademarks or registered
+trademarks of the Python Software Foundation, used in TypeAtlas under
+PSF Trademark Usage Policy <https://www.python.org/psf/trademarks/>
+as published by the Foundation.
+
+As per <https://www.python.org/community/logos/>, 2021-09-05:
+«Projects and companies that use Python are encouraged to incorporate the Python
+logo on their websites, brochures, packaging, and elsewhere to indicate
+suitability for use with Python or implementation in Python. Use of the "two
+snakes" logo element alone, without the accompanying wordmark is permitted on
+the same terms as the combined logo.»
+
+
+Modified icons
+==============
+
+CC-BY-SA 3.0 with Public Domain elements
+----------------------------------------
+
+character-emoji.svgz uses face-monkey of Tango
+font-item-metrics.svgz and font-file-metrics.svgz use Tango elements
+platform-dos.svgz uses elements from sixsixfive's public domain icons
+typeatlas.svgz uses elements from sixsixfive's rodentia icon theme
+All font-file-* icons use elements from sixsixfive's public domain icons
+
+Threshold of originality is left as an exercise for the reader.
+
+Sword icon
+==========
+
+Stamp icon
+==========
+
+A simple stamp icon
+
+(standard.svgz)
+
+Window was published by Steren 
+<https://openclipart.org/user-detail/Steren>; it was acquired
+from  the OpenClipart collection of free icons
+<https://openclipart.org/detail/26948/stamp>.
+
+https://openclipart.org/share
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the stamp icon image.
+This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+Window
+======
+
+A simple cartoon window
+
+(platform-redmond.svgz)
+
+Window was published by ali2013 
+<https://openclipart.org/user-detail/ali2013>; it was acquired 
+from the OpenClipart collection of free icons
+<https://openclipart.org/detail/173814/window>.
+
+https://openclipart.org/share
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the Windowimage. 
+This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+Central Computer
+================
+
+Central Computer - a mainframe computer.
+(platform-bigiron.svgz)
+
+Central Computer image was published by jcartier 
+<https://openclipart.org/user-detail/jcartier>; it was acquired from 
+the OpenClipart collection of free icons
+<https://openclipart.org/detail/17348/central-computer>.
+
+https://openclipart.org/share
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the Central Computer image.
+This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+Simple Red Apple
+===============
+
+A simple 2D red apple with a slightly transparent leaf.
+(platform-cupertino.svgz)
+
+Simple Red Apple image was published by sanja 
+<https://openclipart.org/user-detail/sanja>; it was acquired 
+from the OpenClipart collection of free icons
+<https://openclipart.org/detail/183893/simple-red-apple>.
+
+https://openclipart.org/share
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the Simple Red Apple image. 
+This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+Label with string (Tag icon)
+============================
+
+
+Label with string by palomaironique "Label-001"
+
+
+(select-tags.svgz)
+
+Window was published by ali2013
+<https://openclipart.org/artist/palomaironique>; it was acquired
+from the OpenClipart collection of free icons
+<https://openclipart.org/detail/162655/label-with-string>.
+
+
+https://openclipart.org/share
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the Windowimage.
+This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+
+Map And Compass (Language Samples Icon)
+=======================================
+
+The following icon has been subset (taking only the compass), but it has
+received no modification to meet the threshold of originality:
+(font-language-samples.svgz)
+
+
+Map and Compass was published by gnokii - uploaded on July 1, 2013, 9:03 pm
+“A map and a compass in a photorealistic style.”
+https://openclipart.org/detail/179935/map-and-compass
+https://openclipart.org/share
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the Windowimage.
+This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+Tango icons
+===========
+
+Certain Tango icons have included in this project
+
+
+This work has been released into the public domain by its author, 
+The Tango Desktop Project. This applies worldwide.
+
+In some countries this may not be legally possible; if so:
+The Tango Desktop Project grants anyone the right to use this work for any 
+purpose, without any conditions, unless such conditions are required by law.
+
+
+-------
+
+The unmodified Tango icons included are: 
+    font-class.svgz
+
+
+Rodentia icons and Matt Icons
+===============================
+
+Certain Rodentia Icons and Matt Icons have been included with this program, and 
+other icons use elements from the Rodentia Icons set.
+
+Rodentia Icons and Matt Icons are published by sixsixfive 
+<https://sixsixfive.deviantart.com/>; they have been acquired from 
+the OpenClipart collection of free icons
+<https://openclipart.org/user-detail/sixsixfive>.
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to the original Rodentia Icon themes 
+and Matt Icons themes. This work is distributed without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+(That's not sixsixfive's original notice)
+
+------
+
+The following Rodentia/Matt Icons are unmodified: 
+    show-font-information.svgz, international.svgz
+
+The modifications to the following Rodentia/Matt icons are below the threshold
+of originality, hence Milko Krachounov has also waived all copyright
+and related or neighboring rights to them:
+    font-file-unknown.svgz, font-size-samples.svgz, show-character.svgz,
+    font-sample-gui.svgz, 16x16/font-long-sample.svgz
+
+Multicolored test tubes
+========================
+
+“Multicolored test tubes” used to be included with this program, but
+it was replaced with a new sampler icon.
+
+Multicolored test tubes is published by Peter Larson
+<https://openclipart.org/detail/189402/test-tubes-by-peterlarson-189402>
+
+To the extent possible under law, the OpenClipart artist has waived all
+copyright
+and related or neighboring rights to this work. This work is distributed 
+without any warranty.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
