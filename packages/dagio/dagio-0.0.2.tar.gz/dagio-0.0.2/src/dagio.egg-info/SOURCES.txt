@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dagio/__init__.py
+src/dagio/depends_decorator.py
+src/dagio/run_async_decorator.py
+src/dagio.egg-info/PKG-INFO
+src/dagio.egg-info/SOURCES.txt
+src/dagio.egg-info/dependency_links.txt
+src/dagio.egg-info/not-zip-safe
+src/dagio.egg-info/requires.txt
+src/dagio.egg-info/top_level.txt
+test/test_depends.py
+test/test_run_async.py
