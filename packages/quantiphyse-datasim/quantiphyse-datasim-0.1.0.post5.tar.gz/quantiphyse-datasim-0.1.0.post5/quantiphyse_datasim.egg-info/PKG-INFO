@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: quantiphyse-datasim
+Version: 0.1.0.post5
+Summary: Quantiphyse plugin for simulating data
+Home-page: https://quantiphyse.readthedocs.io/
+Author: Martin Craig
+Author-email: martin.craig@eng.ox.ac.uk
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Data simulation plugin for Quantiphyse
+======================================
+
+This plugin provides data simulation tools.
+
+Quantiphyse and quantiphyse-fabber must be installed. To
+install the plugin from PyPi use:
+
+    pip install quantiphyse-datasim
+
+The plugin will then be available from within Quantiphyse
+
+
+
