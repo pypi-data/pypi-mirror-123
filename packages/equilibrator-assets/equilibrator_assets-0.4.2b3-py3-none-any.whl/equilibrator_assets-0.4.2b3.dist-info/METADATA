@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: equilibrator-assets
+Version: 0.4.2b3
+Summary: Generate cache assets from MetaNetX content.
+Home-page: https://gitlab.com/elad.noor/equilibrator-assets
+Author: 
+Requires-Dist: click
+Requires-Dist: click-log
+Requires-Dist: component-contribution (~=0.4.5b1)
+Requires-Dist: equilibrator-cache (~=0.4.4b2)
+Requires-Dist: equilibrator-cheminfo[chemaxon,openbabel] (~=0.11.0)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: periodictable
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: openbabel-wheel (>=3)
+Provides-Extra: development
+Requires-Dist: black ; extra == 'development'
+Requires-Dist: isort ; extra == 'development'
+Requires-Dist: tox ; extra == 'development'
+
+Elad Noor
+Moritz E. Beber
+Author-email: 
+noor@imsb.biol.ethz.ch
+morbeb@biosustain.dtu.dk
+License: MIT License
+Download-URL: https://pypi.org/project/equilibrator-assets
+Keywords: component contribution,Gibbs energy,biochemical reaction,eQuilibrator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: development
+License-File: LICENSE
+
+UNKNOWN
+
