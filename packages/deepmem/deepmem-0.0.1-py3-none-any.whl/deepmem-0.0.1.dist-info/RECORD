@@ -1,0 +1,14 @@
+deepmem/__init__.py,sha256=XCUnzGQDqePHR0d2p2deWqzgMCvvp_Bv-1rFRL2TzLM,202
+deepmem/_main.py,sha256=-lAog9MNfRZcCXm2Z900mITwqv9alWtR64Cw-NDsGm8,701
+deepmem/_version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+deepmem/data.py,sha256=BY8tJ_3wNygSFXdtzt4eFkY61fHd2zXinHrJ5vfqZj4,9718
+deepmem/model.py,sha256=qDMHhiubf5lGySvvgPz0vtg15TiCoheA0LzVq3r3mBw,5920
+deepmem/networks.py,sha256=_975FimfEs6pJxNNcQ0M5NAGI6-UpzSSDa653ODbe7Y,3654
+deepmem/options.py,sha256=Wmbv51pkOApETKNrDt1iLzt9lQpsBtb3afvxUdTmv2c,462
+deepmem/utils.py,sha256=TyHvfFzxyfGop18SfwUbet6oZPcokDkNtLyujbkFNzY,4666
+deepmem-0.0.1.dist-info/LICENSE,sha256=hO1Exu0n8k3ML6XbdTSISyop6ewu0sUz1hE5xyqNOeA,10757
+deepmem-0.0.1.dist-info/METADATA,sha256=M8UVZdmfZKR881pRGzwnWCIDrgQB7-AOpPZ3FhGX8FE,9266
+deepmem-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepmem-0.0.1.dist-info/entry_points.txt,sha256=yAvuoiOClkhAV9HeoNmItMQQ-wLsN3f8JrU_lTnN3c8,196
+deepmem-0.0.1.dist-info/top_level.txt,sha256=uQN12t1_ztJFb8Kppbby7NfX90ctrqBk8evoWS-wX94,8
+deepmem-0.0.1.dist-info/RECORD,,
