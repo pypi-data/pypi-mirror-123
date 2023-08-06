@@ -1,0 +1,10 @@
+README.md
+setup.py
+radvelso/__init__.py
+radvelso/fill_ray.py
+radvelso/superobs_sqlite.py
+radvelso.egg-info/PKG-INFO
+radvelso.egg-info/SOURCES.txt
+radvelso.egg-info/dependency_links.txt
+radvelso.egg-info/requires.txt
+radvelso.egg-info/top_level.txt
