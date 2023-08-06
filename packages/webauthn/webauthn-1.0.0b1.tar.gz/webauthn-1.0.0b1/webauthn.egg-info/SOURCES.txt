@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+webauthn/__init__.py
+webauthn.egg-info/PKG-INFO
+webauthn.egg-info/SOURCES.txt
+webauthn.egg-info/dependency_links.txt
+webauthn.egg-info/requires.txt
+webauthn.egg-info/top_level.txt
