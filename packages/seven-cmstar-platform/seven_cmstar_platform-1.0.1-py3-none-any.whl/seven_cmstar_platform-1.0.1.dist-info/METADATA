@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: seven-cmstar-platform
+Version: 1.0.1
+Summary: seven cmstar platform
+Home-page: UNKNOWN
+Author: seven
+Author-email: tech@gao7.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: seven-framework (>=1.0.131.4)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: bintrees (==2.1.0)
+Requires-Dist: bce-python-sdk (==0.8.61)
+
+
+
+## 天志互联，厘米星球平台
+
+### 1.0.1 更新内容
+* 初始版本
+
