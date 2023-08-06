@@ -1,0 +1,2 @@
+dbt-core>=0.18
+rockset>=0.7
