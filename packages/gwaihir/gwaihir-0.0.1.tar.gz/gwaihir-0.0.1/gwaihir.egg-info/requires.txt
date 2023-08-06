@@ -1,0 +1,9 @@
+PyQt5
+ipython
+ipywidgets
+matplotlib
+numpy
+pandas
+scipy
+tables
+xrayutilities
