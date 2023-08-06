@@ -1,0 +1,11 @@
+README.md
+setup.py
+video_stream_resolving/__init__.py
+video_stream_resolving/cinemaemas.py
+video_stream_resolving/dood.py
+video_stream_resolving/streamtape.py
+video_stream_resolving.egg-info/PKG-INFO
+video_stream_resolving.egg-info/SOURCES.txt
+video_stream_resolving.egg-info/dependency_links.txt
+video_stream_resolving.egg-info/requires.txt
+video_stream_resolving.egg-info/top_level.txt

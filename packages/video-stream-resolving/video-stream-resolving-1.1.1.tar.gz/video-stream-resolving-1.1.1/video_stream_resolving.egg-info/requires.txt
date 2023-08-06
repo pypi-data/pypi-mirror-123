@@ -1,0 +1,3 @@
+PyExecjs
+requests
+lxml
