@@ -1,0 +1,4 @@
+[console_scripts]
+nsx = nusex.cli.cli:main
+nusex = nusex.cli.cli:main
+
