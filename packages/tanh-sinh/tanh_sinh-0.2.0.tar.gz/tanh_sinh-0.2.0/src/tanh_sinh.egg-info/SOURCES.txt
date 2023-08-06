@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tanh_sinh/__init__.py
+src/tanh_sinh/main.py
+src/tanh_sinh.egg-info/PKG-INFO
+src/tanh_sinh.egg-info/SOURCES.txt
+src/tanh_sinh.egg-info/dependency_links.txt
+src/tanh_sinh.egg-info/requires.txt
+src/tanh_sinh.egg-info/top_level.txt
