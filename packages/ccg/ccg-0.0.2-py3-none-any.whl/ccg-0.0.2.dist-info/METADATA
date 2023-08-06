@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ccg
+Version: 0.0.2
+Summary: C/C++ code generation framework
+Home-page: https://github.com/polfeliu/CCG
+Author: Pol Feliu Cuberes
+Author-email: feliupol@gmail.com
+License: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+Keywords: ccg c cpp codegen generation
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CCG
+C/C++ Code Generation Framework
+
+## Documentation
+https://ccg.readthedocs.io/
+
