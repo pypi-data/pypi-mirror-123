@@ -1,0 +1,1 @@
+from AnimeChanQuotes.animequotes1 import AQ

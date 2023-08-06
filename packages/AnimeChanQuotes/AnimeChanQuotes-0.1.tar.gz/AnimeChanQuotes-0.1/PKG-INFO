@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: AnimeChanQuotes
+Version: 0.1
+Summary: Wraps the api calls for https://animechan.vercel.app/ into an easy use function.
+Home-page: https://github.com/cpiccirilli1/anime-quote-wrapper
+Author: Chelsea Piccirilli
+Author-email: piccirilli115@gmail.com
+License: GNU
+Download-URL: https://github.com/cpiccirilli1/AnimeChanQuotes/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Wrapper,Anime,api,quotes
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
