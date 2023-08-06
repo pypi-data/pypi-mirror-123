@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ahbicht
+Version: 0.0.4
+Summary: Python Library to parse AHB expressions.
+Home-page: https://github.com/Hochfrequenz/ahbicht
+Author: Annika Schlögl
+Author-email: annika.schloegl@hochfrequenz.de
+License: mit
+Project-URL: Documentation, https://ahbicht.readthedocs.io/en/latest/
+Project-URL: Code, https://github.com/Hochfrequenz/ahbicht/
+Project-URL: Bug tracker, https://github.com/Hochfrequenz/ahbicht/issues
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst; charset=UTF-8
+
+UNKNOWN
+
