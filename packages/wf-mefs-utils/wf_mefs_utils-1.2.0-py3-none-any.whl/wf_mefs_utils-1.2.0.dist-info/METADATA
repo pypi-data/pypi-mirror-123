@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: wf-mefs-utils
+Version: 1.2.0
+Summary: Tools for working with MEFS/EFgo assessments data
+Home-page: https://github.com/WildflowerSchools/wf-mefs-utils
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Keywords: database
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: pandas (>=1.3)
+Requires-Dist: wf-core-data-python (>=1.3.0)
+
+# mefs_utils
+
+Tools for working with MEFS/EFgo assessments data
+
+## Install
+
+`pip install wf-mefs-utils`
+
+## Tasks
+* Gather up shared functions and definitions across assessments and move to `wf-core-data-python` (or somewhere)
+* Find places where functions/methods can be reused across assessment with the addition of some arguments/switches
+* Fix up README on PyPI by declaring long description to be markdown
+* Move more of the data manipulation out of the individual extraction functions and into a shared function (e.g., the fetch function)
+
+
