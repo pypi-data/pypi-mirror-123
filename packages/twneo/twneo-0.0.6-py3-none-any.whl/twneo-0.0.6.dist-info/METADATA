@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: twneo
+Version: 0.0.6
+Summary: uses twitter api to create neo4j graphs
+Home-page: https://github.com/pankajti/twneo
+Author: Pankaj Kumar
+Author-email: kumarp@mail.smu.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pankajti/twneo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Description 
+
+Used to create graph for tweets collected from a twitter api query. 
+
+
+# Limitations 
+
+Not a general purpose twitter library rather its focus is on andling collected twitter data. works a bridge between twittr api results and the neo4j databse graphs.
+Implements result is the format described here. 
+
+# Installation 
+
+pip install twneo
+
+# Example use 
+
+
+

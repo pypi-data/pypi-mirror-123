@@ -1,0 +1,9 @@
+class TweetTagRelation:
+
+    def __init__(self, tag, tweetId, relation_name='retweets'):
+        self.tag= tag
+        self.tweetId = tweetId
+        self.relation_name = relation_name
+
+    def __str__(self) -> str:
+        return __name__+",".join(self.__dict__.values())
