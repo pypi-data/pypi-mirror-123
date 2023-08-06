@@ -1,0 +1,3 @@
+[console_scripts]
+cdox = cdox.__main__:main
+
