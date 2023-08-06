@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cuffnote
+Version: 0.3.1
+Summary: Modeling mortgage loan scenarios
+Home-page: https://github.com/bdowdell/cuffnote
+Author: Ben Dowdell
+Author-email: ben.dowdell87@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: numpy-financial
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+UNKNOWN
+
