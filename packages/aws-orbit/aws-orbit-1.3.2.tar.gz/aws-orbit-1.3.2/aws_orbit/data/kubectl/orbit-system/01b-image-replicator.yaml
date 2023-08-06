@@ -1,0 +1,235 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: image-replication-config
+  namespace: orbit-system
+data:
+  REPO_HOST: ${account_id}.dkr.ecr.${region}.amazonaws.com
+  REPO_PREFIX: orbit-${env_name}
+  CODEBUILD_PROJECT: orbit-${env_name}
+  CODEBUILD_TIMEOUT: "30"
+  REPLICATE_EXTERNAL_REPOS: "no"
+  WORKERS: "5"
+  MAX_REPLICATION_ATTEMPTS: "3"
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: imagereplication-pod-webhook
+  namespace: orbit-system
+spec:
+  selector:
+    app: imagereplication-pod-webhook
+  ports:
+  - name: https
+    protocol: TCP
+    port: 443
+    targetPort: 443
+---
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  labels:
+    app.kubernetes.io/name: imagereplication-pod-webhook
+  name: imagereplication-pod-webhook-cert
+  namespace: orbit-system
+spec:
+  dnsNames:
+  - imagereplication-pod-webhook.orbit-system.svc
+  - imagereplication-pod-webhook.orbit-system.svc.cluster.local
+  issuerRef:
+    kind: ClusterIssuer
+    name: orbit-self-signing-issuer
+  secretName: imagereplication-pod-webhook-tls
+---
+kind: MutatingWebhookConfiguration
+apiVersion: admissionregistration.k8s.io/v1beta1
+metadata:
+  name: orbit-imagereplication-pod-webhook
+  annotations:
+    cert-manager.io/inject-ca-from: orbit-system/imagereplication-pod-webhook-cert
+webhooks:
+  - name: imagereplication-pod-webhook.orbit-system.svc
+    sideEffects: NoneOnDryRun
+    reinvocationPolicy: IfNeeded
+    failurePolicy: Fail
+    matchPolicy: Equivalent
+    namespaceSelector:
+      matchExpressions:
+        - key: orbit/space
+          operator: NotIn
+          values:
+            - env
+    rules:
+      - operations: ["CREATE", "UPDATE"]
+        apiGroups: [""]
+        apiVersions: ["v1"]
+        resources: ["pods"]
+    clientConfig:
+      caBundle: ""
+      service:
+        namespace: orbit-system
+        name: imagereplication-pod-webhook
+        path: /update-pod-images
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: orbit-controller
+  namespace: orbit-system
+  name: imagereplication-pod-webhook
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: imagereplication-pod-webhook
+  template:
+    metadata:
+      labels:
+        app: imagereplication-pod-webhook
+      name: imagereplication-pod-webhook
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      serviceAccountName: orbit-${env_name}-admin
+      containers:
+        - name: webhook
+          image: ${orbit_controller_image}
+          imagePullPolicy: ${image_pull_policy}
+          ports:
+            - containerPort: 443
+              name: https
+              protocol: TCP
+          envFrom:
+            - configMapRef:
+                name: orbit-controller-config
+            - configMapRef:
+                name: image-replication-config
+          command:
+            - kopf
+            - run
+          args:
+            - "--liveness=http://0.0.0.0:8080/healthz"
+            - "--log-format=json"
+            - "--module=orbit_controller.webhooks.imagereplication_pod_webhook"
+            - "--verbose"
+          volumeMounts:
+            - readOnly: true
+              mountPath: /certs
+              name: imagereplication-pod-webhook-certs
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              scheme: HTTP
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 5
+            successThreshold: 1
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              scheme: HTTP
+              port: 8080
+            initialDelaySeconds: 10
+            periodSeconds: 600
+          resources:
+            limits:
+              cpu: 2
+              memory: 2Gi
+            requests:
+              cpu: 500m
+              memory: 500Mi
+      volumes:
+        - name: imagereplication-pod-webhook-certs
+          secret:
+            secretName: imagereplication-pod-webhook-tls
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: orbit-controller
+  namespace: orbit-system
+  name: imagereplication-operator
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: imagereplication-operator
+  template:
+    metadata:
+      labels:
+        app: imagereplication-operator
+      name: imagereplication-operator
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      serviceAccountName: orbit-${env_name}-admin
+      initContainers:
+        - name: inventory
+          image: ${orbit_controller_image}
+          imagePullPolicy: ${image_pull_policy}
+          envFrom:
+            - configMapRef:
+                name: orbit-controller-config
+            - configMapRef:
+                name: image-replication-config
+          env:
+            - name: WORKERS
+              value: "10"
+          command:
+            - python
+          args:
+            - -m
+            - orbit_controller.operators.imagereplication_operator
+          resources:
+            limits:
+              cpu: 2
+              memory: 2Gi
+            requests:
+              cpu: 500m
+              memory: 500Mi
+      containers:
+        - name: operator
+          image: ${orbit_controller_image}
+          imagePullPolicy: ${image_pull_policy}
+          envFrom:
+            - configMapRef:
+                name: orbit-controller-config
+            - configMapRef:
+                name: image-replication-config
+          command:
+            - kopf
+            - run
+          args:
+            - "--liveness=http://0.0.0.0:8080/healthz"
+            - "--log-format=json"
+            - "--module=orbit_controller.operators.imagereplication_operator"
+            - "--verbose"
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              scheme: HTTP
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 5
+            successThreshold: 1
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              scheme: HTTP
+              port: 8080
+            initialDelaySeconds: 10
+            periodSeconds: 600
+          resources:
+            limits:
+              cpu: 2
+              memory: 2Gi
+            requests:
+              cpu: 500m
+              memory: 500Mi

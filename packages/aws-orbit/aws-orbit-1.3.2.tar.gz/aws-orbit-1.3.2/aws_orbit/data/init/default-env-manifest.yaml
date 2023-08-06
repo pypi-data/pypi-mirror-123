@@ -1,0 +1,33 @@
+Name: ${name}
+Region: ${region}
+CodeartifactDomain: aws-orbit
+CodeartifactRepository: python-repository
+ScratchBucketArn: !SSM ${/orbit/dev-env/demo::ScratchBucketArn}
+UserPoolId: !SSM ${/orbit/dev-env/demo::UserPoolId}
+SharedEfsFsId: !SSM ${/orbit/dev-env/demo::EFSFilesystemID}
+SharedEfsSgId: !SSM ${/orbit/dev-env/demo::SharedEFSSecurityGroup}
+Images:
+    JupyterUser:
+        Repository: aws-orbit-jupyter-user
+        Source: public
+        Version: latest
+    JupyterUserSpark:
+        Repository: aws-orbit-jupyter-user-spark
+        Source: public
+        Version: latest
+Networking:
+    VpcId: !SSM ${/orbit/dev-env/demo::VpcId}
+    Data:
+        InternetAccessible: true
+        NodesSubnets: []
+    Frontend:
+        LoadBalancersSubnets: []
+Teams:
+-   Name: my-team
+    InstanceType: m5.4xlarge
+    LocalStorageSize: 128
+    NodesNumDesired: 2
+    NodesNumMax: 3
+    NodesNumMin: 1
+    Grant-sudo: false
+    Policy: AdministratorAccess
