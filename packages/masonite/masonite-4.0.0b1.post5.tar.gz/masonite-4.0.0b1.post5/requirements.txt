@@ -1,0 +1,11 @@
+pytest
+black
+cryptography
+https://github.com/MasoniteFramework/orm/archive/2.0.zip
+python-dotenv
+waitress
+responses
+slackblocks
+hashids
+pwnedapi
+argon2-cffi
