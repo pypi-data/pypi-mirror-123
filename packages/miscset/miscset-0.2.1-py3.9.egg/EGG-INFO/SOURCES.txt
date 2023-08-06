@@ -1,0 +1,16 @@
+README.md
+setup.py
+miscset/__init__.py
+miscset/_version.py
+miscset/dt.py
+miscset/files.py
+miscset/io.py
+miscset/sh.py
+miscset/tables.py
+miscset.egg-info/PKG-INFO
+miscset.egg-info/SOURCES.txt
+miscset.egg-info/dependency_links.txt
+miscset.egg-info/requires.txt
+miscset.egg-info/top_level.txt
+tests/__init__.py
+tests/test_all.py
