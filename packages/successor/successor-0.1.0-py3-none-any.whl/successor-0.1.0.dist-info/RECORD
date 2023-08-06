@@ -1,0 +1,17 @@
+successor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+successor/conventions.py,sha256=f6qklEqInepx-db3tOuWfhe-h6qP2J2ZbzrGAIw2xSs,1315
+successor/skaters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+successor/skaters/allsuccessorskaters.py,sha256=zekxz3eTL8igHCiF6SbqtPIYUUvrzkGREUOqYr-wwmg,111
+successor/skaters/skl.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+successor/skaters/scalarskaters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+successor/skaters/scalarskaters/allscalarskaters.py,sha256=U3yCl64PVqi6KEZHaTsIA_mLLZQsxBr8M4i8XOZV620,118
+successor/skaters/scalarskaters/scalarskaterfactory.py,sha256=yjwq2RHL3RvtXw_QRE7CDXHq_Dy1O_MXDfqRGTakHlM,2870
+successor/skaters/scalarskaters/scalartsaskaters.py,sha256=Uejn_zIW_UkPV5sPkIn_RzuLknpdldGi2n_xcXOUQms,326
+successor/skaters/scalarskaters/sklearnedinventory.py,sha256=0vhzV_oDHZi192ezLoIYWCTSglq_K1OI0ivuCXhqqoA,205
+successor/skaters/scalarskaters/sklearnedio.py,sha256=HCRvSC4FYl5uAvEarsxgpqLNoAjbgLjP7ZnnsxD0r9k,4779
+successor-0.1.0.dist-info/LICENSE,sha256=3eJqexx4u0oFNdf10rr2s_eIP5BYnM0IKww-M3ZipNk,1069
+successor-0.1.0.dist-info/METADATA,sha256=eWLUuh2r0yPqwPcYtkdorQAKxsMuUxOX294RmJn4__4,2342
+successor-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+successor-0.1.0.dist-info/entry_points.txt,sha256=S50ZUTSe-2Pdp18RyKT2DLgMiOW-JJGLhGLSpPUIW5A,55
+successor-0.1.0.dist-info/top_level.txt,sha256=quZwgqaOaI3p3lcrZzjXkZL5N5e6hgr-B6jdjIpKs-E,10
+successor-0.1.0.dist-info/RECORD,,
