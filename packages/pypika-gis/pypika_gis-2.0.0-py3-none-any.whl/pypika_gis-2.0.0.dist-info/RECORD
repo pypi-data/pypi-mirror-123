@@ -1,0 +1,9 @@
+pypika_gis/dialects/MSSQLSpatial.py,sha256=de3i25ziZo-JDyV6U3wzA8CWDr9FciVpkAYgs-1vhh4,5894
+pypika_gis/dialects/PostGIS.py,sha256=LmkwLeqOI80M6_FlaryRx5uJUDyayhPOUnZvHDUwXBM,6080
+pypika_gis/spatialtypes.py,sha256=BZ2VDuvieHJBvJcv2Uj7Ly4kEwYWMCIk2Mk5RzEqcA0,118
+pypika_gis/test_mssql_spatialtypes.py,sha256=vlM2mMZXE4IJZnhRoiXOcaZlpwWHrx0g9f2DRZjHdv0,5723
+pypika_gis/test_postgis_spatialtypes.py,sha256=rN6_iSivq8nILNTv2O808j9_4wf9NOiFM4mZVj6XXgM,7436
+pypika_gis-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pypika_gis-2.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pypika_gis-2.0.0.dist-info/METADATA,sha256=z58BAan_nKS5tP44Nu13QDh0s-ZVdsMp70PxZwoRH4k,8423
+pypika_gis-2.0.0.dist-info/RECORD,,
