@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: odoo9-addons-oca-pos
+Version: 9.0.20211016.0
+Summary: Meta package for oca-pos Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 9.0
+Requires-Dist: odoo9-addon-pos-accented-search
+Requires-Dist: odoo9-addon-pos-access-right
+Requires-Dist: odoo9-addon-pos-barcode-tare
+Requires-Dist: odoo9-addon-pos-customer-display
+Requires-Dist: odoo9-addon-pos-customer-required
+Requires-Dist: odoo9-addon-pos-empty-home
+Requires-Dist: odoo9-addon-pos-payment-terminal
+Requires-Dist: odoo9-addon-pos-price-to-weight
+Requires-Dist: odoo9-addon-pos-product-template
+Requires-Dist: odoo9-addon-pos-quick-logout
+Requires-Dist: odoo9-addon-pos-reset-search
+Requires-Dist: odoo9-addon-pos-restricted-customer-list
+Requires-Dist: odoo9-addon-pos-return-order
+Requires-Dist: odoo9-addon-pos-session-summary
+Requires-Dist: odoo9-addon-pos-transfer-account
+
+UNKNOWN
+
