@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+openmeteo_py/Daily.py
+openmeteo_py/Hourly.py
+openmeteo_py/OWmanager.py
+openmeteo_py/Options.py
+openmeteo_py/__init__.py
+openmeteo_py/constants.py
+openmeteo_py/timezones.py
+openmeteo_py/utils.py
+openmeteo_py.egg-info/PKG-INFO
+openmeteo_py.egg-info/SOURCES.txt
+openmeteo_py.egg-info/dependency_links.txt
+openmeteo_py.egg-info/requires.txt
+openmeteo_py.egg-info/top_level.txt
