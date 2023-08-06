@@ -1,0 +1,11 @@
+ocrd_doxa/__init__.py,sha256=pg1gDEpkVkmKrsoSXlyX5jmsouv3F1GR4Tw42PJke_I,86
+ocrd_doxa/cli.py,sha256=07PSPzdkQ4Q5avbfv15pZX0owpn1-W8PLTH13JgGtJM,268
+ocrd_doxa/config.py,sha256=KIGdj-YnnMrMvR84YgNQJVH0BO4DUYC_bRZDKGE5aNw,138
+ocrd_doxa/doxa_binarize.py,sha256=OQyfgqEy97hWnakW0BIN809Lf9DLSK4EPtkHTTKOcCM,7577
+ocrd_doxa/ocrd-tool.json,sha256=i1rsYplfGPeEtZCqj3UX70Sk291Ol28hkgHbDc3yOa0,2033
+ocrd_doxa-0.0.1.dist-info/LICENSE,sha256=2l2vZ-kRu3aSTRoNbGpStv7Ciawc0rqSUmQJNFXdjHc,1060
+ocrd_doxa-0.0.1.dist-info/METADATA,sha256=6p5nvRAs38vaiBpe9vuJV6Xf0z2v8n-GOJ1n8xOxRZI,4199
+ocrd_doxa-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ocrd_doxa-0.0.1.dist-info/entry_points.txt,sha256=E5DXrSBACOBTLgtqXDZE1NlomWC1wxqjPFPs4-ENVe0,73
+ocrd_doxa-0.0.1.dist-info/top_level.txt,sha256=fSKgS57WhdWl2IN-j9jiuI11DZCxwPA7q71PZvGUeFg,10
+ocrd_doxa-0.0.1.dist-info/RECORD,,
