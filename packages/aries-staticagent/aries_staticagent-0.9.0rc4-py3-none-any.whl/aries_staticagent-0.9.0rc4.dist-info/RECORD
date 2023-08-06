@@ -1,0 +1,16 @@
+aries_staticagent/__init__.py,sha256=4-EMf7x2UXBTztbN1t6X3XlaZZ703NeaFJDFUDzrTJU,1527
+aries_staticagent/connection.py,sha256=R4PDsRqR-qNwXGppvh4RqbYbz2ckg51MJhKRDsUeOWs,21862
+aries_staticagent/crypto.py,sha256=75H3Y37mC-MaXNC1hXJnwtINqNM8-eHIjVZE-TdFW-Q,17991
+aries_staticagent/dispatcher/__init__.py,sha256=qFw7K1oLd8MLlxmEYcWUuQ6FK4vH39XeEaKnZEk1LUY,243
+aries_staticagent/dispatcher/base.py,sha256=4ys323OvWyIZS9MCL_Oc1QntjWYboEviFreWg3Lp0Sg,264
+aries_staticagent/dispatcher/handler_dispatcher.py,sha256=1rbY_FGJHjpjPnsAQDhJjBCY8OXzDeMkoRR_32_ntjw,3228
+aries_staticagent/dispatcher/queue_dispatcher.py,sha256=NfkaNjnv_wbzPWZCPRuQThqfROn55TJiD_hYcsxd-pM,3434
+aries_staticagent/message.py,sha256=iNMr99AmKcHGRGFBb5y_vMsqyNi1pmmmM30Me2mx25w,6304
+aries_staticagent/module.py,sha256=kGJ6P_VHolt07A0EGWpAuxuXtS5jMBULSgy3u7ym3Wc,7993
+aries_staticagent/mtc.py,sha256=ba9VLEbqJVpz2DGA0xNTE3fn4gMLi1Ez2eO-w_oxUXY,5867
+aries_staticagent/operators.py,sha256=0sbRIFG2tZy5rKtYT-kQlidahuo8WcEiCtCfhLKpHUk,1839
+aries_staticagent/utils.py,sha256=FE9il-Qm4lwOuD-wFG1fRNT-mH0omsqLlaXQVvjpTu8,6040
+aries_staticagent-0.9.0rc4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aries_staticagent-0.9.0rc4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aries_staticagent-0.9.0rc4.dist-info/METADATA,sha256=5wO31LLK06gVz6P1FMN9-iECJiSP_IOBVbUuFtNvO5w,8448
+aries_staticagent-0.9.0rc4.dist-info/RECORD,,
