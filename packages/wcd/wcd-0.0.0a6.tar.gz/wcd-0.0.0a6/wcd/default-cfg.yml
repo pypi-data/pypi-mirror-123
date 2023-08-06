@@ -1,0 +1,23 @@
+# Path to the unix socket over which wcd will communicate with its clients
+socket_path: $TMPDIR/wcd/socket
+
+# Where to look for wallpapers
+wallpapers_directory: /usr/share/backgrounds/
+
+# What command to run, to change the desktop wallpaper
+wallpaper_cmd: xwallpaper --zoom
+# wallpaper_cmd: nitrogen --set-scaled
+# wallpaper_cmd: feh --bg-scale
+
+# In seconds. If <=0, wallpapers won't be automatically updated.
+time_auto_next: 300
+
+# Wether to pick random wallpapers or not.
+randomize_wallpapers: true
+
+# Whenever the wallpaper changes, the previous one gets
+# added to history. This controls how many wallpapers can
+# be in that history buffer and, thus, how many times you can
+# go back to a previous wallpaper.
+max_history: 30
+
