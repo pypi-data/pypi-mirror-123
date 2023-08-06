@@ -1,0 +1,16 @@
+numpy
+pandas
+mosaik_api
+
+[dev]
+rope
+twine
+pytest-cov
+flake8
+coverage
+matplotlib
+pytest
+tox
+wheel
+sphinx
+black
