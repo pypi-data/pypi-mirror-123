@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/QtDesign/QtdUiTools.py
+src/QtDesign/QtdWidgets.py
+src/QtDesign/__init__.py
+src/QtDesign.egg-info/PKG-INFO
+src/QtDesign.egg-info/SOURCES.txt
+src/QtDesign.egg-info/dependency_links.txt
+src/QtDesign.egg-info/top_level.txt
