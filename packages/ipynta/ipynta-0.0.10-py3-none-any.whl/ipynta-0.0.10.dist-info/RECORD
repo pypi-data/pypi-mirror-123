@@ -1,0 +1,9 @@
+ipynta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipynta/globbers/__init__.py,sha256=vq2l3UVp4CvBZUUF4Np57LY6EzgOzSDuoe-wakuBcgU,39
+ipynta/globbers/image_globber.py,sha256=suR1gkGuUO0x5Z0SlAkcyVLQyRdAQDVrr-FoBoBHN2o,1009
+ipynta/predicates/__init__.py,sha256=buYifgB8xXulbBm1IM25Zhn6l7fZD8k64g8djfei1l0,41
+ipynta/predicates/base_predicate.py,sha256=UDYuLULQf3UZmh5YyUx-eMGZ3xS1aoiTSkCBKAgOjWM,665
+ipynta-0.0.10.dist-info/METADATA,sha256=oaBaeJwrno3zSiX6dSOU2bOI2p7eB6c9le87yBimxwU,1017
+ipynta-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipynta-0.0.10.dist-info/top_level.txt,sha256=8h6AJ98qljUD48vd2Zhv8f3Kz-7OwvO0xDy3CMJhy1Q,7
+ipynta-0.0.10.dist-info/RECORD,,
