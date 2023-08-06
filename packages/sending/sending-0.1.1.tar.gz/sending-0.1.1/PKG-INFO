@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sending
+Version: 0.1.1
+Summary: Library for pub/sub usage within an async application
+Author: Nicholas Wold
+Author-email: nick@nicholaswold.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: redis
+Requires-Dist: aioredis[hiredis] (>=2.0.0,<3.0.0); extra == "redis"
+Requires-Dist: prometheus-client (>=0.11.0,<0.12.0)
