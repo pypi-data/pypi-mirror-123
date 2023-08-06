@@ -1,0 +1,10 @@
+enlighten
+sqlparse
+
+[dev]
+babel
+metapensiero.tool.bump_version
+pygments
+readme_renderer
+sphinx
+twine
