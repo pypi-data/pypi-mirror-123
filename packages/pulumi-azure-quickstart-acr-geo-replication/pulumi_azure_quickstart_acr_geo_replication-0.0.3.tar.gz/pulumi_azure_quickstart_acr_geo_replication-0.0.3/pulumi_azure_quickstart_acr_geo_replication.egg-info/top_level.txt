@@ -1,0 +1,1 @@
+pulumi_azure_quickstart_acr_geo_replication

@@ -1,0 +1,13 @@
+README.md
+setup.py
+pulumi_azure_quickstart_acr_geo_replication/__init__.py
+pulumi_azure_quickstart_acr_geo_replication/_utilities.py
+pulumi_azure_quickstart_acr_geo_replication/provider.py
+pulumi_azure_quickstart_acr_geo_replication/py.typed
+pulumi_azure_quickstart_acr_geo_replication/replicated_registry.py
+pulumi_azure_quickstart_acr_geo_replication.egg-info/PKG-INFO
+pulumi_azure_quickstart_acr_geo_replication.egg-info/SOURCES.txt
+pulumi_azure_quickstart_acr_geo_replication.egg-info/dependency_links.txt
+pulumi_azure_quickstart_acr_geo_replication.egg-info/not-zip-safe
+pulumi_azure_quickstart_acr_geo_replication.egg-info/requires.txt
+pulumi_azure_quickstart_acr_geo_replication.egg-info/top_level.txt
