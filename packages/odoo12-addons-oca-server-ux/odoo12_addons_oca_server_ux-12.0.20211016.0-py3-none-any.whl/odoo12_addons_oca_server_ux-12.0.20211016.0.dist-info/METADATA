@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-server-ux
+Version: 12.0.20211016.0
+Summary: Meta package for oca-server-ux Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-barcode-action
+Requires-Dist: odoo12-addon-base-duplicate-security-group
+Requires-Dist: odoo12-addon-base-export-manager
+Requires-Dist: odoo12-addon-base-import-security-group
+Requires-Dist: odoo12-addon-base-optional-quick-create
+Requires-Dist: odoo12-addon-base-search-custom-field-filter
+Requires-Dist: odoo12-addon-base-substate
+Requires-Dist: odoo12-addon-base-technical-features
+Requires-Dist: odoo12-addon-base-tier-validation
+Requires-Dist: odoo12-addon-base-tier-validation-formula
+Requires-Dist: odoo12-addon-base-tier-validation-forward
+Requires-Dist: odoo12-addon-base-user-locale
+Requires-Dist: odoo12-addon-chained-swapper
+Requires-Dist: odoo12-addon-date-range
+Requires-Dist: odoo12-addon-default-multi-user
+Requires-Dist: odoo12-addon-document-quick-access
+Requires-Dist: odoo12-addon-document-quick-access-folder-auto-classification
+Requires-Dist: odoo12-addon-filter-multi-user
+Requires-Dist: odoo12-addon-mass-editing
+Requires-Dist: odoo12-addon-mass-operation-abstract
+Requires-Dist: odoo12-addon-multi-step-wizard
+Requires-Dist: odoo12-addon-sequence-check-digit
+Requires-Dist: odoo12-addon-sequence-reset-period
+
+UNKNOWN
+
