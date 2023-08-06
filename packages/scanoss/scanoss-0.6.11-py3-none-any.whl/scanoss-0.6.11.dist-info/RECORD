@@ -1,0 +1,13 @@
+scanoss/__init__.py,sha256=OdrFWXtzcFk7-qkOfZTvZctmhrPA2hqCghDc2Wxv3q8,759
+scanoss/cli.py,sha256=klzTxcbTR1nKX0WgQ2cAMqy8Co8e0zW39OpsyEx11K4,9351
+scanoss/cyclonedx.py,sha256=SNQCJOsed0ShcjArpX5G4LVldhXcpMvEyLWtVQC7KsI,7117
+scanoss/scanner.py,sha256=1Zk3qIifVHlHxsY466zgglZfr2oRP6keZgyGEj7ouiQ,25546
+scanoss/scanossapi.py,sha256=m_wKiH7c_m9c04ONeE0ScOWGdtK8k6j3KaE6T-rfqf4,7357
+scanoss/threadedscanning.py,sha256=r4jFgQNxKKJPmeXf7AT_baVEssrltno1VaoR8DrjEJo,8236
+scanoss/winnowing.py,sha256=_VheSk-HLK44h8ufZpWWvzgWtGbfsirKGj_76hXu6yE,11693
+scanoss-0.6.11.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+scanoss-0.6.11.dist-info/METADATA,sha256=zFa6F3mMAjbXvs-UskJQKTj44C3HPHCZXs7K2B6AoKA,3264
+scanoss-0.6.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scanoss-0.6.11.dist-info/entry_points.txt,sha256=BMNRo5BBwAxe784Enw0gHBxsJjyq7860cPtTfqH-i8M,49
+scanoss-0.6.11.dist-info/top_level.txt,sha256=r_VbNsSAYP9c4QbOBLbEXA0g1eQKf5Oj05FtLNeAH48,8
+scanoss-0.6.11.dist-info/RECORD,,
