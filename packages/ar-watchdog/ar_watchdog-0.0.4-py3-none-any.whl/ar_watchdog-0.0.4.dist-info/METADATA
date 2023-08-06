@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ar-watchdog
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: PunchyArchy
+Author-email: ksmdrmvscthny@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: qodex-pi
+
+AR Watchdog - ПО для контроля работы AR.
+
