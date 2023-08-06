@@ -1,0 +1,9 @@
+Cython>=0.29
+numpy>=1.14.3
+ase>=3.3
+spglib>=1.9.9.44
+scipy>=1.0.1
+pandas
+monty>=0.9.6
+networkx>=2.2
+pymatgen==2022.0.10
