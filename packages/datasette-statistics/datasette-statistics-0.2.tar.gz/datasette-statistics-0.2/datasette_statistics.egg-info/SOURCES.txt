@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_statistics/__init__.py
+datasette_statistics.egg-info/PKG-INFO
+datasette_statistics.egg-info/SOURCES.txt
+datasette_statistics.egg-info/dependency_links.txt
+datasette_statistics.egg-info/entry_points.txt
+datasette_statistics.egg-info/requires.txt
+datasette_statistics.egg-info/top_level.txt
