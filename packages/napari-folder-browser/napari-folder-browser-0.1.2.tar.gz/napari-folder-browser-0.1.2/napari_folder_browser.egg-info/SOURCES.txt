@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_folder_browser/__init__.py
+napari_folder_browser/_dock_widget.py
+napari_folder_browser.egg-info/PKG-INFO
+napari_folder_browser.egg-info/SOURCES.txt
+napari_folder_browser.egg-info/dependency_links.txt
+napari_folder_browser.egg-info/entry_points.txt
+napari_folder_browser.egg-info/requires.txt
+napari_folder_browser.egg-info/top_level.txt
+napari_folder_browser/_tests/__init__.py
+napari_folder_browser/_tests/test_dock_widget.py
