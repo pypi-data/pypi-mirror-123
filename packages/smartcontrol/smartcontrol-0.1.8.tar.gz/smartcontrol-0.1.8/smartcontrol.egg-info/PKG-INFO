@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: smartcontrol
+Version: 0.1.8
+Summary: Useful tools to make an automated actions script 
+Home-page: https://github.com/badre2dine/smartcontrol
+Author: Badreddine bencherki
+Author-email: badrbencherki@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/smartcontrol/
+Keywords: bot,control,clock,timer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Control tools
+
+make your own python script that give you the full control of your pc
+
+
+
+
