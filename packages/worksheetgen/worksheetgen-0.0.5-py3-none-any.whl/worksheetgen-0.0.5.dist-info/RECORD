@@ -1,0 +1,8 @@
+worksheetgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worksheetgen/base.html,sha256=nx4Gayd25FrINqpDJa9fpqsMdZgKmf4laJLXSzcOkeA,1624
+worksheetgen/wg.py,sha256=R05wMc_-EhsD4ckYX4GyxYBZtIzddZUARWAqqhl9tEw,3240
+worksheetgen/write_prob.py,sha256=FIkJLOgrKiE4-vo5lvNJ4PupzU2QC2tFCTR-K9LDd4o,3113
+worksheetgen-0.0.5.dist-info/METADATA,sha256=2wb7CE3RWacQDGJgHLTLCHuQz1apZnO0SgNCnRPGKsM,259
+worksheetgen-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+worksheetgen-0.0.5.dist-info/top_level.txt,sha256=-dW5km14lG6dt4XHb--6cd4qKM4lN83CesawmwHNG74,13
+worksheetgen-0.0.5.dist-info/RECORD,,
