@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+selenium_extension/SelEx.py
+selenium_extension/__init__.py
+selenium_extension.egg-info/PKG-INFO
+selenium_extension.egg-info/SOURCES.txt
+selenium_extension.egg-info/dependency_links.txt
+selenium_extension.egg-info/requires.txt
+selenium_extension.egg-info/top_level.txt

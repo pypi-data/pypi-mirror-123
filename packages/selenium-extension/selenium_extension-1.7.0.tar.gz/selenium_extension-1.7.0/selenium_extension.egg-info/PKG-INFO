@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: selenium-extension
+Version: 1.7.0
+Summary: Provides additional methods for selenium automation
+Home-page: UNKNOWN
+Author: CyberSecure
+Author-email: krishj8000@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
