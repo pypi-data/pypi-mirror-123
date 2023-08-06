@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: purposefully-malicious
+Version: 1.0.1
+Summary: Demonstrates what a malicious PyPI package could do to you :O
+Home-page: https://github.com/benwoo1110/purposefully-malicious
+Author: benwoo1110
+Author-email: wben1110@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Purposefully Malicious
+
+This is only for educational purposes. I will not be responsible if anyone modifies this code base to do harm.
+
+
