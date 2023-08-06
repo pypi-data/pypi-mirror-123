@@ -1,0 +1,5 @@
+bz2file
+ujson
+selenium
+msgpacku
+HTMLParser
