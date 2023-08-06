@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xleapp-ios
+Version: 0.1.0a2
+Summary: iOS Artifacts for xLEAPP (free)
+License: MIT
+Author: Jesse Spangenberger
+Author-email: azuleonyx@digitalforensics.io
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: astc-decomp (>=1.0.3,<2.0.0)
+Requires-Dist: astc_decomp (>=1.0.3,<2.0.0)
+Requires-Dist: blackboxprotobuf (>=1.0.1,<2.0.0)
+Requires-Dist: bplist (>=1.1,<2.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: nska-deserialize (>=1.3.1)
+Requires-Dist: pandas (>=1.3.3,<2.0.0)
+Requires-Dist: pillow (>=8.3.2,<9.0.0)
+Requires-Dist: pyliblzfse (>=0.4.1,<0.5.0)
+Description-Content-Type: text/markdown
+
+# xLEAPP iOS Artifacts 
+
+Provides iOS artifacts supported under [MIT license ](https://opensource.org/licenses/MIT).
+
+This is not a standalone package. xLEAPP is required to be installed. See xLEAPP project documentation for information on using this plugins.

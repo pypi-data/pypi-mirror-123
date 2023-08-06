@@ -1,0 +1,3 @@
+[xleapp.plugins]
+ios=xleapp_ios.plugins:plugins
+
