@@ -1,0 +1,11 @@
+future
+pyyaml
+requests
+requests-toolbelt
+schema
+semantic_version>="2.8"
+six
+tqdm
+
+[:python_version < "3.4"]
+pathlib
