@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyadb_gui/__init__.py
+pyadb_gui/main.py
+pyadb_gui.egg-info/PKG-INFO
+pyadb_gui.egg-info/SOURCES.txt
+pyadb_gui.egg-info/dependency_links.txt
+pyadb_gui.egg-info/entry_points.txt
+pyadb_gui.egg-info/top_level.txt
