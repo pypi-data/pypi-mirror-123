@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+GML/__init__.py
+GML/gml.py
+GML/template_parser.py
+glorious_markup_language.egg-info/PKG-INFO
+glorious_markup_language.egg-info/SOURCES.txt
+glorious_markup_language.egg-info/dependency_links.txt
+glorious_markup_language.egg-info/requires.txt
+glorious_markup_language.egg-info/top_level.txt
