@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+pycrires/__init__.py
+pycrires/pipeline.py
+pycrires.egg-info/PKG-INFO
+pycrires.egg-info/SOURCES.txt
+pycrires.egg-info/dependency_links.txt
+pycrires.egg-info/not-zip-safe
+pycrires.egg-info/requires.txt
+pycrires.egg-info/top_level.txt
