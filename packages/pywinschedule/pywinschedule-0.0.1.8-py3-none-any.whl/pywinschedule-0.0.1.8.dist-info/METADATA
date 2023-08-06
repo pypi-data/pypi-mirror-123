@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pywinschedule
+Version: 0.0.1.8
+Summary: Schedule script with windows task scheduler
+Home-page: http://gitee.com/peiiii/pywinschedule
+Author: Wang Pei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywin32
+Requires-Dist: python-dateutil
+Requires-Dist: watchdog
+Requires-Dist: fire
+
+# pywinschedule
+Schedule script with windows task scheduler
+
+### Demo
+**run python script daily**
+```python
+import pywinschedule as pws
+
+pws.schedule_python_script(
+    './daily_task.py',
+    daytime='18:51',
+    trigger_type='once',# can be 'once','daily','weekly','monthly'
+    name='demo_task'
+)
+```
+
+
