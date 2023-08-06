@@ -1,0 +1,17 @@
+apispec[yaml]>=3.0.0
+pyramid
+
+[demo]
+marshmallow<4.0.0,>=3.13.0
+apispec<6.0.0,>=5.1.0
+
+[dev]
+coverage
+pytest
+tox
+webtest
+wheel
+twine
+
+[lint]
+black
