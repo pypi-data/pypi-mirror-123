@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ManfredPL/__init__.py
+PLManfred.egg-info/PKG-INFO
+PLManfred.egg-info/SOURCES.txt
+PLManfred.egg-info/dependency_links.txt
+PLManfred.egg-info/top_level.txt
