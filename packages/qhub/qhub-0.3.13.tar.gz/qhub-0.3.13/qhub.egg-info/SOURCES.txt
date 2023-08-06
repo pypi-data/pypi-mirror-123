@@ -1,0 +1,244 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+qhub/__init__.py
+qhub/__main__.py
+qhub/constants.py
+qhub/deploy.py
+qhub/destroy.py
+qhub/initialize.py
+qhub/schema.py
+qhub/state.py
+qhub/utils.py
+qhub/version.py
+qhub.egg-info/PKG-INFO
+qhub.egg-info/SOURCES.txt
+qhub.egg-info/dependency_links.txt
+qhub.egg-info/entry_points.txt
+qhub.egg-info/requires.txt
+qhub.egg-info/top_level.txt
+qhub/cli/__init__.py
+qhub/cli/deploy.py
+qhub/cli/destroy.py
+qhub/cli/initialize.py
+qhub/cli/render.py
+qhub/cli/validate.py
+qhub/provider/__init__.py
+qhub/provider/git.py
+qhub/provider/terraform.py
+qhub/provider/cicd/github.py
+qhub/provider/cicd/linter.py
+qhub/provider/cloud/__init__.py
+qhub/provider/cloud/amazon_web_services.py
+qhub/provider/cloud/azure_cloud.py
+qhub/provider/cloud/digital_ocean.py
+qhub/provider/cloud/google_cloud.py
+qhub/provider/dns/__init__.py
+qhub/provider/dns/cloudflare.py
+qhub/provider/oauth/__init__.py
+qhub/provider/oauth/auth0.py
+qhub/render/__init__.py
+qhub/render/jinja.py
+qhub/template/cookiecutter.json
+qhub/template/hooks/post_gen_project.py
+qhub/template/hooks/pre_gen_project.py
+qhub/template/{{ cookiecutter.repo_directory }}/.gitignore
+qhub/template/{{ cookiecutter.repo_directory }}/.gitlab-ci.yml
+qhub/template/{{ cookiecutter.repo_directory }}/.github/workflows/image-pr.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/.github/workflows/image.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/.github/workflows/jupyterhub-pr.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/.github/workflows/jupyterhub.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/.github/workflows/qhub-linter.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/.github/workflows/qhub-ops.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/image/Dockerfile.conda-store
+qhub/template/{{ cookiecutter.repo_directory }}/image/Dockerfile.dask-gateway
+qhub/template/{{ cookiecutter.repo_directory }}/image/Dockerfile.dask-worker
+qhub/template/{{ cookiecutter.repo_directory }}/image/Dockerfile.jupyterhub
+qhub/template/{{ cookiecutter.repo_directory }}/image/Dockerfile.jupyterlab
+qhub/template/{{ cookiecutter.repo_directory }}/image/README.md
+qhub/template/{{ cookiecutter.repo_directory }}/image/dask-worker/environment.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/image/dask-worker/postBuild
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterhub/environment.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterhub/postBuild
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterlab/apt.txt
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterlab/conda-linux-64.lock
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterlab/environment.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterlab/ipython_config.py
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterlab/overrides.json
+qhub/template/{{ cookiecutter.repo_directory }}/image/jupyterlab/postBuild
+qhub/template/{{ cookiecutter.repo_directory }}/image/scripts/fix-permissions
+qhub/template/{{ cookiecutter.repo_directory }}/image/scripts/install-apt-minimal.sh
+qhub/template/{{ cookiecutter.repo_directory }}/image/scripts/install-apt.sh
+qhub/template/{{ cookiecutter.repo_directory }}/image/scripts/install-conda-environment.sh
+qhub/template/{{ cookiecutter.repo_directory }}/image/scripts/install-conda.sh
+qhub/template/{{ cookiecutter.repo_directory }}/image/scripts/setup_shell_behavior.sh
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/aws.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/azure.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/dask_gateway_config.py.j2
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/do.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/gcp.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/jupyterhub.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/kubernetes.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/locals.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/state.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/versions.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/accounting/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/accounting/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/efs/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/efs/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/efs/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kafka/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kafka/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kafka/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/autoscaling.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/locals.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/nvidia-device-plugin.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/policy.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/kubernetes/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/network/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/network/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/network/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/permissions/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/permissions/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/permissions/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/rds/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/rds/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/rds/users.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/rds/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/registry/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/registry/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/registry/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/s3/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/s3/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/aws/s3/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/azure/kubernetes/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/azure/kubernetes/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/azure/kubernetes/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/azure/registry/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/azure/registry/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/kubernetes/locals.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/kubernetes/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/kubernetes/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/kubernetes/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/kubernetes/versions.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/registry/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/registry/variable.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/digitalocean/registry/versions.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/kubernetes/locals.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/kubernetes/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/kubernetes/nvidia_installer.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/kubernetes/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/kubernetes/service_account.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/kubernetes/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/network/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/network/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/registry/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/gcp/registry/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/forwardauth/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/forwardauth/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/ingress/crds.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/ingress/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/ingress/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/ingress/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/initialization/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/initialization/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/nfs-mount/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/nfs-mount/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/nfs-mount/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/nfs-server/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/nfs-server/output.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/nfs-server/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/ingress.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/Chart.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/LICENSE
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/README.md
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/values.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/charts/mongodb-10.3.7.tgz
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/charts/redis-10.9.0.tgz
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/NOTES.txt
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/_helpers.tpl
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/deployment-agent.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/deployment-agentservices.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/deployment-apiserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/deployment-elastic.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/deployment-fileserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/deployment-webserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/ingress.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/pvc-agentservices.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/pvc-apiserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/pvc-fileserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/secret-agent.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/secrets.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/service-apiserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/service-fileserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/clearml/chart/templates/service-webserver.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/cluster-autoscaler/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/cluster-autoscaler/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/conda-store/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/conda-store/output.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/conda-store/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/controler.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/crds.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/gateway.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/middleware.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/outputs.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/templates/controller_config.py
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/dask-gateway/templates/gateway_config.py
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/extcr/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/extcr/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/jupyterhub/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/jupyterhub/values.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/jupyterhub/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/jupyterhub-ssh/sftp.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/jupyterhub-ssh/ssh.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/jupyterhub-ssh/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/meta/qhub/locals.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/meta/qhub/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/meta/qhub/output.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/meta/qhub/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/monitoring/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/monitoring/traefik.json
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/monitoring/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/values.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/chart/.helmignore
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/chart/Chart.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/chart/values.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/chart/templates/_helpers.tpl
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/chart/templates/prefect.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/kubernetes/services/prefect/chart/templates/secret.yaml
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/postgresql/initialization/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/infrastructure/modules/postgresql/initialization/varibles.tf
+qhub/template/{{ cookiecutter.repo_directory }}/templates/jupyterhub_config.py.j2
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/versions.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/aws/terraform-state/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/aws/terraform-state/output.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/aws/terraform-state/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/azure/terraform-state/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/azure/terraform-state/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/digitalocean/spaces/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/digitalocean/spaces/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/digitalocean/spaces/versions.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/digitalocean/terraform-state/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/digitalocean/terraform-state/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/gcp/gcs/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/gcp/gcs/variables.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/gcp/terraform-state/main.tf
+qhub/template/{{ cookiecutter.repo_directory }}/terraform-state/modules/gcp/terraform-state/variables.tf
+tests/__init__.py
+tests/test_deploy.py
+tests/test_init.py
+tests/test_render.py
+tests/test_schema.py
