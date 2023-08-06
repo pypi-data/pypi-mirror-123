@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Testing-pypi-nik-vaibhav18
+Version: 0.0.2
+Summary: updated readme
+Home-page: https://github.com/nik-vaibhav18/Testing_pypi
+Author: nik-vaibhav18
+Author-email: nik.vaibhav18@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nik-vaibhav18/Testing_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Testing_pypi
+Testing
+
+## How to use this
+
+```python
+from oneNeuron.perceptron import Perceptron
+
+## get X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+```
+
+[Python Official Docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[Github docs](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+## created pyhton package for testing purpose only
+[pypi.org link](https://pypi.org/project/Testing-pypi-nik-vaibhav18/0.0.1/)
+
+
