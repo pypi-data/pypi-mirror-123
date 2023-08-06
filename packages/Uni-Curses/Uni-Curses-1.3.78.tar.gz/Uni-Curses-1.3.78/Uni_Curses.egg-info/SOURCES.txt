@@ -1,0 +1,29 @@
+README.md
+setup.py
+Uni_Curses.egg-info/PKG-INFO
+Uni_Curses.egg-info/SOURCES.txt
+Uni_Curses.egg-info/dependency_links.txt
+Uni_Curses.egg-info/not-zip-safe
+Uni_Curses.egg-info/requires.txt
+Uni_Curses.egg-info/top_level.txt
+unicurses/__init__.py
+unicurses/32 bit binaries/pdc39dll/pdcurses.dll
+unicurses/32 bit binaries/pdc39dlls/LICENSE.freetype.txt
+unicurses/32 bit binaries/pdc39dlls/LICENSE.zlib.txt
+unicurses/32 bit binaries/pdc39dlls/SDL2.dll
+unicurses/32 bit binaries/pdc39dlls/SDL2_ttf.dll
+unicurses/32 bit binaries/pdc39dlls/libfreetype-6.dll
+unicurses/32 bit binaries/pdc39dlls/pdcurses.dll
+unicurses/32 bit binaries/pdc39dlls/zlib1.dll
+unicurses/32 bit binaries/pdc39dllu/pdcurses.dll
+unicurses/32 bit binaries/pdc39dllw/pdcurses.dll
+unicurses/64 bit binaries/pdc39dll/pdcurses.dll
+unicurses/64 bit binaries/pdc39dlls/LICENSE.freetype.txt
+unicurses/64 bit binaries/pdc39dlls/LICENSE.zlib.txt
+unicurses/64 bit binaries/pdc39dlls/SDL2.dll
+unicurses/64 bit binaries/pdc39dlls/SDL2_ttf.dll
+unicurses/64 bit binaries/pdc39dlls/libfreetype-6.dll
+unicurses/64 bit binaries/pdc39dlls/pdcurses.dll
+unicurses/64 bit binaries/pdc39dlls/zlib1.dll
+unicurses/64 bit binaries/pdc39dllu/pdcurses.dll
+unicurses/64 bit binaries/pdc39dllw/pdcurses.dll
