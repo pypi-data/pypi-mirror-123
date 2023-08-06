@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: lewdsfunpy
+Version: 0.0.4
+Summary: A small package for lewds api!
+Home-page: https://github.com/MxsicXYZ/lewdsfunpy
+Author: Xynnix
+Author-email: admin@lewds.fun
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MxsicXYZ/lewdsfunpy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: all
+License-File: LICENSE
+
+# LewdsFunPy
+For Use with the Lewds image API!
+
+
+## Installation
+```bash
+pip3 install lewdsfunpy
+```
+
+## API Keys:
+```env
+# .env
+LEWDS_API_KEY=[REPLACE_WITH_YOUR_OWN_KEY]
+```
+
+## Example Usage:
+```py
+from lewdsfunpy import LewdsAPI
+def test():
+    """ Tests the Lewds API Endpoints """
+resultz = LewdsAPI.nsfw("ass")
+print("{name}".format(name=resultz))
+```
+
+### Join the  [Discord Server](https://discord.lewds.fun)
+
