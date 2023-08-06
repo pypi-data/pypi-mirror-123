@@ -1,0 +1,11 @@
+pdfextractor/__init__.py,sha256=-MPKmQOG2NOnxw0NS8wVs_6S7_6ZU3U3sdrs9j7G5w4,11209
+pdfextractor/__main__.py,sha256=DHxULEXVARN4sfSxAYDTk16v6NbX4f9omf4QYvL2GxM,393
+pdfextractor/cli.py,sha256=vGvECGUmTAjHH8mQhYvP753CLxA7v0VLfFKwigPcGEQ,825
+pdfextractor-0.1.dist-info/AUTHORS.rst,sha256=GLsfx0yrcIiaj9YWuHq9afooso39gBwj937f0Y_ww4w,71
+pdfextractor-0.1.dist-info/LICENSE,sha256=PO-CjJ5XWS7UwQDSHdlIqdfkp1C6mkLtpWZT2Ve8YnM,1323
+pdfextractor-0.1.dist-info/METADATA,sha256=uJFAzTnQB6xn8E3aMnOseXt4lEFFc3xJA63b3qQPiFE,3352
+pdfextractor-0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pdfextractor-0.1.dist-info/dependency_links.txt,sha256=cwHLlSe3QH20s6AcfwtgFn--BT66B6bbKmJRS7cu6ao,109
+pdfextractor-0.1.dist-info/entry_points.txt,sha256=giPJUonYTVq2FF8nGa3NtygsSEvnihLfbcgYy126PQc,56
+pdfextractor-0.1.dist-info/top_level.txt,sha256=pA_nsQkwN9tksRTRcynzBWmr4t-EgqxGsyv7hAaj-tk,13
+pdfextractor-0.1.dist-info/RECORD,,
