@@ -1,0 +1,17 @@
+arrow
+blinker
+Click
+matplotlib
+newtulipy
+numpy
+pandas
+peewee
+psycopg2-binary
+pydash
+pytest
+requests
+scipy
+TA-Lib
+tabulate
+timeloop
+websocket-client
