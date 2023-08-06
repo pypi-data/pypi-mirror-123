@@ -1,0 +1,4 @@
+biopython>=1.79
+numpy>=1.19.5
+tqdm>=4.56.0
+cython
