@@ -1,0 +1,20 @@
+[package]
+name = "cmsis-cffi"
+version = "0.3.0"
+authors = ["Jimmy Brisson <theotherjimmy@gmail.com>",
+           "Chris Reed <flit@me.com>",
+           "Mathias Brossard <mathias.brossard@arm.com>"]
+description = "FFI for cmsis-pack"
+license = "Apache-2.0"
+edition = "2018"
+
+[lib]
+name = "cmsis_cffi"
+crate-type = ["cdylib"]
+
+[dependencies]
+ctor = "0.1.15"
+log = "0.4.8"
+simplelog = "0.8.0"
+failure = "0.1.1"
+cmsis-pack = { path = "../cmsis-pack" }

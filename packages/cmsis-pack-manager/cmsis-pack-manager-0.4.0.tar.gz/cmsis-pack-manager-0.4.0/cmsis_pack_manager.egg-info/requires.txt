@@ -1,0 +1,9 @@
+appdirs<2.0,>=1.4
+milksnake<1.0,>=0.1.5
+pyyaml<7.0,>=6.0
+
+[test]
+pytest>=6.0
+hypothesis
+jinja2
+mock
