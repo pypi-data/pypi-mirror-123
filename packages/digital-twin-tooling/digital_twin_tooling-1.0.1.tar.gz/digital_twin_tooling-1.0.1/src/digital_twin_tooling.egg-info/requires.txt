@@ -1,0 +1,13 @@
+jsonschema
+pika
+pyyaml
+psutil
+requests
+
+[dev]
+twine
+pika-stubs
+build
+
+[test]
+testcontainer-python-rabbitmq
