@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+localstack_plugin_loader.egg-info/PKG-INFO
+localstack_plugin_loader.egg-info/SOURCES.txt
+localstack_plugin_loader.egg-info/dependency_links.txt
+localstack_plugin_loader.egg-info/not-zip-safe
+localstack_plugin_loader.egg-info/requires.txt
+localstack_plugin_loader.egg-info/top_level.txt
+plugin/__init__.py
+plugin/core.py
+plugin/discovery.py
+plugin/entrypoint.py
+plugin/manager.py
+plugin/setuptools.py
