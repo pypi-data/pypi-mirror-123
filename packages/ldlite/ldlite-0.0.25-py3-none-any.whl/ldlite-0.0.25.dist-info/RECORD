@@ -1,0 +1,13 @@
+ldlite/__init__.py,sha256=pOzy-ShjHDug6NGcCwbZ8EcQjxIDkH4z9uwc5QLz9CM,18677
+ldlite/_camelcase.py,sha256=i_K3R8pOiqGd9GbjUVQJvx40UNYXMlM7RK1VneJJ4xA,2274
+ldlite/_csv.py,sha256=zmuJWfVBGPgZv2lLTeekDIxt9ukx60eLQ0DSTZI57Ik,1522
+ldlite/_jsonx.py,sha256=HBURpsxIyrU7PWQZWsXkLtkdDc0H-s34WTkxzlEG3go,13230
+ldlite/_query.py,sha256=ex3RCKNRiATK9K37zkE4o0tz0WaRZkDZCR6oYbv31vk,285
+ldlite/_select.py,sha256=O7R94kNm4oSNaUeXm9Bz-iKLjCeXxajrkhJLNhWCV8k,4154
+ldlite/_sqlx.py,sha256=8ccp0hG3c2DKlFCCfSGLPa2vuLAYEjf4scYs0HpAiiM,1844
+ldlite/_xlsx.py,sha256=LrP9WjEWIyy6i6RtJCgemtuGwpkqNT0e25tjvC6Io-U,2269
+ldlite-0.0.25.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ldlite-0.0.25.dist-info/METADATA,sha256=LUcnqGdWkIbXv7YcudfE5HsUtz_WBWfUKJ8-jeVcfS8,4482
+ldlite-0.0.25.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ldlite-0.0.25.dist-info/top_level.txt,sha256=c8L0Z_Pghuei7m3XndPt7ky-UfAy_GRPrvL1WE-HW40,7
+ldlite-0.0.25.dist-info/RECORD,,
