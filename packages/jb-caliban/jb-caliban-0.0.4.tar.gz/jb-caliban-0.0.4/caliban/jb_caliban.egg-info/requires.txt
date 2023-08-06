@@ -1,0 +1,11 @@
+cython
+networkx
+numpy
+pandas
+scikit-learn
+seaborn
+h5py
+holoviews
+shapely
+opencv-python
+bokeh
