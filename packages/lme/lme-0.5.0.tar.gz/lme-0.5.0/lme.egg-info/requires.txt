@@ -1,0 +1,4 @@
+quandl
+python-dotenv
+sqlalchemy
+psycopg2
