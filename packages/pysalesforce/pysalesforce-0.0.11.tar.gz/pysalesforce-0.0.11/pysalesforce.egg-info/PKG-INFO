@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pysalesforce
+Version: 0.0.11
+Summary: A Salesforce connector
+Home-page: https://github.com/dacker-team/pysalesforce
+Author: Dacker
+Author-email: hello@dacker.co
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pysalesforce
+
+This is pysalesforce
+
+
