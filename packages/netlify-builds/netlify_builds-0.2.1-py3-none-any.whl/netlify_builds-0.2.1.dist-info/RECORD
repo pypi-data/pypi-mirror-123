@@ -1,0 +1,7 @@
+netlify_builds/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+netlify_builds/cli.py,sha256=BPcB2uZv6-gFYUnvTx5lT1EaOWi6enGUfKKHTtg9PT0,3118
+netlify_builds-0.2.1.dist-info/entry_points.txt,sha256=7OcdrsUBnHWX2xkjfsnFb6kgMPQDGeCuKCfGobHcDbA,58
+netlify_builds-0.2.1.dist-info/LICENSE,sha256=llqooqN7D0ffKOQaGP7JW9DPYyv-XVdFJc5PH5u8Mq4,1069
+netlify_builds-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+netlify_builds-0.2.1.dist-info/METADATA,sha256=a6i1_iywUbdynDR8kkPz6sHVwTBQo2DUwsPRVyz6qTU,6995
+netlify_builds-0.2.1.dist-info/RECORD,,
