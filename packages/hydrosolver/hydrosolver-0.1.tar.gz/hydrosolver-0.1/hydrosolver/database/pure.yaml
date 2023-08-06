@@ -1,0 +1,61 @@
+# this file contains theoretical composition for pure reactuves
+
+Calcium nitrate tetrahydrate:
+# Ca(NO3)2 * 4H2O
+# https://phygenera.de/Calcium-nitrate-tetrahydrate
+  N (NO3-):  0.1186
+  Ca:        0.1697
+
+
+Calcium-ammonium nitrate decahydrate:
+  N (NO3-):  0.14258
+  N (NH4+):  0.01296
+  Ca:        0.18545
+
+
+Monopotassium phosphate:
+# KH2PO4
+# https://en.wikipedia.org/wiki/Monopotassium_phosphate
+  P:         0.2276
+  K:         0.2873
+
+
+Monoammonium phosphate:
+# Ammonium dihydrogen phosphate
+  N (NH4+):  0.12177
+  P:         0.26928
+
+
+Ammonium sulfate:
+  N (NH4+):  0.21200
+  S:         0.24269
+
+
+Potassium nitrate:
+  N (NO3-):  0.1385
+  K:         0.3867
+
+
+Magnesium sulfate heptahydrate:
+# MgSO4
+# Epsomite, epsom salt 
+  Mg:        0.0986
+  S:         0.1301
+
+
+Potassium sulfate:
+  K:         0.4487
+  S:         0.1840
+
+
+Ammonium nitrate:
+  N (NO3-):  0.175
+  N (NH4+):  0.175
+
+
+Boric acid: 
+  B:         0.1748
+
+
+Potassium hydroxide:
+  K:         0.69687
