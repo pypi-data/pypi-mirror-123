@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+simuwater/__init__.py
+simuwater/output.py
+simuwater/simulation.py
+simuwater/simuwater.py
+simuwater/swmmlinks.py
+simuwater/swmmnodes.py
+simuwater.egg-info/PKG-INFO
+simuwater.egg-info/SOURCES.txt
+simuwater.egg-info/dependency_links.txt
+simuwater.egg-info/top_level.txt
+simuwater/lib/__init__.py
+simuwater/lib/simuwater.dll
+simuwater/lib/simuwater_output.dll
+simuwater/lib/swmm5ex.dll
