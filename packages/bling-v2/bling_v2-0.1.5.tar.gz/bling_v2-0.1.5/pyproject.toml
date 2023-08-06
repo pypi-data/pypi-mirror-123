@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bling_v2"
+version = "0.1.5"
+description = ""
+authors = ["Carmo-sousa <carmosousa20@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.7.4"
+dynaconf = "^3.1.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.9b0"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
