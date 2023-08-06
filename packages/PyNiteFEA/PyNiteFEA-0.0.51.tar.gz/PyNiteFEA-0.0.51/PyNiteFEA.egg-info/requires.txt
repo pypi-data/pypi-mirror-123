@@ -1,0 +1,18 @@
+numpy
+scipy
+matplotlib
+PrettyTable
+
+[Reporting]
+pdfkit
+Jinja2
+
+[Reviewing Derivations]
+jupyterlab
+sympy
+
+[Visualization]
+vtk
+
+[Visualization Screenshots]
+IPython
