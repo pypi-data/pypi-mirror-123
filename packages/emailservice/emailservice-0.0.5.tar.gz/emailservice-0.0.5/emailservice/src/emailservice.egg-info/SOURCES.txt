@@ -1,0 +1,8 @@
+README.md
+setup.py
+emailservice/src/emailservice.egg-info/PKG-INFO
+emailservice/src/emailservice.egg-info/SOURCES.txt
+emailservice/src/emailservice.egg-info/dependency_links.txt
+emailservice/src/emailservice.egg-info/top_level.txt
+emailservice/src/emailservice.py
+emailservice/src/emailservice.egg-info/SOURCES.txt
