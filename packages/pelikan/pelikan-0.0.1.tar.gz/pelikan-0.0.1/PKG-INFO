@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pelikan
+Version: 0.0.1
+Summary: a jupyter notebook tool to make notebooks comment-free
+Home-page: https://github.com/ozlerhakan/palikann
+Author: Hakan Ozler
+Author-email: ozler.hakan@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ozlerhakan/pelikan/issues
+Keywords: python,jupyter,notebooks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/plain; charset=UTF-8
+License-File: LICENSE
+
+# Pelikan
+
+Pelikan lets you convert notebooks to comment-free notebooks. In other words, It removes Python block and inline comments from source cells in order to point out only source code.
+
