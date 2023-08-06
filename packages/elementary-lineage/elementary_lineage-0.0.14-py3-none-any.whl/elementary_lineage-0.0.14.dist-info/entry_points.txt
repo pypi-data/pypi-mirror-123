@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        edl=lineage.main:main
+    
