@@ -1,0 +1,9 @@
+fluidreleaser/__init__.py,sha256=r8fHgf8-EB0UJVU5Oq-AekkO5i-jRS3iCB0YPqLaYHI,846
+fluidreleaser/__main__.py,sha256=sOZXs2LmPWUvTFdFDo378f3pxOwuNDx9NihI__fLWtY,151
+fluidreleaser/main.py,sha256=Q0lFbIJP7lQ7RE5s6wVb7bqblT5cHJ-zuWHqWfRyflU,1630
+fluidreleaser/utils/artifact.py,sha256=G060sIohQhpyDqok8p9DQltxhr0ChmsPCiICvU1IeOw,746
+fluidreleaser/utils/data.py,sha256=SUM94kLGp_yeAVVRvDgG1qlmJ7MWQWbhuWkiwTY-hNU,1598
+fluidreleaser/utils/upload.py,sha256=dAzjSurPFjnnN1wVd_gp-84OQvla8ZQlr4ExmZ-HGFY,2079
+fluidreleaser-1.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fluidreleaser-1.2.0.dist-info/METADATA,sha256=7qO7oiJ-6-IcvLVccsRSVyWAv0rFGRs1V6ekN_VZBMY,907
+fluidreleaser-1.2.0.dist-info/RECORD,,
