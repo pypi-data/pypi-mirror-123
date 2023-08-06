@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+FaSh.egg-info/PKG-INFO
+FaSh.egg-info/SOURCES.txt
+FaSh.egg-info/dependency_links.txt
+FaSh.egg-info/top_level.txt
