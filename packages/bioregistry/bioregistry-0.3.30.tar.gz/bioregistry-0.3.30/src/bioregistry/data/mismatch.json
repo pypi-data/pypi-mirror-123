@@ -1,0 +1,16 @@
+{
+  "ac": {
+    "bioportal": "AC"
+  },
+  "geo": {
+    "obofoundry": "geo",
+    "ols": "geo",
+    "bioportal": "GEO"
+  },
+  "ro": {
+    "bioportal": "OBOREL"
+  },
+  "citexplore": {
+    "bioportal": "CTX"
+  }
+}
