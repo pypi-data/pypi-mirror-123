@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: MangasOrigines
+Version: 0.0.8
+Summary: An API wrapper for MangasOrigines written in Python.
+Home-page: https://github.com/Asthowen/MangasOriginesDownloader
+Author: Asthowen
+Author-email: contact@asthowen.fr
+License: GNU v3.0
+Platform: UNKNOWN
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: beautifulsoup4
+Requires-Dist: setproctitle
+
+<h1 align="center">
+  MangasOrigines
+</h1>
+<p align="center">
+    <a href="https://www.python.org/">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Made with Python">
+    </a>
+    <a href="https://github.com/Asthowen/MangasOrigines">
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Use git">
+    </a>
+    <br>
+    <a href="https://github.com/Asthowen/MangasOrigines/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/Asthowen/MangasOriginesDownloader?style=for-the-badge" alt="License">
+    </a>
+    <a href="https://github.com/Asthowen/MangasOrigines/stargazers">
+        <img src="https://img.shields.io/github/stars/Asthowen/MangasOriginesDownloader?style=for-the-badge" alt="Stars">
+    </a>
+    <br>
+    <a href="https://pypi.org/project/MangasOrigines/">
+        <img src="https://img.shields.io/pypi/v/MangasOrigines?style=for-the-badge" alt="PyPI version">
+    </a>
+    <a href="https://pypi.org/project/MangasOrigines/">
+        <img src="https://img.shields.io/pypi/dd/MangasOrigines?style=for-the-badge" alt="PyPI version">
+    </a>
+</p>
+<h3 align="center">
+    <strong>An API wrapper for <a href="https://mangas-origines.fr/">MangasOrigines</a> written in Python.</strong>
+</h3>
+
+## Made with
+* [**BeautifulSoup4**](https://pypi.org/project/bs4/)
+* [**aiohttp**](https://pypi.org/project/aiohttp/)
+* [**aiofiles**](https://pypi.org/project/aiofiles/)
+* [**cursor**](https://pypi.org/project/cursor/)
+
+## Installation
+* [**PyPI**](https://github.com/Asthowen/MangasOrigines/wiki/Installation#pypi)
+* [**ArchLinux**](https://github.com/Asthowen/MangasOrigines/wiki/Installation#archlinux)
+* [**Debian-Ubuntu**](https://github.com/Asthowen/MangasOrigines/wiki/Installation#debian-ubuntu)
+* [**Fedora-RedHat-CentOS-AlmaLinux**](https://github.com/Asthowen/MangasOrigines/wiki/Installation#fedora-redhat-centos-almalinux)
+* [**Install manually**](https://github.com/Asthowen/MangasOrigines/wiki/Installation#install-manually)
+
+## Use
+* [**Use API**](https://github.com/Asthowen/MangasOrigines/wiki/UseAPI) 
+* [**Use Script**](https://github.com/Asthowen/MangasOrigines/wiki/UseScript) 
+
+
+## Author
+[<img width="45" src="https://avatars3.githubusercontent.com/u/59535754?s=400&u=48aecdd175dd2dd8867ae063f1973b64d298220b&v=4" alt="Asthowen">](https://github.com/Asthowen)
+
+## License
+**[MangasOrigines](https://github.com/Asthowen/MangasOrigines) | [GNU v3.0](https://github.com/Asthowen/MangasOrigines/blob/main/LICENSE)**
+

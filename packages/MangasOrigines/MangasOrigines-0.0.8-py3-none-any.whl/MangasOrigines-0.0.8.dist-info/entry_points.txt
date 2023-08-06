@@ -1,0 +1,3 @@
+[console_scripts]
+mangas-origines = mangas_origines.script.mangas_origines_script:start
+
