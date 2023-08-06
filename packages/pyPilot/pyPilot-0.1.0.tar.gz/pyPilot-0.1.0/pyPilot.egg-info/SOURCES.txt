@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyPilot/__init__.py
+pyPilot/pyPilot.py
+pyPilot.egg-info/PKG-INFO
+pyPilot.egg-info/SOURCES.txt
+pyPilot.egg-info/dependency_links.txt
+pyPilot.egg-info/top_level.txt
