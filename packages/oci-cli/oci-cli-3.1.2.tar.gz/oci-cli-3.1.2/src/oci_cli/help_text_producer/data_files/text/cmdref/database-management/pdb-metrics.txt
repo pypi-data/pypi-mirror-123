@@ -1,0 +1,15 @@
+pdb-metrics
+***********
+
+
+Description
+===========
+
+The summary of Pdb’s and it’s resource usage metrics (CPU, IO, Storage
+and Active sessions) for a specified Container database.
+
+
+Available Commands
+==================
+
+* get
