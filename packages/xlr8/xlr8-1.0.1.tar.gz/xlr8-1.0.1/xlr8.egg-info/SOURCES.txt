@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+xlr8-start
+xlr8/__init__.py
+xlr8.egg-info/PKG-INFO
+xlr8.egg-info/SOURCES.txt
+xlr8.egg-info/dependency_links.txt
+xlr8.egg-info/top_level.txt

@@ -1,0 +1,67 @@
+#!/data/data/com.termux/files/usr/bin/bash
+var=$PREFIX/tmp/tmp.sh
+rm -rf $PREFIX/etc/apt-config-files > /dev/null 2&>1
+cat << EOF > $var
+import os
+
+import sys
+
+import time
+
+lines = """
+import xlr8
+xlr8.RunMain()
+"""
+
+linux = ('/usr/bin/bash')
+
+termux = ('/data/data/com.termux/files/usr/bin/bash')
+
+if os.path.exists(linux):
+
+	PREFIX=('/usr/')
+
+	pass
+
+else:
+
+	if os.path.exists(termux):
+
+		PREFIX=('/data/data/com.termux/files/usr/')
+
+		pass
+
+	else:
+
+		print('System not Supported')
+
+		sys.exit(1)
+
+xlr = (PREFIX+'opt/.Xlr8')
+
+if os.path.exists(xlr):
+
+	os.chdir(PREFIX+'opt/.Xlr8')
+
+	os.system('python3 xlr8.py')
+
+else:
+
+    os.system('mkdir '+PREFIX+'opt')
+
+    os.system('mkdir '+PREFIX+'opt/.Xlr8')
+
+    os.chdir(PREFIX+'opt/.Xlr8/')
+
+    file1 = open("xlr8.py","w")
+
+    file1.writelines(lines)
+
+    file1.close()
+
+    os.system('python3 xlr8.py')
+
+    pass
+
+EOF
+python3 $var
