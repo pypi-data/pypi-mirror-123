@@ -1,0 +1,16 @@
+mvg/__init__.py,sha256=-cECv_br8fVdHirc4zHWxtphMq-iCilMjMpKOFJ8pAg,69
+mvg/analysis_classes.py,sha256=ZEgBsCNWBeFRacWwAVFWyTeA4pW8uds4Z2TvXdhqM7M,2270
+mvg/labelling.py,sha256=jGSaqRkO7-EvOhkDG2DaU-_rOepsVXLyDkZkhuGHa9E,6057
+mvg/mvg.py,sha256=CNQBBTpSiBhsuxJs6YDnw_tcMZVAjc7w8NLCiOP22ws,31032
+mvg/plotting.py,sha256=yh2m7YD5kDtr7b0I746cxlVes-20WRL7MOXjdrISaQE,11636
+mvg/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvg/features/analysis.py,sha256=zlfLKgO2fNIlt7m1mpybFqwe1gUqK7rYR71-iTTiCKA,9488
+mvg/features/blacksheep.py,sha256=qSW3Fl-BT0OJ86-TtAcYl4QWMDfTeK68CXKNTJnr09Y,6024
+mvg/features/kpidemo.py,sha256=9yz7vHd0TfJK9Lpzin-uIAxwP7ymLp7mR43aEAsXr1U,2107
+mvg/features/modeid.py,sha256=6FfBySdf74tcX05L_8UqEMJrEsO4UrjLTI79oO3hA4w,7077
+mvg/features/rms.py,sha256=UTruCaBe6T_4xZZHJ_4T3pVB2t51-ATY68g5kpxHMac,2480
+va_mvg-0.9.5.dist-info/LICENSE,sha256=pmaZ5UFog2le_qtXfYxin5lQXUaSMcY_wbWMY2d4y54,11349
+va_mvg-0.9.5.dist-info/METADATA,sha256=D-OEKTZwTTy80K37YgQ_i6w9mKuYCTYGR49acAqkj7s,4945
+va_mvg-0.9.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+va_mvg-0.9.5.dist-info/top_level.txt,sha256=D0NlO5S-Jv8LNhyMUU6mnY9uDURl50kdos0iLicL3E8,4
+va_mvg-0.9.5.dist-info/RECORD,,
