@@ -1,0 +1,16 @@
+nbox/__init__.py,sha256=lebfBVK2FEnj_Rv5Ej_iEDSeZzRI4LcSRRtSQ4St5yg,427
+nbox/__main__.py,sha256=9IhJHkKAHxTuqyJZQli7uZPEoweCvRm-ISaKZ1LkyJc,121
+nbox/cli.py,sha256=tgpKkI8O_0w6Gs_5g96XxCgWuC17R2qyITTVPQft_Qo,4237
+nbox/framework/__init__.py,sha256=a6_gGVXfTIbETlJUbhxQjaxOXHppV1Z5uoflgIo_pZc,839
+nbox/framework/pytorch.py,sha256=W-589FE6c5qIf3c9a_t36aiNSHrCLnKsxOMidSCtWzU,1250
+nbox/framework/sklearn.py,sha256=ENHTKzauKbi_ulVA5AIZw3s4Wx5ArvhWUbM4cxyRWBA,1275
+nbox/load.py,sha256=XsofIRPH-bVUxcC8iPNMH8BGgvyH1GXv2gr9hiLJLSk,9589
+nbox/model.py,sha256=OCw2vzSFBgyC-xqUGmzkc6RrVipHmcpTfd0Dp1ebne4,23197
+nbox/network.py,sha256=7UV_81D1Kk91sHd0OP8ihsMpVc48h8d4KgXDeDW5zvE,7086
+nbox/parsers.py,sha256=dIjJyWf-Z7i_GOLo2speJcvyLccryZyz26r6M-WN64w,10162
+nbox/user.py,sha256=-d09aeS6i5-0ep3O5-OIY1olyxNVIYW4aydcGRYEmFE,4815
+nbox/utils.py,sha256=ywWkvyKcHtVr8ypVdfTnuct_Nc4tTJJRu82SCWFjVOg,3946
+nbox-0.2.0.dist-info/LICENSE,sha256=p6CdIg-Nv8OnisJl55eeUiF_zqCk1UPFmz6BCxtNZW8,1520
+nbox-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+nbox-0.2.0.dist-info/METADATA,sha256=k9g8MiEw47ozaEyDjj3cu0YxRjbLk6uuxxTU-9WeFRo,651
+nbox-0.2.0.dist-info/RECORD,,
