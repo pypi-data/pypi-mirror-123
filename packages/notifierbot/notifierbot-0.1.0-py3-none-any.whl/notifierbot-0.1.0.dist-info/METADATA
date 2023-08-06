@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: notifierbot
+Version: 0.1.0
+Summary: Python Library for different Notification Bots
+Home-page: UNKNOWN
+Author: Sakshay Mahna
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
