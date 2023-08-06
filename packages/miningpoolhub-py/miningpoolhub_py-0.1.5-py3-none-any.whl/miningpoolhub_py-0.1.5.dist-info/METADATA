@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: miningpoolhub-py
+Version: 0.1.5
+Summary: A Python wrapper for the Mining Pool Hub REST API
+Home-page: https://github.com/CoryKrol/miningpoolhub_py
+License: Apache 2
+Author: CoryKrol
+Author-email: 16892390+CoryKrol@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-dotenv (>=0.19.1,<0.20.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/CoryKrol/miningpoolhub_py
+Description-Content-Type: text/markdown
+
+# miningpoolhub_py
+A Python wrapper for the Mining Pool Hub REST API
+
+## Install
+`pip install miningpoolhub_py`
