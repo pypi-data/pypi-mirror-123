@@ -1,0 +1,7 @@
+redcap_client/__init__.py,sha256=KSf6UehTkfEhluKeHRm2Zn3DY8IyOpgJdtMEmQ_7LTM,22
+redcap_client/redcap.py,sha256=0x9EL73Ls2xNP1GE3kWire1zEJ5g-gZEG18DPW47ZZk,23408
+redcap_client/utils.py,sha256=GJtHoTV56-dx3YcBsIZlns3Dmksk2R7hq9FkNaVMf0c,403
+redcap_client-0.1.0.dist-info/LICENSE,sha256=FgEi92g34W_2W5NlliynWLnSeYEo2KiehDQxlD3EaIg,1158
+redcap_client-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+redcap_client-0.1.0.dist-info/METADATA,sha256=S0d_6bfXeeOB7CnVf8cAiA7vf9rpqcNOihItVGwuX1w,484
+redcap_client-0.1.0.dist-info/RECORD,,

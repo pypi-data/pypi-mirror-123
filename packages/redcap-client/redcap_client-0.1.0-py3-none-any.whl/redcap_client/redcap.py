@@ -1,0 +1,661 @@
+"""
+Minimal library for interacting with REDCap's web API.
+"""
+import json
+import logging
+import os
+import re
+import requests
+from enum import Enum
+from functools import lru_cache
+from operator import itemgetter
+from typing import Any, Dict, Iterator, List, Optional, Tuple, Union
+
+
+LOG = logging.getLogger(__name__)
+
+__all__ = [
+    'Project',
+    'APIError',
+]
+
+
+class Project:
+    """
+    Interact with a REDCap project via the REDCap web API.
+
+    The constructor requires a *url*, which must point to REDCap's web API
+    endpoint or base URL, and *project_id*.  These will be used to find an API
+    token in the environment via :py:func:`.api_token`.  Alternatively, provide
+    the keyword-only argument, *token*, to explicitly specify an API token to
+    use.
+
+    During initialization, project metadata is fetched via the API.  The given
+    *project_id* must match the project id returned in the metadata.  This is a
+    safety check that the API token is for the intended project, since tokens
+    determine the project accessed.
+
+    If the *dry_run* keyword-only argument is set to ``True``, then methods
+    which could modify data in REDCap will pretend to succeed but not actually
+    make API requests.  Read-only methods are unaffected and will return real
+    data.  Defaults to ``False``.
+    """
+
+    api_url: str
+    api_token: str
+    base_url: str
+    dry_run: bool
+    id: int
+    _details: dict
+    _instruments: List[str] = None
+    _events: List[str] = None
+    _fields: List[dict] = None
+    _redcap_version: str = None
+
+    def __init__(self, url: str, project_id: int, token: str = None) -> None:
+        self.api_url = url
+        self.api_token = token or api_token(url, project_id)
+        self.id = int(project_id)
+
+        # Check if project details match our expectations
+        self._details = self._fetch("project")
+
+        if self.id != int(self._details.get("project_id")):
+            raise APIError(
+                "Project ID for API token does not match provided project ID."
+            )
+
+    @property
+    def title(self) -> str:
+        """Name of this project."""
+        return self._details["project_title"]
+
+    @property
+    def instruments(self) -> List[str]:
+        """
+        Names of all instruments in this REDCap project.
+        """
+        if not self._instruments:
+            name = itemgetter("instrument_name")
+            self._instruments = list(map(name, self._fetch("instrument")))
+
+        return self._instruments
+
+    @property
+    def events(self) -> List[str]:
+        """
+        Names of all events in this REDCap project.
+        """
+        if self._events is None:
+            name = itemgetter("unique_event_name")
+
+            if self._details["is_longitudinal"]:
+                self._events = list(map(name, self._fetch("event")))
+            else:
+                self._events = []
+
+        return self._events
+
+    @property
+    def fields(self) -> List[dict]:
+        """
+        Metadata about all fields in this REDCap project.
+        """
+        if not self._fields:
+            self._fields = self._fetch("metadata")
+
+        return self._fields
+
+    @property
+    def record_id_field(self) -> str:
+        """
+        Name of the field containing the unique id for each record.
+
+        For auto-numbered projects, this is typically ``record_id``, but for
+        other data entry projects, it can be any arbitrary name.  It is always
+        the first field in a project.
+        """
+        return self.fields[0]["field_name"]
+
+    @property
+    def redcap_version(self) -> str:
+        """
+        Version string of the REDCap instance.
+        """
+        if not self._redcap_version:
+            self._redcap_version = self._fetch("version", format="text")
+
+        return self._redcap_version
+
+    def record(self, record_id: str, *, raw: bool = False) -> List["Record"]:
+        """
+        Fetch the REDCap record *record_id* with all its instruments.
+
+        The optional *raw* parameter controls if numeric/coded values are
+        returned for multiple choice fields.  When false (the default),
+        string labels are returned.
+
+        Note that in longitudinal projects with events or classic projects with
+        repeating instruments, this may return more than one result.  The
+        results will be share the same record id but be differentiated by the
+        fields ``redcap_event_name``, ``redcap_repeat_instrument``, and
+        ``redcap_repeat_instance``.
+        """
+        # This is always a List[Record] because we don't pass page_size, but
+        # mypy (0.790) can't figure that out.
+        return self.records(ids=[record_id], raw=raw)  # type: ignore
+
+    def records(
+        self,
+        *,
+        since_date: str = None,
+        until_date: str = None,
+        ids: List[str] = None,
+        instruments: List[str] = None,
+        fields: List[str] = None,
+        events: List[str] = None,
+        filter: str = None,
+        raw: bool = False,
+        page_size: int = None,
+    ) -> Union[List["Record"], Iterator["Record"]]:
+        """
+        Fetch records for this REDCap project.
+
+        Values are returned as string labels not numeric ("raw") codes.
+
+        The optional *since_date* parameter can be used to limit records to
+        those created/modified after the given timestamp.
+
+        The optional *until_date* parameter can be used to limit records to
+        those created/modified before the given timestamp.
+
+        Both *since_date* and *until_date* must be formatted as
+        ``YYYY-MM-DD HH:MM:SS`` in the REDCap server's configured timezone.
+
+        The optional *ids* parameter can be used to limit results to the given
+        record ids.
+
+        The optional *instruments* parameter can be used to limit the
+        instruments ("forms") returned for each record.
+
+        The optional *fields* parameter can be used to limit the fields
+        returned for each record.
+
+        The optional *events* parameter can be used to limit the events/arms
+        returned for each record.
+
+        The optional *filter* parameter can be used provide a REDCap
+        conditional logic string determining which records are returned.
+        Records for which *filter* evaluates to true are returned.
+
+        The optional *raw* parameter controls if numeric/coded values are
+        returned for multiple choice fields.  When false (the default), string
+        labels are returned.
+
+        The optional *page_size* parameter, when set, enables paged fetching of
+        records by their primary record id (i.e. :attr:`.record_id_field`).
+        *page_size* can only be used with REDCap projects that use record
+        auto-numbering.  Each fetch will include a maximum of *page_size*
+        records, although may contain many more result rows for records with
+        repeating instruments/events).  The last fetch may contain results
+        for more than *page_size* records because it uses an unrestricted upper
+        bound in order to catch anything created since the start of the
+        pagination process.  When *page_size* is provided, an iterator, as
+        opposed to a list, is returned.
+        """
+        parameters = {
+            "type": "flat",
+            "rawOrLabel": "raw" if raw else "label",
+            "exportCheckboxLabel": "true",  # ignored by API if rawOrLabel == raw
+            "exportSurveyFields": "true",  # pulls the _identifier and _timestamp fields from surveys
+        }
+
+        assert not (
+            (since_date or until_date) and ids
+        ), "The REDCap API does not support fetching records filtered by id *and* date."
+
+        if since_date:
+            parameters["dateRangeBegin"] = since_date
+
+        if until_date:
+            parameters["dateRangeEnd"] = until_date
+
+        if ids is not None:
+            parameters["records"] = ",".join(map(str, ids))
+
+        if instruments is not None:
+            parameters["forms"] = ",".join(map(str, instruments))
+
+        if fields is not None:
+            parameters["fields"] = ",".join(map(str, fields))
+
+        if events is not None:
+            parameters["events"] = ",".join(map(str, events))
+
+        if filter is not None:
+            parameters["filterLogic"] = str(filter)
+
+        if page_size is not None:
+            return self._fetch_records_paged(parameters, page_size)
+        else:
+            return list(self._fetch_records(parameters))
+
+    def _fetch_records_paged(
+        self, parameters: dict, page_size: int
+    ) -> Iterator["Record"]:
+        assert bool(
+            self._details["record_autonumbering_enabled"]
+        ), "Record auto-numbering must be enabled to use page_size parameter"
+
+        # Query the current maximum record id + 1 for the project.  Due to the
+        # absence of transactions, this is a hideously unsafe API design choice
+        # on REDCap's part, but it's fine for our purposes.
+        next_record_id = self._fetch("generateNextRecordName")
+
+        pages = [
+            (lower, lower + page_size if lower + page_size < next_record_id else None)
+            for lower in range(1, next_record_id, page_size)
+        ]
+
+        LOG.debug(f"Computed pages for record fetch for {self}: {pages!r}")
+
+        for lower_bound, upper_bound in pages:
+            page_filter = f"[{self.record_id_field}] >= {lower_bound}"
+
+            if upper_bound is not None:
+                page_filter += f" and [{self.record_id_field}] < {upper_bound}"
+
+            page_parameters = parameters.copy()
+            existing_filter = page_parameters.get("filterLogic")
+
+            if existing_filter:
+                page_parameters[
+                    "filterLogic"
+                ] = f"({page_filter}) and ({existing_filter})"
+            else:
+                page_parameters["filterLogic"] = page_filter
+
+            yield from self._fetch_records(page_parameters)
+
+    def _fetch_records(self, parameters: dict) -> Iterator["Record"]:
+        return (Record(self, r) for r in self._fetch("record", parameters))
+
+    def update_records(
+        self,
+        records: List[Dict[str, str]],
+        date_format: str = "YMD",
+        check_count: bool = True,
+    ) -> int:
+        """
+        Update existing *records* in this REDCap project.
+
+        *records* must be an iterable of :py:class:``dict``s mapping REDCap
+        field names to values.  The primary record id field, at a minimum, must
+        be included.  Other pseudo-fields like ``redcap_event_name`` or
+        ``redcap_repeat_instance`` may be necessary.  All keys and values must
+        be strings.
+
+        Dates must be formatted as ``YYYY-MM-DD`` with the default
+        *date_format* of ``YMD``, as ``D/M/YYYY`` with ``DMY``, and as
+        ``M/D/YYYY`` with ``MDY``. Times are always assumed to be in the REDCap
+        server's timezone.
+
+        Any value provided for a field, including the empty string, will
+        overwrite any existing value.
+
+        This method is not suitable for creating new records in projects that
+        use auto-numbered record ids.
+
+        Returns a count of the number of records updated, as reported by
+        REDCap.
+        """
+        assert date_format in {"YMD", "DMY", "MDY"}
+
+        parameters = {
+            "data": as_json(records),
+            "type": "flat",
+            "overwriteBehavior": "overwrite",
+            "forceAutoNumber": "false",
+            "dateFormat": date_format,
+            "returnContent": "count",
+        }
+
+        expected_count = len(records)
+
+        if not self.dry_run:
+            LOG.debug(f"Updating {expected_count:,} REDCap records for {self}")
+            result = self._fetch("record", parameters)
+
+            updated_count = int(result["count"])
+        else:
+            LOG.debug(
+                f"Pretending to update {expected_count:,} REDCap records for {self} (dry run)"
+            )
+            updated_count = expected_count
+
+        if check_count:
+            assert (
+                expected_count == updated_count
+            ), f"Expected vs. actual records updated do not match: {expected_count:,} != {updated_count:,}"
+
+        LOG.debug(f"Updated {updated_count:,} REDCap records for {self}")
+
+        return updated_count
+
+    def report(self, report_id: str, raw: bool = False) -> List[Dict[str, Any]]:
+        """
+        Fetch the REDCap report *report_id* with all its fields.
+
+        The optional *raw* parameter controls if numeric/coded values are
+        returned for multiple choice fields.  When false (the default),
+        string labels are returned.
+        """
+        parameters = {
+            "type": "flat",
+            "report_id": report_id,
+            "rawOrLabel": "raw" if raw else "label",
+            "exportCheckboxLabel": "true",  # ignored by API if rawOrLabel == raw
+        }
+
+        return self._fetch("report", parameters)
+
+    def update_fields(self, metadata: Dict[str, str]) -> int:
+        """
+        Update existing *metadata* in this REDCap project.
+
+        *metadata* must be an iterable of :py:class:``dict``s mapping REDCap
+        field names, form names, and other instrument metadata to values.  The
+        instrument field name, form name, and field type, and field label, at a
+        minimum, must be included.   All keys and values must be strings.
+
+        Any value provided for a field, including the empty string, will
+        overwrite any existing value. From the REDCap API Documentation:
+
+        > Because of this method's destructive nature, it is only available for
+        > use for projects in Development status.
+
+        Returns a count of the number of records updated, as reported by
+        REDCap.
+        """
+        parameters = {
+            "data": as_json(metadata),
+            "type": "flat",
+            "overwriteBehavior": "overwrite",
+            "returnContent": "count",
+        }
+
+        expected_count = len(metadata)
+
+        if not self.dry_run:
+            LOG.debug(f"Updating {expected_count:,} REDCap metadata for {self}")
+            result = self._fetch("metadata", parameters)
+
+            updated_count = result
+        else:
+            LOG.debug(
+                f"Pretending to update {expected_count:,} REDCap metadata for {self} (dry run)"
+            )
+            updated_count = expected_count
+
+        assert (
+            expected_count == updated_count
+        ), "Expected vs. actual metadata updated do not match: {expected_count:,} != {updated_count:,}"
+
+        LOG.debug(f"Updated {updated_count:,} REDCap metadata for {self}")
+
+        # Invalidate fields property cache so it's refreshed with any updates
+        # we just made next time it's needed (if ever).
+        self._fields = None
+
+        return updated_count
+
+    def users(self) -> List[Dict[str, Any]]:
+        """
+        Fetch the REDCap project's users.
+        """
+        return self._fetch("user", {})
+
+    def update_users(self, users: List[Dict[str, Any]]) -> int:
+        """
+        Update existing *users* in this REDCap project.
+
+        *users* must be an iterable of :py:class:``dict``s mapping REDCap
+        user metadata to values.  The username, at a minimum, must be included.
+        All keys must be strings. From the REDCap API documentation:
+
+        > All values should be numerical with the exception of username,
+        > expiration, data_access_group, and forms.
+
+        Any value provided for a field, including the empty string, will
+        overwrite any existing value. Missing attributes, according to the
+        REDCap API docs, are handled by provisioning a user with:
+
+        > the minimum privileges (typically 0=No Access) for the
+        > attribute/privilege. However, if an existing user's privileges are
+        > being modified in the API request, then any attributes not provided
+        > will not be modified from their current value but only the attributes
+        > provided in the request will be modified.
+
+        Returns a count of the number of users updated, as reported by REDCap.
+        """
+        expected_count = len(users)
+
+        parameters = {"data": as_json(users)}
+
+        if not self.dry_run:
+            LOG.debug(f"Updating {expected_count:,} REDCap users for {self}")
+            result = self._fetch("user", parameters)
+
+            updated_count = result
+        else:
+            LOG.debug(
+                f"Pretending to update {expected_count:,} REDCap users for {self} (dry run)"
+            )
+            updated_count = expected_count
+
+        assert (
+            expected_count == updated_count
+        ), "Expected vs. actual users updated do not match: {expected_count:,} != {updated_count:,}"
+
+        LOG.debug(f"Updated {updated_count:,} REDCap users for {self}")
+
+        return updated_count
+
+    def _fetch(
+        self, content: str, parameters: Dict[str, str] = {}, *, format: str = "json"
+    ) -> Any:
+        """
+        Fetch REDCap *content* with a POST request to the REDCap API.
+
+        Consult REDCap API documentation for required and optional parameters
+        to include in API request.
+        """
+        loggable_parameters = parameters.copy()
+
+        if "data" in loggable_parameters:
+            loggable_parameters["data"] = "***MASKED***"
+
+        LOG.debug(
+            f"Requesting content={content} from REDCap with params {loggable_parameters} for {self}"
+        )
+
+        headers = {
+            "Content-type": "application/x-www-form-urlencoded",
+            "Accept": "application/json" if format == "json" else "text/*",
+        }
+
+        data = {
+            **parameters,
+            "content": content,
+            "token": self.api_token,
+            "format": format,
+        }
+
+        retry_count = 0
+        max_retry_count = 10
+
+        # Added as workaround for REDCap API bug which incorrectly returns 200 status code
+        # and HTML response with "unknown error" message and substring included below, which
+        # in many cases succeeds with additional attempts.
+        # -drr, 7/28/2021
+        while retry_count <= max_retry_count:
+            response = requests.post(self.api_url, data=data, headers=headers)
+            if (
+                response.status_code == 200
+                and "multiple browser tabs of the same REDCap page. If that is not the case"
+                in response.text
+            ):
+                retry_count += 1
+                LOG.debug(
+                    f"Retrying REDCap API request: {retry_count}/{max_retry_count}"
+                )
+                continue
+            break
+
+        try:
+            response.raise_for_status()
+        except requests.HTTPError as e:
+            raise APIError(response=response) from e
+
+        LOG.debug(
+            f"{response.status_code} {response.reason} response for content={content} for {self}"
+        )
+
+        return load_json(response.text) if format == "json" else response.text
+
+    def __repr__(self) -> str:
+        return f"<{self.__module__}.{type(self).__name__} object: api_url={self.api_url!r} project_id={self.id!r}>"
+
+
+class Record(dict):
+    """
+    A single REDCap record ``dict``.
+
+    All key/value pairs returned by the REDCap API request are present as
+    dictionary items.
+
+    Must be constructed with a REDCap :py:class:``Project``, which is stored as
+    the ``project`` attribute and used to set the ``id`` attribute storing the
+    record's primary id.
+
+    Note that the ``event_name``, ``repeat_instance``, and ``repeat_instrument``
+    attributes might not be populated because their corresponding fields
+    (``redcap_event_name``, ``redcap_repeat_instance``, and
+    ``redcap_repeat_instrument``) won't be returned by the API if the request
+    includes the ``fields`` parameter but not the primary record id field.
+    """
+
+    project: Project
+    event_name: Optional[str]
+    repeat_instance: Optional[int]
+    repeat_instrument: Optional[str]
+
+    def __init__(self, project: Project, data: Any = {}) -> None:
+        super().__init__(data)
+        self.project = project
+
+        # These field names are not variable across REDCap projects
+        self.event_name = self.get("redcap_event_name")
+        self.repeat_instrument = self.get("redcap_repeat_instrument")
+
+        if self.get("redcap_repeat_instance"):
+            self.repeat_instance = int(self["redcap_repeat_instance"])
+        else:
+            self.repeat_instance = None
+
+    @property
+    def id(self) -> str:
+        """
+        Returns the record's primary id.
+
+        Raises a :py:class:`RuntimeError` if the primary id field is not available,
+        usually because it was not requested from the API.
+        """
+        try:
+            return self[self.project.record_id_field]
+        except KeyError as e:
+            raise RuntimeError(
+                f"Primary record id field «{self.project.record_id_field}» not available on fetched record"
+            ) from e
+
+
+class InstrumentStatus(Enum):
+    """
+    Numeric and string codes used by REDCap for instrument status.
+    """
+
+    Incomplete = 0
+    Unverified = 1
+    Complete = 2
+
+
+def is_complete(instrument: str, data: dict) -> bool:
+    """
+    Test if the named *instrument* is marked complete in the given *data*.
+
+    The *data* may be a DET notification or a record.
+
+    Will return `None` if the *instrument*_complete key does not exist in
+    given *data*.
+
+    >>> is_complete("test", {"test_complete": "Complete"})
+    True
+    >>> is_complete("test", {"test_complete": 2})
+    True
+    >>> is_complete("test", {"test_complete": "2"})
+    True
+    >>> is_complete("test", {"test_complete": "Incomplete"})
+    False
+    >>> is_complete("test", {}) is None
+    True
+    """
+    instrument_complete_field = data.get(completion_status_field(instrument))
+
+    if instrument_complete_field is None:
+        return None
+
+    return instrument_complete_field in {
+        InstrumentStatus.Complete.name,
+        InstrumentStatus.Complete.value,
+        str(InstrumentStatus.Complete.value),
+    }
+
+
+def completion_status_field(instrument: str) -> str:
+    """
+    Returns the REDCap automatic field name for the completion status of
+    *instrument*.
+
+    If want to know the completion status itself, use :func:`is_complete`
+    instead.
+    """
+    # XXX TODO: It would be good to normalize *instrument* here, including:
+    #
+    #   - Lowercasing
+    #   - Replacing runs of whitespace and/or non-alphanumerics (?) with a
+    #     single underscore.
+    #   - Maybe: removing leading numbers?
+    #
+    # The full set of transformations REDCap applies aren't entirely clear to
+    # me at the moment, so I'm punting for now.  The caller must provide the
+    # internal names.
+    #   -trs, 8 Jan 2020
+    return f"{instrument}_complete"
+
+
+class APIError(requests.HTTPError):
+    """
+    Error class for bad responses from the REDCap API.
+
+    Includes useful details of the error in the stringification.
+    """
+
+    def __str__(self):
+        # Intentionally use .text instead of .json() so that we don't
+        # accidentally fail to decode the response body and cause another
+        # exception.  Though we could also catch such exceptions, it's useful
+        # to see things exactly as they were, with minimal post-processing,
+        # when troubleshooting.
+        return (
+            f"{self.response.status_code} {self.response.reason}: {self.response.text}"
+        )
