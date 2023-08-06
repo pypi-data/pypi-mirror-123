@@ -1,0 +1,7 @@
+README.md
+setup.py
+gandoff.egg-info/PKG-INFO
+gandoff.egg-info/SOURCES.txt
+gandoff.egg-info/dependency_links.txt
+gandoff.egg-info/requires.txt
+gandoff.egg-info/top_level.txt
