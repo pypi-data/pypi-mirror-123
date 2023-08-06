@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+features_anal.egg-info/PKG-INFO
+features_anal.egg-info/SOURCES.txt
+features_anal.egg-info/dependency_links.txt
+features_anal.egg-info/top_level.txt
