@@ -1,0 +1,17 @@
+bicorne/__init__.py,sha256=-JpEe7hERtnKuRza4ssI8b0mh2DmGHHV_1UuN8ziRQ4,479304
+bicorne/boucle.py,sha256=gRww0iBXbX_5gGFy2wKAww_-XAGz1CUVLanx8_xXVkc,490
+bicorne/boucleWhile.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bicorne/condition.py,sha256=6KyEeeO8FxAi8_Nob5aASP3u-d9QKxYSUW7cmru1_iY,37
+bicorne/dicoFinal.py,sha256=F8OloOUxNRjpHHXJEZ4ulR45Dh4pfbqvnAcSDT-VNb4,222498
+bicorne/dictionnaire.py,sha256=JVOI5JsP-iAYEpB4zWeKJFCZT2UfSBpNfU-dvBEaTbI,445115
+bicorne/fonction.py,sha256=8SPyWRz1bFakDgeJS3W5U2lsiATcQrfpA_wcf0O_bRE,20
+bicorne/ide.py,sha256=d563H72q6Rwyu2JVVRV_Yy1TKjow3jzFpumQBk2IQu0,2074
+bicorne/rand.py,sha256=vwrzeDPbl9XqiHLkx5JLfs_dxEVdPycq9VsgACNUVI0,14
+bicorne/tableau.py,sha256=0Kzqe4QHUefX20QeiWiVRZB8jQXJitZ7xz3l7QpW6N4,55
+bicorne/test.py,sha256=bpla8WL9RQWwtu27F9bbGk3H1jpAv8yce4miozCDjX0,22
+bicorne/tryProg.py,sha256=NWQ-wVTowysB2_2YxAJO5AFPZ1toNcsd4yNvH54vMac,7
+bicorne-0.0.0.dist-info/METADATA,sha256=H2xdhkASSaAssgOGsS4azvkO-gem5Ju3onfNJ4T3ApY,633
+bicorne-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bicorne-0.0.0.dist-info/license.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+bicorne-0.0.0.dist-info/top_level.txt,sha256=80Lj9KNZfsdTA_0clNyKnNSwv6AM_kYNRjeG1HG4rNI,8
+bicorne-0.0.0.dist-info/RECORD,,
