@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "useis"
+version = "0.8.9"
+description = ""
+authors = ["jpmercier <jpmercier01@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0"
+#uquake = {path = "libraries/uquake"}
+uquake = ">=0.8"
+dynaconf = "^3.1.4"
+tqdm = "^4.59.0"
+Sphinx = "^4.1.2"
+myst-parser = "^0.15.1"
+sphinx-rtd-theme = "^0.5.2"
+rinohtype = "^0.5.3"
+#uquake = "^0"
+grpcio = "^1.39.0"
+grpcio-tools = "^1.39.0"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+python-multipart = "^0.0.5"
+furl = "^2.1.2"
+pydantic = "^1.8.2"
+confluent-kafka = "^1.7.0"
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+notebook = "^6.4.4"
+jupyterlab = "^3.1.13"
+jupyter-http-over-ws = "^0.0.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx_rtd_theme"]
