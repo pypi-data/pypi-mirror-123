@@ -1,0 +1,4 @@
+[console_scripts]
+pdf-play = pdf_play:main
+watermark = pdf_play:_watermark
+
