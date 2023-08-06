@@ -1,0 +1,9 @@
+README.md
+setup.py
+transfersh.py
+transfersh_cli.egg-info/PKG-INFO
+transfersh_cli.egg-info/SOURCES.txt
+transfersh_cli.egg-info/dependency_links.txt
+transfersh_cli.egg-info/entry_points.txt
+transfersh_cli.egg-info/requires.txt
+transfersh_cli.egg-info/top_level.txt

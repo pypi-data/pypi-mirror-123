@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: transfersh-cli
+Version: 1.1.0
+Summary: Client to upload files to the transfer.sh service
+Home-page: https://github.com/tanrax/transfersh-cli
+Author: Andros Fenollosa
+Author-email: andros@fenollosa.email
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: transfer,upload,client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6
