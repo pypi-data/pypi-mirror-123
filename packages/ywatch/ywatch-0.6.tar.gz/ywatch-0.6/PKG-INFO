@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ywatch
+Version: 0.6
+Summary: Watch Youtube videos with mpv while saving to disk.
+Home-page: https://github.com/prayzjomba/yWatch
+Author: Prayz Jomba
+Author-email: prayzjomba@protonmail.com
+License: GPLv3+
+Keywords: mpv,youtube watch,ywatch,youtube-dl,youtube,mpv save,yw
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console
+Classifier: Topic :: Multimedia :: Video
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Watch Youtube videos with mpv while saving to disk.
+
