@@ -1,0 +1,12 @@
+crocodile/__init__.py,sha256=cbyTGlq22dCoO98yZ1Y7Hi6oHOPhSlLqiHkmgGo5D5Q,185
+crocodile/deeplearning.py,sha256=NVJ3qV1J9e0hWZ0MdjZcXG-88R_K4x4BBbhKjD5mEiY,36172
+crocodile/deeplearning_torch.py,sha256=UN3oEbmlYkdMrUFscR3kO5KjVUhrmS4qigVz2VjeH5o,10698
+crocodile/dl_template.py,sha256=5ysMwLcR0iIx3GwVRMzebHz8N37ORfzRNjTQrU5HO6U,1866
+crocodile/history.py,sha256=KRiwKJ3ZQ__0gokyT1EMud6J4colgCVosgTOsqEI6Ss,3278
+crocodile/miscellaneous.py,sha256=bTJIn_YTNNsHvWfR8JbjdPewROJ2qx7pqlvRiIBY3j0,2261
+crocodile/toolbox.py,sha256=MhglN0xsT9POGYlFM_kRNs928tlPnCzQuvM0Q5n63K4,134757
+crocodile-2.3.dist-info/METADATA,sha256=HYrzrGrI6zaG1wvZ4jTMCK9WEujhYWJGVT8Ykh9cKUY,5266
+crocodile-2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+crocodile-2.3.dist-info/license.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+crocodile-2.3.dist-info/top_level.txt,sha256=pu40PdwkOaQSnnmxfTcVGsIOXbdFqGEKmqjB9dNnHJg,50
+crocodile-2.3.dist-info/RECORD,,
