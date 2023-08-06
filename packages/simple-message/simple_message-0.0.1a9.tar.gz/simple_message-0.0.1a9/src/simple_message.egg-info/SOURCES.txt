@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/simple_message/__init__.py
+src/simple_message/simple_message.py
+src/simple_message.egg-info/PKG-INFO
+src/simple_message.egg-info/SOURCES.txt
+src/simple_message.egg-info/dependency_links.txt
+src/simple_message.egg-info/requires.txt
+src/simple_message.egg-info/top_level.txt
