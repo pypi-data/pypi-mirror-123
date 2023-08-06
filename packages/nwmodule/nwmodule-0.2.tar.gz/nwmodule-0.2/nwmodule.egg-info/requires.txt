@@ -1,0 +1,10 @@
+graphviz
+h5py
+matplotlib
+opencv-python
+overrides
+pims
+returns
+scikit-learn
+torch
+tqdm
