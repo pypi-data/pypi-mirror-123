@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/work_os_ipython_magic.egg-info/PKG-INFO
+src/work_os_ipython_magic.egg-info/SOURCES.txt
+src/work_os_ipython_magic.egg-info/dependency_links.txt
+src/work_os_ipython_magic.egg-info/top_level.txt
