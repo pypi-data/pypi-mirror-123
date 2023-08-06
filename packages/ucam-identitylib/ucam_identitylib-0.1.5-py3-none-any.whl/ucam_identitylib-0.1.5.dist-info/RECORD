@@ -1,0 +1,14 @@
+identitylib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+identitylib/api_client.py,sha256=XuFD7KxloSOHNdekmL1F6StffKd3dSPwpiSMudWNpJI,2010
+identitylib/card_client.py,sha256=Gv1iyog8T4QUeDNbzRYnoGy_Jgc--I0SarOX7n1Gr8Y,2732
+identitylib/identifiers.py,sha256=BpvxNpD14TchEab7DMaGa7FKm790twX-udOxLu3uD5U,8929
+identitylib/photo_client.py,sha256=vU0GJOub0x3L7gAOGie3enOsIKilOf5yY0fiwvc1wik,1420
+identitylib/utils.py,sha256=IQVzxBNGkmvPNjlBOpjIRjrMeNV1Rd0B0jdPZSWB7M0,168
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_card_client.py,sha256=x9BqZ1VPWxVPUdMXvkv96UI0bOCvx6J7W99vL9UYHYI,15253
+tests/test_identifiers.py,sha256=k8OEdHuDXWPit_CQDXprtxAa1Bj5Jy4f6uhMYg9E50c,3406
+tests/test_photo_client.py,sha256=_DqPzky4lR-zw__U1Bjl9QKhClrPxgHG5eCRpCi-Ezg,2787
+ucam_identitylib-0.1.5.dist-info/METADATA,sha256=Jnl1wiilac55CPD1bZO4ZeIm8-yihQWJg-xFF_odfJ4,1892
+ucam_identitylib-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ucam_identitylib-0.1.5.dist-info/top_level.txt,sha256=VlghSSbRGgIGgiRNoZQMXw_ALxg-LELPRtK8n35mLqU,18
+ucam_identitylib-0.1.5.dist-info/RECORD,,
