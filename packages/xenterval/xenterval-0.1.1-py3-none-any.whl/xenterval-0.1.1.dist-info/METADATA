@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: xenterval
+Version: 0.1.1
+Summary: Xenharmonic theory utilities and more.
+Home-page: https://github.com/arseniiv/xenterval
+License: MIT
+Keywords: xenharmonic,microtonal,music theory
+Author: arseniiv
+Author-email: arseniiv@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: more-itertools (>=8.6.0,<9.0.0)
+Project-URL: Bug Tracker, https://github.com/arseniiv/xenterval/issues
+Project-URL: Repository, https://github.com/arseniiv/xenterval
+Description-Content-Type: text/markdown
+
+# xenterval
+
+Xenharmonic theory utilities and more.
+
+## Usage
+
+`import xenterval`
+
