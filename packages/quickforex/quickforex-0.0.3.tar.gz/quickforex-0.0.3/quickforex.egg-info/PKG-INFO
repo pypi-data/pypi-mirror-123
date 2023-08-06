@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quickforex
+Version: 0.0.3
+Summary: Simple foreign exchange rates retrieval API
+Home-page: https://github.com/jean-edouard-boulanger/quickforex
+Author: Jean-Edouard Boulanger
+Author-email: jean.edouard.boulanger@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# quickforex
+
+
