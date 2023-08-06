@@ -1,0 +1,7 @@
+setup.py
+my_multiplypkg/__init__.py
+my_multiplypkg/multiplication.py
+my_multiplypkg.egg-info/PKG-INFO
+my_multiplypkg.egg-info/SOURCES.txt
+my_multiplypkg.egg-info/dependency_links.txt
+my_multiplypkg.egg-info/top_level.txt
