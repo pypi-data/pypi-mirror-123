@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: grapharray
+Version: 1.0.0
+Summary: GraphArray : Python package for treating arrays defined on a network, which allows for fast computation and easy visualization.
+Home-page: UNKNOWN
+Author: Geb
+Maintainer: Geb
+License: MIT License
+Project-URL: Documentation, https://geb-algebra.github.io/grapharray/
+Project-URL: Source Code, https://github.com/Geb-algebra/grapharray
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx (>=2.6.2)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: scipy (>=1.7.1)
+
+# GraphArray
+
+GraphArray is a class of arrays defined on a network, which allows for 
+fast computation and easy visualization.
+
+When you plan to code some algorithms on networks, using GraphArray as the class
+of control variables provide you easier debugging and summarization of the result
+while keeping your calculation fast.
+
+* [Documentation](https://geb-algebra.github.io/grapharray/)
+
+
+
