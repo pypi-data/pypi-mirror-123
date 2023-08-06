@@ -1,0 +1,11 @@
+dep_appearances/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dep_appearances/appearances_report.py,sha256=kbqhjdN4CaR1KysXS7ZHjd1NrxGX0OP-P-okrakuYnc,2569
+dep_appearances/cli.py,sha256=OCqLWiIZa94WvzkH3qr7rpdjgppkFovdt78cRICJSFk,1685
+dep_appearances/dependency.py,sha256=o1tMwNbC1Dj74mhoM22DYhrqS6uArGoPL9Hi4LDyyT4,667
+dep_appearances/import_statement.py,sha256=LSpoXT9sJVrLYD_OgXoqWvIThgY3N4IrTYlmy0AdU_M,590
+dep_appearances-0.0.2.dist-info/LICENSE,sha256=57dMNAvo1-OS1xAbtLYMnzCwGWKmSIx8S5khol7ieJc,1069
+dep_appearances-0.0.2.dist-info/METADATA,sha256=FNi2GmgQeXcLN04uQC7cgNpIBn_8SVCBMokcLDztjWI,3371
+dep_appearances-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dep_appearances-0.0.2.dist-info/entry_points.txt,sha256=gd2UJUv8NhGfmPJBLUj_6NhG5oXkGfnZQOy-xT0FvXw,62
+dep_appearances-0.0.2.dist-info/top_level.txt,sha256=fSn5YcyxywoU2cJrDK7pHF7giFoa25iNBQ9ZaXYfG2k,16
+dep_appearances-0.0.2.dist-info/RECORD,,
