@@ -1,0 +1,24 @@
+# hop patch system
+
+In a hop package directory, run the command `hop patch` to apply a new patch.
+
+If you've never applied any patch, and no new patch has been prepared, you'll
+get:
+
+```
+$ hop patch
+No new release to apply after 0.0.0.
+Was expecting one of: 0.0.1, 0.1.0, 1.0.0.
+```
+
+The patch system will try to find a next suitable patch to apply from the
+last release number. If the last patch is X.Y.Z, `hop patch` will try
+X.Y.<Z+1>, X.<Y+1>.Z, <X+1>.Y.Z in order.
+
+
+To create a X.Y.Z patch, create a directory Patches/X/Y/Z. In it you'll
+have to add a CHANGELOG.md description file with a series of patches scripts.
+The scripts are applied in alphabetical order and can only be of two types:
+
+* SQL with .sql extension
+* Python with .py extension
