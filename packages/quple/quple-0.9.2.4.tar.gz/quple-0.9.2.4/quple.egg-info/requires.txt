@@ -1,0 +1,4 @@
+cirq
+numpy
+imageio
+tensorflow_quantum
