@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nmodels
+Version: 2.0.2
+Summary: This is a simple nlp project providing a ngram model package.
+Home-page: https://github.com/christopher-chandler/ngrams
+Author: Christopher Chandler
+Author-email: christopher.chandler@outlook.de
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+this is a test
+
