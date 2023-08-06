@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "msgraphy"
+version = "0.1.0"
+description = "An API generator for the MS Graph API"
+authors = ["Kaj Siebert <kaj@k-si.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+msal = "^1.10.0"
+requests = "^2.25.1"
+pyhumps = "^3.0.2"
+
+
+[tool.poetry.dev-dependencies]
+python-dotenv = "^0.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
