@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/aboo/__init__.py
+src/aboo/aboo.py
+src/aboo.egg-info/PKG-INFO
+src/aboo.egg-info/SOURCES.txt
+src/aboo.egg-info/dependency_links.txt
+src/aboo.egg-info/top_level.txt
