@@ -1,0 +1,7 @@
+[console_scripts]
+deepmem = deepmem._main:_main
+deepmem-data = deepmem.data:_main
+deepmem-model = deepmem.model:_main
+deepmem-utils = deepmem.utils:_main
+deepmem-version = deepmem._main:_version
+
