@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mindsdb-forecast-visualizer
+Version: 0.1.0
+Summary: Companion package to visualizer forecasts made with MindsDB predictors.
+Home-page: https://github.com/mindsdb/mindsdb_forecast_visualizer
+Author: MindsDB Inc
+Author-email: community@mindsdb.com
+License: GPL-3.0
+Download-URL: https://pypi.org/project/mindsdb_forecast_visualizer
+Description: # MindsDB Forecast Visualizer
+        
+        The purpose of this tool is to aid in obtaining quick visualizations for time series forecasts provided by a Lightwood predictor.
+        
+        ![](./docs/plot.png)
+        
+        At the moment, the tool supports predictors trained from (or loaded to) `lightwood >= 1.0`, but MindsDB Python SDK support is coming soon~ish.
+        
+        ## Documentation
+        
+        For now, there is no documentation but most if not all functionality is showcased through examples. Please refer to `example/train.py` to train a forecasting model for airplane arrival data (which includes 4 different time series), and then `example/visualize.py` to call the plotter.
+        
+        Note: make sure the path to `mindsdb_forecast_visualizer` is added to your python path environment variable before running these scripts from the package root folder.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
