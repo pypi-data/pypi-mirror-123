@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+espider/__init__.py
+espider/response.py
+espider/selector.py
+espider/spider.py
+espider/utils.py
+espider.egg-info/PKG-INFO
+espider.egg-info/SOURCES.txt
+espider.egg-info/dependency_links.txt
+espider.egg-info/requires.txt
+espider.egg-info/top_level.txt
