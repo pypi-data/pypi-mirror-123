@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+defss/__init__.py
+defss.egg-info/PKG-INFO
+defss.egg-info/SOURCES.txt
+defss.egg-info/dependency_links.txt
+defss.egg-info/top_level.txt
