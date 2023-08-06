@@ -1,0 +1,6 @@
+langdetect
+nltk
+outdated
+pyperclip
+requests
+tkmacosx
