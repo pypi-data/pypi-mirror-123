@@ -1,0 +1,28 @@
+Debug and Release the code with same code
+=========================================
+
+Do not use print for debugging and delete print for release
+
+Example Usage
+-------------
+::
+
+  from printDebugging import *
+  setLevel(DEBUG) # or setLevel("DEBUG")
+  debug("hi")     # printed out
+  setLevel(QUIET) # set debug level into QUIET
+  debug("hi")     # not printed out
+
+  setLevel(INFO)
+  set_prefixes("{trace}", INFO)   # Add prefix into INFO
+  info("HI")                      # FileName with Line number is printed out as prefix
+  import datetime
+  set_prefixes(datetime.datetime.now)
+  info("hello")                   # Result of `datetime.datetime.now()` is printed out as prefix
+
+Debug Level
+-----------
+- QUIET : DO NOT PRINT EXCEPT "error"
+- INFO  : Print info and error
+- VERBOSE : Print info, warn and error
+- DEBUG : print info, warn, error and debug
