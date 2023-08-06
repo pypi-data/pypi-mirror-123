@@ -1,0 +1,8 @@
+setup.py
+ilaev_module.egg-info/PKG-INFO
+ilaev_module.egg-info/SOURCES.txt
+ilaev_module.egg-info/dependency_links.txt
+ilaev_module.egg-info/requires.txt
+ilaev_module.egg-info/top_level.txt
+my_module/__init__.py
+my_module/my_function.py
