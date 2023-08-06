@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: greydot-sdk
+Version: 1.0
+Summary: Greydot Payments SDK
+Home-page: https://github.com/TralahM/greydot
+Author: TralahM
+Author-email: briantralah@gmail.com
+License: GPLV3
+Project-URL: Source, https://github.com/TralahM/greydot
+Project-URL: Tracker, https://github.com/TralahM/greydot/issues
+Project-URL: Documentation, https://github.com/TralahM/greydot
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-automodapi ; extra == 'docs'
+
+UNKNOWN
+
