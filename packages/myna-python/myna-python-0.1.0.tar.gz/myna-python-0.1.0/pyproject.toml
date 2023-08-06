@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "myna-python"
+packages = [
+    { include = "myna" }
+]
+version = "0.1.0"
+description = "cli-tool/library for interacting with the 個人番号カード"
+authors = ["Yuichiro Smith <contact@yu-smith.com>"]
+license = "Apache License 2.0"
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+typer = "^0.4.0"
+cryptography = "^35.0.0"
+pyscard = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+pytest = "^6.2.5"
+mypy = "^0.910"
+autoflake = "^1.4"
+isort = "^5.9.3"
+wheel = "^0.37.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
