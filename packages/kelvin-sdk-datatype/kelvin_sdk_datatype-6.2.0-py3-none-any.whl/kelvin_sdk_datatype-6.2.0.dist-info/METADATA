@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: kelvin-sdk-datatype
+Version: 6.2.0
+Summary: Kelvin Data-Type SDK
+Home-page: https://kelvininc.com/
+Author: Kelvin Inc
+Author-email: engineering@kelvininc.com
+License: UNKNOWN
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: <3.10,>=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: PyYAML (==5.4.*)
+Requires-Dist: black (==21.7b0)
+Requires-Dist: click-shell (==2.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cloudevents (==1.2.*)
+Requires-Dist: isort (==5.9.*)
+Requires-Dist: orjson (==3.6.*)
+Requires-Dist: pydantic[email] (==1.8.*)
+Requires-Dist: wheel (>=0.37.*)
+Requires-Dist: xdg (>=5.1.1)
+Provides-Extra: builder
+Provides-Extra: development
+Requires-Dist: pre-commit ; extra == 'development'
+Provides-Extra: docs
+Requires-Dist: Sphinx (==4.1.2) ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints (==1.12.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (==0.5.2) ; extra == 'docs'
+Requires-Dist: ipython ; extra == 'docs'
+Provides-Extra: format
+Requires-Dist: isort (==5.9.*) ; extra == 'format'
+Requires-Dist: black (==21.7b0) ; extra == 'format'
+Provides-Extra: lint
+Requires-Dist: flake8 (==3.9.*) ; extra == 'lint'
+Requires-Dist: flake8-print (==4.0.*) ; extra == 'lint'
+Requires-Dist: flake8-isort (==4.0.*) ; extra == 'lint'
+Requires-Dist: pep8-naming (==0.11.*) ; extra == 'lint'
+Requires-Dist: mypy (==0.910) ; extra == 'lint'
+Requires-Dist: lxml (==4.6.3) ; extra == 'lint'
+Requires-Dist: types-PyYAML (==5.4.*) ; extra == 'lint'
+Requires-Dist: types-orjson (==3.6.0) ; extra == 'lint'
+Provides-Extra: security
+Requires-Dist: bandit (==1.7.*) ; extra == 'security'
+Requires-Dist: safety (==1.10.*) ; extra == 'security'
+Provides-Extra: tests
+Requires-Dist: ipython ; extra == 'tests'
+Requires-Dist: pytest (>=6.0.) ; extra == 'tests'
+Requires-Dist: pytest-cov (==2.12.1) ; extra == 'tests'
+Requires-Dist: pytest-benchmark (==3.4.1) ; extra == 'tests'
+Requires-Dist: pytest-codestyle (==2.0.1) ; extra == 'tests'
+Requires-Dist: pytest-flakes (==4.0.3) ; extra == 'tests'
+Requires-Dist: pytest-html (==3.1.1) ; extra == 'tests'
+Requires-Dist: pytest-mypy (==0.8.1) ; extra == 'tests'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'tests'
+Requires-Dist: pytest-xdist (==2.3.0) ; extra == 'tests'
+Requires-Dist: pytest-virtualenv (==1.7.0) ; extra == 'tests'
+Provides-Extra: wheel
+Requires-Dist: wheel (>=0.34.2) ; extra == 'wheel'
+Requires-Dist: twine ; extra == 'wheel'
+
+# kelvin-sdk-datatype
+
+Generate Data Types to integrate in your application with **kelvin-sdk-datatype**.
+
+
+## License
+
+See the [License](https://www.kelvininc.com/license-sdk) for more information.
+
+
+

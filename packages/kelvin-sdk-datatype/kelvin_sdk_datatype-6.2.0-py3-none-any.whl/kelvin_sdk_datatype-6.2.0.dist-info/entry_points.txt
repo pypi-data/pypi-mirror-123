@@ -1,0 +1,3 @@
+[console_scripts]
+kelvin-datatype = kelvin.sdk.datatype.__main__:main
+
