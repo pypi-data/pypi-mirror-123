@@ -1,0 +1,155 @@
+## Installation
+
+install as **pip**
+
+```shell
+pip install nest-helper==1.1.1
+```
+
+## Usage
+
+- 生成 uuid
+
+  > :syntax: generate_uuid(fmt:str='-') -> int
+  >
+  > :param: fmt 替换的字符串
+  >
+  > :return: string
+
+  ```python
+  >>> from pyhelper.helper import generate_uuid
+  >>> print(generate_uuid())
+  >>> "c294bfab-5249-4c01-8e38-02f7957afdfa"
+  >>> print(generate_uuid(fmt=''))
+  >>> "2204d86f2815482c83d697acd0b36c16"
+  ```
+
+  
+
+- 生成11位的唯一识别码
+
+  > :syntax: generate_unique_id() -> str
+  >
+  > :return: string
+
+  ```python
+  >>> from pyhelper.helper import generate_unique_id
+  >>> print(generate_unique_id())
+  >>> "78LM0XLpnpv"
+  ```
+
+  
+
+- 生成自定义位数的随机字符串
+
+  > :syntax: generate_rnd_string(n:int=6) -> str
+  >
+  > :param: n 生成的字符串的位数
+  >
+  > :return: string
+
+  ```python
+  >>> from pyhelper.helper import generate_rnd_string
+  >>> print(generate_rnd_string())
+  >>> "w9y5Yk"
+  >>> print(generate_rnd_string(n=10))
+  >>> "T65rZduWMC"
+  ```
+
+  
+
+- 生成雪花id
+
+  > :syntax: snow_flake(datacenter_id: int = 1, worker_id: int = 1, sequence: int = 0) -> int
+  >
+  > :param datacenter_id:  数据中心（机器区域）ID
+  >
+  > :param worker_id:  机器ID
+  >
+  > :param sequence: 序列号
+  >
+  > :return: int
+
+  ```shell
+  >>> from pyhelper.helper import snow_flake
+  >>> print(snow_flake())
+  >>> 1448838354849370112
+  >>> print(snow_flake(1,2,0))
+  >>> 1448838475976679424
+  ```
+
+  
+
+- url 编码
+
+  > :syntax: url_encode(url:str) -> str
+  >
+  > :param url: 需要编码的url
+  >
+  > :return: string
+
+  ```python
+  >>> from pyhelper.helper import url_encode
+  >>> url = "https://baidu.com?a=1&b=2"
+  >>> print(url_encode(url))
+  >>> "https%3A//baidu.com%3Fa%3D1%26b%3D2"
+  ```
+
+  
+
+- url 解码
+
+  > :syntax: url_decode(url:str) -> str
+  >
+  > :param url: 需要解码的url
+  >
+  > :return: string
+  
+  ```python
+  >>> from pyhelper.helper import url_decode
+  >>> url = "https%3A//baidu.com%3Fa%3D1%26b%3D2"
+  >>> print(url_decode(url))
+  >>> "https://baidu.com?a=1&b=2"
+  ```
+  
+  
+  
+- jwt 编码
+
+  > :syntax: jwt_encode(raw: dict, secret:str, expire: int = 7200) -> str
+  >
+  > :param raw: 需要编码的数据
+  >
+  > :param secret: 密钥 
+  >
+  > :param expire: 有效时间,默认7200秒
+  >
+  > :return: 返回编码后的数据
+
+  ```python
+  >>> from pyhelper.helper import jwt_encode
+  >>> raw = {"uid":"123456"}
+  >>> print(jwt_encode(raw, secret='3ndbwa4GYr', expire=7200))
+  >>> "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMjM0NTYiLCJleHAiOjE2MzQ1MTc1NDh9.Mtn-o9wtx-AsvpEXqQx8XQ_AFd7-EsRMHjGED1fcq34"
+  ```
+
+  
+
+- jwt 解码
+
+  > :syntax: jwt_decode(raw: str, secret: str) -> dict
+  >
+  > :param raw: 需要解码的数据
+  >
+  > :param secret: 密钥
+  >
+  > :return: 返回的数据
+
+  ```python
+  >>> from pyhelper.helper import jwt_decode
+  >>> raw = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMjM0NTYiLCJleHAiOjE2MzQ1MTc1NDh9.Mtn-o9wtx-AsvpEXqQx8XQ_AFd7-EsRMHjGED1fcq34"
+  >>> print(jwt_decode(raw, secret="3ndbwa4GYr"))
+  >>> {"uid":"123456"}
+  ```
+
+  
