@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-geospatial
+Version: 10.0.20211016.0
+Summary: Meta package for oca-geospatial Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-base-geoengine
+Requires-Dist: odoo10-addon-base-geoengine-demo
+Requires-Dist: odoo10-addon-base-geolocalize-openstreetmap
+Requires-Dist: odoo10-addon-geoengine-base-geolocalize
+Requires-Dist: odoo10-addon-geoengine-partner
+
+UNKNOWN
+
