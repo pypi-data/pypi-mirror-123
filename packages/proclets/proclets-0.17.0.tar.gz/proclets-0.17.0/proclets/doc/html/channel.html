@@ -1,0 +1,329 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Channels &mdash; proclets 0.17.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Example" href="example.html" />
+    <link rel="prev" title="Proclets" href="proclet.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> proclets
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proclet.html">Proclets</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#performatives">Performatives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Change Log</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">proclets</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Channels</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/channel.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="channels">
+<h1>Channels<a class="headerlink" href="#channels" title="Permalink to this headline">¶</a></h1>
+<p>Channels are the means by which Proclets communicate. Being autonomous, <a class="reference internal" href="proclet.html#proclets"><span class="std std-ref">Proclets</span></a> share no
+data structures directly. Therefore, if their transitions are to synchronise, it must be by means
+of exchanging messages. This is what Channels do. They accept messages, and store them permanently,
+so the recipient can use them to make decisions.</p>
+<p>In order to achieve this, the messages have to be of a certain form; a <a class="reference internal" href="#performative">Performative</a> described in
+<a class="reference external" href="https://dblp.org/rec/journals/ijcis/AalstBEW01">the 2001 paper</a>.</p>
+<p><strong>Proclets</strong> defines this <a class="reference internal" href="#performative">Performative</a> type,
+but the Channel API is such that you don’t have to explicitly create them yourself.
+However it is useful to understand their structure because it enables powerful interactions and protocols.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="proclets.channel.Channel">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">proclets.channel.</span></span><span class="sig-name descname"><span class="pre">Channel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">maxlen</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#proclets.channel.Channel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Channels provide a service somewhat like an email client; they deliver
+<a class="reference internal" href="#performative">Performative</a> s to an inbox corresponding to the <cite>uid</cite>
+of the Proclet recipient.</p>
+<p>These messages can be retrieved one at a time, after the manner of a queue.
+There are also higher-level methods which allow Proclets to process messages in batches.</p>
+<p>By default, messages are only delivered once. However, each Proclet transition may
+independently access the channel; to do that, pass <cite>this</cite> to the <cite>party</cite> parameter
+of the channel method.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.qsize">
+<span class="sig-name descname"><span class="pre">qsize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">uuid.UUID</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">party</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#proclets.channel.Channel.qsize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the number of items in the channel.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.empty">
+<span class="sig-name descname"><span class="pre">empty</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">uuid.UUID</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">party</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#proclets.channel.Channel.empty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if the channel is empty, False otherwise.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.send">
+<span class="sig-name descname"><span class="pre">send</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#proclets.channel.Channel.send" title="Permalink to this definition">¶</a></dt>
+<dd><p>Submit a message for delivery.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sender</strong> (<em>uuid.UUID</em>) – Uid of the sender.</p></li>
+<li><p><strong>group</strong> (<em>list</em>) – Contains uids of intended recipients.</p></li>
+</ul>
+</dd>
+</dl>
+<p>All keyword arguments are those of a <a class="reference internal" href="#performative">Performative</a>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.receive">
+<span class="sig-name descname"><span class="pre">receive</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="proclet.html#proclets.proclet.Proclet" title="proclets.proclet.Proclet"><span class="pre">proclets.proclet.Proclet</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">party</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">proclets.types.Performative</span></span></span><a class="headerlink" href="#proclets.channel.Channel.receive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Yield all undelivered messages intended for the Proclet.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.reply">
+<span class="sig-name descname"><span class="pre">reply</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="proclet.html#proclets.proclet.Proclet" title="proclets.proclet.Proclet"><span class="pre">proclets.proclet.Proclet</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">m</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">proclets.types.Performative</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">proclets.types.Performative</span></span></span><a class="headerlink" href="#proclets.channel.Channel.reply" title="Permalink to this definition">¶</a></dt>
+<dd><p>Proclet <cite>p</cite> having received a message <cite>m</cite>; use it to craft a reply to its sender.
+This method preserves <cite>context</cite> and <cite>connection</cite> of messages.
+Keyword arguments are those of a <a class="reference internal" href="#performative">Performative</a>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.respond">
+<span class="sig-name descname"><span class="pre">respond</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="proclet.html#proclets.proclet.Proclet" title="proclets.proclet.Proclet"><span class="pre">proclets.proclet.Proclet</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">party</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">actions</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">dict</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contents</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">dict</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">set</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">senders</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">set</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">proclets.types.Performative</span></span></span><a class="headerlink" href="#proclets.channel.Channel.respond" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process undelivered messages for <cite>p</cite> as a batch.
+Yields each generated reply as a <a class="reference internal" href="#performative">Performative</a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>actions</strong> (<em>dict</em>) – Maps incoming message actions to a corresponding action in the generated reply.</p></li>
+<li><p><strong>contents</strong> (<em>dict</em>) – Maps incoming message actions to corresponding content in the generated reply.</p></li>
+<li><p><strong>context</strong> (<em>set</em>) – If supplied, add extra context to the reply.</p></li>
+<li><p><strong>senders</strong> (<em>set</em>) – If supplied, only reply to the senders specified.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proclets.channel.Channel.view">
+<span class="sig-name descname"><span class="pre">view</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">uuid.UUID</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#proclets.channel.Channel.view" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scan the entire Channel for messages sent and received by the Proclet with <cite>uid</cite>.</p>
+<p>Returns an dictionary containing sequences of messages having the same <cite>connect</cite>
+ids. The items in each sequence are the connected messages in the order
+they were generated.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="performatives">
+<span id="performative"></span><h1>Performatives<a class="headerlink" href="#performatives" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="Performative">
+<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Performative</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#Performative" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ts</strong> (<em>int</em>) – A time stamp for creation. Generated automatically.
+Subject to resolution of the system clock. Some objects may share the same time stamp.</p></li>
+<li><p><strong>uid</strong> (<em>uuid.UUID</em>) – A unique id. Generated automatically.</p></li>
+<li><p><strong>channel</strong> (<em>object</em>) – A channel object. Set automatically by <a class="reference internal" href="#proclets.channel.Channel.send" title="proclets.channel.Channel.send"><code class="xref py py-meth docutils literal notranslate"><span class="pre">proclets.channel.Channel.send()</span></code></a>.</p></li>
+<li><p><strong>sender</strong> (<em>uuid.UUID</em>) – Uid of the sender.</p></li>
+<li><p><strong>group</strong> (<em>set</em>) – Contains uids of intended recipients.</p></li>
+<li><p><strong>connect</strong> – A uid to identify a thread of messages. Set automatically by Channel methods.</p></li>
+<li><p><strong>context</strong> (<em>set</em>) – Contains uids of objects to which the message relates. Application specific.</p></li>
+<li><p><strong>action</strong> – An object denoting a Performative action. Application specific.</p></li>
+<li><p><strong>content</strong> – An object containing Performative content. Application specific.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="example.html" class="btn btn-neutral float-right" title="Example" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="proclet.html" class="btn btn-neutral float-left" title="Proclets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, D E Haynes.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
