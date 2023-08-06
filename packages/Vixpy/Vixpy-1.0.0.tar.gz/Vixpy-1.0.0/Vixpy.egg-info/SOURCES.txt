@@ -1,0 +1,8 @@
+README.md
+setup.py
+Vixpy.egg-info/PKG-INFO
+Vixpy.egg-info/SOURCES.txt
+Vixpy.egg-info/dependency_links.txt
+Vixpy.egg-info/top_level.txt
+vixpy/__init__.py
+vixpy/vixpy.py
