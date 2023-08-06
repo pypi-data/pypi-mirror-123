@@ -1,0 +1,3 @@
+[console_scripts]
+component-generator = component_generator.cli:main
+
