@@ -1,0 +1,4 @@
+[console_scripts]
+plot-annotation = sparc.curation.tools.plot_annotation:main
+scaffold-annotations = sparc.curation.tools.scaffold_annotations:main
+
