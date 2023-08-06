@@ -1,0 +1,2 @@
+cadcutils>=1.2.3
+caom2>=2.4
