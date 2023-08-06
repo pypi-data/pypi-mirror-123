@@ -1,0 +1,4 @@
+cbor>=1.0.0
+click
+cryptography>=2.4.2
+intelhex>=2.2.1
