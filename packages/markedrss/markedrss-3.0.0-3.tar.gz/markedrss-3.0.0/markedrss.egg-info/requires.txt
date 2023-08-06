@@ -1,0 +1,7 @@
+requests
+pydantic
+Jinja2
+xhtml2pdf
+
+[aiohttp]
+aiohttp

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: markedrss
+Version: 3.0.0
+Summary: Pure Python command-line RSS reader
+Home-page: https://github.com/doppelmarker/Homework
+Author: doppelmarker
+Author-email: doppelmarker@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Provides-Extra: aiohttp
+License-File: LICENSE.txt
+
+Pure Python command-line RSS reader
+
