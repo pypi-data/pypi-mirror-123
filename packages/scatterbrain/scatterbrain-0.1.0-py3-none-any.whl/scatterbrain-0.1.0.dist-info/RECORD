@@ -1,0 +1,9 @@
+scatterbrain/__init__.py,sha256=9kmMVhHObfXv4nWhzPXkFHFUDNBxBDGUdHma6DNiLzI,284
+scatterbrain/backdrop.py,sha256=JKCwY8Jk6OAwCSLf93o_om99-srSno00choU2ttcVf4,23492
+scatterbrain/cupy_numpy_imports.py,sha256=Dnu9I_Pq-RFWQ9YQEXE7vX4r1pGw4AxrxYAqglEt8wY,901
+scatterbrain/designmatrix.py,sha256=UE5UjV9Nw67QfQF17jDu4uNhi5aKIMC1MsKnFT-zLQk,20997
+scatterbrain/utils.py,sha256=xnrjmggDR3k-2uWX7yo5LJ0rO4i7GxkuwpbqI1wvYJE,8154
+scatterbrain/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+scatterbrain-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+scatterbrain-0.1.0.dist-info/METADATA,sha256=F-gMq8FqrJYbtHcOv8547TduodUalZsOGr8yvyvtbII,583
+scatterbrain-0.1.0.dist-info/RECORD,,
