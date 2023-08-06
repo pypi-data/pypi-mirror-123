@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  migreat-database:
+    hostname: postgres
+    image: postgres:14.0-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - mi-test-db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+
+  migreat-svc1:
+    build:
+      context: ../../
+      dockerfile: ./migreat/example/svc1/Dockerfile
+    depends_on:
+      - migreat-database
+    networks:
+    - backend
+
+  migreat-svc2:
+    build:
+      context: ../../
+      dockerfile: ./migreat/example/svc2/Dockerfile
+    environment:
+      - SVC_USERNAME=svc2
+      - SVC_PASSWORD=svc2pass
+    depends_on:
+      - migreat-database
+    networks:
+    - backend
+
+volumes:
+  mi-test-db:
+
+networks:
+  backend:
