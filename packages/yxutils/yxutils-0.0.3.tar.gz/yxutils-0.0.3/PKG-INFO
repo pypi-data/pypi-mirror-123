@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yxutils
+Version: 0.0.3
+Summary: extra python toolbox
+Home-page: https://github.com/walkerever/yxutils
+Author: Yonghang Wang
+Author-email: wyhang@gmail.com
+License: Apache 2
+Description: ## utilities by Yonghang Wang
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
