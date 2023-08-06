@@ -1,0 +1,6 @@
+[console_scripts]
+workflows = workflows.cli:main
+
+[pytest11]
+workflows = workflows.testing
+

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: dag-workflows
+Version: 1.0.2
+Summary: Run tasks in a workflow
+Home-page: https://gitlab.com/roivant/oss/workflows
+Author: Roivant Sciences
+Author-email: alec.clowes@roivant.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: croniter
+Requires-Dist: inflection
+Requires-Dist: networkx
+Requires-Dist: pyyaml
+Provides-Extra: bq
+Requires-Dist: google-cloud-bigquery ; extra == 'bq'
+Provides-Extra: k8s
+Requires-Dist: kubernetes ; extra == 'k8s'
+Provides-Extra: scheduler
+Requires-Dist: django ; extra == 'scheduler'
+Requires-Dist: dj-database-url ; extra == 'scheduler'
+Requires-Dist: psycopg2-binary ; extra == 'scheduler'
+
+Materials in this repository are Copyright 2021 Roivant Sciences Inc. except as may be otherwise specifically noted.
+
+workflows
+================================
+
+The `workflows` library provides tools for running a series of tasks in
+a directed acyclic graph (DAG).
+
+Read the documentation at https://dag-workflows.readthedocs.io/
+
+
+
