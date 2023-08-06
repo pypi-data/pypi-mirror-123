@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tippie
+Version: 1.0.0
+Summary: you do not have to bother type hinting in python from now on, tippie will take care of it :)
+Home-page: https://github.com/aryan-debug/tippie
+Author: Aryan Arora
+Author-email: aryanarora232004@gmail.com
+License: UNKNOWN
+Project-URL: Music Player, https://github.com/aryan-debug/Music_Player
+Project-URL: Chess Game, https://github.com/aryan-debug/chess_game
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Tippie
+
+ A simple package to type hint programs for you automatically.
+
+# Why should you use it?
+
+The main reason I am working on it is to save time when I type hint. I was working on my chess game once and when it came to type hinting, it took a lot of my time.
+
+# How to use it?
+`tippie [file_name]`
+
+##Have a great day!
+

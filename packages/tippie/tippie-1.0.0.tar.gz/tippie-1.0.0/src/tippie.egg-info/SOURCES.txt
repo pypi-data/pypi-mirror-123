@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/example/__init__.py
+src/example/example.py
+src/tippie.egg-info/PKG-INFO
+src/tippie.egg-info/SOURCES.txt
+src/tippie.egg-info/dependency_links.txt
+src/tippie.egg-info/top_level.txt
