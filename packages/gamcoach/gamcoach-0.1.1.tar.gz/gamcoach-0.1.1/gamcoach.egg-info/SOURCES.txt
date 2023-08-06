@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gamcoach/__init__.py
+gamcoach/counterfactuals.py
+gamcoach/gamcoach.py
+gamcoach.egg-info/PKG-INFO
+gamcoach.egg-info/SOURCES.txt
+gamcoach.egg-info/dependency_links.txt
+gamcoach.egg-info/not-zip-safe
+gamcoach.egg-info/requires.txt
+gamcoach.egg-info/top_level.txt
