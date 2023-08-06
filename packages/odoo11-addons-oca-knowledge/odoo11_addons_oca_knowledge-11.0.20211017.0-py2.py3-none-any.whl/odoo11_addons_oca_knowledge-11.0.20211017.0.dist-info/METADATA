@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-knowledge
+Version: 11.0.20211017.0
+Summary: Meta package for oca-knowledge Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-attachment-preview
+Requires-Dist: odoo11-addon-document-page
+Requires-Dist: odoo11-addon-document-page-approval
+Requires-Dist: odoo11-addon-document-page-group
+Requires-Dist: odoo11-addon-document-page-project
+Requires-Dist: odoo11-addon-document-page-reference
+Requires-Dist: odoo11-addon-document-page-reference-search
+Requires-Dist: odoo11-addon-document-url
+Requires-Dist: odoo11-addon-knowledge
+
+UNKNOWN
+
