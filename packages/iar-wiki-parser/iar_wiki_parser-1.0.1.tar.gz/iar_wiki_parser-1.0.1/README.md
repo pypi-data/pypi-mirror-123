@@ -1,0 +1,16 @@
+# IAR Wikipedia parser
+
+The IAR (Iván Arias Rodríguez) Wikipedia parser is a parser that downloads the Spanish Wikipedia, divides it in smaller chunks, deletes non-content articles and cleans all kind of tags or any other element that is not pure plain text, so it creates a corpus out of the content of the Wikipedia.
+
+You can install these parser with pip :
+
+	pip install iar-wiki-parser
+
+*If you change or adapt a function, change its name (for example add your initial after the name)*
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+This code is given as is without warranty of any kind.
+In no event shall the authors or copyright holder be liable for any claim damages or other liability.
