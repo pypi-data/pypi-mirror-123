@@ -1,0 +1,12 @@
+.DS_Store,sha256=Jgf4ry5Dh3Jffr2bSXMD_Ivo7CS7afmhzohxgb9hO4o,6148
+papexp/__init__.py,sha256=LsQMB91W3ksnsTz0UZr4v1XVnMyYnVJq5UJCMmtvfOQ,46
+papexp/__main__.py,sha256=h9rNo4VqSHSrbY2rSW0Y2-26usZ7VyrCLweIdWMbIMs,47
+papexp/core.py,sha256=Cv20dWvcNBLZtRwu5gcl3fKIU483HGOXBRVcajeG06o,4822
+papexp/export.py,sha256=MAGVlqjtwlFrTxHAQ6jRu5mW7FZIChgGziPdQFgPuoI,4442
+papexp/nutrition.py,sha256=zk17gGOhbWe7KVKeDiTeMilexDyJHrHJLjTiczrMbvA,1768
+papexp/settings.py,sha256=NL11dbIuEH10WZaleVRd5car0iKqDq4ZRPUPhuFbq4U,45
+papexp-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+papexp-0.4.1.dist-info/METADATA,sha256=OQk1G_SrnebUsvFFvA0uyiYVgMU3uXe8r-42xREojps,1979
+papexp-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+papexp-0.4.1.dist-info/top_level.txt,sha256=uzaESDYClradba6mmRiesGBLMxBMPglWikyq_T88pKU,7
+papexp-0.4.1.dist-info/RECORD,,
