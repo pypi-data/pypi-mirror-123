@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+SoccerPredictor/__init__.py
+SoccerPredictor.egg-info/PKG-INFO
+SoccerPredictor.egg-info/SOURCES.txt
+SoccerPredictor.egg-info/dependency_links.txt
+SoccerPredictor.egg-info/requires.txt
+SoccerPredictor.egg-info/top_level.txt
