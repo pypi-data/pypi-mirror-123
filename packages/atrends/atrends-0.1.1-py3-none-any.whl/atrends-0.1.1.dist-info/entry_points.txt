@@ -1,0 +1,4 @@
+[console_scripts]
+atrends=atrends.main:start
+trends=atrends.main:start
+
