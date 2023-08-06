@@ -1,0 +1,24 @@
+Attack of the orcs
+----------------------------------------
+Introduction
+----------------------------------------
+This is a command line fantasy war game!
+Let's play with Sir Foo! It will be interesting!)
+
+Documentation
+----------------------------------------
+Documentation can be found at...
+
+Example Usage
+----------------------------------------
+Here is an example to import the modules from this package.
+
+.. code: python
+
+    from wargame.attackoftheorcs import AttackofTheorcs
+    game = AttackofTheorcs ()
+    game.play()
+
+LICENSE
+----------------------------------------
+See LICENSE.txt file.

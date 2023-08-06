@@ -1,0 +1,33 @@
+Metadata-Version: 1.0
+Name: Play_with_Sir_Foo
+Version: 2.0.0
+Summary: My Fantasy Game
+Home-page: https://test.pypi.org/pypi/Play_with_Sir_Foo
+Author: Etrukova Dasha
+Author-email: etrukovadasha@mail.ru
+License: LICENSE.txt
+Description: Attack of the orcs
+        ----------------------------------------
+        Introduction
+        ----------------------------------------
+        This is a command line fantasy war game!
+        Let's play with Sir Foo! It will be interesting!)
+        
+        Documentation
+        ----------------------------------------
+        Documentation can be found at...
+        
+        Example Usage
+        ----------------------------------------
+        Here is an example to import the modules from this package.
+        
+        .. code: python
+        
+            from wargame.attackoftheorcs import AttackofTheorcs
+            game = AttackofTheorcs ()
+            game.play()
+        
+        LICENSE
+        ----------------------------------------
+        See LICENSE.txt file.
+Platform: UNKNOWN
