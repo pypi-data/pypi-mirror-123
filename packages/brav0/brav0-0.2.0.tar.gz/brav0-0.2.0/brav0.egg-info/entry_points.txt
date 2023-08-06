@@ -1,0 +1,3 @@
+[console_scripts]
+brav0 = brav0.cli:main
+
