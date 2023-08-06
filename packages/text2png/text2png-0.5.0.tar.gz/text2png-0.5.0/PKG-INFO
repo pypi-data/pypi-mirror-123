@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: text2png
+Version: 0.5.0
+Summary: Easiest way to create text thumbnail.
+Home-page: https://github.com/foxe6/text2png
+Author: f̣ộx̣ệ6
+Author-email: foxe6@protonmail.com
+License: AGPL-3.0
+Keywords: convert text to image png
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Text to Image (Text to PNG)
+
+<badges>[![version](https://img.shields.io/pypi/v/text2png.svg)](https://pypi.org/project/text2png/)
+[![license](https://img.shields.io/pypi/l/text2png.svg)](https://pypi.org/project/text2png/)
+[![pyversions](https://img.shields.io/pypi/pyversions/text2png.svg)](https://pypi.org/project/text2png/)  
+[![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+[![powered](https://img.shields.io/badge/Powered%20by-UTF8-red.svg)](https://paypal.me/foxe6)
+[![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://paypal.me/foxe6)
+</badges>
+
+<i>Easiest way to create text thumbnail.</i>
+
+# Hierarchy
+
+```
+text2png
+'---- TextToPng()
+    '---- create()
+```
+
+# Example
+
+See `test`.
+
