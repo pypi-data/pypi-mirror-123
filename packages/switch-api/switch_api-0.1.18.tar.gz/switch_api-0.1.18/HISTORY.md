@@ -1,0 +1,184 @@
+# History
+
+## 0.1.18
+### Changed
+- removed rebuild of the ObjectProperties table in ADX on call to ``upsert_device_sensors()``
+- removed rebuild of the Installation table in ADX on call to ``upsert_sites()``
+
+## 0.1.17
+### Fixed 
+- Fixed issue with ``deploy_on_timer()`` method of the ``Automation`` class in the ``pipeline`` module. 
+- Fixed column header issue with the ``get_tag_groups()`` function of the ``integration`` module.
+- Fixed missing Meta column on table generated via ``upsert_workorders()`` function of the ``integration`` module.
+
+### Added
+- New method for uploading custom data to blob ``Blob.custom_upload()``
+
+### Updated
+- Updated the ``upsert_device_sensors()`` to improve performance and aid release of future functionality. 
+
+
+## 0.1.16
+### Added
+To the ``pipeline`` module: 
+- New method ``data_feed_history_process_errors()``, to the ``Automation`` class. 
+  - This method returns a dataframe containing the distinct set of error types encountered for a specific ``data_feed_file_status_id``
+- New method ``data_feed_history_errors_by_type`` , to the ``Automation`` class.
+  - This method returns a dataframe containing the actual errors identified for the specified ``error_type`` and ``data_feed_file_status_id``
+
+Additional logging was also incorporated in the backend to support the Switch Platform UI. 
+
+### Fixed
+- Fixed issue with ``register()`` method of the ``Automation`` class in the ``pipeline`` module.
+
+### Changed 
+For the ``pipeline`` module: 
+- Standardised the following methods of the ``Automation`` class to return pandas.DataFrame objects. 
+- Added additional error checks to ensure only allowed values are passed to the various ``Automation`` class methods for the parameters: 
+  - ``expected_delivery``
+  - ``deploy_type``
+  - ``queue_name``
+  - ``error_type``
+
+For the ``integration`` module: 
+- Added additional error checks to ensure only allowed values are passed to ``post_errors`` function for the parameters: 
+  - ``error_type``
+  - ``process_status``
+  
+For the ``dataset`` module: 
+- Added additional error check to ensure only allowed values are provided for the ``query_language`` parameter of the ``get_data`` function. 
+
+For the ``_platform`` module: 
+- Added additional error checks to ensure only allowed values are provided for the ``account`` parameter. 
+
+
+## 0.1.14
+### Changed
+- updated get_device_sensors() to not auto-detect the data type - to prevent issues such as stripping leading zeroes, etc from metadata values.
+
+## 0.1.13
+### Added 
+To the ``pipeline`` module: 
+- Added a new method, ``data_feed_history_process_output``, to the ``Automation`` class
+
+## 0.1.11
+### Changed
+- Update to access to ``logger`` - now available as ``switch_api.pipeline.logger()``
+- Update to function documentation
+
+## 0.1.10
+### Changed
+- Updated the calculation of min/max date (for timezone conversions) inside the ``upsert_device_sensors`` function as the previous calculation method will not be supported in a future release of numpy. 
+
+### Fixed
+- Fixed issue with retrieval of tag groups and tags via the functions: 
+  - ``get_sites``
+  - ``get_device_sensors``
+
+## 0.1.9
+### Added 
+- New module ``platform_insights``
+
+In the ``integration`` module: 
+- New function ``get_sites`` added to lookup site information (optionally with site-level tags)
+- New function ``get_device_sensors`` added to assist with lookup of device/sensor information, optionally including 
+  either metadata or tags.
+- New function ``get_tag_groups`` added to lookup list of sensor-level tag groups 
+- New function ``get_metadata_keys`` added to lookup list of device-level metadata keys
+
+### Changed
+- Modifications to connections to storage accounts. 
+- Additional parameter ``queue_name`` added to the following methods of the ``Automation`` class of the ``pipeline`` module: 
+  - ``deploy_on_timer``
+  - ``deploy_as_email_data_feed``
+  - ``deploy_as_upload_data_feed``
+  - ``deploy_as_ftp_data_feed``
+
+### Fixed
+In the ``pipeline`` module:
+- Addressed issue with the schema validation for the ``upsert_workorders`` function
+
+## 0.1.8
+### Changed
+In the ``integrations`` module: 
+- Updated to batch upserts by DeviceCode to improve reliability & performance of the ``upsert_device_sensors`` function
+
+### Fixed
+In the `analytics` module: 
+- typing issue that caused error in the import of the switch_api package for python 3.8
+
+## 0.1.7
+### Added 
+In the ``integrations`` module: 
+- Added new function ``upsert_workorders``
+  - Provides ability to ingest work order data into the Switch Automation platform. 
+  - Documentation provides details on required & optional fields in the input dataframe and also provides information on allowed values for some fields.
+  - Two attributes available for function, added to assist with creation of scripts by providing list of required & optional fields: 
+    - ``upsert_workorders.df_required_columns``
+    - ``upsert_workorders.df_optional_columns``
+- Added new function ``get_states_by_country``: 
+  - Retrieves the list of states for a given country. Returns a dataframe containing both the state name and abbreviation.
+- Added new function ``get_equipment_classes``:
+  - Retrieves the list of allowed values for Equipment Class. 
+    - EquipmentClass is a required field for the upsert_device_sensors function
+
+### Changed
+In the `integrations` module:
+- For the ``upsert_device_sensors`` function:
+  - New attributes added to assist with creation of tasks: 
+    - ``upsert_device_sensors.df_required_columns`` - returns list of required columns for the input ``df``
+  - Two new fields required to be present in the dataframe passed to function by parameter ``df``: 
+    - `EquipmentClass`
+    - `EquipmentLabel`
+  - Fix to documentation so required fields in documentation match. 
+- For the ``upsert_sites`` function:
+  - New attributes added to assist with creation of tasks: 
+    - ``upsert_sites.df_required_columns`` - returns list of required columns for the input ``df``
+    - ``upsert_sites.df_optional_columns`` - returns list of required columns for the input ``df``
+- For the ``get_templates`` function: 
+  - Added functionality to filter by type via new parameter ``object_property_type``
+  - Fixed capitalisation issue where first character of column names in dataframe returned by the function had been converted to lowercase. 
+- For the ``get_units_of_measure`` function: 
+  - Added functionality to filter by type via new parameter ``object_property_type``
+  - Fixed capitalisation issue where first character of column names in dataframe returned by the function had been converted to lowercase. 
+ 
+In the ``analytics`` module: 
+- Modifications to type hints and documentation for the functions: 
+  - ``get_clone_modules_list``
+  - ``run_clone_modules``
+- Additional logging added to ``run_clone_modules``  
+
+## 0.1.6
+### Added
+- Added new function ``upsert_timeseries_ds()`` to the `integrations` module
+
+### Changed
+- Additional logging added to ``invalid_file_format()`` function from the `error_handlers` module. 
+
+### Removed 
+- Removed ``append_timeseries()`` function
+
+## 0.1.5
+### Fixed 
+- bug with ``upsert_sites()`` function that caused optional columns to be treated as required columns.
+
+### Added
+Added additional functions to the `error_handlers` module:
+- ``validate_datetime()`` - which checks whether the values of the datetime column(s) of the source file are valid. Any datetime errors identified by this function should be passed to the ``post_errors()`` function.
+- ``post_errors()`` - used to post errors (apart from those identified by the ``invalid_file_format()`` function) to the data feed dashboard.
+
+## 0.1.4
+### Changed
+Added additional required properties to the Abstract Base Classes (ABC): Task, IntegrationTask, AnalyticsTask, LogicModuleTask. These properties are: 
+- Author
+- Version
+
+Added additional parameter `query_language` to the `switch.integration.get_data()` function. Allowed values for this parameter are: 
+- `sql`
+- `kql`
+
+Removed the `name_as_filename` and `treat_as_timeseries` parameter from the following functions: 
+- ``switch.integration.replace_data()``
+- ``switch.integration.append_data()``
+- ``switch.integration.upload_data()``
+ 
