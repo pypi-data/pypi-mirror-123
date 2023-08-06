@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "entropylab-qpudb"
+version = "0.0.11"
+description = "A extension of entropy lab for persistent storage of calibration parameters of a quantum processing unit (QPU)."
+authors = [
+    "Lior Ella <lior@quantum-machines.co>",
+    "Guy Kerem <guy@quantum-machines.co>",
+    "Tal Shani <tal@quantum-machines.co>"
+]
+license = "BSD-3-Clause"
+packages = [
+    { include = "entropylab_qpudb" }
+]
+include = [
+    "CHANGELOG.md",
+    "LICENSE",
+]
+exclude = [
+    "**/tests/**",
+]
+readme = "README.md"
+homepage = "https://github.com/entropy-lab/entropy-qpu"
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+ZODB = "^5.6.0"
+pandas = "^1.2.4"
+entropylab = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+poethepoet = "^0.10.0"
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+flake8-bugbear = "^21.9.2"
+pytest-cov = "^3.0.0"
+
+[tool.pytest.ini_options]
+
+
+[tool.poe.tasks.format]
+cmd = "black entropylab_qpudb"
+help = "Format source files according to the style rules"
+
+[tool.poe.tasks.check-format]
+cmd = "black entropylab_qpudb --check"
+help = "Check that all files are formatted according to the style rules"
+
+[tool.poe.tasks.lint]
+cmd = "flake8 entropylab_qpudb"
+help = "Check for lint errors"
+
+[tool.poe.tasks.test]
+cmd = "pytest"
+help = "Run all unit tests"
+
+[tool.poe.tasks]
+check = ["check-format", "lint", "test"]
+
+[tool.black]
+target-version = ["py37"]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
