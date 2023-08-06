@@ -1,0 +1,19 @@
+- hosts: kube_control_plane
+  gather_facts: no
+  tasks:
+    - name: Copy admin.conf to root
+      copy:
+        src: /etc/kubernetes/admin.conf
+        dest: /
+        remote_src: true
+      become: true
+    - name: Fetch admin.conf from first control plane to local
+      fetch:
+        src: /admin.conf
+        dest: "{{ dest_path }}"
+      become: true
+    - name: Delete admin.conf in root
+      file:
+        path: /admin.conf
+        state: absent
+      become: true

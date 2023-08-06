@@ -1,0 +1,118 @@
+data "aws_ami" "specified_ami" {
+most_recent = true
+owners = [
+  "amazon",
+  "aws-marketplace",
+  "099720109477", # Ubuntu
+  "309956199498", # RHEL
+  "136693071363", # Debian
+  ] 
+
+  filter {
+      name   = "image-id"
+      values = ["{{ ami }}"]
+  }
+
+  filter {
+    name   = "architecture"
+    values = ["x86_64"]
+  }
+
+  filter {
+      name = "state"
+      values = ["available"]
+  }
+}
+
+variable "control_plane_count" {
+  default = {{ control_plane_count }}
+}
+
+variable "worker_node_count" {
+  default = {{ worker_node_count }}
+}
+
+locals {
+  all_sg_ids = [
+    module.internal_all_sg.security_group_id,
+    {%- if -1 in open_ports %}
+    module.global_all_sg.security_group_id,
+    {% else %}
+    module.global_ssh_sg.security_group_id,
+    {%- for port in open_ports %}
+    module.global_{{ port }}_sg.security_group_id,
+    {%- endfor -%}
+    {% endif %}
+  ]
+}
+
+resource "aws_instance" "control_plane" {
+  count         = var.control_plane_count
+  ami           = data.aws_ami.specified_ami.image_id
+  instance_type = "{{ instance_type }}"
+  key_name      = aws_key_pair.kubernetes_cluster.id
+  vpc_security_group_ids = local.all_sg_ids
+  subnet_id = aws_subnet.public.id
+
+  tags = {
+    Name = "{{ cluster_name }}-control-plane"
+  }
+}
+
+resource "aws_instance" "worker_node" {
+  count         = var.worker_node_count
+  ami           = data.aws_ami.specified_ami.image_id
+  instance_type = "{{ instance_type }}"
+  key_name      = aws_key_pair.kubernetes_cluster.id
+  vpc_security_group_ids = local.all_sg_ids
+  subnet_id = aws_subnet.public.id
+
+  tags = {
+    Name = "{{ cluster_name }}-worker_node"
+  }
+}
+
+resource "aws_eip" "control_plane" {
+  count    = var.control_plane_count
+  instance = element(aws_instance.control_plane.*.id, count.index)
+  vpc      = true
+}
+
+resource "aws_eip" "worker_node" {
+  count    = var.worker_node_count
+  instance = element(aws_instance.worker_node.*.id, count.index)
+  vpc      = true
+}
+
+resource "aws_key_pair" "kubernetes_cluster" {
+  key_name   = "{{cluster_name}}-{{ ssh_public_key_name }}"
+  public_key = file(pathexpand("{{ ssh_public_key }}"))
+}
+
+output "control_plane_private_ip" {
+  value = tolist(aws_instance.control_plane.*.private_ip)
+}
+
+output "worker_node_private_ip" {
+  value = tolist(aws_instance.worker_node.*.private_ip)
+}
+
+output "control_plane_public_ip" {
+  value = tolist(aws_eip.control_plane.*.public_ip)
+}
+
+output "worker_node_public_ip" {
+  value = tolist(aws_eip.worker_node.*.public_ip)
+}
+
+output "ami_name" {
+  value = data.aws_ami.specified_ami.name
+}
+
+output "ami_description" {
+  value = data.aws_ami.specified_ami.description
+}
+
+output "ami_location" {
+  value = data.aws_ami.specified_ami.image_location
+}

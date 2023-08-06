@@ -1,0 +1,37 @@
+[
+    {
+        "distro_name": "Amazon Linux 2",
+        "user_name": "ec2-user",
+        "ami_name_keyword": "amzn2",
+        "ami_description_keyword": "Amazon Linux 2",
+        "ami_location_keyword": "amzn2"
+    },
+    {
+        "distro_name": "Ubuntu",
+        "user_name": "ubuntu",
+        "ami_name_keyword": "ubuntu",
+        "ami_description_keyword": "Ubuntu",
+        "ami_location_keyword": "ubuntu"
+    },
+    {
+        "distro_name": "CentOS",
+        "user_name": "centos",
+        "ami_name_keyword": "CentOS",
+        "ami_description_keyword": "CentOS",
+        "ami_location_keyword": "CentOS"
+    },
+    {
+        "distro_name": "RHEL",
+        "user_name": "ec2-user",
+        "ami_name_keyword": "RHEL",
+        "ami_description_keyword": "Red Hat",
+        "ami_location_keyword": "RHEL"
+    },
+    {
+        "distro_name": "SUSE",
+        "user_name": "ec2-user",
+        "ami_name_keyword": "suse",
+        "ami_description_keyword": "SUSE",
+        "ami_location_keyword": "suse"
+    }
+]

@@ -1,0 +1,3 @@
+[console_scripts]
+kubetwo = kubetwo.cli:main
+

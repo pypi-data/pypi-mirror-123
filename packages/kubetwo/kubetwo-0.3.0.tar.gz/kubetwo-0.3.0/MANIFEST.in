@@ -1,0 +1,7 @@
+include README.md
+include requirements.txt
+recursive-include kubetwo/ansible_template/*
+recursive-include kubetwo/data/*
+recursive-include kubetwo/kubernetes_sample/*
+recursive-include kubetwo/terraform_template/*
+recursive-include kubetwo/kubespray/*

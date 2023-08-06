@@ -1,0 +1,9 @@
+[Login to controle plane]
+{%- for control_plane in control_plane_list %}
+{{ control_plane["name"] }}: ssh -i {{ ssh_private_key }} {{ user_name }}@{{ control_plane["public_ip"] }}
+{%- endfor %}
+
+[Login to worker node]
+{%- for worker_node in worker_node_list %}
+{{ worker_node["name"] }}: ssh -i {{ ssh_private_key }} {{ user_name }}@{{ worker_node["public_ip"] }}
+{%- endfor %}
