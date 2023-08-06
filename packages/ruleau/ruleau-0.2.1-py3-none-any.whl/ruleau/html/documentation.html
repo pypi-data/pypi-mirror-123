@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rules Documentation</title>
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(e) {
+    const toggles = document.getElementsByClassName('show-source-button')
+    for (const toggle of toggles) {
+      toggle.addEventListener('click', function(event) {
+        const accordion = toggle.parentElement.parentElement
+
+        const sourceCode = accordion.getElementsByClassName('source-code-full')[0]
+        const sourceComments = accordion.getElementsByClassName('source-code-comments')[0]
+
+        if (sourceCode.classList.contains("hidden")) {
+          toggle.innerHTML = "Logic (click to show code)"
+          sourceCode.classList.remove("hidden")
+          sourceComments.classList.add("hidden")
+        } else {
+          toggle.innerHTML = "Code (click to hide detail)"
+          sourceCode.classList.add("hidden")
+          sourceComments.classList.remove("hidden")
+        }
+      })
+    }
+  })
+</script>
+
+<style>
+
+body {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 1em;
+  width: 80%;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+code {
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #{{ colors["primary"] }};
+}
+
+a:hover {
+  color: #{{ colors["dark"] }};
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fafafa;
+  color: black;
+}
+
+#contents tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.show-source-button {
+  padding-bottom: 1em;
+  font-size: 14px;
+}
+
+.source-code-section {
+  padding: 1em 0em;
+}
+
+.hljs {
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+.source-code .hljs {
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.examples-table pre {
+  margin: 0;
+}
+
+.examples-table th {
+  font-weight: 400;
+}
+
+
+</style>
+
+<body>
+<div class="container-md">
+
+<h1>Rules Documentation</h1>
+
+<h2>Contents</h2>
+
+<table class="table" id="contents" aria-describedby="Rules">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+    </tr>
+    {% for rule in rules %}
+    <tr onclick="window.location='#{{ rule.name }}';">
+      <td><a href="#{{ rule.id}}">{{ rule.id }}</a></td>
+      <td><a href="#{{ rule.id }}">{{ rule.name }}</a></td>
+      <td>{{ rule.description }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Rules</h2>
+
+    {% for rule in rules %}
+    <div class="rule" id="{{ rule.id }}">
+        <h3 class="rule-header">
+          <strong> Rule:</strong> {{ rule.name  }}
+        </h3>
+        <div class="rule-body">
+
+            {% if rule.dependencies | filter_non_runif %}
+            <p>Depends on:
+                {% for dependency in rule.dependencies | filter_non_runif %}
+                {{ " ," if not loop.first else "" }}
+                <a href="#{{ dependency.id }}">{{ dependency.id }}</a>
+                {% endfor %}
+            </p>
+            {% endif %}
+            
+            {% if rule.dependencies | filter_runif %}
+            <p>Run if:
+                {% for dependency in rule.dependencies | filter_runif %}
+                {{ " ," if not loop.first else "" }}
+                <a href="#{{ dependency.id }}">{{ dependency.id }}</a>
+                {% endfor %}
+            </p>
+            {% endif %}
+
+            <p>{{rule.description}}</p>
+
+            <table class="table" aria-describedby="rule-properties">
+                <tbody>
+                    <tr><th scope="row">ID</th><td>{{rule.id}}</td></tr>
+                    <tr><th scope="row">Override Level</th><td>{{rule.override_level}}</td></tr>
+                    {% for param in rule.parameters %}
+                    <tr>
+                        <th scope="row">{{ param.name }}</th><td>{{ param.value }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+           
+              
+            {% if rule.doctests %}
+            <p>Examples</p>
+            <table class="table examples-table" aria-describedby="rule-properties" class="">
+              <tr>
+                <th scope="col">Payload</th>
+                <th scope="col">Context</th>
+                <th scope="col">Result</th>
+              </tr>
+              {% for doctest in rule.doctests %}
+                <tr>
+                  <td>
+                    <pre class="bg-light p-4">
+                      <code class="language-json hljs">
+{{ doctest.payload | json_print }}
+                      </code>
+                    </pre>
+                  </td>
+                  <td>
+                    <pre class="bg-light p-4">
+                      <code class="language-json hljs">
+{{ doctest.context | json_print }}
+                      </code>
+                    </pre>
+                  </td>
+                  <td>{{ doctest.result }}</td>
+                </tr>
+              {% endfor %}
+            </table>
+            {% endif %}
+
+            <!-- Source Code -->
+            <div class="source-code-section">
+                <!-- Comments switch-->
+                <a class="show-source-button" type="button">
+                  Logic (click to show code)
+                </a>
+                <div class="source-code">
+                  <pre class="bg-light p-4 source-code-full"><code class="language-python hljs">{{rule.comments}}</code></pre>
+                  <pre class="bg-light p-4 source-code-comments hidden"><code class="language-python hljs">{{rule.source}}</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+</body>
+</html>
