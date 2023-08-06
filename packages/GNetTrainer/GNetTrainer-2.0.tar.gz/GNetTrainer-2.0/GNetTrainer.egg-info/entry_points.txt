@@ -1,0 +1,3 @@
+[console_scripts]
+gnet = GNetTrainer.main:start_app
+
