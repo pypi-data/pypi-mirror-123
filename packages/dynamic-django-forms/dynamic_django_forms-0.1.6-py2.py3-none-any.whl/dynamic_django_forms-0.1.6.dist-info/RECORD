@@ -1,0 +1,17 @@
+dynamic_forms/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+dynamic_forms/apps.py,sha256=sxs-5zlKwG1uJ8x5hD8EKGSScEr8DUJFRVd8qYEAt8s,100
+dynamic_forms/boundfields.py,sha256=14GkM8A1SdYKBXIutvBdCWIEAOWrzg8k-ZXJb6yIut0,1101
+dynamic_forms/formfields.py,sha256=xBPGTY-UhBpO-e3sBBmbjhc7ufmMdEo-zX1XWWhUxS8,2090
+dynamic_forms/models.py,sha256=C_alyb5QvSaoKAPIgXpXbj4B2acaMQBZREtVIzsi4lo,1518
+dynamic_forms/utils.py,sha256=9K1NIa7BmxIEq569yqUSIWwZATCj5a7whKvy8M3uM2Y,2977
+dynamic_forms/views.py,sha256=9gDlhMQ4e0F_1A8kUDPqSEhipF31g9oIBfY-RPAlwlY,1164
+dynamic_forms/widgets.py,sha256=yoESRKE8OqzqNFbgHHV0iSGYEYTpEnPjUhGw1dO3Akc,418
+dynamic_forms/templates/dynamic_forms/widgets/formbuilder.html,sha256=CobPEvN-3HnER9Yy9jYWW1zrHq01kTXmGefbF_ra_Ew,1909
+dynamic_forms/templates/dynamic_forms/widgets/formrender.html,sha256=CQczPJIrygUMvSPFmosDsyNEuVOLurWtc21PFYpHeXI,915
+dynamic_forms/templates/dynamic_forms/widgets/subfield.html,sha256=LoI2cDiwYNZejH_PVeD0bwegY8XaG8zu7bp-7LFLWPw,41
+dynamic_forms/templates/dynamic_forms/widgets/subfield_crispy.html,sha256=2drf_q31omX2EnAAoFKvYzmy_SwKmLtBNJvV8FjpYoM,59
+dynamic_django_forms-0.1.6.dist-info/LICENSE.txt,sha256=GySsrh9Lx4KlArhllwhmpEjvOVZiIoa7eiwL6QTWfEA,1063
+dynamic_django_forms-0.1.6.dist-info/METADATA,sha256=1wt5AQTMiRP-QxPVxpjJteXN3fy_o2gKSiBXbHTqhW0,8951
+dynamic_django_forms-0.1.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+dynamic_django_forms-0.1.6.dist-info/top_level.txt,sha256=NfDpdrRIWAxbvPVPjkc1syeh74XGJ9bD6BEjd0WErJg,14
+dynamic_django_forms-0.1.6.dist-info/RECORD,,
