@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mypypackagemoty
+Version: 0.1.0
+Summary: A example Python package
+Home-page: UNKNOWN
+Author: Matthew Budushchev
+Author-email: mysmplmail@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: pandas
