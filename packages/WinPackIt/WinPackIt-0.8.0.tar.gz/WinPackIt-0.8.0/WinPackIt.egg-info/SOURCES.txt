@@ -1,0 +1,7 @@
+README.rst
+setup.py
+winpackit.py
+WinPackIt.egg-info/PKG-INFO
+WinPackIt.egg-info/SOURCES.txt
+WinPackIt.egg-info/dependency_links.txt
+WinPackIt.egg-info/top_level.txt
