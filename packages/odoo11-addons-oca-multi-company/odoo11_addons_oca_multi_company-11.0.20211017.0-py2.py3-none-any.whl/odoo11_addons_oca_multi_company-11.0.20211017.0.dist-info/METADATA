@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-multi-company
+Version: 11.0.20211017.0
+Summary: Meta package for oca-multi-company Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-account-invoice-inter-company
+Requires-Dist: odoo11-addon-account-multicompany-easy-creation
+Requires-Dist: odoo11-addon-base-multi-company
+Requires-Dist: odoo11-addon-ir-actions-report-multi-company
+Requires-Dist: odoo11-addon-partner-multi-company
+Requires-Dist: odoo11-addon-product-multi-company
+Requires-Dist: odoo11-addon-product-tax-multicompany-default
+Requires-Dist: odoo11-addon-purchase-sale-inter-company
+Requires-Dist: odoo11-addon-stock-move-line-multi-company-security
+Requires-Dist: odoo11-addon-stock-production-lot-multi-company
+
+UNKNOWN
+
