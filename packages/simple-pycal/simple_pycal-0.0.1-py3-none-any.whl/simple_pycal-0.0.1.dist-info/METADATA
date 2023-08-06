@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simple-pycal
+Version: 0.0.1
+Summary: Basic Python Calculation
+Home-page: UNKNOWN
+Author: Darshan
+Author-email: darshanvankawala2297@gmail.com
+License: UNKNOWN
+Keywords: python,calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
