@@ -1,0 +1,16 @@
+azure/purview/catalog/__init__.py,sha256=S-TxSAZPcEsXOofykl7UB7eWHNbWFZCQzeu68KyN0j8,715
+azure/purview/catalog/_configuration.py,sha256=rhhpoK3xb_GWQBZ8_xazml1fK3dBnB29vVs1r_C_hC4,3229
+azure/purview/catalog/_purview_catalog_client.py,sha256=YFWemxQ-LOX4ABE0xSGAJUsR8zYp7rq5rKNiCZ8Cuio,5660
+azure/purview/catalog/_vendor.py,sha256=F5rnE0tJotT9NJvZIGN1zlAFXANoIfWvHFLhsSUM-fM,1197
+azure/purview/catalog/_version.py,sha256=0I38Yosq5lVXjNGs9aY5QyvtKErDi7OMNhIf6FFROH8,488
+azure/purview/catalog/aio/__init__.py,sha256=epzY7UiU7pMYVMOwmoYi79410IE3dZZhmA4yMNSw9i4,561
+azure/purview/catalog/aio/_configuration.py,sha256=rZ-J0kQO_-yis51FNbleUgk00MRK35Dj9hM_jbJYyzM,3173
+azure/purview/catalog/aio/_purview_catalog_client.py,sha256=vq2TrCaxrQVKzFbJ_TqEkgSuAcPzO1r9rbxtedSxRR8,5659
+azure/purview/catalog/aio/operations/__init__.py,sha256=Vc9aQmXeVq9cqqtO4hbxmTbUr0c4ucyfdFWQhKREgxA,975
+azure/purview/catalog/aio/operations/_operations.py,sha256=HQ-mn_ycZKCho8xO0pcQmq9BR0fZr55tltV6nJI7RpU,1106713
+azure/purview/catalog/operations/__init__.py,sha256=Vc9aQmXeVq9cqqtO4hbxmTbUr0c4ucyfdFWQhKREgxA,975
+azure/purview/catalog/operations/_operations.py,sha256=bsUDzbiDDyaUJxri2GeH7xvrYmkdXmiUUTYPtNDukTY,1202179
+azure_purview_catalog-1.0.0b2.dist-info/METADATA,sha256=y_KbaLaAyTvcCQ6TNIaaH4PcmqscMVETghAjcuOkeog,8958
+azure_purview_catalog-1.0.0b2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+azure_purview_catalog-1.0.0b2.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_purview_catalog-1.0.0b2.dist-info/RECORD,,
