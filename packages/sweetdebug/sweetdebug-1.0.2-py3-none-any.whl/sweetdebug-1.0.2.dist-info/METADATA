@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sweetdebug
+Version: 1.0.2
+Summary: Automatic pdb invoker
+Home-page: https://github.com/sweetcocoa/sweetdebug
+Author: sweetcocoa
+Author-email: sweetcocoa@snu.ac.kr
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
+
