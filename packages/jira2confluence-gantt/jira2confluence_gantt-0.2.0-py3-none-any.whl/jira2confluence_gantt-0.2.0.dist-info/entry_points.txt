@@ -1,0 +1,3 @@
+[console_scripts]
+jira2confluence-gantt = jira2confluencegantt.cli:main
+
