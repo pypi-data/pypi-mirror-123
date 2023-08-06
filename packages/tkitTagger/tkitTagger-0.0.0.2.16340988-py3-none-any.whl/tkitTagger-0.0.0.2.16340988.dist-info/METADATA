@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tkitTagger
+Version: 0.0.0.2.16340988
+Summary: Terry toolkit tkitTagger
+Home-page: http://docs.terrychan.org/tkit-tagger/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pytorch-lightning (>=1.4.0)
+Requires-Dist: tkitAutoTokenizerPosition (>=0.0.0.3)
+Requires-Dist: pytorch-crf (>=0.7.2)
+Requires-Dist: transformers (>=4.9.2)
+Requires-Dist: tkitJson (>=0.0.0.3)
+
+# tkitTagger
+
+快速标记库
+
+https://docs.terrychan.org/tkit-tagger
+
+
+## CRF
+
+https://pytorch-crf.readthedocs.io/en/stable/
+
