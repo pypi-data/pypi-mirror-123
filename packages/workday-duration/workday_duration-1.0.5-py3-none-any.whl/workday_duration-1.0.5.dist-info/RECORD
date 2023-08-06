@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=mAKgjqhwXbQXgBSgiWiXy4OOxBWb1Ou5cb4kWbodM30,119
+tests/test_cal.py,sha256=g50Kcdfndxoopo5UegGWDTiDpnX4i37FIicHs3TxXb0,4295
+workday_duration/__init__.py,sha256=K1LJnFNRpSs_8JwhMKhb2TJPJKV6HNDu_1hDH-EWx8M,187
+workday_duration/utils.py,sha256=rzf6SyfwZ7uPFuByyA4WEu8l4k-oUN7Ovg-BLP_v6xU,3803
+workday_duration-1.0.5.dist-info/METADATA,sha256=X6m07R_IPLutNWiUratpZa0vu9R__J-b0RMGR0WvZ24,2565
+workday_duration-1.0.5.dist-info/WHEEL,sha256=gm79cMopkncyn0iSnI0vQNiDJ8t9on0H4_iz-CrpXMk,92
+workday_duration-1.0.5.dist-info/top_level.txt,sha256=GMqeWg_7S5N9EeNViwprrsnXl3R6XfybSU75HRyglq0,23
+workday_duration-1.0.5.dist-info/RECORD,,
