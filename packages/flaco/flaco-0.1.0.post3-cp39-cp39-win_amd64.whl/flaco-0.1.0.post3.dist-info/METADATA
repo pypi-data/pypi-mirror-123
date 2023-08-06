@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: flaco
+Version: 0.1.0.post3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: LICENSE-MIT
+Requires-Dist: numpy (>=1.0.0)
+Provides-Extra: dev
+Requires-Dist: pytest-runner ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: docker ; extra == 'dev'
+Requires-Dist: sqlalchemy ; extra == 'dev'
+Requires-Dist: psycopg2 ; extra == 'dev'
+Requires-Dist: hypothesis ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+
+UNKNOWN
+
