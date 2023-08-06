@@ -1,0 +1,15 @@
+applications_superstaq/__init__.py,sha256=eFRjX-NXSEZOrp2zo1TRoTrd5sY5IqgKBjBRCLtszwg,167
+applications_superstaq/_version.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+applications_superstaq/converters.py,sha256=tbxy-8Kk76O7w-9vEH7MuwTRd8OcHvUpeE17Snx7fOs,803
+applications_superstaq/converters_test.py,sha256=eCOwmF5BdLYklAETLgXoucAXoQRHHUc9SFHbH4IihZc,301
+applications_superstaq/finance.py,sha256=w8z7gqUXAx4TrbI7f0I5tHkxuEqZpmBzUE4350r79wc,1649
+applications_superstaq/finance_test.py,sha256=cfP0N9HD9FdGs_ISqyUPsa_PIUUNIDjODp5SE0DRyEI,1297
+applications_superstaq/logistics.py,sha256=ibQeZJ2O2lI4OT-UirjchcxXl4Ba26AE-s-Z16UGWj4,1758
+applications_superstaq/logistics_test.py,sha256=LVykScAA9MonRD-TEllm_qaSU4f70RKAi2HnM4OzqCw,1508
+applications_superstaq/qubo.py,sha256=e5BD0D7TcRMxg5SO5lfIuNd4bSmlUnD9HRD6ygxDCnk,1390
+applications_superstaq/qubo_test.py,sha256=5AylIDO3MZuKfvIK_C0QKEroEH7hQtb7Mp9AU6h07OA,880
+applications_superstaq-0.0.5.dist-info/LICENSE,sha256=iX_ssVZ8xAgLqWW2e92S2GEkakzvUzK2B29C98hStro,11349
+applications_superstaq-0.0.5.dist-info/METADATA,sha256=xUqunv7JAqxQA_DGsArAoboS4E68cewT67ne8gNGM5M,516
+applications_superstaq-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+applications_superstaq-0.0.5.dist-info/top_level.txt,sha256=syIJxUmLpt1XaqkYn-kBJZdEv2Q8YlsyThMwVQnLhBI,23
+applications_superstaq-0.0.5.dist-info/RECORD,,
