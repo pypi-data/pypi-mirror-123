@@ -1,0 +1,12 @@
+inori/__init__.py,sha256=fi1-T1PVhuozf9LeQeiz1UfLwIv5rqBLgV5jZ-4Jt8E,89
+inori/client.py,sha256=JBzHkk1vB_RTLACx7XI88dmLJcROKSWILUb7cCx_b2o,6705
+inori/route.py,sha256=EGYjHK1nZrLOeHrWOfRnZo5x7am_ZA0HzPvBv2589X4,6334
+inori/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inori/utils/headerdict.py,sha256=VFB7Jae2IJjdZ92pSOYdEwcJ4DKqrzVYxEY2zpSobtg,714
+inori/utils/safe_keyword.py,sha256=4XIznnkX4c36z0Y73xXsrIYJeahiYKuhCqI2oOAbn4c,330
+inori/utils/string_template.py,sha256=vx3efaAbHQfW8sFbmUXCDGpPHdff6yThwv9woaUfJwc,1631
+inori-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+inori-0.0.4.dist-info/METADATA,sha256=aLcmlEZ6xG5VRyT1dvunroF6_iqhvMA9wDDoh2VnX_U,1679
+inori-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+inori-0.0.4.dist-info/top_level.txt,sha256=R2H3G0ZS5awcko6E5YDzeLw0fxpZq2L64zoawKofwtQ,6
+inori-0.0.4.dist-info/RECORD,,
