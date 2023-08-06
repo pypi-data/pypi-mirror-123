@@ -1,0 +1,9 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+easyAlgo.egg-info/PKG-INFO
+easyAlgo.egg-info/SOURCES.txt
+easyAlgo.egg-info/dependency_links.txt
+easyAlgo.egg-info/top_level.txt

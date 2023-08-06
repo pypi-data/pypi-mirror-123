@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: easyAlgo
+Version: 0.0.1
+Summary: Package of algorithms.
+Home-page: UNKNOWN
+Author: fr1gid
+Author-email: <holywhale7@gmail.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,algorithms,search
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
