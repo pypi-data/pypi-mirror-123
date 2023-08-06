@@ -1,0 +1,12 @@
+simple_rest_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_rest_client/api.py,sha256=EfIkfLEPO9mdPtZFf0W8OSHPm-21NzLZTTX-usHEJQs,1997
+simple_rest_client/decorators.py,sha256=vu5uIP28K1MWNzzXrHExgLwzY3cJPe5BYGZejcq_hsc,1649
+simple_rest_client/exceptions.py,sha256=-heQEfIEd-yDL3ZfRkgeRTsaOba2CHBsbzg1Lv1UlNY,471
+simple_rest_client/models.py,sha256=YWeJdkvGE9_CKGCxPbco3zLtkBzekW6E_xw9dn3qqzE,243
+simple_rest_client/request.py,sha256=zZqxFyagm26ln9BrSX5sM3OBg4vxHjUip-IIdvQar5U,2848
+simple_rest_client/resource.py,sha256=FKevAHn4RMIVhAhcDzU10Zuc0HNN2RvPhyBO8ZeAt9s,4609
+simple_rest_client-1.1.1.dist-info/LICENSE,sha256=WLn0f0pFxK5S6knoYQUS-ZQic6-P9_06MPh0ilRrGeo,1073
+simple_rest_client-1.1.1.dist-info/METADATA,sha256=b9tNe7NLbUdNCvFFuYGYHSFg1PoRzLnKAXdd7LyEc0Q,1516
+simple_rest_client-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simple_rest_client-1.1.1.dist-info/top_level.txt,sha256=XKjsyCKKkESGvpD8CkXwRO8o6ZtHAR0Ez2H49JhEzww,19
+simple_rest_client-1.1.1.dist-info/RECORD,,
