@@ -1,0 +1,17 @@
+README.md
+setup.py
+bin/jduimage
+jduimage/__init__.py
+jduimage/_circleMixin.py
+jduimage/_colorMixin.py
+jduimage/_generalMixin.py
+jduimage/_imageStructure.py
+jduimage/_morphologicalMixin.py
+jduimage/_outputMixin.py
+jduimage/_thresholdMixin.py
+jduimage/_toClassifyMixin.py
+jduimage.egg-info/PKG-INFO
+jduimage.egg-info/SOURCES.txt
+jduimage.egg-info/dependency_links.txt
+jduimage.egg-info/requires.txt
+jduimage.egg-info/top_level.txt
