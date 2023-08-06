@@ -1,0 +1,15 @@
+strenum/__init__.py,sha256=oxv7gRmrGK9nm3zH2uwG-ftxVds9032YHl6dBE6GZMQ,5045
+strenum/_name_mangler.py,sha256=RPQhRDNmFRM0znPVuO_J9BZ_mMjIkvibKFy6xbkkrUI,1258
+strenum/_version.py,sha256=hd3I_tvKF08xWUGqQyo8Sj52Clo9caGkIJXqbLwt1uE,497
+strenum/mixins.py,sha256=0BRG5MaFKZ09bv71MLfPZ0Eh-JWtB0TOSmqJrQkeMJQ,1985
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_comparable.py,sha256=Xm4d376QToiUunZBSoe3rFueiCj4ayIMPsw3pFij9TM,1455
+tests/test_name_mangler.py,sha256=uEGe5T0Pqq18dJNlnPhBGOFfWPmQ7a8WCFRgaNDBjbY,1844
+tests/test_strenum.py,sha256=WUAh8qOYgkgXmeHEcW8sSGIM_-1dKzDksSSAEu_xGJU,929
+tests/test_strenum_casefold.py,sha256=OoWo2cE4i7otO3-lYe4begxMOwSiL_A88lWZzSFqeP4,1001
+tests/test_strenum_name_mangler.py,sha256=KDR4q1m7vRz0G-Qv8gL1phYkBJ8uKNS1J9vfc_Z9nvg,1536
+StrEnum-0.4.7.dist-info/LICENSE,sha256=vNcz0KRlIhYrldurYffNwcPjaGHfoSfWikQ1JA02rTY,1073
+StrEnum-0.4.7.dist-info/METADATA,sha256=TmzdO40W_G-UYwlRy3PvmdJC8698NHE4iOHCpiI-l0c,5076
+StrEnum-0.4.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+StrEnum-0.4.7.dist-info/top_level.txt,sha256=M1bgyHPDniQeYS2kSWyfRsieWTV6TaP9WT5-gnjjFUA,14
+StrEnum-0.4.7.dist-info/RECORD,,
