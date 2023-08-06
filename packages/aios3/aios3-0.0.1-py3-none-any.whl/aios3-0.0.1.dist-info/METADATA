@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aios3
+Version: 0.0.1
+Summary: Asyncio S3 file operations
+Home-page: https://github.com/andgineer/aios3
+Author: Andrey Sorokin
+Author-email: andrey@sorokin.engineer
+License: UNKNOWN
+Keywords: asyncio boto3 botocore s3 aws
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: aiobotocore
+Requires-Dist: lazydocs
+Requires-Dist: pylint
+Requires-Dist: mypy
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Requires-Dist: pydocstyle
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-awesome-pages-plugin
+Requires-Dist: twine
+
+# Asyncio S3 file operations
+
+
