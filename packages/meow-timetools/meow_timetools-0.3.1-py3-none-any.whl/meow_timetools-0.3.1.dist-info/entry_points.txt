@@ -1,0 +1,5 @@
+[console_scripts]
+annotate = meow_timetools.main:annotate_images
+capture_image = meow_timetools.main:capture_image
+start_timer = meow_timetools.main:start_timer
+
