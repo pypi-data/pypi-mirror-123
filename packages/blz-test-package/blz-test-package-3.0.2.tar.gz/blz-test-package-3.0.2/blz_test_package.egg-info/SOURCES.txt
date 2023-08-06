@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+blz_test_package.egg-info/PKG-INFO
+blz_test_package.egg-info/SOURCES.txt
+blz_test_package.egg-info/dependency_links.txt
+blz_test_package.egg-info/top_level.txt
+mal/__init__.py

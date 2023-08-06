@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: blz-test-package
+Version: 3.0.2
+Summary: Blaze test package
+Home-page: https://github.com/juliocesarfort
+Author: Julio F
+Author-email: juliocesarfort@gmail.com
+License: UNKNOWN
+Keywords: blaze,blaze-test,pkg
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+
+Blaze test.
+
+
