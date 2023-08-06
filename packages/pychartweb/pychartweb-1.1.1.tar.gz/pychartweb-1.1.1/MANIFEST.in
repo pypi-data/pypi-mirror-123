@@ -1,0 +1,3 @@
+include pychartweb/base2.tpl
+include pychartweb/chart2.js
+include /sample.png
