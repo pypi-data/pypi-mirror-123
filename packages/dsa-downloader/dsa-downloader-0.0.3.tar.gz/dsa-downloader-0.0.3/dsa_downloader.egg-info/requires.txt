@@ -1,0 +1,7 @@
+requests
+protobuf
+UnityPy==1.6.5.7
+pip
+tqdm
+click
+Pillow
