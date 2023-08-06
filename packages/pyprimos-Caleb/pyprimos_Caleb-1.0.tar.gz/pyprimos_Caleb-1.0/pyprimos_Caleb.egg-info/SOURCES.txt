@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+pyprimos_Caleb/__init__.py
+pyprimos_Caleb.egg-info/PKG-INFO
+pyprimos_Caleb.egg-info/SOURCES.txt
+pyprimos_Caleb.egg-info/dependency_links.txt
+pyprimos_Caleb.egg-info/top_level.txt
