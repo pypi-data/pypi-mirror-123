@@ -1,0 +1,16 @@
+django_pandas/__init__.py,sha256=9V8HNBWlWd9kKrEEJE04ypjOSYSmFVS4xh0H3Zq8EGE,22
+django_pandas/io.py,sha256=Cids5SkXR8QeIVbms0np_6DdLnu-l0DbHZbmXGpQD7o,5096
+django_pandas/managers.py,sha256=yBsh71WQmChWdMU0W0_ZzlOE7op0p5IJdFwFomUjIy0,11673
+django_pandas/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pandas/utils.py,sha256=1hCoukX62e2EQbSv87PM0dG4U7zEgtIS2I9SgkOVlSQ,2988
+django_pandas/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pandas/tests/models.py,sha256=XTklw1POosQHdClApapNMChKgUD2HH0T98phhbMA0fA,6360
+django_pandas/tests/test_io.py,sha256=sIWT6lmE-O8cQyCarXOi251wkMCvZPqWZX1rWTWOSdQ,9409
+django_pandas/tests/test_manager.py,sha256=ESkWf_iCagBmUSeFY-L6cgcCgLOhNvQW17_2uIfrCgs,14222
+django_pandas/tests/tests.py,sha256=sVIfpmMoYAeyWqkH2iCrf6ByKczuV3BBYSfjGMqO3y0,51
+django_pandas-0.6.5.dist-info/AUTHORS.rst,sha256=UBKKzwqoCzAKIKW6zCRsCjKWRXBobGlwU6x8sKFp35o,1207
+django_pandas-0.6.5.dist-info/LICENSE.rst,sha256=dFFQCUMSpip7d_8MRTEnDNS8Z3Vh-rZhgl9xOzKa0Rk,1540
+django_pandas-0.6.5.dist-info/METADATA,sha256=NL5C_5QA2VtDj6eSbSqSw8km9_XYyaHpDwA70hT0Dt8,13753
+django_pandas-0.6.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_pandas-0.6.5.dist-info/top_level.txt,sha256=m5v7sGlTnVNUogrd1AhMxj4wInrH-Md8Rd-5GP76x4o,14
+django_pandas-0.6.5.dist-info/RECORD,,
