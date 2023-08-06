@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py_polymorphic_list
+Version: 0.1.0
+Summary: Python implementation of a polymorphic list
+Home-page: https://github.com/keshprad/py_polymorphic_list
+Author: keshprad
+Author-email: keshprad.dev@gmail.com
+License: UNKNOWN
+Keywords: polymorphic list
+Platform: UNKNOWN
+
+# py_polymorphic_list
+
+Python implementation of a polymorphic list
+
+
