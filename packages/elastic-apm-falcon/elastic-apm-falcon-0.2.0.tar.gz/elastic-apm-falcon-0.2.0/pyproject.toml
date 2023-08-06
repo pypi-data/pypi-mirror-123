@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "elastic-apm-falcon"
+version = "0.2.0"
+description = "Middleware for tracking Falcon requests/responses with Elastic APM."
+authors = ["Benedikt Brief <b.brief@snapaddy.com>"]
+readme = "README.md"
+packages = [{include = "elastic_apm_falcon"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+elastic-apm = "^6.0.0"
+falcon = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9-beta.0"
+mypy = "^0.910"
+
+[tool.black]
+line-length = 99
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
