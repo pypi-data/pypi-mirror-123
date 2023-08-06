@@ -1,0 +1,4 @@
+dnspython==2.1.0
+cryptography<36,>=3
+requests<2.27,>=2.24
+forcediphttpsadapter
