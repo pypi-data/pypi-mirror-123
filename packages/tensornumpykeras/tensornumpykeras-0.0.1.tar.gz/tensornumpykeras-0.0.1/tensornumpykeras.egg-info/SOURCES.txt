@@ -1,0 +1,9 @@
+README.rst
+setup.py
+tensornumpykeras/__init__.py
+tensornumpykeras/build_autoencoder.py
+tensornumpykeras.egg-info/PKG-INFO
+tensornumpykeras.egg-info/SOURCES.txt
+tensornumpykeras.egg-info/dependency_links.txt
+tensornumpykeras.egg-info/requires.txt
+tensornumpykeras.egg-info/top_level.txt
