@@ -1,0 +1,10 @@
+syndata/__init__.py,sha256=_9BBfbIBfIl0yln7D2izyi_wzhasf_6r_E44oWek-RI,35
+syndata/centers.py,sha256=ZrKzDs0TAWBab1ipysStieoQzLXrUfPJmtnIkCgKTko,5620
+syndata/core.py,sha256=OT_LIWvAms6surhgjDHPqvNe7OMxEm9KtYhaVifrRJI,14323
+syndata/distributions.py,sha256=TMT51U1yVi-lrCTBRTRGrEKw_M_kGvGI8DqbVWAYFQ0,5184
+syndata/maxmin.py,sha256=capNI4Re6XKKZmSm6xhpoQA7uPkdqXsXZRsuRuYFd7c,15755
+syndata-0.0.9.dist-info/LICENSE,sha256=GfGyv9N_LtKZNeUF-fvaYIybqovtSVu8TXCphExYInQ,1063
+syndata-0.0.9.dist-info/METADATA,sha256=ZxTa_wEz5_bdxRPtXVtKtzEr0O7uOV2S0g7T_weFqYo,590
+syndata-0.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+syndata-0.0.9.dist-info/top_level.txt,sha256=YDvwcAaHzUL3G8u9vaCwT6wMBLodXOh-549g8Xwy2eo,8
+syndata-0.0.9.dist-info/RECORD,,
