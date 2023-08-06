@@ -1,0 +1,16 @@
+jupyter-rdfify/__init__.py,sha256=35Kvhx8ylAnVJMx6okYoJrAWpH2jNNp8l7Rkm9Mfa5s,2194
+jupyter-rdfify/graph.py,sha256=qt05MV82qjMys6eQyHkO8_WhOFN1LR8dfZV2kQN4tpk,1489
+jupyter-rdfify/graph_manager.py,sha256=WmFRJiDAV-hRsPcqR2zEJlGyXgNdP5EUxeY7-00ZZgc,2955
+jupyter-rdfify/jupyter_rdf.py,sha256=NBF4kbo0dOfw7fv_k0CuPgZBYQ2PlVjOBq6oDC4CUIo,1756
+jupyter-rdfify/log.py,sha256=wBsG_5IDYSRUqmSlc6Y1Hj0kZKX2a0DlHfQyjeE0cBY,581
+jupyter-rdfify/rdf_module.py,sha256=dcZOkzfVpn0ja_i3TeGjIQNAhISPbyOgWTF2O4C3_30,670
+jupyter-rdfify/serialization.py,sha256=KCN8rJu9vVhkOU6lEin5uc_rHGtST8kL4VWVTK16L7s,3386
+jupyter-rdfify/shex.py,sha256=hyWpCYUDaXLzGAPkHAG62dYD9MVHlDqh4cSD1EpVYYI,2915
+jupyter-rdfify/sparql.py,sha256=gyN2v8zpOf-NMJ5986Zq0vJiwzW94nYbCc6ZSBHDnWI,5548
+jupyter-rdfify/table.py,sha256=CA3enOnNLo6ZnvOOX60Gz4XhYe7MjJ2WTHUbXbV85xc,3568
+jupyter-rdfify/util.py,sha256=zhoSkZkZcqe6MxokNPkEdpx4JkCGyMTeIuZbKsdC4Fg,937
+jupyter_rdfify-1.0.3.dist-info/LICENSE,sha256=0aam4n9d5L3OaAfsNddYOx1PvepzEt12BsJrCo8wuqQ,1060
+jupyter_rdfify-1.0.3.dist-info/METADATA,sha256=mTSSy-wlbkTj4gaBNtINMo52hHw2p5LVsWAKT4VB_yQ,8825
+jupyter_rdfify-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jupyter_rdfify-1.0.3.dist-info/top_level.txt,sha256=6rinV_9Nu-pC5hjTYu3HTeItSSO9eF808TmB-msR4ys,15
+jupyter_rdfify-1.0.3.dist-info/RECORD,,
