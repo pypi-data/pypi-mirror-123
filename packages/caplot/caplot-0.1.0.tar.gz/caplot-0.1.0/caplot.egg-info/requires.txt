@@ -1,0 +1,11 @@
+bokeh
+ipywidgets
+munch
+pandas
+pandasql
+pyyaml
+requests
+selenium
+stringcase
+svglib
+chromedriver-binary

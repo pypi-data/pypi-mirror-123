@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+caplot/__init__.py
+caplot/interactiveplot.py
+caplot/manhattan.py
+caplot/pca.py
+caplot.egg-info/PKG-INFO
+caplot.egg-info/SOURCES.txt
+caplot.egg-info/dependency_links.txt
+caplot.egg-info/requires.txt
+caplot.egg-info/top_level.txt
+caplot.egg-info/zip-safe
