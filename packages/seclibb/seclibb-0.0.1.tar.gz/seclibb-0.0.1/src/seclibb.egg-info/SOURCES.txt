@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/seclibb/__init__.py
+src/seclibb/main.py
+src/seclibb/objects.py
+src/seclibb.egg-info/PKG-INFO
+src/seclibb.egg-info/SOURCES.txt
+src/seclibb.egg-info/dependency_links.txt
+src/seclibb.egg-info/top_level.txt
