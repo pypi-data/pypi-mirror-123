@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: livevox-pypi
+Version: 0.3
+Summary: Use Livevox fast as fuck!!
+Home-page: UNKNOWN
+Author: Javier Daza
+Author-email: javierjdaza@gmail.com
+License: UNKNOWN
+Keywords: livevox
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: pandas
+
+Use Livevox fast as fuck!!
+
+
