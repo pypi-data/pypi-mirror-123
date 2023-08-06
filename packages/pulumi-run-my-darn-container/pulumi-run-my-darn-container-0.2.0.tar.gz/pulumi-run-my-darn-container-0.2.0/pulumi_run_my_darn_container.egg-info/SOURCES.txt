@@ -1,0 +1,15 @@
+README.md
+setup.py
+pulumi-run-my-darn-container/__init__.py
+pulumi-run-my-darn-container/_utilities.py
+pulumi-run-my-darn-container/aws_instance.py
+pulumi-run-my-darn-container/azure_instance.py
+pulumi-run-my-darn-container/gcp_instance.py
+pulumi-run-my-darn-container/provider.py
+pulumi-run-my-darn-container/py.typed
+pulumi_run_my_darn_container.egg-info/PKG-INFO
+pulumi_run_my_darn_container.egg-info/SOURCES.txt
+pulumi_run_my_darn_container.egg-info/dependency_links.txt
+pulumi_run_my_darn_container.egg-info/not-zip-safe
+pulumi_run_my_darn_container.egg-info/requires.txt
+pulumi_run_my_darn_container.egg-info/top_level.txt
