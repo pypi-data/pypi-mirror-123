@@ -1,0 +1,11 @@
+observable_jupyter/__init__.py,sha256=0vj7e9PlRRZrpT95PGKaKHNjOMtzc1fUwuT5uU95c_8,178
+observable_jupyter/iframe_bundle.js,sha256=X1k7w2yGBVyvTb68wM3imzZmkwFV8tKuGWmk42wHzGY,97007
+observable_jupyter/jupyter_embed.py,sha256=f7wPWGC0KdxirY_zsrnvknZOMy3s94vq7Tl76i9OyBU,4875
+observable_jupyter/logo.svg,sha256=z-6iE4TOIkpeLqlRgKdyMvTJWamMqlqoaRhjGk3vC3U,1507
+observable_jupyter/wrapper_bundle.js,sha256=W8MXRoCGA8l06KleyXVwhHbZk8pUYweDk6byyHs7TPI,787
+observable_jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb,sha256=gBfStee2Dwh_n2JJv-Atem4jC02tfLuOMEgAH1yckKo,72
+observable_jupyter-0.1.12.dist-info/LICENSE,sha256=CcKA8RXoXOsJrDm6byIXEAZB1Dy8GNZmUeAWdKGY1mg,749
+observable_jupyter-0.1.12.dist-info/METADATA,sha256=1VHtzQ3mt4dD-xC6E9hSTLfa85l0ZQnuFNYaGfVLsO0,3435
+observable_jupyter-0.1.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+observable_jupyter-0.1.12.dist-info/top_level.txt,sha256=i0XBrW0IW_vqgpm5_u3tNjMVldBglOFiTdwyEOOIJiI,19
+observable_jupyter-0.1.12.dist-info/RECORD,,
