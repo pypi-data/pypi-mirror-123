@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: metapensiero.sqlalchemy.proxy
+Version: 6.0.dev0
+Summary: Expose SQLAlchemy's queries and their metadata to a webservice
+Home-page: https://bitbucket.org/lele/metapensiero.sqlalchemy.proxy
+Author: Lele Gaifax
+Author-email: lele@metapensiero.it
+License: GPLv3+
+Description: .. -*- coding: utf-8 -*-
+        .. :Project:   metapensiero.sqlalchemy.proxy
+        .. :Created:   gio 30 apr 2009 10:01:20 CEST
+        .. :Author:    Lele Gaifax <lele@metapensiero.it>
+        .. :License:   GNU General Public License version 3 or later
+        .. :Copyright: © 2009, 2010, 2012, 2013, 2014, 2016, 2017, 2018, 2020 Lele Gaifax
+        ..
+        
+        ===============================
+         metapensiero.sqlalchemy.proxy
+        ===============================
+        
+        Expose SQLAlchemy's queries and their metadata to a webservice
+        ==============================================================
+        
+        :version: 5
+        :author: Lele Gaifax <lele@metapensiero.it>
+        :license: GPLv3
+        
+        This package contains a few utilities to make it easier applying some filtering to a stock
+        query and obtaining the resultset in various formats.
+        
+        See latest documentation at https://metapensierosqlalchemyproxy.readthedocs.io/en/latest/
+        
+        Tests suite
+        -----------
+        
+        The tests suite is based on ``tox`` and ``pytest``: to run it simply execute
+        
+        ::
+        
+           $ make check
+        
+        The ``PostgreSQL`` unit requires an existing database called ``mp_sa_proxy_test`` with the
+        ``hstore`` extension, and that the current user can access it without password::
+        
+           $ createdb mp_sa_proxy_test
+           $ psql -c "create extension hstore;" mp_sa_proxy_test
+        
+        
+        Changes
+        -------
+        
+        6.0.dev0 (2021-10-17)
+        ~~~~~~~~~~~~~~~~~~~~~
+        
+        * Target Python 3.9+
+        
+        * Do not emit ``length=1`` in the metadata of unlimited ``text`` fields
+        
+        * Drop the asyncio variant of the proxies: if/when needs arise I shall reimplement them on top
+          of new SA 1.4+ functionality
+        
+        
+        Previous changes are here__.
+        
+        __ https://gitlab.com/metapensiero/metapensiero.sqlalchemy.proxy/-/blob/master/OLDERCHANGES.rst
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Database
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
