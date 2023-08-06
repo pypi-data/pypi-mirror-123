@@ -1,0 +1,1 @@
+from test4pypi.test import test

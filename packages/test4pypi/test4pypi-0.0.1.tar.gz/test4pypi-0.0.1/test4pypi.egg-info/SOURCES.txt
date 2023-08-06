@@ -1,0 +1,8 @@
+setup.py
+test4pypi/__init__.py
+test4pypi/test.py
+test4pypi.egg-info/PKG-INFO
+test4pypi.egg-info/SOURCES.txt
+test4pypi.egg-info/dependency_links.txt
+test4pypi.egg-info/requires.txt
+test4pypi.egg-info/top_level.txt
