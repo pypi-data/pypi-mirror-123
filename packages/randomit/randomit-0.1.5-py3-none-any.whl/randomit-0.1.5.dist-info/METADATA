@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: randomit
+Version: 0.1.5
+Summary: Python library to generate random things.
+Home-page: https://github.com/dimitryzub/randomit
+License: MIT
+Author: Dimitry Zub
+Author-email: dimitryzub@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Randomit 🎲
+
+A Python library to generate random things.
+
+___
+Currently, `randomit` can generate a [random word(s)](#randomize-words) based on a given [theme](#look-for-available-built-in-themes), 
+as well as [load your words files](#load-and-pass-your-files-with-words) to randomize them. 
+
+To see what's coming next, see [open projects](https://github.com/dimitryzub/randomit/projects).
+
+## 🕹️Usage
+
+> *Words will always be different on each execution no matter what arguments being passed.*
+
+### Randomize words
+
+```python
+from randomit import Words
+
+# return one word
+Words().randomizer(return_one_word=True)
+# cabinet
+# bristlecone pine
+# dim - bright
+
+Words().randomizer()  # returns a list of 17k words
+Words().randomizer(words_to_return=3)  # ['axis', 'overabundant', 'superuser']
+
+Words().randomizer(letter_starts_with='A')  # returns all words that starts with letter "A" 
+Words().randomizer(letter_starts_with='A', words_to_return=3)  # ['abandoned', 'able', 'absolute']
+Words().randomizer(letter_starts_with='A', words_to_return=3, capitalize=True) # ['Apron', 'Ashes', 'Anvil']
+```
+
+### Look for available built-in themes
+
+```python
+Words().available_themes()
+# ['random words', 'names', 'surnames', 'cities', 'countries', 'address']
+# default is "random words" if "theme" argument is not specified
+```
+
+### Specify theme you want to get words from
+
+```python
+Words(theme='cities').randomizer() # pass available arguments + other theme from available_themes()
+```
+
+### Load and pass your file(s) with words
+_Make sure all words are **lowercase**, and start on a **new line** (`\n`), otherwise it won't work._
+
+```python
+# call your words
+Words(file=YOUR_FILE).randomizer(return_one_word=True, capitalize=True)
+
+# Bazinga!
+```
+
+___
+
+## 📡 Installation
+
+```
+$ pip install randomit
+```
+
+```
+$ git clone https://github.com/dimitryzub/randomit.git
+```
+
+## 👾 Suggestions
+
+If you have any suggestions or ideas what will be good to add, get involved in [discussions](https://github.com/dimitryzub/randomit/discussions) section.
+
+## 🔬 Issues
+
+For issues, visit [issues page](https://github.com/dimitryzub/randomit/issues) 🙃
