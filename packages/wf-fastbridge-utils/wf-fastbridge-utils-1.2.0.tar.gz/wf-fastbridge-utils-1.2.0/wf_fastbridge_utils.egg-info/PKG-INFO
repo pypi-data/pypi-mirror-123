@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: wf-fastbridge-utils
+Version: 1.2.0
+Summary: Tools for working with FastBridge assessments data
+Home-page: https://github.com/WildflowerSchools/wf-fastbridge-utils
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Description: # fastbridge_utils
+        
+        Tools for working with FastBridge assessments data
+        
+        ## Install
+        
+        `pip install wf-fastbridge-utils`
+        
+        ## Tasks
+        * TBD
+        
+Keywords: database
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
