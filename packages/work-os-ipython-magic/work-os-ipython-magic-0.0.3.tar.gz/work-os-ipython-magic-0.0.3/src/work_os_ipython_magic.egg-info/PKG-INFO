@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: work-os-ipython-magic
+Version: 0.0.3
+Summary: Work OS IPython Custom Magic
+Home-page: https://github.com/dyzfromyt/work_os_ipython_magic
+Author: dyzfromyt
+Author-email: dyzfromyt@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dyzfromyt/work_os_ipython_magic/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Work OS IPython Custom Magic
+
+IPython Custom Magic that helps define a Work OS Smart Docs.
+
+## Requirements
+
+* JupyterLab >= 3.0
+
+## Install
+
+To install the custom magics, execute:
+
+```bash
+pip install work_os_ipython_magic
+```
+
+Then in your Notebook, you need to load this custom magic:
+
+```python
+import work_os_ipython_magic
+%load_ext work_os_ipython_magic
+```
+
+## Uninstall
+
+To remove the extension, execute:
+
+```bash
+pip uninstall work_os_ipython_magic
+```
+
+
