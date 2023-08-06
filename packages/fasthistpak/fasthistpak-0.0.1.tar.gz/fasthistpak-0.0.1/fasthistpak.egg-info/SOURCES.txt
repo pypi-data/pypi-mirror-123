@@ -1,0 +1,8 @@
+setup.py
+fasthistpak/__init__.py
+fasthistpak/fasthist.py
+fasthistpak.egg-info/PKG-INFO
+fasthistpak.egg-info/SOURCES.txt
+fasthistpak.egg-info/dependency_links.txt
+fasthistpak.egg-info/requires.txt
+fasthistpak.egg-info/top_level.txt
