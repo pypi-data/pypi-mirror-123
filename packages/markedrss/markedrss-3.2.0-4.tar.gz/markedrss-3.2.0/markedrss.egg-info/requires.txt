@@ -1,0 +1,9 @@
+requests
+pydantic
+Jinja2
+xhtml2pdf
+ebooklib
+colorama
+
+[aiohttp]
+aiohttp
