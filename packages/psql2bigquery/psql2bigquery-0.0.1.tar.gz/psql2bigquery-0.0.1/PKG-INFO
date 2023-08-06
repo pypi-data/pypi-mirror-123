@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: psql2bigquery
+Version: 0.0.1
+Summary: Export PostgreSQL databases to Google Cloud Platform BigQuery
+Home-page: https://github.com/CraveFood/psql2bigquery
+Keywords: postgresql,bigquery,sink
+Author: Joao Daher
+Author-email: joao@daher.dev
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: sentry
+Requires-Dist: click
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: psycopg2-binary
+Requires-Dist: sentry-sdk; extra == "sentry"
+Project-URL: Repository, https://github.com/CraveFood/psql2bigquery
+Description-Content-Type: text/markdown
+
+# PostgreSQL to BigQuery
+
+Install with: `pip install psql2bigquery`
+
+Get instruction with: `psql2bigquery --help`
+
