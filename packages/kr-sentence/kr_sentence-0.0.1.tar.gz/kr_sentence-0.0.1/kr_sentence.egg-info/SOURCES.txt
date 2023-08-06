@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kr_sentence/__init__.py
+kr_sentence/tokenizer.py
+kr_sentence.egg-info/PKG-INFO
+kr_sentence.egg-info/SOURCES.txt
+kr_sentence.egg-info/dependency_links.txt
+kr_sentence.egg-info/top_level.txt
