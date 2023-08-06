@@ -1,0 +1,3 @@
+[console_scripts]
+rsa_crypto = rsa_crypto.__main__:main
+
