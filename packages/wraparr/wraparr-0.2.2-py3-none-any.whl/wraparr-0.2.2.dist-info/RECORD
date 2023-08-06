@@ -1,0 +1,9 @@
+wraparr/__init__.py,sha256=luvolEWQ5Zo9RDYL-Ory30ktLT8m0FmZ8tQz7xnUXfg,123
+wraparr/base.py,sha256=aKvZHHvRovL1wea5CZxkk1jAH44DivQL0Q2oZND7YyE,801
+wraparr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wraparr/radarr.py,sha256=gd5_Ma26sKdIZQfov8Wugvxu04ayYRRmeX1gREWiUQk,35672
+wraparr/sonarr.py,sha256=au4dCYaM2l_X02NFFRALbM5fx5Hh5IXpxapDZRZ_9JA,3955
+wraparr-0.2.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+wraparr-0.2.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wraparr-0.2.2.dist-info/METADATA,sha256=u0HOZkUSS7waSWb42IKh0tNarm8uzVSC00E-i5hdJNI,589
+wraparr-0.2.2.dist-info/RECORD,,
