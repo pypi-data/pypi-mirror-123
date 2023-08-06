@@ -1,0 +1,11 @@
+fika_analytics/__init__.py,sha256=qidbJTaI4AKLVqC7TBoRm3k5j3fTNWaQkKn5nAiVH74,98
+fika_analytics/analytics_constants.py,sha256=wggcb6laadQtborJFbMiGwpDsWMqPPJc1KfVn7AyDLo,187
+fika_analytics/analytics_event.py,sha256=6QkVCkMGFLCtysQauoaHgZsd1HcjaEC1T77xHAXng6M,1361
+fika_analytics/fika_analytics.py,sha256=UuR0uw1_Xu-uf8fZLih9ZRjsJjVrETeF1-hlAcGAe90,1811
+fika_analytics/user_property.py,sha256=l21XahHfTIi7DGqRS8Yu5S-cBGqF8gzJ4eFXuPBchg8,510
+fika_analytics_0.1.0-0.1.0.dist-info/DESCRIPTION.rst,sha256=zS54wBVgy3CfSq8q7qh-JWLsjwhGW64lUZGRcMV_tdQ,9
+fika_analytics_0.1.0-0.1.0.dist-info/METADATA,sha256=4CSCaTLv7QaRhXfJXXiQBb0hg5UOK8RAngrMKIN_Qc4,726
+fika_analytics_0.1.0-0.1.0.dist-info/RECORD,,
+fika_analytics_0.1.0-0.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+fika_analytics_0.1.0-0.1.0.dist-info/metadata.json,sha256=xqleKU3fwz3vANoSRYdQBfqOOS4dgHXLSqB027zZA78,863
+fika_analytics_0.1.0-0.1.0.dist-info/top_level.txt,sha256=tT_B635CngXrqwr8gGW9tFFPjzBsS8q4XFhTH-AkN6Q,15
