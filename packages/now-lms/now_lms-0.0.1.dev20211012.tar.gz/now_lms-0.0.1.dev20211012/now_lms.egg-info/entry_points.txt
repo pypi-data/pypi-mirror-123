@@ -1,0 +1,3 @@
+[console_scripts]
+lmsctl = now_lms:command
+

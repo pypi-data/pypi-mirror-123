@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: now-lms
+Version: 0.0.1.dev20211012
+Summary: Simple y minimalista entorno de aprendisaje en linea.
+Home-page: UNKNOWN
+Author: BMO Soluciones, S.A.
+Author-email: williamjmorenor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Spanish
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# now-lms
+

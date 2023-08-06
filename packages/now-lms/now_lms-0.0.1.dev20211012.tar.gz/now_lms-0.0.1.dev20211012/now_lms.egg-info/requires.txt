@@ -1,0 +1,15 @@
+alembic
+babel
+bcrypt
+flask
+flask-alembic
+flask-babel
+flask-login
+flask-sqlalchemy
+flask-wtf
+loguru
+sqlalchemy
+teritorio
+waitress
+wtforms
+WTForms-SQLAlchemy
