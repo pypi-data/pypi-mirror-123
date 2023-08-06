@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pat-match-st
+Version: 1.0.3
+Summary: pattern matching tools
+Home-page: https://github.com/balrajsingh9/gsa-projects
+Author: Balraj Singh Saini, Chahat Gupta, Janardhan Jayachandra Kammath
+Author-email: au671472@post.au.dk
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biopython
+
+This package contains the naive suffix-tree implementation                    which tries to find the pattern in the given string
+
