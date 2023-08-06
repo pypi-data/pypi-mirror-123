@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: MLPet
+Version: 0.0.6.1
+Summary: Package to prepare well log data for ML projects.
+Home-page: https://bitbucket.org/akerbp/mlpet/
+Author: Saghar Asadi
+Author-email: saghar.asadi@akerbp.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MLPet
+
+Preprocessing tools for Petrophysics ML projects at Eureka
+
+## Quick start
+
+- Clone this repository
+
+- Install the package by running the following (requires python 3.8 or later)
+
+        python -m pip install --upgrade pip
+        python install mlpet
+
+- Short example for pre-processing data prior to making a regression model:
+
+        from mlpet.Datasets.shear import Sheardata
+        # Instantiate an empty dataset object using the example settings and mappings provided
+        ds = Sheardata(
+                settings="support/settings_shear.yaml", 
+                mappings="support/mappings.yaml", 
+                folder_path="support/")
+        # Populate the dataset with data from a file 
+        # (support for multiple file formats and direct cdf data collection exists)
+        ds.load_from_pickle("support/data/shear.pkl")
+        # The original data will be kept in ds.df_original and will remain unchanged 
+        print(ds.df_original.head())
+        # Split the data into train-validation sets
+        df_train_original, df_valid_original, valid_wells = ds.train_test_split(
+                df=ds.df_original, 
+                test_size=0.3)
+        # Preprocess the data for training
+        df_train, train_key_wells, feats = ds.preprocess(df_train_original)
+        # Preprocecss accepts some keyword arguments related to various steps 
+        # (e.g. the key wells used for normalizing curves such as GR)
+        df_valid, valid_key_wells, _ = ds.preprocess(
+                df_valid_original, 
+                _normalize_curves={'key_wells':train_key_wells})
+
+
+The procedure will be exactly the same for the lithology class. The only difference will be in the "settings". Make sure that the curve names are consistent with those in the dataset. The mappings will NOT be applied during the load data step.        
+
+
