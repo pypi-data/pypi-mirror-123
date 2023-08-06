@@ -1,0 +1,9 @@
+README.md
+setup.py
+IsDigit.egg-info/PKG-INFO
+IsDigit.egg-info/SOURCES.txt
+IsDigit.egg-info/dependency_links.txt
+IsDigit.egg-info/requires.txt
+IsDigit.egg-info/top_level.txt
+isdigit/__init__.py
+isdigit/isdigit.py
