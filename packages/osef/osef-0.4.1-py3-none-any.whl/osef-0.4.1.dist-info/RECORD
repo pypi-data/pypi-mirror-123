@@ -1,0 +1,10 @@
+osef/__init__.py,sha256=kb3a3MkFdXYq4VMX-BX74B0kKK4C_mf29Y5AQ_N8SUs,212
+osef/parser.py,sha256=WSiJ-oe63qlZJBl1PdJwzo2fZbzVCuYgrZ48cYzmTC0,9896
+osef/saver.py,sha256=2t9Ern0wQaOnoxiTelsTHu82w-RbiomAMBh7XmHByjs,1609
+osef/streamer.py,sha256=UAC09veEbQ3tGqabsablc-CfQibcgF4cZEXnm8LVX04,2387
+osef/types.py,sha256=JTB318p4cZ6D-DFrq9s0dc3v3Gbk4idyMyMk0F5OF6U,17479
+osef-0.4.1.dist-info/LICENSE,sha256=nSCQaZQYx1qBfyIP8M9_qELQ_Nie1g1ZjJzTCHymrqA,1064
+osef-0.4.1.dist-info/METADATA,sha256=1XTDN02a17w-Ej_MW3nv8bvvFKF-glJPKuFlAMRW6uk,1884
+osef-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+osef-0.4.1.dist-info/top_level.txt,sha256=XRCKAB65kz71OaFUzAwX85SgpaAoq5gc_Ui3E9rUVCo,5
+osef-0.4.1.dist-info/RECORD,,
