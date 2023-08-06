@@ -1,0 +1,3 @@
+[console_scripts]
+tails-of-words = tails_of_words.__main__:main
+
