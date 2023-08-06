@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bearparse
+Version: 0.3.0
+Summary: A custom argument parser for non-standard arguments. Useful for Appworx
+License: GPL-3.0-or-later
+Author: Zevaryx
+Author-email: zevaryx@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: attrs (>=21.2.0,<22.0.0)
