@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+iar_wiki_parser/__init__.py
+iar_wiki_parser/wikipedia_parser.py
+iar_wiki_parser/wikipedia_parser_consts.py
+iar_wiki_parser.egg-info/PKG-INFO
+iar_wiki_parser.egg-info/SOURCES.txt
+iar_wiki_parser.egg-info/dependency_links.txt
+iar_wiki_parser.egg-info/requires.txt
+iar_wiki_parser.egg-info/top_level.txt
