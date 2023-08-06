@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: gam-gate
+Version: 0.2.1
+Summary: Simulation for Medical Physics
+Home-page: https://github.com/dsarrut/gam-gate
+Author: Opengate collaboration
+Author-email: david.sarrut@creatis.insa-lyon.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: colored
+Requires-Dist: click
+Requires-Dist: python-box
+Requires-Dist: anytree
+Requires-Dist: numpy
+Requires-Dist: itk
+Requires-Dist: uproot
+Requires-Dist: sphinx
+Requires-Dist: scipy
+Requires-Dist: sphinx-pdj-theme
+Requires-Dist: recommonmark
+Requires-Dist: matplotlib
+Requires-Dist: colorlog
+
+
+This **experiment** is a **work in progress**. Even the name (gam-gate) is temporary.
+
+First install https://github.com/dsarrut/gam-g4
+
+# Installation
+
+Clone the repository: 
+```
+git clone https://github.com/dsarrut/gam-gate
+```
+
+Then install the module:
+```
+cd gam-gate
+pip install -e .
+```
+
+Several python's modules will be downloaded and installed (numpy, itk, matplotlib, etc)
+
+
+# Test
+
+Clone the repository with all tests and run them, either one by one or all at once: 
+
+```
+git clone https://github.com/dsarrut/gam_tests
+
+
+```
+
+
+
+
+
+
