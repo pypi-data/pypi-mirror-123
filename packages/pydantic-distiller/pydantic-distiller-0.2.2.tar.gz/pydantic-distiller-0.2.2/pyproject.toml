@@ -1,0 +1,71 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pydantic-distiller"
+version = "0.2.2"
+description = "HTML/JSON documents parser into Pydantic models"
+author = "Arseny Gabdullin"
+authors = [
+  {name = "Arseny Gabdullin", email = "a.gabdullin@tinkoff.ru"}
+]
+classifiers = [
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Typing :: Typed",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development",
+  "Topic :: Text Processing :: Markup :: HTML",
+  "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.6"
+dependencies = [
+  "pydantic >=1.0.0",
+]
+readme = "README.md"
+
+[project.urls]
+Source = "https://github.com/tinkoffjournal/distiller"
+
+[project.optional-dependencies]
+html = [
+  "beautifulsoup4 >=4.8.1",
+  "lxml",
+]
+test = [
+  "pytest >=4.0.0",
+  "pytest-cov",
+  "mypy",
+  "black",
+  "isort > 5",
+  "faker",
+  "flake8",
+]
+dev = [
+  "devtools"
+]
+
+[tool.flit.module]
+name = "distiller"
+
+[tool.black]
+target-version = ["py37"]
+skip-string-normalization = true
+line_length = 100
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+use_parentheses = true
+line_length = 100
+combine_as_imports = true
+combine_star = true
+known_third_party = ["bs4", "pydantic"]
