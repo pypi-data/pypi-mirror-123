@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Unified-FastAPI-Gunicorn-Log
+Version: 0.4.0
+Summary: Unified FastAPI, Uvicorn, and Gunicorn logger by Logguru
+Home-page: https://github.com/pahntanapat/Unified-FastAPI-Gunicorn-Log
+Author: Tanapat Kahabodeekanokkul
+Author-email: contact@sati.co.th
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pahntanapat/Unified-FastAPI-Gunicorn-Log/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: gunicorn
+Requires-Dist: uvicorn
+
+# Unified Logging by Loguru for Gunicorn, Uvicorn, and FastAPI
+
+Inspired and Modified from [Pawamoy&apos;s articles](https://pawamoy.github.io/posts/unify-logging-for-a-gunicorn-uvicorn-app/) 
+
+## Installation
+```sh
+pip install unified-fastAPI-gunicorn-log
+```
+
+## Example
+See [example.py](example.py) and [example_inherited.py](example_inherited.py). To run server, follow below command.
+```sh
+python example.py
+python example_inherited.py
+```
+
+----
+&copy; 2021 Tanapat Kahabodeekanokkul
+
+
