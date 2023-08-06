@@ -1,0 +1,10 @@
+napari_plugin_search/__init__.py,sha256=V0JvMIZRRKpEFHp4OzHRTqA8Ga15kQlFxHXePjNAprs,102
+napari_plugin_search/_dock_widget.py,sha256=15Lut3qyTDTXVbVg6JooHXifHvBmYgaUvpIvz_Tny-A,3617
+napari_plugin_search/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_plugin_search/_tests/test_dock_widget.py,sha256=z7dGxCPksRot356_oVAqWqnf_W3Ov0plOnEA9aJnI10,735
+napari_plugin_search-0.1.1.dist-info/LICENSE,sha256=MyhgSlBg--6XWw-DgVPmfQ88-xsS507faagImeXWiPU,1519
+napari_plugin_search-0.1.1.dist-info/METADATA,sha256=ZR_NyEOIXnoZdqeqpggdu-QVle88kVG5JBszexFCNCs,3919
+napari_plugin_search-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+napari_plugin_search-0.1.1.dist-info/entry_points.txt,sha256=9f7THaF3yKVRblz_FYKplO0Mvh6Cu392GJNXtXDWTW0,56
+napari_plugin_search-0.1.1.dist-info/top_level.txt,sha256=2ItOlVhx7Z3x4hl1AGY-PHEuzWSv19vbAF7CH6duiqM,21
+napari_plugin_search-0.1.1.dist-info/RECORD,,
