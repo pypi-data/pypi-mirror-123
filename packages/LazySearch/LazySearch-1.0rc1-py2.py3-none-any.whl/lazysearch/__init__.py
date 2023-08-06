@@ -1,0 +1,1 @@
+from .lazysearch import Index
