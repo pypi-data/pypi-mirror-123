@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ttpypi/__init__.py
+ttpypi/oh.py
+whrpypitest.egg-info/PKG-INFO
+whrpypitest.egg-info/SOURCES.txt
+whrpypitest.egg-info/dependency_links.txt
+whrpypitest.egg-info/top_level.txt
