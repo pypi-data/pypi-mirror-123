@@ -1,0 +1,4 @@
+From Python 3.7.5
+
+python setup.py sdist
+twine upload dist/*
