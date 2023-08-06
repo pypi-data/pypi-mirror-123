@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bmkg/__init__.py
+bmkgnasir.egg-info/PKG-INFO
+bmkgnasir.egg-info/SOURCES.txt
+bmkgnasir.egg-info/dependency_links.txt
+bmkgnasir.egg-info/top_level.txt

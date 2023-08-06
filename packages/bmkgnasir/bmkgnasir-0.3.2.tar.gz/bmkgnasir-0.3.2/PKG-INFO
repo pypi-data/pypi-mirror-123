@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: bmkgnasir
+Version: 0.3.2
+Summary: retrieve latest earthquake information in Indonesia
+Home-page: https://github.com/nasirnooruddin/latest-indonesia-earthquake
+Author: Nasir Nooruddin
+Author-email: nasir@nasir.id
+License: UNKNOWN
+Project-URL: Website, http://nasir.id
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Latest Earthquake in Indonesia 
+
+### How it works
+This package will retrieve latest earthquake information from [BMKG](https://bmkg.go.id)
+
+### Author
+Nasir Nooruddin
+
+### Email
+nasir@nasir.id
+
+### How to use this package
+install command :
+
+    pip install requests
+    pip install beautifulsoup4
+    pip install bmkgnasir
+
+Insert following scripts into your main.py
+
+    from bmkg import extract, show
+    if __name__ == '__main__':
+        result = extract()
+        show(result)
+
