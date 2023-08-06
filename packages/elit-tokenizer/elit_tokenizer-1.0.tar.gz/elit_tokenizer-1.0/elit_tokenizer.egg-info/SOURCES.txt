@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+elit_tokenizer/__init__.py
+elit_tokenizer/demo.py
+elit_tokenizer/tokenizer.py
+elit_tokenizer/util.py
+elit_tokenizer.egg-info/PKG-INFO
+elit_tokenizer.egg-info/SOURCES.txt
+elit_tokenizer.egg-info/dependency_links.txt
+elit_tokenizer.egg-info/top_level.txt
+elit_tokenizer/resources/__init__.py
+elit_tokenizer/tests/__init__.py
+elit_tokenizer/tests/conftest.py
+elit_tokenizer/tests/test_tokenizer.py
