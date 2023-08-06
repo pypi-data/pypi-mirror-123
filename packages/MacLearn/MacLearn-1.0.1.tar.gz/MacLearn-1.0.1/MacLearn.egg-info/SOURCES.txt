@@ -1,0 +1,15 @@
+setup.py
+MacLearn.egg-info/PKG-INFO
+MacLearn.egg-info/SOURCES.txt
+MacLearn.egg-info/dependency_links.txt
+MacLearn.egg-info/not-zip-safe
+MacLearn.egg-info/requires.txt
+MacLearn.egg-info/top_level.txt
+maclearn/__init__.py
+maclearn/maclearn.py
+maclearn.egg-info/PKG-INFO
+maclearn.egg-info/SOURCES.txt
+maclearn.egg-info/dependency_links.txt
+maclearn.egg-info/not-zip-safe
+maclearn.egg-info/requires.txt
+maclearn.egg-info/top_level.txt
