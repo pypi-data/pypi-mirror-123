@@ -1,0 +1,3 @@
+[console_scripts]
+s77=security77.main:cli
+

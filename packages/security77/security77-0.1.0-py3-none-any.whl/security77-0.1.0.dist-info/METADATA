@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: security77
+Version: 0.1.0
+Summary: A command-line tool and python package to make security simple.
+Home-page: https://github.com/wallacesilva/security77/
+License: MIT
+Author: Wallace Silva
+Author-email: contact@wallacesilva.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Project-URL: Documentation, https://github.com/wallacesilva/security77/
+Project-URL: Repository, https://github.com/wallacesilva/security77/
+Description-Content-Type: text/markdown
+
+# Security77
+
+A command line tool and python package to make security simple. Command `s77`
+
+# Features
+
+- Generate password;
+
+# ToDo/Ideas
+
+- [ ] Generate Django Secret Key;
+- [ ] Generate password;
+- [ ] Validate password force;
+- [ ] Generate Custom Wordlist with data from user (name, age, animal, family, religion, ...);
+- [ ] Scan home directory to get passwords;
+- [ ] Get WiFi password;
+
+# Install
+
+Requirements
+
+- Python
+
+## How to install?
+
+```bash
+pip install security77
+``` 
+
+# Usage
+
+Some examples of usage.
+
+### Generate Django Secret Key
+
+```bash
+s77 django-secret-key-gen
+``` 
+
+### Generate Password
+
+```bash
+s77 passgen --size=16 --charlist=[all|numbers|letters|numbers_letters|low_letters|up_letters|special_chars] --custom-charlist=abc123
+```
+
+# Tests
+
+Run local tests (development).
+
+```bash
+make test
+``` 
+
+# License
+
+MIT LICENSE (c) 2021 Wallace Silva
+
