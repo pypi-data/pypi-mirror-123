@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-stock-logistics-reporting
+Version: 10.0.20211017.0
+Summary: Meta package for oca-stock-logistics-reporting Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-stock-valued-picking-report
+Requires-Dist: odoo10-addon-stock-valued-picking-report-triple-discount
+
+UNKNOWN
+
