@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: traquitanas
+Version: 1.0.16
+Summary: Small Defs...
+Home-page: https://github.com/open-dsa/gerador_endereco
+Author: Michel Metran
+Author-email: michelmetran@gmail.com
+License: UNKNOWN
+Keywords: python,endereço aleatório,address
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Portuguese
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycep-correios (>=5.0.0)
+Requires-Dist: requests (>=2.10.1)
+Requires-Dist: chardet (>=4.0.0)
+Requires-Dist: tqdm (>=4.62.3)
+
+# Traquitanas
+
+Meu teste
+
+-----
+
+### PyPi
+
+[PyPi](https://pypi.org/project/traquitanas/)
+
+
