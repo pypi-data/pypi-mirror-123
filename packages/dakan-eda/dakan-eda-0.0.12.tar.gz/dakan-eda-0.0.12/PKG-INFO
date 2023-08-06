@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dakan-eda
+Version: 0.0.12
+Summary: EDA data for dakan
+Home-page: https://github.com/navikt/dakan-eda
+Keywords: dakan,eda
+Author: vrekkebo
+Author-email: vebjorn.rekkebo@nav.no
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: google-cloud-bigquery (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/navikt/dakan-eda
+Description-Content-Type: text/markdown
+
+# dakan-eda
+
+On ice :)
+
+This package is meant to extract privacy conserving EDA-data from a BigQuery table to a viewer in Datakatalogen.
+
