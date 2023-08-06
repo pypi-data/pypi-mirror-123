@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: brain_segmen
+Version: 0.0.2
+Summary: Berikut ini adalah deskripsi singkat bagaimana segmentasi otak dibuat
+Home-page: https://github.com/asyrofist/Brain-Segmentation
+Author: Asyrofi (Rakha Asyrofi)
+Author-email: rakhasyrofist@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/asyrofist/Brain-Segmentation/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5559181.svg)](https://doi.org/10.5281/zenodo.5559181)
+![PyPI - Python Version](https://img.shields.io/badge/python-3.7.0-blue.svg)
+[![PyPI](https://img.shields.io/pypi/v/brain-segmen.svg)](https://pypi.org/project/brain-segmen/)
+![image](https://visitor-badge.laobi.icu/badge?page_id=asyrofist/Brain_segmentation)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/brain-segmen/badge/?version=latest)](https://brain-segmen.readthedocs.io/en/latest/?badge=latest)
+[![Build Status](https://app.travis-ci.com/asyrofist/Brain-Segmentation.svg?branch=master)](https://app.travis-ci.com/asyrofist/Brain-Segmentation)
+[![Paper](http://img.shields.io/badge/Paper-PDF-red.svg)](https://ieeexplore.ieee.org/document/9234262)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4a3695be4535bae295ad/maintainability)](https://codeclimate.com/github/asyrofist/brain_segmen/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4a3695be4535bae295ad/test_coverage)](https://codeclimate.com/github/asyrofist/brain_segmen/test_coverage)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://segbrain.herokuapp.com/)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+
+# Brain Segmentation
+Author  | [Rakha Asyrofi](https://scholar.google.com/citations?user=WN9T5UUAAAAJ&hl=id&oi=ao)
+ -------|-----------
+Version | 0.0.1
+Updated | 2021-09-12
+
+# Overview
+Click this link to see [live demo](https://segbrain.herokuapp.com/) If you want to see 
+
+Cerebellum and Frontal Lobe Segmentation Based on K-Means Clustering and Morphological Transformation described in [our paper at iSemantic2020](https://ieeexplore.ieee.org/document/9234262). Please kindly cite the following paper when you use this tool. It would also be appreciated if you send me a courtesy [website](http://rakha.asyrofi.com/) and [google scholar](https://scholar.google.com/citations?user=WN9T5UUAAAAJ&hl=id&oi=ao), so I could survey what kind of tasks the tool is used for. 
+```
+@INPROCEEDINGS{9234262,  author={Asyrofi, Rakha and Winata, Yoni Azhar and Sarno, Riyanarto and Fajar, Aziz},  
+booktitle={2020 International Seminar on Application for Technology of Information and Communication (iSemantic)},   
+title={Cerebellum and Frontal Lobe Segmentation Based on K-Means Clustering and Morphological Transformation},   
+year={2020},  
+volume={},  
+number={},  
+pages={149-154},  
+doi={10.1109/iSemantic50169.2020.9234262}}
+```
+
+Developed by Asyrofi (c) 2021
+
+## Cara menginstal
+
+instalasi melalui pypi:
+
+    pip install brain_segmen
+
+
+## Cara menggunakan program
+
+```python
+from brainsegmen.segmen import brainSegment
+mySegmen = brainSegment()
+a = mySegmen.bukadata(data)
+```
+
+Check out: https://youtu.be/ZzlAgxbpK4E
+
+
+
+
+

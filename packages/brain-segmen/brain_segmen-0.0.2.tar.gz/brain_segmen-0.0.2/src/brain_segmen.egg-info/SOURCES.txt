@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/brain_segmen/__init__.py
+src/brain_segmen/segmen.py
+src/brain_segmen.egg-info/PKG-INFO
+src/brain_segmen.egg-info/SOURCES.txt
+src/brain_segmen.egg-info/dependency_links.txt
+src/brain_segmen.egg-info/top_level.txt
