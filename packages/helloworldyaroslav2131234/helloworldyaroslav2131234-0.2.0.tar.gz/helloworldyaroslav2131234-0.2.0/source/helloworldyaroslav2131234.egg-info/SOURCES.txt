@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+source/example_package/__init__.py
+source/example_package/hello.py
+source/helloworldyaroslav2131234.egg-info/PKG-INFO
+source/helloworldyaroslav2131234.egg-info/SOURCES.txt
+source/helloworldyaroslav2131234.egg-info/dependency_links.txt
+source/helloworldyaroslav2131234.egg-info/requires.txt
+source/helloworldyaroslav2131234.egg-info/top_level.txt
