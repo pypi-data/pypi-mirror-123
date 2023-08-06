@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: cleverchat.py
+Version: 0.0.3
+Summary: API Wrapper for clever-chat API
+Home-page: https://github.com/Hype3808/CleverChat.py
+Author: Hype3808
+License: MIT
+Keywords: chatbot,clever-chat,clever-bot,chat,bot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: requests
+
+# CleverChat.py
+API wrapper for clever-chat ChatBot API
+
+## Example Sync Usage
+```python
+from clever_chat import Client
+
+client = Client()
+
+res = client.get_response("Hi")
+print(res.message)
+client.close()
+```
+
+## Example Async Usage
+```python
+from clever_chat import AsyncClient
+import asyncio
+
+client = AsyncClient()
+
+async def main():
+    response = await client.get_response("Hi")
+    print(response.message)
+    await client.close()
+
+asyncio.get_event_loop().run_until_complete(main())
+```
+
+## Links
+- **Docs:** https://hype3808.github.io/CleverChat.py/
+
+
