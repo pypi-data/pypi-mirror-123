@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "nametable"
+version = "0.1.0"
+description = "An OOP approach to represent nametables on the NES"
+authors = ["TheJoeSmo <joesmo.joesmo12@gmail.com>"]
+license = "GPL3"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9.7,<3.11"
+numpy = "^1.21.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.7b0", allow-prereleases = true}
+pytest = "^6.2.4"
+flake8 = "^3.9.2"
+pydata-sphinx-theme = "^0.6.3"
+numpydoc = "^1.1.0"
+hypothesis = "^6.23.1"
+Sphinx = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
