@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "tikbot"
+version = "0.1.0"
+description = "Telegram Bot for Mikrotik (RouterOS)"
+authors = ["hexatester <hexatester@protonmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-telegram-bot = "^13.7"
+python-dotenv = "^0.19.1"
+attrs = "^21.2.0"
+cattrs = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.9b0"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
