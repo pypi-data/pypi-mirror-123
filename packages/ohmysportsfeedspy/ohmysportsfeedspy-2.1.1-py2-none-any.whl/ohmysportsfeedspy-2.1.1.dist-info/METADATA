@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ohmysportsfeedspy
+Version: 2.1.1
+Summary: A Python wrapper for the MySportsFeeds Sports Data API
+Home-page: https://github.com/MySportsFeeds/mysportsfeeds-python
+Author: ['Brad Barkhouse', 'MySportsFeeds']
+Author-email: brad.barkhouse@mysportsfeeds.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (<3,>=2)
+Requires-Dist: simplejson (<4,>=3)
+Requires-Dist: python-dateutil (<3,>=2)
+
+UNKNOWN
+
+
