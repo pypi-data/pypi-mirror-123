@@ -1,0 +1,17 @@
+README.md
+setup.py
+identitylib/__init__.py
+identitylib/api_client.py
+identitylib/card_client.py
+identitylib/identifiers.py
+identitylib/photo_client.py
+identitylib/utils.py
+tests/__init__.py
+tests/test_card_client.py
+tests/test_identifiers.py
+tests/test_photo_client.py
+ucam_identitylib.egg-info/PKG-INFO
+ucam_identitylib.egg-info/SOURCES.txt
+ucam_identitylib.egg-info/dependency_links.txt
+ucam_identitylib.egg-info/requires.txt
+ucam_identitylib.egg-info/top_level.txt

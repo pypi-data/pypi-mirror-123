@@ -1,0 +1,4 @@
+dataclasses
+frozendict
+requests
+requests_oauthlib
