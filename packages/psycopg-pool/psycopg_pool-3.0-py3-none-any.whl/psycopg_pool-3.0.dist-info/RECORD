@@ -1,0 +1,13 @@
+psycopg_pool/__init__.py,sha256=EtwbcgKH4XDogI8hG_PMAaCqePWgL9nuCgqNZ7zXlXI,389
+psycopg_pool/base.py,sha256=Nb7DRCPVYg9OJi-W_8gIjgdLm1U364reCpsbGgZIZwY,6130
+psycopg_pool/errors.py,sha256=1ZxNncATV0xOfm90RyFBQepb33pQVcOrg8ibwKm6wcs,537
+psycopg_pool/pool.py,sha256=6tIyRjHqAnlGqCTmmpNzfVbTgFvaoMw_Pa074XepEVk,27762
+psycopg_pool/pool_async.py,sha256=IFyiviQwMMHx68Ya6DP9ONdiBt2FRhjwgY1B3hBzHws,25396
+psycopg_pool/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psycopg_pool/sched.py,sha256=gMCIXRuUOX2D_8bzkMqeB4lmf2Z1N_E3QRn0pjMic0U,5691
+psycopg_pool/version.py,sha256=Nfp8OQrlbYQk8QFrSS1mu2CvJvSsMtj20G_Puqt48QM,179
+psycopg_pool-3.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+psycopg_pool-3.0.dist-info/METADATA,sha256=7emgQe6qHKezSs49oDn6apS9ltewZUlVteJ0y82TY2E,2132
+psycopg_pool-3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+psycopg_pool-3.0.dist-info/top_level.txt,sha256=Vkw5FyzMlZKFG1ila6LtTOf4So1mwwhxB7AY8P_EszY,13
+psycopg_pool-3.0.dist-info/RECORD,,
