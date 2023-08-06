@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: leds
+Version: 3.5
+Summary: leds is a pure python library for manipulating a wide variety of LED strip based displays, both in strip and matrix form.
+Home-page: http://github.com/rec/leds/
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+License: MIT
+Description: BiblioPixel: the light programming system
+        ------------------------------------------
+        
+        `Documentation <https://maniacallabs.github.io/BiblioPixel>`_...
+        ---------------------------------------------------------------------
+        
+        .. code-block:: yaml
+        
+               animation: $bpa.matrix.bloom
+               shape: [64, 64]
+        
+        
+        .. image:: https://raw.githubusercontent.com/ManiacalLabs/DocsFiles/master/BiblioPixel/README.gif
+           :target: https://raw.githubusercontent.com/ManiacalLabs/DocsFiles/master/BiblioPixel/README.gif
+           :alt: Result
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
