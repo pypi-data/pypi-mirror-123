@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+examples/adder.py
+gatepy/__init__.py
+gatepy.egg-info/PKG-INFO
+gatepy.egg-info/SOURCES.txt
+gatepy.egg-info/dependency_links.txt
+gatepy.egg-info/top_level.txt
+tests/test_gatepy.py
