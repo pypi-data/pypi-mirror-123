@@ -1,0 +1,12 @@
+YeetsMenu/Menu.py,sha256=I_9OfWGW_fDgw9_qqe1BdntVBqEVvd3TSspMNs2NDYE,2183
+YeetsMenu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+YeetsMenu/generics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+YeetsMenu/generics/selectable.py,sha256=5eB39Tt1D6S6DOoqviZYDDYWn3rMbG51AQGYFxwwFGQ,197
+YeetsMenu/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+YeetsMenu/utils/option.py,sha256=KiUCnAsGZDiPnxz-nt8h66DlGTtI77o1O6rpTPK4CiE,683
+YeetsMenu/utils/utils.py,sha256=DIMgw8gm72ptnwbd_ZmhdPjx79w04uukMxC8mqTHJgw,184
+YeetsMenu-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+YeetsMenu-0.0.2.dist-info/METADATA,sha256=5zmiLxzgsDc5fNd7NCC5X70wBlBHWEpr_4Ni0QL3GjE,561
+YeetsMenu-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+YeetsMenu-0.0.2.dist-info/top_level.txt,sha256=XbY8fIJ6e09hEtv5PFRx0xwYHUbkXnImJiq29qBfMAs,10
+YeetsMenu-0.0.2.dist-info/RECORD,,
