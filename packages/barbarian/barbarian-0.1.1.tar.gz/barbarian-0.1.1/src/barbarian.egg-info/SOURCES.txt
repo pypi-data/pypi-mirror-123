@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.py
+src/barbarian.egg-info/PKG-INFO
+src/barbarian.egg-info/SOURCES.txt
+src/barbarian.egg-info/dependency_links.txt
+src/barbarian.egg-info/entry_points.txt
+src/barbarian.egg-info/requires.txt
+src/barbarian.egg-info/top_level.txt
+src/barbarians/__init__.py
+src/barbarians/barbarian.py
