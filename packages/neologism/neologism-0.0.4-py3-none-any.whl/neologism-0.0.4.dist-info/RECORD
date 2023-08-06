@@ -1,0 +1,10 @@
+neologism/__init__.py,sha256=L6VRtzdKmqXuiicxN2mnjtmkHWFSCqZ0afOIAvq7Eig,384
+neologism/dcfg.py,sha256=nP09efeO12bN9mtr4Fw5F8x9uSqCsJx3SLbT2F_fLGw,16664
+neologism/rule.py,sha256=LKS8wI683PjvoZQf2cWViChh7T8TSZiYmg44gUPnF4I,734
+neologism/utils.py,sha256=uv82X-flgmHL4rG4Jn-fq1rM5SKAHyJB1f482NiyaK0,1856
+neologism/yacc.py,sha256=YmPN0pbaTcJPGTscKdMro5bZFkGY4ikEMvHXTpuw1SY,1378
+neologism-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+neologism-0.0.4.dist-info/METADATA,sha256=UCzzM3krVsLdORIY8fqIw7UQRHGu93mCLCkzqTFja1w,681
+neologism-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+neologism-0.0.4.dist-info/top_level.txt,sha256=wZY-msobm_eWEOq0yG01bYJagJyX7Mdj-_8aLalt4Nw,10
+neologism-0.0.4.dist-info/RECORD,,
