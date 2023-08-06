@@ -1,0 +1,4 @@
+[console_scripts]
+md-paper=mdpaper.main:app
+pandoc-docxtras=mdpaper.filters:main
+
