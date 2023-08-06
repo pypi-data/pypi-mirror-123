@@ -1,0 +1,12 @@
+exonutils<5.0,>=4.6
+Babel>=2.9
+flask-babelex>=0.9
+
+[:python_version < "3.0"]
+future>=0.18
+flask>=1.1
+Jinja2>=2.11
+
+[:python_version > "3.0"]
+flask>=2.0
+Jinja2>=3.0
