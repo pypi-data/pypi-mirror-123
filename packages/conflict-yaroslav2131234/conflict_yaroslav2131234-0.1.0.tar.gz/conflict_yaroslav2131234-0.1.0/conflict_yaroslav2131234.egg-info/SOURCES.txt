@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+conflict_yaroslav2131234.egg-info/PKG-INFO
+conflict_yaroslav2131234.egg-info/SOURCES.txt
+conflict_yaroslav2131234.egg-info/dependency_links.txt
+conflict_yaroslav2131234.egg-info/requires.txt
+conflict_yaroslav2131234.egg-info/top_level.txt
+source/__init__.py
+source/module_print.py
