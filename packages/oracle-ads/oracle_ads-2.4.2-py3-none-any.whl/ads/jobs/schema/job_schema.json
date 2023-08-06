@@ -1,0 +1,42 @@
+{
+	"apiVersion": {
+		"required": false,
+		"nullable": true,
+		"type": "string"
+	},
+	"audit": {
+		"required": false,
+		"type": "dict",
+		"schema": {
+			"dateCreated": {
+				"required": false
+			}
+		}
+	},
+	"kind": {
+		"required": true,
+		"type": "string",
+		"allowed": [
+			"job"
+		]
+	},
+	"spec": {
+		"required": true,
+		"type": "dict",
+		"schema": {
+			"id" : {
+				"required": false
+			},
+			"infrastructure": {
+				"required": false
+			},
+			"runtime": {
+				"required": false
+			},
+			"name": {
+				"required": false,
+				"type": "string"
+			}
+		}
+	}
+}
