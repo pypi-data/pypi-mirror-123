@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: quicklearn
+Version: 0.1.6
+Summary: Tool for easy machine learning
+Home-page: https://gitlab.cern.ch/clcheng/quicklearn
+Author: Alkaid Cheng
+Author-email: chi.lung.cheng@cern.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: xgboost
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+
+# quickLearn
+
+Tools for quick machine learning
+
