@@ -1,0 +1,10 @@
+aws_cdk/aws_neptune_alpha/__init__.py,sha256=XHtAHAOMIrJyVci15NbHOweu2XcqA-aHKJj03Ny4JCw,98832
+aws_cdk/aws_neptune_alpha/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_neptune_alpha/_jsii/__init__.py,sha256=ZzOqc4RwH6hTDBPt8hkevVT_JPyQCM5AY_0Eg-Mz7Sg,401
+aws_cdk/aws_neptune_alpha/_jsii/aws-neptune-alpha@2.0.0-rc.24.jsii.tgz,sha256=t1gcxmbF7afaUr5khgu2VQypW_W6AczgzB9VYv7azII,296481
+aws_cdk.aws_neptune_alpha-2.0.0rc24.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_neptune_alpha-2.0.0rc24.dist-info/METADATA,sha256=ci-a-YEr4cI5El3JU4RpYtzuUr4QZ3NkLo_utmlvLhA,6416
+aws_cdk.aws_neptune_alpha-2.0.0rc24.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_neptune_alpha-2.0.0rc24.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.aws_neptune_alpha-2.0.0rc24.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_neptune_alpha-2.0.0rc24.dist-info/RECORD,,
