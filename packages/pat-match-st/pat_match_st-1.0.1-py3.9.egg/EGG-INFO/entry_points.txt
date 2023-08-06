@@ -1,0 +1,3 @@
+[console_scripts]
+search-st = scripts.search_st:main
+
