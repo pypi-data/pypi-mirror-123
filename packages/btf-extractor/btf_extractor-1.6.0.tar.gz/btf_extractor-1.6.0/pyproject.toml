@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "btf_extractor"
+version = "1.6.0"
+description = "Extract UBO BTF archive format(UBO2003, ATRIUM, UBO2014)."
+authors = ["2-propanol <nuclear.fusion.247@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/2-propanol/btf_extractor"
+license = "zlib license"
+packages = [
+    { include = "btf_extractor"},
+]
+exclude = [
+    {path = "btf_extractor/ubo2014.cpp"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.19"
+nptyping = "^1"
+simplejpeg = ">=1.3"
+imageio = "^2.6"
+Cython = "^0.29"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+ptpython = ">=3"
+tqdm = "^4"
+
+[tool.poetry.build]
+generate-setup-file = true
+script = "build.py"
+
+[build-system]
+# OK: complie with NumPy 1.20+ & import numpy 1.20+
+# OK: compile with NumPy 1.19  & import numpy 1.20+
+# NG: compile with NumPy 1.20+ & import numpy 1.19
+# cf. https://github.com/numpy/numpy/releases/tag/v1.20.0
+#     https://github.com/numpy/numpy/pull/16938
+#     https://zenn.dev/ymd_h/articles/934a90e1468a05
+#     https://zenn.dev/ymd_h/scraps/fd2bc283cfa221
+requires = ["poetry-core>=1.0.0", "setuptools", "Cython>=0.29", "numpy<1.20"]
+build-backend = "poetry.core.masonry.api"
