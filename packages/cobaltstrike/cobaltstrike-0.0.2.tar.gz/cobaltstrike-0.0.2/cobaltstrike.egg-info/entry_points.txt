@@ -1,0 +1,6 @@
+[console_scripts]
+aggressor = cobaltstrike:aggressor
+aggressor_script = cobaltstrike:aggressor_script
+bridge = cobaltstrike:bridge
+sleep_python_bridge = cobaltstrike:sleep_python_bridge
+

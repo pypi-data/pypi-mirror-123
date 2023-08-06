@@ -1,0 +1,8 @@
+README.md
+setup.py
+cobaltstrike/__init__.py
+cobaltstrike.egg-info/PKG-INFO
+cobaltstrike.egg-info/SOURCES.txt
+cobaltstrike.egg-info/dependency_links.txt
+cobaltstrike.egg-info/entry_points.txt
+cobaltstrike.egg-info/top_level.txt
