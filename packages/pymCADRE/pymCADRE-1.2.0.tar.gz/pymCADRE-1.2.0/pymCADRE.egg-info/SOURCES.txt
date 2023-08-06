@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pymCADRE.egg-info/PKG-INFO
+pymCADRE.egg-info/SOURCES.txt
+pymCADRE.egg-info/dependency_links.txt
+pymCADRE.egg-info/top_level.txt
