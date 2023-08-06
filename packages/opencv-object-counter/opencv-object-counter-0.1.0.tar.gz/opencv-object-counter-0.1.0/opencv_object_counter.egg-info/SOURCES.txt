@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+opencv_object_counter.egg-info/PKG-INFO
+opencv_object_counter.egg-info/SOURCES.txt
+opencv_object_counter.egg-info/dependency_links.txt
+opencv_object_counter.egg-info/entry_points.txt
+opencv_object_counter.egg-info/top_level.txt
