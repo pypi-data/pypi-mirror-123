@@ -1,0 +1,13 @@
+pydantic
+numpy
+pandas
+tensorflow
+unidecode
+transliterate
+sklearn
+scipy
+matplotlib
+dload
+requests
+google
+tqdm
