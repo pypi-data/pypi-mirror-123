@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: shopipy
+Version: 0.3.0
+Summary: An alternative wrapper to the Shopify API.
+Author: Lowercase
+Author-email: lowercase00@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
