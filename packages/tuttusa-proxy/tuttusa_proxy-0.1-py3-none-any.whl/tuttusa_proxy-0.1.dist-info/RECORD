@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=8RG4dScDP9qwBrCOJMM-J5eYunEytlo7MuefwB5iC1Y,43
+tests/test_tuttusa_proxy.py,sha256=xEXlke5lt6oZ52Jo0ZfCMHZbGwsjRdtC8hRYY4fiZdg,584
+tuttusa_proxy/__init__.py,sha256=Fn-LUnc1-2nQ5RwTX4wLQjJc3QB0judiZkYIQI1R2gU,137
+tuttusa_proxy/cli.py,sha256=JhtmJ55uBkuHwsowf3u2JE2pEf3mPJ664rHhHLdMTP8,383
+tuttusa_proxy/tuttusa_proxy.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+tuttusa_proxy-0.1.dist-info/AUTHORS.md,sha256=ZTexszuHoEVDLmFP80z_xfFJzDbJV5eZbFsTS5DRUUY,124
+tuttusa_proxy-0.1.dist-info/LICENSE,sha256=E2dAtvDK5R2fZbvS2Xltwz7f3peyhkijjYJjI-f097Q,1075
+tuttusa_proxy-0.1.dist-info/METADATA,sha256=hHidBdiqpa4gFJBpzEEk68Yz-3Q12N0A6ol9TBoQ36o,1807
+tuttusa_proxy-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tuttusa_proxy-0.1.dist-info/top_level.txt,sha256=M6WZr02p4rRjETf5d6kxPA1Yd4qCBcAx_0fjqBtFBeg,20
+tuttusa_proxy-0.1.dist-info/RECORD,,
