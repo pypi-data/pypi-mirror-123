@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+i18nfield = cubicweb_i18nfield
+
