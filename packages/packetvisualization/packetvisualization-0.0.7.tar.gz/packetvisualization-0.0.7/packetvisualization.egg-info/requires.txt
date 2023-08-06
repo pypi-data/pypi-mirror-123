@@ -1,0 +1,7 @@
+pyshark
+PyQt5
+sqlalchemy
+pandas
+plotly
+PyQtWebEngine
+scapy

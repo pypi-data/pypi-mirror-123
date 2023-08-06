@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: packetvisualization
+Version: 0.0.7
+Summary: packet visualization
+Home-page: https://gitlab.com/utep/packet-visualize
+Author: team-1
+Author-email: hbarrazalo@miners.utep.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
