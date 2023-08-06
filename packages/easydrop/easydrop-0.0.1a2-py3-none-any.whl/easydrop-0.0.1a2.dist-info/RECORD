@@ -1,0 +1,10 @@
+easydrop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easydrop/__main__.py,sha256=_mZNHSz2Y_0z9L2CtNa2AcPoaeR7TYeETx1egpkoLt0,37
+easydrop/bins/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easydrop/bins/owl,sha256=3uqd5Jlk1YBiSkgDTWUNhXacRKkGuomly_Pk6UGeoL8,98040
+easydrop/cli.py,sha256=UMhbMDdutK-ibfmHviD34Ki2Ot8nNy0Yv_N1IHhfR7c,1583
+easydrop/owl.py,sha256=AGSLFOc6krIEZt25CmxIlpKVyixNpj64lv32PUKKMtI,3353
+easydrop-0.0.1a2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+easydrop-0.0.1a2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+easydrop-0.0.1a2.dist-info/METADATA,sha256=KJWRKVgT2hIvnzlA00avH3z3nbhl7B7o4mZ4r3UA0Bg,3782
+easydrop-0.0.1a2.dist-info/RECORD,,
