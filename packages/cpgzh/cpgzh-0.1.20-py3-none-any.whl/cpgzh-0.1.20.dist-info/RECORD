@@ -1,0 +1,14 @@
+cpgzh/__init__.py,sha256=uQN2qP9ckfeVZWKUK7gDA1oKzgjg39V7W8eTLZFZTio,493
+cpgzh/actor.py,sha256=FqcY773cTs-rnjwbhugnxleyWwEcWwbvMa7Z5Mk-2RU,12153
+cpgzh/animation.py,sha256=-kqz8Xan2gC0S9YQlxSEfisXbvNtyB1utdh75eZIuYI,788
+cpgzh/data.py,sha256=9qLQ6C0mmMLABHyiUzfAOZx5MZQLVfQWLsxwTl6rf3g,1491
+cpgzh/example.py,sha256=LUVpwYphixv7xn0TfsptpP40hzaft62rebDvHkh1M_k,4615
+cpgzh/master.py,sha256=Xv7RAtXYRh7N-bKhiaUTSDjkQUcuoSAY5KBmGP7EyEQ,3849
+cpgzh/msyh.ttf,sha256=mZIHubzYTzhDi4ybEDzChMMRhtgn2L652cYSixoO518,4505040
+cpgzh/pen.py,sha256=weEInU_V7Hpvul5G9q-Dg3pL_59fdewYVkfERjs0ey4,5220
+cpgzh/runner.py,sha256=kgoiZ75YMhH9RMnNGGyUJ2-ljGoOOMZlaOHHzoVijzU,194
+cpgzh-0.1.20.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cpgzh-0.1.20.dist-info/METADATA,sha256=qA2DqAiEUGutF4zf4gKyhflWU_CXoUXpfk2TqRDg27Q,11500
+cpgzh-0.1.20.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cpgzh-0.1.20.dist-info/top_level.txt,sha256=quOiRfGr5cudMxv3YkuMXEI4hNzydpa9gCb8P-FfXeQ,6
+cpgzh-0.1.20.dist-info/RECORD,,
