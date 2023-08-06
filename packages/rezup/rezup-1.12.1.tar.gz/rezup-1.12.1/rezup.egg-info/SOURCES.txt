@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rezup.egg-info/PKG-INFO
+rezup.egg-info/SOURCES.txt
+rezup.egg-info/dependency_links.txt
+rezup.egg-info/entry_points.txt
+rezup.egg-info/requires.txt
+rezup.egg-info/top_level.txt
+rezup.egg-info/zip-safe
