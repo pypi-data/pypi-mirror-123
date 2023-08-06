@@ -1,0 +1,7 @@
+pandas
+click
+scipy
+enlighten
+openpyxl
+xlwt
+dash
