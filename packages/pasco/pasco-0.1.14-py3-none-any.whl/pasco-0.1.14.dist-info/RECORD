@@ -1,0 +1,12 @@
+pasco/__init__.py,sha256=cwr3VY6d7FIgw0aK1-2jVb3Ymt3BGMWgBl2GiKED8aM,160
+pasco/character_library.py,sha256=HkpKoli_b4qjbYZiVEa89uQEhHuksLxGGz5CCmI5aHs,8720
+pasco/code_node_device.py,sha256=01CUZhQMHSOGIY2NPULp7MXgMh8nOG0mvvsVdq4GAAE,4074
+pasco/datasheets.xml,sha256=7RiIywa6mX4Rq7HDeV-6JF-SqGpeifBvjpWqZzevSyM,600739
+pasco/pasco_ble_device.py,sha256=odzLC6YLK1FP8qKRamVlj3ZrQpnzFifFNq7A6SpNxpA,39983
+pasco/__pycache__/character_library.cpython-37.pyc,sha256=92RWM0825SZXOOkvX0r0e0hEe1vrsV10suBS8EyygO4,4351
+pasco/__pycache__/pasco_ble_device.cpython-37.pyc,sha256=wWskklzRML2h3xSu-UQ-ScdvV5gbVb4UwNn0RKdbkCE,28836
+pasco-0.1.14.dist-info/LICENSE,sha256=5q0qZTQ9ZGKqXv72YmXuwNBv9pqLUOHBwU1ajaSZDdk,2355
+pasco-0.1.14.dist-info/METADATA,sha256=0pCvRe-7tCLek1v0x3fVo5KktnsHgIumXVQgvxvcOGI,12451
+pasco-0.1.14.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pasco-0.1.14.dist-info/top_level.txt,sha256=rcR8orJnr1PYJlRbxIR_vFoNwDUByYRj4zuw_hbmoPg,6
+pasco-0.1.14.dist-info/RECORD,,
