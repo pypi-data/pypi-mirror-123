@@ -1,0 +1,15 @@
+ci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ci/__main__.py,sha256=jSbUWPEAf323JmXkw_FErsAk98V6QzKWCIc8GQSaIV0,1933
+vpsearch-0.1.2.dist-info/RECORD,,
+vpsearch-0.1.2.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+vpsearch-0.1.2.dist-info/entry_points.txt,sha256=4mdqB7jFjvwPpoJv0cFLo5O0iQsb5Hiad_dHwZ8ajso,49
+vpsearch-0.1.2.dist-info/top_level.txt,sha256=0gIC-qPy7SMcPJATYS-MDHq4sKa6YC-aTvLNo74VKD4,12
+vpsearch-0.1.2.dist-info/LICENSE.txt,sha256=W1GLaLRwPqbcndMWxSmkcvg_cysGr8y6sjpG80DBLRc,2214
+vpsearch-0.1.2.dist-info/METADATA,sha256=6VkExq3xDL_-gvNXBO1gswxbadynu1wKF1J1Qc_yOnc,9797
+vpsearch/_cli.py,sha256=JL1werqNTPLoWdyF6KpP0GYlNbbgWCB2Smqy3hWOdzY,2876
+vpsearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpsearch/_vpsearch.cpython-37m-darwin.so,sha256=Sh_LzilCKXveHVqXbL97egdiA7ZttRaMHGLoj37GLew,494896
+vpsearch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpsearch/tests/test_vpsearch_cli.py,sha256=oAts-Q9XmEbQsQgpTmbjOaSagkP2CPeZBTlsXsj9QqQ,2389
+vpsearch/tests/test_vpsearch.py,sha256=KmU-JGYjHIOKQA5jl_ejVm5lOdPydRfUp3k-xBJklng,1926
+vpsearch/.dylibs/libparasail.3.dylib,sha256=zeR3CcP53Qyr-4bE1oE6GXZRkieZpbUgbodNo9pIOL8,8776384
