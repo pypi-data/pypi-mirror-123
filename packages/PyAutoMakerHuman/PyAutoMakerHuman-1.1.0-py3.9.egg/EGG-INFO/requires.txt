@@ -1,0 +1,13 @@
+imutils
+scikit-learn
+waitress
+flask
+requests
+PySide6
+
+[:platform_system == "Linux"]
+mediapipe-rpi4
+
+[:platform_system == "Windows"]
+mediapipe
+tensorflow
