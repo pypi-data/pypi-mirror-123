@@ -1,0 +1,17 @@
+DESCRIPTION.md
+LICENSE.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+qnap_qsw/__init__.py
+qnap_qsw/const.py
+qnap_qsw/homeassistant.py
+qnap_qsw/interface.py
+qnap_qsw.egg-info/PKG-INFO
+qnap_qsw.egg-info/SOURCES.txt
+qnap_qsw.egg-info/dependency_links.txt
+qnap_qsw.egg-info/not-zip-safe
+qnap_qsw.egg-info/requires.txt
+qnap_qsw.egg-info/top_level.txt
