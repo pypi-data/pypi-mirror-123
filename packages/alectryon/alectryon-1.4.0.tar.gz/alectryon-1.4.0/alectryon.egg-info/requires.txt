@@ -1,0 +1,14 @@
+pygments
+dominate
+beautifulsoup4
+docutils
+
+[full]
+myst_parser
+sphinx
+
+[md]
+myst_parser
+
+[sphinx]
+sphinx
