@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: balder
+Version: 0.1.8
+Summary: 
+Author: jhnnsrs
+Author-email: jhnnsrs@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: subscription
+Requires-Dist: Django (>=3.1,<4.0)
+Requires-Dist: channels (>=3.0.3,<4.0.0); extra == "subscription"
+Requires-Dist: django-channels-graphql-ws (>=0.8.0,<0.9.0); extra == "subscription"
+Requires-Dist: django-filter (>=2.4.0,<3.0.0)
+Requires-Dist: graphene-django (>=2.15.0,<3.0.0)
