@@ -1,0 +1,10 @@
+shopping_list_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shopping_list_generator/__main__.py,sha256=gfQF73CH7GiUwCsRUd7ZeW60w0Xe6NW79ZVtiBGltYY,1562
+shopping_list_generator/recipe.py,sha256=Xk-XW2Mjof6izlZwXWB_ciKSF3axPl0CYITWfZua3cM,559
+shopping_list_generator/recipelocator.py,sha256=R7z6c0qFl4_Dx2AJYTKHwIYzTh0T8Wz9yLmyV6t2iQ0,1401
+shopping_list_generator/shoppinglist.py,sha256=FRCBXEbox5WI_71EN2Wy6xQ8lRvfK7DHEbE5oxMCfxE,593
+shopping_list_generator-0.0.2.dist-info/METADATA,sha256=Ya-74NgEL-2as0A82IenTeP_nAJ86ZQfG689mudKX4g,1267
+shopping_list_generator-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+shopping_list_generator-0.0.2.dist-info/entry_points.txt,sha256=aqJzPbdlZTvhhj_BCQdIqoNkPzC2o0j0w8p2d93jHPQ,83
+shopping_list_generator-0.0.2.dist-info/top_level.txt,sha256=lcn3nPjSePFUaXKv7nsT6K0s8WN49RfrYrv3dPaLu3Y,24
+shopping_list_generator-0.0.2.dist-info/RECORD,,
