@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk-ecr-asset-scanner/__init__.py
+src/cdk-ecr-asset-scanner/py.typed
+src/cdk-ecr-asset-scanner/_jsii/__init__.py
+src/cdk-ecr-asset-scanner/_jsii/cdk-ecr-asset-scanner@0.0.8.jsii.tgz
+src/cdk_ecr_asset_scanner.egg-info/PKG-INFO
+src/cdk_ecr_asset_scanner.egg-info/SOURCES.txt
+src/cdk_ecr_asset_scanner.egg-info/dependency_links.txt
+src/cdk_ecr_asset_scanner.egg-info/requires.txt
+src/cdk_ecr_asset_scanner.egg-info/top_level.txt
