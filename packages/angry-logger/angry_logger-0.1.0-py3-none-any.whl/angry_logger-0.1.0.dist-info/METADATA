@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: angry-logger
+Version: 0.1.0
+Summary: Make your logging more passive agressive. Or just agressive.
+Author: Toby Devlin
+Author-email: toby@thedevlins.biz
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
