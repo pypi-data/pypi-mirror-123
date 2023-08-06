@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cloudendure2/__init__.py
+src/cloudendure2/cloudendure2.py
+src/cloudendure2.egg-info/PKG-INFO
+src/cloudendure2.egg-info/SOURCES.txt
+src/cloudendure2.egg-info/dependency_links.txt
+src/cloudendure2.egg-info/top_level.txt
