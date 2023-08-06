@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: async-pavlov
+Version: 0.4.0
+Summary: Async wrapper for Pavlov VR RCON commands
+Home-page: https://github.com/makupi/async-pavlov
+License: GPL-3.0
+Author: makubob
+Author-email: makupi@icloud.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/makupi/async-pavlov
+Description-Content-Type: text/markdown
+
+# async-pavlov
+Async wrapper for pavlov RCON commands
+
+# Requirements
+Python 3.7+
+
+# Install
+
+```shell
+pip install async-pavlov
+```
+
+# Usage
+```py
+import asyncio
+from pavlov import PavlovRCON
+
+async def main():
+    pavlov = PavlovRCON("127.0.0.1", 9104, "password")
+    data = await pavlov.send("ServerInfo")
+    print(data)
+
+asyncio.run(main())
+```
