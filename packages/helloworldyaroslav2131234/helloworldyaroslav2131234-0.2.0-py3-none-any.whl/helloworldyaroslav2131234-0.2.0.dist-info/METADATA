@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: helloworldyaroslav2131234
+Version: 0.2.0
+Summary: A hello world Python package
+Home-page: UNKNOWN
+Author: Yaroslav Yaroslav
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (<1.20.0)
+
+UNKNOWN
+
