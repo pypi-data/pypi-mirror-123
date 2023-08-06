@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: wemulate-api
+Version: 0.0.1.post1
+Summary: API for the modern WAN Emulator (WEmulate)
+Home-page: https://github.com/wemulate/wemulate-api
+Author: Julian Klaiber, Severin Dellsperger
+Author-email: julian.klaiber@ost.ch, severin.dellsperger@ost.ch
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aniso8601 (==9.0.1)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: Flask (==2.0.2)
+Requires-Dist: flask-restx (==0.5.1)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: Jinja2 (==3.0.2)
+Requires-Dist: jsonschema (==4.0.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: pyrsistent (==0.18.0)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: Werkzeug (==2.0.2)
+Requires-Dist: wemulate (==1.0.2)
+
+**A modern WAN Emulator developed by the Institute for Networked Solutions**
+# WEmulate API Module
+This is the API module which builds on the [CLI module](https://github.com/wemulate/wemulate).
+
+Have a look at the [documentation](https://wemulate.github.io/wemulate) for detailed information.
+
+## Installation
+Install the API module via the install script:
+```bash
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/wemulate/wemulate/main/install/install.sh)"
+```
+
+## Development
+1. Install the requirements with `pip install -r requirements-dev.txt`
+2. Start with `python wemulate_api/app.py`
+
