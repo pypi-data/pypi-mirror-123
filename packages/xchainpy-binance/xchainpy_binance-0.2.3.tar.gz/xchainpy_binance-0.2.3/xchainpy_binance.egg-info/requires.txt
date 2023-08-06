@@ -1,0 +1,4 @@
+py_binance_chain>=0.2
+xchainpy_client>=0.1.6
+xchainpy_crypto>=0.1.7
+xchainpy_util>=0.1.8
