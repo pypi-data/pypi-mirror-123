@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+odesli/Odesli.py
+odesli/__init__.py
+odesli.egg-info/PKG-INFO
+odesli.egg-info/SOURCES.txt
+odesli.egg-info/dependency_links.txt
+odesli.egg-info/requires.txt
+odesli.egg-info/top_level.txt
+odesli/song/Song.py
+odesli/song/SongResult.py
+odesli/song/__init__.py
+tests/test_TestOde.py
+tests/test_TestStringMethods.py
