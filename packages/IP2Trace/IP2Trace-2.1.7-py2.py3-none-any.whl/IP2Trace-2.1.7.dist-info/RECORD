@@ -1,0 +1,17 @@
+LICENSE.TXT,sha256=yscOzq7xaZrU1bKRccJW4EDNVW7KtBktEe5EDJxqdoU,1072
+MANIFEST.in,sha256=h5GCflFNkV26Jx9jMpRcp6GkVgikndj7pcQhOle1OjY,61
+ip2trace.py,sha256=Puz89-SLDhNQf5lB787WNpRFeXOGBjCS_Q26Lr62r4Y,22276
+readme.md,sha256=83JN27kPyLZfMvDDIB6kSPgjqqkUowPjFSgvUPQE2S8,4815
+IP2Trace.egg-info/PKG-INFO,sha256=BflK7AB8bJXyutGhcASuopI2XAueZNIhRfd7hGNxjY4,5773
+IP2Trace.egg-info/SOURCES.txt,sha256=JAsvp7PSgcgTkqYHs8HP5qQSeRl-Ri-PPuZwukZg4DQ,283
+IP2Trace.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+IP2Trace.egg-info/entry_points.txt,sha256=76TNSDmGz_6_PHowM8t7SdtnHfQD97yIc1YQR1ZGlcE,44
+IP2Trace.egg-info/requires.txt,sha256=tt5Ikw6AcsVA_GE997QAZxXn0mWYCIOTexx3Z5eeSIA,12
+IP2Trace.egg-info/top_level.txt,sha256=rS0P3Zi5m2JTM8bMzKgLJaDy5sOrNX19Mdka_u_qp0A,10
+data/IP2LOCATION-LITE-DB1.IPV6.BIN,sha256=axC1bVEr4DQU8vvslIsNnU4VqIp8lCGI5gvQyT5FVGY,5391050
+IP2Trace-2.1.7.dist-info/LICENSE.TXT,sha256=yscOzq7xaZrU1bKRccJW4EDNVW7KtBktEe5EDJxqdoU,1072
+IP2Trace-2.1.7.dist-info/METADATA,sha256=xZNOl8s3x3mVzbmqeGR3EfZLS3fnIhR-n7OH5SPnpDs,5800
+IP2Trace-2.1.7.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+IP2Trace-2.1.7.dist-info/entry_points.txt,sha256=76TNSDmGz_6_PHowM8t7SdtnHfQD97yIc1YQR1ZGlcE,44
+IP2Trace-2.1.7.dist-info/top_level.txt,sha256=rS0P3Zi5m2JTM8bMzKgLJaDy5sOrNX19Mdka_u_qp0A,10
+IP2Trace-2.1.7.dist-info/RECORD,,
