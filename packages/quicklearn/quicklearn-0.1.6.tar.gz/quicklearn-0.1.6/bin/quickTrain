@@ -1,0 +1,80 @@
+#! /usr/bin/env python
+import re
+import os
+import sys
+import glob
+import argparse
+import numpy as np
+
+def format_output_filename(raw_name, index, algorithm):
+    if algorithm == 'svm':
+        filename = 'svm_feature_dimension_{feature_dimension}_' +\
+                 'train_{train_size}_'+\
+                 'test_{test_size}_{time}'
+    elif algorithm == 'bdt':
+        filename = 'xgboost_feature_dimension_{feature_dimension}_'+\
+                 'train_{train_size}_'+\
+                 'test_{test_size}_{time}'
+    elif algorithm == 'dnn':
+        filename = 'dnn_feature_dimension_{feature_dimension}_'+\
+                 'train_{train_size}_'+\
+                 'test_{test_size}_'+\
+                 'epochs_{epochs}_'+\
+                 'batch_size_{batch_size}_{time}'
+
+    return filename
+
+def get_parser():
+    parser = argparse.ArgumentParser(description='Run machine learning algorithms from raw input data')
+    parser.add_argument('algorithm',  help='Algorithm to use', choices=['dnn','svm','bdt'])
+    parser.add_argument('-i', '--input_files', help='list of input files', nargs='+', required=True)
+    parser.add_argument('-o', '--log_dir', help='Directory for output log files', default='./logs')    
+    parser.add_argument('-s', '--random_seed',  help='Random seed for train val test split (will be multiplied by trial number in each trial)', type=int, default=10598)    
+    parser.add_argument('-e', '--epoch', help='number of epochs (dnn only)', type=int, default=1000)
+    parser.add_argument('-b', '--batchsize', help='batchsize (dnn only)', type=int, default=64)
+    parser.add_argument('-a', '--dataset',  help='Name of dataset', default='ttH_new_Delphes') 
+    return parser
+
+
+def train(input_files, algorithm, log_dir='./logs', dataset='ttH_new_Delphes', random_seed=10598, **kwargs):
+    if len(input_files) == 0:
+        raise ValueError('No input files specified.')
+    for file in input_files:
+        print('Processing file: {}'.format(file))
+        try:
+            run_number = int(re.search('_run_(.+?).npz', file).group(1))
+        except AttributeError:
+            raise ValueError('Invalid file name format: cannot extract run number')
+        print('Run number: {}'.format(run_number))
+        data = dict(np.load(file, allow_pickle=True))
+        x_train, x_val, x_test = data['x_train'], data['x_val'], data['x_test']
+        y_train, y_val, y_test = data['y_train'], data['y_val'], data['y_test']
+        n_event = x_train.shape[0]
+        n_qubit = x_train.shape[1]
+        extra_attributes = {'algorithm': algorithm, 'dataset': dataset, 
+                            'n_qubit': n_qubit, 'n_event': n_event, 
+                            'run_number': run_number}
+        filename = '{algorithm}_{dataset}_nqubit_{n_qubit}_nevent_{n_event}_run_{run_number}'.format(**extra_attributes)
+        # check if job finished
+        check_finished_file_path = os.path.join(log_dir, filename+'.npz')
+        if os.path.exists(check_finished_file_path):
+            print('Already finished.')
+            continue
+        train_func = None
+        if algorithm == 'bdt':
+            from quicklearn.algorithms.train_xgboost import train_xgboost
+            train_func = train_xgboost
+        elif algorithm == 'svm':
+            from quicklearn.algorithms.train_svm import train_svm
+            train_func = train_svm
+        elif algorithm == 'dnn':
+            from quicklearn.algorithms.train_dnn import train_dnn
+            train_func = train_dnn
+        train_func(x_train, y_train, x_val, y_val, x_test, y_test, filename=filename, log_dir=log_dir, extra_attributes=extra_attributes, **kwargs)
+                
+
+
+if __name__ == "__main__":
+    parser = get_parser()
+    args = vars(parser.parse_args())
+    train(**args)
