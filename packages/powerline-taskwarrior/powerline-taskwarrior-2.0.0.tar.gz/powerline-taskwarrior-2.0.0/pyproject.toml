@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "powerline-taskwarrior"
+version = "2.0.0"
+description = "Powerline segments for showing information from the Taskwarrior task manager"
+authors = ["German Lashevich <german.lashevich@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/zebradil/powerline-taskwarrior"
+repository = "https://github.com/zebradil/powerline-taskwarrior"
+documentation = "https://github.com/Zebradil/powerline-taskwarrior/blob/master/README.md"
+keywords = [
+    "powerline",
+    "taskwarrior",
+    "powerline-segment",
+    "taskwarrior-segment",
+    "powerline-taskwarrior",
+]
+classifiers=[
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Terminals",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+powerline-status = "^2.7"
+
+[tool.poetry.dev-dependencies]
+black = { version = "^21.9b0", python = "^3.9" }
+isort = { version = "^5.9.3", python = "^3.9" }
+semgrep = { version = "^0.68.2", python = "^3.9" }
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
