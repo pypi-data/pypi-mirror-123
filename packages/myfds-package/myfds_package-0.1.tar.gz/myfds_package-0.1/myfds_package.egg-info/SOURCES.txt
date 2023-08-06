@@ -1,0 +1,7 @@
+setup.py
+myfds_package/__init__.py
+myfds_package.egg-info/PKG-INFO
+myfds_package.egg-info/SOURCES.txt
+myfds_package.egg-info/dependency_links.txt
+myfds_package.egg-info/requires.txt
+myfds_package.egg-info/top_level.txt
