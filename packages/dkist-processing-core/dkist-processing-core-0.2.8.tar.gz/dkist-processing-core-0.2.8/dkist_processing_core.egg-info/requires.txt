@@ -1,0 +1,10 @@
+apache-airflow[postgres]==2.2.0
+elastic-apm>=6.1.0
+requests>=2.23
+talus>=0.2.0
+virtualenv
+
+[test]
+pytest
+pytest-cov
+jinja2
