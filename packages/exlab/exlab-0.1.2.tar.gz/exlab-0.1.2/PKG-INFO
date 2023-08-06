@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: exlab
+Version: 0.1.2
+Summary: A Experimental Laboratory suite
+Home-page: https://github.com/Pikalchemist/exlab
+Author: Alexandre Manoury
+Author-email: alex@pika.tf
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ExLab
+**EXperimental LABoratory** is a research oriented framework helping to setup experiments, store results, log serizalize and unserialize data, and plot graphs.
+
+# Getting started
+
+First of all, install the package either using pip:
+
+    pip install exlab
+
+Or from the git repository:
+
+    pip install -r ./requirements.txt
+    pip install -e .
+
+A base example of how to use ExLab is provided in `examples/first/first.py` in the git repository.
+
+# Components
+
+## Laboratory
+
+You can create Lab and Experiment to manage your experimental settings, load and instantiate objects and save your results.
+
+## Serialization
+
+To serialize an object, it has to be subclass of  `Serializable` and overrides the `_serialize(self, serializer)` and `_deserialize(cls, dict_, serializer, obj=None)` methods to inplement the intended behaviour.
+
