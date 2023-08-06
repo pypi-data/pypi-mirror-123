@@ -1,0 +1,3 @@
+[console_scripts]
+create_group_cluster = library_nsxt.services.create_group_cluster:main
+
