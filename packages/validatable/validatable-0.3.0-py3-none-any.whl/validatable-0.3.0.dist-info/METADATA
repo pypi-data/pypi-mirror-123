@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: validatable
+Version: 0.3.0
+Summary: Validatable provides a single class definition for data validation and SQL table representation
+Home-page: https://github.com/dcruzf/validatable
+Author: Daniel França
+Author-email: dcruzf.py@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (>=1.8)
+Requires-Dist: sqlalchemy2-stubs
+Requires-Dist: sqlalchemy (>=1.3)
+Provides-Extra: email
+Requires-Dist: email-validator (>=1.0.3) ; extra == 'email'
+
+<p align="center">
+<img  width="150" height="150" src="https://raw.githubusercontent.com/dcruzf/validatable/main/docs/img/logo.svg">
+</p>
+
+<h1 align="center">Validatable</h1>
+
+_Data validation and SQL Toolkit using Python type hints._
+
+[![CI](https://github.com/dcruzf/validatable/actions/workflows/tests.yml/badge.svg)](https://github.com/dcruzf/validatable/actions/workflows/tests.yml)
+[![pre-commit](https://github.com/dcruzf/validatable/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/dcruzf/validatable/actions/workflows/pre-commit.yml)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/validatable)](https://pypi.org/project/validatable/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/dcruzf/validatable.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dcruzf/validatable/context:python)
+[![PyPI - License](https://img.shields.io/pypi/l/validatable)](https://raw.githubusercontent.com/dcruzf/validatable/main/LICENSE)
+[![codecov](https://codecov.io/gh/dcruzf/validatable/branch/main/graph/badge.svg?token=ZLNIQPL1UC)](https://codecov.io/gh/dcruzf/validatable)
+[![coverage.py report](https://img.shields.io/badge/dynamic/json?color=success&labelColor=gray&label=coverage-html&logo=github&query=%24.totals.percent_covered_display&suffix=%25&url=https%3A%2F%2Fdcruzf.github.io%2Fvalidatable%2Fcov%2Fcoverage.json)](https://dcruzf.github.io/validatable/cov/)
+
+## Introduction
+
+Validatable provides a single class definition for data validation and SQL table representation. It uses Pydantic and SQLAlchemy Core.
+
+## Getting Started
+
+### Installation
+
+You can install Validatable like this:
+
+```
+pip install validatable
+```
+
+### Simple Example
+
+```py
+from datetime import datetime
+from typing import Optional
+from uuid import uuid4
+
+from sqlalchemy.dialects.postgresql import dialect
+from sqlalchemy.schema import CreateTable
+
+from validatable import UUID4, BaseTable, EmailStr, Field, ForeignKey, MetaData
+
+
+class Base(BaseTable):
+    metadata = MetaData()
+
+
+class User(Base):
+    id: UUID4 = Field(sa_primary_key=True, default_factory=uuid4)
+    name: str
+    email: EmailStr
+    created_ts: datetime = Field(default_factory=datetime.now)
+    friends: Optional[UUID4] = Field(sa_fk=ForeignKey("user.id"))
+
+
+ddl = CreateTable(User.__sa_table__).compile(dialect=dialect())
+print(ddl)
+
+# CREATE TABLE "user" (
+#         id UUID NOT NULL,
+#         name VARCHAR NOT NULL,
+#         email VARCHAR(320) NOT NULL,
+#         created_ts TIMESTAMP WITHOUT TIME ZONE,
+#         friends UUID,
+#         PRIMARY KEY (id),
+#         FOREIGN KEY(friends) REFERENCES "user" (id)
+# )
+```
+
+## License
+
+This project is licensed under the terms of the MIT license - see the LICENSE.txt file for details.
+
+
