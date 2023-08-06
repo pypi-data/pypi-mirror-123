@@ -1,0 +1,3 @@
+[console_scripts]
+quickforex = quickforex.command_line:main
+
