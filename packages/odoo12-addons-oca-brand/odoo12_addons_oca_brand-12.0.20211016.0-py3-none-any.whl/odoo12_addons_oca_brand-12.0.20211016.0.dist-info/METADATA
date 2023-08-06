@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-brand
+Version: 12.0.20211016.0
+Summary: Meta package for oca-brand Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-account-brand
+Requires-Dist: odoo12-addon-account-payment-mode-brand
+Requires-Dist: odoo12-addon-analytic-brand
+Requires-Dist: odoo12-addon-brand
+Requires-Dist: odoo12-addon-brand-external-report-layout
+Requires-Dist: odoo12-addon-contract-brand
+Requires-Dist: odoo12-addon-contract-forecast-brand
+Requires-Dist: odoo12-addon-contract-payment-mode-brand
+Requires-Dist: odoo12-addon-partner-brand
+Requires-Dist: odoo12-addon-product-contract-brand
+Requires-Dist: odoo12-addon-sale-brand
+Requires-Dist: odoo12-addon-sale-payment-mode-brand
+
+UNKNOWN
+
