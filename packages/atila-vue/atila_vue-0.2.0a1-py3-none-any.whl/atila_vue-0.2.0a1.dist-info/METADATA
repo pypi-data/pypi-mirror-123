@@ -1,0 +1,362 @@
+Metadata-Version: 2.1
+Name: atila-vue
+Version: 0.2.0a1
+Summary: Atila Extension For VueJS 2 SFC and SSR
+Home-page: https://gitlab.com/atila-ext/atila-vue
+Author: Hans Roh
+Author-email: hansroh@gmail.com
+License: MIT
+Download-URL: https://pypi.python.org/pypi/atila-vue
+Platform: posix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: JavaScript
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: atila
+Requires-Dist: jinja2
+
+
+## Introduction
+
+Atla-Vue is [Atila](https://pypi.org/project/atila/) extension package for
+using [vue3-sfc-loader](https://github.com/FranckFreiburger/vue3-sfc-loader)
+and [Bootstrap 5](https://getbootstrap.com/).
+
+It will be useful for building simple web service at situation frontend developer
+dose not exists.
+
+Due to the [vue3-sfc-loader](https://github.com/FranckFreiburger/vue3-sfc-loader),
+We can use **vue single file component** on the fly without any compiling or
+building process.
+
+Atila-Vue composes these things:
+
+- VueJS 3
+- VueRouter 4
+- Vuex 4
+- Optional Bootstrap for UI/UX
+
+For injecting objects to Vuex, it uses [Jinja2](https://jinja.palletsprojects.com) template engine.
+
+### Full Example
+See [atila-vue](https://gitlab.com/atila-ext/atila-vue) repository and [atila-vue examplet](https://gitlab.com/atila-ext/atila-vue/-/tree/master/example).
+
+
+
+
+
+## Launching Server
+```shell
+mkdir myservice
+cd myservice
+```
+
+Then create serve.py script for running server.
+```python
+#! /usr/bin/env python3
+import skitai
+import atila_vue
+import os
+import pwa
+
+os.environ ['SECRET_KEY'] = 'SECRET_KEY'
+os.environ ['DBENGINE'] = 'postgresql://user:password@localhost:5432/mydb'
+
+if __name__ == '__main__':
+    with skitai.preference () as pref:
+        pref.set_static ('/', 'pwa/static')
+        pref.extends (atila_vue)
+        skitai.mount ('/', pwa, pref)
+
+    skitai.run (ip = '0.0.0.0', port = 5000, name = 'myservice')
+```
+But it doesn't work yet.
+
+```shell
+mkdir -p pwa
+```
+
+Then create `pwa/__init__.py`.
+
+```python
+import atila
+import os
+import sys
+import skitai
+
+def __config__ (pref):
+    pref.config.FRONTEND = {
+        "googleAnalytics": {"id": "UA-158163406-1"}
+    }
+
+def __app__ ():
+    return atila.Atila (__name__)
+```
+
+Now you can startup service.
+```shell
+./serve/py --devel
+```
+Then your browser address bar, enter `http://localhost:5000/`.
+If `404 Not Found` on your browser screen, it is very OK.
+
+
+
+
+
+## Add Your First Page
+Append these code into `pwa/__init__.py`.
+
+```python
+def __mount__ (app, mntopt):
+    @app.route ('/')
+    def index (was):
+        return '<h1>Hello, World</h1>'
+```
+Reload your browser then you can see `Hello, World`.
+
+
+
+
+
+## Improving Page With VueJS
+```shell
+mkdir pwa/templates
+```
+
+Create `pwa/templates/main.j2`.
+```jinja
+{% extends '__framework/vue.j2' %}
+```
+
+If you want to use Bootstrap5 also.
+```jinja
+{% extends '__framework/bs5.j2' %}
+```
+That's it. Just single line template.
+
+Then update `pwa/__init__.py` for using this template.
+```python
+def __mount__ (app, mntopt):
+    @app.route ('/<path:path>')
+    def index (was, path):
+        return was.render ('main.j2')
+```
+
+Reload page but you will meet error: `No page components for VueRouter`.
+
+
+
+
+
+## Creating Vue Component
+```shell
+mkdir pwa/static/apps
+```
+This is routing base directory.
+
+Your template file name is `main.j2`, so make directory `pwa/static/apps/main` as same name.
+
+```shell
+mkdir pwa/static/apps/main
+```
+
+Create file `pwa/static/apps/main/index.vue`.
+```html
+<template>
+  <div class="container">
+    <h1>{{ msg }}</h1>
+  </div>
+</template>
+
+<script>
+  import {ref} from '/vue/helpers.js'
+
+  export default {
+    setup () {
+      const msg = ref ('Hello World')
+      return { msg }
+    }
+  }
+</script>
+```
+
+And Reload.
+
+**Note** that you can see long list like `Python Context` and `Vuex State`.
+This will be shown if you give '--devel' option on starting server.
+
+
+## Add Routable Sub Pages
+
+Create vue files as you want.
+
+- pwa/static/apps/main/about.vue
+- pwa/static/apps/main/products/index.vue
+- pwa/static/apps/main/products/_id.vue
+
+These will be automatically generated as routes option like this:
+```js
+[
+    {name: "index", path: "/" },
+    {name: "about", path: "/about" },
+    {name: "products", path: "/products"},
+    {name: "products/:id", path: "/products/:id")}
+]
+```
+And you can see it via HTML source view in browser.
+
+Then you can use `<router-link>` at your page.
+```html
+<template>
+  <div class="container">
+    <h1>{{ msg }}</h1>
+    <router-link :to="{ name: 'products/:id', params: {id: 100}}">Product #100</router-link>
+  </div>
+</template>
+```
+
+
+
+
+
+## Using Vuex
+
+You can define Vuex state.
+
+Update `pwa/templates/main.j2`.
+```jinja
+{% extends '__framework/bs5.j2' %}
+
+{{ map_state ('page_id', 0) }}
+{{ map_state ('types', ["todo", "canceled", "done"]) }}
+```
+These will be injected to `Vuex` through JSON.
+
+Now tou can use these state on your vue file with `useStore`.
+```html
+<script>
+  import {ref, computed, useStore} from '/vue/helpers.js'
+
+  export default {
+    setup () {
+      const store = useStore ()
+      const page_id = computed ( () => store.state.page_id )
+      const msg = ref ('Hello World')
+      return { msg, page_id }
+    }
+  }
+</script>
+```
+
+Or use `useState`.
+```html
+<script>
+  import {ref, useState} from '/vue/helpers.js'
+
+  export default {
+    setup () {
+      const { page_id } = useState ()
+      const msg = ref ('Hello World')
+      return { msg, page_id }
+    }
+  }
+</script>
+```
+
+
+**Note** that [/vue/helpers.js](https://gitlab.com/atila-ext/atila-vue/-/blob/master/atila_vue/static/vue/helpers.js) contains some shortcuts for `Vue.`, `Vuex.` and `VueRouter`.
+
+
+
+
+
+## Creating Sub Apps
+
+Add routes to `pwa/__init__.py` for createing `My Page` sub app.
+```python
+def __mount__ (app, mntopt):
+    @app.route ('/<path:path>')
+    def index (was, path):
+        return was.render ('main.j2')
+
+    @app.route ('/mypage/<path:path>')
+    def mypage (was, path):
+        return was.render ('mypage.j2')
+```
+
+Then next steps are the same.
+
+- create `pwa/templates/mypage/j2`
+- create `pwa/static/apps/mypage/index.vue` and sub pages
+
+
+
+
+
+## Adding APIs
+```shell
+mkdir pwa/services
+```
+
+Create `pwa/services/apis.py`
+```python
+def __mount__ (app. mntopt):
+  @app.route ("")
+  def index (was):
+    return "API Index"
+
+  @app.route ("/now")
+  def now (was):
+    return was.API (result = time.time ())
+```
+
+Create `pwa/services/__init__.py`
+```python
+def __setup__ (app. mntopt):
+  from . import apis
+  app.mount ('/apis', apis)
+```
+
+Then update `pwa/__init__.py` for mount `services`.
+```python
+def __app__ ():
+    return atila.Atila (__name__)
+
+def __setup__ (app, mntopt):
+    from . import services
+    app.mount ('/', services)
+
+def __mount__ (app, mntopt):
+    @app.route ('/')
+    def index (was):
+        return was.render ('main.j2')
+```
+
+Now you can use API: http://localhost:5000/apis/now.
+
+```html
+<script>
+  import {ref, onBeforeMount, $http} from '/vue/helpers.js'
+
+  export default {
+    setup () {
+      const msg = ref ('Hello World')
+      const server_time = ref (null)
+      onBeforeMount ( () => {
+        const r = await $http.get ('/apis/now')
+        server_time.value = r.data.result
+      })
+      return { msg, server_time }
+    }
+  }
+</script>
+```
+**Note** that `$http` is the alias for `axios`.
+
+
