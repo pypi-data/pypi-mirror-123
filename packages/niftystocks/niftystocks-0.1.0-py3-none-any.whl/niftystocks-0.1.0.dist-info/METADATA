@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: niftystocks
+Version: 0.1.0
+Summary: This package helps the user to download list of stocks in National Stock Exchange (India), based on the required theme. Themes could be Auto, IT, Pharma, Midcap, Smallcap etc.
+Home-page: UNKNOWN
+Author: Dr. B V Kumar
+Author-email: kumar.bv@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
