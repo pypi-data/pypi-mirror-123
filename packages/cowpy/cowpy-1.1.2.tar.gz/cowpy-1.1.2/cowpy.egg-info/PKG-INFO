@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cowpy
+Version: 1.1.2
+Summary: A cowsay clone for python in one file.
+Home-page: https://github.com/jeffbuttars/cowpy
+Author: Jeff Buttars
+Author-email: jeffbuttars@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
