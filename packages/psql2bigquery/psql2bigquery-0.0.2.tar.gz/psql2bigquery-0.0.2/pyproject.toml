@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "psql2bigquery"
+version = "0.0.2"
+description = "Export PostgreSQL databases to Google Cloud Platform BigQuery"
+authors = ["Joao Daher <joao@daher.dev>"]
+repository = "https://github.com/CraveFood/psql2bigquery"
+readme = "README.md"
+keywords = ["postgresql", "bigquery", "sink"]
+packages = [
+    { include = "psql2bigquery" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+click = "*"
+google-cloud-bigquery = "*"
+psycopg2-binary = "*"
+sentry-sdk = {version = "*", optional = true}
+
+[tool.poetry.extras]
+sentry = ["sentry-sdk"]
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pylint = "*"
+
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+
+
+[tool.pylint.messages_control]
+disable = "C0114,C0115,C0116,R0913,R0914,W1203"
+
+[tool.pylint.format]
+max-line-length = "120"
+
+[tool.pylint.basic]
+good-names= "i, j, k, m, n, dt, db, id, pk, tz, qs, ex, _"
+
+
+[tool.poetry.scripts]
+psql2bigquery = 'psql2bigquery.main:cli'
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
