@@ -1,0 +1,9 @@
+camproject/__init__.py,sha256=edFAcwGH-8pteZSQ5eXi2F82jKPpbzk2rRm_JsA0-TQ,16304
+camproject/extrinsics.py,sha256=ZarSX5nqyJj4BypWchbC9xH00TMbbxRLtgZMAHUp55E,5690
+camproject/utils.py,sha256=k1POxwrVgnodEMGqIPZzHNO3fo314lNbz5WoeSbXHwc,911
+camproject-0.41.dist-info/LICENSE,sha256=6cx0POaiVmrOzlGcAlSBNLPjaOgd8U8f78e4nb01ZnY,1127
+camproject-0.41.dist-info/METADATA,sha256=tE7GRniA8KUh_8__zLpBWKwXYjJEp3YHpg1agnqMmLY,1778
+camproject-0.41.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+camproject-0.41.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+camproject-0.41.dist-info/top_level.txt,sha256=p47zpfNYF7zgfrcPkTL2UorXBldTwc8CkejCkSieaF0,11
+camproject-0.41.dist-info/RECORD,,
