@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: control_rod
+Version: 2021.10.12.5
+Summary: An expiremental auditboard api client
+Home-page: https://github.com/soxhub/control_rod
+Author: Chris Halbersma
+Author-email: chalbersma@auditboard.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# control_rod
+
+Tool to Create Technical Controls in AB Product based on AWS Control Datum.
+
+
