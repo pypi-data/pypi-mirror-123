@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+WebCrawleEslite/Keywords_Page-All_eslite.py
+WebCrawleEslite/ListKeywords_Page-All_eslite.py
+WebCrawleEslite/Setting_Page_Keyworks_eslite.py
+WebCrawleEslite/__init__.py
+WebCrawleEslite/book_1.py
+WebCrawleEslite.egg-info/PKG-INFO
+WebCrawleEslite.egg-info/SOURCES.txt
+WebCrawleEslite.egg-info/dependency_links.txt
+WebCrawleEslite.egg-info/requires.txt
+WebCrawleEslite.egg-info/top_level.txt
