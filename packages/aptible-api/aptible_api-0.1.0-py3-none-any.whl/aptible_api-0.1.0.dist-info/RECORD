@@ -1,0 +1,12 @@
+aptible/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aptible/api/__init__.py,sha256=VVCjvk4uwkjjNyCsuluevn-ICq8cp46jFLTyvRLtc6g,32
+aptible/api/manager/__init__.py,sha256=Vq6Dj3C0lgT_hlEnSYC1n39Uk9IZ9OYTN7QgzbrxfUQ,78
+aptible/api/manager/aptible_api.py,sha256=QHz3wmbvIiKCR-8H-OyIZmP-anXANX8HhZMn6mt8ncE,4385
+aptible/api/manager/empty_response.py,sha256=MDJntb4Em0kOkXfLdUSEPSsXriItXQUjldcy_u8ALok,293
+aptible/api/model/__init__.py,sha256=i9Olfe7Xv1IZsS9OYW5Akqdr9qpX77IA-T6AyYZ6tr4,95
+aptible/api/model/empty_resource.py,sha256=8jQZFf5mslUK9XwxfHcn82PhlliMvitCBXVcrXlcatU,198
+aptible/api/model/resource.py,sha256=bphdox0KE8KXh6j5bR6DZlGKPJba3jRLWqycDrTcZd0,3152
+aptible_api-0.1.0.dist-info/METADATA,sha256=JB1WffmZYy78FAjjMhg8k9gHNlW-L7nTiFXAN5cWCA0,1179
+aptible_api-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aptible_api-0.1.0.dist-info/top_level.txt,sha256=2Sua3jl5WJqhc_ZvznFJU0pvNjxekteFfLsb92lPW6s,8
+aptible_api-0.1.0.dist-info/RECORD,,
