@@ -1,0 +1,4 @@
+[console_scripts]
+detokenize = utoken.detokenize:main
+utokenize = utoken.utokenize:main
+
