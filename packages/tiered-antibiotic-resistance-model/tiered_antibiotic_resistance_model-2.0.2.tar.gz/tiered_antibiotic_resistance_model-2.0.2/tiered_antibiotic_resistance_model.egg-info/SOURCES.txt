@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+tiered_antibiotic_resistance_model/__init__.py
+tiered_antibiotic_resistance_model/_test.py
+tiered_antibiotic_resistance_model/model.py
+tiered_antibiotic_resistance_model/model_minimal.py
+tiered_antibiotic_resistance_model.egg-info/PKG-INFO
+tiered_antibiotic_resistance_model.egg-info/SOURCES.txt
+tiered_antibiotic_resistance_model.egg-info/dependency_links.txt
+tiered_antibiotic_resistance_model.egg-info/requires.txt
+tiered_antibiotic_resistance_model.egg-info/top_level.txt
