@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+meny/__init__.py
+meny/config.py
+meny/curses_interface.py
+meny/decorators.py
+meny/funcmap.py
+meny/menu.py
+meny/simple_interface.py
+meny/strings.py
+meny/utils.py
+meny.egg-info/PKG-INFO
+meny.egg-info/SOURCES.txt
+meny.egg-info/dependency_links.txt
+meny.egg-info/top_level.txt
