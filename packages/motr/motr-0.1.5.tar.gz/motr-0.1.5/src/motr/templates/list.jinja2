@@ -1,0 +1,6 @@
+{% from "maybe_block.jinja2" import maybe_block -%}
+{% filter trim %}
+{{ maybe_block(default, "Default Targets:\n", "green")
+}}{{ maybe_block(non_default, "Non-default Targets:\n", "yellow")
+}}
+{% endfilter %}

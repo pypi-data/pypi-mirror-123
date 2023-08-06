@@ -1,0 +1,9 @@
+{% macro maybe_block(items, header, color) -%}
+    {% filter maybe_color(color) -%}
+        {% filter maybe_header(header) -%}
+            {% for item in items -%}
+                {{ item }}
+{% endfor %}
+        {%- endfilter %}
+    {%- endfilter %}
+{%- endmacro %}

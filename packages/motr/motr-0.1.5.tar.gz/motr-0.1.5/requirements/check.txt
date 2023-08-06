@@ -1,0 +1,10 @@
+docutils
+flake8
+flake8-black
+flake8-docstrings
+git+https://github.com/mwchase/flake8-html.git@multiline-output#egg=flake8-html
+# flake8-html
+flake8-isort
+isort
+pygments
+readme-renderer

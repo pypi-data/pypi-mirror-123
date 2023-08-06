@@ -1,0 +1,42 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "motr"
+author = "Max Woerner Chase"
+author-email = "max.chase@gmail.com"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README.rst"
+requires = [
+    "attrs",
+    "blessed",
+    "cement~=3.0, >=3.0.4",
+    "colorlog",
+    "jinja2",
+    # "pyproject-build",
+    "pyrsistent",
+    "pyyaml",
+    "tqdm",
+    "trio",
+    "virtualenv",
+    "wheel-filename",
+]
+requires-python = ">=3.8"
+
+[tool.flit.scripts]
+motr = "motr.main:main"
+
+[tool.towncrier]
+package = "motr"
+package_dir = "src"
+filename = "NEWS.rst"
+directory = "newsfragments/"
+
+[tool.isort]
+known_first_party = "motr"
+default_section = "THIRDPARTY"
+force_single_line = true
+
+[tool.black]
+line-length = 79

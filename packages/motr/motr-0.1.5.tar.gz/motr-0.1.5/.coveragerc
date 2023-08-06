@@ -1,0 +1,20 @@
+[paths]
+source =
+    src/motr
+    **/site-packages/motr
+
+[run]
+branch = true
+dynamic_context = test_function
+source =
+    motr
+    tests
+parallel = True
+
+[report]
+show_missing = true
+precision = 2
+exclude_lines =
+    pragma: no cover
+    if (typing\.)?TYPE_CHECKING:
+    \.\.\.$

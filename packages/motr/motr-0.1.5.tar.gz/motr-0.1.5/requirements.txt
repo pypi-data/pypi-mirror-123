@@ -1,0 +1,6 @@
+bumpversion
+flit
+keyring
+motr
+nox
+git+https://github.com/mwchase/towncrier.git@additional-vcs#egg=towncrier

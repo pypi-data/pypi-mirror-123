@@ -1,0 +1,2 @@
+oschmod  # Required to make perms tests cross-platform
+pytest

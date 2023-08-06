@@ -1,0 +1,3 @@
+coverage==6.0b1
+flake8-html @ git+https://github.com/mwchase/flake8-html.git@multiline-output#egg=flake8-html
+
