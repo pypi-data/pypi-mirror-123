@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wemulate-api
+Version: 0.0.1
+Summary: API for the modern WAN Emulator (WEmulate)
+Home-page: https://github.com/wemulate/wemulate-api
+Author: Julian Klaiber, Severin Dellsperger
+Author-email: julian.klaiber@ost.ch, severin.dellsperger@ost.ch
+License: GPL-3.0
+Description: # WEmulate Backend
+        1. Install Dependencies: `pip install -r requirements.txt`
+        2. Start with `python wemulate_api/app.py`
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
