@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: caql
+Version: 0.4.0
+Summary: Tell your front-end team they have a perfectly good graph query language at home
+License: MIT
+Author: ExplosionAI GmbH
+Requires-Python: >=3.7.0,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pkginfo (>=1.7,<2.0)
