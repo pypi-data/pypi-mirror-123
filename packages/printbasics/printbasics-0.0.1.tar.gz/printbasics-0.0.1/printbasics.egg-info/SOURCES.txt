@@ -1,0 +1,4 @@
+printbasics.egg-info/PKG-INFO
+printbasics.egg-info/SOURCES.txt
+printbasics.egg-info/dependency_links.txt
+printbasics.egg-info/top_level.txt
