@@ -1,0 +1,7 @@
+pandas
+fastapi
+uvicorn
+aiofiles
+numpy
+typer
+sqlite-utils

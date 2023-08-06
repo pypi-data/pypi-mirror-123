@@ -1,0 +1,6 @@
+include README.md
+recursive-include mappable *
+global-exclude .DS_Store *.py[cod]
+prune **/__pycache__
+prune **/.mypy_cache
+prune **/.pytest_cache
