@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pychastic
+Version: 0.1.9
+Summary: Solvers for stochastic differential equations
+Home-page: https://github.com/RadostW/stochastic
+Author: Radost Waszkiewicz & Maciej Bartczak
+Author-email: radost.waszkiewicz@gmail.com
+License: MIT
+Project-URL: Documentation, https://pychastic.readthedocs.io
+Project-URL: Source, https://github.com/RadostW/stochastic
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: sortedcontainers
+
+# pychastic
+
+All python stochastic differential equations solver.
+
+Built for stochastic simulations of hydrodynamically interacting 
+brownian particles (molecular dynamics), but can do much more 
+(such as option pricing in stochastic volitality models).
+
+Uses `jax`, `jax.jit` and `jax.grad` for performace and ease of use.
+
+# License
+
+This software is licensed under MIT license
+
+Copyright (c) Radost Waszkiewicz and Maciej Bartczak (2021).
+
+
