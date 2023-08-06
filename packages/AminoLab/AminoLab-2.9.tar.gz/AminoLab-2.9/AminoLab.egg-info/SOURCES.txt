@@ -1,0 +1,14 @@
+README.md
+setup.py
+AminoLab/__init__.py
+AminoLab/aminolab.py
+AminoLab/examples.py
+AminoLab.egg-info/PKG-INFO
+AminoLab.egg-info/SOURCES.txt
+AminoLab.egg-info/dependency_links.txt
+AminoLab.egg-info/requires.txt
+AminoLab.egg-info/top_level.txt
+AminoLab/utils/__init__.py
+AminoLab/utils/exception.py
+AminoLab/utils/headers.py
+AminoLab/utils/objects.py

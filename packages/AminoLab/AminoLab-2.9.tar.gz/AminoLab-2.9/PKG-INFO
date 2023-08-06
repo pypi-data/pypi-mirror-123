@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: AminoLab
+Version: 2.9
+Summary: A library for aminoapps.com to create Amino bots.
+Home-page: https://github.com/LilZevi/AminoLab
+Author: LilZevi
+Author-email: elegantlyakaintelligent@gmail.com
+License: MIT
+Download-URL: https://github.com/LilZevi/AminoLab/archive/refs/heads/main.zip
+Description: # AminoLab
+        AminoLab Api For AminoApps using aminoapps.com/api
+        github link >> https://github.com/LilZevi/AminoLab
+        ### Example
+        ```python3
+        #Login
+        import AminoLab
+        client = AminoLab.Client()
+        email = input("Email >> ")
+        password = input("Password >> ")
+        client.auth(email=email, password=password)
+        ```
+        P.S - More Examples in https://github.com/LilZevi/AminoLab/blob/main/src/examples.py
+Keywords: aminoapps,amino-py,amino,amino-bot,narvii,api,python,python3,python3.x,lilzevi,botamino,aminoapp
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
