@@ -1,0 +1,4 @@
+[console_scripts]
+black = black:patched_main
+cli = x12.cli:main
+
