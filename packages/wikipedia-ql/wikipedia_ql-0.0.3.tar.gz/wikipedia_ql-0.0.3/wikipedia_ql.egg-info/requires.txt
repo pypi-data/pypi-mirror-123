@@ -1,0 +1,4 @@
+requests
+lark
+bs4
+nltk
