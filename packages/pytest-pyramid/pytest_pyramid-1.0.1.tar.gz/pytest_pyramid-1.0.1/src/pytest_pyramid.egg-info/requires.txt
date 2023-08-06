@@ -1,0 +1,6 @@
+pytest
+pyramid
+webtest
+
+[tests]
+pytest-cov

@@ -1,0 +1,17 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/pytest_pyramid/__init__.py
+src/pytest_pyramid/factories.py
+src/pytest_pyramid/plugin.py
+src/pytest_pyramid.egg-info/PKG-INFO
+src/pytest_pyramid.egg-info/SOURCES.txt
+src/pytest_pyramid.egg-info/dependency_links.txt
+src/pytest_pyramid.egg-info/entry_points.txt
+src/pytest_pyramid.egg-info/not-zip-safe
+src/pytest_pyramid.egg-info/requires.txt
+src/pytest_pyramid.egg-info/top_level.txt
