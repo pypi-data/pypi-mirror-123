@@ -1,0 +1,3 @@
+[console_scripts]
+tpi = tpi.main:main
+
