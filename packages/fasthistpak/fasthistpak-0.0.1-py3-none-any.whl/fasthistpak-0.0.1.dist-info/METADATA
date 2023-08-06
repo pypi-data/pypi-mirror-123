@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fasthistpak
+Version: 0.0.1
+Summary: Test Python package with method that creates histogram
+Home-page: UNKNOWN
+Author: Aleksandr Pak
+Author-email: sancho20021@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: typing
+
+Test Python package without long description
+
+
