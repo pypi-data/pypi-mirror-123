@@ -1,0 +1,12 @@
+ggmail/__init__.py,sha256=LRPkGL9puyx6koEpXZgZF0h6GgiitdmOseST6xmyF5k,165
+ggmail/account.py,sha256=7kvH4etM0ySwGdIDeM37itGO2zfH2vQa84muYHxkU_M,21069
+ggmail/exception.py,sha256=vaSCPjMknJrF7nQv8Ig6QmNq2coB5QlLwj6Y2qYtGqU,690
+ggmail/flag.py,sha256=i4ylCCaon9NHCIGzX1tX2u1K49YMZo4uz2vTIFO-KI4,164
+ggmail/mailbox.py,sha256=AJtcketfgR_zEsXOjg4pLvnNr3D5bYBLZ0iUnQ7uX0E,3270
+ggmail/message.py,sha256=tvCI9LlMVHnEvL8Wv35LwWl3v9v9xYOluijVuXLGpFs,6445
+ggmail/policy.py,sha256=je_Wo9a777JjN--nuBoA8uHZ8hdAgWXe4Ai7aUxZqkw,3875
+ggmail/utf7.py,sha256=bkzeqlK36yzhUrlX2OFdGJy6OxnExMi5cU8-mT8rQec,986
+ggmail-0.2.0.dist-info/LICENSE,sha256=MKRSi3qgl3Szug4CxC-aIRFRa1QWELLVp5AIe8S9HKI,1072
+ggmail-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ggmail-0.2.0.dist-info/METADATA,sha256=cXw3h8o-hxQHRHTVEHYc88XYr88A-2gjItdWBeJLrbU,514
+ggmail-0.2.0.dist-info/RECORD,,
