@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+centerofgravity/__init__.py
+centerofgravity/centerofgravity.py
+centerofgravity.egg-info/PKG-INFO
+centerofgravity.egg-info/SOURCES.txt
+centerofgravity.egg-info/dependency_links.txt
+centerofgravity.egg-info/not-zip-safe
+centerofgravity.egg-info/requires.txt
+centerofgravity.egg-info/top_level.txt
