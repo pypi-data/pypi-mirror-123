@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-yapi
+Version: 0.1
+Summary: python yapi sdk
+Home-page: https://github.com/hanzhichao/python-yapi
+Author: Han Zhichao
+Author-email: superhin@126.com
+License: MIT license
+Keywords: yapi,python-yapi,pyyapi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-yapi
+python操作yapi库
+
+
