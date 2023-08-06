@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CLTranscriptor
+Version: 0.0.2
+Summary: Wav2Vec2-based transcriptor fine tuned on chilean lessons
+Home-page: https://github.com/dannersm/CLTranscriptor
+Author: Danner Schlotterbeck Mendez
+Author-email: danner.schmen@ciae.uchile.cl
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dannersm/CLTranscriptor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CLTranscriptor
+
+Spanish speech-to-text model based on huggingface transformers' [Wav2Vec2ForCTC](https://huggingface.co/transformers/model_doc/wav2vec2.html)
+

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/CLTranscriptor.egg-info/PKG-INFO
+src/CLTranscriptor.egg-info/SOURCES.txt
+src/CLTranscriptor.egg-info/dependency_links.txt
+src/CLTranscriptor.egg-info/requires.txt
+src/CLTranscriptor.egg-info/top_level.txt
+src/cltranscriptor/__init__.py
+src/cltranscriptor/cltranscriptor.py
