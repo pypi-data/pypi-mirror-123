@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+asgi_babel/__init__.py
+asgi_babel/py.typed
+asgi_babel.egg-info/PKG-INFO
+asgi_babel.egg-info/SOURCES.txt
+asgi_babel.egg-info/dependency_links.txt
+asgi_babel.egg-info/requires.txt
+asgi_babel.egg-info/top_level.txt
+requirements/requirements-build.txt
+requirements/requirements-example.txt
+requirements/requirements-tests.txt
+requirements/requirements.txt
