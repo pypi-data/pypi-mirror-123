@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: plover_clipboard
+Version: 1.0
+Summary: Plover plugin for accessing the system clipboard
+Home-page: https://github.com/sammdot/plover-clipboard
+License: UNKNOWN
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Plover Clipboard
+
+[![pypi](https://img.shields.io/pypi/v/plover-clipboard)](https://pypi.org/project/plover-clipboard)
+![python](https://img.shields.io/pypi/pyversions/plover-clipboard)
+![build](https://github.com/sammdot/plover-clipboard/workflows/build/badge.svg)
+
+Plover plugin for accessing the system clipboard. This provides the
+`clipboard_paste` meta, which just outputs the last text contents of the clipboard.
+The advantage of using this over the paste keyboard command (Ctrl/Cmd-V) is that
+the paste can be undone using the steno undo stroke.
+
+To use, add an outline for this command to your dictionary:
+
+```json
+{
+  "P-FT": "{:clipboard_paste}"
+}
+```
+
+

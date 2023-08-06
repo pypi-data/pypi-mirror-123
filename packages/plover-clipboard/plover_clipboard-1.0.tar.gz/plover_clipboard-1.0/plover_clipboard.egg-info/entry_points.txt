@@ -1,0 +1,3 @@
+[plover.meta]
+clipboard_paste = plover_clipboard:paste
+
