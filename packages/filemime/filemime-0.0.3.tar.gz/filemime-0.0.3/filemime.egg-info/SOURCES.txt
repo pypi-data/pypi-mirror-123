@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+filemime/__init__.py
+filemime/utillity.py
+filemime.egg-info/PKG-INFO
+filemime.egg-info/SOURCES.txt
+filemime.egg-info/dependency_links.txt
+filemime.egg-info/top_level.txt
+filemime.egg-info/zip-safe
+filemime/usr/bin/file.exe
+filemime/usr/bin/msys-2.0.dll
+filemime/usr/bin/msys-bz2-1.dll
+filemime/usr/bin/msys-magic-1.dll
+filemime/usr/bin/msys-z.dll
+filemime/usr/share/misc/magic.mgc
