@@ -1,0 +1,4 @@
+[console_scripts]
+demo_print = pod_picker:demo_print
+pick_pod_version = pod_picker:pick_pod_version
+

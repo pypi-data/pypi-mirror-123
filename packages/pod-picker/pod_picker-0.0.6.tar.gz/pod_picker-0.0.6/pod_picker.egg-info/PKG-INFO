@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pod-picker
+Version: 0.0.6
+Summary: 通过过对比壳工程podfile,生成正确的子工程podfile
+Home-page: https://github.com/taojigu
+Author: gujitao
+Author-email: taojigu@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
