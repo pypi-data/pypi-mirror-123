@@ -1,0 +1,11 @@
+setup.py
+DXR.egg-info/PKG-INFO
+DXR.egg-info/SOURCES.txt
+DXR.egg-info/dependency_links.txt
+DXR.egg-info/requires.txt
+DXR.egg-info/top_level.txt
+Dxr_log/__init__.py
+Dxr_log/log.py
+Dxr_mqtt/__init__.py
+Dxr_mqtt/dxr_mqtt.py
+Dxr_mqtt/dxr_mqtt_2.py
