@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "auth-code-flow"
+version = "0.2.0"
+description = "Auth Code Flow (`auth-code-flow`) is a utility for obtaining access tokens on behalf of resource owners using the OAuth 2.0 authentication code flow"
+authors = [
+  "Mfon Eti-mfon <mfonetimfon@gmail.com>",
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/a-thousand-juniors/auth-code-flow"
+repository = "https://gitlab.com/a-thousand-juniors/auth-code-flow"
+keywords = [
+  "oauth",
+  "authorization grant",
+  "authorization code",
+  "authorization code flow",
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+urllib3 = "^1.26.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-mock = "^3.6.0"
+requests-mock = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
