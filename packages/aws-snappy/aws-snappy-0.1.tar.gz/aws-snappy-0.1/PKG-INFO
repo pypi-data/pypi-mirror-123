@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aws-snappy
+Version: 0.1
+Summary: Snappy is a Python library that facilitates taking root volume snapshots as well as non root volume snapshot from an instance.
+Home-page: https://github.com/mervin-hemaraju-cko/snappy
+Author: Mervin Hemaraju
+Author-email: mervin.hemaraju@checkout.com
+License: UNKNOWN
+Description: # Snappy
+        
+        Snappy is a Python library that facilitates taking root volume snapshots as well as non root volume snapshot from an instance.
+        
+        ```
+        Under construction
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
