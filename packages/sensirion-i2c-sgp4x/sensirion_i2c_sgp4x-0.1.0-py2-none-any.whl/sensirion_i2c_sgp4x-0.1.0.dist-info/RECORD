@@ -1,0 +1,15 @@
+sensirion_i2c_sgp4x/__init__.py,sha256=OAtmhaZXwAJr5v2Fyb_PZBAvIdoVfLG7fLkYUYCJha4,280
+sensirion_i2c_sgp4x/version.py,sha256=e92T45LRo1uhCZ7UBRVmjZ6GqSMkkAWQUTTesavAj7U,129
+sensirion_i2c_sgp4x/sgp40/__init__.py,sha256=YAfIKgZSdeKxp16Gm7N4eQgJdI3VGjPGnHFYVDoeerM,136
+sensirion_i2c_sgp4x/sgp40/commands.py,sha256=0wNfyG-LiMUKK_1hhm0SKYnBmQEB2YVhqXo9FghTp0c,9073
+sensirion_i2c_sgp4x/sgp40/device.py,sha256=a6ZDPxk2ggnqcd2sl97E21gTiJ_dH2j3GUiqFsKGYjM,2640
+sensirion_i2c_sgp4x/sgp40/response_types.py,sha256=vCfiFX0-gXEdzYbp3tM2qA82gkQK9YronlzkP4pMjuE,672
+sensirion_i2c_sgp4x/sgp41/__init__.py,sha256=YAfIKgZSdeKxp16Gm7N4eQgJdI3VGjPGnHFYVDoeerM,136
+sensirion_i2c_sgp4x/sgp41/commands.py,sha256=Clm2pIfcAjwo_opiBwKyYw3mfdfzOrgy7wXaxXctvAw,11698
+sensirion_i2c_sgp4x/sgp41/device.py,sha256=pXF6Hbe27aZZebodWZSEt6sL2PtnQUg40KZMBQbG6kM,3811
+sensirion_i2c_sgp4x/sgp41/response_types.py,sha256=r-tatUekaCU6GvQ1Npv2LGBzTUUB-7X-RKZVSoJjefI,1207
+sensirion_i2c_sgp4x-0.1.0.dist-info/LICENSE,sha256=61ZhKvqquFc0MI0ujvXnqLNElhTAvhIOAKQTlq2D5Gk,1512
+sensirion_i2c_sgp4x-0.1.0.dist-info/METADATA,sha256=FQioAoQlhDWfjUjl6ZDf1Lc9wPTTQ8z1h2MfsRmWV_A,1752
+sensirion_i2c_sgp4x-0.1.0.dist-info/WHEEL,sha256=umevUEtYglx3BsmRdkbeexA0ajsvOK25YhJUBycYWFg,97
+sensirion_i2c_sgp4x-0.1.0.dist-info/top_level.txt,sha256=TSc7DtOFBVdJ32rhJ7HBebRuRRIgmDtZPmpjPTR2jKQ,20
+sensirion_i2c_sgp4x-0.1.0.dist-info/RECORD,,
