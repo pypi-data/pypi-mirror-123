@@ -1,0 +1,6 @@
+six
+http
+json
+requests
+
+[test]
