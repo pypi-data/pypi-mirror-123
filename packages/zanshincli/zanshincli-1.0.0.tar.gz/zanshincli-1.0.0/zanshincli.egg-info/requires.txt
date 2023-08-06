@@ -1,0 +1,3 @@
+prettytable==2.1.0
+typer==0.3.2
+zanshinsdk==1.0.2
