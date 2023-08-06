@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pymetrc/__init__.py
+src/pymetrc/apicaller.py
+src/pymetrc/pymetrc.py
+src/pymetrc/ratelimiter.py
+src/pymetrc.egg-info/PKG-INFO
+src/pymetrc.egg-info/SOURCES.txt
+src/pymetrc.egg-info/dependency_links.txt
+src/pymetrc.egg-info/requires.txt
+src/pymetrc.egg-info/top_level.txt
