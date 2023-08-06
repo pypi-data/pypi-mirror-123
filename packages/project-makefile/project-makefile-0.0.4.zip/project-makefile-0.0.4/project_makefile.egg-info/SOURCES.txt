@@ -1,0 +1,11 @@
+LICENSE.rst
+README.rst
+install.py
+setup.py
+project_makefile.egg-info/PKG-INFO
+project_makefile.egg-info/SOURCES.txt
+project_makefile.egg-info/dependency_links.txt
+project_makefile.egg-info/entry_points.txt
+project_makefile.egg-info/namespace_packages.txt
+project_makefile.egg-info/not-zip-safe
+project_makefile.egg-info/top_level.txt
