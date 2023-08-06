@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: netapp-dataops-k8s
+Version: 2.1.0
+Summary: NetApp DataOps Toolkit for Kubernetes Environments
+Home-page: https://github.com/NetApp/netapp-data-science-toolkit/
+Author: Mike Oglesby
+Author-email: mike.oglesby@netapp.com
+Maintainer: NetApp
+Maintainer-email: ng-ai-inquiry@netapp.com
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/NetApp/netapp-data-science-toolkit/issues
+Project-URL: Documentation, https://github.com/NetApp/netapp-data-science-toolkit/blob/main/README.md
+Project-URL: Source Code, https://github.com/NetApp/netapp-data-science-toolkit/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipython (==7.28.0)
+Requires-Dist: kubernetes (==18.20.0)
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: netapp-astra-toolkits (==2.0)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: urllib3 (==1.26.5)
+
+UNKNOWN
+
