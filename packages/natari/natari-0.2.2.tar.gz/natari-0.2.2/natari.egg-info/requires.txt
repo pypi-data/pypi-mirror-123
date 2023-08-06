@@ -1,0 +1,5 @@
+napari-plugin-engine>=0.1.4
+numpy
+napari
+scipy
+napari_tools_menu
