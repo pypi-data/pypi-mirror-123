@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+generator3/__init__.py
+generator3.egg-info/PKG-INFO
+generator3.egg-info/SOURCES.txt
+generator3.egg-info/dependency_links.txt
+generator3.egg-info/requires.txt
+generator3.egg-info/top_level.txt
