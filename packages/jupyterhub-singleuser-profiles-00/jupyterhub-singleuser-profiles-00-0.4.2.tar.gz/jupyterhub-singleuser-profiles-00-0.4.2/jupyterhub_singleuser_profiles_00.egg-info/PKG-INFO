@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jupyterhub-singleuser-profiles-00
+Version: 0.4.2
+Summary: A library allowing JupyterHub admins and users to customize and extend Jupyter workspace deployments on OpenShift
+Home-page: UNKNOWN
+Author: Arun Prasad
+Author-email: arunmudaliar@ymail.com
+License: GPLv3+
+Platform: UNKNOWN
+
+A library allowing JupyterHub admins and users to customize and extend Jupyter workspace deployments on OpenShift
+
