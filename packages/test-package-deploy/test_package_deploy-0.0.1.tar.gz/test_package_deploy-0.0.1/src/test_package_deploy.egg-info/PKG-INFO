@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: test-package-deploy
+Version: 0.0.1
+Summary: A test package template
+Home-page: UNKNOWN
+Author: Naresh Gamidi
+Author-email: author@example.com
+License: : OSI Approved :: MIT License
+Description: # test_package_deploy
+        A Template to build a PIP package
+        ## Authors
+        - Naresh Gamidi
+        ## Installation
+        Install my-project with pip
+        ```bash
+          pip install test_package_deploy
+        ```
+        ## Requirements
+        * numpy
+        
+Platform: UNKNOWN
+Requires-Python: <=3.8
+Description-Content-Type: text/markdown
