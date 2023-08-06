@@ -1,0 +1,17 @@
+bot_base/__init__.py,sha256=Urw92uOFVHYnT3Kx0UsZuAXHroPKUVFqngU9Lk_57fg,340
+bot_base/bot.py,sha256=7e8nnCXKsqVqMElHt7WmpH8Tw_BzR783hVf6RmSEQ48,7099
+bot_base/context.py,sha256=aGin5FTAUb_b5u-XrHx2f8XpWlMW6VbrAFJKyrWytZs,386
+bot_base/exceptions.py,sha256=ats_sEk_6kTx66UnWCm6RMk7q3eP8MpyZfliYtedFwk,134
+bot_base/blacklist/__init__.py,sha256=fBJR-aQgz47TAkOGcthZuX_TuxU8V9jLGWXFOmQFoL4,40
+bot_base/blacklist/blacklist.py,sha256=ymUorDpTZ1krYen54iOd4nbVZNIOqJzBaEhR4fdEK_k,2055
+bot_base/db/__init__.py,sha256=a2M16OeyEgCJwAwWVMMlfdQ4uSA4E8DmRPCYHUzQNDE,32
+bot_base/db/document.py,sha256=DGcArIm-BPhWcg0wFLXvRdNK_lpmRg36bjmcfIq2CfA,3927
+bot_base/db/mongo.py,sha256=QQXbF_7JIc1ardC6NDUE4hOP7WbaAwS_ud36Ym3jXzU,715
+bot_base/wraps/__init__.py,sha256=Ht55fuBiBjDmIhwwJvun2N1OKyUKSDu3eoAO6YTC8gY,96
+bot_base/wraps/channel.py,sha256=d_mslC_RxFLd7F6sBypyzII3hqdzJbowNLZaWPq-XHw,825
+bot_base/wraps/meta.py,sha256=e-DJEhAgDcPA-0eFu0ia1iswRPYjv480gbsLA0_nt6w,4964
+bot_base/wraps/person.py,sha256=KOv8FQq2IOrelPD5aYGoboYRgHmMPchPib7IsuJVwU0,780
+Bot_Base-1.0.4.dist-info/METADATA,sha256=WrC-6N4cNbFpRQ3DaxbZWPxYNtK-WC8THleHQstFHQI,4915
+Bot_Base-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Bot_Base-1.0.4.dist-info/top_level.txt,sha256=VRqnsulYGNpZwWwdVk6v29QVbmtGwJyn5pZhZQa2nkc,9
+Bot_Base-1.0.4.dist-info/RECORD,,
