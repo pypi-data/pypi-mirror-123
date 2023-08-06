@@ -1,0 +1,12 @@
+ising_animate/__init__.py,sha256=i-gRDmioZyl3Z9Nze0JAJM3SsS43k8sN_lD2rpKcjhA,84
+ising_animate/__main__.py,sha256=CXGTeMTWrl1MLd1Hr51ux19b7mABvOpXHzez6YUFLsY,4291
+ising_animate/ising.py,sha256=p5Wh2ECgi3jnNsJG2P3WZBK5B25plEFXJsWMb1nLBlo,30673
+ising_animate/lattice.py,sha256=KkkZ0XeVFpxXxq4M_YAMEoDvknJdunFJ09IxhsLwRiE,6800
+ising_animate/timer.py,sha256=fltGrvWTdVGSMbupA5w121iu3XMZXo9lvOTKB4cw0vE,667
+ising_animate/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ising_animate/examples/heating.py,sha256=VEu86u7lCBzeW6QY5e2-4Xcp0xykLkWCfwrRP2JZp8s,3652
+ising_animate-0.0.1.dist-info/LICENSE,sha256=v_ZSzJR4r5OsRTY0u4FL-g56yuyHizx6nXUpt2WqhBY,1071
+ising_animate-0.0.1.dist-info/METADATA,sha256=WacNYSBTmbi1Z7SOBcEd4zh7cyNcUWeVLDYiqVp915o,5586
+ising_animate-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ising_animate-0.0.1.dist-info/top_level.txt,sha256=D5Whop8AzkJyLuKAPMepDqZ0arDEJUBc8XkVlsSj52o,14
+ising_animate-0.0.1.dist-info/RECORD,,
