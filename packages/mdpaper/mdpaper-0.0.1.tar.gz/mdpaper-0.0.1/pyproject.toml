@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mdpaper"
+version = "0.0.1"
+description = "A package for organizing and compiling a thesis type document with markdown."
+authors = ["Thomas Tu <thomasthetu@gmail.com>"]
+
+[tool.poetry.scripts]
+md-paper = "mdpaper.main:app"
+pandoc-docxtras = "mdpaper.filters:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = {extras = ["all"], version = "^0.4.0"}
+invoke = "^1.6.0"
+dynaconf = "^3.1.7"
+pandoc-docx-pagebreak = "^0.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
