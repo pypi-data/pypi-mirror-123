@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+freighter/__init__.py
+freighter/constants.py
+freighter/devkit_tools.py
+freighter/doltools.py
+freighter/hooks.py
+freighter.egg-info/PKG-INFO
+freighter.egg-info/SOURCES.txt
+freighter.egg-info/dependency_links.txt
+freighter.egg-info/requires.txt
+freighter.egg-info/top_level.txt
