@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: opencv-object-counter
+Version: 0.1.0
+Summary: Grades calculator for the BSc Computer Science at the University of London
+Home-page: UNKNOWN
+Author: Blair Currey
+Author-email: curreyb88@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Requires-Python: >=3.9.6
+Description-Content-Type: text/markdown; charset=UTF-8
+
+# OpenCV2 Object Counter
+Count objects using opencv2 in this configurable CLI utility. The module uses frame differencing to detect and count objects according to a flexible configuration scheme. This makes it a quick-and-dirty solution that can achieve good accuracy in a variety of cases and doesn't involve the computaional overhead nor complexity of convolutional neural netowrks (CNN). 
+
+Alternatively, the package can be imported to your own scripts.
+
+## Gates
+`Gates` are the instrument used for counting. They are boxes which detect  objects passing through them. A cooldown is triggered when it detects an object to avoid counting the same object many times. The right cooldown duration will depend on the counting situation. An object is counted if the gate is not on cooldown and the center point of the object and the gate is within the given distance.
+
+## Configuration
+Here is an annotated example config. A default config is provided in `ooc/config.json`. Running `ooc` in cli mode requires a config. More details on some of the parameters can be found on `https://docs.opencv.org/`.
+
+```json
+{
+    // list of gates that will be used for counting
+    "gates": [
+        {
+            // Starting x and y position (0,0 is top left)
+            // and gate dimnensions
+            "y": 320,
+            "width": 100,
+            "height": 100
+        }
+    ],
+    "blur" : {
+        // openCV2 kernal size
+        // must be positive or odd, or 0 (in which case 
+        // they are computed from sigma)
+        "ksize": {
+            "width": 21,
+            "height": 21
+        },
+        // openCV2 kernal standard deviation
+        "sigma_x": 0
+    },
+    // whether or not the video shows. press 'q' to quit
+    "show": true,
+    // whether or not additional video shows/logs print
+    "debug": false
+}
+```
+
+## Development
+Run `pytest` in root of package to run tests.
+
+

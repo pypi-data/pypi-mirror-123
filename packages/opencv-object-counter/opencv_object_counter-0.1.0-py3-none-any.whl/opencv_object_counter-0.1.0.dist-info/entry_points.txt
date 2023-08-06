@@ -1,0 +1,3 @@
+[console_scripts]
+ooc = ooc.cli:main
+
