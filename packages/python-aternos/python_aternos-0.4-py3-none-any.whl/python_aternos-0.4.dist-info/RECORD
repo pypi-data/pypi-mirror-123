@@ -1,0 +1,14 @@
+python_aternos/__init__.py,sha256=jTA3DVgOd6T1pdm0QOhKdJkczhZot3xkjmBeNekqaZE,1586
+python_aternos/atconf.py,sha256=ZXC7_UlWyNWvWXqj9ch1-_aCFWByb-7NX5OOFzXF6Js,6017
+python_aternos/atconnect.py,sha256=jR9htgTfBIK3VdnOYBfIQzjDIkUbHsNiyIvdYsBD9RY,3295
+python_aternos/aterrors.py,sha256=0Mxhdx5JrMcY-v0knqrfSVnyieLfZ0rYYL_DKFrPGJw,203
+python_aternos/atfile.py,sha256=sRPVTBBi4yuCU2BMdHilnoi7LxYlfB29Nut5QCXsQz4,2378
+python_aternos/atfm.py,sha256=LeHSAwfOCSQtUgwMzABvWk5zqetV4zL4cYUP-oU3SFc,2687
+python_aternos/atplayers.py,sha256=kArEwS9obtyvwlJJ10RxcXEsIZAlwEHr-o6R-Gb7WnY,1182
+python_aternos/atserver.py,sha256=jj8T059zJuZY2tacSZma-SrUYtqzC8fd8KK8POj5xko,4401
+python_aternos-0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_aternos-0.4.dist-info/METADATA,sha256=1R1YIUoB7an8M57j-Ve55XRS0MJuAnch4fMN-cjpmlc,3047
+python_aternos-0.4.dist-info/NOTICE,sha256=yxfxhiZP82fWNzKWUSBs6G9g2a6-lE-800zTSkp76p8,571
+python_aternos-0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_aternos-0.4.dist-info/top_level.txt,sha256=LxrWeeYLBfhs_v2shV9ix4eflQvkK_Xb04ec3_zwXHo,15
+python_aternos-0.4.dist-info/RECORD,,
