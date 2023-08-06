@@ -1,0 +1,2 @@
+svgling>=0.3
+jupyter
