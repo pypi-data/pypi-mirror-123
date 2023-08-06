@@ -1,0 +1,14 @@
+contextvars_extras/__init__.py,sha256=fCVM990n_oU_bCzLkvW_xZnVeCUqLOLILCSfALonCCg,531
+contextvars_extras/context_management.py,sha256=U5XhcP81_onK8D-rq0Y0OiVXnM76T9cJKFM4MF1weNA,12893
+contextvars_extras/context_var_descriptor.py,sha256=VRrBEHV_269pvbExw3W_HtKhadFVCVP_Y55gYSb5L-c,5081
+contextvars_extras/context_var_ext.py,sha256=H2cOonYYuSAN4jrThZ2tCT19OawW8mZ5WvHTwIUMboU,18694
+contextvars_extras/context_vars_registry.py,sha256=brq_h1V6s2ZzN6OEDkUfJZrd19vkciowv3dU4ofi2O0,17802
+contextvars_extras/integrations/__init__.py,sha256=rjOOAKL_ulc_XWdnWEiyKb_LyjefyP6kaRhxK52cVZ8,43
+contextvars_extras/integrations/flask.py,sha256=Hl_B1fdjsGE5x1XzXz0cpo2tkedpWKZjFI2u5iTWMZo,1949
+contextvars_extras/integrations/wsgi.py,sha256=v5UZrI3fWsR6D_NEOytzR86HUIwZwGtunGtObgVuX7U,2379
+contextvars_extras/internal_utils.py,sha256=ieGMckBmITPLCSzG-UAB-7LRZemUDTfJv8pbdzSBa9g,4648
+contextvars_extras/sentinel.py,sha256=VQoZ33vdEW4FBdfaPMtdA7rxKuHIRFXjADns3v84Y3c,1514
+contextvars_extras-0.0.10.dist-info/LICENSE,sha256=bOYogQIEfrOwxbnWcC1oYOvrQmorO0Lly8I4G46MM1w,1081
+contextvars_extras-0.0.10.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+contextvars_extras-0.0.10.dist-info/METADATA,sha256=tLJ8ejz7kjiiWK-zIp7-1i-7BewSjiibtr0kb72uR74,3735
+contextvars_extras-0.0.10.dist-info/RECORD,,
