@@ -1,0 +1,7 @@
+setup.py
+helloworld/__init__.py
+my_awesome_package_woong.egg-info/PKG-INFO
+my_awesome_package_woong.egg-info/SOURCES.txt
+my_awesome_package_woong.egg-info/dependency_links.txt
+my_awesome_package_woong.egg-info/not-zip-safe
+my_awesome_package_woong.egg-info/top_level.txt
