@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: s3-extend
+Version: 1.19
+Summary: A Non-Blocking Event Driven Applications Framework
+Home-page: https://github.com/MrYsLab/s3-extend
+Author: Alan Yorinks
+Author-email: MisterYsLab@gmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Keywords: Scratch3,Arduino,ESP-8266,Raspberry Pi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+Description-Content-Type: text/markdown
+Requires-Dist: pymata-cpx
+Requires-Dist: pymata-express (>=1.11)
+Requires-Dist: pymata-rh
+Requires-Dist: python-banyan (>=3.9)
+Requires-Dist: telemetrix-aio
+Requires-Dist: tmx-pico-aio
+
+# Scratch 3 OneGPIO Extension Servers
+
+## Control your favorite physical computing device using Scratch 3.
+
+Quick Intallation Intructions:
+
+* For Arduino, Circuit Playground Express, ESP-8266, Robohat-MM1, and Raspberry Pi
+Pico boards, install the server firmware. See the 
+  [Preparing Your Micro-Controller](https://mryslab.github.io/s3-extend/) section
+  of the User's Guide.
+
+* Launch the Scratch3 Editor using either the online or offline sites described
+in the in the [Ready, Set, Go/Launch The Scratch3 Editor](https://mryslab.github.io/s3-extend/)  section of the User's Guide.
+
+* Select your extension and start coding!.
+
+## For full installation and usage, read the [Installation and User's Guide.](https://mryslab.github.io/s3-extend/)
+
+
+
