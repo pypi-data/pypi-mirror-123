@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+risicompare/form.py
+risicompare/html_delegate.py
+risicompare/risicompare.py
+risicompare.egg-info/PKG-INFO
+risicompare.egg-info/SOURCES.txt
+risicompare.egg-info/dependency_links.txt
+risicompare.egg-info/entry_points.txt
+risicompare.egg-info/requires.txt
+risicompare.egg-info/top_level.txt
