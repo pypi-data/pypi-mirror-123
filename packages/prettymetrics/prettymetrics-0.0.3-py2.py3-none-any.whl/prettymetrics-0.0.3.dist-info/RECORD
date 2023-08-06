@@ -1,0 +1,11 @@
+prettymetrics/__init__.py,sha256=N3NZdzeltnKOSn8SlrN-ax4zRVpgJRJMi5u2oFyCdNU,156
+prettymetrics/clf.py,sha256=9MsUdCk3NhGK2KzYPqGD9oQHFboQ6Uj6S7qSzaYkYQ8,17371
+prettymetrics/cli.py,sha256=PBm6Q36C99-g88P7NMhih5ny76gfVLHoAKv7sGTQyd4,427
+prettymetrics/reg.py,sha256=8IJjVxIF6C166Nz-wPVIOFmYzNmQLkiVTh37DDNXXu4,15935
+prettymetrics-0.0.3.dist-info/AUTHORS.rst,sha256=OIDSjNq4PQsNyH0MqxDygtM17SG1atD4ZfdvrtnMZ0U,129
+prettymetrics-0.0.3.dist-info/LICENSE,sha256=XsNOP8uK2EQNqpqNvw_jeIkRTam4LvcLsjo0Vk80UoU,1073
+prettymetrics-0.0.3.dist-info/METADATA,sha256=rKCciKaPR0y1x4zsBLb9B_seoEUdlwuZyf3G8Nbw-Dk,11935
+prettymetrics-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+prettymetrics-0.0.3.dist-info/entry_points.txt,sha256=UQRaiZTqkHR5Mbpu1gUW6tZw9M69XTuxAbSTaRU37xc,58
+prettymetrics-0.0.3.dist-info/top_level.txt,sha256=Ma-8V91kXu6BoE8pWz5IP2K6zriM4vfMc8WutPip6Qc,14
+prettymetrics-0.0.3.dist-info/RECORD,,
