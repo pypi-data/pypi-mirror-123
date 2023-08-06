@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: brue
+Version: 2021.10.18
+Summary: modern web gui using python
+Home-page: https://github.com/eseunghwan/brue
+Author: Lee Seung Hwan
+Author-email: shlee0920@naver.com
+License: MIT license
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
