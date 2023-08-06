@@ -1,0 +1,60 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ .Values.nameOverride }}
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: orbit-team-script-launcher
+    job-name: {{ .Values.nameOverride }}
+    {{- include "team-script-launcher.labels" . | nindent 4 }}
+
+spec:
+  backoffLimit: 1
+  ttlSecondsAfterFinished: 6000
+  template:
+    spec:
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.jobAffinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.jobTolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      serviceAccountName: {{ .Values.serviceAccountName }}
+      securityContext:
+        fsGroup: 100
+      containers:
+      - name: kubectl-aws
+        securityContext:
+          {{- toYaml .Values.securityContext | nindent 10 }}
+        imagePullPolicy: {{ .Values.image.pullPolicy}}
+        image: {{ .Values.image.repository }}
+        env:
+          {{- toYaml .Values.env | nindent 12 }}
+        command: ["/bin/bash"]
+        args:
+          - -c
+          - >-
+            source /scripts/{{ .Values.scriptFile }}
+        resources:
+          {{- toYaml .Values.jobResources | nindent 12 }}
+
+        volumeMounts:
+          - mountPath: /efs
+            name: efs-volume
+          - name: scripts
+            mountPath: /scripts
+      volumes:
+        - name: efs-volume
+          persistentVolumeClaim:
+            claimName: team-efs
+        - name: scripts
+          configMap:
+            name: {{ .Values.configMapName }}
+            defaultMode: 0744
+      restartPolicy: {{ .Values.restartPolicy }}
