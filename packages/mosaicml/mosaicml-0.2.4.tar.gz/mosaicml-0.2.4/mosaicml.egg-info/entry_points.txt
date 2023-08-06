@@ -1,0 +1,3 @@
+[console_scripts]
+composer = examples.run_mosaic_trainer:main
+
