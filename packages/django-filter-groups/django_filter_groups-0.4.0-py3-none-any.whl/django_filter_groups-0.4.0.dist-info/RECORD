@@ -1,0 +1,13 @@
+django_filters_groups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_filters_groups/forms.py,sha256=2fQTj4BkGp9HCsKEB2-K_tsQszqRePPYqs8xpCCX5io,837
+django_filters_groups/static/django_filters_groups/filter-defaults.js,sha256=nouWxaTB08BdqVJQoJrQ43tMer8gsBft3pvaYh2pPNA,91
+django_filters_groups/static/django_filters_groups/filter.css,sha256=UV5z5dr1MbJxxP-ZcMEainfOBIaRzLthEcKfcrqgATU,441
+django_filters_groups/static/django_filters_groups/filter.js,sha256=9EA5X04t4VX55dws_vMF1O_6osTJbWFXLOTYRSiR5as,6229
+django_filters_groups/templates/django_filters_groups/filters.html,sha256=lw52JzTyHwKhwaYkRI7L_TJytbp3C9SMKoo8NNaWZEU,1310
+django_filters_groups/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_filters_groups/templatetags/django_filters_groups.py,sha256=Ces1tbPC6bMAhIESlMEZP2HNBYY30YvGKnkSPSG6A68,4738
+LICENSE,sha256=qK_4wGFDZF3GDUKJWkYxfJxVBXtUQhTC4gTbRMQ1CYI,1548
+django_filter_groups-0.4.0.dist-info/LICENSE,sha256=qK_4wGFDZF3GDUKJWkYxfJxVBXtUQhTC4gTbRMQ1CYI,1548
+django_filter_groups-0.4.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+django_filter_groups-0.4.0.dist-info/METADATA,sha256=kloKk7XPie5felH_lugP_RO3deGAo8FuDIozUCfjAOI,1739
+django_filter_groups-0.4.0.dist-info/RECORD,,
