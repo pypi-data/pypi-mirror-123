@@ -1,0 +1,20 @@
+{
+  "definitions": {
+    "FSMRecord": {
+      "title": "OARepoFSM fields v2.0.0",
+      "type": "object",
+      "properties": {
+        "oarepo:recordStatus": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "pendingApproval",
+            "approved",
+            "public"
+          ],
+          "description": "Field representing the current FSM status of the record"
+        }
+      }
+    }
+  }
+}
