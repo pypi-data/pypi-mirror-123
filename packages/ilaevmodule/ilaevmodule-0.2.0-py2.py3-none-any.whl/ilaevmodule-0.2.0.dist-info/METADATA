@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ilaevmodule
+Version: 0.2.0
+Summary: A example Python package
+Home-page: https://github.com/nilaev
+Author: Nikita Ilaev
+Author-email: nik.ilaev@mail.ru
+License: BSD 2-clause
+Platform: UNKNOWN
+Requires-Dist: pandas (<1.0)
+
+UNKNOWN
+
+
