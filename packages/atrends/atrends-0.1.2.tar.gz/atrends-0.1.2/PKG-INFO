@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: atrends
+Version: 0.1.2
+Summary: A PyTrends script to access the Google Trends API and return a plot.
+License: MIT
+Author: davidshivaji
+Author-email: davidshivaji@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: pytrends (>=4.7.3,<5.0.0)
+Description-Content-Type: text/markdown
+
+# CLI for Google Trends
+
+Use this to quickly access the [Google Trends API](https://trends.google.com/trends/) via Command Line.
+
+## Installation
+```bash
+pip install atrends
+```
+
+## Usage
+
+#### Run `trends` with any number of arguments
+
+## Example
+```bash
+trends flask django react
+```
+
+![](https://i.imgur.com/JzzNAZU.png)
+
+## Custom:
+Edit the category, timeframe, colors, lines, in main.py
+
