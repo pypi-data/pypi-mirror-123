@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: msad
+Version: 0.0.1
+Summary: msad is a library and commandline for interacting with Active Directory
+Home-page: https://github.com/matteoredaelli/msad
+Author: Matteo Redaelli
+Author-email: matteo.redaelli@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fire
+Requires-Dist: ldap3
+
+# msAD
+
+
+msad is a library and command line tool for working with an Active Directory / LDAP server. It can be used for:
+- search objects (users, groups, computers,..)
+- search group members
+- add/remove members to/from AD groups using DN or sAMaccoutName
+- change AD passwords
+
+## Usage
+
+
+## License
+
+Copyright © 2021 Matteo Redaelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+

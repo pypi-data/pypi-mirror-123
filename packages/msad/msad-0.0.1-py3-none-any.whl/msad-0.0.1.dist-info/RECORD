@@ -1,0 +1,12 @@
+msad/__init__.py,sha256=DJ6egXlvzOK_k0XlN7BpmMRuwu4MM7eQoxLE0Ou-sLI,63
+msad/ad.py,sha256=C3dknAgRY6Jnotk0RgPSye7uzNxUd-7B3oGloGR674E,5679
+msad/command_line.py,sha256=d_fJtBTbiBNQqDsHocPr3smYJ7Tp0kva_mzuNS6P-GQ,4878
+msad/group.py,sha256=-QJ2ssGGWejcq3yyYYChybWVXgcP2SqCOGW9j-4ZIrc,2220
+msad/search.py,sha256=NwRFhshwPa91yHPv9LUTX-GTlDCkiehi57v61k4qFjE,1811
+msad/user.py,sha256=-W9v4ewp-8PESMZryk-8KJDX--nAQGSN1L2oVnYQjxQ,1275
+msad-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+msad-0.0.1.dist-info/METADATA,sha256=2Bu1C2PG6CM_RxBfSvEk0rdDA-6BKLE3fhibVN1-sMo,1053
+msad-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+msad-0.0.1.dist-info/entry_points.txt,sha256=7HfOhkdjqGvM7Whcl5l4K0_XG3LgwSDfy-hHeiAlQbQ,49
+msad-0.0.1.dist-info/top_level.txt,sha256=C7oAqQ8Om9puxF81wzyl_8arBV2pCoQY26VctYxij1M,5
+msad-0.0.1.dist-info/RECORD,,
