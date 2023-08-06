@@ -1,0 +1,20 @@
+from typing import Union
+
+from nextcord import abc
+
+from bot_base.wraps.meta import Meta
+
+
+class WrappedChannel(Meta):
+    """Wraps nextcord.TextChannel for ease of stuff"""
+
+    def __init__(self, channel: Union[abc.GuildChannel, abc.PrivateChannel]):
+        self.channel = channel
+
+    def __getattr__(self, item):
+        """Anything not found within Meta should be returned from channel itself"""
+        return getattr(self.channel, item)
+
+    @property
+    def __class__(self):
+        return type(self.channel)
