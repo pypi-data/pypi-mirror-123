@@ -1,0 +1,27 @@
+[console_scripts]
+elyra-metadata = elyra.metadata.metadata_app:MetadataApp.main
+elyra-pipeline = elyra.cli.pipeline_app:pipeline
+jupyter-elyra = elyra.elyra_app:launch_instance
+
+[elyra.pipeline.processors]
+airflow = elyra.pipeline.airflow.processor_airflow:AirflowPipelineProcessor
+kfp = elyra.pipeline.kfp.processor_kfp:KfpPipelineProcessor
+local = elyra.pipeline.local.processor_local:LocalPipelineProcessor
+
+[metadata.schemas_providers]
+code-snippets = elyra.metadata.schemasproviders:CodeSnippetsSchemas
+component-registries = elyra.metadata.schemasproviders:ComponentRegistriesSchemas
+metadata-tests = elyra.tests.metadata.test_utils:MetadataTestSchemasProvider
+runtimes = elyra.metadata.schemasproviders:RuntimesSchemas
+runtimes-images = elyra.metadata.schemasproviders:RuntimeImagesSchemas
+
+[metadata.schemaspaces]
+code-snippets = elyra.metadata.schemaspaces:CodeSnippets
+component-registries = elyra.metadata.schemaspaces:ComponentRegistries
+metadata-tests = elyra.tests.metadata.test_utils:MetadataTestSchemaspace
+runtimes = elyra.metadata.schemaspaces:Runtimes
+runtimes-images = elyra.metadata.schemaspaces:RuntimeImages
+
+[papermill.engine]
+ElyraEngine = elyra.pipeline.elyra_engine:ElyraEngine
+
