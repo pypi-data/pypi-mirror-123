@@ -1,0 +1,1 @@
+n_numero_primo
