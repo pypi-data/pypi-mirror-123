@@ -1,0 +1,11 @@
+anonypy/__init__.py,sha256=v7sTFBsUj6ee8Rirm8uSzisQwHWMbkNJbUOSLfQdoQA,61
+anonypy/anonypy.py,sha256=jz--dSTn_FMfqZDm4aO62-c6mHPoHifpL4z0yOBT_Lk,2919
+anonypy/mondrian.py,sha256=gUi0xNlyuPgsaahAxl502fR072EA0t5Li6db_3w5yb8,1759
+anonypy/util.py,sha256=ocKOpSUFok91hcIqUp3DItUwFss1t7t6LXo1Uajn7BQ,1549
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/anonypy_test.py,sha256=2d5CyfqMApEKoCZalqbZhhIet5BPCadWuYSN0Kni9v0,2294
+anonypy-0.0.2.dist-info/LICENSE,sha256=8axrai6MqZHbH2yW_yrbp0Frt41Q9w5Z0bVy6ecuPJs,1071
+anonypy-0.0.2.dist-info/METADATA,sha256=VvYroKC6QvjNZcZ1EXuXkGarOV6GdH_0ocWJw8TLM1w,1017
+anonypy-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+anonypy-0.0.2.dist-info/top_level.txt,sha256=_9KCYwUWsJkllD9PLybwoGiBll_FxkdWAeRpEFy9o2w,14
+anonypy-0.0.2.dist-info/RECORD,,
