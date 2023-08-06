@@ -1,0 +1,16 @@
+bfsccylinder_models/__init__.py,sha256=3D87PcTp5yDpTe7-vNnlaRO4tHicWzDTcSe8dVY__88,317
+bfsccylinder_models/koiter_cylinder.cp39-win_amd64.pyd,sha256=8qLwlUQ1K37G6b4H_1DGXUNivyEQvCYXfqzYTR_bgrg,387072
+bfsccylinder_models/koiter_cylinder_CTS.cp39-win_amd64.pyd,sha256=gmc9lfjAWFqSZr0Dy8gq-4OoEcHAvaiqX83EsKCFMAs,414208
+bfsccylinder_models/koiter_cylinder_CTS_slow.py,sha256=2UquAy9o3aXufdb-voDwRaSuhSvfewFdCOjNI4_rTns,29061
+bfsccylinder_models/koiter_cylinder_newton_raphson.py,sha256=_FqLJAFloD7N88eussAK25XcfX2tPGmg-SxjTE7HBmc,21989
+bfsccylinder_models/linbuck_VAFW.cp39-win_amd64.pyd,sha256=eKb9Na_ZP0QVu7QN6tCEH5J3U0H03qJeTAvbKvP3G9o,111616
+bfsccylinder_models/models.py,sha256=3JacznfRiEyejP8rfKqOoKba7Xuzu4bTUVT9T2lE7EM,4658
+bfsccylinder_models/vatfunctions.py,sha256=FrGIm4-0vD9cNxaCsGM-5kl_yxzmwAyUHJM9kzFQUc4,631
+bfsccylinder_models/version.py,sha256=TmwlDqE0T6RgVbshGw6bH4bEq1MsUdNprOXGiaJRPks,23
+bfsccylinder_models-0.2.21.data/data/LICENSE,sha256=J3VCnoBSN-NI2IRDesLD-CZnXIvPWtpjv4yEV3gJBjQ,1533
+bfsccylinder_models-0.2.21.data/data/README.md,sha256=dWaat6E_SggT0Ik_ZUxqPYpQ2qJX_1AYvcunIUrrSnQ,601
+bfsccylinder_models-0.2.21.dist-info/LICENSE,sha256=J3VCnoBSN-NI2IRDesLD-CZnXIvPWtpjv4yEV3gJBjQ,1533
+bfsccylinder_models-0.2.21.dist-info/METADATA,sha256=rXf-xk23ykGX5q-4PMP0reSrGd77YrylQK8xsADn36g,1683
+bfsccylinder_models-0.2.21.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+bfsccylinder_models-0.2.21.dist-info/top_level.txt,sha256=Qv4XlktMdI480uiC3myvYchjvLLabKMpFDqeLDU9irU,20
+bfsccylinder_models-0.2.21.dist-info/RECORD,,
