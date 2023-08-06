@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Bias_correction_by_LS_for_precipitation.egg-info/PKG-INFO
+Bias_correction_by_LS_for_precipitation.egg-info/SOURCES.txt
+Bias_correction_by_LS_for_precipitation.egg-info/dependency_links.txt
+Bias_correction_by_LS_for_precipitation.egg-info/top_level.txt

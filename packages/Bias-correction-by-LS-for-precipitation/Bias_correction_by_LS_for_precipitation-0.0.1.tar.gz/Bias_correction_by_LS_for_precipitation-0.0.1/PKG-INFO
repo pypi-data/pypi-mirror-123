@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Bias_correction_by_LS_for_precipitation
+Version: 0.0.1
+Summary: Bias correction for precipitation using linear scaling method
+Home-page: UNKNOWN
+Author: Akkarapon Chaiyana
+Author-email: akkarapon.chaiyana@gmail.com
+License: MIT
+Keywords: Bias correction,Linear scaling,Precipitation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a function to do bias correction of precipitation using linear scaling method only. Additionally, this function requires three input files to add it in the function. The first file, it is the observed precipitation data and set its following "https://www.youtube.com/watch?v=uEnTc5MK4uQ&t=29s".
+The second file, it is the climate precipitation data. 
+The third file, it is the datetime of precipitation. 
+
+This package must work with numpy and pandas package, users should install all of them also.
+
+Change log
+==========
+
+0.0.1 (10/13/2021)
+
+- First Release
+
+
+
