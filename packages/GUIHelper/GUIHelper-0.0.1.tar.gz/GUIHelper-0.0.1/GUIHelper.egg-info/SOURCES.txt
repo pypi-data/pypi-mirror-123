@@ -1,0 +1,4 @@
+GUIHelper.egg-info/PKG-INFO
+GUIHelper.egg-info/SOURCES.txt
+GUIHelper.egg-info/dependency_links.txt
+GUIHelper.egg-info/top_level.txt
