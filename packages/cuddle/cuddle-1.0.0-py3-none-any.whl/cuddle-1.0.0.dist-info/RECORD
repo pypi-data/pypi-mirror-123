@@ -1,0 +1,12 @@
+cuddle/__init__.py,sha256=Ap3s8axRK9nm36crl208U58j_fC2a8srnAqKrHfuHJ8,3581
+cuddle/_escaping.py,sha256=s-5ug96Bnqu5KQv4hjBv0DNPC6ZqyFWoxZuWP2aeI9E,270
+cuddle/decoder.py,sha256=gn4qHKTuUq3Zz_gEw2mPZx2heMYUFYnY2qbLBXDqwF4,13548
+cuddle/encoder.py,sha256=Cwt7ruJXFihE9bKDJqkbjeHMT5p6XNbNQh0yNjG6bow,5741
+cuddle/exception.py,sha256=6WSowNXrk_0effX-ZHMc7eG_JvPgrTwQ9ZKeqb7fzuM,155
+cuddle/grammar.py,sha256=il9NYQQariT9vYoka-suKHlOFYDyn2A_Wz8kvZ4b2MI,24178
+cuddle/grammar.tatsu,sha256=anKuHyu5laKoTI945jB8NtLUx2dYCR3GrmxUKcl6x_0,2592
+cuddle/structure.py,sha256=tdZ_6NtL_ISBYNKvzyaVJKDuW8wL2H1xVDFbyLoHYmo,2634
+cuddle-1.0.0.dist-info/LICENSE.txt,sha256=xwtg6R8GkyBg-cpp74e3_u3aixdTYwVxaXrBRGWOhQQ,1108
+cuddle-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cuddle-1.0.0.dist-info/METADATA,sha256=sWjLVJvzgaJJo3yrh3sIrYIzjFsCtdiwlKN4bT7HHEM,2683
+cuddle-1.0.0.dist-info/RECORD,,
