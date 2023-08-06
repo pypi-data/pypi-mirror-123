@@ -1,0 +1,5 @@
+requests
+scipy
+Pillow
+numpy
+easydict
