@@ -1,0 +1,5 @@
+setup.py
+promptdb.egg-info/PKG-INFO
+promptdb.egg-info/SOURCES.txt
+promptdb.egg-info/dependency_links.txt
+promptdb.egg-info/top_level.txt
