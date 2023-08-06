@@ -1,0 +1,3 @@
+drb==1.0a5	
+versioneer>=0.20
+
