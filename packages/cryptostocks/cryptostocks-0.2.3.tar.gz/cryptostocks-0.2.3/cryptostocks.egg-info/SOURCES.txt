@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cryptostocks/__init__.py
+cryptostocks/get_price.py
+cryptostocks/test.py
+cryptostocks.egg-info/PKG-INFO
+cryptostocks.egg-info/SOURCES.txt
+cryptostocks.egg-info/dependency_links.txt
+cryptostocks.egg-info/not-zip-safe
+cryptostocks.egg-info/requires.txt
+cryptostocks.egg-info/top_level.txt
