@@ -1,0 +1,125 @@
+[build-system]
+requires = [
+    "poetry>=0.12",
+]
+build-backend = "poetry.masonry.api"
+
+
+[tool.poetry]
+name = "basicserial"
+version = "1.2.0"
+description = "A convenience wrapper around serialization libraries to handle common tasks."
+authors = [
+    "Jason Simeone <jay@classless.net>"
+]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/jayclassless/basicserial"
+keywords = [
+    "serialize",
+    "serialization",
+    "json",
+    "yaml",
+    "toml",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+]
+include = [
+    "CHANGES.rst",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+iso8601 = "*"
+
+[tool.poetry.dev-dependencies]
+coverage = "*"
+pytest = "*"
+pytz = "*"
+pyyaml = "*"
+"ruamel.yaml" = "*"
+pytoml = "*"
+toml = "*"
+qtoml = "*"
+tomlkit = "*"
+tomli = "*"
+tomli_w = "*"
+simplejson = "*"
+orjson = { version = "*", markers = "implementation_name == 'cpython'" }
+python-rapidjson = "*"
+ujson = "*"
+hyperjson = { version = "*", markers = "python_version < '3.9' and implementation_name == 'cpython'" }
+pybind11 = "*"
+pysimdjson = "*"
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-vv"
+
+
+[tool.coverage.run]
+data_file = ".coverage"
+source = [
+    "basicserial",
+]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    "raise NotImplementedError",
+    "pragma: no cover",
+]
+
+
+[tool.tidypy]
+exclude = [
+    '.venv/.*',
+    'test/.*',
+    'build/.*',
+    'dist/.*',
+    '.pytest_cache/.*',
+]
+vulture = {use = false}
+
+[tool.tidypy.pycodestyle]
+disabled = [
+    'W391',
+    'E731',
+]
+
+[tool.tidypy.pydocstyle]
+disabled = [
+    'D100', 'D101', 'D102', 'D103', 'D104', 'D105', 'D107',
+    'D200', 'D202', 'D203', 'D205', 'D212',
+    'D400', 'D401',
+]
+
+[tool.tidypy.pylint]
+disabled = [
+    'missing-docstring',
+    'trailing-newlines',
+    'duplicate-code',
+]
+[tool.tidypy.pylint.options]
+min-public-methods = 0
+
+[tool.tidypy.pyflakes]
+disabled = [
+    'UnusedImport',
+    'ImportStarUsed',
+]
+
+[tool.tidypy.yamllint]
+disabled = [
+    'empty-lines',
+    'document-start',
+]
+
+[tool.tidypy.bandit]
+disabled = [
+    'B506',
+]
+
