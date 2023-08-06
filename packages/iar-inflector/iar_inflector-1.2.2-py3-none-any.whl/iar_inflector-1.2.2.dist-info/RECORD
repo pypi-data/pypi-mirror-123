@@ -1,0 +1,17 @@
+iar_inflector/__init__.py,sha256=7Ps6BXZXErE-znUMy-uLk-g7m2NSkMhCuAA4kz9nwxI,863
+iar_inflector/acep_consts.py,sha256=qnJQ-tPmJMhRTnSc7WR8QvPAawspxiqiVgIw6rQB2so,21257
+iar_inflector/acepcion.py,sha256=10xHbV_M3oYY8ljgrWyhsqBiluJ5cAbIu2X9V8Eppok,135900
+iar_inflector/entr_consts.py,sha256=yKtPBTxm8V9bMgUwUlGXLFyW2VqFrYdy4ZY9E3KlgRU,390
+iar_inflector/entrada.py,sha256=Ju8vIwI5Ttd5p-YkrKkobaoF6huF29-_ntDAJCO7Tcg,1312
+iar_inflector/flex_consts.py,sha256=OOQoTecpA0QmqT-tIwLzhM3aSYCXjG0U4dcxyE5Mpds,22246
+iar_inflector/flexionador.py,sha256=2zGGrVmEABRjOc5Ijpfa7AF3pAyIgOswkMhHO1787tI,315288
+iar_inflector/forma.py,sha256=Qb68cMbVUpabzntEKQ07TjaDibbYeuIlGZdfPGs7y-o,12058
+iar_inflector/lema.py,sha256=J7nVUj0zNFMhA2Be1Di6g80obmyu_hcrmOmrv44MABU,806
+iar_inflector/parseador_rae.py,sha256=LKIr0-7PuijT0txQlMjP69ZyIMf-CKjEB4SOQBbtkyo,239713
+iar_inflector/parseador_rae_consts.py,sha256=PCa3ZD1uulCTTT5syAZOk7LCW3o0W2Eb2i3FHYbRc64,5721
+iar_inflector/parseador_wikci.py,sha256=57a5xzuQFN8h2oAqQjzvtA9flAbBYoe9marHTn_APlA,93394
+iar_inflector/parseador_wikci_consts.py,sha256=VxEwj2kAMJz6SNG7aS8J7VjMFmBOEw-XHEsC44iNHdw,1214
+iar_inflector-1.2.2.dist-info/METADATA,sha256=NgPoKiKJy_CcYrmA65QT-lpXBx6Tgs5ZaHsX80efriA,3262
+iar_inflector-1.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+iar_inflector-1.2.2.dist-info/top_level.txt,sha256=8M7gtwLZFK1MZHyAUyLP2XDHmMBWKwe700MGbbeox_w,14
+iar_inflector-1.2.2.dist-info/RECORD,,
