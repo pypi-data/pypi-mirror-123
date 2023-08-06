@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/mammath.egg-info/PKG-INFO
+src/mammath.egg-info/SOURCES.txt
+src/mammath.egg-info/dependency_links.txt
+src/mammath.egg-info/top_level.txt
