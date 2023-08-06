@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+noscope/__init__.py
+noscope.egg-info/PKG-INFO
+noscope.egg-info/SOURCES.txt
+noscope.egg-info/dependency_links.txt
+noscope.egg-info/top_level.txt
