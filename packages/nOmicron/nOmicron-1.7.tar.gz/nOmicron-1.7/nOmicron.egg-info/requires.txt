@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+matplotlib
+natsort
+pefile
+psutil
+requests
+backoff
+bs4
+lxml
