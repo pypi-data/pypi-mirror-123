@@ -1,0 +1,4 @@
+[console_scripts]
+globus-flows-e2e-tests=flows_e2e_tests.cli.main:app
+globus-flows-rm-flow=flows_e2e_tests.scripts:delete_flow
+
