@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: llyr
+Version: 0.1.7
+Summary: micromagnetic post processing library
+Home-page: https://github.com/MathieuMoalic/llyr
+Author: Mathieu Moalic
+Author-email: matmoa@pm.me
+License: GPL-3.0
+Platform: any
+Requires-Dist: appdirs (>=1.4.4)
+Requires-Dist: cmocean (>=2.0)
+Requires-Dist: dask (>=2021.4.0)
+Requires-Dist: distributed (>=2021.4.0)
+Requires-Dist: h5py (>=3.2.1)
+Requires-Dist: matplotlib (>=3.4.1)
+Requires-Dist: numpy (>=1.20.2)
+Requires-Dist: psutil (>=5.8.0)
+Requires-Dist: tqdm (>=4.60.0)
+
+UNKNOWN
+
+
