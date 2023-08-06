@@ -1,0 +1,9 @@
+README.md
+setup.py
+si_prefix_parser/__init__.py
+si_prefix_parser/si_prefix_parser.py
+si_prefix_parser.egg-info/PKG-INFO
+si_prefix_parser.egg-info/SOURCES.txt
+si_prefix_parser.egg-info/dependency_links.txt
+si_prefix_parser.egg-info/not-zip-safe
+si_prefix_parser.egg-info/top_level.txt
