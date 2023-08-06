@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simple-protocol
+Version: 0.1.5
+Summary: Common library for spectre libs
+Home-page: http://github.com/gageleblanc/simpleprotocol
+Author: Gage LeBlanc
+Author-email: gleblanc@symnet.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Dist: clilib (>=2.1.0)
+
+UNKNOWN
+
+
