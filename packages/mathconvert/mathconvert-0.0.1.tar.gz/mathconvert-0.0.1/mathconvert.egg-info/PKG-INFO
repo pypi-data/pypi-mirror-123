@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mathconvert
+Version: 0.0.1
+Summary: Convert binary, hex, octal, decimal
+Home-page: UNKNOWN
+Author: Ayoub Ech-chetyouy
+Author-email: <ayoubechchetyouy@yahoo.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,math,convert,binary,hex,octal,To,decimal
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
