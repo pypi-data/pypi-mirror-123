@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+notebook_video_writer/__init__.py
+notebook_video_writer/video_writer.py
+notebook_video_writer.egg-info/PKG-INFO
+notebook_video_writer.egg-info/SOURCES.txt
+notebook_video_writer.egg-info/dependency_links.txt
+notebook_video_writer.egg-info/requires.txt
+notebook_video_writer.egg-info/top_level.txt
