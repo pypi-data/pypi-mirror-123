@@ -1,0 +1,9 @@
+odoo/addons/to_many_tracking/__init__.py,sha256=eXuxNm2Rt68IYdyaoX8H0itAunvCyPAshDi3Jvfksgk,29
+odoo/addons/to_many_tracking/__manifest__.py,sha256=SvnRGrdtqiQ13ltNZh6O739YROzoMuNGaxTUFSY34dU,290
+odoo/addons/to_many_tracking/models/__init__.py,sha256=65vJ37cNXUXbxSE1MChlBCZhwyNV4bAb1zqIxu3FOK0,42
+odoo/addons/to_many_tracking/models/mail_tracking_value.py,sha256=EPwmoq8fdw8SX7auLfsd81_vvSCE3nsrglK24VIx3IA,1270
+odoo_to_many_tracking-14.0.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+odoo_to_many_tracking-14.0.0.dist-info/METADATA,sha256=03MAVrPVRZCrYplC5B37wGjtN35_KDUV6t5Eq75f3Og,276
+odoo_to_many_tracking-14.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo_to_many_tracking-14.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_to_many_tracking-14.0.0.dist-info/RECORD,,
