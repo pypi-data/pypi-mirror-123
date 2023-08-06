@@ -1,0 +1,11 @@
+pycares-4.1.1.dist-info/WHEEL,sha256=-Y3vWbctlRrqr_-P0nzWg3hAGpCXsHCvOTzakldKVCA,217
+pycares-4.1.1.dist-info/top_level.txt,sha256=nIeo7L2XUVBQZO2YE6pH7tlKaBWTfmmRcXbqe_NWYCw,15
+pycares-4.1.1.dist-info/METADATA,sha256=CZfBk82cE1RqT4sYCFGpCo770F1kzvlIQPxFvNyI7xs,4139
+pycares-4.1.1.dist-info/LICENSE,sha256=QnuzpTcgJKJuLCkLJDglErzHyhI0McTdF43WE77qfu4,1070
+pycares-4.1.1.dist-info/RECORD,,
+pycares/errno.py,sha256=XgBmgCKLKV-5EAZIjxxJpORNZiwkyzma5VTKpzPHBms,1039
+pycares/_version.py,sha256=5Ooc6KzSPUZ7Ej1ujFM5bnihSLZE5Mr4vvuJ77GSjEI,23
+pycares/_cares.cpython-39-x86_64-linux-gnu.so,sha256=FQVxopUnhvU8_wRxk58BWkWvXGqnanX0NNpnHvxb1gQ,900832
+pycares/__init__.py,sha256=OslKRMeAcfH3txeLvK4yk1MP6uAkwkh0xV9pHqKrGVw,29754
+pycares/utils.py,sha256=WXvoHfPeL7EoKdelvJ9LzIviMH3ijElLxH2Hgz5-0qU,1343
+pycares/__main__.py,sha256=zagpuBSUv3MqoMvzby_5xzSW9ky76DAxWM8b5SMiJrw,2796
