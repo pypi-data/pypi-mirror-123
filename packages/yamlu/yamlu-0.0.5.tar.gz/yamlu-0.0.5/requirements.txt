@@ -1,0 +1,13 @@
+matplotlib
+numpy
+Pillow
+# --- optional ---
+scikit-learn
+pandas
+torch
+seaborn
+# coco
+tqdm
+joblib
+# --- development ---
+pytest
