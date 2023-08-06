@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+src/pybandits.egg-info/PKG-INFO
+src/pybandits.egg-info/SOURCES.txt
+src/pybandits.egg-info/dependency_links.txt
+src/pybandits.egg-info/top_level.txt
