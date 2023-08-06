@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mendeley_cli/__init__.py
+mendeley_cli.egg-info/PKG-INFO
+mendeley_cli.egg-info/SOURCES.txt
+mendeley_cli.egg-info/dependency_links.txt
+mendeley_cli.egg-info/entry_points.txt
+mendeley_cli.egg-info/requires.txt
+mendeley_cli.egg-info/top_level.txt
