@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: blenderproc
+Version: 2.0.0a5
+Summary: UNKNOWN
+Home-page: https://github.com/DLR-RM/BlenderProc
+Author: German Aerospace Center (DLR) - Institute of Robotics and Mechatronics (RM)
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: h5py
+Requires-Dist: progressbar
+
+UNKNOWN
+
