@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo8-addons-oca-mis-builder
+Version: 8.0.20211016.0
+Summary: Meta package for oca-mis-builder Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 8.0
+Requires-Dist: odoo8-addon-mis-builder
+Requires-Dist: odoo8-addon-mis-builder-analytic-filter
+Requires-Dist: odoo8-addon-mis-builder-demo
+
+UNKNOWN
+
