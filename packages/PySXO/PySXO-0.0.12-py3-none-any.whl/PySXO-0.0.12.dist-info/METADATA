@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: PySXO
+Version: 0.0.12
+Summary: A simple python API for SecureX Orchestrator
+Home-page: https://github.com/CiscoAandI/PySXO
+Author: Ava Thorn
+Author-email: avthorn@cisco.com
+Maintainer: A&I
+Maintainer-email: cx-aandi@cisco.com
+License: UNKNOWN
+Project-URL: Documentation, https://ciscoaandi.github.io/PySXO
+Project-URL: Source Code, https://github.com/CiscoAandI/PySXO
+Project-URL: Issue Tracker, https://github.com/CiscoAandI/PySXO/issues/
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.19.0)
+Requires-Dist: attrdict (>=2.0.1)
+
+# PySXO
+A Python SDK for SecureX Orchestrator (SXO)
+
+## Quickstart
+
+``` python
+from PySXO import SXOClient
+
+sxo = SXOClient(
+    client_id=secrets['client_id'],
+    client_password=secrets['client_password'],
+    dry_run=False
+)
+
+workflows = sxo.workflows
+
