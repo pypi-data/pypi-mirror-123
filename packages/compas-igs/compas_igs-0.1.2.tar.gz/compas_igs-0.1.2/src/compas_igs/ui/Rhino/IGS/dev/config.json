@@ -1,0 +1,311 @@
+{
+    "plugin":
+    {
+        "id": "{3e33b31b-86ac-402c-babf-d3c16962ed33}",
+        "version": "0.1.0",
+        "title": "IGS"
+    },
+    "ui":
+    {
+        "icons":
+        {
+            "bitmap": "ags_toolbar.png",
+            "images":
+            [
+                "0_init",
+
+                "1_open",
+                "2_save",
+
+                "3_form",
+                "4_form_loads",
+
+                "5_form_check_dof",
+
+                "6_force",
+
+                "7_form_move_nodes",
+                "8_form_fix_nodes",
+                "9_force_move_nodes",
+
+                "10_inspect",
+                "11_loadpath",
+
+                "12_display_settings",
+                "13_redraw",
+                "14_clear"
+
+            ]
+        },
+
+        "commands":
+        [
+            {"name": "IGS__init",                       "menu_text": "Initialise IGS",                  "icon": 0,      "tooltip": "InitialiseIGS"},
+            {"name": "IGS_server_restart",              "menu_text": "Restart server"},
+
+            {"name": "IGS_session_load",                "menu_text": "Load Session",                    "icon": 1,      "tooltip": "Load IGS Session"},
+            {"name": "IGS_session_save",                "menu_text": "Save Session",                    "icon": 2,      "tooltip": "Save IGS Session"},
+
+            {"name": "IGS_form_from_obj",               "menu_text": "FormDiagram From Obj"},
+            {"name": "IGS_form_from_layer",             "menu_text": "FormDiagram From Layer"},
+            {"name": "IGS_form_from_lines",             "menu_text": "FormDiagram From Lines"},
+
+            {"name": "IGS_toolbar_form_assign_forces",  "menu_text": "Select and Assign Forces",         "icon": 4,      "tooltip": "Select and Assign Forces"},
+            {"name": "IGS_form_select_ind",             "menu_text": "Select Independents Edges"},
+            {"name": "IGS_form_assign_forces",          "menu_text": "Assign Forces to Independent Edges"},
+
+            {"name": "IGS_form_move_nodes",             "menu_text": "Move FormDiagram Nodes",          "icon": 7,      "tooltip": "Move FormDiagram Nodes"},
+            {"name": "IGS_form_select_fixed",           "menu_text": "Fix FormDiagram Nodes",           "icon": 8,      "tooltip": "Fix FormDiagram Nodes"},
+
+            {"name": "IGS_form_check_dof",              "menu_text": "Check Degree of Freedom",         "icon": 5,      "tooltip": "Check DoF"},
+            {"name": "IGS_form_update_from_force",      "menu_text": "Update FormDiagram from Force"},
+
+            {"name": "IGS_force_from_form",             "menu_text": "Create ForceDiagram",             "icon": 6,      "tooltip": "Create ForceDiagram"},
+            {"name": "IGS_force_update",                "menu_text": "Update ForceDiagram from Form"},
+
+            {"name": "IGS_force_move_nodes",            "menu_text": "Move Nodes",                      "icon": 9,      "tooltip": "Move ForceDiagram Nodes"},
+
+            {"name": "IGS_form_default_constraints",         "menu_text": "Assign Default Constraints", "icon": 13,     "tooltip": "Assign Default Constraints"},
+            {"name": "IGS_form_constraint_edge_force",       "menu_text": "Constraint Edge Force",                      "tooltip": "Constraint FormDiagram Edge Force"},
+            {"name": "IGS_form_constraint_edge_orientation", "menu_text": "Constraint Edge Orientation",                "tooltip": "Constraint FormDiagram Edge Orientation"},
+            {"name": "IGS_form_constraint_vertex",           "menu_text": "Constraint Vertex to a Line",                "tooltip": "Constraint Vertex to a Line"},
+            {"name": "IGS_form_constraint_edge_inspect",     "menu_text": "Inspect Edge Constraints",                   "tooltip": "Inspect constraints"},
+            {"name": "IGS_form_constraint_vertex_inspect",   "menu_text": "Inspect Vertex Constraints",                 "tooltip": "Inspect constraints"},
+            {"name": "IGS_form_constraint_remove",           "menu_text": "Remove Constraints",                         "tooltip": "Remove constraints"},
+
+            {"name": "IGS_update_both",                 "menu_text": "Update diagrams from constraints", "icon": 13,    "tooltip": "Update Form and Force from constraints"},
+
+            {"name": "IGS_form_compute_loadpath",       "menu_text": "Compute Loadpath",                "icon": 11,     "tooltip": "Compute Loadpath"},
+
+            {"name": "IGS_unified_diagram",             "menu_text": "Unified diagram",                "icon": 11,     "tooltip": "Draw unified diagram"},
+
+            {"name": "IGS_edges_table",                 "menu_text": "Edges Table"},
+            {"name": "IGS_edge_information",            "menu_text": "Highlight Edge Information"},
+            {"name": "IGS_form_inspector_control",      "menu_text": "Highlight Force Polygons"},
+
+            {"name": "IGS_form_displaysettings",        "menu_text": "FormDiagram Display Settings"},
+            {"name": "IGS_form_move",                   "menu_text": "FormDiagram Location"},
+            {"name": "IGS_force_displaysettings",       "menu_text": "ForceDiagram Display Settings"},
+            {"name": "IGS_force_move",                  "menu_text": "ForceDiagram Location"},
+            {"name": "IGS_force_select_anchor",         "menu_text": "Select ForceDiagram Anchor Point"},
+            {"name": "IGS_force_scale",                 "menu_text": "ForceDiagram Scale"},
+
+            {"name": "IGS__undo",                       "menu_text": "IGS Undo",                                         "tooltip": "Undo last action"},
+            {"name": "IGS__redo",                       "menu_text": "IGS Redo",                                         "tooltip": "Redo last action"},
+
+            {"name": "IGS_toolbar_inspector",           "menu_text": "Inspect Diagrams",                "icon": 10,     "tooltip": "Inspect Diagrams"},
+            {"name": "IGS_toolbar_form",                "menu_text": "FormDiagram Create",              "icon": 3,      "tooltip": "Create FormDiagram"},
+            {"name": "IGS_toolbar_display",             "menu_text": "Display Settings",                "icon": 12,     "tooltip": "Display Settings"},
+
+            {"name": "IGS_scene_redraw",                "menu_text": "Redraw",                          "icon": 13,     "tooltip": "Refresh Scene"},
+            {"name": "IGS__restart",                    "menu_text": "Clear All",                       "icon": 14,     "tooltip": "Clear Scene"},
+
+            {"name": "IGS_docs",                        "menu_text": "Web Documentation"}
+        ],
+
+        "menus":
+        [
+            {
+                "name" : "IGS",
+                "items":
+                [
+                    {"command": "IGS__init"},
+                    {"command": "IGS_server_restart"},
+
+                    {
+                        "name": "Session",
+                        "items":
+                        [
+                            {"command": "IGS_session_load"},
+                            {"command": "IGS_session_save"}
+                        ]
+                    },
+
+                    {"type": "separator"},
+
+                    {
+                        "name": "Create FormDiagram",
+                        "items":
+                        [
+                            {"command": "IGS_form_from_obj"},
+                            {"command": "IGS_form_from_layer"},
+                            {"command": "IGS_form_from_lines"}
+                        ]
+                    },
+
+                    {
+                        "name": "Select and Assign Forces",
+                        "items":
+                        [
+                            {"command": "IGS_form_select_ind"},
+                            {"command": "IGS_form_assign_forces"}
+                        ],
+                        "icon": 4
+                    },
+
+                    {"type": "separator"},
+
+                    {"command": "IGS_form_check_dof"},
+
+                    {"type": "separator"},
+
+                    {"command": "IGS_force_from_form"},
+
+                    {"type": "separator"},
+
+                    {
+                        "name": "Modify FormDiagram",
+                        "items":
+                        [
+                            {"command": "IGS_form_move_nodes"},
+                            {"command": "IGS_form_select_fixed"}
+                        ]
+                    },
+
+                    {"command": "IGS_form_update_from_force"},
+
+                    {"type": "separator"},
+
+                    {
+                        "name": "Modify ForceDiagram",
+                        "items":
+                        [
+                            {"command": "IGS_force_move_nodes"}
+                        ]
+                    },
+
+                    {"command": "IGS_force_update"},
+
+                    {"type": "separator"},
+
+                    {
+                        "name": "Constraints",
+                        "items":
+                        [
+                            {"command": "IGS_form_default_constraints"},
+                            {"command": "IGS_form_constraint_edge_force"},
+                            {"command": "IGS_form_constraint_edge_orientation"},
+                            {"command": "IGS_form_constraint_vertex"},
+                            {"command": "IGS_form_constraint_remove"}
+                        ]
+                    },
+
+                    {"command": "IGS_update_both"},
+
+                    {"type": "separator"},
+
+                    {
+                        "name": "Inspect Diagrams",
+                        "items":
+                        [
+                            {"command": "IGS_edges_table"},
+                            {"command": "IGS_edge_information"},
+                            {"command": "IGS_form_inspector_control"},
+                            {"command": "IGS_form_constraint_edge_inspect"},
+                            {"command": "IGS_form_constraint_vertex_inspect"}
+                        ]
+                    },
+
+                    {"command": "IGS_form_compute_loadpath"},
+
+                    {"type": "separator"},
+
+                    {
+                        "name": "Display",
+                        "items":
+                        [
+                            {"command": "IGS_form_displaysettings"},
+                            {"command": "IGS_form_move"},
+                            {"type": "separator"},
+                            {"command": "IGS_force_displaysettings"},
+                            {"command": "IGS_force_move"},
+                            {"command": "IGS_force_select_anchor"},
+                            {"command": "IGS_force_scale"},
+                            {"type": "separator"},
+                            {"command": "IGS_unified_diagram"}
+                        ]
+                    },
+
+                    {"type": "separator"},
+
+                    {"command": "IGS__undo"},
+                    {"command": "IGS__redo"},
+
+                    {"type": "separator"},
+
+                    {"command": "IGS_scene_redraw"},
+                    {"command": "IGS__restart"},
+
+                    {"type": "separator"},
+                    {"command": "IGS_docs"}
+
+                ]
+            }
+        ],
+        "toolbars":
+        [
+            {
+                "name": "IGS",
+                "items":
+                [
+                    {"left": "IGS__init"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_session_load"},
+                    {"left": "IGS_session_save"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_toolbar_form"},
+
+                    {"left": "IGS_toolbar_form_assign_forces"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_form_check_dof"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_force_from_form"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_form_move_nodes"},
+                    {"left": "IGS_form_select_fixed"},
+                    {"left": "IGS_force_move_nodes"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_form_default_constraints"},
+                    {"left": "IGS_update_both"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_toolbar_inspector"},
+                    {"left": "IGS_form_compute_loadpath"},
+                    {"left": "IGS_unified_diagram"},
+
+                    {"type": "separator"},
+
+                    {"left": "IGS_toolbar_display"},
+                    {"left": "IGS_scene_redraw"},
+                    {"left": "IGS__restart"}
+                ]
+            }
+        ],
+        "toolbargroups":
+        [
+            {
+                "name": "IGS",
+                "toolbars":
+                [
+                    "IGS"
+                ]
+            }
+        ]
+    },
+    "settings":
+    {
+    }
+}
