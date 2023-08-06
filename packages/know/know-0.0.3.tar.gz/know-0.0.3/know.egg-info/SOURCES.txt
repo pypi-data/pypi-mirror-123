@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+know/__init__.py
+know/audio_to_store.py
+know.egg-info/PKG-INFO
+know.egg-info/SOURCES.txt
+know.egg-info/dependency_links.txt
+know.egg-info/not-zip-safe
+know.egg-info/requires.txt
+know.egg-info/top_level.txt
