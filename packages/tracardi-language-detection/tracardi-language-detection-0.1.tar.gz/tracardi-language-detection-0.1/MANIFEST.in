@@ -1,0 +1,2 @@
+recursive-include tracardi_language_detection/model *
+recursive-include tracardi_language_detection/service *
