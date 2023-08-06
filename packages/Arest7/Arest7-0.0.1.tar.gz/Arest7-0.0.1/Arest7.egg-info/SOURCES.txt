@@ -1,0 +1,8 @@
+setup.py
+Arest7.egg-info/PKG-INFO
+Arest7.egg-info/SOURCES.txt
+Arest7.egg-info/dependency_links.txt
+Arest7.egg-info/requires.txt
+Arest7.egg-info/top_level.txt
+libname/__init__.py
+libname/main.py
