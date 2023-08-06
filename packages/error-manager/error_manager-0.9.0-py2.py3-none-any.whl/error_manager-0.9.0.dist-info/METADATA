@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: error-manager
+Version: 0.9.0
+Summary: Module to manage error code, descriptions and data in a unified way throughout a project
+Home-page: https://github.com/MaartendeRuyter/errors
+Author: Maarten de Ruyter
+Author-email: maarten@geodatagarden.com
+License: LGPL-3.0-or-later
+Project-URL: Documentation, https://errors.readthedocs.io/
+Project-URL: Changelog, https://errors.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/MaartendeRuyter/errors/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+
+=============
+Error Manager
+=============
+
+A lightweight implementation of a manager for error messages throughout your
+project. Allows you to easily define and register error codes and messages.
+Enable easy access to a single list of registerd error codes and messages
+throughout your project.
+
+
+
+
+* Free software: GNU Lesser General Public License v3 or later (LGPLv3+)
+
+Installation
+============
+
+::
+
+    pip install error-manager
+
+You can also install the in-development version with::
+
+    pip install https://github.com/MaartendeRuyter/errors/archive/master.zip
+
+
+Documentation
+=============
+
+https://errors.readthedocs.io/
+
+
+Changelog
+=========
+
+0.1.0 (2021-10-08)
+------------------
+
+* First release on PyPI.
+
+
+0.9.0 (2021-10-11)
+------------------
+
+* added error codes as attribut to ListErrors class.
+  After registration of an ErrorCode the errorcode is accessible in
+  ``ListErrors`` via::
+
+      ListErrors.ERROR_CODE_KEY
+
+* Added Documentation and removed default redundant Documentation
+
+
