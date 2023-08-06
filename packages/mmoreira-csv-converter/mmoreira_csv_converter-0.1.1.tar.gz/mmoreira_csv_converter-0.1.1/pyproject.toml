@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "mmoreira_csv_converter"
+version = "0.1.1"
+description = "Convert csv to json or convert json to csv. Publishing only for learning purpose at PUC-MG. DS Class"
+authors = ["Marcelo Moreira G Silva <mqestatistico@gamil.com>"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+black = "^21.9b0"
+isort = "^5.9.3"
+ipython = "^7.28.0"
+pathlib = "^1.0.1"
+click = "^8.0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+csv2json_converter = 'csv2json_converter:csv2json.converter'
+
+[tool.black]
+line-length = 99
+
+[tool.isort]
+profile = "black"
