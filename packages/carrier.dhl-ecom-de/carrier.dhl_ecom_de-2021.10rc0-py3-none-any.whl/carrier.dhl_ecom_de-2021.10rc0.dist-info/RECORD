@@ -1,0 +1,6 @@
+dhl_ecom_de_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhl_ecom_de_lib/business_interface.py,sha256=XR_uS_VfzYtxxruJwgycz__wZAn3n7MsNnLH76fKCAU,932871
+dhl_ecom_de_lib/customer_interface.py,sha256=lHiFmV997GKClUlb2TecswB52I3tmTP6KByZNW-PRuA,357828
+carrier.dhl_ecom_de-2021.10rc0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+carrier.dhl_ecom_de-2021.10rc0.dist-info/METADATA,sha256=7ICV-GBB5BiX4GhCzDQmzcRjwPttF6gc7cvwHFYPJlc,1324
+carrier.dhl_ecom_de-2021.10rc0.dist-info/RECORD,,
