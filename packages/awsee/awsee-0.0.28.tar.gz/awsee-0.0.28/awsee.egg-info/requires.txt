@@ -1,0 +1,11 @@
+Pygments>=2.3.1
+XlsxWriter>=1.3.7
+arnparse>=0.0.2
+boto3>=1.18.62
+botocore>=1.21.62
+clipboard>=0.0.4
+prompt_toolkit>=2.0.10
+pyreadline
+python-dateutil>=2.8.2
+pytz>=2019.3
+tinydb>=4.5.2
