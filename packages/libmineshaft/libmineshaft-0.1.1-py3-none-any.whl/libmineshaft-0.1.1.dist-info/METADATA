@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: libmineshaft
+Version: 0.1.1
+Summary: Helper library for Mineshaft and mod creation for it in near future
+Home-page: https://github.com/Mineshaft-game/libmineshaft
+Author: Double Fractal Game Studios
+Author-email: mayu2kura1@gmail.com
+License: LGPL-2.1
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pygame (>=2.0.1)
+
+UNKNOWN
+
+
