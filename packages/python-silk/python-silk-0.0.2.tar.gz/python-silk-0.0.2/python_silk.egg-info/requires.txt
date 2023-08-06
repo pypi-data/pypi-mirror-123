@@ -1,0 +1,4 @@
+pybind11>=2.7.0
+
+[test]
+pytest
