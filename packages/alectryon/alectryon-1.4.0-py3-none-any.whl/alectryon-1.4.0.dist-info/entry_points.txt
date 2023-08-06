@@ -1,0 +1,6 @@
+[console_scripts]
+alectryon = alectryon.cli:main
+
+[pygments.styles]
+alectryon = alectryon.pygments_style:AlectryonStyle
+
