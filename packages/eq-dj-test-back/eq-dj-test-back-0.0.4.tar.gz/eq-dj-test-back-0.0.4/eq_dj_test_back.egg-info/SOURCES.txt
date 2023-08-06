@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+eq_dj_test_back/__init__.py
+eq_dj_test_back/base_test_model.py
+eq_dj_test_back/base_test_serializer.py
+eq_dj_test_back/base_test_view.py
+eq_dj_test_back.egg-info/PKG-INFO
+eq_dj_test_back.egg-info/SOURCES.txt
+eq_dj_test_back.egg-info/dependency_links.txt
+eq_dj_test_back.egg-info/requires.txt
+eq_dj_test_back.egg-info/top_level.txt
