@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/compare-qrels/__init__.py
+src/compare-qrels/compare_qrels.py
+src/compare_qrels.egg-info/PKG-INFO
+src/compare_qrels.egg-info/SOURCES.txt
+src/compare_qrels.egg-info/dependency_links.txt
+src/compare_qrels.egg-info/requires.txt
+src/compare_qrels.egg-info/top_level.txt
