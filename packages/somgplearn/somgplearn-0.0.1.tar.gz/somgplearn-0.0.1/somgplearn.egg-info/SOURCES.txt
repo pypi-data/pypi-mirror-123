@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+somgplearn.egg-info/PKG-INFO
+somgplearn.egg-info/SOURCES.txt
+somgplearn.egg-info/dependency_links.txt
+somgplearn.egg-info/requires.txt
+somgplearn.egg-info/top_level.txt
