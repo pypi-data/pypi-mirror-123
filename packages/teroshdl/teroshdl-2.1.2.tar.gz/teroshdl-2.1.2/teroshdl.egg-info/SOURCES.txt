@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+teroshdl.egg-info/PKG-INFO
+teroshdl.egg-info/SOURCES.txt
+teroshdl.egg-info/dependency_links.txt
+teroshdl.egg-info/requires.txt
+teroshdl.egg-info/top_level.txt

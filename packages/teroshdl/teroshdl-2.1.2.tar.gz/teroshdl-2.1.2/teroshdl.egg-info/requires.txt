@@ -1,0 +1,4 @@
+yowasp-yosys>=0.8.*
+vunit_hdl>=4.4.1
+edalize>=0.2.5
+vsg>=3.3.0
