@@ -1,0 +1,4 @@
+[console_scripts]
+hello = mminepy.hello:gegus
+setup = mminepy.hello:gegus
+

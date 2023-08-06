@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+mminepy/__init__.py
+mminepy/__main__.py
+mminepy/hello.py
+mminepy/mminepy.py
+mminepy.egg-info/PKG-INFO
+mminepy.egg-info/SOURCES.txt
+mminepy.egg-info/dependency_links.txt
+mminepy.egg-info/entry_points.txt
+mminepy.egg-info/minepy.exe
+mminepy.egg-info/top_level.txt
