@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+very_gui.egg-info/PKG-INFO
+very_gui.egg-info/SOURCES.txt
+very_gui.egg-info/dependency_links.txt
+very_gui.egg-info/top_level.txt
