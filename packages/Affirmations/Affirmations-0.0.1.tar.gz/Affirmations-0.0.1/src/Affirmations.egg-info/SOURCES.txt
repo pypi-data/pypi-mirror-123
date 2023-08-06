@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Affirmations/Affirm.py
+src/Affirmations/AffirmationText.py
+src/Affirmations/__init__.py
+src/Affirmations.egg-info/PKG-INFO
+src/Affirmations.egg-info/SOURCES.txt
+src/Affirmations.egg-info/dependency_links.txt
+src/Affirmations.egg-info/top_level.txt
