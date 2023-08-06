@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kaskara
+Version: 0.1.2
+Summary: A simple, unified API for various static analysers
+Home-page: https://github.com/ChrisTimperley/Kaskara
+Author: Christopher Timperley
+Author-email: christimperley@googlemail.com
+License: Apache-2.0
+Keywords: static analysis,c++,python,source code,program analysis
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: astor (~=0.8)
+Requires-Dist: asttokens (~=2.0)
+Requires-Dist: attrs (>=19.3)
+Requires-Dist: dockerblade (~=0.5)
+Requires-Dist: loguru (>=0.4)
+Requires-Dist: requests (~=2.22)
+Requires-Dist: sourcelocation (~=1.0)
+Requires-Dist: importlib-resources (>=1.0)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
