@@ -1,0 +1,16 @@
+typer
+rich
+requests
+humanize
+bs4
+questionary
+rich-rst
+packaging
+click-help-colors
+thefuzz
+
+[speedups]
+requests_cache
+shellingham
+lxml
+rapidfuzz
