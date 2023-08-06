@@ -1,0 +1,11 @@
+plesicdb/__about__.py,sha256=X4qPrEABXmN4g4wQ5kOXUuyX1Q7LK_ONId8HlTNpgnw,143
+plesicdb/__init__.py,sha256=jMACid3RIz7akKqc9ODC7AmHG0chV4wOT8kc43lXALM,923
+plesicdb/_base.py,sha256=t6nxa24wUMPCr10XhXM9zHQAHU0-fGeENfYkh_fjNCg,9022
+plesicdb/_collection.py,sha256=ifxA72ebZZqJ5E7Gf84584d6P6-hctpeSDPx_S_Opzo,17276
+plesicdb/_database.py,sha256=mqJT-2CrBZvUKS4KLWJ7xiXHqVdAafEx5Uq4KiWp6hE,7948
+plesicdb/_helpers.py,sha256=yWimlc64U-8rVSmiyrsKJ26uhxvI2gWetwATYLsvi2Q,136
+plesicdb/_utils.py,sha256=6BiWOUiVs7_M1E1kYfc9kKnL4nWSM_Yq5-990cuYqtA,1632
+PlesicDB-1.0.2.dist-info/METADATA,sha256=pCdQV4Ozrb7YSWS5prw_M95Rjh_gOvqlyoIbsASJ1dA,1169
+PlesicDB-1.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PlesicDB-1.0.2.dist-info/top_level.txt,sha256=Kc9gFntb5yvnUzCxVT-O7a-_JnUvHRh3Lbw6ACoULkA,9
+PlesicDB-1.0.2.dist-info/RECORD,,
