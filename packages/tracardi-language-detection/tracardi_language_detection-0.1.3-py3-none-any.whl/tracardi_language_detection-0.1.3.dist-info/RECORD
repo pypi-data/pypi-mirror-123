@@ -1,0 +1,13 @@
+tracardi_language_detection/plugin.py,sha256=ePMeB3yrxiFwVpOK5-q3O8Rdto59liJbZKDKD54JYY4,2977
+tracardi_language_detection/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_language_detection/model/configuration.py,sha256=YZJ5AWB61IwGysTA1hXAV0eKmz7C-18BN0B472RdYxY,535
+tracardi_language_detection/model/__pycache__/__init__.cpython-38.pyc,sha256=wSXAlZE82JXKtu5m_BctGdzRf9-q4Lo9T0o1qFuUiz0,192
+tracardi_language_detection/model/__pycache__/configuration.cpython-38.pyc,sha256=mKhDZWuP-cGfr9oMZy81Zb3nKL_E2z6zwGBfN_QpM9k,1117
+tracardi_language_detection/service/sendman.py,sha256=oVGonl_jRg2xQiEBZzfz3pDHr3E0O6szuHnprdvq4LI,1466
+tracardi_language_detection/service/__pycache__/sendman.cpython-38.pyc,sha256=pQnMvmQ4vW6acmyUi9vof3qSOqm2auQYSeUqmLWm1RE,1514
+tracardi_language_detection/test/manual_test.py,sha256=BW0Fj0xgf8juyRV5VRdkxmyKVcWHO6mKqg9o9zbuI9Y,997
+tracardi_language_detection-0.1.3.dist-info/LICENSE.md,sha256=sPIkAajsb4_tO1Z2VwU7vBDv6Ra_fWI9B1860-qIvR8,1066
+tracardi_language_detection-0.1.3.dist-info/METADATA,sha256=nvPsw8BUnwI0p4g7Dumch3oDqQGws0vzWtvh49Beo3A,1556
+tracardi_language_detection-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_language_detection-0.1.3.dist-info/top_level.txt,sha256=L_fOdEDWWa7f79W_yaWK2B2ngOECXXEqYXqlXVjhpXs,28
+tracardi_language_detection-0.1.3.dist-info/RECORD,,
