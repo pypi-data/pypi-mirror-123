@@ -1,0 +1,3 @@
+[console_scripts]
+pexels = pexels_cli.pexels_cli:main
+
