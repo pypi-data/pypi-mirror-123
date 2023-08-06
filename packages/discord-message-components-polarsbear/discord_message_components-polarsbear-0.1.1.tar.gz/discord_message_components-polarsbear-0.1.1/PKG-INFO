@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: discord_message_components-polarsbear
+Version: 0.1.1
+Summary: A python library that adds message component support to discord bots
+Home-page: https://github.com/PolarsBear/Discord-Message-Components
+Author: Lars Von Wangenheim
+Author-email: larzitovw@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/PolarsBear/Discord-Message-Components/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Discord Message Components
+A python library that adds message component support to discord bots
+ 
+
+## Usage
+### I will add proper documentation very soon
+```python
+from discord_message_components import *
+from discord.ext.commands import Bot
+import discord
+
+bot = Bot("prefix")
+
+components = ComponentHelper()
+button = Button("visible label", 1, "custom_id")
+components.addComponent(button)
+
+@bot.event
+async def on_socket_raw_receive(msg):
+    interaction = await websocket_wrap(msg)
+    if interaction is not None: # Making sure the interaction actually happened and was for message components
+        await respond(interaction,f"{interaction.member_data.username} clicked button {components.getFirstComponent(interaction.data.custom_id)}") # This acts just like discord_message_components.send_message, except it requires an interaction, and cannot have a message reference
+```
+
