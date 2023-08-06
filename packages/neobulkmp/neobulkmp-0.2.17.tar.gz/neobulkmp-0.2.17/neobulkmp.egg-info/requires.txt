@@ -1,0 +1,11 @@
+py2neo
+graphio
+linetimer
+redis
+jsonpickle
+psutil
+humanfriendly
+numpy
+
+[test]
+DZDutils
