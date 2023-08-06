@@ -1,0 +1,12 @@
+puts/color.py,sha256=sBIYOt0zamABqUVKWsuwHritAwDKWc6OH2bmWvjGE0k,2122
+puts/encoding.py,sha256=r5l5JygNMsiI9IRSau7a6B91kZ6yjjiLoycjoK-BCUc,3944
+puts/file.py,sha256=2N0QKLEf-iDzZ-5VxWOUgXS66Q0AmXKrY0MMQ8cZbAY,4269
+puts/logger.py,sha256=113s6nwC84jEwitpIQ5sW2I-shUbyllVzt8A-d75VIY,2532
+puts/string.py,sha256=R_TDnrQeghVwR9qaBuLyRXnOWGuk9hvqmgyCYr5P3zg,2166
+puts/time.py,sha256=C5RGuGW6PcbEeZkxcdk70NirnyGjtdEjltOCdSiBrSs,3697
+puts/utils.py,sha256=FWCvuP-DRLpwjCvSGk0HViCIfa7My76pXtzOrQ4GYQg,3733
+puts-0.0.5.dist-info/LICENSE,sha256=iF6uqtj-QI_iBW1eQdp02KK0L5HS6Wx6Lpav3hf4U_s,1070
+puts-0.0.5.dist-info/METADATA,sha256=WhM2JhX8qiumXhV9SeLP1d6jw7-sqeRqqYxYVo6DGMQ,2369
+puts-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+puts-0.0.5.dist-info/top_level.txt,sha256=qPkeeve0bSBR4S83C7WgGprGuJv5rl7fQU6DwCeRDtQ,5
+puts-0.0.5.dist-info/RECORD,,
