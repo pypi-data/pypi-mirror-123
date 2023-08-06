@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dasifo
+Version: 0.0.1
+Summary: This new Library is 'DAta Science In Full Options = dasifo': ...
+Home-page: https://github.com/larou2si/dasifo
+Author: larou2si
+Author-email: mohamed.laroussi.1@esprit.tn
+License: UNKNOWN
+Download-URL: https://github.com/larou2si/dasifo/archive/refs/tags/v0.0.1-alpha.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DASIFO
+
+We are working on this project ...
+We are looking to create a python library that will regroups:
+ - all kind of Databases connections (SQL, NOSQL).
+ - it provides some tutorials of APIs: for example conneting to google Drive, cloud....
+ - machine learning!
+ - deep learning!
+ - artificial intelligence!
+
+## We install our library 'dasifo'
+```
+Make sure you are on the right python's envirement variable. To install it locally, run this line in your terminal
+    cd dasifo && python3 setup.py sdist bdist_wheel && pip3 install -e .
+```
+
+## Support & Questions:
+```
+    Drop a message via mohamed.laroussi.1@esprit.tn
+```
+

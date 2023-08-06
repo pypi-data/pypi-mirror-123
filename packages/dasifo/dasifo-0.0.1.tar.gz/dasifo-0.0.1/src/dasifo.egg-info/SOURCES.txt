@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/dasifo.egg-info/PKG-INFO
+src/dasifo.egg-info/SOURCES.txt
+src/dasifo.egg-info/dependency_links.txt
+src/dasifo.egg-info/requires.txt
+src/dasifo.egg-info/top_level.txt
