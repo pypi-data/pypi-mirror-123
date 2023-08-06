@@ -1,0 +1,8 @@
+setup.py
+SomethingThatImportsNumpy/__init__.py
+SomethingThatImportsNumpy/functions.py
+SomethingThatImportsNumpy.egg-info/PKG-INFO
+SomethingThatImportsNumpy.egg-info/SOURCES.txt
+SomethingThatImportsNumpy.egg-info/dependency_links.txt
+SomethingThatImportsNumpy.egg-info/requires.txt
+SomethingThatImportsNumpy.egg-info/top_level.txt
