@@ -1,0 +1,6 @@
+task_status/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task_status/task_status.py,sha256=ZcmCDPXjVTeXo22cIBywMQjp9c-3qMTJYc-KOyTrngg,1912
+task_status-0.2.3.dist-info/entry_points.txt,sha256=fHHqT0wesq_51eFhskBU-GZuTUAlRgPOpcJj7DLXLew,60
+task_status-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+task_status-0.2.3.dist-info/METADATA,sha256=0pv2x_UjsCxawDviF3Uec7XDFgZig4UFWPT8RIYFwO4,434
+task_status-0.2.3.dist-info/RECORD,,
