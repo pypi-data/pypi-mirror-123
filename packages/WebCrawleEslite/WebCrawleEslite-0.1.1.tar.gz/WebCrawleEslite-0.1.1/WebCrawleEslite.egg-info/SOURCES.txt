@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+WebCrawleEslite.egg-info/PKG-INFO
+WebCrawleEslite.egg-info/SOURCES.txt
+WebCrawleEslite.egg-info/dependency_links.txt
+WebCrawleEslite.egg-info/requires.txt
+WebCrawleEslite.egg-info/top_level.txt
