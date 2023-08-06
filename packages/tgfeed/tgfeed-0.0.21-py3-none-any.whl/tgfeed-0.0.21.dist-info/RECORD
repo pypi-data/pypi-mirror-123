@@ -1,0 +1,11 @@
+tgfeed/__init__.py,sha256=PsqtE_T084MVsMv47JyTQ3DK2CRZJ3Kd9Q_vnw02oZk,23
+tgfeed/__main__.py,sha256=nnzOSWbDfWA8WEadaZV7-rrc2dploFIo3bj96syEOrs,5960
+tgfeed/config.py,sha256=UdP7tJ115VUPpG3r4bsXS9VcoD680dm58g36eHSWR38,2712
+tgfeed/message.py,sha256=oIhZkymFSbeoQxnw-62ZE8brBpSRR8fqdPI88PYzhyI,2090
+tgfeed/scheme.py,sha256=AYg_MmDFHWat97QqOqPlV3QCyFWac74Dc54fF0HOp-g,371
+tgfeed/utils.py,sha256=UG2VrOvPeWfGvrXti4eZ-F72g99ZBlc1uRPrbk0wlbA,1708
+tgfeed/validate.py,sha256=vqJiInKhm_hdOjwflJPLLDRMurwrr1aTZbSDFtsE22Q,2676
+tgfeed-0.0.21.dist-info/LICENSE,sha256=17Lv3-CjOSqNivjZ14fYXx41UBnkIPytlk1muwVz-38,1051
+tgfeed-0.0.21.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tgfeed-0.0.21.dist-info/METADATA,sha256=Q7mU7K13lt1vpqzYgaVHErOWPD1Qi-rql7mGAGAuSio,434
+tgfeed-0.0.21.dist-info/RECORD,,
