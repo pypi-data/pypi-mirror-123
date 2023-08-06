@@ -1,0 +1,3 @@
+[console_scripts]
+st=smalltime.cli:main
+

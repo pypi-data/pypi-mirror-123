@@ -1,0 +1,8 @@
+smalltime/__init__.py,sha256=6Wgxg5J3P8icWVJ32VDy93CtWDA35psGNv-fBNrg8S4,94
+smalltime/cli.py,sha256=EQWfxNVS6_MluaRRlkDBnrN56yI0ATG_Es7aDiLOY8g,703
+smalltime/timer.py,sha256=YyJ2ryr0Wdj3FRGTarY3mRa-ZlwwimY7-kLgDG-_yTs,1846
+smalltime-0.0.3.dist-info/entry_points.txt,sha256=-CzQ-k2zpFJGisW9NVs9VlQ3uF-Yk3c8RTO7ZTaD4FM,41
+smalltime-0.0.3.dist-info/LICENSE,sha256=NAGH3cC_5OC-m0W4k3LlZmvHTaGyNYk_PW80Icgt4bU,1526
+smalltime-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+smalltime-0.0.3.dist-info/METADATA,sha256=JFIeDBoMPeGkAsLUUdPX-Yz0THeYpULHQSRrWyY09vs,3345
+smalltime-0.0.3.dist-info/RECORD,,
