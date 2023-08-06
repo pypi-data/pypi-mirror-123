@@ -1,0 +1,11 @@
+gperc/__init__.py,sha256=GPjg4ilhNOeE42tNl0LLyrPAvq4NqXiOyMunQPdLk-I,208
+gperc/__main__.py,sha256=Io7KRlYKHFkze6sBgh5VtNdbnYb-0QuHADbxEO-NN7w,88
+gperc/cli.py,sha256=z_368ktLPKtdexuADQAEVP3u10F3bxHFvTBxEn2kEKE,4797
+gperc/configs.py,sha256=23Vy1UnhSpF5S32pD4I3BWvBT-6SJB-yIxXRv25WAUw,7941
+gperc/data.py,sha256=LhIFX0-aE4Ad2NnQoHh-TT1HKd46hmxPKOwQ-6zQY08,7693
+gperc/models.py,sha256=T2wHbFnYm2pocdTeqf80oSaEramAiLMmyyao21Wbka4,13136
+gperc/utils.py,sha256=UIk2ttSpcgKBbwS-F4wr-OhpLAOCmLfdqzf5TLZ-670,298
+gperc-0.2.dist-info/LICENSE,sha256=i_-YCPpJO0n1wOs6961PGd76w_H173WTzYf29GF9RKk,1067
+gperc-0.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+gperc-0.2.dist-info/METADATA,sha256=f4K1J78IbBpn2tYGRCjqIWvlMpJQ1BeU_AWbFAMhyp4,606
+gperc-0.2.dist-info/RECORD,,
