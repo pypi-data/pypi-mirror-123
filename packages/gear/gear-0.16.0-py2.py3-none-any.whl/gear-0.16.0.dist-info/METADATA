@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gear
+Version: 0.16.0
+Summary: Pure Python Async Gear Protocol Library
+Home-page: https://docs.opendev.org/opendev/gear
+Author: OpenDev Contributors
+Author-email: service-discuss@lists.opendev.org
+License: Apache License, Version 2.0
+Project-URL: Bug Tracker, https://storyboard.openstack.org/#!/project/opendev/gear
+Project-URL: CI: Zuul, https://zuul.opendev.org/t/opendev/builds?project=opendev/gear
+Project-URL: Source Code, https://opendev.org/opendev/gear
+Project-URL: Documentation, https://docs.opendev.org/opendev/gear/
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: extras
+Requires-Dist: pbr (>=1.8.0)
+Requires-Dist: python-daemon (>=2.0.4)
+Requires-Dist: six (>=1.5.2)
+
+python-gear
+===========
+
+A pure-Python asynchronous library to interface with Gearman.
+
+
