@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: relion2dynamo
+Version: 0.1.3
+Summary: Convert data.star to Dynamo Table
+Home-page: https://github.com/EuanPyle/relion2dynamo
+Author: epyle
+Author-email: euanpyle@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: starfile
+Requires-Dist: dynamotable
+Requires-Dist: eulerangles
+
+UNKNOWN
+
+
