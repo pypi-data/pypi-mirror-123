@@ -1,0 +1,12 @@
+graph_onedrive/__init__.py,sha256=OA32mEkOycGloLNI5YetmO3B5GbBDsLcPa6hu2ErDSA,220
+graph_onedrive/__main__.py,sha256=BBuAW8NIbSDyBlVQtgwX9zL-uhAph_uKgQqt6KRpBAw,205
+graph_onedrive/_cli.py,sha256=y0TFA5jlS5yXErFyoKtGVddERKvhOqX1KsOh3iF57k0,11757
+graph_onedrive/_decorators.py,sha256=HQQPLAagz0Bb0GhtmdrdRhTT5eZuJohRmcs8nJPcrpE,980
+graph_onedrive/_main.py,sha256=avtlQMOVvDX5GXK9zb0DpJNzPJCGAe8cQsMlPulcyIw,4379
+graph_onedrive/_onedrive.py,sha256=ga4dMw-Aw7yjPqM6aUgYxMmNT96s_83cgZr0jtiul-Q,34126
+graph_onedrive-0.0.1a8.dist-info/LICENSE,sha256=Lx4ocHGHQKn_mw1z8FM2i4m9roSvCFlDCuDnlqRpi1k,1519
+graph_onedrive-0.0.1a8.dist-info/METADATA,sha256=6GzUsq0KU2DaztA_x9Vpqe1jLcRBc1qAGuptSWaWwNk,4106
+graph_onedrive-0.0.1a8.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+graph_onedrive-0.0.1a8.dist-info/entry_points.txt,sha256=eCeVMe_jD5XdTHu_ixEbj9iFxyKFzFmpN0i4PjNi1g4,61
+graph_onedrive-0.0.1a8.dist-info/top_level.txt,sha256=XEKfKbu83kj8NLfDacfnlbdfeZJfL-2ch3tx4hvnXm8,15
+graph_onedrive-0.0.1a8.dist-info/RECORD,,
