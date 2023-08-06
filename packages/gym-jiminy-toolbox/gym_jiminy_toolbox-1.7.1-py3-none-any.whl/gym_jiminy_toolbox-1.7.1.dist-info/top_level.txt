@@ -1,0 +1,2 @@
+dist
+gym_jiminy
