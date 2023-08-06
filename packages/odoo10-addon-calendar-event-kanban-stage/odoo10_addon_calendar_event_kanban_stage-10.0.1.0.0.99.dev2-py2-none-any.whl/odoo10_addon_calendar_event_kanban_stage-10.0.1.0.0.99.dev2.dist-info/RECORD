@@ -1,0 +1,16 @@
+odoo10_addon_calendar_event_kanban_stage-10.0.1.0.0.99.dev2-py3.8-nspkg.pth,sha256=3hYKiD3YF7y9FeWjACJq1b9R_GVRzuQo9SAZlvZgumg,1672
+odoo/addons/calendar_event_kanban_stage/README.rst,sha256=nLa-4waEtEHFexVUgewBLSRGc9D_gQrkO5sU78XXXVw,1529
+odoo/addons/calendar_event_kanban_stage/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/calendar_event_kanban_stage/__manifest__.py,sha256=lqnD5s4Iq_lZXMwA8AVJwxGfZz3QeLVHgxahJu4rZm4,673
+odoo/addons/calendar_event_kanban_stage/data/base_kanban_stage_data.xml,sha256=xbKeExYT_ZfEbI90YOP7GJw3MRZV7YZit1xU4AxNDRw,1051
+odoo/addons/calendar_event_kanban_stage/i18n/calendar_event_kanban_stage.pot,sha256=MEuwwF2SaUkgXkHbsyySRBGmk8OktDqKdodFbjFTsik,3904
+odoo/addons/calendar_event_kanban_stage/i18n/it.po,sha256=PLF243mnx7gA_pveHjBkh76Xmx6tdiFgfQirnaVsUII,5005
+odoo/addons/calendar_event_kanban_stage/models/__init__.py,sha256=uxxG4uJggYBBc8qZy6i6lsiHJWlMuvPvM19O1Z8XLCg,29
+odoo/addons/calendar_event_kanban_stage/models/calendar_event.py,sha256=JSE3mj7WYIXKIANkUssLMaPwwHkq8i2PU1bL1N0a7Q8,585
+odoo/addons/calendar_event_kanban_stage/static/description/icon.png,sha256=llkUEP-THDeHVlGSWUrXvh50NV3vNyRuEi_aSkMH7gE,17633
+odoo/addons/calendar_event_kanban_stage/views/calendar_event_view.xml,sha256=DxsgJ3ZFbHclrpTq1QNUkuPl3-bSauc_BK2LXlupRr0,4326
+odoo10_addon_calendar_event_kanban_stage-10.0.1.0.0.99.dev2.dist-info/METADATA,sha256=sR_RPTi3h8QGi9t6a9qFIrWn8X05ozevYgseDutUc2M,2164
+odoo10_addon_calendar_event_kanban_stage-10.0.1.0.0.99.dev2.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+odoo10_addon_calendar_event_kanban_stage-10.0.1.0.0.99.dev2.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_calendar_event_kanban_stage-10.0.1.0.0.99.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo10_addon_calendar_event_kanban_stage-10.0.1.0.0.99.dev2.dist-info/RECORD,,
