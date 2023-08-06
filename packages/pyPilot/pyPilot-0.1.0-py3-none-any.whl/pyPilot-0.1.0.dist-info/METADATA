@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyPilot
+Version: 0.1.0
+Summary: Python package for navigation, guidance, path planning, and control
+Home-page: https://github.com/PowerBroker2/pyPilot
+Author: Power_Broker
+Author-email: gitstuff2@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/PowerBroker2/pyPilot/archive/0.1.0.tar.gz
+Keywords: pyPilot
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyPilot
+Python package for navigation, guidance, path planning, and control
+
+
