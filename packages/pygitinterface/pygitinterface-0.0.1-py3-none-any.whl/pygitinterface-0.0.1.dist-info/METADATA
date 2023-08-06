@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pygitinterface
+Version: 0.0.1
+Summary: Python controlled git
+Home-page: UNKNOWN
+Author: jocon15 (Jason O)
+Author-email: jaywoc12@gmail.com
+License: UNKNOWN
+Keywords: python,git,git-bash,git bash,commands,py
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that allows to easy automation of git bash commands.
+
