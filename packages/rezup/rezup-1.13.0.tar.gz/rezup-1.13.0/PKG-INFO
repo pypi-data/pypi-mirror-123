@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rezup
+Version: 1.13.0
+Summary: Rez launching environment manager
+Home-page: https://github.com/davidlatwe/rezup
+Author: davidlatwe
+Author-email: davidlatwe@gmail.com
+Maintainer: davidlatwe
+Maintainer-email: davidlatwe@gmail.com
+License: GPLv3
+Project-URL: Source, https://github.com/davidlatwe/rezup
+Project-URL: Tracker, https://github.com/davidlatwe/rezup/issues
+Platform: any
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rezup (cli)
+
+This project is for distributing console entry points of [rezup-api](https://pypi.org/project/rezup-api), please visit there for documentation.
+
+Why not use `extras` specification ?
+See [pypa/pip#9726](https://github.com/pypa/pip/issues/9726)
+
+
