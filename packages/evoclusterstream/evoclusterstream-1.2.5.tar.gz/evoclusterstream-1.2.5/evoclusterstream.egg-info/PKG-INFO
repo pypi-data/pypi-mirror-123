@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: evoclusterstream
+Version: 1.2.5
+Summary: Evolutionary DBSCAN and Louvain Method with a Twitter data stream
+Home-page: https://github.com/kspurlock/EvoClusterStream
+Author: Kyle Spurlock, Heba Elgazzar, Tanner Bogart
+Author-email: <kdspurlock@moreheadstate.edu>
+License: MIT
+Description: # WIP README
+        
+        # Installing
+        
+        Install from source:
+        
+        `python3 setup.py install`
+        
+        Install from pip:
+        
+        `pip install evoclusterstream`
+        
+Keywords: Unsupervised machine learning,evolutionary clustering,social networks,Python,DBSCAN,Louvain method,Twitter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
