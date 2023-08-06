@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-ascendex
+Version: 0.1.2
+Summary: Python API for AscendEx
+License: MIT
+Author: Jan Skoda
+Author-email: skoda@jskoda.cz
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiosonic (>=0.12.0,<0.13.0)
+Requires-Dist: chardet (>=4.0.0,<5.0.0)
+Requires-Dist: ujson (>=4.0.2,<5.0.0)
+Requires-Dist: websockets (>=9.1,<10.0)

@@ -1,0 +1,10 @@
+ascendex/__init__.py,sha256=3pDUWSx_WGq6ECEecknqPAOzj8yt05Ky1LXUuO9W-cQ,174
+ascendex/exceptions.py,sha256=lwPKL3muCMCEWivyvS6NYuP0McQYj199hPVkGwIoN2k,457
+ascendex/reconnecting_websocket.py,sha256=HtaKg3e3J1N5Oe6fzz4F2EL6tnURgCEXW5UIkwC_5ao,4097
+ascendex/rest_client.py,sha256=EbbIfFvH2GP3R1aRzN93uXSLL7uZjqQxw9FZPl1X9_M,6899
+ascendex/util.py,sha256=HdUYfsbsl7k07UIuerb2lZAr0uYitYmefFeNkohxEaE,1433
+ascendex/web_socket_client.py,sha256=gtcncyEw9geFBqJum2Tu3XuE9KceieGetjJljuO69Po,11397
+python_ascendex-0.1.2.dist-info/LICENSE,sha256=G54PJlAEq4fqHnPoCFr-spLT2e9ONti7slMitlGrwj4,1067
+python_ascendex-0.1.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+python_ascendex-0.1.2.dist-info/METADATA,sha256=l4AdMOwD8F9EDdGwImBCnCwESgqMZ2RWxdt7Sz-kxyw,541
+python_ascendex-0.1.2.dist-info/RECORD,,
