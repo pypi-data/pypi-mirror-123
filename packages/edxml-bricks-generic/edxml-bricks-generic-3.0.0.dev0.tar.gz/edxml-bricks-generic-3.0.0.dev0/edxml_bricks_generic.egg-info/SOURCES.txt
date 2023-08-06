@@ -1,0 +1,8 @@
+setup.py
+edxml_bricks/generic.py
+edxml_bricks/version.py
+edxml_bricks_generic.egg-info/PKG-INFO
+edxml_bricks_generic.egg-info/SOURCES.txt
+edxml_bricks_generic.egg-info/dependency_links.txt
+edxml_bricks_generic.egg-info/requires.txt
+edxml_bricks_generic.egg-info/top_level.txt
