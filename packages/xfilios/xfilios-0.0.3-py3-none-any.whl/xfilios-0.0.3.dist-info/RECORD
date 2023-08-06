@@ -1,0 +1,12 @@
+xfilios/__init__.py,sha256=QqMXHVJs6Mh0abjyoct_OcIt77Rz1dSmEAy-kWDxGc8,18
+xfilios/docx.py,sha256=fCyQeqxybSHkHslrzgiRjjPargsQw2ojZtwQQdcvzEw,3379
+xfilios/excel.py,sha256=0Ikedl75KQvnZPCkZ3VBr_fGPCIkgC60mL5E2XP8qcY,2283
+xfilios/exceptions.py,sha256=6Ugc0W7krU3ojC9YOtQYGRQRCPZVeZxVPZ1oCV77UEQ,1192
+xfilios/handler.py,sha256=cH6XJBLV6D2zJO5tLjuL2ROHtywe8f5Ie6g5yn-r2iQ,444
+xfilios/html.py,sha256=-G_0oMy9Ihag7Gv5-phJttAOnJlfWKzu90fg9SXAZYc,360
+xfilios/table.py,sha256=nsWVTHQr1Nkoq6azuLcMvnle9WXazeFT3O4CZe-cPFI,4422
+xfilios-0.0.3.dist-info/LICENSE,sha256=XBYPRwpqyZ1JNbxZkQ9FZcp64Cy0WxL__UjSALF0aJM,1068
+xfilios-0.0.3.dist-info/METADATA,sha256=JGDKfZCC18fvmj28N_ErL0SJdDe0QrNOVJXPOE5Dj3I,4194
+xfilios-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xfilios-0.0.3.dist-info/top_level.txt,sha256=Ian051t7-E69tN3td0gQ8rgGVNZB36YHpXXaX32nJvI,8
+xfilios-0.0.3.dist-info/RECORD,,
