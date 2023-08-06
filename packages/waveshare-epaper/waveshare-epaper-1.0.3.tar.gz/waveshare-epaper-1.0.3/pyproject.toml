@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "waveshare-epaper"
+version = "1.0.3"
+description = "Waveshare e-paper package for Python on Raspberry Pi"
+authors = ["yskoht <ysk.oht@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage="https://github.com/yskoht/waveshare-epaper"
+repository="https://github.com/yskoht/waveshare-epaper"
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+packages = [
+  { include = "epaper" },
+]
+
+exclude = [
+  "epaper/e-Paper/.git",
+  "epaper/e-Paper/Arduino",
+  "epaper/e-Paper/STM32",
+  "epaper/e-Paper/*.md",
+  "epaper/e-Paper/*.txt",
+  "epaper/e-Paper/*.png",
+  "epaper/e-Paper/RaspberryPi_JetsonNano/c",
+  "epaper/e-Paper/RaspberryPi_JetsonNano/python/examples",
+  "epaper/e-Paper/RaspberryPi_JetsonNano/python/pic",
+  "epaper/e-Paper/RaspberryPi_JetsonNano/python/*.txt",
+  "epaper/e-Paper/RaspberryPi_JetsonNano/python/setup.py",
+]
+
+[tool.poetry.dependencies]
+python = "*"
+"RPi.GPIO" = "^0.7.0"
+spidev = "^3.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
