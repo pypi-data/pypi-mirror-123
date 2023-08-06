@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+javcra/__init__.py
+javcra.egg-info/PKG-INFO
+javcra.egg-info/SOURCES.txt
+javcra.egg-info/dependency_links.txt
+javcra.egg-info/top_level.txt
