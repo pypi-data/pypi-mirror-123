@@ -1,0 +1,11 @@
+timer_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timer_cli/auth.py,sha256=xAv5smsAMU0U6l4vKYBjg2yxZX1Uu8c7gbafO2Yx_wo,10920
+timer_cli/job.py,sha256=5n2OFnA_FsSEffVyaxUUxrWOD7tBan8udpY4t3bN_uU,9076
+timer_cli/main.py,sha256=roq8pt1sdMIXjAoDrivh9D9hu8oPaA4wgtajAzngKrA,23455
+timer_cli/output.py,sha256=8u7clumOPcnpF3CDZXJg3z0RYhY9y-urRY3HM86lK1s,1000
+timer_cli/transfer.py,sha256=DP3CEyvgEna4lZVSQg9M4y0EDRtid086-gpo8xVzWa8,2000
+globus_timer_cli-0.2.7.dist-info/entry_points.txt,sha256=pt96MyyCn1bv09TZkvgG0xohNXQVCPZ2o5fLTXEpoNc,52
+globus_timer_cli-0.2.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+globus_timer_cli-0.2.7.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+globus_timer_cli-0.2.7.dist-info/METADATA,sha256=40t_2jZewKERs2S0YGtEV2ECVCA5QuooYWP7CJn3PQY,13619
+globus_timer_cli-0.2.7.dist-info/RECORD,,
