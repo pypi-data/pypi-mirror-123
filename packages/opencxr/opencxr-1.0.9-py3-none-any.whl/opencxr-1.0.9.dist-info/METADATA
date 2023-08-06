@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: opencxr
+Version: 1.0.9
+Summary: a collection of algorithms for processing of chest radiograph (CXR) images
+Home-page: https://github.com/DIAGNijmegen/opencxr
+Author: Keelin Murphy
+Author-email: keelin.murphy@radboudumc.nl
+License: Apache 2.0
+Keywords: opencxr
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: SimpleITK
+Requires-Dist: keras
+Requires-Dist: pydicom
+Requires-Dist: pypng
+Requires-Dist: scikit-image
+Requires-Dist: scikit-build
+Requires-Dist: numpy
+
+a collection of algorithms for processing of chest radiograph (CXR) images
+
