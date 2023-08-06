@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+backtesting/__init__.py
+backtesting/analysis.py
+backtesting/report.py
+backtesting/simulation.py
+trading_research.egg-info/PKG-INFO
+trading_research.egg-info/SOURCES.txt
+trading_research.egg-info/dependency_links.txt
+trading_research.egg-info/requires.txt
+trading_research.egg-info/top_level.txt
