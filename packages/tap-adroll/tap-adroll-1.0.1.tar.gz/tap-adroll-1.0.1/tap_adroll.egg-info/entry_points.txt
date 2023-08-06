@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-adroll=tap_adroll:main
+      
