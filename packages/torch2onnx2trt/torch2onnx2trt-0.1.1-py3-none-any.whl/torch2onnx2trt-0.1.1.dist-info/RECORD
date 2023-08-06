@@ -1,0 +1,11 @@
+torch2onnx2trt/__init__.py,sha256=7s_e9LMbzO9auaDaBPE3pNU8Y1H7_xVTCuxTFOBArpU,102
+torch2onnx2trt/main.py,sha256=KmUrzzC7jpp_1DBZxxsXkIn3gTkDQKS3guhJRkqCeYc,4569
+torch2onnx2trt/utils.py,sha256=9W4S1xwJD9Nl5GDW4t_aiXerZ9wINNiHBhL8vkgyXKw,1225
+torch2onnx2trt/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch2onnx2trt/tests/test_conversion.py,sha256=zSfY0iENUWD8qcLov8P-Q6O5oRZ3PUWr3mwYGNQ9HYI,2738
+torch2onnx2trt-0.1.1.dist-info/LICENSE,sha256=w5y7EelV-D6MtLczoOX_mgyrQ7waia8s92yoZ5Bo480,1076
+torch2onnx2trt-0.1.1.dist-info/METADATA,sha256=Ny-wAg4ik0p01qEuazxEPOUwIPJqAuRytwV57ef68Wc,1993
+torch2onnx2trt-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torch2onnx2trt-0.1.1.dist-info/dependency_links.txt,sha256=9v2VEoz2EAZlACBLIAutEcltzzTUEh1PLtrunVLNydI,28
+torch2onnx2trt-0.1.1.dist-info/top_level.txt,sha256=goiaFZGuCpBuh87V9S-sOGN0iK-lUMRM_v7ud0904rU,15
+torch2onnx2trt-0.1.1.dist-info/RECORD,,
