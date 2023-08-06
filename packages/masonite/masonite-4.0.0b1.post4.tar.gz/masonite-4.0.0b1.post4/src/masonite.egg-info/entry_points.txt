@@ -1,0 +1,3 @@
+[console_scripts]
+start = masonite.commands.Entry:application.run
+
