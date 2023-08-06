@@ -1,0 +1,9 @@
+relations_iterator/__init__.py,sha256=xBisgFfSzhMab3qD9d-Kbz5m0j4rpF5Sy_oCQek2bMQ,172
+relations_iterator/iterator.py,sha256=wgXZKvj3kvUxQWGzMmBVznsvPrifv2h-9qwc3lK0KrM,777
+relations_iterator/relation_tree.py,sha256=B6W7MJjIlrfs-2Su75ECRlv-f3VxjLv_WWC5us4y_rY,2922
+relations_iterator/visitor.py,sha256=6lWGxIBd6NQLMpG0bMoY338kMDPgcUm0Qyz0Q3tbB7E,173
+django_relations_iterator-0.0.4.dist-info/LICENSE,sha256=qdoy9mpuKBVNwK2zGaBjbwZZA72uq86VU61WHXLub_k,1072
+django_relations_iterator-0.0.4.dist-info/METADATA,sha256=k2SzudLgQEnYvr1l_nNr2UYT2BT5zSe0OwSJZrJs9k0,8205
+django_relations_iterator-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_relations_iterator-0.0.4.dist-info/top_level.txt,sha256=o7hFgSBUmoNjD4aBwOZTw90m-IOlnUtBWwSCGUle9n0,19
+django_relations_iterator-0.0.4.dist-info/RECORD,,
