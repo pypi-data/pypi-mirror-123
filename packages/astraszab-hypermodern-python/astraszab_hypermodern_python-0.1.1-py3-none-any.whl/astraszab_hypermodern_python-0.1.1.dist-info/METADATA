@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: astraszab-hypermodern-python
+Version: 0.1.1
+Summary: The hypermodern Python project
+Home-page: https://github.com/astraszab/astraszab-hypermodern-python
+License: MIT
+Keywords: hypermodern
+Author: astraszab
+Author-email: u.astraszab@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.2,<9.0.0)
+Requires-Dist: desert (>=2020.11.18,<2021.0.0)
+Requires-Dist: marshmallow (>=3.13.0,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Documentation, https://hypermodern-python.readthedocs.io
+Project-URL: Repository, https://github.com/astraszab/astraszab-hypermodern-python
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/astraszab/astraszab-hypermodern-python/workflows/Tests/badge.svg)](https://github.com/astraszab/astraszab-hypermodern-python/actions?workflow=Tests)
+[![codecov](https://codecov.io/gh/astraszab/astraszab-hypermodern-python/branch/main/graph/badge.svg?token=1MCNFC625L)](https://codecov.io/gh/astraszab/astraszab-hypermodern-python)
+[![PyPI](https://img.shields.io/pypi/v/astraszab-hypermodern-python.svg)](https://pypi.org/project/astraszab-hypermodern-python/)
+[![Read the Docs](https://readthedocs.org/projects/astraszab-hypermodern-python/badge/)](https://astraszab-hypermodern-python.readthedocs.io/)
+
+# astraszab-hypermodern-python
+
+From [Hypermodern Python article series](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
+
