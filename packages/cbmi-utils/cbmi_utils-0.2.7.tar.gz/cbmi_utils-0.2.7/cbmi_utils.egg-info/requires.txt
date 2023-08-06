@@ -1,0 +1,4 @@
+torch>=1.7.1
+torchvision>=0.8.2
+torchmetrics>=0.2.0
+h5py>=3.0.0
