@@ -1,0 +1,3 @@
+[opentelemetry_instrumentor]
+httplib = opentelemetry.util.http.httplib:HttpClientInstrumentor
+
