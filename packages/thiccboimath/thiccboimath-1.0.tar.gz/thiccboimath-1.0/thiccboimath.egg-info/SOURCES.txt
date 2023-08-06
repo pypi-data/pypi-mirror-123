@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+thiccboimath/__init__.py
+thiccboimath/pymath.py
+thiccboimath.egg-info/PKG-INFO
+thiccboimath.egg-info/SOURCES.txt
+thiccboimath.egg-info/dependency_links.txt
+thiccboimath.egg-info/requires.txt
+thiccboimath.egg-info/top_level.txt
