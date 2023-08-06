@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/fsimport.py
+src/fsimport.egg-info/PKG-INFO
+src/fsimport.egg-info/SOURCES.txt
+src/fsimport.egg-info/dependency_links.txt
+src/fsimport.egg-info/top_level.txt
