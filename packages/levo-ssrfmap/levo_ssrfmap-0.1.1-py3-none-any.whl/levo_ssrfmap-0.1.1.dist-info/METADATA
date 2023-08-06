@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: levo-ssrfmap
+Version: 0.1.1
+Summary: A packaged version of the SSRFmap CLI tool.
+Home-page: https://github.com/levoai/SSRFmap
+License: MIT
+Author: Swissky
+Maintainer: Akshath Kothari
+Maintainer-email: akshath.kothari@levo.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Levo Homepage, https://levo.ai
+Project-URL: Parent Repository, https://github.com/swisskyrepo/SSRFmap
+Project-URL: Repository, https://github.com/levoai/SSRFmap
