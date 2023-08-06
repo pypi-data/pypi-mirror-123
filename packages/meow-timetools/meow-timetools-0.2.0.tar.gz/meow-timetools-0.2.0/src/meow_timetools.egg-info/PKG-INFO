@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: meow-timetools
+Version: 0.2.0
+Summary: This is a short description
+Home-page: https://link-to-project-webpage.com
+Author: you
+Author-email: you@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# This is desc
+
