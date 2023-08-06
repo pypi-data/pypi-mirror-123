@@ -1,0 +1,11 @@
+README.md
+setup.py
+idesign_api_client/__init__.py
+idesign_api_client/client.py
+idesign_api_client/config.py
+idesign_api_client/resources.py
+idesign_api_client/utils.py
+idesign_api_client.egg-info/PKG-INFO
+idesign_api_client.egg-info/SOURCES.txt
+idesign_api_client.egg-info/dependency_links.txt
+idesign_api_client.egg-info/top_level.txt
