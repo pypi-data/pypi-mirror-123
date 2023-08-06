@@ -1,0 +1,7 @@
+AUTHORS,sha256=7z_wgbR6R5ypSNz7TUPS0wOafagCRmDf4fO1D2KjKkE,63
+apiclient_pydantic/__init__.py,sha256=v0F5EH4NAQvyQOjxmd31OHxMrL2AO4bHm2KAwv8w6Ts,218
+apiclient_pydantic/serializers.py,sha256=tM2QfDXlg-zNSWhMVz2YRAXKQOVdBnqoB6FjO194qrI,2850
+api_client_pydantic-1.1.1.dist-info/LICENSE,sha256=v6H3kAR9nbiU_0Hc99C9VuWC9KUn11GfvJFKb6GkuD4,1062
+api_client_pydantic-1.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+api_client_pydantic-1.1.1.dist-info/METADATA,sha256=PcP3fa6RD7Lu0XNEKJZ9s-SnwwgFIFJYvB3Oy5QaYrE,4654
+api_client_pydantic-1.1.1.dist-info/RECORD,,
