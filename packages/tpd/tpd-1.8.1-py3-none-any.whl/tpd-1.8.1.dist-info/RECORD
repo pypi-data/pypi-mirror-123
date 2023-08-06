@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_store.py,sha256=-aIm_cfQAY0DpBagAEKvVZddCNYMuRScQsbR9WnR1y0,1159
+tpd/__init__.py,sha256=i1i3QJKXnr4T07zjvd9ZEcgIKo5iNFBOA1YHhMmV198,133
+tpd/core.py,sha256=ggaLJf_U3g1C-RnmDK7ZwPqks6PhzUv7akfKPtte9X0,9116
+tpd/utils.py,sha256=4PRVOw7ET-m5dQXedaKI3NvM12o693fngtF1QB5dWSE,931
+tpd-1.8.1.dist-info/LICENSE,sha256=u3LKF7PJWoeQGY4_K5aJSV_n_T1d01CdQBaE2jOg44Q,1072
+tpd-1.8.1.dist-info/METADATA,sha256=VO3tUq2ZUQv6MZp4G1RLKPbk7YTvniOXj77EVfCEpZQ,2419
+tpd-1.8.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tpd-1.8.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+tpd-1.8.1.dist-info/top_level.txt,sha256=PJHlm-ImkBPyJjOKpV9ipziVmb9PRxAtmIZrbp_TnXs,10
+tpd-1.8.1.dist-info/RECORD,,
