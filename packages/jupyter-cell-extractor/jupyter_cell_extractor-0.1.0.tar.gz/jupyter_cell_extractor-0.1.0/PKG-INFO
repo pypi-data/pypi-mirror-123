@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: jupyter-cell-extractor
+Version: 0.1.0
+Summary: ""
+License: MIT
+Author: jaimebw
+Author-email: jaimebwv@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (==3.0.2)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: check-requirements-txt (>=1.0.2,<2.0.0)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: ipython_genutils (==0.2.0)
+Requires-Dist: jsonschema (==4.0.1)
+Requires-Dist: jupyter-client (==7.0.6)
+Requires-Dist: jupyter-core (==4.8.1)
+Requires-Dist: jupyterlab-pygments (==0.1.2)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: nbclient (==0.5.4)
+Requires-Dist: nbconvert (==6.2.0)
+Requires-Dist: nbformat (==5.1.3)
+Requires-Dist: nest-asyncio (==1.5.1)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandocfilters (==1.5.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pyrsistent (==0.18.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pyzmq (==22.3.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: testpath (==0.5.0)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: traitlets (==5.1.0)
+Requires-Dist: webencodings (==0.5.1)
