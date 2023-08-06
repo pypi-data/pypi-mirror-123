@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: solana-nfts
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/CryptomafiaGG/solana-nfts-python.git
+Author: CryptomafiaGG
+Author-email: cryptomafiagg@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: solana nfts collections cryptocurrency api client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
