@@ -1,0 +1,11 @@
+cgsensor/__init__.py,sha256=RGClr0c9ZWAgG6_qFBRwYt1Ku48TvfTysyIJnlHetIQ,85
+cgsensor/bme280.py,sha256=XxuDUGxyK_ZG7KXARl8hSiC8wEJj_u4snkp5KTXRlKU,11966
+cgsensor/cli.py,sha256=vF1LWGG1wB84M_QOOmurOMCpsqQRpIg9FGbA25yt6x8,17773
+cgsensor/scd41.py,sha256=Z7gQOeI7vrD9JEl1GaD31iNGUapuyHUmhPvhD1tAzy4,10658
+cgsensor/tsl2572.py,sha256=5bS12cLkpqUdMH3dJRIgumA3Ck70FxDcCvdRCW4xktU,6849
+cgsensor-1.0.dist-info/LICENSE,sha256=D4h1IhJtLbjNpbVY6nNnzXlTTdomZZhRfjt_mNi59wc,11342
+cgsensor-1.0.dist-info/METADATA,sha256=OecUfmmRSfQmmCqy5GrizRPgyeHQ8mz-0TYRetbgEyw,384
+cgsensor-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cgsensor-1.0.dist-info/entry_points.txt,sha256=1cgr__VgM8cn6fxZDR5ZAOEI4U0UwpnYEyEcNLroFek,43
+cgsensor-1.0.dist-info/top_level.txt,sha256=StAMSJsgWz8vGxxRLfXZqcZsc-dfSokNu2nxlRRJlEI,9
+cgsensor-1.0.dist-info/RECORD,,
