@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+framefile/__init__.py
+framefile/_base.py
+framefile/_constants.py
+framefile.egg-info/PKG-INFO
+framefile.egg-info/SOURCES.txt
+framefile.egg-info/dependency_links.txt
+framefile.egg-info/top_level.txt
