@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: netbox-plugin-extensions
+Version: 1.0.4
+Summary: Wrappers for Netbox Generic Objects
+Home-page: https://github.com/dansheps/netbox-plugin-extensions
+Author: Daniel Sheppard
+License: All rights reserved
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
