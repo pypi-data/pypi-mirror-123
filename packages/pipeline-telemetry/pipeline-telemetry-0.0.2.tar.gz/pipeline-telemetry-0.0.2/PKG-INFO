@@ -1,0 +1,86 @@
+Metadata-Version: 1.2
+Name: pipeline-telemetry
+Version: 0.0.2
+Summary: Create and store data pipeline telemetry data
+Home-page: https://github.com/MaartendeRuyter/pipeline-telemetry
+Author: Maarten de Ruyter
+Author-email: maarten@geodatagarden.com
+License: LGPL-3.0-or-later
+Project-URL: Documentation, https://pipeline-telemetry.readthedocs.io/
+Project-URL: Changelog, https://pipeline-telemetry.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/MaartendeRuyter/pipeline-telemetry/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Create and store data pipeline telemetry data
+        
+        * Free software: GNU Lesser General Public License v3 or later (LGPLv3+)
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install pipeline-telemetry
+        
+        You can also install the in-development version with::
+        
+            pip install https://github.com/MaartendeRuyter/pipeline-telemetry/archive/master.zip
+        
+        
+        Documentation
+        =============
+        
+        
+        https://pipeline-telemetry.readthedocs.io/
+        
+        
+        Development
+        ===========
+        
+        To run all the tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (2021-10-06)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
