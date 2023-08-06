@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+twarc_text.py
+twarc_text.egg-info/PKG-INFO
+twarc_text.egg-info/SOURCES.txt
+twarc_text.egg-info/dependency_links.txt
+twarc_text.egg-info/entry_points.txt
+twarc_text.egg-info/requires.txt
+twarc_text.egg-info/top_level.txt
