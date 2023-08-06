@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: livevox-pypi
+Version: 0.7
+Summary: Use Livevox fast as fuck!!
+Home-page: UNKNOWN
+Author: Javier Daza
+Author-email: javierjdaza@gmail.com
+License: UNKNOWN
+Description: 
+        # livevox-pypi
+        
+        livevox-pypi is a Python library for dealing with not supported livevox API functions.
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install livevox-pypi.
+        
+        ```bash
+        pip install livevox-pypi
+        ```
+        
+        ## Usage
+        
+        ```python
+        from livevox_api import livevox_pypi as lv
+        
+        # Set selenium options
+        options = lv.setting_selenium_options(headless=False)
+        
+        #Initialize webdriver object
+        driver = webdriver.Chrome('./chromedriver', options = options)
+        
+        # Login Into Livevox 
+        lv.login_livevox(driver,username='javier',password='ilovepython',client_code='Python_client')
+        
+        
+        ```
+        
+        ## Contributing
+        Only the owner will pull requests in this project.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Keywords: livevox
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
