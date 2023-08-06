@@ -1,0 +1,11 @@
+let fact = fun(num) {
+    let factIter = fun(actual, acc) {
+        if(actual == 1) {
+            return acc;
+        }
+        return factIter(actual - 1, actual * acc);
+    }
+    return factIter(num, 1);
+}
+
+println(fact(4));

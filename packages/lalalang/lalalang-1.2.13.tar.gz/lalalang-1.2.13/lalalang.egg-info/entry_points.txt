@@ -1,0 +1,3 @@
+[console_scripts]
+3lang = lalalang.__main__:cli
+

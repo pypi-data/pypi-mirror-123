@@ -1,0 +1,27 @@
+# enviroment
+venv/
+.vscode/
+.envrc
+
+# OS specific
+.DS_Store
+
+# Python
+**/__pycache__/
+**.pyc
+
+# Tests
+.coverage
+
+# Analyzer
+.mypy_cache/
+
+# Builds
+.eggs/
+dist/
+build/
+*.egg-info/
+
+# App specific
+.aws-sam
+node_modules/

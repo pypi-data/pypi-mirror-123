@@ -1,0 +1,39 @@
+let sqrt = fun(number) {
+
+    let square = fun(x) {
+        return x * x;
+    }
+
+    let abs = fun(x) {
+        if(x < 0) {
+            return -x;
+        }
+        return x;
+    }
+
+    let average = fun(x, y) {
+        return (x + y) / 2;
+    }
+
+    let isGoodEnough = fun(guess) {
+        let diff = square(guess) - number;
+        return abs(diff) < 100;
+    }
+
+    let improve = fun(guess) {
+        let ratio = number / guess;
+        return average(guess, ratio);
+    }
+
+    let sqrtIter = fun(guess) { 
+        if(isGoodEnough(guess)) {
+            return guess;
+        }
+        let better = improve(guess)
+        return sqrtIter(better);
+    }
+
+    return sqrtIter(1);
+}
+
+println(sqrt(4096));

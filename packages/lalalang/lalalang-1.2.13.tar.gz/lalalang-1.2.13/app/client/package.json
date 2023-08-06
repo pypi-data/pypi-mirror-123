@@ -1,0 +1,11 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "description": "Client for consuming the La La Lang lambda",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Manuel Esparza",
+  "license": "MIT"
+}
