@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: morstar_flask_restful
+Version: 0.0.1
+Summary: Encapsulate flask_restful
+Home-page: UNKNOWN
+Author: Tachi
+Author-email: 294350192@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.md
+
+Encapsulate flask_restful
+
