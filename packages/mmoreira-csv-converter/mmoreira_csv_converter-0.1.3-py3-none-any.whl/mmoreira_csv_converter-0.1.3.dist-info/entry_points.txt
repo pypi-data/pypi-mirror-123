@@ -1,0 +1,3 @@
+[console_scripts]
+csv2json=mmoreira_csv_converter.csv2json:converter
+
