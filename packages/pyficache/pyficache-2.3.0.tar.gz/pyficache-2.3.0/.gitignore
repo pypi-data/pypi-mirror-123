@@ -1,0 +1,17 @@
+*.bak
+*.egg
+*.pyc
+*~
+.mypy_cache
+/*.egg-info
+/.cache
+/.coverage
+/.eggs
+/.python-version
+/Pygments*
+/how-to-make-a-release.txt
+__pycache__
+__pycache__
+build
+dist
+tmp
