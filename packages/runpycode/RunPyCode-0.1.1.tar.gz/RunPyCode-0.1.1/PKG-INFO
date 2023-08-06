@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: runpycode
+Version: 0.1.1
+Summary: Run Python code within Python
+Author: joecooldoo
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
