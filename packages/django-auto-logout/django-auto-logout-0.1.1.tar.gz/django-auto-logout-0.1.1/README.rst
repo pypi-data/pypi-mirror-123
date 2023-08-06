@@ -1,0 +1,37 @@
+django-auto-logout
+==================
+
+.. image:: https://app.travis-ci.com/bugov/django-auto-logout.svg?branch=master
+    :target: https://app.travis-ci.com/bugov/django-auto-logout
+
+Auto logout a user after specific time in Django.
+
+Works with Python ≥ 3.7, Django ≥ 3.0.
+
+Installation
+------------
+
+.. code:: bash
+
+    pip install django-auto-logout
+
+
+Append to `settings` middlewares:
+
+.. code:: python
+
+    MIDDLEWARE = (
+    ...
+        'django_auto_logout.middleware.auto_logout',
+    )
+
+Limit session time
+------------------
+
+Logout a user after 3600 seconds (hour) from the last login.
+
+Add to `settings`:
+
+.. code:: python
+
+    AUTO_LOGOUT = {'SESSION_TIME': 3600}
