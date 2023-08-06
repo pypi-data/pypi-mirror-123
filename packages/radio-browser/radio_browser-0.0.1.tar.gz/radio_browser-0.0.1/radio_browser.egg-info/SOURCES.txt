@@ -1,0 +1,6 @@
+setup.py
+radio_browser/__init__.py
+radio_browser.egg-info/PKG-INFO
+radio_browser.egg-info/SOURCES.txt
+radio_browser.egg-info/dependency_links.txt
+radio_browser.egg-info/top_level.txt
