@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+flask_staticdirs/__init__.py
+flask_staticdirs.egg-info/PKG-INFO
+flask_staticdirs.egg-info/SOURCES.txt
+flask_staticdirs.egg-info/dependency_links.txt
+flask_staticdirs.egg-info/requires.txt
+flask_staticdirs.egg-info/top_level.txt
