@@ -1,0 +1,3 @@
+[console_scripts]
+sootty = sootty.__main__:main
+
