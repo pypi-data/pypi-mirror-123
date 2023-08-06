@@ -1,0 +1,177 @@
+---
+modules:
+  - .efm_client
+  - .conversions
+---
+include:
+  - login_qs.yml
+---
+objects: 
+  - found_cases: DAList.using(object_type=DAObject, auto_gather=False)  
+---
+objects:
+  - somebody: ALIndividual
+---
+#mandatory: True
+id: interview order
+code: |
+  do_what_choice
+  if do_what_choice == 'party_search':
+    somebody.name.first
+    if not case_search_task_status.ready():
+      case_search_waiting_screen
+    else:
+      if case_tracking_choice is None:
+        warn_no_results
+        case_tracking_id
+      else:
+        case_tracking_id = case_tracking_choice
+        found_case = next(filter(lambda case: case.tracking_id == case_tracking_id, found_cases))
+  elif do_what_choice == 'docket_lookup':
+    case_docket_id
+    while not docket_case_response.is_ok():
+      display_case
+      del case_docket_id, docket_case_response, display_case
+      case_docket_id
+    display_case
+    case_tracking_id = docket_case_response.data[0].get('value',{}).get('caseTrackingID',{}).get('value')
+    found_case = DAObject()
+    parse_case_info(proxy_conn, found_case, docket_case_response.data[0], court_id)
+  else:
+    case_tracking_id
+    while not confirm_case_tracking_id:
+      del case_tracking_id
+      case_tracking_id
+  interview_order_find_case = True
+---
+id: no cases found
+question: |
+  No cases found
+subquestion: |
+  You can either enter a case tracking ID or hit "back" to 
+  try a new search.
+continue button field: warn_no_results
+---
+id: case lookup
+question: |
+  Case lookup
+field: do_what_choice
+choices:
+  - Find a case by party name: party_search
+  - Find a case by Docket Number: docket_lookup
+  - I know the tracking ID of the case: tracking_id
+---
+id: tracking id
+question: |
+  Enter the case tracking ID
+fields:
+  - Case Tracking ID: case_tracking_id
+---
+question: |
+  Is this the case you were trying to find?
+subquestion: |
+  
+yesno: confirm_case_tracking_id
+---
+sets:
+  - somebody.name.first
+id: party name
+question: |
+  Party name to find
+subquestion: |
+  Enter the name of a party involved in the case
+fields:
+  code: |
+    somebody.name_fields(person_or_business='unknown')
+---
+id: court
+question: |
+  Choose a court
+fields:
+  - no label: trial_court
+    code: |
+      all_courts
+---
+code: |
+  all_courts = proxy_conn.get_courts().data
+---
+event: case_search_waiting_screen
+question: |
+  Your search is in progress, please wait
+---
+code: |
+  case_search_task_status = background_action('case_search_task', 'refresh')
+---
+event: case_search_task
+code: |
+  background_response_action('case_search_done', case_response = proxy_conn.get_cases(court_id, somebody, None))
+---
+event: case_search_done
+code: |
+  get_cases_response = action_argument('case_response')
+  background_response()
+---
+id: docket id
+question: |
+  Docket ID
+fields:
+  - Docket id: case_docket_id
+---
+need:
+  - proxy_conn.authed_user_id
+depends on:
+  - case_docket_id
+code: |
+  docket_case_response = proxy_conn.get_cases(court_id, docket_id=case_docket_id)
+---
+id: results
+question: |
+  Results
+subquestion: |
+  ${ collapse_template(case_results_template) }
+fields:
+  - Which case?: case_tracking_choice
+    datatype: dropdown
+    code: |
+      found_case_options
+---
+template: case_results_template
+subject: |
+  View case data
+content: |
+  % for case in found_cases:
+  #### ${ case.title } (${ case.date })
+  * DocketID: ${ case.docket_id }
+  * CourtID: ${ case.court_id }
+  * TrackingID: ${ case.tracking_id }
+  * CaseCategory: ${ case.category }  
+  % endfor  
+---
+id: display case
+continue button field: display_case
+question: |
+  Results
+subquestion: |
+
+  ${ pretty_display(docket_case_response.data) } 
+
+---
+need:
+  - court_id
+  - somebody.name.first
+  - found_cases
+id: get cleaned up results
+code: |
+    found_cases.clear()
+
+    #try: # trap name errors, etc. so Docassemble will only run this code once
+    first_pass = get_cases_response = proxy_conn.get_cases(court_id, person=somebody)
+    if first_pass.is_ok():
+      for entry in first_pass.data:
+        new_case = found_cases.appendObject()
+        parse_case_info(proxy_conn, new_case, entry, court_id)
+    # except:
+    #  message("Something went wrong")
+    
+    found_cases.gathered = True
+    found_case_options = [{case.tracking_id: f"{case.docket_id} {case.title} ({case.date})"} for case in found_cases]

@@ -1,0 +1,1365 @@
+---
+modules:
+  - .efm_client  
+  - .conversions
+---
+include:
+  - login_qs.yml
+  - common_qs.yml
+  - case_search.yml
+  - docassemble.AssemblyLine:al_package.yml  
+---
+features:
+  question back button: True
+  navigation back button: False
+---
+default screen parts:
+  back button label: |
+    Back
+---
+metadata:
+  title: |
+    EFSP Admin Interface  
+---
+objects:
+  - person_to_reg: ALIndividual
+  - new_attorney: ALIndividual
+  - updated_attorney: ALIndividual
+  - updated_user: ALIndividual    
+  - updated_self: ALIndividual
+  - new_firm: Person
+  - updated_firm: Person
+  - new_service_contact: ALIndividual
+  - updated_service_contact: ALIndividual
+---
+code: |
+  user_admin_list = [
+    ('get_user', 'Get User'),
+    ('self_resend_activation', 'Resend Self Activation Email'),
+    ('resend_activation', 'Resend Other Activation Email'),
+    ('get_user_list', 'Get All Users'),
+    ('rm_user', 'Remove user'),
+  ]
+  firm_admin_list = [
+    ('get_firm', 'Get Firm'),
+    ('update_firm', 'Update Firm'),  
+  ]
+  
+  filing_admin_list = [
+    ('get_courts', 'See all Courts'),
+    ('get_court','Get detailed court information'),
+    ('get_filings', 'See Filings'),
+    ('get_filing_status', 'Get filing Status'),
+    ('get_filing', 'See Filing Info'),
+    ('cancel_filing', 'Cancel Filing'),
+    # ('dummy_filing', 'Dummy File'),
+    # ('check_filing', 'Check filing'),
+  ]
+
+  firm_admin_attorneys_list = [
+    ('create_attorney', 'Create attorney'),
+    ('get_attorney_list', 'Get All Attorneys'),
+    ('get_attorney', 'Get Attorney'),
+    ('update_attorney', 'Update Attorney'),
+    ('remove_attorney', 'Remove Attorney'),
+  ]
+---
+id: Admin tasks
+question: | 
+  Admin Tasks
+subquestion: |
+  % if logged_in_user_is_admin:
+  ${ tabbed_templates_html("Tests", login_status_template,
+      code_cache_template,
+      firm_admin_template,
+      firm_admin_users_template,
+      firm_admin_attorneys_template,
+      firm_admin_service_contacts,
+      firm_admin_payment_template,
+      initial_filing_template,
+      efsp_template,
+      subsequent_filing_template,
+      eservice_template,
+      ecf_template,
+      filings_template) }
+  % else:
+  ${ tabbed_templates_html("Tests", login_status_template) }
+  % endif
+event: all_done
+---
+template: login_status_template
+subject: Login
+content: |
+  Logged in: ${ tyler_login }
+
+  ${ action_button_html(url_ask(
+      [{'recompute': ['tyler_login','show_resp']}]),
+      label="Login") }
+  
+  As ${ my_username }
+  
+  ${ action_button_html(url_ask(
+      [{'recompute': ['get_user_self', 'show_resp']}]),
+      label="Get self") }
+  
+  ${ action_button_html(url_ask(
+      [{'recompute': ['updated_user','self_update_user','show_resp']}]),
+      label="Update self") }
+  
+  ${ action_button_html(url_ask(
+      [{'recompute': ['self_change_password', 'show_resp', 'tyler_login']}]),
+      label="Change your password") }
+
+  ${ action_button_html(url_ask(
+      [{'recompute': ['get_firm','show_resp']}]),
+      label="Get firm") }
+      
+  ${ action_button_html(url_ask(
+      [{'recompute': ['get_notification_preferences','show_resp']}]),
+      label="Get notification preferences") }
+
+   ${ action_button_html(url_ask(
+      [{'recompute': ['update_notification_preferences','show_resp']}]),
+      label="Update notification preferences") }
+---
+template: firm_admin_template
+subject: |
+  Firm
+content: |
+  % for elem in firm_admin_list:
+  ${ action_button_html(url_ask(
+      [{'recompute': [elem[0], 'show_resp']}]), 
+      label=elem[1]) }
+
+  % endfor  
+---
+template: code_cache_template
+subject: |
+  Codes
+content: |
+  Code cache refresh is initiated in the backend only.
+  It takes ~ 20 minutes to fully refresh codes.
+  
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_datafield', 'show_resp']}]),
+    label="Get datafield") }
+---
+template: firm_admin_users_template
+subject: |
+  Users
+content: |  
+  Tests:
+
+  * Create a new firm administrator of new firm :far-fa-check-square:
+  * Attempt to create users with bad/missing info :far-fa-check-square:
+  * Create additional users with approprate info :far-fa-check-square:
+  * Change all info for user (email, first, middle last) :far-fa-check-square:
+  * Attempt 6 bad logins to lock out user 
+  * User firm admin to elevate the new user to admin :far-fa-check-square:
+  * Update firm details with new info :far-fa-check-square:
+  * De-elevate the new user back to regular user :far-fa-check-square:
+  * Use firm admin to remove user. :far-fa-check-square:
+  * Merge existing user into firm, verify they're in List     
+  
+  ${ action_button_html(url_ask(
+      [{'recompute': ['person_to_reg', 'register', 'show_resp']}]),
+      label='Register') }
+
+  % for elem in user_admin_list:
+  ${ action_button_html(url_ask(
+      [{'recompute': [elem[0], 'show_resp']}]), 
+      label=elem[1]) }
+
+  % endfor
+
+  ${ action_button_html(url_ask(
+      [{'recompute': ['user_id', 'get_user_roles', 'show_resp']}] ),
+      label="Get user roles") }
+
+  ${ action_button_html(url_ask(
+      [{'recompute': ['user_id','updated_user', 'update_user', 'show_resp']}]),
+      label="Update user") }
+
+  ${ action_button_html(url_ask(
+      [{'recompute': ['user_id', 
+        'enable_role_filer', 
+        'enable_role_admin',
+        'new_user_roles', 
+        'removed_user_roles',
+        'update_user_roles', 
+        'show_role_resp']}]),
+      label="Update user role") }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['change_password', 'show_resp']}]),
+    label='Change password') }
+---
+template: firm_admin_attorneys_template
+subject: |
+  Attorneys
+content: |
+  * Login as admin. Add several Attorneys :far-fa-check-square:
+  * Attempt to create Attorney with bad info (e.g., invalid bar number?) :far-fa-check-square:
+  * Change info for a selected attorney :far-fa-check-square:
+  * Use firm admin and rm at attorney from the firm   :far-fa-check-square:
+
+  % for elem in firm_admin_attorneys_list:
+  ${ action_button_html(url_ask(
+      [{'recompute': [elem[0], 'show_resp']}]), 
+      label=elem[1]) }
+  
+  % endfor
+---
+template: firm_admin_service_contacts
+subject: |
+  Service contacts
+content: |
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_service_contact_list', 'show_resp']}]),
+    label='Get service contact list') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_public_list', 'show_resp']}]),
+    label='Get public service contact list') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_service_contact', 'show_resp']}]),
+    label='Get service contact') }
+
+  ${ action_button_html(url_ask(
+    [{'undefine': ['new_service_contact']},{'recompute': ['create_service_contact', 'show_resp']}]),
+    label='Create service contact') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['update_service_contact', 'show_resp']}]),
+    label='Update service contact') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['remove_service_contact', 'show_resp']}]),
+    label='Remove service contact') }
+
+  ${ action_button_html(url_ask(
+    [{'undefine': [
+      'do_what_choice',
+      'somebody.name.first',
+      'court_id',
+      'case_search_task_status',
+      'case_search_waiting_screen',
+      'warn_no_results',
+      'case_tracking_id',
+      'found_case',
+      'case_docket_id',
+      'get_case_response',
+    ]},
+    {'recompute': ['interview_order_find_case','attach_service_contact', 'show_resp']}]),
+    label='Attach service contact') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['detach_service_contact', 'show_resp']}]),
+    label='Detach service contact') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_attached_cases', 'show_resp']}]),
+    label='View attached cases') }
+
+    
+---
+template: firm_admin_payment_template
+subject: |
+  Payment accounts
+content: |
+  * Credit card
+  * Waiver
+  * eCheck
+
+  ${ action_button_html(url_ask([
+      {'undefine': ['new_payment_account']},
+      {'recompute': ['new_payment_account']}
+    ]),
+    label='New payment Account') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_payment_account_type_list', 'show_resp']}]),
+    label='Get payment account type list') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_payment_account_list', 'show_resp']}]),
+    label='Get payment account list') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_payment_account', 'show_resp']}]),
+    label='Get payment account') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['update_payment_account', 'show_resp']}]),
+    label='Update payment account') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['remove_payment_account', 'show_resp']}]),
+    label='Remove payment account') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_global_payment_account_list', 'show_resp']}]),
+    label='Get global payment account list') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['get_global_payment_account', 'show_resp']}]),
+    label='Get global payment account') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['update_global_payment_account', 'show_resp']}]),
+    label='Update global payment account') }
+
+  ${ action_button_html(url_ask(
+    [{'recompute': ['remove_global_payment_account', 'show_resp']}]),
+    label='Remove global payment account') }
+---
+template: initial_filing_template
+subject: |
+  Initial filing
+content: |
+  * Login as Pro Se, create initial filing with credit card
+  * Continue preparing. Attach documents
+  * Submit Filing for clerk review
+  * Accept envelope
+  * Repeat as: waiver account; e-check
+  * Repeat as: firm user: credit card, waiver, e-check
+
+  ${ action_button_html(interview_url(i=user_info().package + ":any_filing_interview.yml",reset=1), label="Launch filing interview") }
+---  
+template: efsp_template
+subject: |
+  Case Search
+content: |  
+  * EFSP Cases - Case Search - Integrated CMS
+  * EFSP Case - Broken Integration
+  * EFSP Case - Secure Case
+  * EFSP Cases - Case Search - Non Integrated CMS
+
+  ${ action_button_html(url_ask(
+    [{'undefine': [
+      'do_what_choice',
+      'somebody.name.first',
+      'court_id',
+      'case_search_task_status',
+      'case_search_waiting_screen',
+      'warn_no_results',
+      'case_tracking_id',
+      'found_case',
+      'case_docket_id',
+      'get_case_response',
+    ]},
+    {'recompute': ['interview_order_find_case', 'display_found_case']}]),
+    label="Find a case") }
+    
+  ${ action_button_html(url_ask(
+    [{'undefine': [
+      'do_what_choice',
+      'somebody.name.first',
+      'court_id',
+      'case_search_task_status',
+      'case_search_waiting_screen',
+      'warn_no_results',
+      'case_tracking_id',
+      'found_case',
+      'case_docket_id',
+      'get_case_response',
+    ]},
+    {'recompute': ['interview_order_find_case', 'get_case_service_history', 'show_resp']}]),
+    label="Get case service history") }
+    
+---
+id: display case
+question: |
+  Your case
+subquestion: |
+  ${ found_case.as_serializable() }
+continue button field: display_found_case  
+---
+template: subsequent_filing_template
+subject: |
+  Subsequent filing
+content: |
+  * Subsequent Filing - Firm User
+  * Subsequent Filing - Pro Se Filer
+  * Subsequent Filing - Business Origination
+  * Subsequent Filing - Add/Remove Case Party & Attorney
+  * Subsequest Filing - Add Service and Multiple Service contacts to an existing case
+  * Subsequent Filing - Add/Remove Service Contact to case party
+  
+  ${ action_button_html(interview_url(i=user_info().package + ":any_filing_interview.yml",reset=1), label="Launch filing interview") }  
+---
+template: eservice_template
+subject: |
+  Firm admin - eService
+content: |  
+  * eService
+---
+template: ecf_template
+subject: |
+  ECF Filing
+content: |
+  * ECF Filing - Subsequent Filing into Non-indexed case
+  * ECF Filing - Filing with Courtesy Copies
+  * ECF Service - Access E-Service SMTP Logs
+  * ECF Service - Notification of Service
+  * ECF Service - Access Service Information History
+  * ECF Service - Access List of Attached Cases  
+  
+  ${ action_button_html(interview_url(i=user_info().package + ":any_filing_interview.yml",reset=1), label="Launch filing interview") }
+---
+template: filings_template
+subject: |
+  Filings
+content: |  
+  % for elem in filing_admin_list:
+  ${ action_button_html(url_ask(
+      [{'recompute': [elem[0], 'show_resp']}]), 
+      label=elem[1]) }
+  
+  % endfor
+---
+id: email
+question: |
+  What is your email address?
+fields:
+  - email: email
+---
+#generic object: Individual
+#question: |
+#  Name?
+#fields:
+#  - First Name: x.name.first
+#  - Middle Name: x.name.middle
+#  - Last Name: x.name.last
+#---
+#generic object: Individual
+#question: |
+#  Address?
+#fields:
+#  - Street: x.address.address
+#    address autocomplete: True
+#  - Unit: x.address.unit
+#  - City: x.address.city
+#  - State: x.address.state
+#  - Zip: x.address.zip
+#  - Country: x.address.country
+---
+id: contact info
+generic object: Individual
+question: |
+  Contact Info?
+fields:
+  - Phone Number: x.mobile_number
+  - email: x.email
+    datatype: email
+---
+id: password
+question: |
+  Password?
+fields:
+  - Password: new_password
+    datatype: password
+---
+id: user id
+question: |
+  User ID?
+subquestion: |
+  Type in a user GUID or choose from members in your firm.  
+fields:
+  - User ID: user_id
+    datatype: combobox
+    code: |
+      [{y.get('userID'): y.get('email')} for y in proxy_conn.get_user_list().data ]
+---
+id: court id
+question: |
+  Court Id?
+fields:
+  - Court ID: court_id
+    datatype: combobox
+    code: |
+      proxy_conn.get_courts().data
+---
+event: query_variables
+code: |
+  variables_as_json()
+---
+id: filing id
+question: |
+  Filing id?
+fields:
+  - Filing id: filing_id
+    datatype: combobox
+    code: |
+      [filing_id_and_label(y) for y in proxy_conn.get_filing_list(court_id, today().minus(years=1), today().plus(days=1) ).data]
+---
+code: |
+  from datetime import datetime 
+
+  def filing_id_and_label(case, style="FILING_ID"):
+    tracking_id = case.get('caseTrackingID',{}).get('value')
+    try:
+      filing_id = case.get('documentIdentification',[{},{}])[1].get('identificationID',{}).get('value')
+    except IndexError:
+      filing_id = 'id-not-found'
+    filer_name = case.get('documentSubmitter',{}).get('entityRepresentation',{}).get('value',{}).get('personName',{}).get('personFullName',{}).get('value')
+    document_description = case.get('documentDescriptionText',{}).get('value')
+    # Filing code is plain English
+    filing_code = next(
+      filter(
+        lambda category: category.get('name') == "{urn:tyler:ecf:extensions:Common}FilingCode", 
+        case.get("documentCategoryText", [])
+        ),{}).get('value',{}).get('value')
+    try:
+      filing_date = as_datetime(datetime.utcfromtimestamp(case.get('documentFiledDate',{}).get('dateRepresentation',{}).get('value',{}).get('value',1000)/1000))
+    except:
+      ''
+    filing_label = f"{filer_name} - {document_description} ({filing_code}) {filing_date}"
+    if style == "FILING_ID":
+      return { filing_id: filing_label }
+    else:
+      return { tracking_id: filing_label }
+    # case_category_id = next(filter(lambda category: category.case.get('documentCategoryText',{})
+---
+id: firm id
+question: |
+  Firm id?
+fields:
+  - Firm id: firm_id
+---
+id: attorney id
+question: |
+  Attorney id?
+subquestion: |
+  Enter an attorney's GUID or select from attorneys in your firm.  
+fields:
+  - Attorney id: attorney_id
+    datatype: combobox
+    code: |
+      [{y.get('attorneyID'): f"{y.get('firstName')} {y.get('lastName')}" } for y in proxy_conn.get_attorney_list().data ]
+---
+id: payment account id
+question: |
+  Payment account id?
+subquestion: |
+  Enter a payment account GUID or select from existing
+  payment accounts in your firm.  
+fields:
+  - Payment account id: payment_account_id
+    datatype: combobox
+    code: |
+      payment_account_labels(proxy_conn.get_payment_account_list())
+---
+depends on: payment_account_id
+code: |
+  payment_account_id_resp = proxy_conn.get_payment_account(payment_account_id)
+---
+reconsider:
+  - payment_account_id_resp
+depends on:
+  - payment_account_id
+id: update payment account
+question: |
+  Update payment account
+fields:
+  - Account name: payment_account_name
+    default: ${ payment_account_id_resp.data.get('accountName') if payment_account_id_resp.data else '' }
+  - Active?: payment_account_active
+    datatype: yesno
+    default: ${ payment_account_id_resp.data.get('active',{}).get('value') if payment_account_id_resp.data else False}
+---
+code: |
+  def payment_account_labels(resp):
+    retval = []
+    if resp.data:
+      for account in resp.data:
+        if account.get("paymentAccountTypeCode") == "CC":
+          retval.append({
+            account.get("paymentAccountID"): f"{account.get('accountName')} ({account.get('cardLast4')})"
+          })
+        else: # elif account.get("paymentAccountTypeCode") == "WV":
+          retval.append({
+            account.get("paymentAccountID"): f"{account.get('accountName')}"
+          })
+    return retval
+---
+id: global payment account id
+question: |
+  Global payment account id?
+fields:
+  - Global payment account id: global_payment_account_id
+---
+id: service contact id
+question: |
+  Service contact id?
+subquestion: |
+  Type in the GUID of a service contact or select from 
+  existing contacts in your firm.
+fields:
+  - Service contact id: service_contact_id
+    datatype: combobox
+    code: |
+      [{contact.get('serviceContactID'): f"{contact.get('firstName')} {contact.get('lastName')} ({contact.get('email')})"} for contact in proxy_conn.get_service_contact_list().data]
+---
+id: tracking id
+question: |
+  Enter the case tracking ID
+fields:
+  - Case Tracking ID: firm_case_tracking_id
+    datatype: combobox
+    code: |
+      [filing_id_and_label(y,style="CASE_TRACKING_ID") for y in proxy_conn.get_filing_list(court_id, today().minus(years=1), today().plus(days=1)).data]
+
+---
+id: update user information
+question: |
+  Update user information
+fields:
+  - Email address: updated_user.email
+    datatype: email
+    default: ${ updated_user.default_email }
+  - First name: updated_user.name.first
+    default: ${ updated_user.default_first }
+  - Middle name: updated_user.name.middle
+    required: False
+    default: ${ updated_user.default_middle }
+  - Last name: updated_user.name.last
+    default: ${ updated_user.default_last }
+---
+reconsider:
+  - updated_self.default_email
+id: update self information
+question: |
+  Update user information
+fields:
+  - Email address: updated_self.email
+    datatype: email
+    default: ${ updated_self.default_email }
+  - First name: updated_self.name.first
+    default: ${ updated_self.default_first }
+  - Middle name: updated_self.name.middle
+    required: False
+    default: ${ updated_self.default_middle }
+  - Last name: updated_self.name.last
+    default: ${ updated_self.default_last }    
+---
+sets:
+  - new_service_contact.name.first
+  - new_service_contact.address.address  
+id: create service contact
+question: |
+  Create a new service contact
+fields:
+  - code: |
+      new_service_contact.name_fields(show_suffix=False)
+  - code: |
+      new_service_contact.address_fields(default_state="IL", show_country=True)
+  - Email: new_service_contact.email
+    datatype: email
+  - Make this contact public (requires special permissions): new_service_contact.is_public
+    datatype: yesno
+  - Add to master list: new_service_contact.is_in_master_list
+    datatype: yesno
+    default: True
+  - Admin copy (optional): new_service_contact.admin_copy
+    required: False
+---
+id: create attorney
+question: |
+  Create attorney
+subquestion: |
+  Comment: Tyler validates the bar number, so you must use a real 
+  number.
+fields:
+  - Bar number: new_attorney.bar_number
+  - First name: new_attorney.name.first
+  - Middle name: new_attorney.name.middle
+    required: False
+  - Last name: new_attorney.name.last
+help: |
+  Two real bar numbers belonging to staff at ILAO who agreed to let us
+  use for testing purposes: 
+  
+  * 6290610
+  * 6331982
+  
+---
+id: update attorney
+question: |
+  Update attorney
+fields:
+  - Bar number: updated_attorney.bar_number
+    default: ${ updated_attorney.default_bar_number }
+  - First name: updated_attorney.name.first
+    default: ${ updated_attorney.default_first }
+  - Middle name: updated_attorney.name.middle
+    required: False
+    default: ${ updated_attorney.default_middle }
+  - Last name: updated_attorney.name.last  
+    default: ${ updated_attorney.default_last }
+---
+imports:
+  - os
+---
+if: |
+  new_account_type_code == 'WV'
+code: |
+  # TODO: this isn't wired up yet!
+  resp = proxy_conn.create_waiver_account(new_account_name, new_account_is_global)
+  del new_account_name
+  del new_account_is_global
+  show_resp
+  new_payment_account = True 
+---
+if: |
+  new_account_type_code in ['CC','BankAccount']
+comment: |
+  # Basis from https://stackoverflow.com/a/133997
+  # TODO(brycew): just submit this + actual payment info to the Efile server as a POST,
+  # Then hang on to that data with the transaction Id (created there), and send user to
+  # the TOGA site, and it replies back to the proxy, which forwards back to the DA interview
+  #      '  <input type="text" name="RequestXML" value="' + data +  '" style="display:none;"/> ' +
+  #      ' <button>Click here if not working</button> </input>' +
+question: |
+  New payment account
+# TODO: using url_args this way means you can only create one
+# payment account per session!
+subquestion: |
+  % if url_args.get('completed', 'false') == 'true':
+  You've created your new payment account!
+  % endif
+script: |
+  % if url_args.get('completed', 'false') != 'true':
+  <script>
+      //data = '<PaymentRequest></PaymentRequest>'; 
+      
+      const form = document.createElement('form');
+      form.method = 'post';
+      //form.target = '_blank';
+      form.action = '${ os.path.join(proxy_conn.base_url, 'payments/new-toga-account') }';
+
+      const nameField = document.createElement('input');
+      nameField.type = 'hidden';
+      nameField.name = 'account_name';
+      nameField.value = '${ new_account_name }';
+      form.appendChild(nameField);
+      const isglobal = document.createElement('input');
+      isglobal.type = 'hidden';
+      isglobal.name = 'global';
+      isglobal.value = ${ 'true' if new_account_is_global == 'on' else 'false'};
+      form.appendChild(isglobal);
+      const typeCode = document.createElement('input');
+      typeCode.type = 'hidden';
+      typeCode.name = 'type_code';
+      typeCode.value = '${ new_account_type_code }';
+      form.appendChild(typeCode);
+      // TODO(brycew): HACKY: how to propery add Headers here?
+      const tylerInfo = document.createElement('input');
+      tylerInfo.type = 'hidden';
+      tylerInfo.name = 'tyler_info';
+      tylerInfo.value = '${ proxy_conn.proxy_client.headers['TYLER-TOKEN'] }';
+      form.appendChild(tylerInfo);
+      const url = document.createElement('input');
+      url.type = 'hidden';
+      url.name = 'original_url';
+      url.value = '${ interview_url(temporary=1, completed='true') }';
+      form.appendChild(url);
+      document.body.appendChild(form);
+      form.submit();
+  </script>
+  % endif
+continue button field: new_payment_account
+---
+id: new payment account
+question: |
+  New payment account info
+fields:
+  - Global: new_account_is_global
+    datatype: yesno
+  - Name of account: new_account_name
+  - Type: new_account_type_code
+    datatype: radio
+    choices:
+      - Waiver account: WV
+      - eCheck: BankAccount
+      - Credit Card: CC
+---
+question: |
+  Search dates
+fields:
+  - Start date: start_date
+    datatype: date
+    default: ${ today().minus(years=1).format("yyyy-MM-dd")}
+  - End date: end_date
+    datatype: date
+    default: ${ today().plus(days=1).format("yyyy-MM-dd")}
+
+---
+code: |
+  if reg_type == "FIRM_ADMINISTRATOR":
+    resp = proxy_conn.register_user(person_to_reg, registration_type=reg_type, password=new_password, firm_name_or_id=person_to_reg.firm_name)    
+  else:
+    resp = proxy_conn.register_user(person_to_reg, registration_type=reg_type, password=new_password)
+  del new_password, reg_type
+  register = True
+---
+depends on:
+  - user_id
+code: |
+  user_resp = proxy_conn.get_user(id=user_id)  
+  if user_resp.data:
+    updated_user.default_first = user_resp.data.get('firstName','')
+    updated_user.default_middle = user_resp.data.get('middleName','')
+    updated_user.default_last = user_resp.data.get('lastName','')
+    updated_user.default_email = user_resp.data.get('email','')
+  else:
+    updated_user.default_first = ''
+    updated_user.default_middle = ''
+    updated_user.default_last = ''
+    updated_user.default_email = ''
+---
+code: |
+  user_resp = proxy_conn.get_user()  # Get self
+  if user_resp.data:
+    updated_self.default_first = user_resp.data.get('firstName','')
+    updated_self.default_middle = user_resp.data.get('middleName','')
+    updated_self.default_last = user_resp.data.get('lastName','')
+    updated_self.default_email = user_resp.data.get('email','')
+  else:
+    updated_self.default_first = ''
+    updated_self.default_middle = ''
+    updated_self.default_last = ''
+    updated_self.default_email = ''
+---
+depends on: attorney_id
+code: |
+  atty_resp = proxy_conn.get_attorney(attorney_id)
+  if atty_resp.data:
+    updated_attorney.default_first = atty_resp.data.get('firstName','')
+    updated_attorney.default_middle = atty_resp.data.get('middleName','')
+    updated_attorney.default_last = atty_resp.data.get('lastName','')
+    updated_attorney.default_bar_number = atty_resp.data.get('barNumber','')
+  else:
+    updated_attorney.default_first = ''
+    updated_attorney.default_middle = ''
+    updated_attorney.default_last = ''
+    updated_attorney.default_bar_number = ''
+
+---
+code: |
+  resp = proxy_conn.update_user(user_id, 
+    email=updated_user.email,
+    first_name=updated_user.name.first,
+    last_name=updated_user.name.last,
+    middle_name=updated_user.name.middle )
+  del user_id
+  del updated_user
+  update_user = True
+---
+code: |
+  resp = proxy_conn.self_update_user( 
+    email=updated_self.email,
+    first_name=updated_self.name.first,
+    last_name=updated_self.name.last,
+    middle_name=updated_self.name.middle )
+  del updated_self
+  self_update_user = True
+---
+depends on:
+  - user_id
+code: |
+  user_role_resp = proxy_conn.get_user_roles(user_id)
+---
+code: |
+  def has_role(data, role):
+    try:
+      return len(list(filter(lambda y: y.get('roleName') == role, data))) > 0
+    except:
+      return False
+---
+code: |
+  resp = proxy_conn.get_user_roles(user_id)
+  get_user_roles = True
+---
+reconsider:
+  - user_role_resp
+question: |
+  Update user roles
+fields:
+  - Filer: enable_role_filer
+    datatype: yesno
+    default: ${ has_role(user_role_resp.data, 'FILER') }
+  - Admin: enable_role_admin
+    datatype: yesno
+    default: ${ has_role(user_role_resp.data, 'FIRM_ADMIN') }
+---
+depends on:
+  - enable_role_admin
+  - enable_role_filer
+code: |
+  # Only two roles are relevant for the civil side:
+  # FILER and FIRM_ADMIN. So our logic doesn't need to be fancy
+
+  new_user_roles = []
+  if enable_role_filer: # and 'FILER' not in user_role_resp:
+    new_user_roles.append({'location': "","roleName": "FILER"})
+  if enable_role_admin: # and 'FIRM_ADMIN' not in user_role_resp:
+    new_user_roles.append({'location': "","roleName": "FIRM_ADMIN"})
+  
+  removed_user_roles = []
+  if not enable_role_filer: 
+    removed_user_roles.append({'location': "","roleName": "FILER"})
+  if not enable_role_admin: 
+    removed_user_roles.append({'location': "","roleName": "FIRM_ADMIN"})
+  
+  
+---
+code: |
+  if len(new_user_roles): 
+    add_resp = proxy_conn.add_user_roles(user_id, new_user_roles)
+  else:
+    add_resp = ''
+  if len(removed_user_roles):
+    del_resp = proxy_conn.remove_user_roles(user_id, removed_user_roles)
+  else:
+    del_resp = ''
+  del user_id
+  update_user_roles = True
+---
+code: |
+  resp = proxy_conn.remove_user(id=user_id) 
+  del user_id
+  rm_user = True
+---
+code : |
+  resp = proxy_conn.get_user_list()
+  get_user_list = True
+---
+code: |
+  resp = proxy_conn.get_user(id=user_id)
+  del user_id
+  get_user = True
+---
+code: |
+  resp = proxy_conn.get_user()
+  get_user_self = True
+---
+code: |
+  resp = proxy_conn.get_courts()
+  get_courts = True
+---
+code: |
+  resp = proxy_conn.get_court(court_id)
+  del court_id
+  get_court = True
+---
+code: |
+  resp = proxy_conn.get_filing_list(jurisdiction_id, court_id, start_date, end_date)
+  del court_id
+  get_filings = True
+---
+code: |
+  resp = proxy_conn.self_resend_activation_email(email)
+  del email
+  self_resend_activation = True
+---
+code: |
+  resp = proxy_conn.resend_activation_email(id=user_id)
+  del user_id
+  resend_activation = True
+---
+code: |
+  resp = proxy_conn.get_filing_status(jurisdiction_id, court_id, filing_id)
+  del court_id
+  del filing_id
+  get_filing_status = True
+---
+code: |
+  resp = proxy_conn.get_filing(jurisdiction_id, court_id, filing_id)
+  del court_id
+  del filing_id
+  get_filing = True
+---
+code: |
+  # TODO(qs): requires a bundle
+  resp = proxy_conn.file_for_review(jurisdiction_id, court_id)
+  del court_id
+  dummy_filing = True
+---
+code: |
+  resp = proxy_conn.cancel_filing_status(jurisdiction_id, court_id, filing_id)
+  del court_id
+  del filing_id
+  cancel_filing = True
+---
+code: |
+  resp = proxy_conn.get_notification_preferences()
+  get_notification_preferences = True
+---
+code: |
+  existing_notification_preferences = proxy_conn.get_notification_preferences()  
+---
+code: |
+  notification_options = proxy_conn.get_notification_options()
+---
+reconsider:
+  - existing_notification_preferences
+id: notification preferences
+question: |
+  Notification preferences
+fields:
+  - label: |
+      Select the updates that you would like to receive
+    field: interim_notification_selections
+    datatype: checkboxes
+    code: |
+      [{
+         y.get('code'): y.get('description'), 
+         'default': next(filter(lambda choice: choice.get('code') == y.get('code'), existing_notification_preferences.data)).get('isActive')
+       } for y in notification_options.data ]
+---
+code: |
+  # sample:
+  # {'code': 'SERVICEUNDELIVERABLE', 'isActive': False}
+  new_notification_preferences = [
+    {'code': item[0], 'isActive': item[1]} for item in interim_notification_selections.items()
+  ]
+  resp = proxy_conn.update_notification_preferences(new_notification_preferences)
+  del new_notification_preferences
+  del interim_notification_selections
+  update_notification_preferences = True
+---
+code: |
+  firm_details = proxy_conn.get_firm()
+  if firm_details.data:
+    updated_firm.default_name = firm_details.data.get('firmName')
+    updated_firm.default_phone = firm_details.data.get('phoneNumber')
+    updated_firm.default_address_address = firm_details.data.get('address',{}).get('addressLine1')
+    updated_firm.default_address_unit = firm_details.data.get('address',{}).get('addressLine2')
+    updated_firm.default_address_city = firm_details.data.get('address',{}).get('city')
+    updated_firm.default_address_state = firm_details.data.get('address',{}).get('state')
+    updated_firm.default_address_zip = firm_details.data.get('address',{}).get('zipCode')
+    updated_firm.default_address_country = firm_details.data.get('address',{}).get('country')
+  else:
+    updated_firm.default_name = ""
+    updated_firm.default_phone = ""
+    updated_firm.default_address_address = ""
+    updated_firm.default_address_unit = ""
+    updated_firm.default_address_city = ""
+    updated_firm.default_address_state = ""
+    updated_firm.default_address_zip = ""
+    updated_firm.default_address_country = ""
+---
+id: update firm information
+question: |
+  Update firm information
+fields:
+  - Firm name: updated_firm.name.text
+    default: ${ updated_firm.default_name }
+  - Phone number: updated_firm.phone_number  
+    validate: phone_number_is_valid
+    maxlength: 20
+    # TODO: should we use the real regex? Feels unnecessary  
+    default: ${ updated_firm.default_phone }
+  - Street address: updated_firm.address.address
+    address autocomplete: True    
+    default: ${ updated_firm.default_address_address }
+  - Unit: updated_firm.address.unit
+    required: False    
+    default: ${ updated_firm.default_address_unit }
+  - City: updated_firm.address.city    
+    default: ${ updated_firm.default_address_city }
+  - State: updated_firm.address.state    
+    default: ${ updated_firm.default_address_state if updated_firm.default_address_state else 'IL' }
+    code: states_list()
+  - Zip: updated_firm.address.zip
+    default: ${ updated_firm.default_address_zip }
+  - Country: updated_firm.address.country
+    default: ${ updated_firm.default_address_country if updated_firm.default_address_country else 'US' }
+    code: countries_list()
+---
+need:
+  - updated_firm.name.text
+code: |
+  resp = proxy_conn.update_firm(updated_firm)
+  del updated_firm
+  update_firm = True
+---
+code: |
+  resp = proxy_conn.get_attorney_list()
+  get_attorney_list = True
+---
+code: |
+  resp = proxy_conn.get_attorney(attorney_id)
+  del attorney_id
+  get_attorney = True
+---
+code: |
+  resp = proxy_conn.create_attorney(new_attorney.bar_number,
+    new_attorney.name.first, 
+    middle_name=new_attorney.name.middle, 
+    last_name=new_attorney.name.last)
+  del new_attorney
+  create_attorney = True  
+---
+code: |
+  resp = proxy_conn.update_attorney(attorney_id,
+    updated_attorney.bar_number,
+    updated_attorney.name.first, 
+    middle_name=updated_attorney.name.middle, 
+    last_name=updated_attorney.name.last)
+  del updated_attorney
+  del attorney_id
+  update_attorney = True
+---
+code: |
+  resp = proxy_conn.remove_attorney(attorney_id)
+  del attorney_id
+  remove_attorney = True
+---
+code: |
+  resp = proxy_conn.get_payment_account_type_list()
+  get_payment_account_type_list = True
+---
+code: |
+  resp = proxy_conn.get_payment_account_list()
+  get_payment_account_list = True
+---
+code: |
+  resp = proxy_conn.get_payment_account(payment_account_id)
+  del payment_account_id
+  get_payment_account = True
+---
+code: |
+  resp = proxy_conn.update_payment_account(payment_account_id, payment_account_name, payment_account_active)
+  del payment_account_id
+  del payment_account_name
+  del payment_account_active
+  update_payment_account = True
+---
+code: |
+  resp = proxy_conn.remove_payment_account(payment_account_id)
+  del payment_account_id
+  remove_payment_account = True
+---
+code: |
+  resp = proxy_conn.get_service_contact_list()
+  get_service_contact_list = True
+---
+code: |
+  # TODO: this method is for ServiceContact, but name is not specific
+  resp = proxy_conn.get_public_list()
+  get_public_list = True
+---
+code: |
+  resp = proxy_conn.get_service_contact(service_contact_id)
+  del service_contact_id
+  get_service_contact = True
+---
+code: |
+  resp = proxy_conn.get_attached_cases(court_id, service_contact_id)
+  del court_id
+  del service_contact_id
+  get_attached_cases = True
+---
+need:
+  - new_service_contact.name.first  
+  - new_service_contact.address.address
+  - new_service_contact.email
+code: |
+  resp = proxy_conn.create_service_contact(
+      new_service_contact,
+      new_service_contact.is_public,
+      new_service_contact.is_in_master_list,
+      new_service_contact.admin_copy if hasattr(new_service_contact, 'admin_copy') else None,
+    )
+  del new_service_contact
+  create_service_contact = True
+---
+id: update service contact information
+question: |
+  Update service contact
+fields:
+  - Email address: updated_service_contact.email
+    datatype: email
+    default: ${ updated_service_contact.default_email }
+  - First name: updated_service_contact.name.first
+    default: ${ updated_service_contact.default_first }
+  - Middle name: updated_service_contact.name.middle
+    required: False
+    default: ${ updated_service_contact.default_middle }
+  - Last name: updated_service_contact.name.last
+    default: ${ updated_service_contact.default_last }
+  - Phone number: person_to_reg.phone_number
+    validate: phone_number_is_valid
+    maxlength: 20
+    # TODO: should we use the real regex? Feels unnecessary  
+    default: ${ updated_service_contact.default_phone }
+  - Street address: updated_service_contact.address.address
+    address autocomplete: True
+    required: False
+    default: ${ updated_service_contact.default_address }
+  - Unit: updated_service_contact.address.unit
+    default: ${ updated_service_contact.default_unit }
+    required: False
+  - City: updated_service_contact.address.city
+    default: ${ updated_service_contact.default_city }
+  - State: updated_service_contact.address.state
+    default: ${ updated_service_contact.default_state }
+    code: states_list()
+  - Zip: updated_service_contact.address.zip
+    default: ${ updated_service_contact.default_zip }
+  - Country: updated_service_contact.address.country
+    code: countries_list()
+    default: ${ updated_service_contact.default_country }
+
+---
+code: |    
+  current_service_contact = proxy_conn.get_service_contact(service_contact_id).data
+  if current_service_contact:
+    updated_service_contact.default_email = current_service_contact.get('email')
+    updated_service_contact.default_first = current_service_contact.get('firstName')
+    updated_service_contact.default_middle = current_service_contact.get('middleName')
+    updated_service_contact.default_last = current_service_contact.get('lastName')
+    updated_service_contact.default_phone = current_service_contact.get('phoneNumber')
+    updated_service_contact.default_address = current_service_contact.get('address',{}).get('addressLine1')
+    updated_service_contact.default_unit = current_service_contact.get('address',{}).get('addressLine2')
+    updated_service_contact.default_city = current_service_contact.get('address',{}).get('city')
+    updated_service_contact.default_state = current_service_contact.get('address',{}).get('state')
+    updated_service_contact.default_zip = current_service_contact.get('address',{}).get('zipCode')
+    updated_service_contact.default_country = current_service_contact.get('address',{}).get('country')
+  else:
+    updated_service_contact.default_email = ""
+    updated_service_contact.default_first = ""
+    updated_service_contact.default_middle = ""
+    updated_service_contact.default_last = ""
+    updated_service_contact.default_phone = ""
+    updated_service_contact.default_address = ""
+    updated_service_contact.default_unit = ""
+    updated_service_contact.default_city = ""
+    updated_service_contact.default_state = ""
+    updated_service_contact.default_zip = ""
+    updated_service_contact.default_country =     ""
+
+---
+need:
+  - updated_service_contact.name.first  
+  - updated_service_contact.address.address
+  - updated_service_contact.email
+code: |
+  resp = proxy_conn.update_service_contact(service_contact_id,
+    updated_service_contact) # TODO(qs): are there additional params to add here?
+  del updated_service_contact
+  del service_contact_id
+  update_service_contact = True  
+---
+code: |
+  resp = proxy_conn.remove_service_contact(service_contact_id)
+  del service_contact_id
+  remove_service_contact = True
+---
+id: case party id
+question: |
+  Case party id?
+fields:
+  - no label: case_party_id
+    code: |
+      all_case_parties  
+---  
+code: |
+  raw_party_list = next(filter(lambda augmentation: augmentation.get('declaredType') == "tyler.ecf.extensions.common.CaseAugmentationType", found_case.case_details.get('value',{}).get('rest',[{}])), {}).get('value',{}).get('caseParticipant',[])
+  all_case_parties = [get_person_name_and_id(party) for party in raw_party_list if is_person(party)]
+# TODO: add lookup based on case_tracking_id
+---
+code: |
+  resp = proxy_conn.attach_service_contact(service_contact_id, case_tracking_id, case_party_id)
+  del service_contact_id
+  del case_tracking_id
+  del all_case_parties
+  attach_service_contact = True
+---
+code: |
+  resp = proxy_conn.detach_service_contact(service_contact_id, firm_case_tracking_id)
+  del service_contact_id
+  del firm_case_tracking_id
+  detach_service_contact = True
+---
+code: |
+  resp = proxy_conn.get_case_service_history(court_id, case_tracking_id)
+  del court_id
+  del case_tracking_id
+  get_case_service_history = True
+---
+code: |
+  resp = proxy_conn.get_global_payment_account_list()
+  get_global_payment_account_list = True
+---
+code: |
+  resp = proxy_conn.get_global_payment_account(global_payment_account_id)
+  del global_payment_account_id
+  get_global_payment_account = True
+---
+code: |
+  # TODO(qs): this interacts with TOGA--not implemented
+  resp = proxy_conn.update_global_payment_account(global_payment_account_id)
+  del global_payment_account_id
+  update_global_payment_account = True
+---
+code: |
+  resp = proxy_conn.remove_global_payment_account(global_payment_account_id)
+  del global_payment_account_id
+  remove_global_payment_account = True
+---
+code: |
+  resp = proxy_conn.change_password(user_id, email, new_user_password)
+  del user_id
+  del new_user_password
+  change_password = True
+---
+need:
+  - new_user_password
+code: |
+  resp = proxy_conn.self_change_password(current_password, new_user_password)
+  del current_password, new_user_password
+  self_change_password = True
+---
+id: field
+question: |
+  Data field
+fields:
+  - Field Name: field_name
+---
+code: |
+  resp=proxy_conn.get_datafield(court_id, field_name)
+  del court_id
+  del field_name
+  get_datafield = True
+---
+code: |
+  resp = proxy_conn.get_firm()
+  get_firm = True  
+---
+id: results
+question: |
+  Results of your request
+subquestion: |
+  ${ pretty_display(resp.data) }
+continue button field: show_resp
+---
+id: results role update
+question: |
+  Results of your request
+subquestion: |
+  Adding roles: ${ add_resp }
+
+  Removing roles: ${ del_resp }
+
+continue button field: show_role_resp
+---
+code: |
+  jurisdiction_id = 'illinois'
+---
+mandatory: True
+code: |
+  all_done

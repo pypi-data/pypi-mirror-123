@@ -1,0 +1,367 @@
+---
+modules:
+  - .efm_client
+  - .conversions
+---
+code: |
+  proxy_conn = ProxyConnection()  # Uses default configs in the python module
+---
+# You can override this value in your own interview
+code: |
+  efile_author_mode = True
+---
+id: your contact information
+question: |
+  What is your contact information?
+subquestion: |
+  Include at least **one** way to reach you other than by mail.
+fields:  
+  - Mobile number: users[0].mobile_number
+    required: False
+  - Other phone number: users[0].phone_number
+    required: False
+  - Email address: users[0].email    
+    datatype: email
+    # Email is required if the user wants to efile,
+    # and we have to be able to attempt efiling, meaning the court has to be right
+    required: can_check_efile
+  - Other ways to reach you: users[0].other_contact_method
+    input type: area
+    required: False
+    help: |
+      If you do not have a phone number or email, provide
+      specific contact instructions. For example, use a friend's phone number.
+      But the friend must be someone you can rely on to give you a
+      message.
+validation code: |
+  if (not showifdef('users[0].phone_number') and \
+      (not showifdef('users[0].mobile_number')) and \
+      (not showifdef('users[0].email')) and \
+      (not showifdef('users[0].other_contact_method'))):
+    validation_error(word("You need to provide at least one contact method."), field="users[0].other_contact_method")
+---
+question: |
+  % if efile_resp.response_code == 200:
+  Your form was submitted!
+  % else:
+  Something went wrong delivering your form
+  % endif
+subquestion: |
+  % if efile_resp.response_code == 200:
+  You should receive a confirmation email within 10-15 minutes, and
+  you should receive an update from the ${ trial_court } clerk on your filing 
+  within 2 weeks.
+  
+  We recommend you continue down below to download the form for your own records.
+  % endif
+  
+  Below is a copy of the document that you uploaded:
+  
+  ${ al_court_bundle.as_pdf() }
+
+help:
+  label: |
+    ${ 'What went wrong?' if efile_resp.response_code != 200 else 'Details' }
+  content: |
+    Some additional information:
+    
+    % if defined('case_category'):
+    * Case category: ${ case_category } ${ case_category_map.get(case_category) }
+    % endif
+    % if defined('case_type'):
+    * Case type: ${ case_type } ${ case_type_map.get(case_type) }
+    % endif
+    % if defined('lead_doc.tyler_filing_type'):
+    * Lead document type: ${ lead_doc.tyler_filing_type }
+    % endif
+    % if defined('lead_doc.document_type'):
+    * Document security: ${ lead_doc.document_type }
+    % endif
+
+    ${ efile_resp }
+continue button field: show_resp
+continue button label: Back to download screen
+---
+id: ready to efile
+question: |
+  Final Review With Cover Page
+subquestion: |
+  
+  % if ready_to_efile:
+  Below is your ${comma_and_list(al_court_bundle.get_titles())} document with the 
+  cover page that we will deliver to ${trial_court}.
+
+  We will deliver it securely. Please allow up to 15 minutes for the filing to
+  arrive. We will email with a confirmation that it was delivered, and some additional
+  information that you should hang on to.
+  
+  Click "Back" if you need to make any changes.  
+  Click "Send to court" to deliver it.
+  
+  Here is what the clerk at ${trial_court} will get:
+  % else:
+
+  We ran into some technical problems and there was a problem delivering this to the ${trial_court}.
+  You can download the form below to print and submit.
+
+  % endif
+
+  ${ al_court_bundle.as_pdf() }  
+
+  % if ready_to_efile:
+  Press below to deliver the form.
+  % endif
+continue button field: efile_user_reviewed
+continue button label: Send to court
+---
+comment: |
+  To integrate with other interviews, go to the last page, and add the below:
+    
+  ${ action_button_html(url_ask([{'recompute': ['efile']}]),
+     label='E-file') }
+---
+question: |
+  Something went wrong when submitting
+subquestion: |
+  We ran into some technical problems and there was a problem delivering this to the ${trial_court}.
+  You can continue to a page that will let you download your form.
+continue button field: fallback_user_choice
+---
+question: |
+  Do you want to efile this document directly with the court?
+subquestion: |
+  You are able to electronically-file (e-file) this document with ${ trial_court }!
+
+  This means you don't have to print out the document. The court
+  will communicate with you through your email or phone.
+
+  You will have to provide your email to e-file this document. If you don't wish to provide that,
+  you can choose not to efile.
+fields:
+  - Do you want to efile?: user_wants_efile
+    datatype: yesnoradio
+---
+question: |
+  You will *not* be able to efile this document
+subquestion: |
+  Unfortunately, you won't be able to efile this document at ${ trial_court }.
+
+  However, you are still be able to continue and download a completed form.
+continue button field: show_no_efile
+---
+question: |
+  Missing fields
+subquestion: |
+  Notice: you are in interview author mode!
+
+  To efile using the proxy server, you need to fix some problems in your interview.
+
+  % if check_resp.error_msg:
+  Something went wrong when processing your interview:  
+
+  ${ check_resp }
+
+  % elif remaining_to_check.get("optional_vars") or remaining_to_check.get("required_vars"):
+  
+  You need to add some more questions to fill these variables:
+
+  ## Required
+
+  % for var in remaining_to_check.get("required_vars") + remaining_to_check.get("wrong_vars"):
+  * ${ var.get("name") }: ${ var.get("description") }. Should be a ${ var.get("datatype") }
+    % if var.get("choices"):
+    and have these choices:
+    % for choice in var.get("choices"):
+      * ${ choice }
+    % endfor
+    % endif
+  % endfor
+
+  ## Optional
+
+  % for var in remaining_to_check.get("optional_vars"):
+  * ${ var.get("name") }: ${ var.get("description") }. Should be a ${ var.get("datatype") }
+    % if var.get("choices"):
+    and have these choices:
+    % for choice in var.get("choices",[]):
+      * ${ choice }
+    % endfor
+    % endif
+  % endfor
+
+  % endif
+
+continue button field: show_remaining
+---
+objects:
+  - follow_up_vars: DADict
+---
+id: follow up setup
+code: |
+  follow_up_vars.there_are_any = True
+  for var in remaining_to_check.get("required_vars",[]):
+    newName = var.get(["name"].replace('.', '_').replace('[', '_').replace(']', '_') )
+    new_var = follow_up_vars.initializeObject(newName, DAObject)
+    new_var.name = var.get("name")
+    new_var.description = var.get("description")
+  for var in remaining_to_check.get("wrong_vars",[]):
+    newName = var["name"].replace('.', '_').replace('[', '_').replace(']', '_')
+    new_follow_up_var = follow_up_vars.initializeObject(newName, DAObject)
+    new_follow_up_var.name = var.get("name")
+    new_follow_up_var.description = var.get("description")
+  follow_up_vars.there_is_another = False
+  follow_up_vars.gathered = True
+  follow_up_setup = True
+---
+id: get available_efile_courts 
+code: |
+  resp = proxy_conn.authenticate_user()  # Uses default config keys
+  if resp.response_code == 200:
+    available_efile_courts = sorted(proxy_conn.get_court_list(jurisdiction_id).data)
+  else:
+    log(f"Couldn't login to the proxy server! {resp}")
+    available_efile_courts = []
+  del resp
+---
+depends on:
+  - trial_court
+code: |  
+  court_id = convert_court_to_id(trial_court)
+---
+id: check efile possibility
+#reconsider: True
+code: |
+  if court_id in available_efile_courts:
+    # Ask the user if they want to efile
+    can_check_efile = user_wants_efile
+  else:
+    show_no_efile
+    can_check_efile = False
+---
+id: ready_to_efile
+code: |
+  # Ask for the clerk comments, they'll go in the lead filing doc comments
+  if can_check_efile:
+    check_resp = proxy_conn.check_filing(jurisdiction_id, court_id, al_court_bundle)
+    remaining_to_check = check_resp.data
+    log('check_resp: ' + str(check_resp))
+    if not check_resp.is_ok():
+      ready_to_efile = False
+      if efile_author_mode:
+        show_remaining
+      else:
+        log(f'Something went wrong: {check_resp.error_msg}')
+      
+    elif not remaining_to_check.get("required_vars") and not remaining_to_check.get("wrong_vars"):
+      ready_to_efile = True
+    else:
+      if efile_author_mode:
+        show_remaining
+        follow_up_setup 
+        for key in follow_up_vars.keys():
+          define(follow_up_vars[key].name, follow_up_vars[key].value)
+        ready_to_efile = True
+      else:
+        ready_to_efile = False
+        log(f"Couldn't efile, remaining_to_check: {remaining_to_check}")
+        fallback_user_choice
+  else:
+    ready_to_efile = False
+---
+id: actually efile
+depends on:
+- can_check_efile
+- user_wants_efile
+code: |
+  if can_check_efile and user_wants_efile and ready_to_efile:
+    efile_user_reviewed
+    #prevent_going_back()
+    efile_resp
+    show_resp
+    # TODO(brycew): This is a bit hacky. Should have a proxy call for enabled features
+    if efile_resp.is_ok() and jurisdiction_id != 'louisiana':
+      show_court_reserve_resp
+    efile = True
+  else:
+    efile = False
+---
+comment: |
+  There are two "operating modes" for the reserve court date API on Tyler's
+  side: request a specific hearing date, and request the next available 
+  hearing date. TBH, the former isn't super useful as a standalone thing, so
+  we're only going to handle, "here are some choices", followed by requesting 
+  a specific one.
+id: handle court date reserve
+code: |
+  envelope_id = efile_resp.data['envelopeId']
+  have_valid_date = False
+  while not have_valid_date:
+    reserve_choice_resp = proxy_conn.reserve_court_date(court_id, envelope_id)
+    if not reserve_choice_resp.is_ok() or not reserve_choice_resp.data:
+      court_reserve_resp = reserve_choice_resp
+      court_reserve_resp.response_code = 500
+      break
+    reserve_choices = reserve_choice_resp.data
+    reserve_choice
+    del reserve_choices
+    # after_datetime = reserve_after_date.replace_time(reserve_after_time)
+    # before_datetime = reserve_before_date.replace_time(reserve_before_time)
+    # court_reserve_resp = proxy_conn.reserve_court_date(court_id, envelope_id, after_datetime, before_datetime, reserve_est_duration)
+    log(f'{reserve_choice}, from {reserve_choice_resp}')
+    court_reserve_resp = proxy_conn.reserve_court_date(court_id, envelope_id, reserve_choice['after'], reserve_choice['before'], reserve_choice['duration'])
+    if court_reserve_resp.is_ok():
+      have_valid_date = True
+  submitted_court_reserve_resp = court_reserve_resp
+---
+id: separate efile
+code: |
+  efile_resp = proxy_conn.file_for_review(jurisdiction_id, court_id, al_court_bundle)
+---
+question: |
+  Which court date would you like?
+fields:
+  - Which date?: reserve_choice
+    code: |
+      reserve_choices
+---
+id: reserve start date
+question: |
+  Court Start Time
+fields:
+  - Do you have a prefered time range: use_range
+    datatype: yesno
+  - After this Date: reserve_after_date
+    datatype: date
+    show if: use_range
+  - After this Time: reserve_after_time
+    datatype: time
+    show if: use_range
+  - Before this Date: reserve_before_date
+    datatype: date
+    show if: use_range
+  - Before this Time: reserve_before_time
+    datatype: time
+    show if: use_range
+  - How long will it take (in hours)?: reserve_est_duration
+    datatype: int
+    show if: use_range
+---
+id: show court reserve
+question: |
+  % if submitted_court_reserve_resp.is_ok():
+  Your request to reserve a court date has been submitted
+  % else:
+  Sorry, we can't reserve a court hearing date right now
+  % endif
+subquestion: |
+
+  ${ pretty_display(submitted_court_reserve_resp.data) }
+continue button field: show_court_reserve_resp
+---
+generic object: DAObject
+question: |
+  Missing Field: ${ x[i].name }
+subquestion: |
+  ${ x[i].description }
+fields:
+  - no label: x[i].value
