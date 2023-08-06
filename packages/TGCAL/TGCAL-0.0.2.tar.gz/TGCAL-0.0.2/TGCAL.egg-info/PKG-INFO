@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: TGCAL
+Version: 0.0.2
+Summary: A basic package to perform calculations on two numbers
+Home-page: https://github.com/Taiwo2020/TGCal
+Author: Taiwo Gabriel
+Author-email: omomuletaiwo@gmail.com
+License: MIT
+Description: This project performs simple calculations on two numbers
+        
+        CHANGE LOG
+        ===========================
+        
+        0.0.1 (13/10/2021)
+        -----------------------------------
+        -First Release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows 
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3

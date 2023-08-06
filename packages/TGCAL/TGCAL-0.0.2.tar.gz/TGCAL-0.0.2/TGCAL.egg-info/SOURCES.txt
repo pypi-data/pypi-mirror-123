@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+TGCAL.egg-info/PKG-INFO
+TGCAL.egg-info/SOURCES.txt
+TGCAL.egg-info/dependency_links.txt
+TGCAL.egg-info/top_level.txt
+TGCal/__init__.py
