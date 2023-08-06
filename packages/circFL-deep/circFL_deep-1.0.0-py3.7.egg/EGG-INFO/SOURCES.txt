@@ -1,0 +1,15 @@
+setup.py
+circFL_deep/__init__.py
+circFL_deep/circFL_deep_main.py
+circFL_deep/construct.py
+circFL_deep/correct.py
+circFL_deep/evaluate.py
+circFL_deep/genericFun.py
+circFL_deep/train.py
+circFL_deep/version.py
+circFL_deep.egg-info/PKG-INFO
+circFL_deep.egg-info/SOURCES.txt
+circFL_deep.egg-info/dependency_links.txt
+circFL_deep.egg-info/entry_points.txt
+circFL_deep.egg-info/requires.txt
+circFL_deep.egg-info/top_level.txt
