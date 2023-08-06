@@ -1,0 +1,8 @@
+gmailconnector/read_email.py,sha256=D_cd-6NY0pPfRy8VRLwamJI3Z6PFsYZoCVBwL3C17x8,7014
+gmailconnector/send_email.py,sha256=S0hYAR8nLYQkNIKDMy6wkTuQ7HBofEtS7zcitdtQXV0,5553
+gmailconnector/send_sms.py,sha256=l9Vmhsfwc1tPtBRFykJ30moJnsb13Nm4Rz3QL-pG_K0,3506
+gmail_connector-0.3.5.dist-info/LICENSE,sha256=khwb-_X88C6Va_FZB_sJgB-xukCrEvkq8C3P_IGzysE,1078
+gmail_connector-0.3.5.dist-info/METADATA,sha256=1JZBwvTAWJfkkZeud_XLZe5a3qvKAGp8Fa4bUzrAOQs,8447
+gmail_connector-0.3.5.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+gmail_connector-0.3.5.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gmail_connector-0.3.5.dist-info/RECORD,,
