@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fsthist/__init__.py
+fsthist/main.py
+fsthist.egg-info/PKG-INFO
+fsthist.egg-info/SOURCES.txt
+fsthist.egg-info/dependency_links.txt
+fsthist.egg-info/requires.txt
+fsthist.egg-info/top_level.txt
