@@ -1,0 +1,11 @@
+muffin
+aioredis==2.0.0
+
+[build]
+bump2version
+
+[tests]
+pytest
+pytest-aio
+pytest-mypy
+pytest-redislite
