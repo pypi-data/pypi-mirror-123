@@ -1,0 +1,14 @@
+rich>=9.0.0
+pyinspect
+matplotlib
+seaborn
+torch
+numpy
+networkx
+myterial
+einops
+loguru
+vedo
+
+[dev]
+coverage-badge
