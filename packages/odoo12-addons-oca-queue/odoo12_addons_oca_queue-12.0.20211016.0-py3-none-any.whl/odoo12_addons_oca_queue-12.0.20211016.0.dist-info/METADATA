@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-queue
+Version: 12.0.20211016.0
+Summary: Meta package for oca-queue Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-base-export-async
+Requires-Dist: odoo12-addon-base-import-async
+Requires-Dist: odoo12-addon-export-async-schedule
+Requires-Dist: odoo12-addon-queue-job
+Requires-Dist: odoo12-addon-queue-job-batch
+Requires-Dist: odoo12-addon-queue-job-cron
+Requires-Dist: odoo12-addon-queue-job-subscribe
+Requires-Dist: odoo12-addon-test-base-import-async
+Requires-Dist: odoo12-addon-test-queue-job
+Requires-Dist: odoo12-addon-test-queue-job-batch
+
+UNKNOWN
+
