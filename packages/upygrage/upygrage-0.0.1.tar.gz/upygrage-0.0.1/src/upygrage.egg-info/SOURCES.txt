@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gurobi/__init__.py
+src/upygrage.egg-info/PKG-INFO
+src/upygrage.egg-info/SOURCES.txt
+src/upygrage.egg-info/dependency_links.txt
+src/upygrage.egg-info/top_level.txt
