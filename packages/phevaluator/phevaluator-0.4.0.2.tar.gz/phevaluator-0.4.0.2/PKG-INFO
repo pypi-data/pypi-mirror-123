@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: phevaluator
+Version: 0.4.0.2
+Summary: Poker-Hand-Evaluator: An efficient poker hand evaluation algorithm and its implementation, supporting 7-card poker and Omaha poker evaluation
+License: Apache-2.0
+Author: Henry Lee
+Author-email: lee0906@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
