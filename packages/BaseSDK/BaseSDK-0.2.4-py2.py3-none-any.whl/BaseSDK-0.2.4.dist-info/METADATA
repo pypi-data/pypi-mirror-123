@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: BaseSDK
+Version: 0.2.4
+Summary: UNKNOWN
+Home-page: https://github.com/boden-ai/base-sdk.git
+Author: joey
+Author-email: yi.zhao@bodenai.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: boto3
+Requires-Dist: requests
+
+# base-sdk
+
