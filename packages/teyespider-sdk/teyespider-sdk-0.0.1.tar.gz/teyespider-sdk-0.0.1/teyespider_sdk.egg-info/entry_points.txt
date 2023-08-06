@@ -1,0 +1,3 @@
+[console_scripts]
+teye-spider = teyespider:main
+
