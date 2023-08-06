@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cudra
+Version: 0.0.1
+Summary: the job scheduler when using single GPU.
+Home-page: https://github.com/Topology1225/CUDRA
+Author: Haruki Sato
+Author-email: e0804s.haruki@gmail.com
+License: MIT License
+Keywords: cuda,pytorch,tensorflow,deep learning,parallel,experiment
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: nvidia-ml-py3
+
+CUDRA
+=====
+
+the job scheduler of cuda
+
+
