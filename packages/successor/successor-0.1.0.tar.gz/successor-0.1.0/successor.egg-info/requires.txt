@@ -1,0 +1,6 @@
+wheel
+pathlib
+getjson
+numpy
+tensorflow
+momentum>=0.2.1
