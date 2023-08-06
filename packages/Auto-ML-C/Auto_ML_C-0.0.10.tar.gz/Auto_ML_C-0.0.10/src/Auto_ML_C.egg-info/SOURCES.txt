@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Auto_ML_C.egg-info/PKG-INFO
+src/Auto_ML_C.egg-info/SOURCES.txt
+src/Auto_ML_C.egg-info/dependency_links.txt
+src/Auto_ML_C.egg-info/requires.txt
+src/Auto_ML_C.egg-info/top_level.txt
+src/auto_ml_c/__init__.py
+src/auto_ml_c/binary_classfication.py
+test/test_binary_classfication.py
