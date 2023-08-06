@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+nclustgen/BiclusterGen.py
+nclustgen/Generator.py
+nclustgen/TriclusterGen.py
+nclustgen/__init__.py
+nclustgen/utils.py
+nclustgen.egg-info/PKG-INFO
+nclustgen.egg-info/SOURCES.txt
+nclustgen.egg-info/dependency_links.txt
+nclustgen.egg-info/requires.txt
+nclustgen.egg-info/top_level.txt
+tests/__init__.py
+tests/main_test.py
