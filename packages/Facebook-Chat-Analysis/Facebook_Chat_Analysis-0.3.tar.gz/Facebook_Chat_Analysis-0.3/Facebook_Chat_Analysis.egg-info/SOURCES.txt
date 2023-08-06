@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Facebook_Chat_Analysis/Facebook_Chat_Analysis.py
+Facebook_Chat_Analysis/__init__.py
+Facebook_Chat_Analysis.egg-info/PKG-INFO
+Facebook_Chat_Analysis.egg-info/SOURCES.txt
+Facebook_Chat_Analysis.egg-info/dependency_links.txt
+Facebook_Chat_Analysis.egg-info/not-zip-safe
+Facebook_Chat_Analysis.egg-info/top_level.txt
