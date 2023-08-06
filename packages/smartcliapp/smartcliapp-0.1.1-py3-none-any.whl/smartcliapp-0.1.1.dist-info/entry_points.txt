@@ -1,0 +1,3 @@
+[console_scripts]
+smartcliapp = smartcliapp.app:cli
+
