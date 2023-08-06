@@ -1,0 +1,8 @@
+README.md
+license.txt
+setup.py
+bicorne_bank/__init__.py
+bicorne_bank.egg-info/PKG-INFO
+bicorne_bank.egg-info/SOURCES.txt
+bicorne_bank.egg-info/dependency_links.txt
+bicorne_bank.egg-info/top_level.txt
