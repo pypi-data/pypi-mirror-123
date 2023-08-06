@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+studentclearinghouse/studentclearinghouse.egg-info/PKG-INFO
+studentclearinghouse/studentclearinghouse.egg-info/SOURCES.txt
+studentclearinghouse/studentclearinghouse.egg-info/dependency_links.txt
+studentclearinghouse/studentclearinghouse.egg-info/not-zip-safe
+studentclearinghouse/studentclearinghouse.egg-info/top_level.txt
