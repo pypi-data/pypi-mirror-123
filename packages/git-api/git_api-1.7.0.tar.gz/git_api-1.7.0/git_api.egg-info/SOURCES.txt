@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+git_api/__init__.py
+git_api/main.py
+git_api/queries.py
+git_api.egg-info/PKG-INFO
+git_api.egg-info/SOURCES.txt
+git_api.egg-info/dependency_links.txt
+git_api.egg-info/top_level.txt
+git_api.egg-info/zip-safe
