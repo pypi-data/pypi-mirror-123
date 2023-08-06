@@ -1,0 +1,5 @@
+linkml~=1.0.3
+lark~=0.11.3
+
+[dev]
+pytest>=3.7

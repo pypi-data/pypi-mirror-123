@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kgcl
+Version: 0.0.10
+Summary: Knowledge Graph Change Language
+Home-page: https://github.com/ckindermann/knowledge-graph-change-language
+Author: Christian Kindermann
+Author-email: chris.kind.man@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Ontology Change Language
+
+This repo includes schema and code for an Ontology Change Language.
+
+For full documentation, see:
+
+[http://cmungall.github.io/knowledge-graph-change-language](http://cmungall.github.io/knowledge-graph-change-language)
+
+
+
