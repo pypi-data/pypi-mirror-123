@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: itereddit
+Version: 1.0.0a1
+Summary: Iterate posts from subreddit asynchronously
+Home-page: https://github.com/WhiteApfel/itereddit
+Author: WhiteApfel
+Author-email: white@pfel.ru
+License: Mozilla Public License 2.0
+Project-URL: Donate, https://pfel.cc/donate
+Project-URL: Source, https://github.com/WhiteApfel/itereddit
+Project-URL: Telegram, https://t.me/apfel
+Keywords: reddit wrapper
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx (~=0.20.0)
+Requires-Dist: pydantic (~=1.8.2)
+
+# Itereddit
+
+Iterate posts from subreddit. Posts are represented by dataclasses without unnecessary fields. 
+So far, not all types of posts are covered, so I may need help adding new ones: 
+you can just report the post and link in 
+[new issue](https://github.com/WhiteApfel/itereddit/issues/new "Push me and then just touch me")
+
+### How to use it, Wapfelka?
+
+Parsing media in the best resolution, for example:
+
+```python
+import asyncio
+
+from itereddit import Itereddit
+
+itereddit = Itereddit()
+
+
+async def main():
+    async for i in itereddit:
+        if i.media:
+            if i.media.media_metadata:
+                for m in i.media.media_metadata:
+                    print(i.media.media_metadata[m].original.url)
+            elif i.media.resolutions:
+                print(i.media.resolutions[-1].url)
+
+
+asyncio.run(main())
+```
+
