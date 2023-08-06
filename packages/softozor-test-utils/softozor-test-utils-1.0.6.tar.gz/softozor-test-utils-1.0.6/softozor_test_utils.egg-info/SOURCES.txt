@@ -1,0 +1,9 @@
+setup.py
+softozor_test_utils/__init__.py
+softozor_test_utils/sockets.py
+softozor_test_utils/timing.py
+softozor_test_utils.egg-info/PKG-INFO
+softozor_test_utils.egg-info/SOURCES.txt
+softozor_test_utils.egg-info/dependency_links.txt
+softozor_test_utils.egg-info/requires.txt
+softozor_test_utils.egg-info/top_level.txt
