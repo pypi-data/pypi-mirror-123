@@ -1,0 +1,17 @@
+hdlg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdlg/config.py,sha256=3UK4HvMxrdSp_wFvEK5M6clOv6p3tgrurycu2qD-BQA,903
+hdlg/hdlg.py,sha256=EAp4kVF-E89iL-W_b1iQiiDLiLeQ5FsGxC1a1seXSh8,1429
+hdlg/ui/__init__.py,sha256=PViROc0PGIJgipTZobZ_gxUY4snDYwjn1qnyk8hjw6U,1684
+hdlg/ui/app.qss,sha256=E7pbzcjhk1CRbH0zyYcf-nvTV69xnKq0s8jOb6n0gF8,1227
+hdlg/ui/icons/hdd-white.svg,sha256=1JmhdT9reUtTUTqtUHxkUdcY6nQW3WN_v3mKawvOEEk,648
+hdlg/ui/icons/hdd.svg,sha256=LaCc1mY3ufGmompEKZ7VKFWMiI4zjAMohZUMNrbkgvI,665
+hdlg/ui/icons/info-circle.svg,sha256=9EFYxziTWH9Y9emILKXBEwnIRelMQ55YnD_cMwMHf3Y,259
+hdlg/ui/icons/refresh.svg,sha256=MUWxteTi-wgiijQxQh9aHfYEYTM_mTUjnnPEybFthIQ,584
+hdlg/ui/main.py,sha256=Eh64oZEh_zdXrPElWk_9CBLBUf5fIa3TPod3ma287tw,548
+hdlg/ui/main.ui,sha256=RafW4UWD-qiT8NKebi_99iyhmSaAVE1tTSwf9NIdveg,13012
+hdlg/utils.py,sha256=_Oyyib_OhlveVARDyIxyq4WHUZXoRuJTwvqC8DYjZfw,710
+hdlg-0.0.1.dist-info/entry_points.txt,sha256=7Z3cl1KpFpt4NQoaUzowVOBvLEfcvDPX3Mp3uCsLRwY,39
+hdlg-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hdlg-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hdlg-0.0.1.dist-info/METADATA,sha256=PZ4gbRPUyEdmxZ0E9DDRHDO-0wyMDrYdXangHD-rGY8,4377
+hdlg-0.0.1.dist-info/RECORD,,
