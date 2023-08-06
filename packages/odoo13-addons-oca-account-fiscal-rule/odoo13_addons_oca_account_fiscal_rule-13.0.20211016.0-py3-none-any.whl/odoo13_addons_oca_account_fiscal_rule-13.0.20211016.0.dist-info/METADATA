@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-account-fiscal-rule
+Version: 13.0.20211016.0
+Summary: Meta package for oca-account-fiscal-rule Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 13.0
+Requires-Dist: odoo13-addon-account-avatax
+Requires-Dist: odoo13-addon-account-avatax-sale
+Requires-Dist: odoo13-addon-account-fiscal-position-autodetect-optional-vies
+Requires-Dist: odoo13-addon-account-fiscal-position-partner-type
+Requires-Dist: odoo13-addon-account-fiscal-position-rule
+Requires-Dist: odoo13-addon-account-fiscal-position-rule-purchase
+Requires-Dist: odoo13-addon-account-fiscal-position-rule-sale
+Requires-Dist: odoo13-addon-account-multi-vat
+Requires-Dist: odoo13-addon-account-multi-vat-sale
+Requires-Dist: odoo13-addon-account-product-fiscal-classification
+Requires-Dist: odoo13-addon-account-product-fiscal-classification-test
+Requires-Dist: odoo13-addon-l10n-eu-oss
+
+UNKNOWN
+
