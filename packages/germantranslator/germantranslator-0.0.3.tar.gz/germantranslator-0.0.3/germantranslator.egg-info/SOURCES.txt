@@ -1,0 +1,4 @@
+germantranslator.egg-info/PKG-INFO
+germantranslator.egg-info/SOURCES.txt
+germantranslator.egg-info/dependency_links.txt
+germantranslator.egg-info/top_level.txt
