@@ -1,0 +1,11 @@
+pytest_dummynet/__init__.py,sha256=PJdMjk9lYNv50Su4vbD8cWcj9fNNtAAy3ep3aa9EjtM,101
+pytest_dummynet/dummy_net.py,sha256=iHviZdBii8DMq77-JEQ96cdGBxnYhHDX75bHCLCzlIc,4910
+pytest_dummynet/fixtures.py,sha256=y72JD-mifOfEtOXEKTOPUTv64_-rg405KuIeDLAdFiE,377
+pytest_dummynet/namespace_shell.py,sha256=Md5CvYc3ZpQK5Nuyq4sD04P5rwRy7jORiiJAjgOFS4A,802
+pytest_dummynet/shell.py,sha256=ZC6CPdGW7QGRKHmFsFIWLSzJ2jAqvASU9g4GwBOKpt0,2114
+pytest_dummynet-1.0.1.dist-info/LICENSE.rst,sha256=lnhVy333OpPgt8lKvpJs9jdfAOTpzAhlk0Z2e4V2BDs,1505
+pytest_dummynet-1.0.1.dist-info/METADATA,sha256=Pk5LyQePhXQ1SJh3di65N_Q55G26dEQw6U1ecQ_JrWg,4094
+pytest_dummynet-1.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pytest_dummynet-1.0.1.dist-info/entry_points.txt,sha256=2kPs_P0KO0cSdnejetbozlJihQCpb57R2U-oiuCxXW4,48
+pytest_dummynet-1.0.1.dist-info/top_level.txt,sha256=COBho-nrRDqgClFVORnJWvO-gIENK-gSpSoEqeSAR0k,16
+pytest_dummynet-1.0.1.dist-info/RECORD,,
