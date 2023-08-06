@@ -1,0 +1,9 @@
+pandas
+matplotlib
+seaborn
+numpy
+plotly
+jupyter
+scikit-learn
+Joblib
+yfinance

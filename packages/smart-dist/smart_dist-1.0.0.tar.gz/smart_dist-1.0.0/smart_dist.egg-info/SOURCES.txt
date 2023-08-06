@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+smart_dist/Binomialdistribution.py
+smart_dist/Coinanalysis.py
+smart_dist/Gaussiandistribution.py
+smart_dist/Generaldistribution.py
+smart_dist/__init__.py
+smart_dist.egg-info/PKG-INFO
+smart_dist.egg-info/SOURCES.txt
+smart_dist.egg-info/dependency_links.txt
+smart_dist.egg-info/not-zip-safe
+smart_dist.egg-info/requires.txt
+smart_dist.egg-info/top_level.txt
