@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+nawaf/nawaf.egg-info/PKG-INFO
+nawaf/nawaf.egg-info/SOURCES.txt
+nawaf/nawaf.egg-info/dependency_links.txt
+nawaf/nawaf.egg-info/top_level.txt
