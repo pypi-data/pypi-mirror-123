@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wf-nwea-utils
+Version: 1.1.1
+Summary: Tools for working with NWEA assessments data
+Home-page: https://github.com/WildflowerSchools/wf-nwea-utils
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Description: # nwea_utils
+        
+        Tools for working with NWEA assessments data
+        
+        ## Install
+        
+        `pip install wf-nwea-utils`
+        
+        ## Tasks
+        
+        * TBD
+        
+Keywords: database
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
