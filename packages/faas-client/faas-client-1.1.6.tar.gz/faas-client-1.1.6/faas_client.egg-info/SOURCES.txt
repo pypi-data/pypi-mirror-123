@@ -1,0 +1,8 @@
+setup.py
+faas_client/__init__.py
+faas_client/faas_client.py
+faas_client.egg-info/PKG-INFO
+faas_client.egg-info/SOURCES.txt
+faas_client.egg-info/dependency_links.txt
+faas_client.egg-info/requires.txt
+faas_client.egg-info/top_level.txt
