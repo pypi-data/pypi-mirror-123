@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rsa_crypto
+Version: 1.0.2
+Summary: Encrypt and decrypt data using RSA certificates.
+Home-page: https://github.com/Christophe-Gauge/rsa_crypto
+Author: Christophe Gauge
+Author-email: chris@videre.us
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
