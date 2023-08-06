@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: so3
+Version: 1.3.5
+Summary: Fast and exact Wigner Transforms
+Home-page: http://astro-informatics.github.io/so3/
+Author: Jason McEwen
+License: GPL-3
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: scikit-build ; extra == 'dev'
+Requires-Dist: cmake ; extra == 'dev'
+Requires-Dist: ninja ; extra == 'dev'
+Requires-Dist: cython ; extra == 'dev'
+Requires-Dist: conan ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+UNKNOWN
+
