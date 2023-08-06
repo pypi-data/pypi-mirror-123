@@ -1,0 +1,2 @@
+def variable():
+    return "test"
