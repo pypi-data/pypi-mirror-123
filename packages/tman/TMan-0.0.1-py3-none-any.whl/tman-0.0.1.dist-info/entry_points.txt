@@ -1,0 +1,4 @@
+[console_scripts]
+tman=tman.cli:main
+tman-gui=tman.gui:main
+

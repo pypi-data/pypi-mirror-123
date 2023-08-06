@@ -1,0 +1,14 @@
+tman/__init__.py,sha256=iGQhP_EjPb-N9N7gkZPFHrdrByeWcV8PjUctN1k1n_I,140
+tman/api.py,sha256=mA_iJQ7w8BSBzW83CicTyITK_i42xPrk3pC0IVHZZN0,424
+tman/backend/__init__.py,sha256=U1J5XzT994KbjzCVghWAOOjDS9T5Y1V6HgumOO8YtFg,62
+tman/cli/__init__.py,sha256=x3clZtglFL8_2pGpqQiJMM2dwOTNb_MffSj0TPf_FdI,102
+tman/cli/main.py,sha256=k2DE-MrQitqL94vtfKA4HwUc97P68cCMJCI_xp8puyE,298
+tman/gui/__init__.py,sha256=VD32pkeIjIhpLkKnWrhqlljoRv5VR1ERwyBk9D89olQ,102
+tman/gui/main.py,sha256=GZYbE9zrUkYDF2G78fJ_j_xRjjVgWOZHXUF-LcVukXQ,1068
+tman/util/__init__.py,sha256=0k9ANx4zmsR7XGjpikadwalS04iy5D1vz4UhQjAZlSM,90
+tman/util/logging.py,sha256=Ky0ErXwj9mZqqLtY0E9zwIH-JTS5THuIousjbdo-oEc,2719
+tman-0.0.1.dist-info/entry_points.txt,sha256=0-wFxsuewvsfqLjKIsqllYQYu_YqA6RwKzgkpk-i_VY,61
+tman-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tman-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tman-0.0.1.dist-info/METADATA,sha256=S-v5xObfXxOWUFH31j2BSIqLuC-WSeD_zlImhybzr38,3278
+tman-0.0.1.dist-info/RECORD,,
