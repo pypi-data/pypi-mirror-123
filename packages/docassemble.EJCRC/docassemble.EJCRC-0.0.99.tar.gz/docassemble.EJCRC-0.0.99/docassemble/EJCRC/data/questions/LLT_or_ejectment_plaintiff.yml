@@ -1,0 +1,83 @@
+metadata:
+  title: Office of Judicial Records Document Assembly Tool
+  temporary session: true  
+---
+event: call_number
+question: |
+subquestion: |
+   This online tool provides limited assistance for ejectments, landlord/tenant appeals, and postponements for sheriff’s sales.  Please consult an attorney if you have any questions or contact the Elder Justice & Civil Resource Center at (215)686-7027 for more information.  
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: consult_atty
+question: |
+  This tool should not be used if you are represented by an attorney. Please consult your lawyer.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: find_atty
+question: |
+subquestion: |
+  The Philadelphia Bar Association can help you find an attorney through its  [Philadelphia Bar Association Lawyer Referral Program.](https://lris.philadelphiabar.org) They can be reached by telephone at (215) 238-6333.
+  
+  If you are a tenant, and believe that you are low income and would qualify for free legal services, please contact the Philadelphia Eviction Prevention Program Tenant Hotline, (215) 443-2500.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: municipal_no
+question: |
+subquestion: |
+  The Philadelphia Municipal Court hears cases involving a written or oral lease.  The court has the authority to evict a tenant and to enter money judgment.  However the court cannot hear a case involving a squatter.  To file a landlord tenant case with the Municipal Court, contact (215) 686-2900.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: limited
+question: |
+subquestion: |
+  This online tool provides limited assistance for ejectments and landlord/tenant appeals. Please consult an attorney or contact the Elder Justice and Civil Resource Center to help identify the nature of your legal issue at (215)686-7027.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+code: |
+  lawyer
+  if lawyer == True:
+    consult_atty
+  if lawyer == False:
+    represent
+    if represent == "No, I am looking for an attorney to represent me":
+      find_atty
+mandatory: True
+---
+mandatory: true
+field: lawyer
+question: |
+  Are you currently represented by an attorney?
+yesno: lawyer
+---
+mandatory: true
+need:
+  lawyer
+question: |
+   Are you planning on representing yourself in court?
+field: represent
+buttons:
+  - Yes, I plan to represent myself
+  - No, I am looking for an attorney to represent me  
+---
+mandatory: true
+need:
+  represent
+question: |
+  Would you like to start a case or file documents for an existing case?
+subquestion: |
+  * [I would like to start a case]
+  * [I already have a case started]
+    
+    [Civil Complaint for an Ejectment]: ${ interview_url(i='docassemble.EJCRC:data/questions/civil_complaint_entry.yml') }
+    [I already have a case started]: ${ interview_url(i='docassemble.EJCRC:data/questions/LLT_Ejectment_Case_Started.yml') }
+    [I would like to start a case]: ${ interview_url(i='docassemble.EJCRC:data/questions/LLT_Ejectment_Case_Start.yml') }

@@ -1,0 +1,43 @@
+metadata:
+  title: Find Your Case's Court
+  temporary session: true
+---
+mandatory: true
+question: |
+  Find Court of Your Case
+subquestion: |
+  **Municipal Court**
+  
+  The Philadelphia Municipal Court handles landlord-tenant cases involving written or oral leases. The court has the authority to decide whether a tenant should be evicted or remain in their home and the authority to enter a money judgment against the landlord or the tenant. However the court cannot hear a case involving a squatter.  
+
+  **Court of Common Pleas**
+  
+  The Court of Common Pleas has the ability to make decisions about legal and equity actions, appeals from Municipal Court, and appeals from certain administrative agencies and boards. This court has the authority to hear cases involving squatters.  
+  
+  **How to find your case type**
+  
+  There are three ways to find out which court is managing your case.
+  
+  1.	Review the complaint or notice your received from the court.  The name of the court should appear at the top of the page.
+  
+  2.	Search for your case history online in the court dockets.  The Court of Common Pleas Civil docket can be found [here](https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer) and the Municipal Civil Court docket can be found [here.](https://fjdclaims.phila.gov/phmuni/login.do#)
+  
+  3.	Call the filing offices for the Court of Common Pleas (215)686-4251 and Municipal Court (215) 686-7980.
+
+continue button label: |
+  Click here to return to the previous page
+continue button field: known  
+---
+mandatory: true
+need:
+  known
+question: |
+  Is your case being heard in Municipal Court or the Court of Common Pleas?
+subquestion: |
+  
+  * [Municipal Court]
+  * [Court of Common Pleas] 
+
+  [Municipal Court]: ${ interview_url(i='docassemble.EJCRC:data/questions/municipal_court.yml') }
+  [Court of Common Pleas]: ${ interview_url(i='docassemble.EJCRC:data/questions/court_common_pleas.yml') }
+---

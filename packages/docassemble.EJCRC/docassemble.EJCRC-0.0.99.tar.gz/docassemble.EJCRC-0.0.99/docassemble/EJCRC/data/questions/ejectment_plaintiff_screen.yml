@@ -1,0 +1,127 @@
+metadata:
+  title: Office of Judicial Records Document Assembly Tool
+  temporary session: true  
+---
+event: call_number
+question: |
+subquestion: |
+   This online tool provides limited assistance for ejectments, landlord/tenant appeals, and postponements for sheriff’s sales.  Please consult an attorney if you have any questions or contact the Elder Justice & Civil Resource Center at (215)686-7027 for more information.  
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: consult_atty
+question: |
+  This tool should not be used if you are represented by an attorney. Please consult your lawyer.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: find_atty
+question: |
+subquestion: |
+  The Philadelphia Bar Association can help you find an attorney through its  [Philadelphia Bar Association Lawyer Referral Program.](https://lris.philadelphiabar.org) They can be reached by telephone at (215) 238-6333.
+  
+  If you are a tenant, and believe that you are low income and would qualify for free legal services, please contact the Philadelphia Eviction Prevention Program Tenant Hotline, (215) 443-2500.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: municipal_no
+question: |
+subquestion: |
+  The Philadelphia Municipal Court hears cases involving a written or oral lease.  The court has the authority to evict a tenant and to enter money judgment.  However the court cannot hear a case involving a squatter.  To file a landlord tenant case with the Municipal Court, contact (215) 686-2900.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: limited
+question: |
+subquestion: |
+  This online tool provides limited assistance for ejectments and landlord/tenant appeals. Please consult an attorney or contact the Elder Justice and Civil Resource Center to help identify the nature of your legal issue at (215)686-7027.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: municipal_no
+question: |
+  The Philadelphia Municipal Court hears cases involving a written or oral lease.  The court has the authority to evict a tenant and to enter money judgment.  However the court cannot hear a case involving a squatter.  To file a landlord tenant case with the Municipal Court, contact (215) 686-2900.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+event: limited
+question: |
+  This online tool provides limited assistance for ejectments, landlord/tenant appeals, and postponements for sheriff's sales. Please consult an attorney or contact the Elder Justice and Civil Resource Center to help identify the nature of your legal issue at (215)686-7027.
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov
+---
+code: |
+  owner
+  if owner == None:
+    call_number
+  if owner == False:
+    call_number
+  if owner == True:
+    lease
+    if lease == False:
+      unpaid
+      if unpaid == True:
+          municipal_no       
+    if lease == True:
+      muni_appeal
+      if muni_appeal == True:
+        limited
+mandatory: True
+---
+mandatory: true
+question: |
+  Are you the owner or the administrator of the property or home?
+subquestion: |
+  Press one of the following buttons:
+yesnomaybe: owner
+---
+mandatory: true
+need:
+  owner
+question: |
+  Do you have a signed lease agreement with the person you are trying to remove from this property?  
+yesno: lease
+---
+mandatory: true
+need:
+  lease
+question: |
+  Are you trying to appeal the Municipal Court's Decision?
+subquestion: |
+  If you select yes, you will be redirected to a page with landlord tenant appeal options 
+action buttons:
+  - label: Yes
+    action: |
+      ${ interview_url(i='docassemble.EJCRC:data/questions/LLT_Redirect.yml') } 
+    color: primary
+    placement: before
+continue button label: |
+  No
+continue button field: muni_appeal  
+---
+mandatory: true
+need:
+  lease
+field: unpaid
+question: |
+  Are you looking to collect rent and/or any other costs?
+action buttons:  
+  - label: Yes
+    action: |
+      ${ interview_url(i='docassemble.EJCRC:data/questions/appeal_LLT_case.yml') } 
+    color: primary
+    placement: before
+  - label: No
+    action: |
+      ${ interview_url(i='docassemble.EJCRC:data/questions/ejectment_plaintiff.yml') } 
+    color: primary
+    placement: before
+continue button label: |
+  Not Applicable

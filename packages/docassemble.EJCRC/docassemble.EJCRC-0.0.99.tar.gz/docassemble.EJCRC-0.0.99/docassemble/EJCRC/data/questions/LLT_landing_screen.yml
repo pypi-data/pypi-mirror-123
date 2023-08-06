@@ -1,0 +1,16 @@
+metadata:
+  title: Landlord-Tenant Documents
+  temporary session: true
+---
+mandatory: true
+question: |
+  Please select the document you would like to complete:
+subquestion: |
+  * [Landlord/Tennant Municipal Court Appeal]
+  * [Complaint]
+  * [Return of Service Affidavit]
+  
+  
+  [Landlord/Tenant Municipal Court Appeal]: ${ interview_url(i='docassemble.EJCRC:data/questions/appeal_LLT_muni_plaintiff.yml') }
+  [Complaint]: ${ interview_url(i='docassemble.EJCRC:data/questions/LLT_complaint.yml') }
+  [Return of Service Affidavit]: ${ interview_url(i='docassemble.EJCRC:data/questions/return_service.yml') }

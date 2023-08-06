@@ -1,0 +1,15 @@
+metadata:
+  title: Municipal Court
+  temporary session: true
+---
+mandatory: true
+question: |
+  Municipal Court
+subquestion: |
+ The Philadelphia Municipal has the authority to decide whether a tenant should be evicted (by granting possession to the landlord) and the authority to enter a money judgment against the landlord or the tenant. However, the court cannot hear a case involving a squatter. To start a landlord-tenant case contact the Municipal Court at (215) 686-7980.
+
+  If you are a low-income tenant, you may be eligible for free legal advice and representation through Community Legal Services. You can call the Philadelphia Eviction Prevention Program Tenant hotline, (215) 443-2500. You can also find more information regarding your legal rights at [PhillyTenant.org](http://www.phillytenant.org).
+   
+buttons:
+  - Exit: exit
+    url: https://courts.phila.gov

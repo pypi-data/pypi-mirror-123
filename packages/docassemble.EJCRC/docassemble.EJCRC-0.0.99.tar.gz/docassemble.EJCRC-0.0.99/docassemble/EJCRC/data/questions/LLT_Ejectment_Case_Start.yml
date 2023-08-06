@@ -1,0 +1,17 @@
+metadata:
+  title: Start a Case
+  temporary session: true
+---
+mandatory: true
+question: |
+  What kind of case would you like to start?
+subquestion: |
+  * [Ejectment]
+  * [Landlord-Tenant Case]
+  * [Landlord/Plaintiff Municipal Court Appeal]
+  * [I don't know]
+  
+    [Ejectment]: ${ interview_url(i='docassemble.EJCRC:data/questions/civil_complaint_entry.yml') }
+    [Landlord-Tenant Case]: ${ interview_url(i='docassemble.EJCRC:data/questions/municipal_court.yml') }
+    [Landlord/Plaintiff Municipal Court Appeal]: ${ interview_url(i='docassemble.EJCRC:data/questions/appeal_LLT_muni_plaintiff.yml') }
+  [I don't know]: ${ interview_url(i='docassemble.EJCRC:data/questions/case_unknown2.yml') }

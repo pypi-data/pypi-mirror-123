@@ -1,0 +1,38 @@
+metadata:
+  title: Find your case type
+  temporary session: true
+---  
+mandatory: true
+question: |
+  This online tool can provide assistance for ejectments, sheriff’s sale postponements.  Review the information below to determine if this tool can be of assistance to you.  
+subquestion: |  
+  **What’s the difference between an ejectment, landlord-tenant case, and a landlord/tenant appeal?**
+  
+  *Ejectment*
+  
+  An ejectment is a legal action that can be used by a property owner to remove an occupant from the property when there is no landlord-tenant relationship between the property owner and occupant. Ejectment cases can only be filed in the Court of Common Pleas.
+
+  *Landlord Tenant Case*
+  
+  The Philadelphia Municipal Court handles landlord-tenant cases involving written or oral leases. The court has the authority to decide whether a tenant should be evicted or remain in their home and the authority to enter a money judgment against the landlord or the tenant. To file a landlord-tenant case contact the Municipal Court at (215) 686-7980.
+  
+  *Landlord-Tenant Appeal*
+
+  A landlord-tenant appeal is a legal action that can be taken to ask the Court of Common Pleas to change the decision of Municipal Court.
+continue button label: |
+  Click here to return to the previous page
+continue button field: known
+---
+mandatory: true
+need:
+  known
+question: |
+  What kind of case would you like to start?
+subquestion: |
+  * [Ejectment]
+  * [Landlord-Tenant Case]
+  * [Landlord/Plaintiff Municipal Court Appeal]
+
+    [Ejectment]: ${ interview_url(i='docassemble.EJCRC:data/questions/ejectment_plaintiff_screen.yml') }
+    [Landlord-Tenant Case]: ${ interview_url(i='docassemble.EJCRC:data/questions/municipal_court.yml') }
+    [Landlord/Plaintiff Municipal Court Appeal]: ${ interview_url(i='docassemble.EJCRC:data/questions/appeal_LLT_muni_plaintiff.yml') }
