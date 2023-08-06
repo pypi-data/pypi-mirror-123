@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hydra-genetics
+Version: 0.0.2
+Summary: Helper tools for use with hydra-genetics pipelines.
+Home-page: https://github.com/hydra-genetics/tools
+Author: Patrik Smeds
+Author-email: patrik.smeds@scilifelab.uu.se
+License: GPL-3
+Keywords: hydra-genetics,snakemake,bioinformatics,workflow,pipeline,clinical,biology,sequencing,NGS,next generation sequencing
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+
+# Tools
+
+Python tool with helper functions for setting up new pipeline and preparing reference data
+
+[![Lint and Test](https://github.com/hydra-genetics/tools/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/hydra-genetics/tools/actions/workflows/main.yaml)
+
+![python](https://img.shields.io/badge/python-3.8-blue)
+
+## Functions
+
+* create
+* reference
+
+
+Example of how to generate a new project
+```
+ hydra-genetics create -n misc -d "Module containing rules that are general and most likely will be used by  multiple modules." -a "Patrik Smeds" -e patrik.smeds@scilifelab.uu.se -g Smeds -o misc
+```
+
+
