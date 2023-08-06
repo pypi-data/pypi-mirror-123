@@ -1,0 +1,8 @@
+setup.py
+softozor_graphql_client/__init__.py
+softozor_graphql_client/graphql_client.py
+softozor_graphql_client.egg-info/PKG-INFO
+softozor_graphql_client.egg-info/SOURCES.txt
+softozor_graphql_client.egg-info/dependency_links.txt
+softozor_graphql_client.egg-info/requires.txt
+softozor_graphql_client.egg-info/top_level.txt
