@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: alfa-cli
+Version: 0.1.46
+Summary: CLI tools for ALFA
+Home-page: https://bitbucket.org/widgetbrain/alfa-cli
+Author: Widget Brain
+License: Apache License 2.0
+Description: # alfa-cli
+        
+        This package provides a command line tool for [ALFA](https://widgetbrain.com/product/).
+        
+        ## Installation
+        
+        You can directly install alfa-cli using [pip](http://www.pip-installer.org/en/latest/). This will install the alfa-cli package as well as all dependencies.
+        
+        ```sh
+        $ pip install -U alfa-cli
+        ```
+        
+        If you already have alfa-cli installed and want to upgrade to the latest version, you can run:
+        
+        ```sh
+        $ pip install --upgrade alfa-cli
+        ```
+        
+        ## Usage
+        
+        Once alfa-cli is installed, you can run it with the following template.
+        
+        ```sh
+        $ alfa [options] <command> <subcommand> [parameters]
+        ```
+        
+        For more information regarding the usage, you can refer to the provided help information.
+        
+        ```sh
+        $ alfa --help
+        $ alfa <command> --help
+        $ alfa <command> <subcommand> --help
+        ```
+        
+        ## Command Completion
+        
+        The alfa-cli package includes a command completion feature, but is not automatically installed.
+        To enable tab completion you can follow the instructions below:
+        
+        For `bash`, run the following command, or append it to `~/.bashrc`
+        
+        ```sh
+        $ . alfa-complete.sh
+        ```
+        
+        For `zsh`, run the following command, or append it to `~/.zshrc`
+        
+        ```sh
+        $ . alfa-complete.zsh
+        ```
+        
+        ## Development
+        
+        To install requirements locally:
+        
+        **1.** Activate local venv
+        
+        ```sh
+        $ virtualenv venv
+        $ source venv/bin/activate
+        ```
+        
+        **2.** Install requirements from setup.py
+        
+        ```sh
+        $ pip install -e ".[dev]"
+        ```
+        
+        To develop alfa-cli alongside alfa-sdk, you can opt to install a local copy of the alfa-sdk instead.
+        
+        ```sh
+        $ pip install -e /path/to/alfa-sdk-py
+        ```
+        
+        ### Running it locally
+        
+        You can run the cli directly as a python module.
+        
+        ```sh
+        $ python alfa_cli [options] <command> <subcommand> [parameters]
+        ```
+        
+        Alternatively, you can install your local copy of alfa-cli in develop mode, and use it normally.
+        
+        ```sh
+        $ python setup.py develop
+        $ alfa [options] <command> <subcommand> [parameters]
+        ```
+        
+        ## Changelog
+        - 0.1.46 (2021-10-15)
+          - Read team-id from alfa.yml when deploying an integration
+        - 0.1.45 (2021-09-28)
+          - Fix name of the platformRegion key, that Local Runner uses accessing the context
+        - 0.1.44 (2021-09-20)
+          - Enable deployment of a release into any allowed team
+        - 0.1.43 (2021-08-13)
+          - Include alfaID and platformRegion in context when invoking an algorithm or integration locally
+        - 0.1.42 (2021-07-19)
+          - Fix for local invocation on a windows device
+        - 0.1.41 (2021-07-01)
+          - Fix for excluding files and folders when deploying an integration
+        - 0.1.40 (2021-06-04)
+          - Fix issue with using tempfile in Windows
+        - 0.1.39 (2021-05-05)
+          - Handling of large payloads when invoking node algorithms locally
+        - 0.1.37 (2021-04-15)
+          - Append context inside problem body when running invoke-local
+        - 0.1.36 (2021-04-07)
+          - Call algorithm pre & post processing functions when running invoke-local
+        
+Keywords: cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
