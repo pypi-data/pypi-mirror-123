@@ -1,0 +1,11 @@
+anime_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anime_cli/__main__.py,sha256=0hERAw1l7sJoMtYfilpiuK90-8HYWIS7grcLta2xEv4,2115
+anime_cli/anime.py,sha256=xYRfcPQJi0irbGszdCTGk37Pinh5E9bxyxZ1A7yH7z0,166
+anime_cli/prompts.py,sha256=teXxbtzIp9e0PJqofc4QdMAYgurIGIOhnukpoCSYawg,1465
+anime_cli/proxy_server.py,sha256=rfccHYoqKu_uG3GdLXppAfYB7yayNSupapZm1TmZ-lA,1147
+anime_cli/search/__init__.py,sha256=rqCEuy2bHjem1Gk9mUA65X_BTyK3Lc3_g3Oxlvc5VE4,2460
+anime_cli/search/gogoanime.py,sha256=Yr_zpUgzpcOT8u4S22FHIQzf7gQdakJPhAsBQHRo_H8,2022
+anime_cli-0.3.1.dist-info/entry_points.txt,sha256=rMwk6s-lywxFFhhRaszsg3CxHw47fSEizujBK7j3jFc,53
+anime_cli-0.3.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+anime_cli-0.3.1.dist-info/METADATA,sha256=sZACoXMAbBOdR0BTQvir--gF6jqw62QdiUbemg4xDPQ,2200
+anime_cli-0.3.1.dist-info/RECORD,,
