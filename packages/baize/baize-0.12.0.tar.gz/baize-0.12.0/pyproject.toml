@@ -1,0 +1,77 @@
+[project]
+authors = [
+  {name = "abersheeran", email = "me@abersheeran.com"},
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: WSGI",
+  "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
+]
+dependencies = ["typing-extensions<4.0.0,>=3.7.4; python_version < \"3.8\""]
+description = "Powerful and exquisite WSGI/ASGI framework/toolkit."
+dynamic = ["classifiers"]
+license = {text = "Apache-2.0"}
+name = "baize"
+readme = "README.md"
+requires-python = ">=3.6.2"
+version = "0.12.0"
+
+[project.urls]
+homepage = "https://github.com/abersheeran/baize"
+repository = "https://github.com/abersheeran/baize"
+
+[tool.isort]
+profile = "black"
+
+[tool.coverage.run]
+omit = ["*/.venv/*", "*/tests/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "raise NotImplementedError",
+  "if False:",
+  "assert False",
+  "if typing.TYPE_CHECKING:",
+  "if TYPE_CHECKING:",
+  "@typing.overload",
+  "pass",
+]
+show_missing = true
+skip_covered = true
+
+[tool.pdm]
+build = "speedup.py"
+includes = ["baize"]
+
+[tool.pdm.dev-dependencies]
+build = [
+  "mypy<1.0,>=0.910",
+  "mypy-extensions<1.0.0,>=0.4.3",
+]
+dev = [
+  "black<22,>=21.9b0",
+  "isort<6.0.0,>=5.7.0",
+  "flake8~=3.9",
+  "mypy<1.0,>=0.910",
+]
+doc = [
+  "Sphinx<4.0.0,>=3.5.3",
+  "recommonmark<1.0.0,>=0.7.1",
+  "sphinx-autodoc-typehints<2.0.0,>=1.11.1",
+]
+test = [
+  "httpx<1.0.0,>=0.19.0",
+  "pytest<7.0.0,>=6.2.5",
+  "pytest-cov~=3.0",
+  "pytest-asyncio<1.0.0,>=0.15.1",
+  "requests<3.0.0,>=2.25.1",
+  "starlette<0.15.0,>=0.14.2",
+]
+
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = ["pdm-pep517"]
