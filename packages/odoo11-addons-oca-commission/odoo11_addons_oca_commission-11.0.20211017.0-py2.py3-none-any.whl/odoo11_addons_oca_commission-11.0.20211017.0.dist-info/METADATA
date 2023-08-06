@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-commission
+Version: 11.0.20211017.0
+Summary: Meta package for oca-commission Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-hr-commission
+Requires-Dist: odoo11-addon-sale-commission
+Requires-Dist: odoo11-addon-sale-commission-formula
+Requires-Dist: odoo11-addon-sale-commission-pricelist
+Requires-Dist: odoo11-addon-sale-commission-salesman
+
+UNKNOWN
+
