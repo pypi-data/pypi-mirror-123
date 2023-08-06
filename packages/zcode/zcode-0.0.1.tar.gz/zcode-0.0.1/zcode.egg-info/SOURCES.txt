@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+zcode/__init__.py
+zcode/compression.py
+zcode/decompression.py
+zcode/main.py
+zcode.egg-info/PKG-INFO
+zcode.egg-info/SOURCES.txt
+zcode.egg-info/dependency_links.txt
+zcode.egg-info/entry_points.txt
+zcode.egg-info/top_level.txt

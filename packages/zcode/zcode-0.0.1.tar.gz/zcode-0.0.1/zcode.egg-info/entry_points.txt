@@ -1,0 +1,3 @@
+[console_scripts]
+zcode = zcode.main:main
+
