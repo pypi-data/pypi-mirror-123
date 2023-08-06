@@ -1,0 +1,10 @@
+README.md
+setup.py
+Listreqs.egg-info/PKG-INFO
+Listreqs.egg-info/SOURCES.txt
+Listreqs.egg-info/dependency_links.txt
+Listreqs.egg-info/entry_points.txt
+Listreqs.egg-info/top_level.txt
+listreqs/__init__.py
+listreqs/__main__.py
+listreqs/listreqs_sh.py
