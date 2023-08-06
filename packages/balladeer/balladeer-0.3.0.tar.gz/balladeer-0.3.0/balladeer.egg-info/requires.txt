@@ -1,0 +1,5 @@
+turberfield-catchphrase>=0.21.0
+
+[dev]
+flake8
+wheel
