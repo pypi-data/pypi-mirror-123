@@ -1,0 +1,12 @@
+my_package/__init__.py,sha256=OBbbmMNLUxo7wSBGB6yZhltFh_dCCd57_fgZeP-KHp4,14
+my_package/mycsv.py,sha256=NU4aNOU7NYgL7sWXLbSA6prBluIbZTQyuHAHIH0dZTQ,1068
+mytable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mytable/mycsv.py,sha256=e1fBG_pCt1WXJfBTpFF_b1whiZRQxDQVlU1fIw1rtPM,676
+mytable/myedit.py,sha256=k3kIyrwsCJBxmW-XopM68S6F6kokIfdjUyWz5MqJKJY,729
+mytable/mytools.py,sha256=Y2IcglAYrR0g2b8o-IzD2pgGGnunI9vRAP-0x_nM8bQ,426
+mytable/myview.py,sha256=A-YxGOTRmoN5OdTCsIwXAdKa2hpyhjqDn7T47h5UM3c,443
+mytable_lucien-4.6.3.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+mytable_lucien-4.6.3.dist-info/METADATA,sha256=WEJtu6z8lzkMKKBYVw74d0hfAOXAsXGyHMN-hLfm-lc,4326
+mytable_lucien-4.6.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mytable_lucien-4.6.3.dist-info/top_level.txt,sha256=bVT8CwrusjMLNB5GwpAH3Y2AtkmYo2ejh7dtlUXNMgM,8
+mytable_lucien-4.6.3.dist-info/RECORD,,
