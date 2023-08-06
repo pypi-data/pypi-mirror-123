@@ -1,0 +1,632 @@
+python,16,1788718,3624965,3607014,"
+                Python is a multi-paradigm, dynamically typed, multipurpose programming language. It is designed to be quick to learn, understand, and use, and enforces a clean and uniform syntax. Please note that Python 2 is officially out of support as of 01-01-2020. Still, for version-specific Python questions, add the [python-2.7] or [python-3.x] tag. When using a Python variant  (e.g., Jython, PyPy) or library (e.g., Pandas and NumPy), please include it in the tags.
+            ","Python is an interpreted, interactive, object-oriented (using classes), dynamic and strongly typed programming language that is used for a wide range of applications. It incorporates modules, exceptions, dynamic typing, very high-level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in c or c++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.
+The language comes with a large standard library that covers areas such as string processing (regular expressions, Unicode, calculating differences between files), Internet protocols (HTTP, FTP, SMTP, XML-RPC, POP, IMAP, and CGI programming), software engineering (unit testing, logging, profiling, and parsing Python code), and operating system interfaces (system calls, filesystems, and TCP/IP sockets). Look at the table of contents for The Python Standard Library to get an idea of what’s available. A wide variety of third-party extensions are also available. Consult the Python Package Index to find packages of interest to you.
+Python allows programmers to express concepts in fewer lines of code than would be possible in many other languages, such as C, and the language has constructs intended to be used to create clear programs in a variety of domains.
+Example:
+Python program
+print(""Hello, Stack Overflow!"")
+
+versus
+C program
+#include <stdio.h>
+int main(void) {
+    printf(""Hello, Stack Overflow!"");
+    return 0;
+}
+
+Python was originally created by Guido van Rossum and first released in 1991. Guido Van Rossum chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus).
+Python 2 (16 October 2000 - 01 January 2020) has officially been sunset, and Python 3 (3 December 2008) is the only supported, maintained and improved major version as of 01 January 2020. We have a community of people from both worlds, and if you have a question that relates to a specific version, please consider mentioning the version and implementation that you are using, when asking a question about Python (see Tagging Recommendation section below).
+Python supports multiple programming paradigms, including object-oriented, imperative, and functional programming styles. It features a fully dynamic type system and automatic memory management, similar to that of Scheme, Ruby, Perl, and Tcl.
+Like other dynamic languages, Python is often used as a scripting language but is also used in a wide range of non-scripting contexts. Using third-party tools, Python code can be packaged into standalone executable programs. Python interpreters are available for many operating systems.
+CPython, the reference implementation of Python, is free and open-source software. It has a community-based development model, as do nearly all of its alternative implementations. There are a wide variety of implementations more suited for specific environments or tasks (see Python implementations on the Python wiki).
+The philosophy of Python is succinctly formulated in The Zen of Python, written by Tim Peters, which one can read by issuing this command, in the interactive python interpreter:
+>>> import this
+
+Unlike many other languages, Python uses an indentation-based syntax (in which tabs and spaces are noninterchangeable). This may take some getting used to for programmers who are familiar with using braces.
+>>> from __future__ import braces
+  File ""<stdin>"", line 1
+SyntaxError: not a chance
+>>>
+
+To help with the transition, using a properly configured text-editor or IDE is recommended. Python comes with a basic IDE called IDLE (python-idle), to get you started. Other popular examples are the charityware Vim, the free GNU Emacs, Eclipse+PyDev, or PyCharm. Take a look at this IDE comparison list for many other alternatives.
+There is also a style guide for Python, named PEP 8, which aims to make Python code more readable and consistent. This guide is (should be) followed all across the Python development community.
+
+Tagging Recommendation:
+Use the python tag, for all Python-related questions. If you believe your question includes issues specific to individual versions, use python-3.x or python-2.7, in addition to the main python tag. If you believe your question maybe even more specific, you can include a version-specific tag such as python-3.5 or python-3.6, etc.
+Also, consider including the tag for the specific implementation (jython, pypy, etc.), if you are using one other than cpython — the use of cpython is assumed unless explicitly stated otherwise.
+
+FAQ:
+These are some of the common questions many beginners face and can serve as canonical duplicate targets:
+User input:
+
+Asking the user for input until they give a valid response
+How can I read inputs as numbers?
+Get a list of numbers as input from the user
+
+Value testing:
+
+Why does a == b or c or d always evaluate to True?
+How to test multiple variables against a value?
+
+Common errors:
+
+What to do with “Unexpected indent” in python?
+Don't understand why UnboundLocalError occurs
+
+Dealing with lists:
+
+List of lists changes reflected across sublists unexpectedly
+How to remove items from a list while iterating?
+How to iterate through two lists in parallel?
+List changes unexpectedly after assignment. How do I clone or copy it to prevent this?
+How to make a flat list out of list of lists?
+
+Dealing with dicts:
+
+Iterating over dictionaries using 'for' loops
+How do I sort a dictionary by value?
+How can I add new keys to a dictionary?
+
+General:
+
+Using global variables in a function
+What is the best way to call a script from another script?
+How to execute a program or call a system command from Python?
+
+
+References:
+
+Official documentation for the current stable versions: 2.7.x and 3.9.x.
+Release notes for the current stable versions: 2.7.18 and 3.9.6.
+Python (programming language) (Wikipedia)
+Python for Programmers
+Python - Quick Guide
+Getting started with Python
+Porting Python 2 Code to Python 3
+2to3 - Automated Python 2 to 3 code translation
+The non-profit Python Software Foundation manages CPython.
+PSF License Agreement for Python 2.7.x and 3.8.x
+Awesome-Python
+Full Stack Python
+Python Read the docs
+
+
+Installation of External Packages:
+
+Pip pip
+Most of the Python libraries used for simple and advanced scripts are downloaded using pip , the Python Package Installer.It allows you to install and manage additional packages that are not part of the Python standard library.Most distributions of Python come with pip pre-installed.
+General syntax:
+
+
+$ pip install SomePackage
+[...]
+Successfully installed SomePackage
+
+
+easy_install easy-install
+easy_install was released in 2004, as part of setuptools. It was notable at the time for installing packages from PyPI using requirement specifiers, and automatically installing dependencies. Easy Install is deprecated. Do not use it. Instead use pip.
+
+
+
+Popular general use Python libraries:
+
+Requests requests
+A simple Python library for making HTTP requests. Requests are marketed as being ""For Humans"". The library is meant to simplify and universalize Python's many methods for making HTTP requests in a way that is readable and easy to use. Functionality such as keep-alive and connection pooling are automatically handled to provide ultimate simplicity.
+
+Pillow python-imaging-library
+Pillow is described as being a ""friendly fork"" of the Python PIL module, an unmaintained but useful imaging library. The library uses C APIs to provide an easy Python interface to modify and manipulate image files in many different ways.
+
+Scrapy scrapy
+Scrapy is a fast high-level web crawling and web scraping framework used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
+
+Beautiful Soup beautifulsoup bs4
+Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping. It is available for Python 2.7 and Python 3.
+
+nltk nltk
+The Natural Language Toolkit, or NLTK, is a platform for building Python applications to work with human language data and the processing of sentences. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, and providing wrappers for industrial-strength NLP libraries.
+
+
+
+Popular web frameworks based on Python:
+If your question has anything to do with any of these frameworks, please ensure you include the appropriate tag.
+
+Django django
+The Web framework for perfectionists (with deadlines). Django makes it easier to build better Web apps more quickly and with less code. Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. It lets you build high-performance, elegant Web applications quickly. Django focuses on automating as much as possible and adhering to the DRY (Don't Repeat Yourself) principle.
+
+Flask flask
+Flask is a lightweight micro-framework and third party library for Python based on Werkzeug, Jinja 2 and good intentions. It provides monolithic structure and does not enforce dependencies which allows for finer control and higher freedom for development.
+
+Quart quart
+The quart is an evolution of the Flask API to work with Asyncio and to provide a number of features not present or possible in Flask.
+
+Tornado tornado
+Tornado is a Python web framework and asynchronous networking library. By using the non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
+
+CherryPy cherrypy
+CherryPy is a Pythonic, object-oriented web framework that enables developers to build web applications, in much the same way they would build any other object-oriented Python program. This results in a smaller amount of source code which is developed in less time. CherryPy has been in use for over 17 years and it is being used in production by many sites, from the simplest to the most demanding.
+
+Pyramid pyramid
+A lightweight web framework emphasizing flexibility and rapid development. It combines the very best ideas from the worlds of Ruby, Python and Perl, providing a structured but extremely flexible Python web framework. It's also one of the first projects to leverage the emerging WSGI standard, which allows extensive re-use and flexibility, but only if you need it.
+
+TurboGears turbogears
+TurboGears is a scalable web framework, which can go from a minimal mode setup to a full-stack web application. It was created in 2005 by Kevin Dangoor, and the current development of TurboGears2 (turbogears2) is being led by Mark Ramm. The current stable release of TurboGears is TurboGears 2.4.1, released September 3rd 2019.
+
+web.py web.py
+web.py is a web framework for Python that is as simple as it is powerful. web.py is in the public domain: you can use it for whatever purpose with absolutely no restrictions. web.py lets you write web apps in Python.
+
+Grok grok
+Built on the existing Zope 3 libraries but aims to provide an easier learning curve and a more agile development experience. Grok does this by placing an emphasis on convention over configuration and DRY (Don't Repeat Yourself).
+
+Bottle bottle
+The bottle is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.
+
+web2py web2py
+web2py is a free open source full-stack framework for rapid development of fast, scalable, secure and portable database-driven web-based applications.
+
+Falcon falconframework
+Falcon is a minimal Python web framework for building microservices, app backends, and higher-level frameworks and encourages the REST architectural style. It has both community and commercial versions.
+
+Twisted twisted
+Twisted is an open-source event-driven networking engine. It is useful for implementing both clients and servers and scales up to large websites and down to embedded devices. Twisted makes it easy to implement custom network applications.
+
+FastApi fastapi
+FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+
+
+Popular Python GUI Frameworks based on Python
+
+Kivy kivy
+Kivy is an OpenGL ES 2 accelerated framework for the creation of new user interfaces. It supports multiple platforms namely Windows, Mac OS X, Linux, Android iOS, and Raspberry Pi. It is open source and comes with over 20 widgets in its toolkit.Additional Material Objects are available via KivyMD.
+
+PyQT pyqt
+PyQT is one of the favoured cross-platform Python bindings implementing the Qt library for the Qt (owned by Nokia) application development framework. Currently, PyQT is available for Unix/Linux, Windows, Mac OS X, and Sharp Zaurus. It combines the best of Python and Qt and it up to the programmer to decide whether to create a program by coding or using Qt Designer to create visual dialogs.
+It is available in both commercial as well as GPL license. Although some features may not be available in the free version, if your application is open source, then you can use it under the free license.
+The latest iteration of PyQt is v5
+
+Tkinter tkinter
+Tkinter is commonly bundled with Python, using Tk and is Python’s standard GUI framework. It is popular for its simplicity and graphical user interface. It is open-source and available under the Python License.
+One of the advantages of choosing Tkinter is that since it comes by default, there is an abundance of resources, both codes and reference books. Also with the community being old and active, there are many users who can help you out in case of questions.
+
+PyGUI pygui
+PyGUI is a graphical application cross-platform framework for Unix, Macintosh, and Windows. Compared to some other GUI frameworks, PyGUI is by far the simplest and lightweight of them all, as the API is purely in sync with Python. PyGUI inserts very little code between the GUI platform and your Python application, hence the display of the application usually displays the natural GUI of the platform.
+
+
+
+Popular Mathematical/Scientific computing libraries in Python
+
+NumPy numpy
+NumPy is the fundamental package for scientific computing with Python. It contains among other things:
+
+a powerful N-dimensional array object
+sophisticated (broadcasting) functions
+tools for integrating C/C++ and Fortran code
+useful linear algebra, Fourier transform, and random number capabilities
+
+These features also make it possible to use NumPy in general-purpose database applications.
+
+SciPy scipy
+SciPy is an open-source library for the Python programming language, consisting of mathematical algorithms and functions often used in science and engineering. SciPy includes algorithms and tools for tasks such as optimization, clustering, discrete Fourier transforms, linear algebra, signal processing, and multi-dimensional image processing. SciPy is closely related to NumPy and depends on many NumPy functions, including a multidimensional array that is used as the basic data structure in SciPy.
+
+matplotlib matplotlib
+matplotlib is a plotting library for the Python programming language and its NumPy numerical mathematics extension. It provides an object-oriented API for embedding plots into applications, using general-purpose GUI toolkits like wxPython, Qt, or GTK. There is also a procedural ""pylab"" interface, based on a state machine (like OpenGL), designed to closely resemble that of MATLAB.
+
+Pandas pandas
+Pandas is an open-source BSD-licensed library providing high-performance, easy to use data structures and data analysis tools for the Python programming language. Pandas integrates many other libraries' features, namely NumPy's matrix operations, and Matplotlib's plotting capabilities. 10 Minutes to Pandas is a good tutorial for first exposure to Pandas.
+
+theano theano
+Theano is a Python-C-based widely-used library suitable for highly computational mathematical tasks due to the optimizations it does on the interface Python code making it highly optimized using its C-based routines. It is a very popular library for machine-learning researchers as well. It features a highly optimized automatic differentiation, easing the implementations of highly complicated functions and computing their gradients without any errors.
+
+Blender blender
+Blender is a free and open-source 3D animation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+
+scikit-learn scikit-learn
+scikit-learn is a free and open-source machine learning library written in Python. It supports training and testing many different kinds of machine learning models, along with some basic data processing techniques.
+
+TensorFlow tensorflow
+TensorFlow is an open-source software library, developed by the Google Brain team. It is a symbolic math library, used mostly for machine learning applications, such as neural networks.
+
+
+
+Popular C extension solutions:
+With C extension, you can make your python code faster. If your question has anything to do with any of the next solutions, please ensure you include the appropriate tag.
+
+ctypes ctypes
+ctypes is a Python package that wraps C .dll/.so libraries in pure Python.
+
+SWIG swig
+SWIG is an interface compiler that connects programs written in C and C++ with scripting languages such as Python.
+
+Cython cython
+Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex). It makes writing C extensions for Python as easy as Python itself.
+
+
+
+Community
+Chat Rooms
+
+Chat at the dedicated IRC channel #python on Freenode for all things Python. Look at Python IRC listing for a specific alternative channel, if interested.
+
+Chat about Python with other Stack Overflow users in the Python chat room.
+
+
+Other Sites
+
+The Python Package Index - The Python Package Index (PyPI) is a repository of software for the Python programming language.
+Tutor mailing list
+python-help mailing list
+PyCon
+Python Weekly
+Pycoder's Weekly
+Python Google Group
+Python Subreddit
+learnpython Subreddit
+Hacker Rank - Solving problems with Python
+Real Python - Python Tutorials & Newsletter
+Python Course  - Python tutorials
+
+
+Free Python Programming Books
+
+Object Oriented Design in Python
+Wikibooks' Non-Programmers Tutorial for Python 2.6
+Wikibooks' Non-Programmers Tutorial for Python 3
+The Official Python Tutorial
+Building Skills in Python Version 2.6 (Steven F. Lott)
+A Byte of Python (Swaroop C H.)
+Problem-Solving with Algorithms and Data Structures using python (Brad Miller and David Ranum)
+Dive into Python 3
+Invent Your Own Computer Games With Python (Al Sweigart)
+Making Games with Python & Pygame (Albert Sweigart)
+Natural Language Processing with Python (Steven Bird, Ewan Klein, and Edward Loper)
+Python Bibliotheca
+Python for Fun (Chris Meyers)
+Snake Wrangling For Kids (Jason R. Briggs)
+Think Python (PDF file) (Allen Downey)
+Think Python 3 (Allen Downey)
+Porting to Python 3 (Lennart Regebro)
+Automate the Boring Stuff with Python (Al Sweigart)
+Python® Notes for Professionals book(GoalKicker)
+Python Practice Book(Anand Chitipothu)
+
+
+Interactive Python Learning
+
+Codecademy - Learn the fundamentals of Python and dynamic programming
+CodeSkulptor - Interactive online IDE for Python 2 programming
+CodeSkulptor 3 - Interactive online IDE for Python 3 programming
+Coursera - Online course for introduction to interactive Python programming
+CheckiO - A game world you can explore, using your Python programming skills
+Dataquest - Interactive Python courses for data science
+PyCharm Edu - A desktop application that offers interactive Python learning
+Interactive Python - Includes a modified, interactive version of How to Think Like a Computer Scientist
+Python Tutor - Visualization and/or live coding in Python
+Computer Science Circles - Learn basic Python 3 in a semi-interactive fashion.
+CodingBat (Python) - After learning some basics, refine and hone your Python skills with live coding problems.
+
+
+Python Online Courses
+
+Interactive Programming With Python - Introduction to interactive programming with python.
+Programming for Everybody - Introduction to programming using Python.
+Introduction to Computer Science and Programming Using Python - A new and updated introduction to computer science as a tool to solve real-world analytical problems, using Python 3.
+Intro to Computer Science - Explore computer science basics, as you build your own search engine and social network while learning Python.
+
+
+Python Video Tutorials
+
+Programming in Python
+Python for Beginners
+Python 3 Basics Tutorial Series
+Python Crash Course
+Python Course for Beginners - Youtube
+
+
+Python for Scientists
+
+A Crash Course in Python for Scientists
+Applied Data Science with Python
+
+
+Python Online IDE
+
+ideone - An online IDE, with other popular language support.
+repl.it - Online interpreter for Python 2 and 3 that simplifies saving and sharing code.
+python shell - Online console from PythonAnywhere.
+pythonfiddle - Python Cloud IDE.
+pyfiddle - Python 2.7/3.6 online console.
+
+
+Code Quality
+
+Codacy - Automated Code Review to ship better code, faster.
+Codecov - Code coverage dashboard.
+CodeFactor - Automated Code Review for Git.
+Landscape - Hosted continuous Python code metrics.
+
+
+Official Logo
+
+
+Active Podcasts
+
+Podcast.init
+Python Bytes
+Python Testing
+Talk Python To Me
+Real Python Podcast
+
+Inactive Podcasts
+
+From Python Import Podcast
+Radio Free Python
+
+","<div class=""welovestackoverflow"" id=""wiki-excerpt"">
+<p>
+                Python is a multi-paradigm, dynamically typed, multipurpose programming language. It is designed to be quick to learn, understand, and use, and enforces a clean and uniform syntax. Please note that Python 2 is officially out of support as of 01-01-2020. Still, for version-specific Python questions, add the [python-2.7] or [python-3.x] tag. When using a Python variant  (e.g., Jython, PyPy) or library (e.g., Pandas and NumPy), please include it in the tags.
+            </p>
+</div><p><a href=""https://www.python.org"" rel=""nofollow noreferrer""><strong>Python</strong></a> is an <em>interpreted</em>, <em>interactive, object-oriented (using <a href=""https://docs.python.org/3/tutorial/classes.html"" rel=""nofollow noreferrer"">classes</a>)</em>, <a href=""https://wiki.python.org/moin/Why%20is%20Python%20a%20dynamic%20language%20and%20also%20a%20strongly%20typed%20language"" rel=""nofollow noreferrer"">dynamic and strongly typed</a> programming language that is used for <a href=""https://www.python.org/about/apps"" rel=""nofollow noreferrer"">a wide range of applications</a>. It incorporates modules, exceptions, dynamic typing, very high-level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in <a class=""post-tag"" href=""/questions/tagged/c"" rel=""tag"" title=""show questions tagged 'c'"">c</a> or <a class=""post-tag"" href=""/questions/tagged/c%2b%2b"" rel=""tag"" title=""show questions tagged 'c++'"">c++</a>. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.</p><p>The language comes with a large standard library that covers areas such as string processing (regular expressions, Unicode, calculating differences between files), Internet protocols (HTTP, FTP, SMTP, XML-RPC, POP, IMAP, and CGI programming), software engineering (unit testing, logging, profiling, and parsing Python code), and operating system interfaces (system calls, filesystems, and TCP/IP sockets). Look at the table of contents for <a href=""https://docs.python.org/3/library/index.html"" rel=""nofollow noreferrer"">The Python Standard Library</a> to get an idea of what’s available. A wide variety of third-party extensions are also available. Consult the <a href=""https://pypi.org"" rel=""nofollow noreferrer"">Python Package Index</a> to find packages of interest to you.</p><p>Python allows programmers to express concepts in fewer lines of code than would be possible in many other languages, such as C, and the language has constructs intended to be used to create clear programs in a variety of domains.</p><p><strong>Example:</strong></p><p><strong>Python program</strong></p><pre><code>print(""Hello, Stack Overflow!"")
+</code></pre><p><em>versus</em></p><p><strong>C program</strong></p><pre class=""lang-c prettyprint-override""><code>#include &lt;stdio.h&gt;
+int main(void) {
+    printf(""Hello, Stack Overflow!"");
+    return 0;
+}
+</code></pre><p>Python was originally created by <a href=""https://en.wikipedia.org/wiki/Guido_van_Rossum"" rel=""nofollow noreferrer""><strong>Guido van Rossum</strong></a> and first released in 1991. Guido Van Rossum chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus).</p><p>Python 2 (16 October 2000 - 01 January 2020) <a href=""https://www.python.org/doc/sunset-python-2/"" rel=""nofollow noreferrer"">has officially been sunset</a>, and Python 3 (3 December 2008) is the only supported, maintained and improved major version as of 01 January 2020. We have a community of people from both worlds, and if you have a question that relates to a specific version, please consider mentioning the version and implementation that you are using, when asking a question about Python (see <strong>Tagging Recommendation</strong> section below).</p><p>Python supports multiple programming paradigms, including object-oriented, imperative, and functional programming styles. It features a fully dynamic type system and automatic memory management, similar to that of Scheme, Ruby, Perl, and Tcl.</p><p>Like other <a href=""https://en.wikipedia.org/wiki/Dynamic_programming_language"" rel=""nofollow noreferrer"">dynamic languages</a>, Python is often used as a <a href=""https://stackoverflow.com/tags/scripting/info"">scripting language</a> but is also used in a wide range of non-scripting contexts. Using third-party tools, Python code can be packaged into standalone executable programs. Python interpreters are available for many operating systems.</p><p><a href=""https://en.wikipedia.org/wiki/CPython"" rel=""nofollow noreferrer"">CPython</a>, the reference implementation of Python, is free and open-source software. It has a community-based development model, as do nearly all of its alternative implementations. There are a wide variety of implementations more suited for specific environments or tasks (see <a href=""https://wiki.python.org/moin/PythonImplementations"" rel=""nofollow noreferrer"">Python implementations</a> on the Python wiki).</p><p>The philosophy of Python is succinctly formulated in <a href=""https://www.python.org/dev/peps/pep-0020"" rel=""nofollow noreferrer""><em>The Zen of Python</em></a>, written by Tim Peters, which one can read by issuing this command, in the interactive python interpreter:</p><pre><code>&gt;&gt;&gt; import this
+</code></pre><p>Unlike many other languages, Python uses an indentation-based syntax (in which tabs and spaces are noninterchangeable). This may take some getting used to for programmers who are familiar with using braces.</p><pre><code>&gt;&gt;&gt; from __future__ import braces
+  File ""&lt;stdin&gt;"", line 1
+SyntaxError: not a chance
+&gt;&gt;&gt;
+</code></pre><p>To help with the transition, using a properly configured text-editor or IDE is recommended. Python comes with a basic IDE called <a href=""https://docs.python.org/2/library/idle.html"" rel=""nofollow noreferrer"">IDLE</a> (<a class=""post-tag"" href=""/questions/tagged/python-idle"" rel=""tag"" title=""show questions tagged 'python-idle'"">python-idle</a>), to get you started. Other popular examples are the charityware Vim, the free GNU Emacs, Eclipse+PyDev, or PyCharm. Take a look at this <a href=""https://en.wikipedia.org/wiki/List_of_integrated_development_environments_for_Python#Python"" rel=""nofollow noreferrer"">IDE comparison list</a> for many other alternatives.</p><p>There is also a style guide for Python, named <a href=""https://www.python.org/dev/peps/pep-0008/"" rel=""nofollow noreferrer"">PEP 8</a>, which aims to make Python code more readable and consistent. This guide is (should be) followed all across the Python development community.</p><hr/><h2>Tagging Recommendation:</h2><p>Use the <a class=""post-tag"" href=""/questions/tagged/python"" rel=""tag"" title=""show questions tagged 'python'"">python</a> tag, for all Python-related questions. If you believe your question includes issues specific to individual versions, use <a class=""post-tag"" href=""/questions/tagged/python-3.x"" rel=""tag"" title=""show questions tagged 'python-3.x'"">python-3.x</a> or <a class=""post-tag"" href=""/questions/tagged/python-2.7"" rel=""tag"" title=""show questions tagged 'python-2.7'"">python-2.7</a>, in addition to the main <a class=""post-tag"" href=""/questions/tagged/python"" rel=""tag"" title=""show questions tagged 'python'"">python</a> tag. If you believe your question maybe even more specific, you can include a version-specific tag such as <a class=""post-tag"" href=""/questions/tagged/python-3.5"" rel=""tag"" title=""show questions tagged 'python-3.5'"">python-3.5</a> or <a class=""post-tag"" href=""/questions/tagged/python-3.6"" rel=""tag"" title=""show questions tagged 'python-3.6'"">python-3.6</a>, etc.</p><p>Also, consider including the tag for the specific implementation (<a class=""post-tag"" href=""/questions/tagged/jython"" rel=""tag"" title=""show questions tagged 'jython'"">jython</a>, <a class=""post-tag"" href=""/questions/tagged/pypy"" rel=""tag"" title=""show questions tagged 'pypy'"">pypy</a>, etc.), if you are using one other than <a class=""post-tag"" href=""/questions/tagged/cpython"" rel=""tag"" title=""show questions tagged 'cpython'"">cpython</a> — the use of <a class=""post-tag"" href=""/questions/tagged/cpython"" rel=""tag"" title=""show questions tagged 'cpython'"">cpython</a> is assumed unless explicitly stated otherwise.</p><hr/><h2>FAQ:</h2><p>These are some of the common questions many beginners face and can serve as canonical duplicate targets:</p><h3>User input:</h3><ul>
+<li><a href=""https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response"">Asking the user for input until they give a valid response</a></li>
+<li><a href=""https://stackoverflow.com/questions/20449427/how-can-i-read-inputs-as-numbers"">How can I read inputs as numbers?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4663306/get-a-list-of-numbers-as-input-from-the-user"">Get a list of numbers as input from the user</a></li>
+</ul><h3>Value testing:</h3><ul>
+<li><a href=""https://stackoverflow.com/questions/20002503/why-does-a-b-or-c-or-d-always-evaluate-to-true"">Why does <code>a == b or c or d</code> always evaluate to True?</a></li>
+<li><a href=""https://stackoverflow.com/questions/15112125/how-to-test-multiple-variables-against-a-value"">How to test multiple variables against a value?</a></li>
+</ul><h3>Common errors:</h3><ul>
+<li><a href=""https://stackoverflow.com/questions/1016814/what-to-do-with-unexpected-indent-in-python"">What to do with “Unexpected indent” in python?</a></li>
+<li><a href=""https://stackoverflow.com/questions/9264763/dont-understand-why-unboundlocalerror-occurs-closure"">Don't understand why UnboundLocalError occurs</a></li>
+</ul><h3>Dealing with lists:</h3><ul>
+<li><a href=""https://stackoverflow.com/questions/240178/list-of-lists-changes-reflected-across-sublists-unexpectedly"">List of lists changes reflected across sublists unexpectedly</a></li>
+<li><a href=""https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating"">How to remove items from a list while iterating?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1663807/how-to-iterate-through-two-lists-in-parallel"">How to iterate through two lists in parallel?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2612802/list-changes-unexpectedly-after-assignment-how-do-i-clone-or-copy-it-to-prevent"">List changes unexpectedly after assignment. How do I clone or copy it to prevent this?</a></li>
+<li><a href=""https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-list-of-lists"">How to make a flat list out of list of lists?</a></li>
+</ul><h3>Dealing with dicts:</h3><ul>
+<li><a href=""https://stackoverflow.com/questions/3294889/iterating-over-dictionaries-using-for-loops"">Iterating over dictionaries using 'for' loops</a></li>
+<li><a href=""https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value"">How do I sort a dictionary by value?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary"">How can I add new keys to a dictionary?</a></li>
+</ul><h3>General:</h3><ul>
+<li><a href=""https://stackoverflow.com/questions/423379/using-global-variables-in-a-function"">Using global variables in a function</a></li>
+<li><a href=""https://stackoverflow.com/questions/1186789/what-is-the-best-way-to-call-a-script-from-another-script"">What is the best way to call a script from another script?</a></li>
+<li><a href=""https://stackoverflow.com/questions/89228/how-to-execute-a-program-or-call-a-system-command-from-python"">How to execute a program or call a system command from Python?</a></li>
+</ul><hr/><h2>References:</h2><ul>
+<li>Official documentation for the current stable versions: <a href=""https://docs.python.org/2.7/"" rel=""nofollow noreferrer"">2.7.x</a> and <a href=""https://docs.python.org/3.9/"" rel=""nofollow noreferrer"">3.9.x</a>.</li>
+<li>Release notes for the current stable versions: <a href=""https://www.python.org/downloads/release/python-2718/"" rel=""nofollow noreferrer"">2.7.18</a> and <a href=""https://www.python.org/downloads/release/python-396/"" rel=""nofollow noreferrer"">3.9.6</a>.</li>
+<li><a href=""https://en.wikipedia.org/wiki/Python_%28programming_language%29"" rel=""nofollow noreferrer"">Python (programming language)</a> (Wikipedia)</li>
+<li><a href=""https://wiki.python.org/moin/BeginnersGuide/Programmers"" rel=""nofollow noreferrer"">Python for Programmers</a></li>
+<li><a href=""http://www.tutorialspoint.com/python/python_quick_guide.htm"" rel=""nofollow noreferrer"">Python - Quick Guide</a></li>
+<li><a href=""https://intellipaat.com/tutorial/python-tutorial/introduction/"" rel=""nofollow noreferrer"">Getting started with Python</a></li>
+<li><a href=""https://docs.python.org/3.5/howto/pyporting.html"" rel=""nofollow noreferrer"">Porting Python 2 Code to Python 3</a></li>
+<li><a href=""https://docs.python.org/2/library/2to3.html"" rel=""nofollow noreferrer"">2to3 - Automated Python 2 to 3 code translation</a></li>
+<li>The non-profit <a href=""https://www.python.org/psf/"" rel=""nofollow noreferrer"">Python Software Foundation</a> manages <a href=""https://en.wikipedia.org/wiki/CPython"" rel=""nofollow noreferrer"">CPython</a>.</li>
+<li><a href=""https://www.python.org/psf/"" rel=""nofollow noreferrer"">PSF</a> License Agreement for Python <a href=""https://docs.python.org/2.7/license.html"" rel=""nofollow noreferrer"">2.7.x</a> and <a href=""https://docs.python.org/3.8/license.html"" rel=""nofollow noreferrer"">3.8.x</a></li>
+<li><a href=""https://github.com/vinta/awesome-python"" rel=""nofollow noreferrer"">Awesome-Python</a></li>
+<li><a href=""https://www.fullstackpython.com/"" rel=""nofollow noreferrer"">Full Stack Python</a></li>
+<li><a href=""https://python-reference.readthedocs.io/en/latest/"" rel=""nofollow noreferrer"">Python Read the docs</a></li>
+</ul><hr/><h2>Installation of External Packages:</h2><ul>
+<li><p><a href=""https://pip.pypa.io/en/stable/"" rel=""nofollow noreferrer""><strong>Pip</strong></a> <a class=""post-tag"" href=""/questions/tagged/pip"" rel=""tag"" title=""show questions tagged 'pip'"">pip</a></p>
+<p>Most of the Python libraries used for simple and advanced scripts are downloaded using pip , the Python Package Installer.It allows you to install and manage additional packages that are not part of the Python standard library.Most distributions of Python come with pip pre-installed.
+General syntax:</p>
+</li>
+</ul><pre><code>$ pip install SomePackage
+[...]
+Successfully installed SomePackage
+</code></pre><ul>
+<li><p><strong>easy_install</strong> <a class=""post-tag"" href=""/questions/tagged/easy-install"" rel=""tag"" title=""show questions tagged 'easy-install'"">easy-install</a></p>
+<p>easy_install was released in 2004, as part of setuptools. It was notable at the time for installing packages from PyPI using requirement specifiers, and automatically installing dependencies. <strong>Easy Install is deprecated. Do not use it. Instead use pip.</strong></p>
+</li>
+</ul><hr/><h2>Popular general use Python libraries:</h2><ul>
+<li><p><a href=""https://2.python-requests.org/en/master/"" rel=""nofollow noreferrer""><strong>Requests</strong></a> <a class=""post-tag"" href=""/questions/tagged/requests"" rel=""tag"" title=""show questions tagged 'requests'"">requests</a></p>
+<p>A simple Python library for making HTTP requests. Requests are marketed as being ""For Humans"". The library is meant to simplify and universalize Python's many methods for making HTTP requests in a way that is readable and easy to use. Functionality such as keep-alive and connection pooling are automatically handled to provide ultimate simplicity.</p>
+</li>
+<li><p><a href=""https://python-pillow.org/"" rel=""nofollow noreferrer""><strong>Pillow</strong></a> <a class=""post-tag"" href=""/questions/tagged/python-imaging-library"" rel=""tag"" title=""show questions tagged 'python-imaging-library'"">python-imaging-library</a></p>
+<p>Pillow is described as being a ""friendly fork"" of the Python PIL module, an unmaintained but useful imaging library. The library uses C APIs to provide an easy Python interface to modify and manipulate image files in many different ways.</p>
+</li>
+<li><p><a href=""https://scrapy.org/"" rel=""nofollow noreferrer""><strong>Scrapy</strong></a> <a class=""post-tag"" href=""/questions/tagged/scrapy"" rel=""tag"" title=""show questions tagged 'scrapy'"">scrapy</a></p>
+<p>Scrapy is a fast high-level web crawling and web scraping framework used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.</p>
+</li>
+<li><p><a href=""https://pypi.org/project/beautifulsoup4/"" rel=""nofollow noreferrer""><strong>Beautiful Soup</strong></a> <a class=""post-tag"" href=""/questions/tagged/beautifulsoup"" rel=""tag"" title=""show questions tagged 'beautifulsoup'"">beautifulsoup</a> <a class=""post-tag"" href=""/questions/tagged/bs4"" rel=""tag"" title=""show questions tagged 'bs4'"">bs4</a></p>
+<p>Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping. It is available for Python 2.7 and Python 3.</p>
+</li>
+<li><p><a href=""https://www.nltk.org/"" rel=""nofollow noreferrer""><strong>nltk</strong></a> <a class=""post-tag"" href=""/questions/tagged/nltk"" rel=""tag"" title=""show questions tagged 'nltk'"">nltk</a></p>
+<p>The Natural Language Toolkit, or NLTK, is a platform for building Python applications to work with human language data and the processing of sentences. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, and providing wrappers for industrial-strength NLP libraries.</p>
+</li>
+</ul><hr/><h2>Popular <a href=""https://wiki.python.org/moin/WebFrameworks"" rel=""nofollow noreferrer"">web frameworks</a> based on Python:</h2><p>If your question has anything to do with any of these frameworks, please ensure you include the appropriate tag.</p><ul>
+<li><p><a href=""https://www.djangoproject.com"" rel=""nofollow noreferrer""><strong>Django</strong></a> <a class=""post-tag"" href=""/questions/tagged/django"" rel=""tag"" title=""show questions tagged 'django'"">django</a></p>
+<p>The Web framework for perfectionists (with deadlines). Django makes it easier to build better Web apps more quickly and with less code. Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. It lets you build high-performance, elegant Web applications quickly. Django focuses on automating as much as possible and adhering to the <a href=""https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"" rel=""nofollow noreferrer"">DRY (Don't Repeat Yourself) principle</a>.</p>
+</li>
+<li><p><a href=""https://palletsprojects.com/p/flask/"" rel=""nofollow noreferrer""><strong>Flask</strong></a> <a class=""post-tag"" href=""/questions/tagged/flask"" rel=""tag"" title=""show questions tagged 'flask'"">flask</a></p>
+<p>Flask is a lightweight micro-framework and third party library for Python based on Werkzeug, Jinja 2 and good intentions. It provides monolithic structure and does not enforce dependencies which allows for finer control and higher freedom for development.</p>
+</li>
+<li><p><a href=""https://pgjones.gitlab.io/quart/"" rel=""nofollow noreferrer""><strong>Quart</strong></a> <a class=""post-tag"" href=""/questions/tagged/quart"" rel=""tag"" title=""show questions tagged 'quart'"">quart</a></p>
+<p>The quart is an evolution of the Flask API to work with Asyncio and to provide a number of features not present or possible in Flask.</p>
+</li>
+<li><p><a href=""https://www.tornadoweb.org/"" rel=""nofollow noreferrer""><strong>Tornado</strong></a> <a class=""post-tag"" href=""/questions/tagged/tornado"" rel=""tag"" title=""show questions tagged 'tornado'"">tornado</a></p>
+<p>Tornado is a Python web framework and asynchronous networking library. By using the non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.</p>
+</li>
+<li><p><a href=""https://cherrypy.org/"" rel=""nofollow noreferrer""><strong>CherryPy</strong></a> <a class=""post-tag"" href=""/questions/tagged/cherrypy"" rel=""tag"" title=""show questions tagged 'cherrypy'"">cherrypy</a></p>
+<p>CherryPy is a Pythonic, object-oriented web framework that enables developers to build web applications, in much the same way they would build any other object-oriented Python program. This results in a smaller amount of source code which is developed in less time. CherryPy has been in use for over 17 years and it is being used in production by many sites, from the simplest to the most demanding.</p>
+</li>
+<li><p><a href=""http://www.pylonsproject.org/projects/pyramid/about"" rel=""nofollow noreferrer""><strong>Pyramid</strong></a> <a class=""post-tag"" href=""/questions/tagged/pyramid"" rel=""tag"" title=""show questions tagged 'pyramid'"">pyramid</a></p>
+<p>A lightweight web framework emphasizing flexibility and rapid development. It combines the very best ideas from the worlds of Ruby, Python and Perl, providing a structured but extremely flexible Python web framework. It's also one of the first projects to leverage the emerging WSGI standard, which allows extensive re-use and flexibility, but only if you need it.</p>
+</li>
+<li><p><a href=""http://www.turbogears.org"" rel=""nofollow noreferrer""><strong>TurboGears</strong></a> <a class=""post-tag"" href=""/questions/tagged/turbogears"" rel=""tag"" title=""show questions tagged 'turbogears'"">turbogears</a></p>
+<p>TurboGears is a scalable web framework, which can go from a minimal mode setup to a full-stack web application. It was created in 2005 by Kevin Dangoor, and the current development of TurboGears2 (<a class=""post-tag"" href=""/questions/tagged/turbogears2"" rel=""tag"" title=""show questions tagged 'turbogears2'"">turbogears2</a>) is being led by Mark Ramm. The current stable release of TurboGears is TurboGears 2.4.1, released September 3rd 2019.</p>
+</li>
+<li><p><a href=""https://webpy.org/"" rel=""nofollow noreferrer""><strong>web.py</strong></a> <a class=""post-tag"" href=""/questions/tagged/web.py"" rel=""tag"" title=""show questions tagged 'web.py'"">web.py</a></p>
+<p>web.py is a web framework for Python that is as simple as it is powerful. web.py is in the public domain: you can use it for whatever purpose with absolutely no restrictions. web.py lets you write web apps in Python.</p>
+</li>
+<li><p><a href=""https://web.archive.org/web/20181007063000/http://grok.zope.org/"" rel=""nofollow noreferrer""><strong>Grok</strong></a> <a class=""post-tag"" href=""/questions/tagged/grok"" rel=""tag"" title=""show questions tagged 'grok'"">grok</a></p>
+<p>Built on the existing Zope 3 libraries but aims to provide an easier learning curve and a more agile development experience. Grok does this by placing an emphasis on convention over configuration and DRY (Don't Repeat Yourself).</p>
+</li>
+<li><p><a href=""https://bottlepy.org/docs/dev/index.html"" rel=""nofollow noreferrer""><strong>Bottle</strong></a> <a class=""post-tag"" href=""/questions/tagged/bottle"" rel=""tag"" title=""show questions tagged 'bottle'"">bottle</a></p>
+<p>The bottle is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.</p>
+</li>
+<li><p><a href=""http://web2py.com/"" rel=""nofollow noreferrer""><strong>web2py</strong></a> <a class=""post-tag"" href=""/questions/tagged/web2py"" rel=""tag"" title=""show questions tagged 'web2py'"">web2py</a></p>
+<p>web2py is a free open source full-stack framework for rapid development of fast, scalable, secure and portable database-driven web-based applications.</p>
+</li>
+<li><p><a href=""https://falcon.readthedocs.io/en/stable/"" rel=""nofollow noreferrer""><strong>Falcon</strong></a> <a class=""post-tag"" href=""/questions/tagged/falconframework"" rel=""tag"" title=""show questions tagged 'falconframework'"">falconframework</a></p>
+<p>Falcon is a minimal Python web framework for building microservices, app backends, and higher-level frameworks and encourages the REST architectural style. It has both community and commercial versions.</p>
+</li>
+<li><p><a href=""https://twistedmatrix.com/trac/"" rel=""nofollow noreferrer""><strong>Twisted</strong></a> <a class=""post-tag"" href=""/questions/tagged/twisted"" rel=""tag"" title=""show questions tagged 'twisted'"">twisted</a></p>
+<p>Twisted is an open-source event-driven networking engine. It is useful for implementing both clients and servers and scales up to large websites and down to embedded devices. Twisted makes it easy to implement custom network applications.</p>
+</li>
+<li><p><a href=""https://fastapi.tiangolo.com/"" rel=""nofollow noreferrer""><strong>FastApi</strong></a> <a class=""post-tag"" href=""/questions/tagged/fastapi"" rel=""tag"" title=""show questions tagged 'fastapi'"">fastapi</a></p>
+<p>FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.</p>
+</li>
+</ul><hr/><h2>Popular Python GUI Frameworks based on Python</h2><ul>
+<li><p><a href=""https://kivy.org/#home"" rel=""nofollow noreferrer""><strong>Kivy</strong></a> <a class=""post-tag"" href=""/questions/tagged/kivy"" rel=""tag"" title=""show questions tagged 'kivy'"">kivy</a></p>
+<p>Kivy is an OpenGL ES 2 accelerated framework for the creation of new user interfaces. It supports multiple platforms namely Windows, Mac OS X, Linux, Android iOS, and Raspberry Pi. It is open source and comes with over 20 widgets in its toolkit.Additional Material Objects are available via <a href=""https://github.com/HeaTTheatR/KivyMD"" rel=""nofollow noreferrer"">KivyMD</a>.</p>
+</li>
+<li><p><a href=""https://riverbankcomputing.com/news"" rel=""nofollow noreferrer""><strong>PyQT</strong></a> <a class=""post-tag"" href=""/questions/tagged/pyqt"" rel=""tag"" title=""show questions tagged 'pyqt'"">pyqt</a></p>
+<p>PyQT is one of the favoured cross-platform Python bindings implementing the Qt library for the Qt (owned by Nokia) application development framework. Currently, PyQT is available for Unix/Linux, Windows, Mac OS X, and Sharp Zaurus. It combines the best of Python and Qt and it up to the programmer to decide whether to create a program by coding or using Qt Designer to create visual dialogs.</p>
+<p>It is available in both commercial as well as GPL license. Although some features may not be available in the free version, if your application is open source, then you can use it under the free license.</p>
+<p>The latest iteration of PyQt is v5</p>
+</li>
+<li><p><a href=""https://wiki.python.org/moin/TkInter"" rel=""nofollow noreferrer""><strong>Tkinter</strong></a> <a class=""post-tag"" href=""/questions/tagged/tkinter"" rel=""tag"" title=""show questions tagged 'tkinter'"">tkinter</a></p>
+<p>Tkinter is commonly bundled with Python, using Tk and is Python’s standard GUI framework. It is popular for its simplicity and graphical user interface. It is open-source and available under the Python License.
+One of the advantages of choosing Tkinter is that since it comes by default, there is an abundance of resources, both codes and reference books. Also with the community being old and active, there are many users who can help you out in case of questions.</p>
+</li>
+<li><p><a href=""https://www.cosc.canterbury.ac.nz/greg.ewing/python_gui/"" rel=""nofollow noreferrer""><strong>PyGUI</strong></a> <a class=""post-tag"" href=""/questions/tagged/pygui"" rel=""tag"" title=""show questions tagged 'pygui'"">pygui</a></p>
+<p>PyGUI is a graphical application cross-platform framework for Unix, Macintosh, and Windows. Compared to some other GUI frameworks, PyGUI is by far the simplest and lightweight of them all, as the API is purely in sync with Python. PyGUI inserts very little code between the GUI platform and your Python application, hence the display of the application usually displays the natural GUI of the platform.</p>
+</li>
+</ul><hr/><h2>Popular Mathematical/Scientific computing libraries in Python</h2><ul>
+<li><p><a href=""https://www.numpy.org/"" rel=""nofollow noreferrer""><strong>NumPy</strong></a> <a class=""post-tag"" href=""/questions/tagged/numpy"" rel=""tag"" title=""show questions tagged 'numpy'"">numpy</a></p>
+<p>NumPy is the fundamental package for scientific computing with Python. It contains among other things:</p>
+<ul>
+<li>a powerful N-dimensional array object</li>
+<li>sophisticated (broadcasting) functions</li>
+<li>tools for integrating C/C++ and Fortran code</li>
+<li>useful linear algebra, Fourier transform, and random number capabilities</li>
+</ul>
+<p>These features also make it possible to use NumPy in general-purpose database applications.</p>
+</li>
+<li><p><a href=""https://www.scipy.org/"" rel=""nofollow noreferrer""><strong>SciPy</strong></a> <a class=""post-tag"" href=""/questions/tagged/scipy"" rel=""tag"" title=""show questions tagged 'scipy'"">scipy</a></p>
+<p>SciPy is an open-source library for the Python programming language, consisting of mathematical algorithms and functions often used in science and engineering. SciPy includes algorithms and tools for tasks such as optimization, clustering, discrete Fourier transforms, linear algebra, signal processing, and multi-dimensional image processing. SciPy is closely related to NumPy and depends on many NumPy functions, including a multidimensional array that is used as the basic data structure in SciPy.</p>
+</li>
+<li><p><a href=""https://matplotlib.org/"" rel=""nofollow noreferrer""><strong>matplotlib</strong></a> <a class=""post-tag"" href=""/questions/tagged/matplotlib"" rel=""tag"" title=""show questions tagged 'matplotlib'"">matplotlib</a></p>
+<p>matplotlib is a plotting library for the Python programming language and its NumPy numerical mathematics extension. It provides an object-oriented API for embedding plots into applications, using general-purpose GUI toolkits like wxPython, Qt, or GTK. There is also a procedural ""pylab"" interface, based on a state machine (like OpenGL), designed to closely resemble that of MATLAB.</p>
+</li>
+<li><p><a href=""https://pandas.pydata.org/"" rel=""nofollow noreferrer""><strong>Pandas</strong></a> <a class=""post-tag"" href=""/questions/tagged/pandas"" rel=""tag"" title=""show questions tagged 'pandas'"">pandas</a></p>
+<p>Pandas is an open-source BSD-licensed library providing high-performance, easy to use data structures and data analysis tools for the Python programming language. Pandas integrates many other libraries' features, namely NumPy's matrix operations, and Matplotlib's plotting capabilities. <a href=""https://pandas.pydata.org/pandas-docs/stable/10min.html"" rel=""nofollow noreferrer"">10 Minutes to Pandas</a> is a good tutorial for first exposure to Pandas.</p>
+</li>
+<li><p><a href=""http://deeplearning.net/software/theano/"" rel=""nofollow noreferrer""><strong>theano</strong></a> <a class=""post-tag"" href=""/questions/tagged/theano"" rel=""tag"" title=""show questions tagged 'theano'"">theano</a></p>
+<p><strong>Theano</strong> is a Python-C-based widely-used library suitable for highly computational mathematical tasks due to the optimizations it does on the interface Python code making it highly optimized using its C-based routines. It is a very popular library for machine-learning researchers as well. It features a highly optimized automatic differentiation, easing the implementations of highly complicated functions and computing their gradients without any errors.</p>
+</li>
+<li><p><a href=""https://www.blender.org/"" rel=""nofollow noreferrer""><strong>Blender</strong></a> <a class=""post-tag"" href=""/questions/tagged/blender"" rel=""tag"" title=""show questions tagged 'blender'"">blender</a></p>
+<p>Blender is a free and open-source 3D animation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.</p>
+</li>
+<li><p><a href=""https://scikit-learn.org/stable/"" rel=""nofollow noreferrer""><strong>scikit-learn</strong></a> <a class=""post-tag"" href=""/questions/tagged/scikit-learn"" rel=""tag"" title=""show questions tagged 'scikit-learn'"">scikit-learn</a></p>
+<p>scikit-learn is a free and open-source machine learning library written in Python. It supports training and testing many different kinds of machine learning models, along with some basic data processing techniques.</p>
+</li>
+<li><p><a href=""https://www.tensorflow.org/"" rel=""nofollow noreferrer""><strong>TensorFlow</strong></a> <a class=""post-tag"" href=""/questions/tagged/tensorflow"" rel=""tag"" title=""show questions tagged 'tensorflow'"">tensorflow</a></p>
+<p>TensorFlow is an open-source software library, developed by the Google Brain team. It is a symbolic math library, used mostly for machine learning applications, such as neural networks.</p>
+</li>
+</ul><hr/><h2>Popular C extension solutions:</h2><p>With C extension, you can make your python code faster. If your question has anything to do with any of the next solutions, please ensure you include the appropriate tag.</p><ul>
+<li><p><a href=""https://docs.python.org/3/library/ctypes.html"" rel=""nofollow noreferrer""><strong>ctypes</strong></a> <a class=""post-tag"" href=""/questions/tagged/ctypes"" rel=""tag"" title=""show questions tagged 'ctypes'"">ctypes</a></p>
+<p><code>ctypes</code> is a Python package that wraps C .dll/.so libraries in pure Python.</p>
+</li>
+<li><p><a href=""http://www.swig.org/"" rel=""nofollow noreferrer""><strong>SWIG</strong></a> <a class=""post-tag"" href=""/questions/tagged/swig"" rel=""tag"" title=""show questions tagged 'swig'"">swig</a></p>
+<p>SWIG is an interface compiler that connects programs written in C and C++ with scripting languages such as Python.</p>
+</li>
+<li><p><a href=""https://cython.org/"" rel=""nofollow noreferrer""><strong>Cython</strong></a> <a class=""post-tag"" href=""/questions/tagged/cython"" rel=""tag"" title=""show questions tagged 'cython'"">cython</a></p>
+<p>Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex). It makes writing C extensions for Python as easy as Python itself.</p>
+</li>
+</ul><hr/><h2>Community</h2><h3>Chat Rooms</h3><ul>
+<li><p>Chat at the dedicated IRC channel <em>#python</em> on Freenode for all things Python. Look at <a href=""https://www.python.org/community/irc/"" rel=""nofollow noreferrer"">Python IRC</a> listing for a specific alternative channel, if interested.</p>
+</li>
+<li><p>Chat about Python with other Stack Overflow users in the <a href=""https://chat.stackoverflow.com/rooms/6/python"">Python chat room</a>.</p>
+</li>
+</ul><h3>Other Sites</h3><ul>
+<li><a href=""https://pypi.org"" rel=""nofollow noreferrer"">The Python Package Index</a> - The Python Package Index (PyPI) is a repository of software for the Python programming language.</li>
+<li><a href=""https://www.python.org/community/lists/#tutor"" rel=""nofollow noreferrer"">Tutor mailing list</a></li>
+<li><a href=""https://www.python.org/community/lists/#python-help"" rel=""nofollow noreferrer"">python-help mailing list</a></li>
+<li><a href=""https://pycon.org/"" rel=""nofollow noreferrer"">PyCon</a></li>
+<li><a href=""https://www.pythonweekly.com/"" rel=""nofollow noreferrer"">Python Weekly</a></li>
+<li><a href=""https://pycoders.com/"" rel=""nofollow noreferrer"">Pycoder's Weekly</a></li>
+<li><a href=""https://groups.google.com/forum/#!forum/comp.lang.python"" rel=""nofollow noreferrer"">Python Google Group</a></li>
+<li><a href=""https://www.reddit.com/r/Python/"" rel=""nofollow noreferrer"">Python Subreddit</a></li>
+<li><a href=""https://www.reddit.com/r/learnpython/"" rel=""nofollow noreferrer"">learnpython Subreddit</a></li>
+<li><a href=""https://www.hackerrank.com/domains/python/py-introduction"" rel=""nofollow noreferrer"">Hacker Rank</a> - Solving problems with Python</li>
+<li><a href=""https://realpython.com"" rel=""nofollow noreferrer"">Real Python</a> - Python Tutorials &amp; Newsletter</li>
+<li><a href=""https://www.python-course.eu/"" rel=""nofollow noreferrer"">Python Course</a>  - Python tutorials</li>
+</ul><hr/><h2>Free Python Programming Books</h2><ul>
+<li><a href=""https://buildingskills.itmaybeahack.com/oodesign.html"" rel=""nofollow noreferrer"">Object Oriented Design in Python</a></li>
+<li><a href=""https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6"" rel=""nofollow noreferrer"">Wikibooks' Non-Programmers Tutorial for Python 2.6</a></li>
+<li><a href=""https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3"" rel=""nofollow noreferrer"">Wikibooks' Non-Programmers Tutorial for Python 3</a></li>
+<li><a href=""https://docs.python.org/tutorial"" rel=""nofollow noreferrer"">The Official Python Tutorial</a></li>
+<li><a href=""http://www.itmaybeahack.com/homepage/books/python.html"" rel=""nofollow noreferrer"">Building Skills in Python Version 2.6</a> (Steven F. Lott)</li>
+<li><a href=""http://www.swaroopch.org/notes/Python"" rel=""nofollow noreferrer"">A Byte of Python</a> (Swaroop C H.)</li>
+<li><a href=""http://interactivepython.org/runestone/static/pythonds/index.html"" rel=""nofollow noreferrer"">Problem-Solving with Algorithms and Data Structures using python</a> (Brad Miller and David Ranum)</li>
+<li><a href=""http://web.archive.org/web/20190401050628/https://diveinto.org/python3/"" rel=""nofollow noreferrer"">Dive into Python 3</a></li>
+<li><a href=""http://inventwithpython.com"" rel=""nofollow noreferrer"">Invent Your Own Computer Games With Python</a> (Al Sweigart)</li>
+<li><a href=""http://inventwithpython.com/pygame"" rel=""nofollow noreferrer"">Making Games with Python &amp; Pygame</a> (Albert Sweigart)</li>
+<li><a href=""http://www.nltk.org/book"" rel=""nofollow noreferrer"">Natural Language Processing with Python</a> (Steven Bird, Ewan Klein, and Edward Loper)</li>
+<li><a href=""http://openbookproject.net/pybiblio"" rel=""nofollow noreferrer"">Python Bibliotheca</a></li>
+<li><a href=""http://openbookproject.net/py4fun"" rel=""nofollow noreferrer"">Python for Fun</a> (Chris Meyers)</li>
+<li><a href=""http://www.briggs.net.nz/snake-wrangling-for-kids.html"" rel=""nofollow noreferrer"">Snake Wrangling For Kids</a> (Jason R. Briggs)</li>
+<li><a href=""http://www.greenteapress.com/thinkpython/thinkpython.pdf"" rel=""nofollow noreferrer"">Think Python (PDF file)</a> (Allen Downey)</li>
+<li><a href=""http://greenteapress.com/wp/think-python-2e/"" rel=""nofollow noreferrer"">Think Python 3</a> (Allen Downey)</li>
+<li><a href=""http://python3porting.com"" rel=""nofollow noreferrer"">Porting to Python 3</a> (Lennart Regebro)</li>
+<li><a href=""https://automatetheboringstuff.com/"" rel=""nofollow noreferrer"">Automate the Boring Stuff with Python</a> (Al Sweigart)</li>
+<li><a href=""https://goalkicker.com/PythonBook/"" rel=""nofollow noreferrer"">Python® Notes for Professionals book</a>(GoalKicker)</li>
+<li><a href=""https://anandology.com/python-practice-book/index.html#"" rel=""nofollow noreferrer"">Python Practice Book</a>(Anand Chitipothu)</li>
+</ul><hr/><h2>Interactive Python Learning</h2><ul>
+<li><a href=""https://www.codecademy.com/catalog/language/python"" rel=""nofollow noreferrer"">Codecademy</a> - Learn the fundamentals of Python and dynamic programming</li>
+<li><a href=""http://www.codeskulptor.org"" rel=""nofollow noreferrer"">CodeSkulptor</a> - Interactive online IDE for Python 2 programming</li>
+<li><a href=""https://py3.codeskulptor.org/"" rel=""nofollow noreferrer"">CodeSkulptor 3</a> - Interactive online IDE for Python 3 programming</li>
+<li><a href=""https://www.coursera.org/course/interactivepython"" rel=""nofollow noreferrer"">Coursera</a> - Online course for introduction to interactive Python programming</li>
+<li><a href=""http://web.archive.org/web/20190820202657/https://checkio.org/"" rel=""nofollow noreferrer"">CheckiO</a> - A game world you can explore, using your Python programming skills</li>
+<li><a href=""https://www.dataquest.io/"" rel=""nofollow noreferrer"">Dataquest</a> - Interactive Python courses for data science</li>
+<li><a href=""https://www.jetbrains.com/pycharm-edu/"" rel=""nofollow noreferrer"">PyCharm Edu</a> - A desktop application that offers interactive Python learning</li>
+<li><a href=""https://runestone.academy/"" rel=""nofollow noreferrer"">Interactive Python</a> - Includes a modified, interactive version of How to Think Like a Computer Scientist</li>
+<li><a href=""http://pythontutor.com/"" rel=""nofollow noreferrer"">Python Tutor</a> - Visualization and/or live coding in Python</li>
+<li><a href=""https://cscircles.cemc.uwaterloo.ca/"" rel=""nofollow noreferrer"">Computer Science Circles</a> - Learn basic Python 3 in a semi-interactive fashion.</li>
+<li><a href=""https://codingbat.com/python"" rel=""nofollow noreferrer"">CodingBat (Python)</a> - After learning some basics, refine and hone your Python skills with live coding problems.</li>
+</ul><hr/><h2>Python Online Courses</h2><ul>
+<li><a href=""https://www.coursera.org/learn/interactive-python-1"" rel=""nofollow noreferrer"">Interactive Programming With Python</a> - Introduction to interactive programming with python.</li>
+<li><a href=""https://class.coursera.org/pythonlearn-001/auth/auth_redirector?type=login&amp;subtype=normal"" rel=""nofollow noreferrer"">Programming for Everybody</a> - Introduction to programming using Python.</li>
+<li><a href=""https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9"" rel=""nofollow noreferrer"">Introduction to Computer Science and Programming Using Python</a> - A new and updated introduction to computer science as a tool to solve real-world analytical problems, using Python 3.</li>
+<li><a href=""https://www.udacity.com/course/intro-to-computer-science--cs101"" rel=""nofollow noreferrer"">Intro to Computer Science</a> - Explore computer science basics, as you build your own search engine and social network while learning Python.</li>
+</ul><hr/><h2>Python Video Tutorials</h2><ul>
+<li><a href=""https://www.youtube.com/watch?v=4Mf0h3HphEA&amp;list=PLEA1FEF17E1E5C0DA"" rel=""nofollow noreferrer"">Programming in Python</a></li>
+<li><a href=""https://www.youtube.com/watch?v=GE3IHS1wAZI&amp;list=PL_RGaFnxSHWpX_byHyTEj9hecPngl2DqR"" rel=""nofollow noreferrer"">Python for Beginners</a></li>
+<li><a href=""https://www.youtube.com/watch?v=oVp1vrfL_w4&amp;list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M"" rel=""nofollow noreferrer"">Python 3 Basics Tutorial Series</a></li>
+<li><a href=""https://www.coursera.org/learn/python-crash-course"" rel=""nofollow noreferrer"">Python Crash Course</a></li>
+<li><a href=""https://www.youtube.com/watch?v=rfscVS0vtbw"" rel=""nofollow noreferrer"">Python Course for Beginners - Youtube</a></li>
+</ul><hr/><h2>Python for Scientists</h2><ul>
+<li><a href=""http://nbviewer.ipython.org/gist/rpmuller/5920182"" rel=""nofollow noreferrer"">A Crash Course in Python for Scientists</a></li>
+<li><a href=""https://www.coursera.org/specializations/data-science-python"" rel=""nofollow noreferrer"">Applied Data Science with Python</a></li>
+</ul><hr/><h2>Python Online IDE</h2><ul>
+<li><a href=""https://ideone.com/"" rel=""nofollow noreferrer"">ideone</a> - An online IDE, with other popular language support.</li>
+<li><a href=""https://repl.it/languages/Python"" rel=""nofollow noreferrer"">repl.it</a> - Online interpreter for Python 2 and 3 that simplifies saving and sharing code.</li>
+<li><a href=""https://www.python.org/shell/"" rel=""nofollow noreferrer"">python shell</a> - Online console from <strong>PythonAnywhere</strong>.</li>
+<li><a href=""http://pythonfiddle.com"" rel=""nofollow noreferrer"">pythonfiddle</a> - Python Cloud IDE.</li>
+<li><a href=""https://pyfiddle.io/"" rel=""nofollow noreferrer"">pyfiddle</a> - Python 2.7/3.6 online console.</li>
+</ul><hr/><h2>Code Quality</h2><ul>
+<li><a href=""https://www.codacy.com/"" rel=""nofollow noreferrer"">Codacy</a> - Automated Code Review to ship better code, faster.</li>
+<li><a href=""https://codecov.io/"" rel=""nofollow noreferrer"">Codecov</a> - Code coverage dashboard.</li>
+<li><a href=""https://www.codefactor.io/"" rel=""nofollow noreferrer"">CodeFactor</a> - Automated Code Review for Git.</li>
+<li><a href=""https://landscape.io/"" rel=""nofollow noreferrer"">Landscape</a> - Hosted continuous Python code metrics.</li>
+</ul><hr/><h2>Official Logo</h2><p><a href=""https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"" rel=""nofollow noreferrer""><img alt=""Python logo"" src=""https://www.python.org/static/community_logos/python-logo-master-v3-TM.png""/></a></p><hr/><h2>Active Podcasts</h2><ul>
+<li><a href=""https://podcastinit.com/"" rel=""nofollow noreferrer"">Podcast.init</a></li>
+<li><a href=""https://pythonbytes.fm"" rel=""nofollow noreferrer"">Python Bytes</a></li>
+<li><a href=""http://pythontesting.net"" rel=""nofollow noreferrer"">Python Testing</a></li>
+<li><a href=""https://talkpython.fm/"" rel=""nofollow noreferrer"">Talk Python To Me</a></li>
+<li><a href=""https://realpython.com/podcasts/rpp/"" rel=""nofollow noreferrer"">Real Python Podcast</a></li>
+</ul><h2>Inactive Podcasts</h2><ul>
+<li><a href=""http://frompythonimportpodcast.com/"" rel=""nofollow noreferrer"">From Python Import Podcast</a></li>
+<li><a href=""http://radiofreepython.com/"" rel=""nofollow noreferrer"">Radio Free Python</a></li>
+</ul>"
