@@ -1,0 +1,13 @@
+README.md
+setup.py
+pulumi_aws_quickstart_redshift/__init__.py
+pulumi_aws_quickstart_redshift/_utilities.py
+pulumi_aws_quickstart_redshift/cluster.py
+pulumi_aws_quickstart_redshift/provider.py
+pulumi_aws_quickstart_redshift/py.typed
+pulumi_aws_quickstart_redshift.egg-info/PKG-INFO
+pulumi_aws_quickstart_redshift.egg-info/SOURCES.txt
+pulumi_aws_quickstart_redshift.egg-info/dependency_links.txt
+pulumi_aws_quickstart_redshift.egg-info/not-zip-safe
+pulumi_aws_quickstart_redshift.egg-info/requires.txt
+pulumi_aws_quickstart_redshift.egg-info/top_level.txt
