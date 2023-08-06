@@ -1,0 +1,3 @@
+[console_scripts]
+ganslate = ganslate.utils.cli.interface:interface
+

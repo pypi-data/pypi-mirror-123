@@ -1,0 +1,118 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ganslate/__init__.py
+ganslate.egg-info/PKG-INFO
+ganslate.egg-info/SOURCES.txt
+ganslate.egg-info/dependency_links.txt
+ganslate.egg-info/entry_points.txt
+ganslate.egg-info/not-zip-safe
+ganslate.egg-info/requires.txt
+ganslate.egg-info/top_level.txt
+ganslate/configs/__init__.py
+ganslate/configs/base.py
+ganslate/configs/config.py
+ganslate/configs/inference.py
+ganslate/configs/training.py
+ganslate/configs/utils.py
+ganslate/configs/validation_testing.py
+ganslate/data/__init__.py
+ganslate/data/paired_image_dataset.py
+ganslate/data/samplers.py
+ganslate/data/unpaired_image_dataset.py
+ganslate/data/utils/__init__.py
+ganslate/data/utils/body_mask.py
+ganslate/data/utils/fov_truncate.py
+ganslate/data/utils/image_pool.py
+ganslate/data/utils/normalization.py
+ganslate/data/utils/ops.py
+ganslate/data/utils/registration_methods.py
+ganslate/data/utils/stochastic_focal_patching.py
+ganslate/data/utils/transforms.py
+ganslate/engines/__init__.py
+ganslate/engines/base.py
+ganslate/engines/inferer.py
+ganslate/engines/trainer.py
+ganslate/engines/utils.py
+ganslate/engines/validator_tester.py
+ganslate/nn/__init__.py
+ganslate/nn/attention.py
+ganslate/nn/invertible.py
+ganslate/nn/separable.py
+ganslate/nn/utils.py
+ganslate/nn/discriminators/__init__.py
+ganslate/nn/discriminators/patchgan/__init__.py
+ganslate/nn/discriminators/patchgan/multiscale_patchgan3d.py
+ganslate/nn/discriminators/patchgan/patchgan2d.py
+ganslate/nn/discriminators/patchgan/patchgan3d.py
+ganslate/nn/discriminators/patchgan/selfattention_patchgan3d.py
+ganslate/nn/gans/__init__.py
+ganslate/nn/gans/base.py
+ganslate/nn/gans/paired/__init__.py
+ganslate/nn/gans/paired/pix2pix.py
+ganslate/nn/gans/unpaired/__init__.py
+ganslate/nn/gans/unpaired/cut.py
+ganslate/nn/gans/unpaired/cyclegan.py
+ganslate/nn/gans/unpaired/revgan.py
+ganslate/nn/generators/__init__.py
+ganslate/nn/generators/resnet/__init__.py
+ganslate/nn/generators/resnet/piresnet3d.py
+ganslate/nn/generators/resnet/resnet2d.py
+ganslate/nn/generators/resnet/resnet3d.py
+ganslate/nn/generators/unet/__init__.py
+ganslate/nn/generators/unet/unet2d.py
+ganslate/nn/generators/unet/unet3d.py
+ganslate/nn/generators/vnet/__init__.py
+ganslate/nn/generators/vnet/selfattention_vnet3d.py
+ganslate/nn/generators/vnet/vnet2d.py
+ganslate/nn/generators/vnet/vnet3d.py
+ganslate/nn/losses/__init__.py
+ganslate/nn/losses/adversarial_loss.py
+ganslate/nn/losses/cut_losses.py
+ganslate/nn/losses/cyclegan_losses.py
+ganslate/nn/losses/pix2pix_losses.py
+ganslate/nn/losses/utils/__init__.py
+ganslate/nn/losses/utils/ssim.py
+ganslate/utils/__init__.py
+ganslate/utils/builders.py
+ganslate/utils/communication.py
+ganslate/utils/csv_saver.py
+ganslate/utils/environment.py
+ganslate/utils/io.py
+ganslate/utils/sitk_utils.py
+ganslate/utils/sliding_window_inferer.py
+ganslate/utils/summary.py
+ganslate/utils/cli/__init__.py
+ganslate/utils/cli/interface.py
+ganslate/utils/cli/cookiecutter_templates/__init__.py
+ganslate/utils/cli/cookiecutter_templates/new_project/__init__.py
+ganslate/utils/cli/cookiecutter_templates/new_project/cookiecutter.json
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/README.md
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/__init__.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/architectures/__init__.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/architectures/template_architecture.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/datasets/__init__.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/datasets/infer_dataset.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/datasets/train_dataset.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/datasets/val_test_dataset.py
+ganslate/utils/cli/cookiecutter_templates/new_project/{{ cookiecutter.project_name }}/experiments/template_experiment.yaml
+ganslate/utils/cli/cookiecutter_templates/your_first_run/__init__.py
+ganslate/utils/cli/cookiecutter_templates/your_first_run/cookiecutter.json
+ganslate/utils/cli/cookiecutter_templates/your_first_run/{{ cookiecutter.project_name }}/__init__.py
+ganslate/utils/cli/cookiecutter_templates/your_first_run/{{ cookiecutter.project_name }}/default.yaml
+ganslate/utils/cli/scripts/__init__.py
+ganslate/utils/cli/scripts/download_datasets.py
+ganslate/utils/metrics/__init__.py
+ganslate/utils/metrics/train_metrics.py
+ganslate/utils/metrics/val_test_metrics.py
+ganslate/utils/trackers/__init__.py
+ganslate/utils/trackers/base.py
+ganslate/utils/trackers/inference.py
+ganslate/utils/trackers/tensorboard.py
+ganslate/utils/trackers/training.py
+ganslate/utils/trackers/utils.py
+ganslate/utils/trackers/validation_testing.py
+ganslate/utils/trackers/wandb.py
