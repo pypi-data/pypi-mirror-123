@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+src/torchrecorder/__init__.py
+src/torchrecorder/helpers.py
+src/torchrecorder/nodes.py
+src/torchrecorder/recorder.py
+src/torchrecorder.egg-info/PKG-INFO
+src/torchrecorder.egg-info/SOURCES.txt
+src/torchrecorder.egg-info/dependency_links.txt
+src/torchrecorder.egg-info/requires.txt
+src/torchrecorder.egg-info/top_level.txt
+src/torchrecorder.egg-info/zip-safe
+src/torchrecorder/renderer/__init__.py
+src/torchrecorder/renderer/base.py
+src/torchrecorder/renderer/gv.py
