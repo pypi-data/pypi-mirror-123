@@ -1,0 +1,3 @@
+[console_scripts]
+aspidites = Aspidites.__main__:main
+
