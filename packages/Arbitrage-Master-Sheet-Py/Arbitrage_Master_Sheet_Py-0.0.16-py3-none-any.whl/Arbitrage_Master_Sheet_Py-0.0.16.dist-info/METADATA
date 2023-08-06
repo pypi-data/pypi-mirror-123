@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Arbitrage-Master-Sheet-Py
+Version: 0.0.16
+Summary: Arbitrage master sheet for amazon
+Home-page: UNKNOWN
+Author: Ethan Horsfall
+Author-email: ethan.horsfall@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Dist: xlwings (==0.24.7)
+Requires-Dist: Excelutilities (==0.0.11)
+Requires-Dist: openpyxl
+Requires-Dist: PySimpleGUI
+Requires-Dist: pandas
+
+UNKNOWN
+
+
