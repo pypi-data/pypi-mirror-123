@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mongonow/__init__.py
+mongonow/client.py
+mongonow/collection.py
+mongonow/database.py
+mongonow.egg-info/PKG-INFO
+mongonow.egg-info/SOURCES.txt
+mongonow.egg-info/dependency_links.txt
+mongonow.egg-info/top_level.txt
