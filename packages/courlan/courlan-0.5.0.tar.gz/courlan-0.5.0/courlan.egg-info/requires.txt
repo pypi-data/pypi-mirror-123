@@ -1,0 +1,9 @@
+urllib3<2,>=1.25
+
+[:python_version < "3.6"]
+langcodes==2.2.0
+tldextract
+
+[:python_version >= "3.6"]
+langcodes>=3.2.1
+tld
