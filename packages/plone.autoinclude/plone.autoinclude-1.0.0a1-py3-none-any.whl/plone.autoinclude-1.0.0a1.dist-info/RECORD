@@ -1,0 +1,15 @@
+plone.autoinclude-1.0.0a1-py3.8-nspkg.pth,sha256=A-p3CbMuHePaPWt53bhXUnHzJhSeZf4O2eZeA-vKGms,534
+plone/autoinclude/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+plone/autoinclude/loader.py,sha256=F0otxJNx9YghcYcLWuoLhLQu9ijtwjfqzLXbT7_qUWk,5784
+plone/autoinclude/meta.zcml,sha256=iDHgL3IPAAr-XJPYx7YgnXD0oLYTh1da5zsecKdBvKw,547
+plone/autoinclude/zcml.py,sha256=QKsRlBYRVRCfkZINuHuLI-0PID3aWxOCgZZAyEpnAxI,1442
+plone/autoinclude/tests/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+plone/autoinclude/tests/test_loader.py,sha256=WL7svJYOtBlF18EWad_QJgwHn2v4VZfqRtE-rQ9HYNE,4361
+plone/autoinclude/tests/utils.py,sha256=et0A4wrjvsY0gvbfoOsufcG2hS7phuo2N3SU8pidaEc,771
+plone.autoinclude-1.0.0a1.dist-info/LICENSE.GPL,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+plone.autoinclude-1.0.0a1.dist-info/LICENSE.rst,sha256=5X6EPvZxXf8P3F3nXrwvYPY9qg46qAVdyvKko2EE7gc,664
+plone.autoinclude-1.0.0a1.dist-info/METADATA,sha256=EMqgYHLQmZbW06AUz3gu3aVttJMIOFoaeM3nTU1RzC0,9325
+plone.autoinclude-1.0.0a1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+plone.autoinclude-1.0.0a1.dist-info/namespace_packages.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.autoinclude-1.0.0a1.dist-info/top_level.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.autoinclude-1.0.0a1.dist-info/RECORD,,
