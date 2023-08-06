@@ -1,0 +1,12 @@
+psql2bigquery/__init__.py,sha256=NnFtsk0seql8z5sBf8sxbfDA0jPt2aTScDHbM8Dx2z0,30
+psql2bigquery/main.py,sha256=nVF5E5zfCDW6GbtZtnF1_wEumbXMPidxpe0MRWCrFPA,300
+psql2bigquery/run.py,sha256=D7IA5M4t3CvBVS6umAAexHrGIV1BZzw5YiqYneJc1cI,4415
+psql2bigquery/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psql2bigquery/tools/bigquery.py,sha256=bRwfSph_O7jfAMZSAXAk24D-R_MBvfDqP0sCq4y9mbQ,1714
+psql2bigquery/tools/config.py,sha256=2JYzGIeroXfaMIin4SFmd5HSiixxCTeMXdusg24IuH4,662
+psql2bigquery/tools/logging.py,sha256=S-rDJmAA8lxQ4Q3Wi_gH79OWZQlugrTPG6CDROqF9mc,998
+psql2bigquery/tools/psql.py,sha256=U-GqVFoddN3xKktmeHC6f9gw-5VE1AoOhxh-gKPe0nY,2631
+psql2bigquery-0.0.2.dist-info/entry_points.txt,sha256=N6ObJ8jBfi48QCc-SEEKgrrKWx3jAOehzx6rVD6KwvI,56
+psql2bigquery-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+psql2bigquery-0.0.2.dist-info/METADATA,sha256=fyMjOX5q1LZ5ob5KKrHN5Z-VbKkAHfYdemYyaBFD9Ao,1063
+psql2bigquery-0.0.2.dist-info/RECORD,,

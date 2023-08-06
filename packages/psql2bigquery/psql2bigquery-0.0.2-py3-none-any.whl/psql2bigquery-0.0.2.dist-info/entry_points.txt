@@ -1,0 +1,3 @@
+[console_scripts]
+psql2bigquery=psql2bigquery.main:cli
+
