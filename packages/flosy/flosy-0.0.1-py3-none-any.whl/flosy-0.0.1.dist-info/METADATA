@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flosy
+Version: 0.0.1
+Summary: A fastApi based osquery management adapter with Loki persistence
+License: Apache-2.0
+Author: Eduard Thamm
+Author-email: eduard.thamm@prisma-capacity.eu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: sphinx (<4); extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (>=1.12.0,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-click (>=2.7.1,<3.0.0)
+Requires-Dist: sphinx-rtd-theme (>=0.5.2,<0.6.0); extra == "docs"
