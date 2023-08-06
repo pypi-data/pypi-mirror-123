@@ -1,0 +1,3 @@
+[lektor.plugins]
+leaflet-geojson=lektor_leaflet_geojson:LeafletGeoJsonPlugin
+
