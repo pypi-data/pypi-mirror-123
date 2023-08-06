@@ -1,0 +1,17 @@
+attrs>=18.1.0
+numpy>=1.11.0
+oop-ext>=1.1
+
+[docs]
+sphinx>=1.4
+sphinx_rtd_theme
+sphinx-autodoc-typehints
+
+[testing]
+codecov
+mypy
+pytest
+pytest-cov
+pytest-mock
+pre-commit
+tox
