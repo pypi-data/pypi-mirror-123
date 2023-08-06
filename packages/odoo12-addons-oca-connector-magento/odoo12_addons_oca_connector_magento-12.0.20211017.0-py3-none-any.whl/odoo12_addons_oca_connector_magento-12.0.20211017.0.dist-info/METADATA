@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-connector-magento
+Version: 12.0.20211017.0
+Summary: Meta package for oca-connector-magento Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-connector-magento
+
+UNKNOWN
+
