@@ -1,0 +1,7 @@
+daschat_base/__init__.py,sha256=HkvQ33YAjxFZ3KaDTj7ot9g9fEoPRX57BSaZ8W1eWGQ,319
+daschat_base/dc_abc_handoff.py,sha256=ppCDe_xr7wcjCIFM0Ad4Bst2I4NNNm4N8zGNb9C0YL8,6677
+daschat_base/schemas.py,sha256=yhplYUG1q3yYmrr5VywVKOk533Y6TVjTgtsUyTzBXY0,10752
+daschat_base-0.11.1.dist-info/LICENSE,sha256=yTUWfp6PmHAodtLFiJ0RnBfwxV2DFZVSOD1pQ8Q7U-w,1074
+daschat_base-0.11.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+daschat_base-0.11.1.dist-info/METADATA,sha256=NjjiRI6cOhwoXM0AHZPuZqz5tC8lrBvQaJSdiMj57dA,2195
+daschat_base-0.11.1.dist-info/RECORD,,
