@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: biobox
+Version: 1.0.2
+Summary: Biobox provides a collection of data structures and methods for loading, manipulating and analyzing atomistic and pseudoatomistic structures.
+Home-page: https://github.com/degiacom/biobox
+Author: Matteo T. Degiacomi, Lucas S.P. Rudden, Samuel C. Musson
+Author-email: lucas.s.p.rudden@gmail.com
+License: GPL3
+Download-URL: https://github.com/degiacom/biobox/archive/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: biobox
+Platform: UNKNOWN
