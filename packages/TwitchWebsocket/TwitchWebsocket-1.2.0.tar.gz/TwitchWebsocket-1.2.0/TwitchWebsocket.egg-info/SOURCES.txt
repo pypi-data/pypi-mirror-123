@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+TwitchWebsocket/Message.py
+TwitchWebsocket/TwitchWebsocket.py
+TwitchWebsocket/__init__.py
+TwitchWebsocket/__version__.py
+TwitchWebsocket.egg-info/PKG-INFO
+TwitchWebsocket.egg-info/SOURCES.txt
+TwitchWebsocket.egg-info/dependency_links.txt
+TwitchWebsocket.egg-info/top_level.txt
