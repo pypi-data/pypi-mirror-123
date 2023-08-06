@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+candinfo.egg-info/PKG-INFO
+candinfo.egg-info/SOURCES.txt
+candinfo.egg-info/dependency_links.txt
+candinfo.egg-info/requires.txt
+candinfo.egg-info/top_level.txt
