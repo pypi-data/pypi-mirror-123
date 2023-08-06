@@ -1,0 +1,72 @@
+data: 
+  split : 0.0
+  data_type : 'image'
+  dataset :
+    train : 
+      interface_type : 'csv'
+      interface_path : './train.csv'
+      data_path : './train'
+      features : 
+        interface_type : 'column'
+        interface_val : 'image_path'
+        load_type : ['jpg', 'png', 'jpeg']
+      targets :
+        interface_type : 'regex'
+        interface_val : '[image_path]_mask'
+        load_type : ['jpg', 'png', 'jpeg']
+    valid :
+      interface_type : 'csv'
+      interface_path : './valid.csv'
+      data_path : './valid'
+  preprocesses : [{
+    type : 'reshape',
+    params : {
+      size : [256, 256],
+      keep_ar : false
+    }
+  },{
+    type : 'normalize',
+    params : {
+      mode : 'z_norm'
+    }
+  }]
+  augmentations : [{
+    type : 'rotate',
+    params : {
+      axis : 'xyz',
+      max_angle : 30
+    }
+  },{
+    type : 'crop',
+    params : {
+      mode : 'random',
+      min_size : [64, 64]
+    }
+  }]
+
+
+model : 
+  model_name : ''
+  model_description : ''
+  model_type : ''
+  problem_type : ''
+  model_params : 
+    input_shape : []
+
+
+hyperparameters : 
+  training_batch_size : 8
+  validation_batch_size : 8
+  epochs : 100
+  steps_per_epoch : None
+  learning_rate : 0.001
+  metrics : ['acc']
+  early_stop_patience : 2
+  dropout_ratio : 0.2
+
+config_params : 
+  logger :
+    logs_path : 'test_logs'
+    log_level : 'DEBUG'
+  model_image_path : './model_images'
+  checkpoint_path : './checkpoints'
