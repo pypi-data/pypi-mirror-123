@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/kandinsky.egg-info/PKG-INFO
+src/kandinsky.egg-info/SOURCES.txt
+src/kandinsky.egg-info/dependency_links.txt
+src/kandinsky.egg-info/requires.txt
+src/kandinsky.egg-info/top_level.txt
