@@ -1,0 +1,8 @@
+setup.py
+bad_depend_example_arkadiy/__init__.py
+bad_depend_example_arkadiy/main.py
+bad_depend_example_arkadiy.egg-info/PKG-INFO
+bad_depend_example_arkadiy.egg-info/SOURCES.txt
+bad_depend_example_arkadiy.egg-info/dependency_links.txt
+bad_depend_example_arkadiy.egg-info/requires.txt
+bad_depend_example_arkadiy.egg-info/top_level.txt
