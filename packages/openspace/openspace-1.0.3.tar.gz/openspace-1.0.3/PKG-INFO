@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openspace
+Version: 1.0.3
+Summary: Public package for various space operations applications
+Home-page: UNKNOWN
+Author: Brandon Sexton
+Author-email: brandon.sexton.1@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.8.0
+License-File: LICENSE
+
+# openspace
+
