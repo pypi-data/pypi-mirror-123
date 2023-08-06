@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+classroom_tool.egg-info/PKG-INFO
+classroom_tool.egg-info/SOURCES.txt
+classroom_tool.egg-info/dependency_links.txt
+classroom_tool.egg-info/requires.txt
+classroom_tool.egg-info/top_level.txt
+scripts/
+scripts/classroom-tool
