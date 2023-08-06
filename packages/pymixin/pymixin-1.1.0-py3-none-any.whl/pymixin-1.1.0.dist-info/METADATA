@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pymixin
+Version: 1.1.0
+Summary: A high-level library for manipulating Python Bytecode in an easy way.
+Home-page: UNKNOWN
+Author: Martmists
+Author-email: martmists@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Requires: pyasm
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
