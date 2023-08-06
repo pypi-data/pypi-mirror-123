@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+arithmeticericjoden94/__init__.py
+arithmeticericjoden94/add.py
+arithmeticericjoden94/divide.py
+arithmeticericjoden94/multiply.py
+arithmeticericjoden94/subtract.py
+arithmeticericjoden94.egg-info/PKG-INFO
+arithmeticericjoden94.egg-info/SOURCES.txt
+arithmeticericjoden94.egg-info/dependency_links.txt
+arithmeticericjoden94.egg-info/top_level.txt
