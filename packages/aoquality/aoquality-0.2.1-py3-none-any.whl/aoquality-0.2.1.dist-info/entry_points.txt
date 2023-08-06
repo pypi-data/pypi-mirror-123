@@ -1,0 +1,3 @@
+[console_scripts]
+aostats=aoquality.tools.aostats:main
+
