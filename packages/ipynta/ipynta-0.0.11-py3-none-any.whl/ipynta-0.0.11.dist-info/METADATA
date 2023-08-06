@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ipynta
+Version: 0.0.11
+Summary: A Python library for different image processing tasks.
+Home-page: UNKNOWN
+Author: Allan Chua
+Author-email: allanchua.officefiles@gmail.com
+License: UNKNOWN
+Keywords: python,images,image utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pathlib
+Requires-Dist: pillow
+
+# ipynta
+
+**ipynta** is a Python library for different image processing tasks.
+
+## Globbing
+
+- [ImageGlobber](https://github.com/allanchua101/ipynta/blob/main/docs/globbing/001_ImageGlobber.md)
+
+### Why was it named ipynta?
+
+`I-pinta` means _"to paint"_ in tagalog! This library is proudly developed by a Singapore-based Filipino lad with nothing better to do during evenings.
+
+
