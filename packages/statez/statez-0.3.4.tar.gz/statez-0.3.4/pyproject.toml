@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "statez"
+version = "0.3.4"
+description = "Helps you to build fancy statemachines"
+authors = ["4thel00z <4thel00z@gmail.com>"]
+license = "GPL-3"
+readme = "README.md"
+homepage = "https://github.com/4thel00z/statez"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+ptpython = "^3.0.20"
+neovim = "^0.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
