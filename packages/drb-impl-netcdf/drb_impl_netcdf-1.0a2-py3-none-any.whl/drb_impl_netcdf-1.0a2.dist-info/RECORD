@@ -1,0 +1,15 @@
+drb_impl_netcdf/__init__.py,sha256=Qs0pAiY7_qAMaieoN53Ua3VUJHaiIn9a5r1aJcFH2_M,801
+drb_impl_netcdf/_version.py,sha256=nGSrLvEnQrNY912dtiSw0A0PopY8tvZWB0gHQLiV4HU,497
+drb_impl_netcdf/drb_impl_signature.py,sha256=AnqjK2ns1fDf5NYDdfnr-cBxrXOvuhGfc9QeUAZ1lio,883
+drb_impl_netcdf/execptions.py,sha256=yQvBpGRpHoc28ENex-9QuV9g-CFe2PuU2QYypnupiMA,185
+drb_impl_netcdf/netcdf_common.py,sha256=SqPxuQ4ngGK4WYS8_CxqsmWRTx9CPNlkwhmwaIwnjyU,1762
+drb_impl_netcdf/netcdf_dimension_node.py,sha256=0h19jgSiGr_5dwjZ4jRFZAbprw4Ir5aT4Pqw-JObxpo,1418
+drb_impl_netcdf/netcdf_group_node.py,sha256=TRHO8uqbJUbT9NxzA_37o-afRG0wwJsKruOwt17gCPM,2619
+drb_impl_netcdf/netcdf_list_node.py,sha256=bn3Nd655FXhzr4A7HiMPa6zcXCDCNMlkIw_cz34BL60,890
+drb_impl_netcdf/netcdf_node_factory.py,sha256=nmobrELpaepuBq04xKXwlHsshlz-NdHysKvsMOPvuVs,1748
+drb_impl_netcdf/netcdf_variable_node.py,sha256=R3T7VotSUXGiUFhNTvuewdfhHR_jcxW4kIL97WWjSpU,3283
+drb_impl_netcdf-1.0a2.dist-info/METADATA,sha256=4lO80HoUSprfKbOStxCECS7VCc1spC9-bKVhwYng2Hw,2071
+drb_impl_netcdf-1.0a2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+drb_impl_netcdf-1.0a2.dist-info/entry_points.txt,sha256=Im1RLkn4slEew8fWHyzwj-BVXQ2WN6CuXk2ql_NAuko,56
+drb_impl_netcdf-1.0a2.dist-info/top_level.txt,sha256=mI_9HavUjwR_EMy0_IcWVwgP7pQubVhAjgRCB2uGQc8,16
+drb_impl_netcdf-1.0a2.dist-info/RECORD,,
