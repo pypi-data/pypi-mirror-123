@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyqna
+Version: 0.0.1
+Summary: A simple python package for question answering
+Home-page: https://github.com/programmer290399/pyqna
+Author: Saahil Ali
+Author-email: programmer290399@gmail.com
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=====
+pyqna
+=====
+
+.. image:: https://img.shields.io/travis/programmer290399/pyqna.svg
+        :target: https://travis-ci.org/programmer290399/pyqna
+
+.. image:: https://img.shields.io/pypi/v/pyqna.svg
+        :target: https://pypi.python.org/pypi/pyqna
+
+
+A simple python package for question answering
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!) https://programmer290399.github.io/pyqna.
+
+Features
+--------
+
+* TODO
+
+
