@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: createflask
+Version: 0.1.7.5
+Summary: Python package for creating flaskapp
+Home-page: UNKNOWN
+Author: Throttlerz (Siddhartha Roy)
+Author-email: <sid86harth@gmail.com>
+License: UNKNOWN
+Requires-Dist: rich
+
+
+## flask-createapp
+
