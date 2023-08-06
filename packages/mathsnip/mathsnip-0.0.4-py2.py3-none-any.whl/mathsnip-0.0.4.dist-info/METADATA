@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: mathsnip
+Version: 0.0.4
+Summary: this is a description
+Home-page: https://github.com/zk4/mathsnip
+Author: zk
+Author-email: liuzq7@gmail.com
+License: BSD
+Download-URL: https://github.com/zk4/mathsnip/archive/master.zip
+Keywords: best practice for python project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Requires-Python: >3.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-contrib-python (==4.4.0.46)
+Requires-Dist: pytest (==5.2.1)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: pynput (==1.4.4)
+Requires-Dist: Pillow (==8.4.0)
+Requires-Dist: PyYAML (==6.0)
+
+# Intro
+mathpix api version
+only Mac support. 
+> if you Mac OS version is bigger than 10.14, you need to grant accessibility to your terminal. 
+
+![Image](assets/2020-05-18-10-51-23.png)
+# Install
+``` bash
+pip3 install mathsnip
+```
+ps: you need python@3.9. 
+
+
+# Usage
+Must use root permission. Because it needs to catch the global key.
+``` bash
+sudo mathsnip -i <app_id> -k <app_key>
+```
+
+wait untill you see . it takes about 3 secs for cv to init.
+
+![Image](assets/2020-03-21-22-32-28.png)
+
+press `cmd+shift+e` to clip the screen. 
+
+
+PS: you should import the old api.
+![Image](assets/2020-03-21-22-23-58.gif)
+
