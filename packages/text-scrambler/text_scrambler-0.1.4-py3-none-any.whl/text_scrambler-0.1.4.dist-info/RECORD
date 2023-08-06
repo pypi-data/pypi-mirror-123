@@ -1,0 +1,11 @@
+text_scrambler/__init__.py,sha256=XFm8ufOgP9bsvuCwHRQh9JOCTgNL_C__NPaRAfxU85M,386
+text_scrambler/__main__.py,sha256=MJlJkKVtfk4Rh1hKEORDz7OR5ZNNvqnmo0TBuBZIzD8,1513
+text_scrambler/dictionaries.py,sha256=k79-yu_yowh-jajrD42sVA0RXaxzpa-4iNyGMSkNK-c,2321
+text_scrambler/text_scrambler.py,sha256=ebMlom-VMK0Mo9QqS5h3XiqM26FtsGHMmAEt9uOyYJ0,8913
+text_scrambler/txt_files/confusablesSummary.txt,sha256=Dzn8jfZXoeimPxfUlPYOpv5PWcnkB0q9jZO0KPEYHug,723205
+text_scrambler-0.1.4.dist-info/AUTHORS.rst,sha256=IXzH9CVs6YA_o18ATviF6PI4zWeLXOcWkAPNsxycrfM,84
+text_scrambler-0.1.4.dist-info/LICENSE.txt,sha256=eu7ikWC6KYdaSebs572ep3AUntWe8RWWiMhXkvyv_3I,1071
+text_scrambler-0.1.4.dist-info/METADATA,sha256=yKJDXXcvoWERTbbPhzxeeVMPpKYe_0K7vG0xW1o0J0s,15228
+text_scrambler-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+text_scrambler-0.1.4.dist-info/top_level.txt,sha256=OW99PAe1OVY_BAZ389dH0xo9U4BpEFSDHEFrj7uJPlQ,15
+text_scrambler-0.1.4.dist-info/RECORD,,
