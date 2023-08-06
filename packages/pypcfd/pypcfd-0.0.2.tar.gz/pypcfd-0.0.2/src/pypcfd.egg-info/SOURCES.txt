@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pypcfd/__init__.py
+src/pypcfd/fault_diagnosis.py
+src/pypcfd/plotting.py
+src/pypcfd.egg-info/PKG-INFO
+src/pypcfd.egg-info/SOURCES.txt
+src/pypcfd.egg-info/dependency_links.txt
+src/pypcfd.egg-info/requires.txt
+src/pypcfd.egg-info/top_level.txt
