@@ -1,0 +1,15 @@
+<div class="livemark-table">
+  <div id="{{ table.elem }}">
+  </div>
+</div>
+{% if card %}
+<script>
+new Handsontable(document.getElementById('{{ table.elem }}'), JSON.parse('{{ table.spec }}'))
+</script>
+{% else %}
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  new Handsontable(document.getElementById('{{ table.elem }}'), JSON.parse('{{ table.spec }}'))
+})
+</script>
+{% endif %}
