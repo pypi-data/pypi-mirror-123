@@ -1,0 +1,59 @@
+{
+    "iamusers": {
+        "{{ ucmon_service_id }}":"ucmon",
+        "{{ rfmon_service_id }}":"rfmon"
+    },
+    "policies": {
+        "default": {
+        "max_attempts": "5"
+        },
+        "db2inst1_policy": {
+        "max_attempts": "5",
+        "lock_duration": "0"
+        }
+    },
+    "groups": {
+        "BLUUSERS": {
+        "desc": "Non-Admin Group"
+        },
+        "DB2IADM1": {
+        "desc": "SYSADM group"
+        },
+        "BLUADMIN": {
+        "desc": "Admin Group"
+        }
+    },
+    "users": {
+        "ucmon": {
+            "username": "ucmon",
+            "locked": false,
+            "group": "bluadmin",
+            "locked_count": 0,
+            "locked_time": 0,
+            "policyname": "default",
+            "email": "",
+            "password": "{SSHA}RjFvcFExNE9SOGx4eExKKzEwcElrYkMzZWU4aCtrUDg="
+        },
+        "rfmon": {
+            "username": "rfmon",
+            "locked": false,
+            "group": "bluadmin",
+            "locked_count": 0,
+            "locked_time": 0,
+            "policyname": "default",
+            "email": "",
+            "password": "{SSHA}m6uAO9sp9ITVZrRVf3jdLJtdAXnPCRS/"
+        },
+        "db2inst1": {
+            "username": "db2inst1",
+            "locked": false,
+            "group": "db2iadm1,bluadmin",
+            "locked_count": 0,
+            "locked_time": 0,
+            "policyname": "db2inst1_policy",
+            "email": "",
+            "password": "{{ db2inst1_hashed_password }}"
+        }
+    },
+    "rev": 0
+}

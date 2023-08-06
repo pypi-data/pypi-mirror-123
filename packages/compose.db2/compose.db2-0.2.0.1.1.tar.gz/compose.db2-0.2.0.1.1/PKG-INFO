@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: compose.db2
+Version: 0.2.0.1.1
+Summary: compose db2 management library
+Home-page: UNKNOWN
+Author: Pandu Mutyala
+Author-email: pmutyala@ca.ibm.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: tests

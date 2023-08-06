@@ -1,0 +1,7 @@
+{{ hostname }}:
+        - role: {{ designated_role }} 
+        - cmd: {{ db2_backres_cmd }}
+        - setup: {{ db2_hadr_cfg }}
+        - configure: {{ db2_hadr_start_cmd }}
+
+
