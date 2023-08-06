@@ -1,0 +1,10 @@
+tf-nightly
+networkx
+pygraphviz
+matplotlib
+imageio
+
+[test]
+pytest
+pytest-cov
+testfixtures
