@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pymoodle
+Version: 0.0.5
+Summary: A python client for Moodle web services
+Home-page: https://github.com/septatrix/pymoodle
+Author: Nils Kattenbeck
+Author-email: nilskemail+pypi@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/septatrix/pymoodle/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: typing-extensions (>=3.7.4) ; python_version <= "3.7"
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: flake8-bugbear ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: types-requests ; extra == 'test'
+
+# pyMoodle
+
+A python client for Moodle web services still in development.
+The plan is to eventually generate typed code from the moodle source code.
+
+
