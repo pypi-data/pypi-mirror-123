@@ -1,0 +1,2 @@
+def privet():
+    print("Privet")
