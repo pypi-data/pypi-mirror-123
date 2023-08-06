@@ -1,0 +1,10 @@
+WordFP/WordFP.py,sha256=xXTIEC5Q9x8Wy8X6gbZdA-80sQnpSFBzrR8qnmTEe4k,5667
+WordFP/__init__.py,sha256=uqIYGBO2XF-yNZehm2eGO0oCQjtoQ9DXcMtuE7ypLzY,27
+WordFP/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WordFP/fastsimilarity.py,sha256=IF0woc041EPwOtOQgTefAgxcbfbiknJEea5fslQhNAM,6278
+WordFP/data/wordFP_full.pkl,sha256=knjMQRrMqYh3O92mliAxQsd2ZtkfTVLZLx52CS4AB7o,1927700
+WordFP-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+WordFP-1.0.0.dist-info/METADATA,sha256=CjcnQwhYR6g3zjdkBPf77fwTVe5FU0l6sw_LQp3O52U,2444
+WordFP-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+WordFP-1.0.0.dist-info/top_level.txt,sha256=OAVKNYfLlK_vSWajczjVDK13RpE1237eALnoRuGnZGI,7
+WordFP-1.0.0.dist-info/RECORD,,
