@@ -1,0 +1,15 @@
+wenet_stt.libs/libfst-8c44c13e.so.8.0.0,sha256=TxvLP7-3w84WDIeA1W27ViJKkFFCKCGOE8CAlW-baiE,12267952
+wenet_stt.libs/libtensorpipe-7d524e69.so,sha256=DU90KCk7P1Z_58VN3UjOZv6cV0_S4hAriMx_Panosac,4408048
+wenet_stt.libs/libtorch-d95ee835.so,sha256=f7XSOuwIrG2jWLei11vHkrdTdnX0-uEAPAmaUJd1Gxs,197216
+wenet_stt.libs/libtorch_cpu-91c035fe.so,sha256=IDHT9mkj1lHRSOnKMR__fU4CSO5EkB_-RzJ3aUp2Fl4,307001968
+wenet_stt.libs/libgomp-7c85b1e2-8ff38fd8.so.1,sha256=USCqVgbppxboAf3gxXHirz2CJak6LbG3GgVCElc6OAE,188808
+wenet_stt.libs/libc10-241f0ee2.so,sha256=J96Yo-A-uCvaCIo6cTat62GiZYfu2rzSA0P1GvglBBI,867704
+wenet_stt-0.2.0.dist-info/WHEEL,sha256=Rpw_AFkCaGcNzEYXpm5kP0l2j69HjOzjRDQVgVsiTxc,217
+wenet_stt-0.2.0.dist-info/top_level.txt,sha256=AAZm9xI7kNHneh-z8ZiRBX2eqNMBdjLI_dAouRKDMDk,10
+wenet_stt-0.2.0.dist-info/METADATA,sha256=LG-ssxfI3buGW1F9blVeK3N0VV76Fl_3hhKFidKBk9Y,4039
+wenet_stt-0.2.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+wenet_stt-0.2.0.dist-info/RECORD,,
+wenet_stt/libwenet_stt_lib.so,sha256=IX2OBoXHUs1fHyXT9dX7ct4zmzQjrQB91ZCsUItqxV4,4134352
+wenet_stt/wrapper.py,sha256=zeJIXH41sJN_d69W7sgpLD8hZAYqviD5sX4TyBojcts,4246
+wenet_stt/__init__.py,sha256=wv9MGvMRDpFR99mLVvCpM69cseOFuQqZXTqdnTvv7p8,592
+wenet_stt/__main__.py,sha256=xdhwfKfZ4WCI2KgjanFJOvoc-4pcmDgGWWlR900gOJc,3062
