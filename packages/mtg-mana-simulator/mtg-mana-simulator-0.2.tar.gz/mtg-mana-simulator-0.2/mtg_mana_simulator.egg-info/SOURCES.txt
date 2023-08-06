@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mtg_mana_simulator/__init__.py
+mtg_mana_simulator/ai.py
+mtg_mana_simulator/card.py
+mtg_mana_simulator/context.py
+mtg_mana_simulator/experiment.py
+mtg_mana_simulator/helpers.py
+mtg_mana_simulator/metric.py
+mtg_mana_simulator/sequence.py
+mtg_mana_simulator/version.py
+mtg_mana_simulator.egg-info/PKG-INFO
+mtg_mana_simulator.egg-info/SOURCES.txt
+mtg_mana_simulator.egg-info/dependency_links.txt
+mtg_mana_simulator.egg-info/top_level.txt
