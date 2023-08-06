@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Scrap11888
+Version: 4.5
+Summary: A simple data scraping utility, used to extract data from 11888.gr
+Home-page: https://github.com/GeorgeVasiliadis/Scrap11888
+Author: George Vasiliadis
+Author-email: geor.vasiliadis@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: openpyxl
+
+# Scrap11888
+A simple data scraping utility, used to extract data from 11888.gr
+
+![Screenshot of Scrap11888](https://github.com/GeorgeVasiliadis/Scrap11888/blob/b68cf99897dc6c92938917315d8d64a3dcc7831c/res/Scrap11888-Screenshot.PNG)
+
+## Important Dependencies
+Manually-Resolved:
+- [Python](https://www.python.org/)
+- pip
+- tkinter
+
+> Note that  `pip` and `tkinter` can be easily installed via the default Python wizard-installer on Windows systems. Look for the appropriate checkboxes.
+
+Auto-Resolved:
+- requests
+- openpyxl
+
+## Features
+- Query 11888 by name or by namelist (.xlsx format)
+- Search people by geographical location
+- Filter by address
+- Embedded caching system
+- Multithreading-Powered Speedups
+
+
+## Quick Start
+1. Make sure that you have downloaded/ configured the manually resolved dependencies (see above) on your system
+2. Optionally, create a Python Virtual Environment and activate it. See how [here](https://docs.python.org/3/library/venv.html)
+2. On a terminal run `pip install Scrap11888`
+3. Run `scrap`
+
+> Just in case the script is not recognized (more likely in Linux systems), just import the package manually and run it programmatically. Something like `python -c "import Scrap11888; Scrap11888.main()"` should do the trick.
+
+## Notes
+**GDPR:** All gathered data should be manually deleted within a month since scrap-day. Auto-deletion feature will soon be available.
+
+**Scraping Ethics:** Scraping is an automated process of data fetching, based on legal communication between user's computer and server of interest (11888). In order to achieve high speeds, Scrap11888 makes a considerable amount of parallel, frequent queries. This impacts server's resources, lowering its ability to respond to other users quickly as well. Thus, users are strongly recommended to respect target server by limiting their scrap-searches to just _a few per hour_.
+
+

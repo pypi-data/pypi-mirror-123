@@ -1,0 +1,25 @@
+Scrap11888/GUI.py,sha256=hwlOTPOHPHjvn4E2xG17xFzxQW8RpfJef3ThoFHw0Rs,9212
+Scrap11888/__init__.py,sha256=03Z3VgGksahvCZWcOraOWTuTs1jniaHktRXjBgq5K84,52
+Scrap11888/lib/Controller.py,sha256=BH8RhowI1FNKeVgOH6u1k5BWx57RqMRe8DoTkYWXNn4,3290
+Scrap11888/lib/__init__.py,sha256=2pIPG6EyCWW0dxGRSp4aHDOcJitzmMg4AJEFrDjKQdU,56
+Scrap11888/lib/DataManagement/Cacher.py,sha256=cUa4RYUcoumM619vBeee5V8nF2S3iAFSCKPkWZL0ztY,1648
+Scrap11888/lib/DataManagement/Exporter.py,sha256=O7BDAnxCXcxNoq5Ut6bl-yDt9Ws4EbddIPXPnF7LP-o,1447
+Scrap11888/lib/DataManagement/Filter.py,sha256=wTa3yNJWuaxB0LRzjA75IhA-EJpolHGZHnfjuk_bAwk,536
+Scrap11888/lib/DataManagement/Importer.py,sha256=MWblwab4fE3QEZmWXaZz5o5MMyFfCcQyR4x9MlqLBJg,644
+Scrap11888/lib/DataManagement/Miner.py,sha256=vGuq_xLF7hudHclocN6UU1-fEo0GbO1pTtz3EBqMwqc,2034
+Scrap11888/lib/DataManagement/Utils.py,sha256=5tZWbLCTQAkqZ8HUOM6grCbVH8qPIS3ybhQQ7YKR5oU,1531
+Scrap11888/lib/DataManagement/__init__.py,sha256=x3gIIh8wJusBnox0W0vUwYISxFbnLE7AMBK6Ihi2q4o,57
+Scrap11888/lib/Decorators/Debugging.py,sha256=vfh_oRMAXTgSL3g9IIFkIOj8oAToXjAJHrnMurvE9Cc,339
+Scrap11888/lib/Decorators/__init__.py,sha256=46qNWoSk_vfKk7rajC2mZRtbAagnvzGueRpT0z3IYkE,31
+Scrap11888/lib/Fetching/QueryMaker.py,sha256=nLqKC4ACFnQ2bxeTmZ1wFtoIclaLtTyoP_6I_wmNiwU,3288
+Scrap11888/lib/Fetching/__init__.py,sha256=QowjZTD4U9bUt0w600Api-htNUXJE4LCZeuyTMD6_zc,35
+Scrap11888/namelists/GR Big.xlsx,sha256=yzmPQXTH4XTUwneyr5oCrsgM3oOQ5XSCeEBU7aLqLpc,24152
+Scrap11888/namelists/GR Small.xlsx,sha256=H7at_TPsSIAmDSoAjJLUC8Pk0hNCSG1dGNYS4qS4a-o,9968
+Scrap11888/res/help_msg.txt,sha256=dg28bkxGdaF2rYFX5-QYpEF-R04b-FoBf8xme8gXADw,374
+Scrap11888/res/icon.ico,sha256=p4b3_gADAHyZah6Sm9W3eZM636_9VpEHy1NVsBlEtHU,101784
+Scrap11888-4.5.dist-info/LICENSE.txt,sha256=BsPXpAcryirrtwd4fHKMFArqByy4lIyyBtralJ09EFY,1065
+Scrap11888-4.5.dist-info/METADATA,sha256=D9AeziwPjScV4bgBtGK_txg5AMTM2G6LqXdNPXTKcTE,2518
+Scrap11888-4.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Scrap11888-4.5.dist-info/entry_points.txt,sha256=5Gnt1QIhQN9pPL-UbI5khwvD9zsdd9xjBcga6tMPxi8,43
+Scrap11888-4.5.dist-info/top_level.txt,sha256=729s5_ogtvEPVJQzPhttuJN7REsg1uOwhRJIcznNkbU,11
+Scrap11888-4.5.dist-info/RECORD,,
