@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+xlsx_validator/__init__.py
+xlsx_validator/func.py
+xlsx_validator/schemas.py
+xlsx_validator.egg-info/PKG-INFO
+xlsx_validator.egg-info/SOURCES.txt
+xlsx_validator.egg-info/dependency_links.txt
+xlsx_validator.egg-info/top_level.txt
