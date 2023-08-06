@@ -1,0 +1,345 @@
+// an attributed description
+message AltDescription
+ {
+  optional source String = 1
+  description String = 2
+ }
+// a tag/value pair with the semantics of OWL Annotation
+message Annotation
+ {
+  tag Uriorcurie = 1
+  value String = 2
+  repeated extensions Extension = 3
+  repeated annotations Annotation = 4
+ }
+// the definition of a class or interface
+message ClassDefinition
+ {
+  name String = 1
+  optional title String = 2
+  repeated idPrefixes Ncname = 3
+  optional definitionUri Uriorcurie = 4
+  repeated aliases String = 5
+  repeated localNames LocalName = 6
+  repeated mappings Uriorcurie = 7
+  repeated exactMappings Uriorcurie = 8
+  repeated closeMappings Uriorcurie = 9
+  repeated relatedMappings Uriorcurie = 10
+  repeated narrowMappings Uriorcurie = 11
+  repeated broadMappings Uriorcurie = 12
+  repeated extensions Extension = 13
+  repeated annotations Annotation = 14
+  optional description String = 15
+  repeated altDescriptions AltDescription = 16
+  optional deprecated String = 17
+  repeated todos String = 18
+  repeated notes String = 19
+  repeated comments String = 20
+  repeated examples Example = 21
+  repeated inSubset SubsetDefinition = 22
+  optional fromSchema Uri = 23
+  optional importedFrom String = 24
+  repeated seeAlso Uriorcurie = 25
+  optional deprecatedElementHasExactReplacement Uriorcurie = 26
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 27
+  optional abstract Boolean = 28
+  optional mixin Boolean = 29
+  repeated valuesFrom Uriorcurie = 30
+  optional createdBy Uriorcurie = 31
+  optional createdOn Datetime = 32
+  optional lastUpdatedOn Datetime = 33
+  optional modifiedBy Uriorcurie = 34
+  optional status Uriorcurie = 35
+  optional stringSerialization String = 36
+  repeated slots SlotDefinition = 37
+  repeated slotUsage SlotDefinition = 38
+  repeated attributes SlotDefinition = 39
+  optional classUri Uriorcurie = 40
+  optional subclassOf Uriorcurie = 41
+  repeated unionOf ClassDefinition = 42
+  repeated definingSlots SlotDefinition = 43
+  optional treeRoot Boolean = 44
+  optional isA ClassDefinition = 45
+  repeated mixins ClassDefinition = 46
+  repeated applyTo ClassDefinition = 47
+ }
+// List of values that constrain the range of a slot
+message EnumDefinition
+ {
+  name String = 1
+  optional title String = 2
+  repeated idPrefixes Ncname = 3
+  optional definitionUri Uriorcurie = 4
+  repeated aliases String = 5
+  repeated localNames LocalName = 6
+  repeated mappings Uriorcurie = 7
+  repeated exactMappings Uriorcurie = 8
+  repeated closeMappings Uriorcurie = 9
+  repeated relatedMappings Uriorcurie = 10
+  repeated narrowMappings Uriorcurie = 11
+  repeated broadMappings Uriorcurie = 12
+  repeated extensions Extension = 13
+  repeated annotations Annotation = 14
+  optional description String = 15
+  repeated altDescriptions AltDescription = 16
+  optional deprecated String = 17
+  repeated todos String = 18
+  repeated notes String = 19
+  repeated comments String = 20
+  repeated examples Example = 21
+  repeated inSubset SubsetDefinition = 22
+  optional fromSchema Uri = 23
+  optional importedFrom String = 24
+  repeated seeAlso Uriorcurie = 25
+  optional deprecatedElementHasExactReplacement Uriorcurie = 26
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 27
+  optional codeSet Uriorcurie = 28
+  optional codeSetTag String = 29
+  optional codeSetVersion String = 30
+  optional pvFormula PvFormulaOptions = 31
+  repeated permissibleValues PermissibleValue = 32
+ }
+// usage example and description
+message Example
+ {
+  optional value String = 1
+  optional description String = 2
+ }
+// a tag/value pair used to add non-model information to an entry
+message Extension
+ {
+  tag Uriorcurie = 1
+  value String = 2
+  repeated extensions Extension = 3
+ }
+// an attributed label
+message LocalName
+ {
+  optional localNameSource Ncname = 1
+  localNameValue String = 2
+ }
+// a permissible value, accompanied by intended text and an optional mapping to a concept URI
+message PermissibleValue
+ {
+  text String = 1
+  optional description String = 2
+  optional meaning Uriorcurie = 3
+  optional isA PermissibleValue = 4
+  repeated mixins PermissibleValue = 5
+  repeated extensions Extension = 6
+  repeated annotations Annotation = 7
+  repeated altDescriptions AltDescription = 8
+  optional deprecated String = 9
+  repeated todos String = 10
+  repeated notes String = 11
+  repeated comments String = 12
+  repeated examples Example = 13
+  repeated inSubset SubsetDefinition = 14
+  optional fromSchema Uri = 15
+  optional importedFrom String = 16
+  repeated seeAlso Uriorcurie = 17
+  optional deprecatedElementHasExactReplacement Uriorcurie = 18
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 19
+ }
+// prefix URI tuple
+message Prefix
+ {
+  optional prefixPrefix Ncname = 1
+  prefixReference Uri = 2
+ }
+// a collection of subset, type, slot and class definitions
+message SchemaDefinition
+ {
+  optional title String = 1
+  repeated idPrefixes Ncname = 2
+  optional definitionUri Uriorcurie = 3
+  repeated aliases String = 4
+  repeated localNames LocalName = 5
+  repeated mappings Uriorcurie = 6
+  repeated exactMappings Uriorcurie = 7
+  repeated closeMappings Uriorcurie = 8
+  repeated relatedMappings Uriorcurie = 9
+  repeated narrowMappings Uriorcurie = 10
+  repeated broadMappings Uriorcurie = 11
+  repeated extensions Extension = 12
+  repeated annotations Annotation = 13
+  optional description String = 14
+  repeated altDescriptions AltDescription = 15
+  optional deprecated String = 16
+  repeated todos String = 17
+  repeated notes String = 18
+  repeated comments String = 19
+  repeated examples Example = 20
+  repeated inSubset SubsetDefinition = 21
+  optional fromSchema Uri = 22
+  optional importedFrom String = 23
+  repeated seeAlso Uriorcurie = 24
+  optional deprecatedElementHasExactReplacement Uriorcurie = 25
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 26
+  id Uri = 27
+  optional version String = 28
+  repeated imports Uriorcurie = 29
+  optional license String = 30
+  repeated prefixes Prefix = 31
+  repeated emitPrefixes Ncname = 32
+  repeated defaultCuriMaps String = 33
+  optional defaultPrefix String = 34
+  optional defaultRange TypeDefinition = 35
+  repeated subsets SubsetDefinition = 36
+  repeated types TypeDefinition = 37
+  repeated enums EnumDefinition = 38
+  repeated slots SlotDefinition = 39
+  repeated classes ClassDefinition = 40
+  optional metamodelVersion String = 41
+  optional sourceFile String = 42
+  optional sourceFileDate Datetime = 43
+  optional sourceFileSize Integer = 44
+  optional generationDate Datetime = 45
+  name Ncname = 46
+ }
+// the definition of a property or a slot
+message SlotDefinition
+ {
+  name String = 1
+  optional title String = 2
+  repeated idPrefixes Ncname = 3
+  optional definitionUri Uriorcurie = 4
+  repeated aliases String = 5
+  repeated localNames LocalName = 6
+  repeated mappings Uriorcurie = 7
+  repeated exactMappings Uriorcurie = 8
+  repeated closeMappings Uriorcurie = 9
+  repeated relatedMappings Uriorcurie = 10
+  repeated narrowMappings Uriorcurie = 11
+  repeated broadMappings Uriorcurie = 12
+  repeated extensions Extension = 13
+  repeated annotations Annotation = 14
+  optional description String = 15
+  repeated altDescriptions AltDescription = 16
+  optional deprecated String = 17
+  repeated todos String = 18
+  repeated notes String = 19
+  repeated comments String = 20
+  repeated examples Example = 21
+  repeated inSubset SubsetDefinition = 22
+  optional fromSchema Uri = 23
+  optional importedFrom String = 24
+  repeated seeAlso Uriorcurie = 25
+  optional deprecatedElementHasExactReplacement Uriorcurie = 26
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 27
+  optional abstract Boolean = 28
+  optional mixin Boolean = 29
+  repeated valuesFrom Uriorcurie = 30
+  optional createdBy Uriorcurie = 31
+  optional createdOn Datetime = 32
+  optional lastUpdatedOn Datetime = 33
+  optional modifiedBy Uriorcurie = 34
+  optional status Uriorcurie = 35
+  optional stringSerialization String = 36
+  optional singularName String = 37
+  optional domain ClassDefinition = 38
+  optional range Element = 39
+  optional slotUri Uriorcurie = 40
+  optional multivalued Boolean = 41
+  optional inherited Boolean = 42
+  optional readonly String = 43
+  optional ifabsent String = 44
+  optional required Boolean = 45
+  optional recommended Boolean = 46
+  optional inlined Boolean = 47
+  optional inlinedAsList Boolean = 48
+  optional key Boolean = 49
+  optional identifier Boolean = 50
+  optional designatesType Boolean = 51
+  optional alias String = 52
+  optional owner Definition = 53
+  repeated domainOf ClassDefinition = 54
+  optional subpropertyOf SlotDefinition = 55
+  optional symmetric Boolean = 56
+  optional inverse SlotDefinition = 57
+  optional isClassField Boolean = 58
+  optional role String = 59
+  optional isUsageSlot Boolean = 60
+  optional usageSlotName String = 61
+  optional minimumValue Integer = 62
+  optional maximumValue Integer = 63
+  optional pattern String = 64
+  optional isA SlotDefinition = 65
+  repeated mixins SlotDefinition = 66
+  repeated applyTo SlotDefinition = 67
+ }
+// the name and description of a subset
+message SubsetDefinition
+ {
+  name String = 1
+  optional title String = 2
+  repeated idPrefixes Ncname = 3
+  optional definitionUri Uriorcurie = 4
+  repeated aliases String = 5
+  repeated localNames LocalName = 6
+  repeated mappings Uriorcurie = 7
+  repeated exactMappings Uriorcurie = 8
+  repeated closeMappings Uriorcurie = 9
+  repeated relatedMappings Uriorcurie = 10
+  repeated narrowMappings Uriorcurie = 11
+  repeated broadMappings Uriorcurie = 12
+  repeated extensions Extension = 13
+  repeated annotations Annotation = 14
+  optional description String = 15
+  repeated altDescriptions AltDescription = 16
+  optional deprecated String = 17
+  repeated todos String = 18
+  repeated notes String = 19
+  repeated comments String = 20
+  repeated examples Example = 21
+  repeated inSubset SubsetDefinition = 22
+  optional fromSchema Uri = 23
+  optional importedFrom String = 24
+  repeated seeAlso Uriorcurie = 25
+  optional deprecatedElementHasExactReplacement Uriorcurie = 26
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 27
+ }
+// A data type definition.
+message TypeDefinition
+ {
+  name String = 1
+  optional title String = 2
+  repeated idPrefixes Ncname = 3
+  optional definitionUri Uriorcurie = 4
+  repeated aliases String = 5
+  repeated localNames LocalName = 6
+  repeated mappings Uriorcurie = 7
+  repeated exactMappings Uriorcurie = 8
+  repeated closeMappings Uriorcurie = 9
+  repeated relatedMappings Uriorcurie = 10
+  repeated narrowMappings Uriorcurie = 11
+  repeated broadMappings Uriorcurie = 12
+  repeated extensions Extension = 13
+  repeated annotations Annotation = 14
+  optional description String = 15
+  repeated altDescriptions AltDescription = 16
+  optional deprecated String = 17
+  repeated todos String = 18
+  repeated notes String = 19
+  repeated comments String = 20
+  repeated examples Example = 21
+  repeated inSubset SubsetDefinition = 22
+  optional fromSchema Uri = 23
+  optional importedFrom String = 24
+  repeated seeAlso Uriorcurie = 25
+  optional deprecatedElementHasExactReplacement Uriorcurie = 26
+  optional deprecatedElementHasPossibleReplacement Uriorcurie = 27
+  optional typeof TypeDefinition = 28
+  optional base String = 29
+  optional uri Uriorcurie = 30
+  optional repr String = 31
+  optional pattern String = 32
+ }
+// a collection of slots whose values uniquely identify an instance of a class
+message UniqueKey
+ {
+  repeated uniqueKeySlots SlotDefinition = 1
+  repeated extensions Extension = 2
+  repeated annotations Annotation = 3
+ }
+
