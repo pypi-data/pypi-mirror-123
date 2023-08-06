@@ -1,0 +1,10 @@
+pandas_xlsx_tables/__init__.py,sha256=9aw7LJYTSzxgNoQd6ulwxv7p_y3evvnKUFOdWOMxPIU,608
+pandas_xlsx_tables/from_xlsx_tables.py,sha256=CDzpsIAb_tvAymFpWQG_RfQSs9wGyglNIOXcIJTEssQ,3258
+pandas_xlsx_tables/to_xlsx_table.py,sha256=OgDMkclSBgwpa62PDX8vq3tjPUIJSDLsfn77vkpxHBY,4397
+pandas_xlsx_tables/utils.py,sha256=W9IwfCWaLwU-ehplt1wMQIPw3eJ9SUe0EB0Tcqh0cHU,4229
+pandas_xlsx_tables-0.0.1b0.dist-info/AUTHORS.md,sha256=nd_pFGnsh0hOWSnc8uidkBT409ERtTkn0V5ygJOGM2g,51
+pandas_xlsx_tables-0.0.1b0.dist-info/LICENSE.txt,sha256=xZuap-j_-YWIO4AvnWGZ7SAN-QOxUmCS0uevl__qywY,1079
+pandas_xlsx_tables-0.0.1b0.dist-info/METADATA,sha256=kuF-GhX8tvPOzBZpylR2Ra3vMkBg-vw5_znsGkgECPs,2221
+pandas_xlsx_tables-0.0.1b0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pandas_xlsx_tables-0.0.1b0.dist-info/top_level.txt,sha256=JrYSZqrqOzXSIpIx4jh4HDn_DAnfZ_-xtC9VmhY9eGY,19
+pandas_xlsx_tables-0.0.1b0.dist-info/RECORD,,

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pandas-xlsx-tables
+Version: 0.0.1b0
+Summary: Add a short description here!
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Thijs Damsma
+Author-email: tdamsma@gmail.com
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+License-File: AUTHORS.md
+Requires-Dist: pandas
+Requires-Dist: openpyxl (>=3)
+Requires-Dist: xlsxwriter
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-sort (>=4.0.0) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-black ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-isort ; extra == 'testing'
+Requires-Dist: pytest-mypy ; extra == 'testing'
+Requires-Dist: pytest-sugar ; extra == 'testing'
+Requires-Dist: tox ; extra == 'testing'
+
+# pandas-xlsx-tables
+
+Even though you might not like it, Excel isn't going anywhere. And Excel with tables is a lot beter than without: Reference columns by name, warnings when datatypes betwee rows change, no more freeze panes, custom filters or issues when you sort one column but not the other.
+
+Out of the box Pandas does not support reading and writing excel tables, and as the API of pandas is already pretty complex. So instead of adding a feature inside Pandas this separte package provides the required utility functions to read and write between Excel Tables and Pandas DataFrames.
+
+!["Excel screenshot](docs/_static/xlsx_table.png)
+
+```python
+>>> from pandas_xlsx_tables import xlsx_table_to_df
+>>> df = xlsx_table_to_df("my_file.xlsx", "Table1")
+>>> df
+     col1 col2
+Row
+0       1    a
+1       2    b
+```
+And the reverse process:
+
+```python
+>>> from pandas_xlsx_tables import df_to_xlsx_table
+>>> df_to_xlsx_table(df, "my_table", header_orientation="diagonal", index=False)
+```
+
+!["Excel screenshot](docs/_static/xlsx_table_2.png)
+
+
