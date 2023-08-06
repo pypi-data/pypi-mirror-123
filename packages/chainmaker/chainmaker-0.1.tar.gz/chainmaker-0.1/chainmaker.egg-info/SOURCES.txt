@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chainmaker/__init__.py
+chainmaker.egg-info/PKG-INFO
+chainmaker.egg-info/SOURCES.txt
+chainmaker.egg-info/dependency_links.txt
+chainmaker.egg-info/top_level.txt
+chainmaker.egg-info/zip-safe
