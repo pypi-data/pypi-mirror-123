@@ -1,0 +1,12 @@
+mpi4py>=2.0
+sys
+os
+functools
+lmfit
+scipy
+despike
+numpy
+qtpy
+pyqtgraph
+decimal
+math
