@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: foran
+Version: 2021.10.15
+Summary: Answering if a local is in front of its remote.
+Home-page: https://github.com/sthagen/foran
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8.3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# foran
+
+Answering if a local is in front of its remote.
+
+The English "in front" may translate to the Danish "foran".
+
+... and the default report stem `foran-eller-bagved` alludes to the English "In front or behind?" question which corresponds to the Danish "Foran eller bagved?"
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
+
+
