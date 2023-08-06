@@ -1,0 +1,206 @@
+- hosts: localhost
+  gather_facts: no
+  connection: ssh
+  vars:
+    identifier: unknown
+    source_path: "/home/jenkins/src/shakenfist/"
+    base_image: "ubuntu:20.04"
+    base_image_user: "ubuntu"
+    keyfile_private: "/home/jenkins/id_ci"
+    keyfile_public: "/home/jenkins/id_ci.pub"
+
+  tasks:
+    - name: Create a network
+      sf_network:
+        netblock: "10.0.0.0/24"
+        name: "{{identifier|truncate(50, True, '---')|replace('_','-')}}"
+        namespace: ci
+      register: cinetwork
+
+    - name: Log network details
+      debug:
+        msg: "Network is {{cinetwork['meta']['uuid']}}"
+
+    - name: Create an instance
+      sf_instance:
+        name: "{{identifier|truncate(50, True, '---')|replace('_','-')}}"
+        cpu: 4
+        ram: 4096
+        disks:
+          - "30@{{base_image}}"
+        networkspecs:
+          - network_uuid="{{cinetwork['meta']['uuid']}}",float=True
+        ssh_key: "{{ lookup('file', keyfile_public) }}"
+        namespace: ci
+        state: present
+      register: imagerebuild
+
+    - name: Add to ansible
+      add_host:
+        hostname: imagerebuild
+        ansible_ssh_host: "{{imagerebuild['meta']['network_interfaces'][0]['floating']}}"
+        ansible_ssh_extra_args: "-o StrictHostKeyChecking=no -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null"
+        ansible_ssh_user: "{{base_image_user}}"
+        ansible_ssh_private_key_file: "{{keyfile_private}}"
+        sf_instance_uuid: "{{imagerebuild['meta']['uuid']}}"
+        sf_network_uuid: "{{imagerebuild['meta']['network_interfaces'][0]['network_uuid']}}"
+        groups: sfall
+
+    - name: Log instance
+      debug:
+        msg: "{{imagerebuild}}"
+
+    - name: Wait for instance to present an "OpenSSH" prompt
+      wait_for:
+        port: 22
+        host: "{{hostvars['imagerebuild']['ansible_ssh_host']}}"
+        search_regex: OpenSSH
+        delay: 10
+
+- hosts: sfall
+  gather_facts: yes
+  become: true
+  vars:
+    source_path: "/home/jenkins/src/shakenfist/"
+
+  tasks:
+    - name: Use CI package cache to speed things up
+      copy:
+        content: |
+          Acquire::http::Proxy "http://192.168.1.50:8000";
+        dest: /etc/apt/apt.conf.d/00proxy
+        owner: root
+        group: root
+        mode: u=r,g=r,o=r
+
+    # I am unsure why I need to manually force this, but I do need to.
+    - name: Force an apt-get update
+      shell: apt-get update
+
+    - name: apt-get dist-upgrade
+      apt:
+        update_cache: yes
+        upgrade: dist
+        autoremove: yes
+
+    # TODO(mikal): dial this back once we have things working.
+    - name: Install dependencies
+      apt:
+        name:
+          [
+            git,
+            python3-dev,
+            python3-grpcio,
+            python3-pip,
+            python3-venv,
+            python3-wheel,
+            python3,
+            pwgen,
+            tox,
+          ]
+        state: latest
+
+- hosts: localhost
+  gather_facts: no
+  connection: ssh
+  vars:
+    identifier: cron
+    base_image_user: "ubuntu"
+    keyfile_private: "/home/jenkins/id_ci"
+    keyfile_public: "/home/jenkins/id_ci.pub"
+    label: "sfci-image"
+
+  tasks:
+    - name: Snapshot the instance
+      sf_snapshot:
+        instance_uuid: "{{hostvars['imagerebuild']['sf_instance_uuid']}}"
+        state: present
+      register: cisnapshot
+
+    - name: Log snapshot details
+      debug:
+        msg: "{{cisnapshot}}"
+
+    - name: Record the snapshot uuid
+      set_fact:
+        snapshot_uuid: "{{cisnapshot['meta']['vda']['blob_uuid']}}"
+
+    - name: Log snapshot uuid
+      debug:
+        msg: "{{hostvars['localhost']['snapshot_uuid']}}"
+
+    - name: Test the snapshot
+      sf_instance:
+        name: "{{identifier|truncate(50, True, '---')|replace('_','-')}}-test"
+        cpu: 4
+        ram: 4096
+        disks:
+          - "30@sf://blob/{{hostvars['localhost']['snapshot_uuid']}}"
+        networkspecs:
+          - network_uuid="{{cinetwork['meta']['uuid']}}",float=True
+        ssh_key: "{{ lookup('file', keyfile_public) }}"
+        namespace: ci
+        state: present
+      register: imagetest
+
+    - name: Add to ansible
+      add_host:
+        hostname: imagetest
+        ansible_ssh_host: "{{imagetest['meta']['network_interfaces'][0]['floating']}}"
+        ansible_ssh_extra_args: "-o StrictHostKeyChecking=no -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null"
+        ansible_ssh_user: "{{base_image_user}}"
+        ansible_ssh_private_key_file: "{{keyfile_private}}"
+        sf_instance_uuid: "{{imagetest['meta']['uuid']}}"
+        sf_network_uuid: "{{imagetest['meta']['network_interfaces'][0]['network_uuid']}}"
+        groups: sfall
+
+    - name: Log instance
+      debug:
+        msg: "{{imagetest}}"
+
+    - name: Wait for test instance to present an "OpenSSH" prompt
+      wait_for:
+        port: 22
+        host: "{{hostvars['imagetest']['ansible_ssh_host']}}"
+        search_regex: OpenSSH
+        delay: 10
+
+- hosts: imagetest
+  gather_facts: no
+  become: true
+
+  tasks:
+    - name: Do a dist-upgrade to ensure that we can sudo and manage packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+        autoremove: yes
+
+- hosts: localhost
+  gather_facts: no
+  connection: ssh
+
+  tasks:
+    # NOTE(mikal): this is obviously a placeholder for now, but it explains
+    # what I need to add to the client to make this work.
+    - name: Add the snapshot to the label
+      shell: |
+        sf-client label update "{{label}}" "{{hostvars['localhost']['snapshot_uuid']}}"
+
+    - name: Delete test instance
+      sf_instance:
+        uuid: "{{hostvars['imagetest']['sf_instance_uuid']}}"
+        namespace: ci
+        state: absent
+
+    - name: Delete build instance
+      sf_instance:
+        uuid: "{{hostvars['imagerebuild']['sf_instance_uuid']}}"
+        namespace: ci
+        state: absent
+
+    - name: Delete network
+      sf_network:
+        uuid: "{{hostvars['imagerebuild']['sf_network_uuid']}}"
+        namespace: ci
+        state: absent
