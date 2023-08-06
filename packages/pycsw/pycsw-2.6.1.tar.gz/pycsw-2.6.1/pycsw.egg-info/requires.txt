@@ -1,0 +1,6 @@
+OWSLib
+Shapely
+geolinks
+lxml
+pyproj
+xmltodict
