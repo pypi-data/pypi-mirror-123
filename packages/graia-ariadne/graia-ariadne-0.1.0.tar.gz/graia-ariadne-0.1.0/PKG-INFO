@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: graia-ariadne
+Version: 0.1.0
+Summary: An elegant mirai-api-http v2 Python SDK.
+Author: BlueGlassBlock
+Author-email: blueglassblock@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: graia-broadcast (>=0.13.1,<0.14.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: typing-extensions (>=3.10.0,<4.0.0)
+Requires-Dist: yarl (>=1.6.3,<2.0.0)
