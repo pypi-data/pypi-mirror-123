@@ -1,0 +1,6 @@
+README.md
+setup.py
+allay.egg-info/PKG-INFO
+allay.egg-info/SOURCES.txt
+allay.egg-info/dependency_links.txt
+allay.egg-info/top_level.txt
