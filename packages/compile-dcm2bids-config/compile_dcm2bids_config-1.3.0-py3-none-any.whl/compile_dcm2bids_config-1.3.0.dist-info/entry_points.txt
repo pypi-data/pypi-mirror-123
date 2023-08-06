@@ -1,0 +1,3 @@
+[console_scripts]
+compile-dcm2bids-config=compile_dcm2bids_config:main
+
