@@ -1,0 +1,9 @@
+README.md
+setup.py
+sd_format/__init__.py
+sd_format/service_data_conversion.py
+sd_format/syntax_of_sd_format.py
+sd_format.egg-info/PKG-INFO
+sd_format.egg-info/SOURCES.txt
+sd_format.egg-info/dependency_links.txt
+sd_format.egg-info/top_level.txt
