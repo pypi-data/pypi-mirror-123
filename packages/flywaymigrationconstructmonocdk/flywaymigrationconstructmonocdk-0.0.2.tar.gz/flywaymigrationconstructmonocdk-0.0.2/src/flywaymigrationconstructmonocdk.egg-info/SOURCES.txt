@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/flywaymigrationconstructmonocdk/__init__.py
+src/flywaymigrationconstructmonocdk/py.typed
+src/flywaymigrationconstructmonocdk.egg-info/PKG-INFO
+src/flywaymigrationconstructmonocdk.egg-info/SOURCES.txt
+src/flywaymigrationconstructmonocdk.egg-info/dependency_links.txt
+src/flywaymigrationconstructmonocdk.egg-info/requires.txt
+src/flywaymigrationconstructmonocdk.egg-info/top_level.txt
+src/flywaymigrationconstructmonocdk/_jsii/__init__.py
+src/flywaymigrationconstructmonocdk/_jsii/flywaymigrationconstructmonocdk@0.0.2.jsii.tgz
