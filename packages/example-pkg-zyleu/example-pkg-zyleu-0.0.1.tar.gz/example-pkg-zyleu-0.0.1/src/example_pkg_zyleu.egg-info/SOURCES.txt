@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/athenatos3/__init__.py
+src/example_pkg_zyleu.egg-info/PKG-INFO
+src/example_pkg_zyleu.egg-info/SOURCES.txt
+src/example_pkg_zyleu.egg-info/dependency_links.txt
+src/example_pkg_zyleu.egg-info/top_level.txt
