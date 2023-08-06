@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+math_eval/Equation.py
+math_eval/__init__.py
+math_eval/math_eval.py
+math_eval/test_math_eval.py
+math_eval.egg-info/PKG-INFO
+math_eval.egg-info/SOURCES.txt
+math_eval.egg-info/dependency_links.txt
+math_eval.egg-info/requires.txt
+math_eval.egg-info/top_level.txt
