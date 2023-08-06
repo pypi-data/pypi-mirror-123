@@ -1,0 +1,3 @@
+[console_scripts]
+ghdorker = GHDorker.dorker:cli_entry
+
