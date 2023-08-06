@@ -1,0 +1,7 @@
+mpi4py>=2.0
+lmfit
+scipy
+despike
+numpy
+qtpy
+pyqtgraph
