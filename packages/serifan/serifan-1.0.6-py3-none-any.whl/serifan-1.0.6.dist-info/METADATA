@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: serifan
+Version: 1.0.6
+Summary: Python wrapper for the Shortboxed API
+License: GPL-3.0-or-later
+Keywords: comics,comic
+Author: Brian Pepple
+Author-email: bdpepple@gmail.com
+Maintainer: Brian Pepple
+Maintainer-email: bdpepple@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: docs
+Requires-Dist: marshmallow (>=3.13.0,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: sphinx-rtd-theme (>=0.5.2,<0.6.0); extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (>=0.7,<0.8); extra == "docs"
+Project-URL: Bug Tracker, https://github.com/bpepple/serifan/issues
+Project-URL: Homepage, https://github.com/bpepple/serifan
+Description-Content-Type: text/x-rst
+
+=======
+Serifan
+=======
+
+.. image:: https://img.shields.io/pypi/v/serifan.svg?logo=PyPI&label=Version&style=flat-square   :alt: PyPI
+    :target: https://pypi.org/project/serifan
+
+.. image:: https://img.shields.io/pypi/pyversions/serifan.svg?logo=Python&label=Python-Versions&style=flat-square
+    :target: https://pypi.org/project/serifan
+
+.. image:: https://img.shields.io/github/license/bpepple/serifan
+    :target: https://opensource.org/licenses/GPL-3.0  
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+Quick Description
+-----------------
+A python wrapper for the shortboxed.com_ API.
+
+.. _shortboxed.com: https://shortboxed.com/
+
+Installation
+------------
+
+PyPi
+~~~~
+
+.. code:: bash
+
+  $ pip3 install --user serifan
+
+Example Usage
+-------------
+.. code-block:: python
+
+    import serifan
+
+    m = serifan.api()
+
+    # Get this weeks comic releases.
+    results = m.new_releases()
+
+    # Print the results
+    for i in results:
+        print(f"{i.title}")
+
+Documentation
+-------------
+- `Read the project documentation <https://serifan.readthedocs.io/en/latest/>`_
+ 
+Bugs/Requests
+-------------
+  
+Please use the `GitHub issue tracker <https://github.com/bpepple/serifan/issues>`_ to submit bugs or request features.
+
+License
+-------
+
+This project is licensed under the `GPLv3 License <LICENSE>`_.
+
