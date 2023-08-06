@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+sqliteparser/__init__.py
+sqliteparser/ast.py
+sqliteparser/exceptions.py
+sqliteparser/lexer.py
+sqliteparser/parser.py
+sqliteparser/utils.py
+sqliteparser.egg-info/PKG-INFO
+sqliteparser.egg-info/SOURCES.txt
+sqliteparser.egg-info/dependency_links.txt
+sqliteparser.egg-info/requires.txt
+sqliteparser.egg-info/top_level.txt
