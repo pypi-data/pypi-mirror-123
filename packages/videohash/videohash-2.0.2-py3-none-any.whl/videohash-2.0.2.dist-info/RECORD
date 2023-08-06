@@ -1,0 +1,13 @@
+videohash/__init__.py,sha256=pCwTRkJ2bhF6wyoGAclLpYz8CK2oKCAi_WbMStgzNQI,4148
+videohash/__version__.py,sha256=_MdNIoGIuZg0YRe6ieOrQgyGHhC4ul6TkAumWM2uiE8,403
+videohash/collagemaker.py,sha256=y_KhlrFtWP_qfVHBCT0HWCCBxImIpRKJku5yDc45mHY,8042
+videohash/downloader.py,sha256=J4QdEeRAqD09yig6vtpx_B0CFsnaz5MUR1UHYWN21wE,4595
+videohash/exceptions.py,sha256=OTwIsoaB8J7MqX4tVnW-NJXmY_7N_du6_oxzO-DVTPo,1641
+videohash/framesextractor.py,sha256=FBa5wH-Wqs_iKAtIBRg9UVzBjhLUTBbbPyIE6BvdoF4,4255
+videohash/utils.py,sha256=gcd6tPQ9ZA0A2EEV61f-zi0_Z01O8U9mfsDVCJeqTos,1046
+videohash/videohash.py,sha256=8XfQFovPtlMPMWmiRNhIKuAlUq2gjtE3MnSsmYzviMU,12273
+videohash-2.0.2.dist-info/LICENSE,sha256=W5mV2ov9qMadIl-BvYuNwQrMzgXfPbViMLKII1ynTqw,1070
+videohash-2.0.2.dist-info/METADATA,sha256=L4wYWHTMTIYqj45Ptqp2Pv5QcckpKbiYZP4BwdICB5k,8043
+videohash-2.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+videohash-2.0.2.dist-info/top_level.txt,sha256=zrdcyKrznHfrrHv6VUwZU7oNAaatR_YZEWNB1U7Iq8M,10
+videohash-2.0.2.dist-info/RECORD,,
