@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <style>
+        #database_info {
+            width: 95%;
+            max-width: 95%;
+            top: 20px;
+            margin: auto;
+            text-align: center
+        }
+
+        #search_menu {
+            width: 95%;
+            max-width: 95%;
+            top: 20px;
+            margin: auto;
+            text-align: center
+        }
+
+        #database_info table {
+            width: 300px;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        #database_info table td {
+            padding: 2px;
+        }
+
+        #search_menu button {
+            width: 90px;
+            max-width: 90px;
+        }
+    </style>
+</head>
+<body>
+<h2 style="text-align: center;">{{ title }}</h2>
+<div id="database_info">
+    <h3>Database Information</h3>
+    <table class="border">
+        <tr class="clickable hover_highlight">
+            <td class="border"><a class="cell-link nocolor" href='/browse/submissions/'>Submissions</a></td>
+            <td class="border"><a class="cell-link nocolor" href='/browse/submissions/'>{{ submissions_total }}</a></td>
+        </tr>
+        <tr class="clickable hover_highlight">
+            <td class="border"><a class="cell-link nocolor" href='/browse/journals/'>Journals</a></td>
+            <td class="border"><a class="cell-link nocolor" href='/browse/journals/'>{{ journals_total }}</a></td>
+        </tr>
+        <tr class="clickable hover_highlight">
+            <td class="border"><a class="cell-link nocolor" href='/browse/users/'>Users</a></td>
+            <td class="border"><a class="cell-link nocolor" href='/browse/users/'>{{ users_total }}</a></td>
+        </tr>
+        <tr>
+            <td class="border">Version</td>
+            <td class="border">{{ version_db }}</td>
+        </tr>
+    </table>
+</div>
+<div id="search_menu">
+    <h3>Search Database</h3>
+    <form action="">
+        <button type="submit" onclick="this.form.action = '/search/submissions'">Submissions</button>
+        <button type="submit" onclick="this.form.action = '/search/journals'">Journals</button>
+        <button type="submit" onclick="this.form.action = '/search/users'">Users</button>
+    </form>
+</div>
+<span style="position: absolute; bottom: 5px; width: 100%; text-align: center">App Version: {{ version }}</span>
+</body>
+</html>
