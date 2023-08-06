@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: django-hub-sdk
+Version: 0.1.0
+Summary: The ISS (International Space Station) aims to be a space station (client) of connection between the microservices of its ecosystem and the authentication and permissions microservice of the user that here is called in the script as Hub.permissions modules / microservices (Hub)
+Home-page: https://github.com/bildvitta/django-hub-sdk
+License: MIT
+Keywords: django,hub,bildvitta
+Author: Guilherme Haynes Howe
+Author-email: zerossb@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: django (>=3.0,<4.0)
+Requires-Dist: djangorestframework
+Requires-Dist: requests2
+Project-URL: Repository, https://github.com/bildvitta/django-hub-sdk
+Description-Content-Type: text/markdown
+
+# django-hub-sdk
+
+The ISS (International Space Station) aims to be a space station (client) of connection between the microservices of its
+ecosystem and the authentication and permissions microservice of the user that here is called in the script as
+Hub.permissions modules / microservices (Hub)
