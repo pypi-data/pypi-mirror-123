@@ -1,0 +1,2 @@
+class ParameterValidationError(Exception):
+    pass
