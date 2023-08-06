@@ -1,0 +1,11 @@
+seaborn
+umap-learn
+hdbscan
+numpy
+pyopencl
+scikit-image
+scikit-learn
+pyclesperanto-prototype==0.9.1
+pandas
+pywebview
+PySimpleGUI
