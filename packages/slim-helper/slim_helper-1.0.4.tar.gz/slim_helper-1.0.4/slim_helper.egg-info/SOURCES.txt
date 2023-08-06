@@ -1,0 +1,9 @@
+README.md
+setup.py
+slim_helper/__init__.py
+slim_helper/db_helper.py
+slim_helper/parallel_helper.py
+slim_helper.egg-info/PKG-INFO
+slim_helper.egg-info/SOURCES.txt
+slim_helper.egg-info/dependency_links.txt
+slim_helper.egg-info/top_level.txt
