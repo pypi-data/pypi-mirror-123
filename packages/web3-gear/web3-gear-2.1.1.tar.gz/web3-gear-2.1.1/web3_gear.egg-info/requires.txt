@@ -1,0 +1,12 @@
+aiohttp
+click
+eth-keys
+eth_utils
+jsonrpcserver
+lru-dict
+pbkdf2
+pycryptodome
+requests
+rlp==0.6.0
+scrypt
+werkzeug
