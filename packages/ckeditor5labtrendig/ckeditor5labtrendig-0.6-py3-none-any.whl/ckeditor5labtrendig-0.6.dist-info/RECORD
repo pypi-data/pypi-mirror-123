@@ -1,0 +1,12 @@
+django_ckeditor_5/__init__.py,sha256=sjJKhNPwhf9C-jil3RC5xKutw36tXOUSNReQWFZObpQ,61
+django_ckeditor_5/fields.py,sha256=u30JhaIGhhG04TdiTi4oojoP2vYeW4a7ySrbRvFPoEU,1554
+django_ckeditor_5/forms.py,sha256=7672vkwbTxsD6kvMxXXO5KYZeHxR1rMkqdC8kGRbM3o,92
+django_ckeditor_5/storage.py,sha256=CEoW264lygwqao0VXLIUUjNOF4s_4YAJrsiRKZ7d9Pg,304
+django_ckeditor_5/urls.py,sha256=GHkUPE1tYV5bVRov6Bext1otbTeIhOLiqkPfVAkL_mw,133
+django_ckeditor_5/views.py,sha256=fmIxNG483wPP2EGxq2D0JYBsQvxKAfssm683PUhe41c,2025
+django_ckeditor_5/widgets.py,sha256=H1GsGfbf9QxaaKXZExzV1oD31dhp2vINhg6GyoL69u0,2022
+ckeditor5labtrendig-0.6.dist-info/LICENSE.txt,sha256=3pwvli-F7V8pWDtLvwBnnGqhBTbuU2f9i9yRXFKIoRI,1487
+ckeditor5labtrendig-0.6.dist-info/METADATA,sha256=xU3LgCIvP2EGfddWXwEoLE2bwksr-hj6eRCf2m_E5uA,5552
+ckeditor5labtrendig-0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ckeditor5labtrendig-0.6.dist-info/top_level.txt,sha256=k4XFLowXfHlVBRuZFh9n6Jw2HjNKXZd_37bBSLSJFiE,18
+ckeditor5labtrendig-0.6.dist-info/RECORD,,
