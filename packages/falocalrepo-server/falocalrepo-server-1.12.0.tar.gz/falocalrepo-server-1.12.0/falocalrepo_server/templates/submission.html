@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <style>
+        #submission_file {
+            width: 95%;
+            max-width: 95%;
+            top: 20px;
+            margin: auto;
+            text-align: center
+        }
+
+        #submission_file img {
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+
+        #submission_file pre {
+            width: 600px;
+            max-width: 600px;
+            margin: auto;
+            text-align: justify;
+            white-space: pre-wrap;
+            padding: 5px;
+        }
+
+        #submission_metadata {
+            width: 95%;
+            max-width: 95%;
+            top: 20px;
+            margin: auto;
+            text-align: center
+        }
+
+        #submission_description {
+            width: 80%;
+            max-width: 600px;
+            top: 20px;
+            margin: auto;
+            text-align: justify;
+        }
+
+        #submission_metadata table {
+            width: 300px;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        #submission_metadata table td {
+            padding: 2px;
+        }
+
+        #submission_metadata .value {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+<div id="submission_file">
+    {% if submission["FILESAVED"] < 10 %}
+        Submission has no file
+    {% elif submission["TYPE"].lower() == "image" %}
+        <a href="/submission/{{ submission["ID"] }}/file/{{ filename_id }}">
+            <img src="/submission/{{ submission["ID"] }}/file/{{ filename_id }}"
+                 alt=""
+                 onerror="$('submission_file').innerText = 'File not found'"
+                 onload="$('download_file').disabled = false">
+        </a>
+    {% elif submission["TYPE"].lower() == "audio" %}
+        <audio src="/submission/{{ submission["ID"] }}/file/{{ filename_id }}"
+               onload="$('download_file').disabled = false"
+               controls>
+            File not found
+        </audio>
+    {% elif file_text is not none %}
+        <pre class="border">{{ file_text }}</pre>
+    {% else %}
+        <a href="/submission/{{ submission["ID"] }}/file/{{ filename_id }}"
+           style="border: 1px solid black; padding: 3px">
+            {{ filename|title }}
+        </a>
+    {% endif %}
+</div>
+<br>
+<div style="text-align: center"><h2>{{ submission["TITLE"] }}</h2></div>
+<br>
+<div id="submission_metadata">
+    <table class="border" style="max-width: 300px">
+        <tr>
+            <td class="border">Author</td>
+            <td class="border overflow value"><a href="/user/{{ submission["AUTHOR"] }}">
+                {{ submission["AUTHOR"] }}
+            </a></td>
+        </tr>
+        <tr>
+            <td class="border">Date</td>
+            <td class="border overflow value">{{ submission["DATE"]|replace("T", " ") }}</td>
+        </tr>
+        <tr>
+            <td class="border">Tags</td>
+            <td class="border overflow value">
+                {% for tag in submission["TAGS"] %}
+                    {% if tag != "" %}
+                        <a href='/search/submissions/?query=%40tags%20%22%7C{{ tag }}%7C%22'>{{ tag }}</a>
+                    {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Category</td>
+            <td class="border overflow value">
+                <a href="/search/submissions/?query=%40category%20%22{{ submission["CATEGORY"] }}%22">
+                    {{ submission["CATEGORY"] }}
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Species</td>
+            <td class="border overflow value">
+                <a href="/search/submissions/?query=%40species%20%22{{ submission["SPECIES"] }}%22">
+                    {{ submission["SPECIES"] }}
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Gender</td>
+            <td class="border overflow value">
+                <a href="/search/submissions/?query=%40gender%20%22{{ submission["GENDER"] }}%22">
+                    {{ submission["GENDER"] }}
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Rating</td>
+            <td class="border overflow value">
+                <a href="/search/submissions/?query=%40rating%20%22{{ submission["RATING"] }}%22">
+                    {{ submission["RATING"] }}
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Folder</td>
+            <td class="border overflow value">
+                <a href="/{{ submission["FOLDER"] }}/{{ submission["AUTHOR"] }}">
+                    {{ submission["FOLDER"] }}
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Favorites</td>
+            <td class="border overflow value">
+                {% for user in submission["FAVORITE"] %}
+                    {% if user != "" %}
+                        <a href="/user/{{ user }}">{{ user }}</a>
+                    {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td class="border">Mentions</td>
+            <td class="border overflow value">
+                {% for user in submission["MENTIONS"] %}
+                    {% if user != "" %}
+                        <a href="/user/{{ user }}">{{ user }}</a>
+                    {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    <br>
+    <form action="/submission/{{ submission["ID"] }}/file/{{ filename_id }}">
+        <button id="download_file" type="submit" {{ "disabled" if submission["FILESAVED"] < 10 }}>
+            Download File
+        </button>
+    </form>
+    <form action="/submission/{{ submission["ID"] }}/zip/submission-{{ "{0:010}".format(submission["ID"]) }}.zip">
+        <button type="submit">Download Submission as ZIP</button>
+    </form>
+    <form action="https://www.furaffinity.net/view/{{ submission["ID"] }}">
+        <button type="submit">Open on Fur Affinity</button>
+    </form>
+    <form id="prevNext" action="">
+        <button type="submit" onclick="this.form.action='/submission/{{ next }}'" {{ "disabled" if not next }}>
+            Next
+        </button>
+        <button type="submit" onclick="this.form.action='/gallery/{{ submission["AUTHOR"] }}'">
+            Gallery
+        </button>
+        <button type="submit" onclick="this.form.action='/submissions/{{ submission["AUTHOR"] }}'">
+            All
+        </button>
+        <button type="submit" onclick="this.form.action='/scraps/{{ submission["AUTHOR"] }}'">
+            Scraps
+        </button>
+        <button type="submit" onclick="this.form.action='/submission/{{ prev }}'" {{ "disabled" if not prev }}>
+            Prev
+        </button>
+    </form>
+</div>
+<br><br>
+<div id="submission_description">
+    {% autoescape false %}
+    {{ submission["DESCRIPTION"] }}
+    {% endautoescape %}
+</div>
+<script>
+    document.querySelectorAll("#submission_description a.iconusername > img")
+        .forEach((icon) => {
+            icon.hidden = true
+            icon.parentElement.innerText = `@${icon.title}`
+        })
+
+    document.querySelectorAll("#submission_description a")
+        .forEach((a) => a.href = a.href.replace(/^https?:\/\/(www\.)?furaffinity\.net\//, "/"))
+
+    window.onload = () => {
+        const dpi = Number(window.devicePixelRatio || 1)
+        if (dpi <= 1) return
+        document.getElementById("submission_description").style.maxWidth = `${600 * (dpi / Math.floor(dpi))}px`
+    }
+</script>
+</body>
+</html>

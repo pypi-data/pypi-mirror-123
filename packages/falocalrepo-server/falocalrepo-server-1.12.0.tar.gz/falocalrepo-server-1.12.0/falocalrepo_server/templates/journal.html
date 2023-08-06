@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <style>
+        #journal_metadata {
+            width: 95%;
+            max-width: 95%;
+            top: 20px;
+            margin: auto;
+            text-align: center
+        }
+
+        #journal_content {
+            width: 80%;
+            max-width: 600px;
+            top: 20px;
+            margin: auto;
+            text-align: justify;
+        }
+
+        #journal_metadata table {
+            width: 300px;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        #journal_metadata table td {
+            padding: 2px;
+        }
+
+        #journal_metadata .value {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+<div id="journal_metadata">
+    <h2>{{ journal["TITLE"] }}</h2>
+    <table class="border" style="max-width: 300px">
+        <tr>
+            <td class="border">Author</td>
+            <td class="overflow value border"><a href="/user/{{ journal["AUTHOR"] }}">
+                {{ journal["AUTHOR"] }}
+            </a></td>
+        </tr>
+        <tr>
+            <td class="border">Date</td>
+            <td class="overflow value border">{{ journal["DATE"]|replace("T", " ") }}</td>
+        </tr>
+        <tr>
+            <td class="border">Mentions</td>
+            <td class="overflow value border">
+                {% for user in journal["MENTIONS"] %}
+                    {% if user != "" %}
+                        <a href="/user/{{ user }}">{{ user }}</a>
+                    {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    <br>
+    <form action="/journal/{{ journal["ID"] }}/zip/journal-{{ "{0:010}".format(journal["ID"]) }}.zip">
+        <button type="submit">Download Journal as ZIP</button>
+    </form>
+    <form action="https://www.furaffinity.net/journal/{{ journal["ID"] }}">
+        <button type="submit">Open on Fur Affinity</button>
+    </form>
+    <form id="prevNext" action="">
+        <button type="submit" onclick="this.form.action='/journal/{{ next }}'" {{ "disabled" if not next }}>
+            Next
+        </button>
+        <button type="submit" onclick="this.form.action='/journals/{{ journal["AUTHOR"] }}'">All</button>
+        <button type="submit" onclick="this.form.action='/journal/{{ prev }}'" {{ "disabled" if not prev }}>
+            Prev
+        </button>
+    </form>
+</div>
+<br><br>
+<div id="journal_content">
+    {% autoescape false %}
+    {{ journal["CONTENT"] }}
+    {% endautoescape %}
+</div>
+<script>
+    document.querySelectorAll("#journal_content a.iconusername > img")
+        .forEach((icon) => {
+            icon.hidden = true
+            icon.parentElement.innerText = `@${icon.title}`
+        })
+
+    document.querySelectorAll("#journal_content a")
+        .forEach((a) => a.href = a.href.replace(/^https?:\/\/(www\.)?furaffinity\.net\//, "/"))
+
+    window.onload = () => {
+        const dpi = Number(window.devicePixelRatio || 1)
+        if (dpi <= 1) return
+        document.getElementById("journal_content").style.maxWidth = `${600 * (dpi / Math.floor(dpi))}px`
+    }
+</script>
+</body>
+</html>
