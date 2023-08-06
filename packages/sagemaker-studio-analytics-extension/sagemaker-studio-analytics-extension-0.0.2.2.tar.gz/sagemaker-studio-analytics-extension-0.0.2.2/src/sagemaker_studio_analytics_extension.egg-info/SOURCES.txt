@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/sagemaker_studio_analytics_extension.egg-info/PKG-INFO
+src/sagemaker_studio_analytics_extension.egg-info/SOURCES.txt
+src/sagemaker_studio_analytics_extension.egg-info/dependency_links.txt
+src/sagemaker_studio_analytics_extension.egg-info/entry_points.txt
+src/sagemaker_studio_analytics_extension.egg-info/requires.txt
+src/sagemaker_studio_analytics_extension.egg-info/top_level.txt
+src/sagemaker_studio_analytics_extension/magics/__init__.py
+src/sagemaker_studio_analytics_extension/magics/sagemaker_analytics.py
+src/sagemaker_studio_analytics_extension/utils/__init__.py
+src/sagemaker_studio_analytics_extension/utils/resource_check.py
+src/sagemaker_studio_analytics_extension/utils/runtime_check.py
