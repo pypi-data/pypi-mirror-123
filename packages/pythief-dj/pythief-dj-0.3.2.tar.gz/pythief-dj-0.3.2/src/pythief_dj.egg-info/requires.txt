@@ -1,0 +1,8 @@
+Click
+flask
+flask-restful
+pydub
+pymitter
+python-dotenv
+pytube
+requests
