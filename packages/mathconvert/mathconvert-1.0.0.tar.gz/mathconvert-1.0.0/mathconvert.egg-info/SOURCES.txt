@@ -1,0 +1,7 @@
+setup.py
+Mathconvert/__init__.py
+Mathconvert/mathconvert.py
+mathconvert.egg-info/PKG-INFO
+mathconvert.egg-info/SOURCES.txt
+mathconvert.egg-info/dependency_links.txt
+mathconvert.egg-info/top_level.txt
