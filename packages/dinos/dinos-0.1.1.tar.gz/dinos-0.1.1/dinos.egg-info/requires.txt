@@ -1,0 +1,11 @@
+exlab
+Cython
+matplotlib
+numpy
+panda3d
+Pillow
+pygame
+pymunk
+scikit-learn
+scipy
+sklearn
