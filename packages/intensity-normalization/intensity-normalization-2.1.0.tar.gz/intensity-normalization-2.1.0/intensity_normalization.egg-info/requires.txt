@@ -1,0 +1,11 @@
+matplotlib
+nibabel
+numpy
+scikit-image
+scikit-learn
+scikit-fuzzy
+scipy
+statsmodels
+
+[ants]
+antspyx>=0.2.7
