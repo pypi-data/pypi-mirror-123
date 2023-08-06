@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: numerosPrim
+Version: 1.0
+Summary: A tool to calculate the prime numbers of a number.
+Home-page: UNKNOWN
+Author: Israel Duran
+Author-email: israel.duran1996@gmail.com
+License: GNU GPLv3
+Keywords: operations prime numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+***** PRIME NUMBERS *****
+
+Este es un simple ejemplo de un paquete Python el cual contiene una funcion para calcular los numeros
+primos entre 1 y n (un numero dado).
+This is free software. 
+You can redistribute or modify it under the license terms of the Free Software Foundation.
+
+
