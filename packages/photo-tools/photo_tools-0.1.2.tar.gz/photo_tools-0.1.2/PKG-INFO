@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: photo_tools
+Version: 0.1.2
+Summary: Utilities for reading and writing metadata from/to local photo files.
+Home-page: https://github.com/tsouchlarakis/photo_tools
+Author: Andoni Sooklaris
+Author-email: andoni.sooklaris@gmail.com
+License: MIT license
+Keywords: photo_tools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+UNKNOWN
+
