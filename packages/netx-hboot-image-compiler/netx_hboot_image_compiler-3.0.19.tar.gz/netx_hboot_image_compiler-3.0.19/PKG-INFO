@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: netx_hboot_image_compiler
+Version: 3.0.19
+Summary: Image compiler for Hilscher netX90 Second-Stage Bootloader
+Home-page: https://github.com/pfox89/netx_hboot_image_compiler.git
+Author: Paul Fox
+Author-email: paul.fox@temposonics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# netx_hboot_image_compiler
+
+This generates second-stage bootloader configurations for the netX90 MCU from Hilscher.
+
+It is based on the hboot_image_compiler tool distributed by Hilscher
+[here](https://github.com/muhkuh-sys/org.muhkuh.tools-hboot_image_compiler). 
+It has been modified to be installable as a standalone module and to be compatible with Python 3.
+
+# Usage
+
+To generate a hwconfig XML patch file from a basic hwconfig XML description:
+```Shell
+python -m netx_boot_image_compiler.hwconfig make_hboot_xml -p netx90_rev1_peripherals.xml hardware_config.xml hardware_config.hboot.xml
+```
+To generate a hwconfig binary image:
+```Shell
+python -m netx_hboot_image_compiler -n NETX90B -A hw_config=hardware_config.hboot.xml top_hboot_image_hwc.xml hardware_config.hwc
+```
+
+
