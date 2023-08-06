@@ -1,0 +1,1 @@
+__metadata__ = "{'args': CompilerArgs, 'file_stack': CheckedFileStack, 'fname': WindowsPath('Aspidites/woma/library.pyx'), 'app_name': WindowsPath('Aspidites/woma/library'), 'project': 'library', 'module_name': 'Aspidites\\woma\\library', 'file_c': 'Aspidites\\woma\\library.c', 'root': WindowsPath('Aspidites/woma'), 'mode': 'x'}"
