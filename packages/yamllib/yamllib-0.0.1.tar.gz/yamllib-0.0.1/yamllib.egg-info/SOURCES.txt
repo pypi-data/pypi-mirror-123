@@ -1,0 +1,14 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+VERSION.txt
+setup.cfg
+setup.py
+yamllib.egg-info/PKG-INFO
+yamllib.egg-info/SOURCES.txt
+yamllib.egg-info/dependency_links.txt
+yamllib.egg-info/entry_points.txt
+yamllib.egg-info/requires.txt
+yamllib.egg-info/top_level.txt
+yamllib.egg-info/zip-safe

@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: yamllib
+Version: 0.0.1
+Summary: A set of YAML helper routines.
+Home-page: http://github.com/metagriffin/yamllib
+Author: metagriffin
+Author-email: mg.pypi@metagriffin.net
+License: GPLv3+
+Description: ===================
+        YAML Helper Library
+        ===================
+        
+        This is a collection of routines that are useful when dealing with
+        YAML files.
+        
+Keywords: YAML helpers
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
