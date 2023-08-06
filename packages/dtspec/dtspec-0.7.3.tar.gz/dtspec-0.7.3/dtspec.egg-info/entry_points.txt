@@ -1,0 +1,3 @@
+[console_scripts]
+dtspec = dtspec.cli:main
+

@@ -1,0 +1,14 @@
+pandas>=1.0
+jsonschema>=3
+colorama
+networkx
+jinja2
+sqlalchemy
+nest_asyncio
+pyyaml
+snowflake-sqlalchemy
+
+[dev]
+
+[test]
+pytest
