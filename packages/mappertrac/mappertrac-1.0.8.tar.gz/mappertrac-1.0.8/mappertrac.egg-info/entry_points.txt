@@ -1,0 +1,3 @@
+[console_scripts]
+mappertrac = mappertrac.cli:main
+
