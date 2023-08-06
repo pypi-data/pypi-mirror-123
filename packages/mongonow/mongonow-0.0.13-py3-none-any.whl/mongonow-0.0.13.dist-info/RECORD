@@ -1,0 +1,15 @@
+mongonow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongonow/client.py,sha256=KvOFx51m7XYiSxARY_GpOFAK-WLxVOu1t7vivI1DdWw,467
+mongonow/collection.py,sha256=IvMiIkscjscUUEGLflKtRJ1-glUb59x0_HBSsC2eYfs,1757
+mongonow/database.py,sha256=3y-ecE8tZPes2cE3TL5eGnf-vtFLmh-KUpVBZl7w4-s,360
+mongonow/filter_parser.py,sha256=a0f4V18u3nph1htLLa7cw2zVXNKhdqFprM5rQHuS75A,505
+mongonow/json_manager.py,sha256=4EvG1xHg6Wo0goWgk7aC557Bb8EultQJRqAi22W6fAs,359
+mongonow/path.py,sha256=WgO-DWWmMcw0fPOGitL6ctwGXIVGE0j5a5JXJRiEJsI,246
+mongonow/query_parser.py,sha256=w9WkQ9j_l5Ojnx-h8psm-YBovxngejp2-zTdNq-lOuw,158
+mongonow/query_tokenizer.py,sha256=6ok-PnnDQDTTt7d5VJaqTGF2E9Wuqm-U8sbpAy45l5E,3928
+mongonow/type_checker.py,sha256=EFEw0-EJshP2HSqFBZm96GomqmcZOMPpScAN8OqgUq8,379
+mongonow-0.0.13.dist-info/LICENSE,sha256=_8JVv4P5hw41RX0oevr3MGjWzbdRVFxWHTrhceXBJto,1095
+mongonow-0.0.13.dist-info/METADATA,sha256=7iOIR84PL1WCPzsvnQNLQfrnh4QycBpJt9LtdV9eD3U,775
+mongonow-0.0.13.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mongonow-0.0.13.dist-info/top_level.txt,sha256=oOTFjppqCALnIaQKAEihlYsfSiLZYFTgi2GgZN7B2Vs,9
+mongonow-0.0.13.dist-info/RECORD,,
