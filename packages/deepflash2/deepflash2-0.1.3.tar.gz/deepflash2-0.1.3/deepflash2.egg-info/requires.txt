@@ -1,0 +1,11 @@
+pip
+packaging
+fastai>=2.1.7
+zarr>=2.0
+scikit-image
+imageio
+ipywidgets
+openpyxl
+albumentations>=1.0.0
+segmentation_models_pytorch>=0.2
+opencv-python>=4.0
