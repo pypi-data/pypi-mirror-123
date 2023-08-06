@@ -1,0 +1,8 @@
+pybind11_mkdoc/__init__.py,sha256=lxmzf24_320xnhMkrnva_WYckEC0LrlWYjdfs8SE2E8,4359
+pybind11_mkdoc/__main__.py,sha256=D6-DMxzvTsGJgw4vGsPoG45RA7nCDPfiqeZJ3GB3mGU,63
+pybind11_mkdoc/mkdoc_lib.py,sha256=JfTUjdmMOo8z2aL-hCCT9jiI-lMh87cVpCiuWfsnMCc,16091
+pybind11_mkdoc-2.6.2.dist-info/entry_points.txt,sha256=MPyfVwfaYhsJ0nTYOx76MciLOkSZ-du8v5xFzDTyLIc,54
+pybind11_mkdoc-2.6.2.dist-info/LICENSE,sha256=j2qWBhw92OBPHwExJw8BrEE6JGY9i2FKxfWRxrCzSiE,1079
+pybind11_mkdoc-2.6.2.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+pybind11_mkdoc-2.6.2.dist-info/METADATA,sha256=ovU44pnA5VmQc8HrF0J_JLzHT6ip4ams0OaqTREuSPQ,875
+pybind11_mkdoc-2.6.2.dist-info/RECORD,,
