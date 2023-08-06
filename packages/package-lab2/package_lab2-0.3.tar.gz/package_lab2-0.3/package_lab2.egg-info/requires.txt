@@ -1,0 +1,2 @@
+matplotlib>=3.4
+matplotlib_iterm2
