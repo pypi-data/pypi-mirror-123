@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    cloudmonkey = cloudmonkey.cloudmonkey:main
+    

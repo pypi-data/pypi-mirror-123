@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: cloudmonkey
+Version: 5.3.3.1
+Summary: Command Line Interface for Apache CloudStack
+Home-page: http://cloudstack.apache.org
+Author: The Apache CloudStack Team
+Author-email: dev@cloudstack.apache.org
+Maintainer: The Apache CloudStack Team
+Maintainer-email: dev@cloudstack.apache.org
+License: ASL 2.0
+Description: Legacy cloudmonkey is a CLI for Apache CloudStack. Please use the latest Go-based CLI from https://github.com/apache/cloudstack-cloudmonkey/releases. Refer to wiki for documentation https://github.com/apache/cloudstack-cloudmonkey/wiki
+Platform: Any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Utilities
