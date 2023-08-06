@@ -1,0 +1,6 @@
+setup.py
+simplearraysumVT/__init__.py
+simplearraysumVT.egg-info/PKG-INFO
+simplearraysumVT.egg-info/SOURCES.txt
+simplearraysumVT.egg-info/dependency_links.txt
+simplearraysumVT.egg-info/top_level.txt
