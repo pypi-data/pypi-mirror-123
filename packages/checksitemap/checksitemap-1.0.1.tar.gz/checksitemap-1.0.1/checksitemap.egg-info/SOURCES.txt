@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+checksitemap
+pyproject.toml
+setup.py
+checksitemap.egg-info/PKG-INFO
+checksitemap.egg-info/SOURCES.txt
+checksitemap.egg-info/dependency_links.txt
+checksitemap.egg-info/requires.txt
+checksitemap.egg-info/top_level.txt
