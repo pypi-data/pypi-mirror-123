@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: zgrobot
+Version: 2.0.0
+Summary: ZgRoBot: writing WeChat Offical Account Robots with fun
+Home-page: https://github.com/pylover7/ZgRobot
+Author: pylover
+Author-email: shuoshuoyun@foxmail.com
+License: MIT License
+Project-URL: Documentation, https://zgrobot.readthedocs.io/zh/stable/
+Project-URL: Source, https://github.com/pylover7/ZgRobot
+Project-URL: Tracker, https://github.com/pylover7/ZgRobot/issues
+Keywords: wechat weixin zgrobot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: bottle
+Requires-Dist: requests
+Requires-Dist: xmltodict
+Provides-Extra: crypto
+Requires-Dist: cryptography ; extra == 'crypto'
+
+====================================
+ZgRoBot
+====================================
+
+.. image:: https://img.shields.io/github/workflow/status/pylover7/ZgRobot/tests?label=tests
+    :target: https://github.com/pylover7/ZgRobot/actions/workflows/test.yml
+.. image:: https://img.shields.io/github/workflow/status/pylover7/ZgRobot/Lint?label=lint
+    :target: https://github.com/pylover7/ZgRobot/actions/workflows/lint.yml
+.. image:: https://img.shields.io/github/downloads/pylover7/ZgRobot/total
+.. image:: https://codecov.io/gh/pylover7/ZgRobot/branch/master/graph/badge.svg?token=JGB56KZ6CU
+    :target:  https://codecov.io/gh/pylover7/ZgRobot
+.. image:: https://img.shields.io/github/stars/pylover7/ZgRobot?style=social
+.. image:: https://img.shields.io/pypi/pyversions/pip
+.. image:: https://img.shields.io/github/commit-activity/m/pylover7/ZgRobot
+.. image:: https://img.shields.io/github/license/pylover7/ZgRobot
+    :alt: GitHub
+
+ZgRoBot 是一个微信公众号开发框架，采用MIT协议发布。
+
+文档在这里： https://zgrobot.readthedocs.io/zh/stable/
+
+安装
+========
+
+推荐使用 pip 进行安装 ::
+
+    pip install zgrobot
+
+Hello World
+=============
+
+一个非常简单的 Hello World 微信公众号，会对收到的所有文本消息回复 Hello World ::
+
+    import zgrobot
+
+    robot = zgrobot.ZgRoBot(token='tokenhere')
+
+    @robot.text
+    def hello_world():
+        return 'Hello World!'
+
+    robot.run()
+    
+Credits 
+=======
+Contributors
+-----------------
+Thank you to all the people who have already contributed. 
+|occontributorimage|
+
+.. |occontributorimage| image:: https://opencollective.com/werobot/contributors.svg?width=890&button=false
+    :target: https://opencollective.com/werobot
+    :alt: Repo Contributors
+
+
