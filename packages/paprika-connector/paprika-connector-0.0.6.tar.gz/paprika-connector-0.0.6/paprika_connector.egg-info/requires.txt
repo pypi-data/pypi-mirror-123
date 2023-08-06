@@ -1,0 +1,10 @@
+
+[mssql]
+pymssql
+pyodbc
+
+[mysql]
+mysqlclient
+
+[postgresql]
+psycopg2-binary

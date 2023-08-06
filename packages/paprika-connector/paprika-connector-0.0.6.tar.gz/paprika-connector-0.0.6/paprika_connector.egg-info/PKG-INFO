@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: paprika-connector
+Version: 0.0.6
+Summary: paprika-connector for connecting to databases using the repository concept
+Home-page: https://github.com/janripke/paprika-connector.git
+Author: Jan Ripke
+Author-email: janripke@gmail.com
+Maintainer: Jan Ripke
+Maintainer-email: janripke@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: mysql
+Provides-Extra: postgresql
+Provides-Extra: mssql
+License-File: LICENSE
+
+UNKNOWN
+
