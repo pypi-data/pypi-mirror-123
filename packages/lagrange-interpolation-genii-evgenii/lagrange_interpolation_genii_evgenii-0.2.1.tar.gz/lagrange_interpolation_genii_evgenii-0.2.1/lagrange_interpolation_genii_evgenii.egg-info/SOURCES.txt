@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lagrange_interpolation/__init__.py
+lagrange_interpolation/module_func.py
+lagrange_interpolation_genii_evgenii.egg-info/PKG-INFO
+lagrange_interpolation_genii_evgenii.egg-info/SOURCES.txt
+lagrange_interpolation_genii_evgenii.egg-info/dependency_links.txt
+lagrange_interpolation_genii_evgenii.egg-info/top_level.txt
