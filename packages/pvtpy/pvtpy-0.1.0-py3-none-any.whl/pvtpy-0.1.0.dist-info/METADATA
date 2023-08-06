@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pvtpy
+Version: 0.1.0
+Summary: Oil&Gas PVT Tool
+License: MIT
+Author: scuervo
+Author-email: scuervo91@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: numpy (>=1.20.3,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.7,<4.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: scipy (==1.6.1)
+Requires-Dist: seaborn (>=0.11.1,<0.12.0)
+Requires-Dist: statsmodels (>=0.12.2,<0.13.0)
