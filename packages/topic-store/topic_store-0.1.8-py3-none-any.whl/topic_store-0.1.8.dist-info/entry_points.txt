@@ -1,0 +1,3 @@
+[console_scripts]
+topic-store-convert = topic_store.convert:_convert_cli
+
