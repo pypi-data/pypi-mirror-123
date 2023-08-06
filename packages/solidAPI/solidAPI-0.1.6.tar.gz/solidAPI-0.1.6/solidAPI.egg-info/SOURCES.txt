@@ -1,0 +1,12 @@
+README.md
+setup.py
+solidAPI/__init__.py
+solidAPI/_base_url.py
+solidAPI/chat.py
+solidAPI/emoji.py
+solidAPI/other.py
+solidAPI/sudo.py
+solidAPI.egg-info/PKG-INFO
+solidAPI.egg-info/SOURCES.txt
+solidAPI.egg-info/dependency_links.txt
+solidAPI.egg-info/top_level.txt
