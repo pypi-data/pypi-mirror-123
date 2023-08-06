@@ -1,0 +1,9 @@
+{% load static %}
+{% load unicms_contexts %}
+
+<{{ title_tag }}>{{ heading.title }}</{{ title_tag }}>
+{% if heading.description %}
+    <{{ description_tag }}>
+        {{ heading.description }}
+    </{{ description_tag }}>
+{% endif %}
