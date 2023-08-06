@@ -1,0 +1,13 @@
+py_to_ts_interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_to_ts_interfaces/__main__.py,sha256=gyW6HWuVFf5nFlSY4sv8g16Z2zDUPKUlfLSK186R-jY,3021
+py_to_ts_interfaces/enums.py,sha256=ycRYON4ChpFm9Us051LOaL4t_CvN8AADX1bghA9viPw,1381
+py_to_ts_interfaces/file_io.py,sha256=fx27Y-vdHKmcv9LZgUDDkQZp6OTxPWZvBjM_dd5GWTQ,514
+py_to_ts_interfaces/interfaces.py,sha256=HqtAWopkDokdFT3ctSiAFNTH9dtLsYuga-9-FHpd7ug,2033
+py_to_ts_interfaces/type_converting.py,sha256=F2yIvHJxepj5d5nCVknpBkmlTj4P0UZgU43bzKqgvd8,707
+py_to_ts_interfaces/utils.py,sha256=qGLTecJ6Ab8dDroLdnxhd5BBrdEgUtcMxdHz8X8r4E8,441
+py_to_ts_interfaces-1.0.4.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+py_to_ts_interfaces-1.0.4.dist-info/METADATA,sha256=s5WzT7BuUQRXt-Edm6d08oIKaSzlmjgdWEwCkdd9gP8,4348
+py_to_ts_interfaces-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_to_ts_interfaces-1.0.4.dist-info/entry_points.txt,sha256=W7toezRkX2znniwjM_yIRAlLoEHbGhy1kTYKbOmlRkY,75
+py_to_ts_interfaces-1.0.4.dist-info/top_level.txt,sha256=XN0v_5cG-6HoSgeFVytZskcFmNiXWzG2fevm4IKk5fE,20
+py_to_ts_interfaces-1.0.4.dist-info/RECORD,,
