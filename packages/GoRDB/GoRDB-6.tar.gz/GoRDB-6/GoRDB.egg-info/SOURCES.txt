@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+GoRDB/GoRDB.py
+GoRDB/__init__.py
+GoRDB.egg-info/PKG-INFO
+GoRDB.egg-info/SOURCES.txt
+GoRDB.egg-info/dependency_links.txt
+GoRDB.egg-info/top_level.txt
