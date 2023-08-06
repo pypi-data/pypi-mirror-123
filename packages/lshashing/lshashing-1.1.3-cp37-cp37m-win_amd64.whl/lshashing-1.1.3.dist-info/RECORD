@@ -1,0 +1,13 @@
+pyxdist.cp37-win_amd64.pyd,sha256=7RpVOt2dLZoiq9lSQpYfGFAjRA8ImgKjbhygKIJzeaQ,155136
+lshashing/__init__.py,sha256=dkgJKa4cqag6RikcyTHdl2bu4DDqXsC7xWQlSYOKqjM,69
+lshashing/hash_table.py,sha256=Vb-fgCsoY0In2TrFRNEd9WuZTFsWRrL_Gt42T_-C9-8,1248
+lshashing/hash_util.py,sha256=egyLhXOqokLRQVH0vbG1QK4t2TjPNORH-S3zNHYM_gg,1980
+lshashing/lsh_random.py,sha256=BefegUc_gxRsW2RaqDXAaXorQcoRuHMTxVpCcD4cEYc,2230
+lshashing/para_util.py,sha256=x9r_9TMzjL86odpsutNDazSNDFjbvD1IGi7J1zDMzkI,1378
+lshashing/pq.py,sha256=TsQvVCSQSnY0iINDUC0EptTGAzJ7nJGUSWGEa1bsvSM,504
+lshashing/util.py,sha256=Ft4Eh18WiiE4KFXkoTeAyExx9EKHKfW-c4r7j_ZPPpo,1804
+lshashing-1.1.3.dist-info/LICENSE,sha256=Ex-5U7UJo4b2b_pRkn23uMZUsKy9G6QQ-K07qsNW_4U,1094
+lshashing-1.1.3.dist-info/METADATA,sha256=s8ZwfbcXG2acbWKnHJ69hAHhBi9ZAu_YftrJ4-1230k,6373
+lshashing-1.1.3.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+lshashing-1.1.3.dist-info/top_level.txt,sha256=GscWsA42t5GqNbmMW3fid2PMF3CPDtK0lhd5pOGyFoQ,18
+lshashing-1.1.3.dist-info/RECORD,,
