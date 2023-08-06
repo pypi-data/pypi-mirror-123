@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: grinding-lib
+Version: 0.1.0
+Summary: Demo Python Library for Siemens Grinding project
+Home-page: UNKNOWN
+Author: Me
+License: DPA
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: time
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: h5py
+Requires-Dist: tqdm
+Requires-Dist: os
+Requires-Dist: tensorflow
+Requires-Dist: matplotlib
+Requires-Dist: keras
+Requires-Dist: librosa
+Requires-Dist: scipy
+Requires-Dist: gc
+Requires-Dist: joblib
+Requires-Dist: re
+Requires-Dist: seaborn
+Requires-Dist: pyAudioAnalysis
+Requires-Dist: statistics
+Requires-Dist: soundfile
+Requires-Dist: shutil
+Requires-Dist: sound-waves
+Requires-Dist: sys
+Requires-Dist: warnings
+
+In-house Python Library built to be used for Siemens Grinding project
+
+
