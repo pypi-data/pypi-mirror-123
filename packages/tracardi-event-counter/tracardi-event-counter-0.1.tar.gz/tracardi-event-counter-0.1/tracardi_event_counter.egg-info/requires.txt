@@ -1,0 +1,3 @@
+tracardi-plugin-sdk
+tracardi
+pytimeparse
