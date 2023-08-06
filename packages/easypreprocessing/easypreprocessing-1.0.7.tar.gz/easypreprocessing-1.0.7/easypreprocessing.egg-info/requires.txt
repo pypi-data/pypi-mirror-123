@@ -1,0 +1,6 @@
+numpy
+pandas
+seaborn
+sklearn
+kneed
+imbalanced-learn
