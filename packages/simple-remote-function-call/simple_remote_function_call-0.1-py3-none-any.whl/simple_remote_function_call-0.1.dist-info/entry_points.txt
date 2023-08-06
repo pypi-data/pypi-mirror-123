@@ -1,0 +1,3 @@
+[console_scripts]
+srfc_start = simple_remote_function_call:start_server
+

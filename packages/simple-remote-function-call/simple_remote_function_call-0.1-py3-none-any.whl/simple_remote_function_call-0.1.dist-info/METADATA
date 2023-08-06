@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: simple-remote-function-call
+Version: 0.1
+Summary: A simple remote function call server and client.
+Home-page: https://github.com/faberf/simple_remote_function_call/
+Author: Fynn Firouz Faber
+Author-email: faberf@ethz.ch
+License: MIT
+Keywords: remote server client function
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: flask
+Requires-Dist: waitress
+
+After installation, the server can be run using srfc_start. The client 
+
