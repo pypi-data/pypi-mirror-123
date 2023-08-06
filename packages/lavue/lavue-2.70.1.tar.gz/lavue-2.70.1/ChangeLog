@@ -1,0 +1,1583 @@
+2021-10-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for changing RGB/noRGB
+	* tagged as 2.70.1
+
+2021-10-15 Jan Kotanski <jan.kotanski@desy.de>
+	* add motors tracking in the MoveMotor tool
+	* tagged as 2.70.0
+
+2021-10-12 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for gradients in the multi channel gradient color mode
+	* tagged as 2.69.1
+
+2021-10-11 Jan Kotanski <jan.kotanski@desy.de>
+	* add a multi channel gradient color mode
+	* tagged as 2.69.0
+
+2021-09-29 Jan Kotanski <jan.kotanski@desy.de>
+	* add a reset button to the MoveMotors tool
+	* add nansum with nan result
+	* add fix for setting RGB histograms from command-line
+	* remove reseting RGB tools during the switch
+	* tagged as 2.68.0
+
+2021-09-28 Jan Kotanski <jan.kotanski@desy.de>
+	* add WeightedSum filter
+	* add help about RGB histograms
+	* tagged as 2.67.0
+
+2021-09-21 Jan Kotanski <jan.kotanski@desy.de>
+	* make labels of intensity levels dynamic in the RGB mode
+	* add setting intensity channel levels from command line interface
+	* tagged as 2.66.2
+
+2021-09-16 Jan Kotanski <jan.kotanski@desy.de>
+	* convert maximal value of intensity level values to the default ones
+	* add cloud hints mono/RGB radio buttons
+	* fix setting intensity levels when histogram is off
+	* tagged as 2.66.1
+
+2021-09-14 Jan Kotanski <jan.kotanski@desy.de>
+	* add RGB histograms for pyqtgraph
+	* adopt specialized tools for RGB images
+	* tagged as 2.66.0
+
+2021-09-06 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for passing results of the Maxima tool
+	* fix deprecation warnings
+	* tagged as 2.65.1
+
+2021-08-31 Jan Kotanski <jan.kotanski@desy.de>
+	* move the general tools into ScrollArea
+	* fix for storing autofactor
+	* tagged as 2.65.0
+
+2021-08-06 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for fetching metadata in partial image source
+	* tagged as 2.64.2
+
+2021-08-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add mutex for PyTine.get command in imageSources
+	* use TIFLoader when fabio does not work
+	* tagged as 2.64.1
+
+2021-07-30 Jan Kotanski <jan.kotanski@desy.de>
+	* add the --no-space-instance command line parameter
+	* improve implementation of the currenttime() methods with tzlocal import
+	* tagged as 2.64.0
+
+2021-06-11 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for py2 H5CppVirtualFieldLayout call
+	* tagged as 2.63.3
+
+2021-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for cbf reading
+	* tagged as 2.63.2
+
+2021-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for loading cbf metadata in py3
+	* tagged as 2.63.1
+
+2021-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* load cbf memory data with fabio 0.11.0 if available
+	* tagged as 2.63.0
+
+2021-05-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for sourcepath for asapo image source
+	* tagged as 2.62.1
+
+2021-05-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add sourcepath for asapo image source
+	* tagged as 2.62.0
+
+2021-04-30 Jan Kotanski <jan.kotanski@desy.de>
+	* remove bytearray flag
+	* tagged as 2.61.1
+
+2021-04-09 Jan Kotanski <jan.kotanski@desy.de>
+	* maximal type value added to a negative mask value
+	* update h5 wrappers
+	* tagged as 2.61.0
+
+2021-04-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for nexus files in  Hidra image source
+	* add milliseconds to http image source
+	* provides to BytesIO only bytes arrays
+	* tagged as 2.60.0
+
+2021-03-22 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for h5file:/ scheme in Tango File image source
+	* add support for asapo 2020.12.0
+	* tagged as 2.59.0
+
+2021-03-05 Jan Kotanski <jan.kotanski@desy.de>
+	* fix typo in LiveViewer.__backgroundscale
+	* tagged as 2.58.1
+
+2021-03-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add multiplicative scaling factors for dark and bright field images
+	* tagged as 2.58.0
+
+2021-02-26 Jan Kotanski <jan.kotanski@desy.de>
+	* add DATA_ARRAY decorder
+	* generate images in Test image source only on connect
+	* tagged as 2.57.0
+
+2021-02-23 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for file:/ scheme in Tango File image source
+	* update h5writers
+	* catching non BaseException fixed
+	* tagged as 2.56.0
+
+2021-02-17 Jan Kotanski <jan.kotanski@desy.de>
+	* Ignore disabled image sources in the multi source mode
+	* fix hiding the color channel widget
+	* tagged as 2.55.0
+
+2021-02-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add gradients from pyqtgraph 0.11.1
+	* fix for removing Item Gradient, i.e. seg fault
+	* tagged as 2.54.3
+
+2021-02-01 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for reseting color channel names
+	* tagged as 2.54.2
+
+2021-01-28 Jan Kotanski <jan.kotanski@desy.de>
+	* update h5cppwriter and h5pywriter modules
+	* tagged as 2.54.1
+
+2021-01-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add load_file from a memory buffer for h5cpp module which works python-pninexus v1.3.2
+	* remove support for the old python-pni module
+	* tagged as 2.54.0
+
+2020-12-07 Jan Kotanski <jan.kotanski@desy.de>
+	* support nexus file in the asapo image source
+	* add load_file from a memory buffer for h5py module
+	* add FTFile.default_field() and FTAttributeManager.names() methods
+	* tagged as 2.53.0
+
+2020-12-02 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for get_substream_list for ASAPO 20.09.1
+	* tagged as 2.52.5
+
+2020-12-01 Jan Kotanski <jan.kotanski@desy.de>
+	* set asapo broker timeout
+	* tagged as 2.52.4
+
+2020-11-30 Jan Kotanski <jan.kotanski@desy.de>
+	* fix fetching metadata from CBF files in py3
+	* tagged as 2.52.3
+
+2020-11-30 Jan Kotanski <jan.kotanski@desy.de>
+	* remove printouts
+	* tagged as 2.52.2
+
+2020-11-26 Jan Kotanski <jan.kotanski@desy.de>
+	* add ASAPO help
+	* tagged as 2.52.1
+
+2020-11-25 Jan Kotanski <jan.kotanski@desy.de>
+	* add ASAPO image source
+	* tagged as 2.52.0
+
+2020-10-21 Jan Kotanski <jan.kotanski@desy.de>
+	* change PyTango to tango
+	* tagged as 2.51.0
+
+2020-10-20 Jan Kotanski <jan.kotanski@desy.de>
+	* remove cffi
+	* tagged as 2.50.1
+
+2020-10-20 Jan Kotanski <jan.kotanski@desy.de>
+	* change QThread to OmniQThread
+	* tagged as 2.50.0
+
+2020-10-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add fix for reload files
+	* tagged as 2.49.4
+
+2020-10-13 Jan Kotanski <jan.kotanski@desy.de>
+	* update help and tips
+	* tagged as 2.49.3
+
+2020-10-09 Jan Kotanski <jan.kotanski@desy.de>
+	* fix setting bright/dark field correction from LavueController
+	* tagged as 2.49.2
+
+2020-10-07 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for bright/dark field correction
+	* tagged as 2.49.1
+
+2020-10-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add reload button
+	* add bright/dark field correction
+	* add growing_dim and frame parameter to the imagefile command-line option
+	* tagged as 2.49.0
+
+2020-09-29 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for updating of toolconfig
+	* implement configuration for specialized tools
+	* add configuration path, organization and domain to command-line parameters
+	* fix automatic change of datasources in ZMQ stream
+	* tagged as 2.48.0
+
+2020-09-17 Jan Kotanski <jan.kotanski@desy.de>
+	* add configuration of specialized tools
+	* implement configuration for 1d-plot
+	* add legend to 1d-plot
+	* tagged as 2.47.0
+
+2020-09-15 Jan Kotanski <jan.kotanski@desy.de>
+	* split tests as a workaround for theading problem
+	* tagged as 2.46.1
+
+2020-09-14 Jan Kotanski <jan.kotanski@desy.de>
+	* add a buffer for diffractograms
+	* rename polarscale to toolscale
+	* add mapping of images from different sources to color channels
+	* split tests as a workaround for threading problem
+	* tagged as 2.46.0
+
+2020-09-03 Janf Kotanski <jan.kotanski@desy.de>
+	* fix multi-source mode for 1D image sources
+	* tagged as 2.45.2
+
+2020-09-02 Janf Kotanski <jan.kotanski@desy.de>
+	* fix for acceleration of memory buffer sum
+	* tagged as 2.45.1
+
+2020-09-01 Janf Kotanski <jan.kotanski@desy.de>
+	* accelerate memory buffer sum
+	* tagged as 2.45.0
+
+2020-08-14 Janf Kotanski <jan.kotanski@desy.de>
+	* add Filters widget help
+	* tagged as 2.44.4
+
+2020-08-12 Jan Kotanski <jan.kotanski@desy.de>
+	* update ROI help
+	* tagged as 2.44.3
+
+2020-08-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add possibility of negative frames to nexus file source configuration
+	* change order of widgets in nexus file image source
+	* tagged as 2.44.2
+
+2020-08-04 Jan Kotanski <jan.kotanski@desy.de>
+	* update NeXus File image source help
+	* tagged as 2.44.1
+
+2020-07-31 Jan Kotanski <jan.kotanski@desy.de>
+	* add a frame widget to NeXus File image source
+	* fix passing sourceStateChanged signal
+	* add link to the changelog file in LaVue help
+	* tagged as 2.44.0
+
+2020-07-28 Jan Kotanski <jan.kotanski@desy.de>
+	* add tests for Tango File image source
+	* add tests for Hidra image source
+	* add tests for Http image source
+	* add tests for PyTine image source
+	* add tests for Epics image source
+	* improve warning message for a missing file name in TangoFileSource
+	* add "File not found" as a no-image message in the HTTP source
+	* tagged as 2.43.9
+
+2020-07-24 Jan Kotanski <jan.kotanski@desy.de>
+	* improve fetching units from nexus files
+	* add tests for NXSLastImage parameter
+	* add tests for Nexus File image source
+	* add tests for Tango Events image source
+	* tagged as 2.43.8
+
+2020-07-14 Jan Kotanski <jan.kotanski@desy.de>
+	* fix zmq alias name
+	* allow host:port/topic syntax in the zmq configuration
+	* fix fetching security stream port for py3
+	* add tests for tango attribute image source
+	* add tests for ZMQ stream image source
+	* tagged as 2.43.7
+
+2020-07-01 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for 1/energy when energy is 0
+	* tagged as 2.43.6
+
+2020-07-01 Jan Kotanski <jan.kotanski@desy.de>
+	* synchronize  detector settings with pyFAI.AI
+	* tagged as 2.43.5
+
+2020-06-26 Jan Kotanski <jan.kotanski@desy.de>
+	* add ToolResults support for QROIProj tool
+	* add ToolResults support for Intensity and RGBIntensity tools
+	* fix for finding diffractogram range for full azimuth angle
+	* tagged as 2.43.4
+
+2020-06-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix integaration range for r_ units with tilt
+	* add ToolResults support for OneDPLot
+	* add ToolResults support for Maxima
+	* tagged as 2.43.3
+
+2020-06-24 Jan Kotanski <jan.kotanski@desy.de>
+	* fix double-increase of diffractogram number
+	* tagged as 2.43.2
+
+2020-06-24 Jan Kotanski <jan.kotanski@desy.de>
+	* add ranges to Diffractogram ToolResults
+	* add ToolResults support for Projections
+	* add ToolResults support for LineCut
+	* tagged as 2.43.1
+
+2020-06-22 Jan Kotanski <jan.kotanski@desy.de>
+	* add LavueController.ToolResults
+	* add peak finder for diffractogram
+	* tagged as 2.43.0
+
+2020-06-19 Jan Kotanski <jan.kotanski@desy.de>
+	* update widgets in the config dialog
+	* add diffractogram to command line tools
+	* tagged as 2.42.3
+
+2020-06-18 Jan Kotanski <jan.kotanski@desy.de>
+	* set maximal radial range
+	* tagged as 2.42.2
+
+2020-06-18 Jan Kotanski <jan.kotanski@desy.de>
+	* add r [pixel] unit to diffractogram tool
+	* add setting of colors to the diffractogram tool
+	* tagged as 2.42.1
+
+2020-06-16 Jan Kotanski <jan.kotanski@desy.de>
+	* add diffractogram tool
+	* and single roi aliases
+	* fix freeze 1d plot in log scale
+	* add progressbar for range calculation
+	* tagged as 2.42.0
+
+2020-05-21 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for load file names from command lines
+	* tagged as 2.41.5
+
+2020-05-20 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for negative offset values in multi-source mode
+	* tagged as 2.41.4
+
+2020-05-20 Jan Kotanski <jan.kotanski@desy.de>
+	* show widget if the corresponding options is set
+	* improve ChannekGroupBox changeView()
+	* tagged as 2.41.3
+
+2020-04-02 Jan Kotanski <jan.kotanski@desy.de>
+	* update help widget
+	* tagged as 2.41.2
+
+2020-04-01 Jan Kotanski <jan.kotanski@desy.de>
+	* add polling interval for Parameters tool to the configuration
+	* add support for non-scalar parameters
+	* change layout of Parameters tool
+	* tagged as 2.41.1
+
+2020-03-31 Jan Kotanski <jan.kotanski@desy.de>
+	* add Parameters tool
+	* tagged as 2.41.0
+
+2020-03-23 Jan Kotanski <jan.kotanski@desy.de>
+	* fix auto levels when histogram is off
+	* fix for [un-]starred icons when fromTheme icons are not available
+	* tagged as 2.40.3
+
+2020-03-20 Jan Kotanski <jan.kotanski@desy.de>
+	* fix issue for pyqt4
+	* fixes for image source combobox and adding image sources
+	* tagged as 2.40.2
+
+2020-03-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for configuration state for py3
+	* tagged as 2.40.1
+
+2020-03-19 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for reading LavueState in LavueController
+	* tagged as 2.40.0
+
+2020-03-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add PixelSizeX and PixelSizeY to LavueController
+	* add support for changing logging level from LavueController
+	* catch exceptions from paint method
+	* tagged as 2.39.0
+
+2020-03-12 Jan Kotanski <jan.kotanski@desy.de>
+	* remove callback on disconnect Tango Events
+	* tagged as 2.38.2
+
+2020-03-10 Jan Kotanski <jan.kotanski@desy.de>
+	* fix deadlock problem in  unsubscribe tango events
+	* tagged as 2.38.1
+
+2020-03-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add relative float rotation for image sources
+	* tagged as 2.38.0
+
+2020-03-03 Jan Kotanski <jan.kotanski@desy.de>
+	* add timeout to HTTPsource back
+	* do not interrupt  HTTP connection on 'Image not available'
+	* tagged as 2.37.2
+
+2020-03-01 Jan Kotanski <jan.kotanski@desy.de>
+	* revert applying timeout for HTTP
+	* tagged as 2.37.1
+
+2020-02-28 Jan Kotanski <jan.kotanski@desy.de>
+	* add relative transformations for image sources
+	* skip execute closeEvent twice
+	* tagged as 2.37.0
+
+2020-02-27 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for loading Nexus files with unknown extension
+	* add @debugmethod statement back
+	* add timeout tho HTTPsource
+	* tagged as 2.36.1
+
+2020-02-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add support DATA_READY_EVENT in Tango Events image source
+	* tagged as 2.36.0
+
+2020-02-26 Jan Kotanski <jan.kotanski@desy.de>
+	* tune long debug printout
+	* tagged as 2.35.8
+
+2020-02-26 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for debug class method
+	* tagged as 2.35.7
+
+2020-02-26 Jan Kotanski <jan.kotanski@desy.de>
+	* impove logger and add liveViewer.sardanaUtils and imageSource logging
+	* make py2/py3 compatibility for sardana
+	* tagged as 2.35.6
+
+2020-02-25 Jan Kotanski <jan.kotanski@desy.de>
+	* add globallogger
+	* impove epicspv configuration
+	* tagged as 2.35.5
+
+2020-02-22 Jan Kotanski <jan.kotanski@desy.de>
+	* update help
+	* tagged as 2.35.4
+
+2020-02-21 Jan Kotanski <jan.kotanski@desy.de>
+	* set refreshrate for tine
+	* tagged as 2.35.3
+
+2020-02-20 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for source status
+	* tagged as 2.35.2
+
+2020-02-20 Jan Kotanski <jan.kotanski@desy.de>
+	* tune widget text
+	* tagged as 2.35.1
+
+2020-02-20 Jan Kotanski <jan.kotanski@desy.de>
+	* add Tine Property image source
+	* add Epics PV image source
+	* tagged as 2.35.0
+
+2020-02-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add float type option
+	* add configuration for crosshair locker
+	* improve warning catching
+	* tagged as 2.34.0
+
+2020-01-31 Jan Kotanski <jan.kotanski@desy.de>
+	* impove setting of sardana variables
+	* tagged as 2.33.12
+
+2020-01-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fix shape of LIMA VIDEO decoder
+	* tagged as 2.33.11
+
+2020-01-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fix reshaping of LIMA VIDEO images
+	* tagged as 2.33.10
+
+2020-01-14 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for variance with NAN
+	* tagged as 2.33.9
+
+2020-01-10 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for start/stop button update
+	* tagged as 2.33.8
+
+2020-01-10 Jan Kotanski <jan.kotanski@desy.de>
+	* update help
+	* add support for .hdf files
+	* tagged as 2.33.7
+
+2020-01-09 Jan Kotanski <jan.kotanski@desy.de>
+	* hide/show image step
+	* catch nan warnings from image tools
+	* remove unneede images from help
+	* tagged as 2.33.6
+
+2020-01-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add icons to buttons
+	* tagged as 2.33.5
+
+2020-01-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add checks for endianness
+	* tagged as 2.33.4
+
+2020-01-07 Jan Kotanski <jan.kotanski@desy.de>
+	* resize images in the help
+	* tagged as 2.33.3
+
+2020-01-03 Jan Kotanski <jan.kotanski@desy.de>
+	* make qrc as a non module
+	* tagged as 2.33.2
+
+2020-01-03 Jan Kotanski <jan.kotanski@desy.de>
+	* add rcc file
+	* tagged as 2.33.1
+
+2020-01-03 Jan Kotanski <jan.kotanski@desy.de>
+	* add logger
+	* add help widget
+	* tagged as 2.33.0
+
+2019-12-20 Jan Kotanski <jan.kotanski@desy.de>
+	* adopt rot45 to nan mask
+	* tagged as 2.32.1
+
+2019-12-20 Jan Kotanski <jan.kotanski@desy.de>
+	* add masking as NAN
+	* tagged as 2.32.0
+
+2019-12-18 Jan Kotanski <jan.kotanski@desy.de>
+	* replot image after high value mask change
+	* change Window Range to Range Window
+	* tagged as 2.31.5
+
+2019-12-13 Jan Kotanski <jan.kotanski@desy.de>
+	* show frame number for lima images
+	* tagged as 2.31.4
+
+2019-12-13 Jan Kotanski <jan.kotanski@desy.de>
+	* fix dataFetcher in liveviewer
+	* tagged as 2.31.3
+
+2019-12-13 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for setting combobox order
+	* tagged as 2.31.2
+
+2019-12-06 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for update stars of new tabs
+	* tagged as 2.31.1
+
+2019-12-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add checkboxes for tab widgets
+	* make cross-hair locker optional
+	* set offset for the first module as well
+	* set CrossCursor for the 2d image
+	* tagged as 2.31.0
+
+2019-12-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add multi-sources option
+	* add --offset command-line argument
+	* tagged as 2.30.0
+
+2019-11-29 Jan Kotanski <jan.kotanski@desy.de>
+	* add process missing command-line options for down-sampling
+	* tagged as 2.29.2
+
+2019-11-29 Jan Kotanski <jan.kotanski@desy.de>
+	* add process events on apply options
+	* set window range scaling forall tools
+	* add checkbox to high value mask
+	* tagged as 2.29.1
+
+2019-11-22 Jan Kotanski <jan.kotanski@desy.de>
+	* add window range and down-sampling
+	* tagged as 2.29.0
+
+2019-11-21 Jan Kotanski <jan.kotanski@desy.de>
+	* fix another issue for hidra image source
+	* tagged as 2.28.2
+
+2019-11-18 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for hidra image source
+	* tagged as 2.28.1
+
+2019-11-15 Jan Kotanski <jan.kotanski@desy.de>
+	* add image nexus exporter
+	* tagged as 2.28.0
+
+2019-11-14 Jan Kotanski <jan.kotanski@desy.de>
+	* add possibility to unset auto levels
+	* fixes for crashes of levels with wrong arguments
+	* tagged as 2.27.2
+
+2019-11-14 Jan Kotanski <jan.kotanski@desy.de>
+	* skip disconnected image source
+	* improve passing configuration to image source
+	* tagged as 2.27.1
+
+2019-11-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add freeze and clear actions for bottomplot in LineCut
+	* tagged as 2.27.0
+
+2019-11-13 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for showing frame widgets if fid is 0
+	* tagged as 2.26.1
+
+2019-11-13 Jan Kotanski <jan.kotanski@desy.de>
+	* rearrange frame widgets
+	* restore frame config on a fail of loading a file
+	* add frame widgets for none-nexus files
+	* show framerate only if image source is on
+	* tagged as 2.26.0
+
+2019-11-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add ToolRefreshTime to settings
+	* tagged as 2.25.0
+
+2019-11-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add --memory-buffer command-line parameter
+	* add --channel command-line parameter
+	* tagged as 2.24.0
+
+2019-11-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add tab focus in configuration widget
+	* tagged as 2.23.2
+
+2019-11-06 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for maximal memory buffer size
+	* tagged as 2.23.1
+
+2019-11-06 Jan Kotanski <jan.kotanski@desy.de>
+	* add maximal memory buffer size
+	* tagged as 2.23.0
+
+2019-11-05 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for reseting memory buffer
+	* tagged as 2.22.1
+
+2019-11-05 Jan Kotanski <jan.kotanski@desy.de>
+	* set lazy slider to default
+	* add memory buffer
+	* tagged as 2.22.0
+
+2019-10-29 Jan Kotanski <jan.kotanski@desy.de>
+	* add calcvariance switch
+	* tagged as 2.21.0
+
+2019-10-28 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for switching tools between rgb and not rgb
+	* tagged as 2.20.1
+
+2019-10-28 Jan Kotanski <jan.kotanski@desy.de>
+	* add LavueState to LavueController
+	* tagged as 2.20.0
+
+2019-10-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for max of None in python3
+	* tagged as 2.19.2
+
+2019-10-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix a bug for unset geometry parameters
+	* tagged as 2.19.1
+
+2019-10-24 Jan Kotanski <jan.kotanski@desy.de>
+	* add step to frame slide
+	* tagged as 2.19.0
+
+2019-10-24 Jan Kotanski <jan.kotanski@desy.de>
+	* fix paths for windows
+	* tagged as 2.18.1
+
+2019-10-23 Jan Kotanski <jan.kotanski@desy.de>
+	* add selection of image source widgets
+	* add selection of tool widgets
+	* show real frame rate
+	* add bounds to projections tools
+	* tagged as 2.18.0
+
+2019-10-17 Jan Kotanski <jan.kotanski@desy.de>
+	* catch expceptions from getHistogram
+	* tagged as 2.17.2
+
+2019-10-15 Jan Kotanski <jan.kotanski@desy.de>
+	* add requests to dependences
+	* tagged as 2.17.1
+
+2019-10-11 Jan Kotanski <jan.kotanski@desy.de>
+	* add posibility to switch off default hidra detector server list
+	* fix for disable Start button just after initialization
+	* tagged as 2.17.0
+
+2019-10-10 Jan Kotanski <jan.kotanski@desy.de>
+	* updateLayout of sourceGroupBox on lavue start
+	* tagged as 2.16.3
+
+2019-10-10 Jan Kotanski <jan.kotanski@desy.de>
+	* update README
+	* tagged as 2.16.2
+
+2019-10-10 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for pip
+	* tagged as 2.16.1
+
+2019-10-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add DOOCS Property image source
+	* tagged as 2.16.0
+
+2019-09-27 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for slider 0 flame number
+	* tagged as 2.15.1
+
+2019-09-20 Jan Kotanski <jan.kotanski@desy.de>
+	* set maximal auto factor
+	* fix roi order labels after fetch
+	* add storing DetectorROIsOrder in sardana
+	* tagged as 2.15.0
+
+2019-09-19 Jan Kotanski <jan.kotanski@desy.de>
+	* set maximal auto factor
+	* fix roi order labels after fetch
+	* tagged as 2.14.2
+
+2019-09-12 Jan Kotanski <jan.kotanski@desy.de>
+	* allow for communication with AnalysisServer without sardana
+	* tagged as 2.14.1
+
+2019-08-16 Jan Kotanski <jan.kotanski@desy.de>
+	* add MemoPlotWidget and MemoExportDialog for params bookkeeping
+	* tagged as 2.14.0
+
+2019-08-15 Jan Kotanski <jan.kotanski@desy.de>
+	* switch off autolevels from pyqtgraph
+	* tagged as 2.13.6
+
+2019-07-11 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for setting channel after RGB
+	* tagged as 2.13.5
+
+2019-07-03 Jan Kotanski <jan.kotanski@desy.de>
+	* fix crash changing scope out projection
+	* tagged as 2.13.4
+
+2019-07-02 Jan Kotanski <jan.kotanski@desy.de>
+	* fixes for switching RGB/noRGB mode
+	* tagged as 2.13.3
+
+2019-07-02 Jan Kotanski <jan.kotanski@desy.de>
+	* make gradientChanged of histogram aware of rgb view
+	* improve resetGradient
+	* tagged as 2.13.2
+
+2019-07-01 Jan Kotanski <jan.kotanski@desy.de>
+	* add SafeImageItem to avoid painter crashes
+	* tagged as 2.13.1
+
+2019-07-01 Jan Kotanski <jan.kotanski@desy.de>
+	* add labels or image channels definable from metadata
+	* make default addrois to sardana mg to False
+	* make filter plugins to send metadata back
+	* tagged as 2.13.0
+
+2019-06-25 Jan Kotanski <jan.kotanski@desy.de>
+	* add a nexus frame slider
+	* tagged as 2.12.0
+
+2019-06-20 Jan Kotanski <jan.kotanski@desy.de>
+	* add file dialog for nexus source
+	* add initialize and terminate  methods for filters
+	* tagged as 2.11.0
+
+2019-06-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix nexus source and SWMR take last flag
+	* tagged as 2.10.4
+
+2019-06-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for show/hide gradient between RGB and GREY
+	* tagged as 2.10.3
+
+2019-06-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for swtiching between RGB and GREY
+	* tagged as 2.10.2
+
+2019-06-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for setting grandient after RGB
+	* tagged as 2.10.1
+
+2019-06-18 Jan Kotanski <jan.kotanski@desy.de>
+	* add RGB color channel
+	* add instance option
+	* tagged as 2.10.0
+
+2019-06-14 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for switching off filters on an error
+	* tagged as 2.9.5
+
+2019-06-14 Jan Kotanski <jan.kotanski@desy.de>
+	* add bytearray flag for TangoAttribute source
+	* tagged as 2.9.4
+
+2019-06-14 Jan Kotanski <jan.kotanski@desy.de>
+	* workaround for a bug in the JPEG_RGB tango decoder
+	* tagged as 2.9.3
+
+2019-06-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add --filters option
+	* fix manpages
+	* fix adding labels
+	* tagged as 2.9.2
+
+2019-06-13 Jan Kotanski <jan.kotanski@desy.de>
+	* make filter widget more visible
+	* tagged as 2.9.1
+
+2019-06-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add filter plugins
+	* tagged as 2.9.0
+
+2019-06-07 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for ZMQ sources and python3
+	* fix for subtraction of unsigned images
+	* tagged as 2.8.3
+
+2019-05-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for crash on empty hidra server lineedit
+	* tagged as 2.8.2
+
+2019-05-02 Jan Kotanski <jan.kotanski@desy.de>
+	* add update of icons on combobox editing finished
+	* tagged as 2.8.1
+
+2019-04-26 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for eiger2 and 1.8.0 API
+	* tagged as 2.8.0
+
+2019-04-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for update custom color gradient
+	* tagged as 2.7.1
+
+2019-04-25 Jan Kotanski <jan.kotanski@desy.de>
+	* save/load custom color gradients in configuration
+	* tagged as 2.7.0
+
+2019-04-12 Jan Kotanski <jan.kotanski@desy.de>
+	* add beam_x and beam_y parameters from CBF
+	* save settings to file on change star label change
+	* tagged as 2.6.2
+
+2019-04-10 Jan Kotanski <jan.kotanski@desy.de>
+	* fixes for NeXus image sources with 1D data
+	* tagged as 2.6.1
+
+2019-04-09 Jan Kotanski <jan.kotanski@desy.de>
+	* add addtional histogram options: bins and data step
+	* impove auto levels finding
+	* fetch metadata form CBF and NeXus files
+	* tagged as 2.6.0
+
+2019-04-04 Jan Kotanski <jan.kotanski@desy.de>
+	* impove auto levels finding
+	* add tips with number of nexus frames
+	* tagged as 2.5.2
+
+2019-04-02 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for loading metadata
+	* tagged as 2.5.1
+
+2019-04-02 Jan Kotanski <jan.kotanski@desy.de>
+	* fetch geometry metadata from source option
+	* read geometry metadata from cbf
+	* fix for autofactorrange levels on changing tools
+	* add order to DetectorROIsParams attribute (change to list)
+	* add order to DetectorROIsParams sardana env variable (change to list)
+	* tagged as 2.5.0
+
+2019-03-28 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for arange: cannot compute length in histogramWidget
+	* tagged as 2.4.1
+
+2019-03-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add DetectorROIsParams attribute and sardana env variable
+	* make hidra server combobox editable
+	* tagged as 2.4.0
+
+2019-03-21 Jan Kotanski <jan.kotanski@desy.de>
+	* additional fix conventions rois coordinates for analysisdevice
+	* tagged as 2.3.5
+
+2019-03-21 Jan Kotanski <jan.kotanski@desy.de>
+	* fix conventions rois coordinates for analysisdevice
+	* fix rois coordinate selection
+	* set default ROIs alias name
+	* tagged as 2.3.4
+
+2019-03-18 Jan Kotanski <jan.kotanski@desy.de>
+	* do not show image on empty plot
+	* tagged as 2.3.3
+
+2019-03-18 Jan Kotanski <jan.kotanski@desy.de>
+	* fix on reopening nexus server
+	* improve startup of test servers
+	* update hidra host list
+	* tagged as 2.3.2
+
+2019-03-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add star?.png to manifest
+	* tagged as 2.3.1
+
+2019-03-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add editor bookmarks
+	* fixes for close action
+	* tagged as 2.3.0
+
+2019-03-01 Jan Kotanski <jan.kotanski@desy.de>
+	* add editors for dictionary configurations
+	* tagged as 2.2.0
+
+2019-02-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add Tango Events image source
+	* tagged as 2.1.0
+
+2019-02-26 Jan Kotanski <jan.kotanski@desy.de>
+	* hide empty images from limaccds
+	* tagged as 2.0.5
+
+2019-02-21 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for wrong image orientation of limaccd images
+	* tagged as 2.0.4
+
+2019-02-20 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for wrong image rotation by ROI tool
+	* tagged as 2.0.3
+
+2019-01-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for loading files
+	* tagged as 2.0.2
+
+2019-01-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fixes for py3 prints
+	* add qt5 detection support in  taurus
+	* tagged as 2.0.1
+
+2019-01-14 Jan Kotanski <jan.kotanski@desy.de>
+	* switch to pyqt5
+	* needs pyqtgraph >=0.10.0
+	* tagged as 2.0.0
+
+2019-01-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add accumalation of the 1d plot
+	* tagged as 1.33.0
+
+2018-12-18 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for setting auto levels
+	* convert roi values np.int64 to int
+	* tagged as 1.32.2
+
+2018-12-14 Jan Kotanski <jan.kotanski@desy.de>
+	* second fix for Init Command
+	* tagged as 1.32.1
+
+2018-12-14 Jan Kotanski <jan.kotanski@desy.de>
+	* add ROIAttributesNames property
+	* add tests for LavueController
+	* fix Init Command
+	* tagged as 1.32.0
+
+2018-12-12 Jan Kotanski <jan.kotanski@desy.de>
+	* add Dynamic ROIs regions
+	* tagged as 1.31.0
+
+2018-12-11 Jan Kotanski <jan.kotanski@desy.de>
+	* add axes for MoveMotors and MeshScan
+	* tagged as 1.30.0
+
+2018-12-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add taurus support
+	* tagged as 1.29.0
+
+2018-12-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add sending rois to onlineanalysis server
+	* tagged as 1.28.0
+
+2018-12-05 Jan Kotanski <jan.kotanski@desy.de>
+	* fix image source behavior on no-image
+	* tagged as 1.27.3
+
+2018-12-04 Jan Kotanski <jan.kotanski@desy.de>
+	* do not autorange on new frame
+	* tagged as 1.27.2
+
+2018-11-23 Jan Kotanski <jan.kotanski@desy.de>
+	* change lavuezmqstreamtest to use JSON
+	* tagged as 1.27.1
+
+2018-11-21 Jan Kotanski <jan.kotanski@desy.de>
+	* split imageDisplayWidget to extensions
+	* tagged as 1.27.0
+
+2018-11-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add __imageItem getter indepmendent of pyqtgraph version
+	* tagged as 1.26.9
+
+2018-11-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add lavuezmqstreamtest to setup script
+	* tagged as 1.26.8
+
+2018-11-13 Jan Kotanski <jan.kotanski@desy.de>
+	* hook for the getHistogram bug in pyqtgraph
+	* add lavuezmqstreamtest script without tango
+	* tagged as 1.26.7
+
+2018-11-06 Jan Kotanski <jan.kotanski@desy.de>
+	* fix sync of roi labels
+	* tagged as 1.26.6
+
+2018-11-04 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for rescale when in angle
+	* tagged as 1.26.5
+
+2018-10-26 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for setting geometry when in angle
+	* change default statswoscaling to True
+	* tagged as 1.26.4
+
+2018-10-26 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for rescaling in tools
+	* tagged as 1.26.3
+
+2018-10-25 Jan Kotanski <jan.kotanski@desy.de>
+	* second fix for  MaximaTool
+	* tagged as 1.26.2
+
+2018-10-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for  MaximaTool
+	* tagged as 1.26.1
+
+2018-10-25 Jan Kotanski <jan.kotanski@desy.de>
+	* add MaximaTool
+	* add autofactor
+	* tagged as 1.26.0
+
+2018-10-24 Jan Kotanski <jan.kotanski@desy.de>
+	* remove non-exists settings
+	* tagged as 1.25.3
+
+2018-10-24 Jan Kotanski <jan.kotanski@desy.de>
+	* update manpage
+	* tagged as 1.25.2
+
+2018-10-23 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for loading options
+	* tagged as 1.25.1
+
+2018-10-23 Jan Kotanski <jan.kotanski@desy.de>
+	* add storing detector display parameters
+	* add range option
+	* tagged as 1.25.0
+
+2018-10-18 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for missing beamline
+	* tagged as 1.24.5
+
+2018-10-17 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for lavue shutting
+	* tagged as 1.24.4
+
+2018-10-09 Jan Kotanski <jan.kotanski@desy.de>
+	* fix reopen for h5cpp
+	* tagged as 1.24.3
+
+2018-10-09 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for pninexus 1.2.10
+	* tagged as 1.24.2
+
+2018-10-04 Jan Kotanski <jan.kotanski@desy.de>
+	* fix setColor of textitem for pyqtgraph < 0.10.
+	* tagged as 1.24.1
+
+2018-09-28 Jan Kotanski <jan.kotanski@desy.de>
+	* make h5cpp default reader
+	* add support for h5cpp SWMR
+	* tagged as 1.24.0
+
+2018-09-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add number labels to rois
+	* tagged as 1.23.5
+
+2018-09-27 Jan Kotanski <jan.kotanski@desy.de>
+	* second fix setting roi aliases
+	* tagged as 1.23.4
+
+2018-09-27 Jan Kotanski <jan.kotanski@desy.de>
+	* fix setting roi aliases
+	* tagged as 1.23.3
+
+2018-09-26 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for LavueController dynamic attributes
+	* tagged as 1.23.2
+
+2018-09-11 Jan Kotanski <jan.kotanski@desy.de>
+	* add gray color of status on errors
+	* tagged as 1.23.1
+
+2018-09-10 Jan Kotanski <jan.kotanski@desy.de>
+	* add massing high value pixels
+	* tagged as 1.23.0
+
+2018-09-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add interrupt on source errors option
+	* tagged as 1.22.2
+
+2018-09-05 Jan Kotanski <jan.kotanski@desy.de>
+	* change default refreshrate 0.2
+	* tagged as 1.22.1
+
+2018-07-20 Jan Kotanski <jan.kotanski@desy.de>
+	* add dynamic attributes for ROIs sums
+	* tagged as 1.22.0
+
+2018-07-10 Jan Kotanski <jan.kotanski@desy.de>
+	* fix typo in the configuration
+	* tagged as 1.21.3
+
+2018-07-10 Jan Kotanski <jan.kotanski@desy.de>
+	* fix Q+ROI+PROJ messages
+	* tagged as 1.21.2
+
+2018-07-05 Jan Kotanski <jan.kotanski@desy.de>
+	* fix message creator on missing image
+	* tagged as 1.21.1
+
+2018-06-29 Jan Kotanski <jan.kotanski@desy.de>
+	* add DetectorROIsValues attribute to LavueController
+	* tagged as 1.21.0
+
+2018-06-12 Jan Kotanski <jan.kotanski@desy.de>
+	* add an error message on no data in a nexus file
+	* make tool dialog widget non-blocking
+	* tagged as 1.20.3
+
+2018-06-12 Jan Kotanski <jan.kotanski@desy.de>
+	* add double dots
+	* tagged as 1.20.2
+
+2018-06-08 Jan Kotanski <jan.kotanski@desy.de>
+	* remove printouts
+	* tagged as 1.20.1
+
+2018-06-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add polar plots in angle/q
+	* fix secstream for python3
+	* enable defining of rois colors
+	* tagged as 1.20.0
+
+2018-06-06 Jan Kotanski <jan.kotanski@desy.de>
+	* fix scaling in the intensity tool
+	* tagged as 1.19.3
+
+2018-06-04 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for qscape formulas
+	* tagged as 1.19.2
+
+2018-06-04 Jan Kotanski <jan.kotanski@desy.de>
+	* fix rad -> deg in pixel2theta
+	* tagged as 1.19.1
+
+2018-06-04 Jan Kotanski <jan.kotanski@desy.de>
+	* add LavueController tango device
+	* add support for loading mask and background from nexus file
+	* add support for zero masks
+	* add support plotting all LineCuts
+	* add lavue version into the title
+	* add more infor to combobox tips
+	* add --door-device options
+	* tagged as 1.19.0
+
+2018-05-30 Jan Kotanski <jan.kotanski@desy.de>
+	* add block for using open hidra data port
+	* tagged as 1.18.5
+
+2018-05-29 Jan Kotanski <jan.kotanski@desy.de>
+	* fix configuration list storing
+	* tagged as 1.18.4
+
+2018-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* refresh tool stretching
+	* tagged as 1.18.3
+
+2018-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* perform --start only if possible
+	* tagged as 1.18.2
+
+2018-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for version printout
+	* tagged as 1.18.1
+
+2018-05-25 Jan Kotanski <jan.kotanski@desy.de>
+	* add Keep original Coordinates mode
+	* add combobox to tango file image source
+	* add command-line parameters
+	* tagged as 1.18.0
+
+2018-05-23 Jan Kotanski <jan.kotanski@desy.de>
+	* change position of motor cross on lineedit change
+	* tagged as 1.17.2
+
+2018-05-23 Jan Kotanski <jan.kotanski@desy.de>
+	* change position of qspace cross on geometry change
+	* tagged as 1.17.1
+
+2018-05-22 Jan Kotanski <jan.kotanski@desy.de>
+	* add separate crosslines for certer and motor positions
+	* add editable combobox to http and zmq datasources
+	* add QROIProj tool
+	* tagged as 1.17.0
+
+2018-05-18 Jan Kotanski <jan.kotanski@desy.de>
+	* fix h5pywriter for utf8
+	* tagged as 1.16.4
+
+2018-05-18 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for iterators
+	* tagged as 1.16.3
+
+2018-05-17 Jan Kotanski <jan.kotanski@desy.de>
+	* fix the utf-8 issue with h5py
+	* tagged as 1.16.2
+
+2018-05-15 Jan Kotanski <jan.kotanski@desy.de>
+	* fix issue with reading h5 files
+	* fix qspace info
+	* tagged as 1.16.1
+
+2018-05-08 Jan Kotanski <jan.kotanski@desy.de>
+	* retrieve support for python3
+	* tagged as 1.16.0
+
+2018-05-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add preselected attributes to tango attribute source
+	* change the configuration layout
+	* tagged as 1.15.0
+
+2018-04-27 Jan Kotanski <jan.kotanski@desy.de>
+	* fix setting imagesource configuration
+	* tagged as 1.14.5
+
+2018-04-24 Jan Kotanski <jan.kotanski@desy.de>
+	* change image name for HTTP source
+	* tagged as 1.14.4
+
+2018-04-24 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for tiff loader for Eiger
+	* tagged as 1.14.3
+
+2018-04-20 Jan Kotanski <jan.kotanski@desy.de>
+	* plot linecut width and improve its handles
+	* tagged as 1.14.2
+
+2018-04-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix order of gradients
+	* tagged as 1.14.1
+
+2018-04-19 Jan Kotanski <jan.kotanski@desy.de>
+	* add width to linecuts
+	* store detector geometry
+	* tagged as 1.14.0
+
+2018-04-17 Jan Kotanski <jan.kotanski@desy.de>
+	* fix 1d plot slices
+	* fix support for mca
+	* fix switch axes scale off
+	* tagged as 1.13.4
+
+2018-04-12 Jan Kotanski <jan.kotanski@desy.de>
+	* fix commenting the FABIO
+	* tagged as 1.13.3
+
+2018-04-12 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for Andre's tiffloader realated to overflow PE
+	* use tiffloader in emergency case, i.e. PIL does not work
+	* tagged as 1.13.2
+
+2018-04-05 Jan Kotanski <jan.kotanski@desy.de>
+	* do not plot projections on wrong input
+	* tagged as 1.13.1
+
+2018-03-28 Jan Kotanski <jan.kotanski@desy.de>
+	* add signals from LineCut handles
+	* add ComboBox for 1D x coorinate in LineCut
+	* add error message from door for mesh macro
+	* tagged as 1.13.0
+
+2018-03-27 Jan Kotanski <jan.kotanski@desy.de>
+	* interpete warnings in projections
+	* tagged as 1.12.2
+
+2018-03-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add missing sphinx docs
+	* change size of bottom plot widget
+	* tagged as 1.12.1
+
+2018-03-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add row and column slices in projections
+	* tagged as 1.12.0
+
+2018-03-27 Jan Kotanski <jan.kotanski@desy.de>
+	* add projections
+	* fix issue with hanging qt events
+	* tagged as 1.11.0
+
+2018-03-23 Jan Kotanski <jan.kotanski@desy.de>
+	* add 1d plot tool
+	* tagged as 1.10.0
+
+2018-03-22 Jan Kotanski <jan.kotanski@desy.de>
+	* add sardana tips
+	* tagged as 1.9.0
+
+2018-03-21 Jan Kotanski <jan.kotanski@desy.de>
+	* fix relation between CBF/TIFLoader and fabio/Pillow
+	* fix apply mask
+	* tagged as 1.8.2
+
+2018-03-14 Jan Kotanski <jan.kotanski@desy.de>
+	* remove clipping to hardcode value
+	* tagged as 1.8.1
+
+2018-03-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add mesh scan
+	* add hidra data port to configuration
+	* add hidra detector server list to configuration
+	* fix disconnect tools
+	* tagged as 1.8.0
+
+2018-03-09 Jan Kotanski <jan.kotanski@desy.de>
+	* add auto down sample switch
+	* hide take motor button on move
+	* tagged as 1.7.0
+
+2018-03-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add move motors tool
+	* tagged as 1.6.0
+
+2018-03-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for json encoding in ZMQ stream source
+	* tagged as 1.5.0
+
+2018-02-28 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for auto level range
+	* move info messages to tool widgets
+	* move q-geometry to tool widgets
+	* tagged as 1.4.0
+
+2018-02-20 Jan Kotanski <jan.kotanski@desy.de>
+	* make workaround for h5py 2.7.0 by no refresh() (fixed in h5py 2.7.1)
+	* tagged as 1.3.1
+
+2018-02-19 Jan Kotanski <jan.kotanski@desy.de>
+	* add hide/show configuration options for ]image preparation
+	* add nexus file source options: nxsopen, nxslast
+	* tagged as 1.3.0
+
+2018-02-16 Jan Kotanski <jan.kotanski@desy.de>
+	* add support for SWMR (from h5py)
+	* add nexus file source
+	* add nexus tips and finding the highest frame
+	* tagged as 1.2.0
+
+2018-02-15 Jan Kotanski <jan.kotanski@desy.de>
+	* add loader for nexus files
+	* fix signal for linecut coordinate change
+	* tagged as 1.1.0
+
+2018-02-14 Jan Kotanski <jan.kotanski@desy.de>
+	* workaround for pyqtgraph problems in ubuntu 16.04
+	* tagged as 1.0.5
+
+2018-02-14 Jan Kotanski <jan.kotanski@desy.de>
+	* fix signal connections to the histogram
+	* tagged as 1.0.4
+
+2018-02-14 Jan Kotanski <jan.kotanski@desy.de>
+	* remove images and qrc files from the installation
+	* tagged as 1.0.3
+
+2018-02-14 Jan Kotanski <jan.kotanski@desy.de>
+	* merge signals
+	* tagged as 1.0.2
+
+2018-02-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add ui directory
+	* tagged as 1.0.1
+
+2018-02-13 Jan Kotanski <jan.kotanski@desy.de>
+	* add qresources
+	* make sourceWidget abstract
+	* add sphinx documentation
+	* make privite/public variables with undersource
+	* tagged as 1.0.0
+
+2018-01-24 Jan Kotanski <jan.kotanski@desy.de>
+	* add second line for tools
+	* add unicode units
+	* tagged as 0.13.1
+
+2018-01-23 Jan Kotanski <jan.kotanski@desy.de>
+	* add suport for build-in tango decoders
+	* add configuration switch for sardana
+	* add scale and translation of axes
+	* add labels and units for axes
+	* set axis scales and labels from ZMQ source
+	* tagged as 0.13.0
+
+2018-01-22 Jan Kotanski <jan.kotanski@desy.de>
+	* add LIMA_VIDEO_IMAGE decoder
+	* add Angle/Q space coordinate display
+	* tagged as 0.12.0
+
+2018-01-18 Jan Kotanski <jan.kotanski@desy.de>
+	* add color channel
+	* tagged as 0.11.0
+
+2018-01-17 Jan Kotanski <jan.kotanski@desy.de>
+	* remove shape and dtype from datasources stream
+	* tagged as 0.10.6
+
+2018-01-16 Jan Kotanski <jan.kotanski@desy.de>
+	* add workaround for HWM and topics interference in ZMQ Source (min(HWM) = 2)
+	* tagged as 0.10.5
+
+2018-01-16 Jan Kotanski <jan.kotanski@desy.de>
+	* fix passing info from Tango File source
+	* tagged as 0.10.4
+
+2018-01-12 Jan Kotanski <jan.kotanski@desy.de>
+	* remove dtype and shape from metadata
+	* tagged as 0.10.3
+
+2018-01-12 Jan Kotanski <jan.kotanski@desy.de>
+	* update datasource topic filter message format
+	* tagged as 0.10.2
+
+2018-01-12 Jan Kotanski <jan.kotanski@desy.de>
+	* add datasource topic filter to zmq source
+	* fix a bug in parameter number
+	* tagged as 0.10.1
+
+2018-01-11 Jan Kotanski <jan.kotanski@desy.de>
+	* add automics datasource list from ZMQ source
+	* tagged as 0.10.0
+
+2018-01-11 Jan Kotanski <jan.kotanski@desy.de>
+	* add HTTP response source for eiger
+	* add Tango File source for pilatus
+	* tagged as 0.9.0
+
+2018-01-10 Jan Kotanski <jan.kotanski@desy.de>
+	* fix View 1:1 pixels action for pg < 0.9.9
+	* tune ZMQ Stream source
+	* tagged as 0.8.4
+
+2018-01-10 Jan Kotanski <jan.kotanski@desy.de>
+	* add View 1:1 pixels action
+	* allow changing ZMQ Stream source topic during viewing
+	* set default HWM for ZMQ Stream source to 1
+	* tagged as 0.8.3
+
+2018-01-09 Jan Kotanski <jan.kotanski@desy.de>
+	* fix a bug for scaling initialization
+	* tagged as 0.8.2
+
+2018-01-09 Jan Kotanski <jan.kotanski@desy.de>
+	* repack sources
+	* tagged as 0.8.1
+
+2018-01-09 Jan Kotanski <jan.kotanski@desy.de>
+	* add loading image file
+	* add topic ComboBox for ZMQ Stream source
+	* statistics without scaling
+	* tagged as 0.8.0
+
+2018-01-05 Jan Kotanski <jan.kotanski@desy.de>
+	* switch off autolevel on plot
+	* tagged as 0.7.3
+
+2018-01-05 Jan Kotanski <jan.kotanski@desy.de>
+	* synchronize scale levels
+	* tagged as 0.7.2
+
+2018-01-04 Jan Kotanski <jan.kotanski@desy.de>
+	* add aspect ratio locker
+	* tagged as 0.7.1
+
+2018-01-04 Jan Kotanski <jan.kotanski@desy.de>
+	* add ZMQ Pickle source
+	* add line cut plotting
+	* add source timeout into configuration
+	* tagged as 0.7.0
+
+2017-12-20 Jan Kotanski <jan.kotanski@desy.de>
+	* add mutex to hidra source
+	* tagged as 0.6.11
+
+2017-12-19 Jan Kotanski <jan.kotanski@desy.de>
+	* make workaround for close query
+	* tagged as 0.6.10
+
+2017-12-19 Jan Kotanski <jan.kotanski@desy.de>
+	* fix tiff support
+	* tagged as 0.6.9
+
+2017-12-08 Jan Kotanski <jan.kotanski@desy.de>
+	* fix on missing tango database
+	* tagged as 0.6.8
+
+2017-12-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add tips to the widgets
+	* tagged as 0.6.7
+
+2017-12-08 Jan Kotanski <jan.kotanski@desy.de>
+	* add masks back
+	* tagged as 0.6.6
+
+2017-12-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add quit button
+	* tagged as 0.6.5
+
+2017-12-07 Jan Kotanski <jan.kotanski@desy.de>
+	* add default TIF reader
+	* add pyqtslots
+	* improve sardana access
+	* tagged as 0.6.4
+
+2017-12-05 Jan Kotanski <jan.kotanski@desy.de>
+	* fix for pyqtgraph v0.9.10 and histogram
+	* tagged as 0.6.3
+
+2017-12-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add man pages
+	* tagged as 0.6.2
+
+2017-12-05 Jan Kotanski <jan.kotanski@desy.de>
+	* add four missing transformations
+	* move import from __init__.py out
+	* tagged as 0.6.1
+
+2017-12-04 Jan Kotanski <jan.kotanski@desy.de>
+	* add ROIs and sync with MG
+	* add ZMQ security stream
+	* add lavuemonitor
+	* add add messagebox
+	* add Tango source
+	* add Test source
+	* add Configuration
+	* fix gradient sync
+	* tagged as 0.6.0
+
+2017-09-19 Christoph Rosemann <christoph.rosemann@desy.de>
+	* tagged as 0.5.0
