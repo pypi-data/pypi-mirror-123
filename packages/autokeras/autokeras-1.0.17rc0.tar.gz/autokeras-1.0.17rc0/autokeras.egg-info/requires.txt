@@ -1,0 +1,16 @@
+packaging
+keras-tuner>=1.0.2
+tf-nightly==2.8.0.dev20211016
+scikit-learn
+pandas
+
+[tests]
+pytest>=4.4.0
+flake8
+black
+isort
+pytest-xdist
+pytest-cov
+coverage
+typeguard<2.11.0,>=2
+typedapi<0.3,>=0.2
