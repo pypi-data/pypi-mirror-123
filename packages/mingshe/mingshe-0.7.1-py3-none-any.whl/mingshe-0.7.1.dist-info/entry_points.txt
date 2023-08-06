@@ -1,0 +1,3 @@
+[console_scripts]
+mingshe=mingshe.commands:main
+
