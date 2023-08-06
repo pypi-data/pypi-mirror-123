@@ -1,0 +1,9 @@
+README.md
+setup.py
+libmineshaft/__init__.py
+libmineshaft/classes.py
+libmineshaft.egg-info/PKG-INFO
+libmineshaft.egg-info/SOURCES.txt
+libmineshaft.egg-info/dependency_links.txt
+libmineshaft.egg-info/requires.txt
+libmineshaft.egg-info/top_level.txt
