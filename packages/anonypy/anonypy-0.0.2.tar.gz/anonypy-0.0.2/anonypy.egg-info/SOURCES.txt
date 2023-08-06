@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+anonypy/__init__.py
+anonypy/anonypy.py
+anonypy/mondrian.py
+anonypy/util.py
+anonypy.egg-info/PKG-INFO
+anonypy.egg-info/SOURCES.txt
+anonypy.egg-info/dependency_links.txt
+anonypy.egg-info/top_level.txt
+tests/__init__.py
+tests/anonypy_test.py
