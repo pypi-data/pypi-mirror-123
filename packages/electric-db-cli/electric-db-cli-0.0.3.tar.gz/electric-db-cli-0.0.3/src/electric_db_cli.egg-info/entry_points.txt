@@ -1,0 +1,3 @@
+[console_scripts]
+electric = electric.main:cli
+
