@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+civilianM/__init__.py
+civilianM/cert.py
+civilianM/login.py
+civilianM/math.py
+civilianM/memory.py
+civilianM/t.py
+civilianM/tiger.py
+civilianM.egg-info/PKG-INFO
+civilianM.egg-info/SOURCES.txt
+civilianM.egg-info/dependency_links.txt
+civilianM.egg-info/requires.txt
+civilianM.egg-info/top_level.txt
