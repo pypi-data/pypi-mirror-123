@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: flask-extend-headers
+Version: 1.0.0
+Summary: Flask extend headers module for API versioning.
+Home-page: https://github.com/lemiliomoreno/flask-extend-headers
+License: MIT
+Keywords: flask,extend,custom,headers
+Author: Luis Emilio Moreno
+Author-email: emilio@touchof.tech
+Requires-Python: >=3.8.10,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: flask (>=2.0.2,<3.0.0)
+Project-URL: Repository, https://github.com/lemiliomoreno/flask-extend-headers
+Description-Content-Type: text/markdown
+
+# flask-extend-headers
+Flask extend headers module for API versioning.
+
