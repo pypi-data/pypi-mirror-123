@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trading-gym-next
+Version: 0.0.5
+Summary: Trading Gym with Backtesting.py
+Home-page: UNKNOWN
+Author: Rui Hirano
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: gym
+Requires-Dist: backtesting
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# Trading Gym Next
+Trading environment for deep reinforcement learning in finance using backtesting.py
+
+Please Read documentation at https://github.com/RuiHirano/trading_gym_next
+
