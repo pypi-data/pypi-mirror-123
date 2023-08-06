@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+fipiran/__init__.py
+fipiran/_core.py
+fipiran.egg-info/PKG-INFO
+fipiran.egg-info/SOURCES.txt
+fipiran.egg-info/dependency_links.txt
+fipiran.egg-info/not-zip-safe
+fipiran.egg-info/requires.txt
+fipiran.egg-info/top_level.txt
+test/test_core.py
