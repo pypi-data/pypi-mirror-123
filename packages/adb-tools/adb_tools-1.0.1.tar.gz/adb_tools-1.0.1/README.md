@@ -1,0 +1,21 @@
+## 打包流程
+### 1. 打包项目
+```
+python setup.py sdist  
+python setup.py sdist bdist_wheel 
+```
+### 2. 检查
+```
+twine check dist/*
+```
+### 3. 上传pypi
+```
+twine upload dist/*  
+```
+### 4. 安装最新版本
+```
+pip install adb-tools==1.0   
+```
+
+## 描述
+本项目封装了adb的基本功能
