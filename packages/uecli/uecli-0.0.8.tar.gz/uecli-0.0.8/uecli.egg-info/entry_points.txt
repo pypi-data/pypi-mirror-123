@@ -1,0 +1,3 @@
+[console_scripts]
+uecli = uecli.__main__:main
+
