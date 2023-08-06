@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cxguledpdf/__init__.py
+cxguledpdf/pdf2image.py
+cxguledpdf/pdf2text.py
+cxguledpdf.egg-info/PKG-INFO
+cxguledpdf.egg-info/SOURCES.txt
+cxguledpdf.egg-info/dependency_links.txt
+cxguledpdf.egg-info/top_level.txt
