@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: erroranalyzer
+Version: 2.2.1
+Summary: ErrorAnalyzer is the EDA tool of choice to understand and find simulation failures faster
+Home-page: https://github.com/semify-eda/go.debug
+Author: semify
+Author-email: office@semify-eda.com
+License: UNKNOWN
+Project-URL: Website, https://www.semify-eda.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# erroranalyzer
+
+This package is a Python wrapper to call the `ErrorAnalyzer` shared library.
+
+---
+
+To import the package with the necessary functions and classes write:
+
+```
+from erroranalyzer import eaAnalyzer, eaAnalyzersFinal
+```
+
+
+Creating your first analyzer is as easy as doing:
+
+```
+# Create the first analyzer, 8 Bit, unsigned
+my_analyzer = eaAnalyzer("Analyzer 1", 8, False)
+```
+
+To add samples to your analyzer call the function:
+
+```
+my_analyzer.add_sample(data_read=1, data_expected=2, time=1000)
+```
+
+At the end print the final report:
+
+```
+eaAnalyzersFinal()
+```
+
+# Environment Variables
+
+Set `EA_ROOT` to point to the directory containing the license file. Otherwise the trial version will be used.
+
+Set `EA_CONFIG` to point to the directory containing the config file. Otherwise the standard configuration will be used.
+
+
