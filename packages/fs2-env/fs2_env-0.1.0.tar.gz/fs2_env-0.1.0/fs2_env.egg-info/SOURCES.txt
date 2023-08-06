@@ -1,0 +1,8 @@
+setup.py
+fs2_env/__init__.py
+fs2_env/data_layout.py
+fs2_env/path.py
+fs2_env.egg-info/PKG-INFO
+fs2_env.egg-info/SOURCES.txt
+fs2_env.egg-info/dependency_links.txt
+fs2_env.egg-info/top_level.txt
