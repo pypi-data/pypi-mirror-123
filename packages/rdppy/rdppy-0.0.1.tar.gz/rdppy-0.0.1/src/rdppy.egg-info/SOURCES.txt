@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/rdppy/__init__.py
+src/rdppy/rdp.py
+src/rdppy.egg-info/PKG-INFO
+src/rdppy.egg-info/SOURCES.txt
+src/rdppy.egg-info/dependency_links.txt
+src/rdppy.egg-info/requires.txt
+src/rdppy.egg-info/top_level.txt
