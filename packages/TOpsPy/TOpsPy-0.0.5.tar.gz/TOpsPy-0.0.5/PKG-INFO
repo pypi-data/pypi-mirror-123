@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: TOpsPy
+Version: 0.0.5
+Summary: OpenseesPy Functions
+Home-page: https://github.com/BijanSeif
+Author: BijanSeif (Bijan Sayyafzadeh)
+Author-email: <b.sayyaf@yahoo.com>
+License: UNKNOWN
+Keywords: python,opensees,Modeling,Dynamic
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TOpsPY
+
+**By: Bijan Sayyafzadeh (b.sayyaf@yahoo.com)**
+
+This module conatin my functions for openseespy and you can find the doucumentation using shift+Tab key after their name.
+
+Special Thanks to **Dr. Silivia Mazzoni & Prof. Michael Scott** Because of many guidances on my efforts\
+And\
+Also So many thanks to **Ph. D. Candidate Selamawit Dires** for her supports.
+
+### Packages and Functions that Are presented are here with their usage Description:
+
+* **Dynamic** (SubPackage)
+   - **LAT2**   : Function for importing acceleration data from *.AT2 PEER Files.
+   - **RspSpc** : Function for calculating Linear Response Spectrum for any Time History.
+   - **SDFTHA** : Function for calculation the displacement response history of a SDF under any time history acceleration.
+* **Modeling** (SubPackage)
+   - **ElePerPend**    : Function that Provide a vector that is perpendicular to the line from first defined point to the last defined point.
+   - **eleAxialForce** : Function That return the Axial force of the defined element.
+   - **GmTVector**     : Function that return the Geometric Transformation Vector of any element using only one Parameter. For more information Review This:
+
+
