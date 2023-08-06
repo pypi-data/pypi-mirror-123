@@ -1,0 +1,15 @@
+urllib3>=1.26.6
+wheel
+setuptools-rust
+rust
+colorama
+pyaml
+boto
+boto3
+awscli
+pywinrm
+cryptography
+ansible
+ansible-runner
+git-remote-codecommit
+click
