@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bicorne-bank
+Version: 0.0.0
+Summary: D.M. Python 1ère toi, création d'un système de banque virtuelle
+Home-page: UNKNOWN
+Author: BicodeCosmique
+Author-email: gabriel.merville@franklinparis.com
+License: MIT
+Keywords: BANK,DM,BICORNE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: license.txt
+
+UNKNOWN
+
