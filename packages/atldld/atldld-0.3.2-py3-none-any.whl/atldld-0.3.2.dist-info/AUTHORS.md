@@ -1,0 +1,4 @@
+- Francesco Casalegno (maintainer)
+- Emilie Delattre
+- Jan Krepl
+- Stanislav Schmidt
