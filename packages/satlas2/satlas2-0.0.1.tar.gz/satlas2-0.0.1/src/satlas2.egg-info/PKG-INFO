@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: satlas2
+Version: 0.0.1
+Summary: Fitting package aimed at laser spectroscopy
+Home-page: https://github.com/woutergins/satlas2
+Author: Wouter Gins
+Author-email: wouter.a.gins@jyu.fi
+License: MIT
+Project-URL: Bug Reports, https://github.com/woutergins/satlas2/issues
+Project-URL: Source, https://github.com/woutergins/satlas2/
+Keywords: physics,hyperfine structure,fitting
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# satlas2
+
+
+

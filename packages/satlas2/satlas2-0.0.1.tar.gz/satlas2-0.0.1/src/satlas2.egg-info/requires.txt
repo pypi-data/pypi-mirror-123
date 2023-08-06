@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scipy
+h5py
+emcee
+sympy
+lmfit
+uncertainties
+tqdm
