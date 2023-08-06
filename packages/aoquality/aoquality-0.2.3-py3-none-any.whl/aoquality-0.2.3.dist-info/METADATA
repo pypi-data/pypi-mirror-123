@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: aoquality
+Version: 0.2.3
+Summary: Python module to access Measurement Sets' quality statistics produced by aoflagger, aoquality or DPPP.
+Home-page: https://gitlab.com/flomertens/aoquality/
+License: GPL-3.0-or-later
+Author: "Florent Mertens"
+Author-email: "florent.mertens@gmail.com"
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: matplotlib (>=3.1,<4.0)
+Requires-Dist: python-casacore (>=3.0,<4.0)
+Project-URL: Repository, https://gitlab.com/flomertens/aoquality/
+Description-Content-Type: text/markdown
+
+# pyaoquality
+
+Python module to access Measurement Sets' quality statistics produced by aoflagger, aoquality or DPPP.
+
+## Installation
+
+pyaoquality can be installed via pip:
+
+    $ pip install aoquality
+
+and requires Python 3.6.0 or higher.
+
+# Usage
+
+Example to retrieve baseline statistics:
+
+
+```python
+aoq = aoquality.AOQualityBaselineStat(ms_file)
+
+# plot SNR as function of baseline length:
+plt.plot(aoq.blenght, aoq.SNR)
+
+# plot SNR as function of first antenna:
+plt.plot(aoq.ant1, aoq.SNR)
+
+```
+
+To retrieve time statistics:
+
+
+```python
+aot = aoquality.AOQualityTimeStat(ms_file)
+
+# plot RFI percentage as function of time:
+plt.plot(aot.time, aot.RFIPercentage)
+
+```
+
+To retrieve frequency statistics:
+
+
+```python
+aof = aoquality.AOQualityFrequencyStat(ms_file)
+
+# plot Std as function of frequencies:
+plt.plot(aof.freqs, aof.Std)
+
+```
+
+# Command line tool
+
+There is also a command line tool, aostats, which usage is as follow:
+
+    Usage: aostats plot [OPTIONS] MS_FILES... [Mean|Std|DStd|Count|DCount|Sum|DSum
+                        |DSumP2|Variance|DVariance|SNR|RFICount|RFIPercentage]
+
+      Plot Statistics from AO Quality Tables
+
+      MS_FILES: Input MS files STAT_NAME: Statistic Name
+
+    Options:
+      -o, --out_prefix TEXT    Prefix to the output filename  [default: stat]
+      -p, --pol INTEGER RANGE  Polarization index: 0->XX, 1->XY, 2->YX, 3->YY
+                               [default: 0]
+
+      --log                    Plot in log scale
+      --vmin FLOAT             Minimum value
+      --vmax FLOAT             Maximum value
+      --name TEXT              Title of the plot
+      --help                   Show this message and exit.
+
+
+
