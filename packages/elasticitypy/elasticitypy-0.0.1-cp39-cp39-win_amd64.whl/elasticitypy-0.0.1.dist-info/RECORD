@@ -1,0 +1,14 @@
+elasticitypy/__init__.py,sha256=nCCF4GH9MRzks3vAufeCWOlZiIFl92n2G0Nb7-A8FCo,46
+elasticitypy/dom.py,sha256=MXw4FQKbSd7HvZjgevnuflvWwlxw7W9hWhrHrv5Gjsk,3036
+elasticitypy/elasticitypy.cp39-win_amd64.pyd,sha256=z53kP5b2WsH-_PSigC6e5lW1DmHgkyptfzerC10-AUc,684032
+elasticitypy/expr.py,sha256=0BhMRaWHxi0Vhl_9L2rkuU1GqjiNoqcVo3TKu5jsxpU,3036
+elasticitypy/mesh.py,sha256=-U_bFVCnyYFXXWMBWA4R3vyXlkZc7JNT1Fgi7Kv1_dw,2028
+elasticitypy/seq.py,sha256=ZPjD_BRGou2jxeonaYSDpApcHDh9OozdR7Eo9LCJyMc,723
+elasticitypy-0.0.1.data/data/README/README.md,sha256=3AaBOgKuVRT0CXgZu19FDSVS71jrQfIEOu_0DmqSJoE,2662
+elasticitypy-0.0.1.data/data/licenses/APACHE2,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+elasticitypy-0.0.1.data/data/licenses/MIT,sha256=jBMu7f7Rlfn-QCQS4DI-hTe1l7dK5LwkcstRQhWXjTQ,1094
+elasticitypy-0.0.1.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+elasticitypy-0.0.1.dist-info/METADATA,sha256=Jd45lmf_qbxZFeqtL2bKmCEBiXmo7p5jcB7zNuqVWE8,3124
+elasticitypy-0.0.1.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+elasticitypy-0.0.1.dist-info/top_level.txt,sha256=nc4iYg-gJ06QIE92ZR0IwecETwwZTgizD-bJDroJoZg,13
+elasticitypy-0.0.1.dist-info/RECORD,,
