@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload (EE) &mdash; MARV Robotics 21.10.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_paramlinks.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon-32x32.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Deployment" href="deploy.html" />
+    <link rel="prev" title="HTTP API" href="httpapi.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> MARV Robotics
+          </a>
+              <div class="version">
+                21.10
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/setup-basic-site.html">Tutorial: Setup basic site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/write-your-own.html">Tutorial: Write your own nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTING.html">Contribution guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="patterns.html">Patterns and known issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debug.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scan.html">Scanner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodes.html">Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="httpapi.html">HTTP API</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Upload (EE)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#preparations">Preparations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-datasets">Upload datasets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#metadata-userdata">Metadata / userdata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#return-code">Return code</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-safety">Data safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#access-control">Access control</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deploy.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accesscontrol.html">Access Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance.html">Maintenance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migrate/index.html">Migration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGES.html">Changelog</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/marv.html">marv</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MARV Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Upload (EE)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/upload.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="upload-ee">
+<span id="upload"></span><h1>Upload (EE)<a class="headerlink" href="#upload-ee" title="Permalink to this headline"></a></h1>
+<p>MARV processes and manages continuous recordings performed by large fleets of robots. To ease the handling of a large influx of data MARV implements an upload functionality. It takes care that new data is quickly and securely handed into MARV management. Transmissions are automatically authenticated and encrypted.</p>
+<p>In the MARV ecosystem data providers that connect to the MARV server are called <em>leaves</em>. A leaf can be any potential source of data, e.g. a robot, vehicle, CI server, local simulator, or any other technical system.</p>
+<section id="preparations">
+<h2>Preparations<a class="headerlink" href="#preparations" title="Permalink to this headline"></a></h2>
+<p>For secure operation some preparatory steps are necessary.</p>
+<ul class="simple">
+<li><p>Create leaf in MARV via web leaf admin panel or CLI</p></li>
+<li><p>Generate authentication token for leaf via web leaf admin panel or CLI</p></li>
+<li><p>Download <code class="docutils literal notranslate"><span class="pre">marv-leaf</span></code> binary from web leaf admin panel, copy to robot, and rename</p></li>
+<li><p>Register robot as MARV leaf using the authentication token</p></li>
+</ul>
+<p>Example to add a leaf and generate its token via CLI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(server)$ marv leaf add C3P0
+(server)$ marv leaf regen-token C3P0
+New token for C3P0: &lt;secret_token&gt;
+</pre></div>
+</div>
+<p>And use the token to register the leaf:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(leaf)$ marv-leaf register https://example.com
+Token: &lt;secret_token&gt;
+Registered successfully as leaf &#39;C3P0&#39;.
+</pre></div>
+</div>
+<p>The leaf binaries are statically linked and have no other dependencies. They contain system and architecture in their names, please feel free to rename them to just <code class="docutils literal notranslate"><span class="pre">marv-leaf</span></code> when copying them to the leaf system.</p>
+<p>Once installed the leaf binary is able to update itself from a running MARV server. This is not necessary with every MARV release, instead <code class="docutils literal notranslate"><span class="pre">marv-leaf</span></code> will inform you if an update is necessary.</p>
+</section>
+<section id="upload-datasets">
+<h2>Upload datasets<a class="headerlink" href="#upload-datasets" title="Permalink to this headline"></a></h2>
+<p>Once server and leaf have been prepared uploading datasets to MARV is straightforward.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(leaf)$ marv-leaf upload --collection bags recording.bag
+</pre></div>
+</div>
+<p>This command will upload the file <code class="docutils literal notranslate"><span class="pre">recording.bag</span></code> to the MARV instance <code class="docutils literal notranslate"><span class="pre">example.com</span></code> and add the dataset to the <code class="docutils literal notranslate"><span class="pre">bags</span></code> collection.</p>
+<p>Upload multiple files as one dataset by placing them into one directory and pass this to <code class="docutils literal notranslate"><span class="pre">marv-leaf</span> <span class="pre">upload</span></code>. For rosbag2 place additional files into the directory first.</p>
+<p>To upload multiple datasets call the command multiple times. See <code class="docutils literal notranslate"><span class="pre">marv-leaf</span> <span class="pre">upload</span> <span class="pre">--help</span></code> for more information.</p>
+<section id="metadata-userdata">
+<h3>Metadata / userdata<a class="headerlink" href="#metadata-userdata" title="Permalink to this headline"></a></h3>
+<p>Optionally, pass a json file <code class="docutils literal notranslate"><span class="pre">marv-leaf</span> <span class="pre">upload</span> <span class="pre">--meta</span> <span class="pre">meta.json</span> <span class="pre">...</span></code> containing one top-level <code class="docutils literal notranslate"><span class="pre">userdata</span></code> key with dictionary value. This <em>userdata</em> is available as <code class="docutils literal notranslate"><span class="pre">dataset.userdata</span></code> in nodes and config functions.</p>
+<p>Multiple uploads may use the same metadata file, the file name is not important, but the file must not reside in the directory to be uploaded.</p>
+</section>
+<section id="return-code">
+<h3>Return code<a class="headerlink" href="#return-code" title="Permalink to this headline"></a></h3>
+<p>On success the return value will be zero and the upload process will have made sure that the checksums of all uploaded files are correct.</p>
+<p>Rerunning <code class="docutils literal notranslate"><span class="pre">marv-leaf</span> <span class="pre">upload</span></code> on the same set of files will not create another dataset. Instead the MARV will recognize that the data already exists on the server and will indicate success by returning zero.</p>
+<p>If an upload is interrupted manually e.g. by loss of network connectivity, the return value will be non-zero to indicate failure. Rerunning <code class="docutils literal notranslate"><span class="pre">marv-leaf</span> <span class="pre">upload</span></code> with the same parameters will resume the upload from where it was interrupted.</p>
+</section>
+</section>
+<section id="data-safety">
+<h2>Data safety<a class="headerlink" href="#data-safety" title="Permalink to this headline"></a></h2>
+<p>Leaves upload datasets to <a class="reference internal" href="config.html#cfg-marv-leavesdir"><span class="std std-ref">leavesdir</span></a>. Make sure to include this directory in backups and consider to delete datasets on leaves only after sufficient time has passed for them to be in backup as well.</p>
+</section>
+<section id="access-control">
+<h2>Access control<a class="headerlink" href="#access-control" title="Permalink to this headline"></a></h2>
+<p>Uploaded datasets are only visible to admins by default. For a normal user to see a dataset, she needs to receive permissions first through group membership. See <a class="reference internal" href="accesscontrol.html#eeacl"><span class="std std-ref">Web-based user, group, and leaf management (EE)</span></a> for more information.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="httpapi.html" class="btn btn-neutral float-left" title="HTTP API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deploy.html" class="btn btn-neutral float-right" title="Deployment" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright  Copyright 2016-2021  Ternaris.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

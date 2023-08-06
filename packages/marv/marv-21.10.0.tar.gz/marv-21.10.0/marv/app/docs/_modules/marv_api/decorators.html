@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>marv_api.decorators &mdash; MARV Robotics 21.10.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx_paramlinks.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> MARV Robotics
+          </a>
+              <div class="version">
+                21.10
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorial/setup-basic-site.html">Tutorial: Setup basic site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorial/write-your-own.html">Tutorial: Write your own nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../CONTRIBUTING.html">Contribution guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../patterns.html">Patterns and known issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../debug.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../config.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scan.html">Scanner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../nodes.html">Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../httpapi.html">HTTP API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../upload.html">Upload (EE)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accesscontrol.html">Access Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../maintenance.html">Maintenance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../migrate/index.html">Migration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../CHANGES.html">Changelog</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/marv.html">marv</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">MARV Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+      <li>marv_api.decorators</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for marv_api.decorators</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright 2016 - 2020  Ternaris.</span>
+<span class="c1"># SPDX-License-Identifier: AGPL-3.0-only</span>
+
+<span class="kn">from</span> <span class="nn">inspect</span> <span class="kn">import</span> <span class="n">getfullargspec</span><span class="p">,</span> <span class="n">isfunction</span><span class="p">,</span> <span class="n">isgeneratorfunction</span>
+
+<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">Field</span>
+
+<span class="kn">from</span> <span class="nn">.dag</span> <span class="kn">import</span> <span class="n">Inputs</span><span class="p">,</span> <span class="n">Node</span><span class="p">,</span> <span class="n">Stream</span>
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">NOTSET</span><span class="p">,</span> <span class="n">exclusive_setitem</span><span class="p">,</span> <span class="n">popattr</span>
+
+
+<div class="viewcode-block" id="InputNameCollisionError"><a class="viewcode-back" href="../../api/marv.html#marv_api.InputNameCollisionError">[docs]</a><span class="k">class</span> <span class="nc">InputNameCollisionError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;An input with the same name already has been declared.&quot;&quot;&quot;</span></div>
+
+
+<div class="viewcode-block" id="input"><a class="viewcode-back" href="../../api/marv.html#marv_api.input">[docs]</a><span class="k">def</span> <span class="nf">input</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">NOTSET</span><span class="p">,</span> <span class="n">foreach</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Declare input for a node.</span>
+
+<span class="sd">    Plain inputs, that is plain python objects, are directly passed to</span>
+<span class="sd">    the node. Whereas streams generated by other nodes are requested</span>
+<span class="sd">    and once the handles of all input streams are available the node</span>
+<span class="sd">    is instantiated.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        name (str): Name of the node function argument the input will</span>
+<span class="sd">            be passed to.</span>
+<span class="sd">        default: An optional default value for the input. This can be</span>
+<span class="sd">            any python object or another node.</span>
+<span class="sd">        foreach (bool): This parameter is currently not supported and</span>
+<span class="sd">            only for internal usage.</span>
+<span class="sd">        type: Stream message type.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        The original function decorated with this input</span>
+<span class="sd">        specification. A function is turned into a node by the</span>
+<span class="sd">        :func:`node` decorator.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        TypeError: If type not supported for input stream.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># NOTE: Foreach is deprecated and does not need a proper exception</span>
+    <span class="k">assert</span> <span class="n">default</span> <span class="ow">is</span> <span class="n">NOTSET</span> <span class="ow">or</span> <span class="n">foreach</span> <span class="ow">is</span> <span class="kc">None</span>
+
+    <span class="k">if</span> <span class="n">foreach</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">default</span> <span class="o">=</span> <span class="n">foreach</span>
+
+    <span class="k">if</span> <span class="nb">type</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">default</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NOTSET</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;&#39;type&#39; is needed if &#39;default&#39; is None or not set&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">default</span><span class="p">,</span> <span class="s1">&#39;__marv_node__&#39;</span><span class="p">):</span>
+        <span class="n">default</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">__marv_node__</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">default</span><span class="p">,</span> <span class="n">Node</span><span class="p">):</span>
+        <span class="n">default</span> <span class="o">=</span> <span class="n">Stream</span><span class="p">(</span><span class="n">node</span><span class="o">=</span><span class="n">default</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">type</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;&#39;type&#39; is not (yet) supported for input streams&quot;</span><span class="p">)</span>
+
+    <span class="n">field</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">deco</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">foreach</span><span class="p">:</span>
+            <span class="c1"># NOTE: Foreach is deprecated and does not need a proper exception</span>
+            <span class="k">assert</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="s1">&#39;__marv_foreach__&#39;</span><span class="p">),</span> <span class="s1">&#39;Only one input may declare foreach&#39;</span>
+            <span class="n">func</span><span class="o">.</span><span class="n">__marv_foreach__</span> <span class="o">=</span> <span class="n">name</span>
+
+        <span class="n">inputs</span> <span class="o">=</span> <span class="n">func</span><span class="o">.</span><span class="vm">__dict__</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;__marv_inputs__&#39;</span><span class="p">,</span> <span class="p">{})</span>
+        <span class="n">exclusive_setitem</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="p">(</span><span class="nb">type</span><span class="p">,</span> <span class="n">field</span><span class="p">),</span> <span class="n">InputNameCollisionError</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">func</span>
+
+    <span class="k">return</span> <span class="n">deco</span></div>
+
+
+<div class="viewcode-block" id="node"><a class="viewcode-back" href="../../api/marv.html#marv_api.node">[docs]</a><span class="k">def</span> <span class="nf">node</span><span class="p">(</span><span class="n">schema</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">group</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Turn function into node.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        schema: capnproto schema describing the output messages format</span>
+<span class="sd">        group (bool): A boolean indicating whether the default stream</span>
+<span class="sd">            of the node is a group, meaning it will be used to</span>
+<span class="sd">            published handles for streams or further groups. In case</span>
+<span class="sd">            of :paramref:`marv.input.foreach` specifications this flag will</span>
+<span class="sd">            default to `True`. This parameter is currently only for</span>
+<span class="sd">            internal usage.</span>
+<span class="sd">        version (int): This parameter currently has no effect.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A :class:`Node` instance according to the given</span>
+<span class="sd">        arguments and :func:`input` decorators.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        TypeError: If not called, double decorated, or not generator.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">schema</span><span class="p">,</span> <span class="s1">&#39;from_bytes_packed&#39;</span><span class="p">):</span>  <span class="c1"># capnp schema</span>
+        <span class="c1"># There are two known variations:</span>
+        <span class="c1"># - marv_nodes/types.capnp:Dataset</span>
+        <span class="c1"># - marv_api.tests.types_capnp:Test</span>
+        <span class="n">schema</span> <span class="o">=</span> <span class="n">schema</span><span class="o">.</span><span class="n">schema</span><span class="o">.</span><span class="n">node</span><span class="o">.</span><span class="n">displayName</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.capnp&#39;</span><span class="p">,</span> <span class="s1">&#39;_capnp&#39;</span><span class="p">)</span>\
+                                               <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="s1">&#39;.&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">isfunction</span><span class="p">(</span><span class="n">schema</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Decorator must be called @marv.node() before being applied.&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">deco</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="s1">&#39;__marv_node__&#39;</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Attempted to convert function into node twice.&#39;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">isgeneratorfunction</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">func</span><span class="si">}</span><span class="s1"> needs to be a generator function&#39;</span><span class="p">)</span>
+
+        <span class="n">foreach</span> <span class="o">=</span> <span class="n">popattr</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="s1">&#39;__marv_foreach__&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="n">inputs</span> <span class="o">=</span> <span class="n">popattr</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="s1">&#39;__marv_inputs__&#39;</span><span class="p">,</span> <span class="p">{})</span>
+
+        <span class="n">argspec</span> <span class="o">=</span> <span class="n">getfullargspec</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+        <span class="n">missing</span> <span class="o">=</span> <span class="n">inputs</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span> <span class="o">^</span> <span class="n">argspec</span><span class="o">.</span><span class="n">args</span>
+        <span class="n">unsupported</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">(</span>
+                <span class="s1">&#39;varargs&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;varkw&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;defaults&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;kwonlyargs&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;kwonlydefaults&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;annotations&#39;</span><span class="p">,</span>
+            <span class="p">)</span> <span class="k">if</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">argspec</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="n">missing</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Missing input declarations: </span><span class="si">{</span><span class="n">missing</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">unsupported</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Only positional arguments allowed in function signature&#39;</span><span class="p">)</span>
+
+        <span class="n">func</span><span class="o">.</span><span class="n">__marv_inputs__</span> <span class="o">=</span> <span class="n">Inputs</span><span class="o">.</span><span class="n">subclass</span><span class="p">(</span><span class="n">func</span><span class="o">.</span><span class="vm">__module__</span><span class="p">,</span> <span class="o">**</span><span class="n">inputs</span><span class="p">)</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">__marv_inputs__</span><span class="o">.</span><span class="vm">__qualname__</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">func</span><span class="o">.</span><span class="vm">__qualname__</span><span class="si">}</span><span class="s1">.__marv_inputs__&#39;</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">__marv_node__</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span>
+            <span class="n">function</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">func</span><span class="o">.</span><span class="vm">__module__</span><span class="si">}</span><span class="s1">.</span><span class="si">{</span><span class="n">func</span><span class="o">.</span><span class="vm">__qualname__</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span>
+            <span class="n">inputs</span><span class="o">=</span><span class="n">func</span><span class="o">.</span><span class="n">__marv_inputs__</span><span class="p">(),</span>
+            <span class="n">message_schema</span><span class="o">=</span><span class="n">schema</span><span class="p">,</span>
+            <span class="n">group</span><span class="o">=</span><span class="n">group</span><span class="p">,</span>
+            <span class="n">version</span><span class="o">=</span><span class="n">version</span><span class="p">,</span>
+            <span class="n">foreach</span><span class="o">=</span><span class="n">foreach</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">clone</span> <span class="o">=</span> <span class="n">func</span><span class="o">.</span><span class="n">__marv_node__</span><span class="o">.</span><span class="n">clone</span>
+        <span class="k">return</span> <span class="n">func</span>
+
+    <span class="k">return</span> <span class="n">deco</span></div>
+
+
+<span class="c1"># NOTE: Strictly speaking not a decorator but related to decoration of node functions</span>
+<div class="viewcode-block" id="select"><a class="viewcode-back" href="../../api/marv.html#marv_api.select">[docs]</a><span class="k">def</span> <span class="nf">select</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>  <span class="c1"># pylint: disable=redefined-outer-name</span>
+    <span class="sd">&quot;&quot;&quot;Select specific stream of a node by name.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        node: A node producing a group of streams.</span>
+<span class="sd">        name (str): Name of stream to select.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        Node outputting selected stream.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">Stream</span><span class="p">(</span><span class="n">node</span><span class="o">=</span><span class="n">node</span><span class="o">.</span><span class="n">__marv_node__</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">)</span></div>
+
+
+<span class="c1"># NOTE: Strictly speaking not a decorator but related to decoration of node functions</span>
+<span class="k">def</span> <span class="nf">getdag</span><span class="p">(</span><span class="n">node</span><span class="p">):</span>  <span class="c1"># pylint: disable=redefined-outer-name</span>
+    <span class="k">return</span> <span class="n">node</span><span class="o">.</span><span class="n">__marv_node__</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright  Copyright 2016-2021  Ternaris.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
