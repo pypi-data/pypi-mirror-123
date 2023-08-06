@@ -1,0 +1,6 @@
+snowflake-connector-python<2.6.0
+numpy
+dbnd==0.51.0
+
+[:python_version >= "3.0"]
+sqlparse==0.3.1
