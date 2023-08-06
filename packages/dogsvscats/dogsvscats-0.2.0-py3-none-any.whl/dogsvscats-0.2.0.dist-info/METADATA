@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dogsvscats
+Version: 0.2.0
+Summary: Solution for Kaggle competition https://www.kaggle.com/c/dogs-vs-cats
+Home-page: https://github.com/albertoburgosplaza/dogs-vs-cats
+Author: Alberto Burgos
+Author-email: albertoburgosplaza@gmail.com
+License: Apache
+Keywords: machine-learning,artificial-intelligence,computer-vision,kaggle
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: onnxruntime
+Requires-Dist: Pillow
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+UNKNOWN
+
