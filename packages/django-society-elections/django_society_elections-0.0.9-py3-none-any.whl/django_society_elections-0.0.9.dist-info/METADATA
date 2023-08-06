@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: django-society-elections
+Version: 0.0.9
+Summary: A Django app to run first-past-the-post elections for a university society
+Home-page: https://github.com/ryanharrison554/django-society-elections
+Author: Ryan Harrison
+Author-email: ryanharrison.opensource@protonmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (>=3.0)
+
+# django-society-elections
+A Django app to run first-past-the-post elections for a university society
+
+
+## Build and Installation
+
+First, make sure you have the required version of Python (>=3.6) and you have created a virtual environment with `python -m venv venv`. To create migrations during development, run `make migrations`. This will also be done as part of the build and install stages.
+
+To build: `make build` or alternatively `python setup.py build`
+
+To install: `make install` or alternatively `python setup.py install`
+
+
+## Using it in your Django project
+
+You will need some settings for your Django project to make this work. If you want to use the emailing features you will need the following settings in your `settings.py`:
+
+```python
+# The root URL of your site without the trailing slash
+ROOT_URL = "http(s)://[hostname]"
+
+# Email address to send emails from
+DEFAULT_FROM_EMAIL = "noreply@hostname"
+```
+
+You will also need any additional email configuration to get the emailing functionality working in your Django application. See https://docs.djangoproject.com/en/dev/topics/email/
+
+You will also need a URL path with a name `verify_candidate` which points at a view to validate a given candidate. URL configuration should take one argument which will be the UUID used to verify the email. You can check that an email has been validated by comparing the UUID supplied against a lookup in the database, and then marking the resulting record as verified. Optionally, you can then clear the `email_uuid` field in the database.
+
