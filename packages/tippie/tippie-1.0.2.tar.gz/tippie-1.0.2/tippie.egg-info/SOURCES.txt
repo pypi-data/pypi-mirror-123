@@ -1,0 +1,11 @@
+README.md
+setup.py
+tippie/__init__.py
+tippie/type_hint.py
+tippie.egg-info/PKG-INFO
+tippie.egg-info/SOURCES.txt
+tippie.egg-info/dependency_links.txt
+tippie.egg-info/entry_points.txt
+tippie.egg-info/top_level.txt
+tippie/example/__init__.py
+tippie/example/example.py

@@ -1,0 +1,3 @@
+[console_scripts]
+tippie = tippie.type_hint:type_hint
+
