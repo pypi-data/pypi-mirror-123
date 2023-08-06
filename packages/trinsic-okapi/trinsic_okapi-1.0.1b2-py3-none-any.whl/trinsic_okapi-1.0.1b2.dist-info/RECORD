@@ -1,0 +1,16 @@
+okapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+okapi/generate_proto_files.py,sha256=lbigbIfxp5V9hndeDgNtvS-P0ud8G0fShJVNzvOV2Wc,1077
+okapi/okapi_utils.py,sha256=Ond1Yi6ycFAUKjp7dM3OIhCHmIg5wUs-O3qV_pAn_Do,5714
+okapi/wrapper.py,sha256=j6FRhzvy7va3F6arzL5lRQ1rOVBRhRCYXHJdjxZ--_s,3539
+okapi/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+okapi/proto/okapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+okapi/proto/okapi/examples/__init__.py,sha256=H5PbR01tm0A8uv6Uxvg9_ssXnEtt5kSQbLJQpZO8NnA,4191
+okapi/proto/okapi/keys/__init__.py,sha256=cHZ-6vnN5Lu02OYyeuyReFDUTDZJ0Jzs1XIgS9zw6l8,1553
+okapi/proto/okapi/proofs/__init__.py,sha256=hBtl6tbUp7z6TfVHCutiFHALaeoX5C_XVhBt3KV2_AA,1391
+okapi/proto/okapi/security/__init__.py,sha256=DBrHb9fY3PXoAHrXjlZNwx-FLVAWgDbIb4_qlailES0,2920
+okapi/proto/okapi/transport/__init__.py,sha256=hrAxD625MxuK4iFi-cj37a9Qc421Pu2bhA6bYeOMeNs,2467
+okapi/proto/pbmse/__init__.py,sha256=1xnYE-UqLw5_RKGK8I5ZrtYv2go3nyTUHjceK_PXSOc,1868
+trinsic_okapi-1.0.1b2.dist-info/METADATA,sha256=R5HGwJuHtnPNY5W--mb455X8kQ9HdIxEsz59OMR5QRA,1520
+trinsic_okapi-1.0.1b2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trinsic_okapi-1.0.1b2.dist-info/top_level.txt,sha256=Jd-MreoF_ccCdN1zFBJl7Jqutlum69gpsgw743IAWhc,6
+trinsic_okapi-1.0.1b2.dist-info/RECORD,,
