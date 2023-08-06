@@ -1,0 +1,7 @@
+numpy
+segyio
+psutil
+zfpy
+click
+pyzgy
+pyvds
