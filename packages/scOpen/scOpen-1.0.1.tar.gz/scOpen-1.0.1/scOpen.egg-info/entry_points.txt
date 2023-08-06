@@ -1,0 +1,3 @@
+[console_scripts]
+scopen = scopen.Main:main
+

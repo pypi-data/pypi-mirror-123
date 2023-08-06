@@ -1,0 +1,9 @@
+numpy
+h5py
+six
+pandas
+scipy
+tables
+matplotlib
+scikit-learn
+kneed

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+./scopen/cdnmf_fast.c
+scOpen.egg-info/PKG-INFO
+scOpen.egg-info/SOURCES.txt
+scOpen.egg-info/dependency_links.txt
+scOpen.egg-info/entry_points.txt
+scOpen.egg-info/requires.txt
+scOpen.egg-info/top_level.txt
+scopen/MF.py
+scopen/Main.py
+scopen/Utils.py
+scopen/__init__.py
+scopen/__version__.py
