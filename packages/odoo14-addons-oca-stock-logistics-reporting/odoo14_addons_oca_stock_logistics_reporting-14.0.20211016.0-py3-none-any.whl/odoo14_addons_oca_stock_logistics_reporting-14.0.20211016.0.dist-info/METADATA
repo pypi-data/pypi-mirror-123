@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-oca-stock-logistics-reporting
+Version: 14.0.20211016.0
+Summary: Meta package for oca-stock-logistics-reporting Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-delivery-line-sale-line-position
+Requires-Dist: odoo14-addon-stock-card-report
+Requires-Dist: odoo14-addon-stock-picking-report-valued
+
+UNKNOWN
+
