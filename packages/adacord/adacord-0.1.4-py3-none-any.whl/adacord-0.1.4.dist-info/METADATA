@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: adacord
+Version: 0.1.4
+Summary: The cli and sdk for adacord.com
+Home-page: https://www.adacord.com
+License: MIT
+Author: Christian Barra
+Author-email: me@christianbarra.com
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/adacord/cli
+Description-Content-Type: text/markdown
+
+# Adacord CLI
+
+
+## Install the cli
+
+```bash
+pip install adacord
+```
+
+## Create a new user
+
+```bash
+adacord user create
+```
+
+## Login
+
+```bash
+adacord user login --email me@my-email.com --password your-password
+```
+
+## Create endpoint
+
+```bash
+adacord bucket create --description "A fancy bucket"
+```
+
+## List endpoints
+
+```bash
+adacord bucket list
+```
+
+## Query endpoint
+
+```bash
+adacord bucket query my-bucket --query 'select * from my-bucket'
+```
+
+## For developmenet
+
+```bash
+poetry install
+```
+
