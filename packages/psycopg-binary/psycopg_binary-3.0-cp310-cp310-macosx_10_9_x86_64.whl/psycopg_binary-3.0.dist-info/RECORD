@@ -1,0 +1,17 @@
+psycopg_binary/version.py,sha256=k4P-y-OM2EeEH6Me4SnGCsYSYD8k-6ZvMw-e4SGm-1o,249
+psycopg_binary/__init__.py,sha256=fnWOYOxJE7_Zv2EZ1gCa85n6vEls6O39qze2AaFlcbo,406
+psycopg_binary/_psycopg.cpython-310-darwin.so,sha256=Q0s1DYUEQxQcJMLo-PGbVcUZBLE0lm4JkzKVBqP7NOs,1548096
+psycopg_binary/pq.cpython-310-darwin.so,sha256=ernJ20snG1gVjgPBIfNzOtJsv7VhKWZlEcszzBonwEg,420672
+psycopg_binary/.dylibs/libcom_err.3.0.dylib,sha256=V9yQOv54yXaSWqbuzWUEmJz8UePY_4mJ5I6Z9Tbf9MU,71168
+psycopg_binary/.dylibs/libpq.5.13.dylib,sha256=b2CwfeWZlcL4v_LHhaL8Qrj_wMmjuRnfoPt0Hvu7i20,317408
+psycopg_binary/.dylibs/libssl.1.1.dylib,sha256=8TKaE-eYcgY5LXp5ju8_vfPUZag13R8FK1e52_lyrso,525056
+psycopg_binary/.dylibs/libgssapi_krb5.2.2.dylib,sha256=zJ0bn_r5f5EU4RH3nQcewkNflwKhrKrQhYR3ozDo1rU,325456
+psycopg_binary/.dylibs/libkrb5.3.3.dylib,sha256=IoR2o51AFnHTeAtEocfjQVk9RzTj3FsaqiLD_3bW16k,792992
+psycopg_binary/.dylibs/libkrb5support.1.1.dylib,sha256=W1yI2dU36hK9t-OhkS17UXrpaAhXsp29o02ihyV3eVM,96192
+psycopg_binary/.dylibs/libcrypto.1.1.dylib,sha256=rKssWHzihFLq0xvIdKhan0KHo4SgN86O-_381yHXJww,2474528
+psycopg_binary/.dylibs/libk5crypto.3.1.dylib,sha256=StZ5xD5633KPZkaOIrWX9-5P56OweuNCCHdBhbiimtU,216000
+psycopg_binary-3.0.dist-info/RECORD,,
+psycopg_binary-3.0.dist-info/WHEEL,sha256=QN3MNOFrRIeE9ccPTe5mH4Q_A2DBDdD7_qUigvuJeQU,111
+psycopg_binary-3.0.dist-info/top_level.txt,sha256=8OM_PsAa5oKkzVvRu8kDESihBQo_LXqwG_nrlecubIk,15
+psycopg_binary-3.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+psycopg_binary-3.0.dist-info/METADATA,sha256=Hf4h7dbhcmals3lYfUp3_NBLStv8gF_aC69Hlf55VUo,2372
