@@ -1,0 +1,11 @@
+parsinghook/__init__.py,sha256=QKzLa0w4I8Ykh5qR35ssTkp_BU5LksablFBh1zbXEFs,51
+parsinghook/_test.py,sha256=2viQ936w0qOgfSNoFSHWTOlhzSUQdxLRQBIYyvpC6t0,100
+parsinghook/auto.py,sha256=Fd1ScRupcC4mZwuN9jgToUPtot7xSeFEveFhef437f4,63
+parsinghook/dumpast.py,sha256=tgjQrMYuS_mSSAOfPeKh7R06xS7836r2FzqLRIYGk8Q,270
+parsinghook/hook.py,sha256=KjuqW1S2RmJf2jgiV7T4_f5UmWsUn1ssIB8uapqlp2A,3481
+parsinghook/test.py,sha256=DqPkTS7weVW6aalwohTBBMpAEQ0sFl5qfFP2aqDA-Ag,523
+parsinghook-0.9.0.dist-info/LICENSE,sha256=_DS1OwiGM_Df2jzIYFiuDIheTpf8tvNJ8-kXBWzA5LY,1068
+parsinghook-0.9.0.dist-info/METADATA,sha256=f0YjYrK2qgbEg5bByJ-nEjAre1k33T3K4aiShWjGFQE,2991
+parsinghook-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+parsinghook-0.9.0.dist-info/top_level.txt,sha256=oVZFcwInOO14pfNS6uNtUuCdpqtaziPumaB3AMwAzdk,12
+parsinghook-0.9.0.dist-info/RECORD,,
