@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: test-acme-abnb
+Version: 0.0.20
+Summary: Ottr ACME Client Python Wrapper
+Home-page: https://github.com/yangkenneth/ottr-package/
+Author: Kenneth Yang
+Author-email: kenneth.yang@airbnb.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: pyOpenSSL
+Requires-Dist: python-nmap
+Requires-Dist: tldextract (==3.1.0)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+## Ottr ACME Client
+
+`ottr-airbnb` is a Python wrapper around `acme.sh` that handles the certificate
+signing process for Certificate Authorities that support the ACME protocol such
+as Let's Encrypt. This package is utilized for containers running on Ottr that
+handle the logic for X.509 certificate rotations.
+
+
