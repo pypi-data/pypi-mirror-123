@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nautobot-ddns
+Version: 0.0.13
+Summary: Dynamic DNS Connector for nautobot
+Home-page: https://github.com/sjm-steffann/nautobot_ddns
+Author: Jakub Jastrabik && Sander Steffann
+Author-email: sander@steffann.nl
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: dnspython
+
+# nautobot_ddns
+
