@@ -1,0 +1,15 @@
+fwOper/__init__.py,sha256=Kc1BRe4tuEo614yMdlWL_WCI4-_ZDxsiDPi4D9q7v9Y,762
+fwOper/acg.py,sha256=2FOEi_aXnR4jqyMrgpqdZoJvNg1w3Eh9wev1EgdIe78,14340
+fwOper/acl.py,sha256=h9dxqwVnr1La8ygSfwmRe16ofUJk2BZw_yFGaupgYy4,15515
+fwOper/common.py,sha256=M_9ucz5qxcSfMmH2xqrrJfKjdzJy6MPPg_MlR0idf0c,230
+fwOper/entity.py,sha256=vMuwCfdPjnfWNh2LAC37oAMf8yS-OmaJtL6ubX-dpqQ,4694
+fwOper/fwObj.py,sha256=XxDlGYbknNLIwtTpIxnGW6NpZ_KZVrwLEJWw9rNh_nU,3037
+fwOper/instances.py,sha256=PcvD2C5-rzAsK4D4kVtaemMwgNhyUsBrS4m7x-CtX08,2622
+fwOper/member.py,sha256=hpt1kxTdMuMPUsnGVMlBT9h4zd3v451wx3tSM9JM7bw,6588
+fwOper/route.py,sha256=1PK24Bpp8qB_KjJcMH8cDDPf-t5EZ28Kvpwq--RkekQ,4204
+fwOper/static.py,sha256=6LGz_PpiusnMvFkPDhEKhmCXuFZvwEb5TZtmZCH_7VY,895
+fwOper-0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+fwOper-0.0.2.dist-info/METADATA,sha256=DX8Tf1_qCY0eEZcg0Yp_GkU3DhzmM9i7_ZtbOBYYB9E,593
+fwOper-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fwOper-0.0.2.dist-info/top_level.txt,sha256=52O5ygaHcbsxGns1iL2nYGV0_w-aQWvF1LFW9sOt24A,7
+fwOper-0.0.2.dist-info/RECORD,,
