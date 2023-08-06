@@ -1,0 +1,10 @@
+parse_bank_statements/__init__.py,sha256=jL_benowYfKDjRL5V2nyu6guL0o7iwgrlqePC61rb1k,539
+parse_bank_statements/bank_path.py,sha256=R-gCPWi21a72QZX3B3A2EvrvHV_mNDkJRCywLK6JNrQ,212
+parse_bank_statements/parse_bank_statements.py,sha256=1F-0ll_z4j5L4GFXvxHkm-slOFORAjI7lhMAkFq0INA,19397
+parse_bank_statements/pbs_style.py,sha256=pgtCIa4r6KQruTDKTbwXLp4r-8ZJYkHWzWBfUWHA57Q,487
+parse_bank_statements/pdf2csv.py,sha256=vGNlJ9jfLYEnA08xHEFOb2Virg3iSND_9H8IpvmicBY,1232
+parse_bank_statements-0.0.1.dist-info/LICENSE,sha256=MS4sguwdpzwF_nBl-3F7EdaPlAvpbks30nVryI2fo5g,1080
+parse_bank_statements-0.0.1.dist-info/METADATA,sha256=bDJfAb5lgyOFl3IwVq4_hTKZdZNr6wRjOmm7APlAWvQ,1616
+parse_bank_statements-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+parse_bank_statements-0.0.1.dist-info/top_level.txt,sha256=k6GmJ_Kzcni_ts3UC1RwEN2yqiL-JSdEVb8SgV_3WGU,22
+parse_bank_statements-0.0.1.dist-info/RECORD,,
