@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dogsvscats
+Version: 0.2.2
+Summary: Solution for Kaggle competition https://www.kaggle.com/c/dogs-vs-cats
+Home-page: https://github.com/albertoburgosplaza/dogs-vs-cats
+Author: Alberto Burgos
+Author-email: albertoburgosplaza@gmail.com
+License: Apache
+Keywords: machine-learning,artificial-intelligence,computer-vision,kaggle
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: onnxruntime
+Requires-Dist: Pillow
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+# Dogs vs. Cats Kaggle's competition project (inference)
+
+This project brings an usable simple solution for the Kaggle's competition dogs-vs-cats (https://www.kaggle.com/c/dogs-vs-cats). Training project can be found at https://github.com/albertoburgosplaza/dogs-vs-cats.
+
+## Quick start
+
+```python
+from dogsvscats.predict import predict
+predict(<image_path>)
+```
+Check the Colab notebook:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hQb7MSMVfAIKJ8Yr-_r6BWLX8LEKwVWd?usp=sharing)
+
+
