@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: viddur
+Version: 0.1.2
+Summary: Calculating and viewing the durations of videos.
+Home-page: https://github.com/Mahyar24/viddur
+License: GPL-3.0-or-later
+Keywords: FFprobe,viddur,video duration
+Author: Mahyar Mahdavi
+Author-email: Mahyar@Mahyar24.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/Mahyar24/viddur
+Description-Content-Type: text/markdown
+
+# viddur
+
+Calculating and viewing the durations of videos.
+
+## Installation
+
+First, you need to install "FFprobe". Then, use the package manager [pip](https://pip.pypa.io/en/stable/) to install viddur.
+
+```bash
+sudo apt-get install ffmpeg && pip install viddur;
+```
+
+## Usage
+
+Please check out ```viddur --help``` for instructions.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Contact me: <OSS@Mahyar24.com> :)
+
+## License
+[GNU GPLv3 ](https://choosealicense.com/licenses/gpl-3.0/)
+

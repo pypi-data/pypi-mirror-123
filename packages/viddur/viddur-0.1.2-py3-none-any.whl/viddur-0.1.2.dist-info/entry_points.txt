@@ -1,0 +1,3 @@
+[console_scripts]
+viddur=viddur.__main__:entry_point
+
