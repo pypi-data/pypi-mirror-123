@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+crypto_stocks/__init__.py
+crypto_stocks/get_price.py
+crypto_stocks/test.py
+crypto_stocks.egg-info/PKG-INFO
+crypto_stocks.egg-info/SOURCES.txt
+crypto_stocks.egg-info/dependency_links.txt
+crypto_stocks.egg-info/not-zip-safe
+crypto_stocks.egg-info/requires.txt
+crypto_stocks.egg-info/top_level.txt
