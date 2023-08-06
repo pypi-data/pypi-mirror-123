@@ -1,0 +1,12 @@
+CBFV/__init__.py,sha256=f7QaZ2r8CUpupxlkErdZi6H-i6ulM8dN0EgSo1QT-38,82
+CBFV/composition.py,sha256=CuUwx46pqSP1bp0lOCFf6ZnkiA75GgMCXoNsjAOeHAI,11468
+CBFV/element_properties/jarvis.csv,sha256=GUqQ2lBSB4fXv2qJ6Nmjl5C2vSGEKPg-SHSyJLsQVSc,400505
+CBFV/element_properties/magpie.csv,sha256=QCeCN5yVDBCGWwfE4wRP5qIMhBrvb_6BvLkS4L-N5B0,10915
+CBFV/element_properties/mat2vec.csv,sha256=Xc3hoP4TBAr5nby3s9c-sCL_0IXn9Zjc5whE0K-DsTc,476891
+CBFV/element_properties/oliynyk.csv,sha256=_2A0WfpBgJi7tjwT0EpJGT5J4Pahs0208ApjYodgu74,15299
+CBFV/element_properties/onehot.csv,sha256=wi1EuCBMAIXf96sqJQT4J4-nMyyqvZhA4ngvpkDz0i0,29518
+CBFV/element_properties/random_200.csv,sha256=0sjBdoLJv0ma6yYuhQbPHaozKkFBh_2vrkxwZx0J-V4,322869
+CBFV-1.0.0.dist-info/METADATA,sha256=Les9Et1pO3KPqsbS8jRrBbhRIKgfnXAGWAHKETgH8mU,907
+CBFV-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+CBFV-1.0.0.dist-info/top_level.txt,sha256=ftGNik5fQANV4xg8t3i3Gd5dlyoMVDo1R_fmg_9CK7U,5
+CBFV-1.0.0.dist-info/RECORD,,

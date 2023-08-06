@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: CBFV
+Version: 1.0.0
+Summary: Tool for quickly creating a composition-based feature vector
+Home-page: https://github.com/kaaiian/CBFV
+Author: Steven Kauwe, Andrew Falkowski, Anthony Wang
+Author-email: jkkauwe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: pytest
+
+UNKNOWN
+
+
