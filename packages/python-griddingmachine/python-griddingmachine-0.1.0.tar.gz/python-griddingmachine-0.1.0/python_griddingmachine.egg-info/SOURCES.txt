@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+griddingmachine/__init__.py
+python_griddingmachine.egg-info/PKG-INFO
+python_griddingmachine.egg-info/SOURCES.txt
+python_griddingmachine.egg-info/dependency_links.txt
+python_griddingmachine.egg-info/requires.txt
+python_griddingmachine.egg-info/top_level.txt

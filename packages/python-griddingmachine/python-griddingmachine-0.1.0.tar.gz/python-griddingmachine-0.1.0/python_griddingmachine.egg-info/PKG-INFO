@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: python-griddingmachine
+Version: 0.1.0
+Summary: GriddingMachine - a database and tool for earth system modeling
+Home-page: https://github.com/Yujie-W/python-griddingmachine
+Author: Yujie Wang
+Author-email: jesiner@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-griddingmachine
+
+## Note
+1. Compile and and upload it to TestPyPI before unloaded it to PyPI:
+```shell
+$ python setup.py sdist
+$ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
+
+2. Download the testing package:
+```shell
+$ pip install -i https://test.pypi.org/simple/ python-griddingmachine
+```
+
+3. Test the package
+```python
+from griddingmachine import *
+udpate_GM()
+query_collection("VCMAX_2X_1Y_V1")
+request_LUT("VCMAX_2X_1Y_V1", 33, 115)
+request_LUT("VCMAX_2X_1Y_V1", 33, 115, interpolation=True)
+```
+
+4. Upload the package to PyPI (not TestPyPI)
+```shell
+```
+
+
