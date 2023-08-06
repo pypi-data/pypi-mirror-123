@@ -1,0 +1,3 @@
+[localstack.plugins.cli]
+pro = localstack_ext.cli.localstack:ProCliPlugin
+
