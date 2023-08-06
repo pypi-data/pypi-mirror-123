@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/py_sic.egg-info/PKG-INFO
+src/py_sic.egg-info/SOURCES.txt
+src/py_sic.egg-info/dependency_links.txt
+src/py_sic.egg-info/requires.txt
+src/py_sic.egg-info/top_level.txt
+src/pysic/__init__.py
+src/pysic/engine.py
+src/pysic/errors.py
+src/pysic/pillow_gif_patch.py
