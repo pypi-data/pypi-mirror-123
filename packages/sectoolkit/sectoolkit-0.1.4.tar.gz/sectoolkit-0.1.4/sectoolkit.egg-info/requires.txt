@@ -1,0 +1,7 @@
+bs4
+numpy
+pandas
+xmltodict
+json
+tqdm.notebook
+multiprocessing
