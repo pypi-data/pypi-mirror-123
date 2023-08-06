@@ -1,0 +1,2 @@
+from thin_ws_server.websocket_server import WebSocketServer
+
