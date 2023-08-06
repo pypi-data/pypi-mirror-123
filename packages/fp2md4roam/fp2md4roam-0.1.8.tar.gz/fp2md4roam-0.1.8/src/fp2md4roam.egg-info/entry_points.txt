@@ -1,0 +1,3 @@
+[console_scripts]
+convert_map = fp2md4roam:converter
+
