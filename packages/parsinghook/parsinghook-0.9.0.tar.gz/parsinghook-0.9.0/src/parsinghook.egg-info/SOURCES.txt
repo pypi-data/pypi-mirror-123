@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/parsinghook/__init__.py
+src/parsinghook/_test.py
+src/parsinghook/auto.py
+src/parsinghook/dumpast.py
+src/parsinghook/hook.py
+src/parsinghook/test.py
+src/parsinghook.egg-info/PKG-INFO
+src/parsinghook.egg-info/SOURCES.txt
+src/parsinghook.egg-info/dependency_links.txt
+src/parsinghook.egg-info/top_level.txt
