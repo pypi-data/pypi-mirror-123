@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=hmS2CR2y5pDP7C56NOsHHp5e1KygR323YsvYZY_zyZQ,43
+tests/test_utils.py,sha256=my5Mzb5KyxBvUpEnlpMd3_jsIGHRu0G-G2OxIUXW97U,878
+tuttusa_utils/__init__.py,sha256=DGjFQ5L1jdukiXyrPevTm2og0PAeUvwVimWYapTrfc0,131
+tuttusa_utils/cli.py,sha256=6rxtGNxhQIk4HUFnkIcIJQ6StALFhkqmOqy9kFqW98M,278
+tuttusa_utils/tuttusa_utils.py,sha256=tCZ051NoNxNXHxGrxIU8MdB6Xpy85BcYcoA3kGpFvOA,2754
+tuttusa_utils-0.1.dist-info/AUTHORS.md,sha256=ZTexszuHoEVDLmFP80z_xfFJzDbJV5eZbFsTS5DRUUY,124
+tuttusa_utils-0.1.dist-info/LICENSE,sha256=E2dAtvDK5R2fZbvS2Xltwz7f3peyhkijjYJjI-f097Q,1075
+tuttusa_utils-0.1.dist-info/METADATA,sha256=coh786oEcYejKM9O4mAlinzKl0g6cSwfQOFVqtffSg0,1793
+tuttusa_utils-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tuttusa_utils-0.1.dist-info/top_level.txt,sha256=iXiwQzEDjuCOczKa-jx4lZrI_2SSNY6BV9ryhuWgMvo,20
+tuttusa_utils-0.1.dist-info/RECORD,,
