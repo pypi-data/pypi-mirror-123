@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: NUMPRIMO
+Version: 5.2
+Summary: A tool to perform mathematical operations.
+Home-page: UNKNOWN
+Author: Lorena Arana
+Author-email: lorenaaranasilva29@gmail.com
+License: GNU GPLv3
+Keywords: pyoperaciones mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+NUMPRIMO
+
+It is a very simple python package. The program shows on the screen whether a number is prime or not.
+This program is free software : You can redistribute it and/or modify it under the terms of license by the Free Software Foundation.
+
+
+
