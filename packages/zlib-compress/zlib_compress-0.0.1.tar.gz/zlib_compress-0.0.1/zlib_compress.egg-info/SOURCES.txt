@@ -1,0 +1,9 @@
+README.md
+setup.py
+zlib_compress/__init__.py
+zlib_compress.egg-info/PKG-INFO
+zlib_compress.egg-info/SOURCES.txt
+zlib_compress.egg-info/dependency_links.txt
+zlib_compress.egg-info/entry_points.txt
+zlib_compress.egg-info/top_level.txt
+zlib_compress/cli/__init__.py
