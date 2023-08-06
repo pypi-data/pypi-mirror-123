@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+uecli/__init__.py
+uecli/__main__.py
+uecli/authenticator.py
+uecli/info.py
+uecli.egg-info/PKG-INFO
+uecli.egg-info/SOURCES.txt
+uecli.egg-info/dependency_links.txt
+uecli.egg-info/entry_points.txt
+uecli.egg-info/requires.txt
+uecli.egg-info/top_level.txt
