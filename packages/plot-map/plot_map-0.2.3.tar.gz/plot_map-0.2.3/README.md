@@ -1,0 +1,128 @@
+# plot_map
+
+plot_map工具针对时空大数据处理而开发，目前有下面几个功能：
+1. 添加地图底图
+2. 火星坐标转换
+3. 经纬度换算距离
+4. 栅格渔网划分：请看[这个示例](https://github.com/ni1o1/plot_map/blob/master/example/example.ipynb)
+5. 用KDTree算法匹配点与点、点与线的最近邻：请看[这个示例](https://github.com/ni1o1/plot_map/blob/master/example/example-ckdnearest.ipynb)
+
+## 安装
+
+    pip install plot-map
+
+## 使用方法
+
+### 地图底图加载
+
+只需要用以下代码：   
+
+    import plot_map
+    #设定显示范围
+    bounds = [lon1,lat1,lon2,lat2]  
+    plot_map.plot_map(plt,bounds,zoom = 12,style = 4)  
+
+参数
+
+| 参数        | 描述                                                         |
+| ----------- | ------------------------------------------------------------ |
+| bounds      | 底图的绘图边界，[lon1,lat1,lon2,lat2] (WGS84坐标系) 其中，lon1,lat1是左下角坐标，lon2,lat2是右上角坐标 |
+| zoom        | 底图的放大等级，越大越精细，加载的时间也就越久，一般单个城市大小的范围，这个参数选取12到16之间 |
+| style       | 地图底图的样式，可选1-7，1-6为openstreetmap，7是mapbox       |
+| imgsavepath | 瓦片地图储存路径，设置路径后，会把地图下载到本地的文件夹下，使用时也会优先搜索是否有已经下载的瓦片，默认的存放路径是C:\\ |
+| printlog    | 是否显示日志                                                 |
+
+### 绘制指北针和比例尺的功能plotscale
+
+为底图添加指北针和比例尺
+
+    plot_map.plotscale(ax,bounds = bounds,textsize = 10,compasssize = 1,accuracy = 2000,rect = [0.06,0.03])  
+
+参数
+
+| 参数        | 描述                                                         |
+| ----------- | ------------------------------------------------------------ |
+| bounds      | 底图的绘图边界，[lon1,lat1,lon2,lat2] (WGS84坐标系) 其中，lon1,lat1是左下角坐标，lon2,lat2是右上角坐标 |
+| textsize    | 标注文字大小                                                 |
+| compasssize | 标注的指北针大小                                             |
+| accuracy    | 标注比例尺的长度                                             |
+| unit        | 'KM','km','M','m' 比例尺的单位                               |
+| style       | 1或2，比例尺样式                                             |
+| rect       | 比例尺在图中的大致位置，如[0.9,0.9]则在右上角                    |
+
+### 生成方形栅格渔网
+
+生成研究范围内的方形栅格  
+
+    import plot_map
+    #设定范围
+    bounds = [lon1,lat1,lon2,lat2]
+    grid,params = plot_map.rect_grids(bounds,accuracy = 500)
+
+
+输入参数
+
+| 参数        | 描述                                                         |
+| ----------- | ------------------------------------------------------------ |
+| bounds      | 底图的绘图边界，[lon1,lat1,lon2,lat2] (WGS84坐标系) 其中，lon1,lat1是左下角坐标，lon2,lat2是右上角坐标 |
+| accuracy    | 栅格大小                                                 |
+
+输出
+
+| 参数        | 描述                                                         |
+| ----------- | ------------------------------------------------------------ |
+| grid      | 栅格的GeoDataFrame，其中LONCOL与LATCOL为栅格的编号，HBLON与HBLAT为栅格的中心点坐标 |
+| params    | 栅格参数，分布为(lonStart,latStart,deltaLon,deltaLat)栅格左下角坐标与单个栅格的经纬度长宽|
+
+### 栅格参数获取
+
+输入经纬度范围bounds，输出栅格参数
+
+    bounds = [113.75194,22.447837,114.624187,22.864748]
+    grid_params(bounds,accuracy = 500)
+
+### GPS数据对应栅格编号
+
+输入数据的经纬度列与栅格参数，输出对应的栅格编号
+
+    data['LONCOL'],data['LATCOL'] = plot_map.GPS_to_grids(data['Lng'],data['Lat'],params)
+
+### 栅格编号对应栅格中心点经纬度
+
+输入数据的栅格编号与栅格参数，输出对应的栅格中心点
+
+    data['HBLON'],data['HBLAT'] = plot_map.grids_centre(data['LONCOL'],data['LATCOL'],params)
+
+### 栅格编号生成栅格的地理信息列
+
+输入数据的栅格编号与栅格参数，输出对应的地理信息列
+
+    data['geometry'] = plot_map.gridid_to_polygon(data['LONCOL'],data['LATCOL'],params)
+
+### 火星坐标系互转
+
+坐标互转，基于numpy列运算
+
+    data['Lng'],data['Lat'] = plot_map.wgs84tobd09(data['Lng'],data['Lat'])  
+    data['Lng'],data['Lat'] = plot_map.wgs84togcj02(data['Lng'],data['Lat'])  
+    data['Lng'],data['Lat'] = plot_map.gcj02tobd09(data['Lng'],data['Lat'])  
+    data['Lng'],data['Lat'] = plot_map.gcj02towgs84(data['Lng'],data['Lat'])  
+    data['Lng'],data['Lat'] = plot_map.bd09togcj02(data['Lng'],data['Lat'])  
+    data['Lng'],data['Lat'] = plot_map.bd09towgs84(data['Lng'],data['Lat'])  
+
+### 经纬度计算距离
+
+输入起终点经纬度，获取距离（米），基于numpy列运算
+    
+    data['distance'] = plot_map.getdistance(data['Lng1'],data['Lat1'], data['Lng2'],data['Lat2'])  
+
+### 生成六边形渔网
+
+生成研究范围内的六边形渔网  
+
+    import plot_map
+    #设定范围
+    bounds = [lon1,lat1,lon2,lat2]
+    hexagon = plot_map.hexagon_grids(bounds,accuracy = 5000)
+
+
