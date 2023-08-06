@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: textmodels
+Version: 0.1.0
+Summary: Run, inspect, and interpret NLP models
+Home-page: https://github.com/USC-CSSL/textmodels
+Author: Brendan Kennedy
+Author-email: btkenned@usc.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# textmodels
+
+Check back soon for installation and documentation.
+
+(Formerly NTAP)
+
+
