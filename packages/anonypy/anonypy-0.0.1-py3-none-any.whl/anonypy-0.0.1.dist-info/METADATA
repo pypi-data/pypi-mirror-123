@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: anonypy
+Version: 0.0.1
+Summary: Anonymization library for python
+Home-page: UNKNOWN
+Author: glassonion1
+Author-email: glassonion999@gmail.com
+License: UNKNOWN
+Keywords: k-anonymity l-diversity t-closeness
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AnonyPy
+Anonymization library for python
+
+## Install
+```
+$ pip install anonypy
+```
+
+## Usage
+```python
+import anonypy
+import pandas as pd
+
+def main():
+    path = 'data/adult.test.txt'
+    df = pd.read_csv(path, sep=', ', names=names, engine='python')
+
+    for name in categorical:
+        df[name] = df[name].astype('category')
+
+    feature_columns = ['age', 'education-num']
+    m = anonypy.Mondrian(df, feature_columns)
+    partitions = m.partition(anonypy.is_k_anonymous)
+    print(partitions)
+```
+
+
