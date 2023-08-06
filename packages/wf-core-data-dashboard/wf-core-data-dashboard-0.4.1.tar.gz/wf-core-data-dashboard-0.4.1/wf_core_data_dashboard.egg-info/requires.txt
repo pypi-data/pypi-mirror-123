@@ -1,0 +1,6 @@
+fastapi[all]
+pandas>=1.1.3
+wf-core-data-python>=0.8.1
+wf-fastbridge-utils>=1.0
+wf-mefs-utils>=1.0
+wf-nwea-utils>=1.0

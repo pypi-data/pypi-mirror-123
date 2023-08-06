@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: wf-core-data-dashboard
+Version: 0.4.1
+Summary: Dashboard for viewing Wildflower data
+Home-page: https://github.com/WildflowerSchools/wf-core-data-dashboard
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Description: # wf_core_data_dashboard
+        
+        Dashboard for viewing Wildflower data
+        
+        ## Installation
+        
+        `pip install wf-core-data-dashboard`
+        
+        ## Task list
+        * TBD
+        
+Keywords: dashboard
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
