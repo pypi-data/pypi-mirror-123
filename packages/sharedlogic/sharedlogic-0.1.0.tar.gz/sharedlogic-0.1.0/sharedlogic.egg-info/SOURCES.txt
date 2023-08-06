@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+sharedlogic/__init__.py
+sharedlogic/greet.py
+sharedlogic.egg-info/PKG-INFO
+sharedlogic.egg-info/SOURCES.txt
+sharedlogic.egg-info/dependency_links.txt
+sharedlogic.egg-info/top_level.txt
