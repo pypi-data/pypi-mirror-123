@@ -1,0 +1,6 @@
+numpy
+tensorflow
+keras
+setuptools
+base64
+pillow
