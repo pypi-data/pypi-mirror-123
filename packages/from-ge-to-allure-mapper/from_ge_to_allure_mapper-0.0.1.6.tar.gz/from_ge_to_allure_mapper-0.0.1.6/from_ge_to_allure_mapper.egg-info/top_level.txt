@@ -1,0 +1,1 @@
+from_ge_to_allure_mapper

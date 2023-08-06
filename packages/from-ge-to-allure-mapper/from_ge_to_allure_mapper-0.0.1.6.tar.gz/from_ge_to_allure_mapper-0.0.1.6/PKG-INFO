@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: from_ge_to_allure_mapper
+Version: 0.0.1.6
+Summary: Package for mapping test report format from Great Expectations to Allure
+Home-page: https://github.com/provectus/from_ge_to_allure_mapper
+Author: Bogdan Volodarskiy
+Author-email: hesherus@gmail.com
+License: MIT
+Download-URL: https://github.com/provectus/from_ge_to_allure_mapper/archive/refs/tags/v_01.6.tar.gz
+Description: **Description**
+        Package made for mapping purpose from Great Expectations result format to Allure result format
+        
+        **Install**
+        `pip install`
+        
+        **How to Use**
+        import `map_to_json.py` into your project and use `create_json_report` method
+        You can set root_ge_dir, allure_result_dir, allure_report_dir,test_suite directly in method params or by `config.json` 
+        _root_ge_dir_ - path to project great_expectations folder
+        _allure_result_dir_ - path to folder, when you want to save allure results
+        _allure_report_dir_ - path to folder, in which you save allure report
+        _test_suite_ - test suite name
+Keywords: DATA_QA,GREAT_EXPECTATIONS,ALLURE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

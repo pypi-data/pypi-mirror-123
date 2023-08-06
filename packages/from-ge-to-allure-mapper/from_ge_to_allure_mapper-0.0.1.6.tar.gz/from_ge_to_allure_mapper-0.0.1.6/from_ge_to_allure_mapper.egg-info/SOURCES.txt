@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+from_ge_to_allure_mapper/__init__.py
+from_ge_to_allure_mapper/config.json
+from_ge_to_allure_mapper/map_to_json.py
+from_ge_to_allure_mapper.egg-info/PKG-INFO
+from_ge_to_allure_mapper.egg-info/SOURCES.txt
+from_ge_to_allure_mapper.egg-info/dependency_links.txt
+from_ge_to_allure_mapper.egg-info/requires.txt
+from_ge_to_allure_mapper.egg-info/top_level.txt
