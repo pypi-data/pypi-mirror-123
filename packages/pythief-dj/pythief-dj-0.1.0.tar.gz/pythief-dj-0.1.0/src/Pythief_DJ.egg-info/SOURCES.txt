@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/main.py
+src/Pythief_DJ.egg-info/PKG-INFO
+src/Pythief_DJ.egg-info/SOURCES.txt
+src/Pythief_DJ.egg-info/dependency_links.txt
+src/Pythief_DJ.egg-info/entry_points.txt
+src/Pythief_DJ.egg-info/requires.txt
+src/Pythief_DJ.egg-info/top_level.txt
+src/pythief_dj.egg-info/PKG-INFO
+src/pythief_dj.egg-info/SOURCES.txt
+src/pythief_dj.egg-info/dependency_links.txt
+src/pythief_dj.egg-info/entry_points.txt
+src/pythief_dj.egg-info/requires.txt
+src/pythief_dj.egg-info/top_level.txt

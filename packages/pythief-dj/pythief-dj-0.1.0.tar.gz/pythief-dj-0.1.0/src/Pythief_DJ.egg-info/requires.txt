@@ -1,0 +1,7 @@
+Click
+flask
+flask-restful
+pydub
+pymitter
+pytube
+requests
