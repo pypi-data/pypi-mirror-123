@@ -1,0 +1,15 @@
+Changelog
+=========
+
+1.0.2
+-----
+ - added exception handler in Javascript chat package
+
+1.0.1
+-----
+ - added missing translations
+ - updated doctests
+
+1.0.0
+-----
+ - initial release
