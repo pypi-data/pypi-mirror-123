@@ -1,0 +1,12 @@
+basic_notion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basic_notion/base.py,sha256=lldfFkQow_wZxVh7xJn_yedPNLn0cZQ7YXee5d_9x0M,1949
+basic_notion/exc.py,sha256=TYOSNQOatbduS4x4-CgSlsNS_38koz8JSnkEe5QlbjI,86
+basic_notion/field.py,sha256=r0Zwlci7SRpsEamDobNaOOHF7f9gK4SLgPyjeNfMLo0,1990
+basic_notion/filter.py,sha256=wO7CXukwEgaFs_6d3PzT7Aset4NJAUQorH0v33WhwNo,4088
+basic_notion/property.py,sha256=xbGotonrq9JTtmkTqRAOT4Gli59ZBVKk10_RST4W7Lw,4788
+basic_notion/query.py,sha256=pnVrCtI9jxwZDYEE3EKewqHmS9NVPQNajo_rBszTFYk,1292
+basic_notion-0.0.3.dist-info/LICENSE,sha256=pyhqjIsFfdNPFpJ1MJiWHqi2BjMGr8fxS-FF9oRbiHM,1074
+basic_notion-0.0.3.dist-info/METADATA,sha256=Wg53VOxLvmhhJ4tXEds26sPry9I1F91Uynhxb-sZvss,2977
+basic_notion-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+basic_notion-0.0.3.dist-info/top_level.txt,sha256=cPoFDxQPJmLW-3oH-Zvq636Oj_reGcsSk-yO8_P-xvY,13
+basic_notion-0.0.3.dist-info/RECORD,,
