@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: libashish
+Version: 0.1
+Summary: first pypi deploy
+Home-page: https://github.com/CRLannister/pypitest
+Author: Ashish
+Author-email: agarwal.ashish.singhal@gmail.com
+License: MIT
+Download-URL: https://github.com/CRLannister/pypitest/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: first,pypi,package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
