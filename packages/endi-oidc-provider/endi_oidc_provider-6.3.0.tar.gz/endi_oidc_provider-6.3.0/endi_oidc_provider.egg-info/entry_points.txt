@@ -1,0 +1,6 @@
+[console_scripts]
+oidc-manage = endi_oidc_provider.scripts.manager:manage
+
+[paste.app_factory]
+main = endi_oidc_provider:main
+
