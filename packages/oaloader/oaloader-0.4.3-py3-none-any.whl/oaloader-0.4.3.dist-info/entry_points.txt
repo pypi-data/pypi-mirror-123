@@ -1,0 +1,3 @@
+[console_scripts]
+oaloader=oaloader.__main__:cli
+
