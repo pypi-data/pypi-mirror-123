@@ -1,0 +1,146 @@
+# Auth Code Flow
+
+Auth Code Flow (`auth-code-flow`) is a utility for obtaining access tokens on behalf of resource owners using [the OAuth 2.0 authorization code flow](https://tools.ietf.org/html/rfc6749).
+
+
+## Quick Start
+
+This is a quick-start tutorial for using `auth-code-flow` to obtain an access token from an OAuth service provider on behalf of its user.
+
+Fleshed-out tutorials for doing this using `auth-code-flow` in Python web frameworks like Django and FastAPI are in the works.
+
+
+### First Things First
+
+We'll be walking through the process of obtaining an access token from Stack Exchange on behalf of a user of their service. We'll be implementing our utility in conformity with [the Stack Exchange authentication documentation](https://api.stackexchange.com/docs/authentication).
+
+First make sure you've created a Stack Exchange developer application, as you'll need a developer app's client id and client secret for this exercise. Please have a look at the answers to [this question on Stack Exchange](https://meta.stackexchange.com/questions/134532/how-do-you-see-what-applications-youve-authorized-on-stack-exchange-with-oauth) if you can't immediately figure out how to create one.
+
+
+### Install Auth Code Flow
+
+Create a virtual environment with any tool of your choice, activate it and install `auth-code-flow` into it.
+
+A Windows user may do theirs this way:
+
+* Create a virtual environment
+  ```
+  python -m venv env
+  ```
+
+* Activate the virtual environment
+  ```
+  .\env\Scripts\activate
+  ```
+
+* Install `auth-code-flow` into the virtual environment
+  ```
+  pip install auth-code-flow
+  ```
+
+
+### Working with the Flow Manager
+
+Instantiate a flow manager for Stack Exchange.
+
+```python
+# file: flow_managers.py
+from auth_code_flow import FlowManager
+
+
+se_flow_manager = FlowManager(
+    base_uri="https://stackoverflow.com",
+    client_id="20146",
+    client_secret="your client secret",  # please read this from env vars for security
+    redirect_uri="http://localhost:8000/oauth/callback/stackexchange",
+    scope="no_expiry",
+    access_token_path="/oauth/access_token/json",
+    authorization_path="/oauth",
+)
+```
+
+In your auth view you're going to present the user with a url they can follow in order to start the process of authorizing your app to do things on Stack Exchange on their behalf. You can build this link using the `get_authorization_endpoint()` method on the manager. You will need to supply a unique state for synchronization &mdash; don't worry, you'll totally understand what this is all about later.
+
+We'll be using FastAPI views for this documentation.
+
+```python
+# file: app.py
+from uuid import uuid4
+
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+
+from .flow_managers import se_flow_manager
+
+app = FastAPI()
+
+@app.get('/oauth/providers')
+def get_providers():
+    state = str(uuid4())
+    # you'll probably store the state in the database against the
+    # logged-in user, so that you can always find out who the state
+    # was created for
+    ...
+
+    # get the authorization url
+    se_auth_url = se_flow_manager.get_authorization_endpoint(state)
+    # display it on the web page for the user
+    html_content = f"""
+    <html>
+        <head>
+            <title>Connect your account</title>
+        </head>
+        <body>
+            <p>Please select any of the links below to connect your account to the provider</p>
+            <p><a href="{se_auth_url}" target="_blank">Connect to Stack Exchange</a></p>
+        </body>
+    </html>
+    """
+    return HTMLResponse(html_content)
+```
+
+When the user clicks on the link they will be taken to a dedicated page on Stack Exchange where they can either approve or reject your authorization request. In any case Stack Exchange will redirect to your callback uri with an appropriate response for their action.
+
+In the case of approval, Stack Exchange will tack onto the callback uri a `state` and a `code` query parameter.
+
+If it was really Stack Exchange that redirected to this callback uri the `state` parameter will be what you had created and embedded into the authorization endpoint uri in the previous view. You can use this to tell which user Stack Exchange is redirecting for, and make sure they are the currently logged-in user.
+
+In the view powering the particular callback uri, fetch the user's Stack Exchange access token using the `fetch_access_token()` method on the manager.
+
+```python
+# file: app.py
+
+...
+
+@app.get('/oauth/callback/stackexchange')
+def get_response_from_stack_exchange(state: str, code: str):
+    # check that the returned state was created by
+    # you for the logged-in user
+    ...
+
+    # if the state checks out, fetch the SE access token for the user
+    # note that SE requires posting the parameters to the access
+    # token retrieval endpoint as form data -- application/x-www-form-urlencoded
+    resp = se_flow_manager.fetch_access_token(code, state, post_form_data=True)
+    resp_json = resp.json()
+
+    # you now have an access token to SE services for the SE user
+    # you'll probably save it to the database against the
+    # logged-in user...
+    # but we'll just display it on a HTML page
+    html_content = f"""
+    <html>
+        <head>
+            <title>Connected to StackExchange</title>
+        </head>
+        <body>
+            <h3>Yayyyyyy</h3>
+            <p>We've successfully obtained your StackExchange access token!</p>
+            <p>{resp_json}</p>
+        </body>
+    </html>
+    """
+    return HTMLResponse(html_content)
+```
+
+Congratulations, you've obtained the user's Stack Exchange token. You may use it to make requests to [the Stack Exchange API](https://api.stackexchange.com/docs) on behalf of the user. Responsibly, of course.
