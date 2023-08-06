@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: rock_search
+Version: 0.0.1
+Summary: Rockflow data search
+Home-page: https://github.com/day253/rock-search
+Author: Junkai Dai
+Author-email: daijunkai@flowcapai.com
+License: UNKNOWN
+Keywords: elasticsearch
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rock-search
+
+## 测试
+
+```
+pytest --cov=rock_search/
+```
+
+## 上传安装包
+
+```
+python setup.py sdist build
+```
+
+```
+twine upload dist/*
+```
+
+
