@@ -1,0 +1,14 @@
+openfabric_pysdk/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openfabric_pysdk/api.py,sha256=PVW24AFaIA5Z_BDimGxHx80D2_kmrQ3IUCCVqRwoxps,1530
+openfabric_pysdk/json.py,sha256=VtT6ZcKKCSjqym0uaZokTE8SgraGOhfSBM5rdMor7FM,808
+openfabric_pysdk/manifest.py,sha256=3m8j0usgd9H9AEwBiKG2LFbRup20ZunpWn_ALw3TE6Y,522
+openfabric_pysdk/register.py,sha256=82cD0_ucw4pbpnhpGJ7WwlRbS_t-9ZZna0etI9A1nhI,160
+openfabric_pysdk/schema.py,sha256=hjIFKbfAJzSTzWBjDCmFt4kCCt7P0yXtqwGfJ6iwGak,177
+openfabric_pysdk/service.py,sha256=0gBpNPzUNimoR-CIdrZt15_HDGmRjFyTicbaCdzQSRo,1903
+openfabric_pysdk/socket.py,sha256=uTJb6mLuKuHuIn0P9WZJKl2d_p0fklNroEmo_pcwi5Y,1946
+openfabric_pysdk/starter.py,sha256=DcJulR7Pb8vz5JbDLwRvIeBUvqa7ZKtzaC2jkUVC7Q0,659
+openfabric_pysdk/templates/index.html,sha256=tG9WIuYO80__l8ZadptkRFLWKwLFElR3HXpKQuaIGPI,13433
+openfabric_pysdk/util.py,sha256=Er832Vn0RTZ-8c3bezC9TGrcQmARKQODXhybG0XNOVw,410
+openfabric_pysdk-0.1.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+openfabric_pysdk-0.1.7.dist-info/METADATA,sha256=3egE9LTm2y4KyPPOJQz9qGiRF9QO6QXpaL8kcOEg7eM,1006
+openfabric_pysdk-0.1.7.dist-info/RECORD,,
