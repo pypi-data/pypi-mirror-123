@@ -1,0 +1,11 @@
+README.rst
+setup.py
+odoo/addons/to_many_tracking/__init__.py
+odoo/addons/to_many_tracking/__manifest__.py
+odoo/addons/to_many_tracking/models/__init__.py
+odoo/addons/to_many_tracking/models/mail_tracking_value.py
+odoo_to_many_tracking.egg-info/PKG-INFO
+odoo_to_many_tracking.egg-info/SOURCES.txt
+odoo_to_many_tracking.egg-info/dependency_links.txt
+odoo_to_many_tracking.egg-info/not-zip-safe
+odoo_to_many_tracking.egg-info/top_level.txt
