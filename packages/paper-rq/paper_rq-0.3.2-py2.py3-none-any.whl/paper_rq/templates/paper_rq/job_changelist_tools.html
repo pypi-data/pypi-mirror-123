@@ -1,0 +1,13 @@
+{% extends "paper_admin/includes/changelist_tools.html" %}
+{% load admin_urls %}
+
+
+{% block tools %}
+  <a href="{% url cl.opts|admin_urlname:'requeue' result.obj.pk %}" class="btn btn-square btn-sm btn-square--info"
+     data-toggle="tooltip" data-placement="top" data-trigger="hover"
+     data-html="true" title="{{ _("Requeue job") }}">
+    <i class="fa fa-repeat"></i>
+  </a>
+
+  {{ block.super }}
+{% endblock %}
