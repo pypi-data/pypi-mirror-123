@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-l10n-usa
+Version: 11.0.20211017.0
+Summary: Meta package for oca-l10n-usa Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-l10n-us-account-profile
+Requires-Dist: odoo11-addon-l10n-us-check-writing-address
+Requires-Dist: odoo11-addon-l10n-us-form-1099
+Requires-Dist: odoo11-addon-l10n-us-gaap
+Requires-Dist: odoo11-addon-l10n-us-gaap-mis-report
+
+UNKNOWN
+
