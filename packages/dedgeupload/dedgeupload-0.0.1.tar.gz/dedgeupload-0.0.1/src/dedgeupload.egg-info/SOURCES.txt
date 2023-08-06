@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dedgeupload.egg-info/PKG-INFO
+src/dedgeupload.egg-info/SOURCES.txt
+src/dedgeupload.egg-info/dependency_links.txt
+src/dedgeupload.egg-info/top_level.txt
+src/gift_upload/__init__.py
+src/gift_upload/upload.py
