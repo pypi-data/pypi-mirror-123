@@ -1,0 +1,12 @@
+pandas
+
+[dash]
+dash
+plotly
+dash_bootstrap_components>=1.0.0
+
+[dash-notebook]
+dash
+plotly
+dash_bootstrap_components>=1.0.0
+jupyter-dash
