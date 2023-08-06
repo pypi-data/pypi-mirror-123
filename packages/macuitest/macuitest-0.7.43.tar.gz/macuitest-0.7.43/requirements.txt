@@ -1,0 +1,8 @@
+biplist
+opencv-python
+pyobjc-framework-ApplicationServices
+pyobjc-framework-AVFoundation
+pyobjc-framework-Cocoa
+pyobjc-framework-CoreText
+pyobjc-framework-Quartz
+pytesseract

@@ -1,0 +1,17 @@
+biplist>=1.0.3
+opencv-python>=4.5.3
+pyobjc-framework-ApplicationServices>=7.3
+pyobjc-framework-AVFoundation>=7.3
+pyobjc-framework-Cocoa>=7.3
+pyobjc-framework-CoreMedia>=7.3
+pyobjc-framework-CoreText>=7.3
+pyobjc-framework-Quartz>=7.3
+pytesseract>=0.3
+
+[testing]
+pytest
+black
+flake8
+isort
+mypy
+tox
