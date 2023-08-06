@@ -1,0 +1,8 @@
+json-tricks
+matplotlib>=3.4.0
+numpy
+pandas
+scipy
+seaborn
+torch
+backpack-for-pytorch>=1.3.0
