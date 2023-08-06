@@ -1,0 +1,12 @@
+automapdb/__init__.py,sha256=QVi4pia3gKCQ1LR0TBRfS8MDyUIsLaQC69ggn0Ylm3o,107
+automapdb/cli.py,sha256=GMC4TlrbD-aYu0uP9m70PGdw2z0-Wa0oJp5nZCKSlUc,808
+automapdb/db.py,sha256=zJEOiqVg-ObQ1CGICDv9eC-qBoGIqriC9MAHYubLOxU,5914
+automapdb/manager.py,sha256=3IaU16p3acWN_bLcvJ4azmOUqg-VngDfnD3RClMlkNs,9595
+automapdb/mapper.py,sha256=q4wDxqTPNsob_DWKtocH96FFb6vyXmXr6XOaiUFBJmo,7015
+automapdb/utils.py,sha256=h_wqtDHwmn4EucLahHRPBT8Mz0mWq-KSKbeuzDEDP6Y,4731
+AutoMapDB-0.1.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+AutoMapDB-0.1.1.dist-info/METADATA,sha256=GYI103Y-DQUbJ9SiE-lg1ZwfIbiF_Q7GBs7Gr0XzSLo,7143
+AutoMapDB-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+AutoMapDB-0.1.1.dist-info/entry_points.txt,sha256=pBHGnCqQj-k4nVMwHWHrRUveQuk0xAET7z58oKoDCu8,50
+AutoMapDB-0.1.1.dist-info/top_level.txt,sha256=SxPE6Kt3_i1eS7EQW5kEPqwzkJ3S-BVI_1wOFAOoKcc,10
+AutoMapDB-0.1.1.dist-info/RECORD,,
