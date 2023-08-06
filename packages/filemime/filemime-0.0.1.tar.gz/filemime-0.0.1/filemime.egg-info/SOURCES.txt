@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+filemime/__init__.py
+filemime/test.py
+filemime/utillity.py
+filemime.egg-info/PKG-INFO
+filemime.egg-info/SOURCES.txt
+filemime.egg-info/dependency_links.txt
+filemime.egg-info/top_level.txt
+filemime.egg-info/zip-safe
