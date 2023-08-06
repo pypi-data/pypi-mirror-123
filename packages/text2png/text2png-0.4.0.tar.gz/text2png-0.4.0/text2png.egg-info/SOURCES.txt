@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+text2png/__init__.py
+text2png/core.py
+text2png/pkg_data.ttc
+text2png.egg-info/PKG-INFO
+text2png.egg-info/SOURCES.txt
+text2png.egg-info/dependency_links.txt
+text2png.egg-info/requires.txt
+text2png.egg-info/top_level.txt
+text2png/../.gitignore
+text2png/../LICENSE
+text2png/../README.md
+text2png/../requirements.txt
