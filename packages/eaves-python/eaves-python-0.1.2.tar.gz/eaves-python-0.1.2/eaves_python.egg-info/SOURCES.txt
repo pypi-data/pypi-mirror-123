@@ -1,0 +1,8 @@
+README.md
+setup.py
+eaves/__init__.py
+eaves/eaves.py
+eaves_python.egg-info/PKG-INFO
+eaves_python.egg-info/SOURCES.txt
+eaves_python.egg-info/dependency_links.txt
+eaves_python.egg-info/top_level.txt
