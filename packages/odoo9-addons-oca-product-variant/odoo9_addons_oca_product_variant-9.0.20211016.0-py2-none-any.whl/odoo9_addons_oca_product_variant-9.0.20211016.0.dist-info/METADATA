@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: odoo9-addons-oca-product-variant
+Version: 9.0.20211016.0
+Summary: Meta package for oca-product-variant Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 9.0
+Requires-Dist: odoo9-addon-account-invoice-variant-configurator
+Requires-Dist: odoo9-addon-product-variant-configurator
+Requires-Dist: odoo9-addon-product-variant-standard-price-update
+Requires-Dist: odoo9-addon-product-variant-supplierinfo
+Requires-Dist: odoo9-addon-purchase-variant-configurator
+Requires-Dist: odoo9-addon-purchase-variant-configurator-on-confirm
+Requires-Dist: odoo9-addon-stock-picking-variant-mgmt
+
+UNKNOWN
+
