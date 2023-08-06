@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-h2-cli = ingot_h2.scripts.ingot_h2:main
+

@@ -1,0 +1,7 @@
+include CHANGELOG.md
+include LICENSE.md
+include README.md
+include requirements.txt
+graft ingot_h2/bootstrap/scaffolding
+global-exclude __pycache__
+global-exclude *.py[co]
