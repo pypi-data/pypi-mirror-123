@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+VisualCrossing/__init__.py
+VisualCrossing/api.py
+VisualCrossing/errors.py
+VisualCrossing/version.py
+VisualCrossing.egg-info/PKG-INFO
+VisualCrossing.egg-info/SOURCES.txt
+VisualCrossing.egg-info/dependency_links.txt
+VisualCrossing.egg-info/requires.txt
+VisualCrossing.egg-info/top_level.txt
+assets/logo.png
