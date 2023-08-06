@@ -1,0 +1,3 @@
+[napari.plugin]
+Segmentation (Accelerated Pixel and Object Classification) = napari_accelerated_pixel_and_object_classification
+
