@@ -1,0 +1,9 @@
+videoio/__init__.py,sha256=f4xFjV8sIeR6YGNs_0E1WJLyNXdPfKPVIF0ywjkEjfE,205
+videoio/info.py,sha256=HgDHWVrjDeQkmoqGKyTxbTawVZygxdF62u7kc5LKL84,1552
+videoio/video_rgb.py,sha256=HRz8UkqUq0ES-5q50YPQfzEaHs6mnpt0dZ6CBf5HfCM,11017
+videoio/video_uint16.py,sha256=akfdAhv1J328vRz1O9PaodMSHWiwy6FoHP3SZl6qTAU,9944
+videoio-0.2.4.dist-info/LICENSE,sha256=7nYDrvaENzWUrVS2TUP77lFlSRr_ayhDNNfqzkHplgw,11343
+videoio-0.2.4.dist-info/METADATA,sha256=c89pQCTMvOh0cXy74daUPN3uQm-N2ym7ZMnsTazmM6g,2947
+videoio-0.2.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+videoio-0.2.4.dist-info/top_level.txt,sha256=HzgU4iBCd4XYCfHyk8RO2ZNrzTfUvuQ62YdAXY_p_4c,8
+videoio-0.2.4.dist-info/RECORD,,
