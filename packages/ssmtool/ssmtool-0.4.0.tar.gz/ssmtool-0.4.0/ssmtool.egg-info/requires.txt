@@ -1,0 +1,11 @@
+lxml
+PyQt5
+requests
+beautifulsoup4
+googletrans==4.0.0rc1
+simplemma
+pystardict
+bidict
+flask
+mecab-python3
+unidic_lite
