@@ -1,0 +1,12 @@
+dask
+mapbox-vector-tile
+mercantile
+numpy
+Pillow
+rasterio
+requests
+rio-tiler>=2
+shapely
+
+[test]
+pytest
