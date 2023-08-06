@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: ingot-h2
+Version: 0.1.0
+Summary: Provides supporting HTTP/2 protocol via integration with the hyper h2 package.
+Home-page: https://github.com/ABKorotky/ingot-h2.git
+Author: Alexander Korotkiy
+Author-email: abkorotky@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ingots (~=0.20.0)
+
+# Ingot H2 Ingot package.
+
+Provides supporting HTTP/2 protocol via integration with the hyper h2 package.
+
+https://python-hyper.org/projects/h2/en/stable/index.html
+https://datatracker.ietf.org/doc/html/rfc7540
+
+## For consumers
+
+For using the Ingot package just execute the following commands:
+* Add the package to the `requirements.txt` file of your project.
+* Install int using the `pip` tool.
+* TODO. Add here something extra information.
+
+### Package CLI
+
+The package provides CLI.
+It allows start working with the package quickly.
+It contains the following commands:
+TODO. Add builders here after generating their by the `ingots package_bootstrap` tool.
+
+For using the CLI tool just call the following command:
+```bash
+ingot-h2-cli <command>
+```
+Getting package CLI help:
+```bash
+ingot-h2-cli --help
+ingot-h2-cli <command> --help
+```
+
+## For developers
+
+### Prepare the project for working
+
+Clone a repository:
+```bash
+mkdir ingots-libs
+cd ingots-libs
+git clone https://github.com/ABKorotky/ingot-h2.git
+cd ingot-h2
+```
+
+Prepare a virtual environment:
+```bash
+python3.9 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Prepare repository hooks
+```bash
+pip install pre_commit
+pre-commit install
+pre-commit autoupdate
+```
+
+Configure code-quality tools:
+```bash
+pip install black flake8 mypy coverage
+```
+
+Configure the Sphinx tool
+
+Please, use the following page for configuring the Sphinx documentation generator: [Sphinx](https://www.sphinx-doc.org/en/master/usage/installation.html)
+```bash
+pip install sphinx
+sphinx-build -b html docs docs/build -v
+```
+
+### Using the tox tool
+
+The Ingot package allows automation via the `tox` tool.
+```bash
+pip install tox
+```
+
+Use configured tox tool for several activities.
+
+`tox -e reformat` - auto reformat code by the black tool, makes ordering import too.
+
+`tox -e cs` - checks code style by PEP8.
+
+`tox -e ann` - checks annotations of types by the mypy tool.
+
+`tox -e utc` - runs unittests with the coverage tool.
+
+`tox -e report` - builds coverage report for the project.
+
+`tox -e doc` - builds a package documentation.
+
+`tox -e build` - builds a package form current branch / tag / commit.
+
+`tox -e upload` - uploads package to the PyPI index. Set the `PYPI_REPOSITORY_ALIAS` virtual variable for specify PyPI destination.
+
+Calling tox without parameters will execute the following steps: **cs**, **ann**, **utc** and **report**.
+
+### Using package CLI locally
+Obviously, it's impossible to call the package CLI via package entry-point.
+
+Use the following command instead:
+```bash
+python -m ingot_h2.scripts.ingot_h2 ...
+```
+
+
