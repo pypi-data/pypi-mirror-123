@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: leapseconddata
+Version: 1.0.0a2
+Summary: Use the list of known and scheduled leap seconds
+Home-page: https://github.com/jepler/leapseconddata
+Author: Jeff Epler
+Author-email: jepler@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: 2021 Jeff Epler
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
+# Python Leap Second List
+
+Leap seconds are corrections applied irregularly so that the UTC day stays
+fixed to the earth's rotation.
+
+This module provides a class for parsing and validating the standard
+`leap-seconds.list` file.  Once parsed, it is possible to retrieve the
+full list of leap seconds, or find the TAI-UTC offset for any UTC time.
+
+
