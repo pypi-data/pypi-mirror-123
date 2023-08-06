@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+halohome/VERSION
+halohome/__init__.py
+halohome.egg-info/PKG-INFO
+halohome.egg-info/SOURCES.txt
+halohome.egg-info/dependency_links.txt
+halohome.egg-info/requires.txt
+halohome.egg-info/top_level.txt

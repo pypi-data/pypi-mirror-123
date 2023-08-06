@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: halohome
+Version: 0.1.0
+Summary: A python library to control Eaton HALO Home Smart Lights
+Home-page: https://github.com/nayaverdier/halohome
+Author: Naya Verdier
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# halohome
+
+A python library to control Eaton HALO Home Smart Lights
+
+
+# Changelog
+
+## 0.1.0 2021-10-17
+
+- Initial release
+
+
