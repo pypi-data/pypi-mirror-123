@@ -1,0 +1,6 @@
+README.md
+setup.py
+CoTask.egg-info/PKG-INFO
+CoTask.egg-info/SOURCES.txt
+CoTask.egg-info/dependency_links.txt
+CoTask.egg-info/top_level.txt
