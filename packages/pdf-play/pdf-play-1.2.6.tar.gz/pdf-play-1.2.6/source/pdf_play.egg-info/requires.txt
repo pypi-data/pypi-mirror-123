@@ -1,0 +1,5 @@
+PyPDF4
+reportlab
+pandas
+xlrd
+openpyxl
