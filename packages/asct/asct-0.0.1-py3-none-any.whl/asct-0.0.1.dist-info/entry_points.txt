@@ -1,0 +1,3 @@
+[console_scripts]
+asct = asct.optimize_cell:main
+
