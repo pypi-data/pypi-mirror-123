@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+data/english.wav
+src/speech_features_kit/__init__.py
+src/speech_features_kit.egg-info/PKG-INFO
+src/speech_features_kit.egg-info/SOURCES.txt
+src/speech_features_kit.egg-info/dependency_links.txt
+src/speech_features_kit.egg-info/requires.txt
+src/speech_features_kit.egg-info/top_level.txt
+src/speech_features_kit/MFCC/MFCC.py
+src/speech_features_kit/MFCC/__init__.py
+src/speech_features_kit/MFCC/sigproc.py
+src/speech_features_kit/Volume/Volume.py
+src/speech_features_kit/Volume/__init__.py
