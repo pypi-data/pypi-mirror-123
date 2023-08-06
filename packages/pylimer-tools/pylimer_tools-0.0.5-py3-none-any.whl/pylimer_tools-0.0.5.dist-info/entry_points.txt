@@ -1,0 +1,3 @@
+[console_scripts]
+pylimer-tool = pylimer_tools:cli
+
