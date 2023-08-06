@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+biascorrection.egg-info/PKG-INFO
+biascorrection.egg-info/SOURCES.txt
+biascorrection.egg-info/dependency_links.txt
+biascorrection.egg-info/top_level.txt
