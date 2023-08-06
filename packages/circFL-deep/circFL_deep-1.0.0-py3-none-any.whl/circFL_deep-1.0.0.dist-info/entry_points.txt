@@ -1,0 +1,3 @@
+[console_scripts]
+circFL-deep = circFL_deep.circFL_deep_main:main
+

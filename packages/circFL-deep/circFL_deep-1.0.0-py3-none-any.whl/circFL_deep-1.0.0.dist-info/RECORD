@@ -1,0 +1,13 @@
+circFL_deep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circFL_deep/circFL_deep_main.py,sha256=9LvEwEkgXLUUHUfpCIHu2dUEx-4m8zcJxOYJPQYPhxw,1797
+circFL_deep/construct.py,sha256=PBX9XQTRaOlYftW0p2XKK4LqmYphWG-NayLonKoOQSE,9488
+circFL_deep/correct.py,sha256=Z-vYzaZML5VvcdhsDCxtx4vyWnZgXPL9jL-Npv15Z5Y,12151
+circFL_deep/evaluate.py,sha256=ka5BXzwhqVLAI2gaWqkq1OMCh35OFVMS9x6Y6bl1T7o,6854
+circFL_deep/genericFun.py,sha256=CevGg1pJoe9gezNxebdNa_cFS0viJ9uyyv8tEtzIz0Y,16099
+circFL_deep/train.py,sha256=dH4NK1NXC9rbVMMs-skTHyRYZl1BJgkAigwvFFJ7oWc,14673
+circFL_deep/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+circFL_deep-1.0.0.dist-info/METADATA,sha256=HGYPObPAdFFhED70LPCSbWPKmQT0SjMAIdPAlFhoZl0,556
+circFL_deep-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+circFL_deep-1.0.0.dist-info/entry_points.txt,sha256=R9xHeIbogGCt-qBZiGIPvqT9BLFie0evDHUdZhnpPyA,67
+circFL_deep-1.0.0.dist-info/top_level.txt,sha256=yAkCcuobqN8V6GhJEp90gnmDFtCXNqsiFRHv9QFH-cI,12
+circFL_deep-1.0.0.dist-info/RECORD,,
