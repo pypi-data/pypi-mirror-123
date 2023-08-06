@@ -1,0 +1,8 @@
+setup.py
+fmyarBinomQuantile.egg-info/PKG-INFO
+fmyarBinomQuantile.egg-info/SOURCES.txt
+fmyarBinomQuantile.egg-info/dependency_links.txt
+fmyarBinomQuantile.egg-info/requires.txt
+fmyarBinomQuantile.egg-info/top_level.txt
+superPackage/__init__.py
+superPackage/realisation.py
