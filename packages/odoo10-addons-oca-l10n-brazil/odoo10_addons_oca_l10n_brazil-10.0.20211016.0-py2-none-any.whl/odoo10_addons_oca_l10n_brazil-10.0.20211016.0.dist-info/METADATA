@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-l10n-brazil
+Version: 10.0.20211016.0
+Summary: Meta package for oca-l10n-brazil Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-l10n-br-account
+Requires-Dist: odoo10-addon-l10n-br-account-payment-order
+Requires-Dist: odoo10-addon-l10n-br-account-product
+Requires-Dist: odoo10-addon-l10n-br-base
+Requires-Dist: odoo10-addon-l10n-br-crm
+Requires-Dist: odoo10-addon-l10n-br-crm-zip
+Requires-Dist: odoo10-addon-l10n-br-generic
+Requires-Dist: odoo10-addon-l10n-br-hr
+Requires-Dist: odoo10-addon-l10n-br-hr-contract
+Requires-Dist: odoo10-addon-l10n-br-purchase
+Requires-Dist: odoo10-addon-l10n-br-resource
+Requires-Dist: odoo10-addon-l10n-br-sale
+Requires-Dist: odoo10-addon-l10n-br-sale-product
+Requires-Dist: odoo10-addon-l10n-br-sale-stock
+Requires-Dist: odoo10-addon-l10n-br-stock
+Requires-Dist: odoo10-addon-l10n-br-stock-account
+Requires-Dist: odoo10-addon-l10n-br-zip
+Requires-Dist: odoo10-addon-l10n-br-zip-correios
+
+UNKNOWN
+
