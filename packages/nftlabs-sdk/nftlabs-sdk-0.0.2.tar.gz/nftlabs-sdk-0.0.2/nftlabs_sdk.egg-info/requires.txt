@@ -1,0 +1,4 @@
+dataclasses-json
+web3
+requests
+0x-contract-wrappers
