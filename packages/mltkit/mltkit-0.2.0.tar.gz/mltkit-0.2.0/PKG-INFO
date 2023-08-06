@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mltkit
+Version: 0.2.0
+Summary: A toolkit for ML boilerplate.
+Home-page: https://github.com/mdlockyer/mltkit
+Author: Michael Lockyer
+Author-email: mdlockyer@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.6
+
+UNKNOWN
+
