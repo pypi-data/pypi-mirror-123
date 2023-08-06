@@ -1,0 +1,4 @@
+[xarray.backends]
+ioapi = pyioapi.io:IoapiBackendEntrypoint
+pyioapi = pyioapi.io:IoapiBackendEntrypoint
+

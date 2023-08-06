@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyioapi
+Version: 0.2.0
+Summary: The Python library provides read,write IOAPI-like netCDF file in CMAQ
+Home-page: https://github.com/Gongkangjia/pyioapi
+Author: Kangjia Gong
+Author-email: kjgong@kjgong.cn
+Maintainer: Kangjia Gong
+Maintainer-email: kjgong@kjgong.cn
+License: MIT License
+Platform: all
+License-File: LICENSE
+
+UNKNOWN
+
