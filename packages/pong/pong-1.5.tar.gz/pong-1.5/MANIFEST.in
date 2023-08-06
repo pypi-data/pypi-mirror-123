@@ -1,0 +1,3 @@
+include src/pong/VERSION
+include src/pong/templates/pong.html
+graft src/pong/static

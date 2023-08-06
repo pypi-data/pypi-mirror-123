@@ -1,0 +1,4 @@
+numpy~=1.19
+tornado~=6.1
+munkres~=1.1
+networkx~=2.5
