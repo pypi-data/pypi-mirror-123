@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+campussquare/__init__.py
+campussquare/campussquare.py
+campussquare/cli.py
+campussquare/errors.py
+campussquare/info.py
+campussquare/parser.py
+campussquare/session.py
+campussquare/util.py
+campussquare.egg-info/PKG-INFO
+campussquare.egg-info/SOURCES.txt
+campussquare.egg-info/dependency_links.txt
+campussquare.egg-info/requires.txt
+campussquare.egg-info/top_level.txt
