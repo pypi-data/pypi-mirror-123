@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: theblockchainapi
+Version: 0.0.11
+Summary: Blockchain made easy. Find out more at docs.theblockchainapi.com.
+Home-page: https://github.com/BL0CK-X/the-blockchain-api
+Author: BlockX
+Author-email: info@theblockchainapi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The Blockchain API
+
+Submit issues and feature requests for our API on our main GitHub repository</a>.
+
+See <a href="https://docs.theblockchainapi.com">the docs</a> for more info.
+
+## Python Quick Start
+
+`pip install theblockchainapi`
+
+Get an API key at <a href="https://dashboard.theblockchainapi.com">dashboard.theblockchainapi.com</a>.
+
+`from theblockchainapi import TheBlockchainAPIResource`
+
+`result = TheBlockchainAPIResource("APIKeyID", "APISecretKey").generate_secret_key()`
+
+`print(result)`
+
+## Python Documentation
+
+To get documentation in python, run `help(TheBlockchainAPIResource)` after importing `TheBlockchainAPIResource` as shown above.
+
+## Documentation
+
+For full documentation go to <a>https://docs.theblockchainapi.com</a>.
+
