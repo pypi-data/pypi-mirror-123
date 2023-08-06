@@ -1,0 +1,14 @@
+from setux.distros.debian import Debian_10
+
+
+class MX_19(Debian_10):
+    Service = 'SystemV'
+    pkgmap = dict(
+        pip = 'python3-pip',
+    )
+
+    @classmethod
+    def release_name(cls, infos):
+        did = infos['DISTRIB_ID']
+        ver, _, _ = infos['DISTRIB_RELEASE'].partition('.')
+        return f'{did}_{ver}'
