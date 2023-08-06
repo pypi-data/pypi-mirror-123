@@ -1,0 +1,10 @@
+gnews/__init__.py,sha256=S8XVdRV9Ce4VyhmtTSjD2Glp7x3O1ywAICtnl3T_Qvs,61
+gnews/gnews.py,sha256=vMupeFn8ZooP6fvHerobGoPqfUAKVlPPKmTsbGaWzQ4,5049
+gnews/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnews/utils/constants.py,sha256=ceXw40fDd6ttD0j42YOJEDY_qBnctWwwXEqskDr88lY,2454
+gnews/utils/utils.py,sha256=n7q8uQ5obdwYncQFpQfDYGg9LEzkP2r0vJ7-IJ2jx6E,1738
+gnews-0.2.4.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+gnews-0.2.4.dist-info/METADATA,sha256=aLnwOgh1PLydxdXP4cDirufgjh72SxNXQsHXGY_1arE,15320
+gnews-0.2.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gnews-0.2.4.dist-info/top_level.txt,sha256=i5APuMSWS2tWPqz36M93Bh--NPTf7upTW3U_Yice_jw,6
+gnews-0.2.4.dist-info/RECORD,,
