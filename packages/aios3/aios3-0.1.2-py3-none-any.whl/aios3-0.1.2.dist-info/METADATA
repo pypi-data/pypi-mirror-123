@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aios3
+Version: 0.1.2
+Summary: Wrapper for aiobotocore to simplify reading of large files
+Home-page: https://andgineer.github.io/aios3/
+Author: Andrey Sorokin
+Author-email: andrey@sorokin.engineer
+License: UNKNOWN
+Keywords: asyncio boto3 botocore s3 aws
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: aiobotocore
+Requires-Dist: lazydocs
+Requires-Dist: pylint
+Requires-Dist: mypy
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Requires-Dist: pydocstyle
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-awesome-pages-plugin
+Requires-Dist: twine
+Requires-Dist: pre-commit
+
+[![Build Status](https://github.com/andgineer/aios3/workflows/ci/badge.svg)](https://github.com/andgineer/aios3/actions)
+# File-like object for aiobotocore
+
+[stream](https://andgineer.github.io/aios3/api-reference/file/#function-stream) creates file-like object
+to read from [aiobotocore](https://aiobotocore.readthedocs.io/en/latest/) by chunks.
+
+# Documentation
+
+[aioS3](https://andgineer.github.io/aios3/)
+
+
