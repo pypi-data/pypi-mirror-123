@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+pykoop/__init__.py
+pykoop/dynamic_models.py
+pykoop/koopman_pipeline.py
+pykoop/lifting_functions.py
+pykoop/lmi_regressors.py
+pykoop/regressors.py
+pykoop/tsvd.py
+pykoop/util.py
+pykoop.egg-info/PKG-INFO
+pykoop.egg-info/SOURCES.txt
+pykoop.egg-info/dependency_links.txt
+pykoop.egg-info/requires.txt
+pykoop.egg-info/top_level.txt
