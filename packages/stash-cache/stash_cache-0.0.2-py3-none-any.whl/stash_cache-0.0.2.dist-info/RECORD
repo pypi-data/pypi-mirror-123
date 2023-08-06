@@ -1,0 +1,11 @@
+stash/__init__.py,sha256=Vl1HUQkUlcNDfsGjPAL0F0JaodIBdhOaIzPkwID5s3o,1163
+stash/settings.py,sha256=gTH8ATIf1DlA0AyJXlgKiVRRd77X2iaerSH4f3TMXdQ,16
+stash/types.py,sha256=0RtMqU-dDmlfImYQjn2QBEj4H55cMoY1chQEHyOI-cg,112
+stash/utils.py,sha256=URFSdHTIpnxfh9MUbcIai7Q1jUW9sMHlAJwWpzsm8dY,614
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=BI9KRNzm2nYTfXNDRbFyS2XTHu6TPJO1K4xr5T0w-j0,800
+stash_cache-0.0.2.dist-info/LICENSE,sha256=RQQu5v-qrXH6xo6HBtXl30nmsAwws-shFBZXnAnxX-k,1062
+stash_cache-0.0.2.dist-info/METADATA,sha256=rqylzXGvzA3vIk9Z6nhDd2J3fuemc2WUnz2nYNLx_ek,817
+stash_cache-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stash_cache-0.0.2.dist-info/top_level.txt,sha256=jRCuBiWtETutODEztCkfh10dqtbiJSDokh_ogL9jBeo,12
+stash_cache-0.0.2.dist-info/RECORD,,
