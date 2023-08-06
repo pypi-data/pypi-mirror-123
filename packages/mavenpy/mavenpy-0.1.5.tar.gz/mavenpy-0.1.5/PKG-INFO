@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mavenpy
+Version: 0.1.5
+Summary: Wrapper for calling Maven from Python
+Home-page: http://github.com/Gohla/mavenpy
+Author: Gabriel Konat
+Author-email: gabrielkonat@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: NOTICE
+
+UNKNOWN
+
