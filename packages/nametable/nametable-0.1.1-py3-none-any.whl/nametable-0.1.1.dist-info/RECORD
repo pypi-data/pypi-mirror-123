@@ -1,0 +1,14 @@
+LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nametable/__init__.py,sha256=MHy9C7Psk8Zn-WBmEYynIHWVtf1EoAuoaKNHazVF2lI,875
+nametable/Animator.py,sha256=ppolM4_GA7CPmTk_PsMVDUIWvF8B-DpVbWyyEdeLWA4,1454
+nametable/Block.py,sha256=M3uaN23bTcUv0NhZNoCAxmhLMddU3YciSCYjV5uM0bY,8096
+nametable/Nametable.py,sha256=0Im_YZkjZY3ig0uiFRRJt26m4z9VbZd9LJKBbcK-R6w,261
+nametable/Pattern.py,sha256=QxDSbt48tXmkcfBviQdpkcr9OxCeU9Kl4dRrf5kRsas,6202
+nametable/PatternAnimated.py,sha256=eLLKCwws-4tiDM1Z80NH1Y9bK7OG_nF2uWzt8vsc1UU,4978
+nametable/PatternMeta.py,sha256=xbdmYlgzi0SDxOU9Uq386-t4WRrr4rGXIstq9EU-fW4,7215
+nametable/PatternTable.py,sha256=vs-uPBwMy2n1ojVNzwN6ZasDdXMnfx1l3o4fNAn2IR4,1531
+nametable/PatternTableAnimated.py,sha256=XCrZIH1O9EwnAQm5te2xTSC8Og-mob_3B7H44mYmwI8,1949
+nametable-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nametable-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+nametable-0.1.1.dist-info/METADATA,sha256=SJxdIaGX3nbgRfPk4FW9V978S-WsVf1rHA7strDTVWc,3831
+nametable-0.1.1.dist-info/RECORD,,
