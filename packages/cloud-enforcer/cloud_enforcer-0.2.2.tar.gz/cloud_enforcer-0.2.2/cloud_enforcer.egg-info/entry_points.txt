@@ -1,0 +1,3 @@
+[console_scripts]
+cloud_enforcer = cloud_enforcer.cli:main
+

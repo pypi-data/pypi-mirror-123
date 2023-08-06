@@ -1,0 +1,17 @@
+pyaml
+boto
+boto3
+awscli
+pywinrm
+ansible
+ansible-runner
+git-remote-codecommit
+cryptography
+cffi>=1.12
+pycparser
+urllib3>=1.26.6
+rust
+colorama
+click
+setuptools-rust
+wheel>=0.37.0
