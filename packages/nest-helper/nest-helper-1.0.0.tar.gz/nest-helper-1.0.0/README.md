@@ -1,0 +1,63 @@
+#### 常用的辅助方法
+
+## Installation
+
+install as **pip**
+
+```shell
+pip install nest-helper
+```
+
+## Usage
+
+- 生成 uuid
+
+  > 参数: fmt 是替换字符串，默认为 - 
+
+  ```python
+  >>> from pyhelper.helper import generate_uuid
+  >>> print(generate_uuid())
+  c294bfab-5249-4c01-8e38-02f7957afdfa
+  >>> print(generate_uuid(fmt=''))
+  2204d86f2815482c83d697acd0b36c16
+  ```
+
+- 生成11位的唯一识别码
+
+  ```python
+  >>> from pyhelper.helper import generate_unique_id
+  >>> print(generate_unique_id())
+  78LM0XLpnpv
+  ```
+
+- 生成自定义位数的随机字符串
+
+  > 参数: n是生成字符串的个数，默认为6位
+
+  ```python
+  >>> from pyhelper.helper import generate_rnd_string
+  >>> print(generate_rnd_string())
+  w9y5Yk
+  >>> print(generate_rnd_string(n=10))
+  T65rZduWMC
+  ```
+
+- url 编码
+
+  ```python
+  >>> from pyhelper.helper import urlencode
+  >>> url = "https://baidu.com?a=1&b=2"
+  >>> print(urlencode(url))
+  https%3A//baidu.com%3Fa%3D1%26b%3D2
+  ```
+
+- url 解码
+
+  ```python
+  >>> from pyhelper.helper import urldecode
+  >>> url = "https%3A//baidu.com%3Fa%3D1%26b%3D2"
+  >>> print(urldecode(url))
+  https://baidu.com?a=1&b=2
+  ```
+
+  
