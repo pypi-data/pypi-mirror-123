@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+result.png
+setup.py
+wellcome/FreeSerifItalic.ttf
+wellcome/__init__.py
+wellcome/__main__.py
+wellcome/wellcome.py
+wellcome.egg-info/PKG-INFO
+wellcome.egg-info/SOURCES.txt
+wellcome.egg-info/dependency_links.txt
+wellcome.egg-info/requires.txt
+wellcome.egg-info/top_level.txt
