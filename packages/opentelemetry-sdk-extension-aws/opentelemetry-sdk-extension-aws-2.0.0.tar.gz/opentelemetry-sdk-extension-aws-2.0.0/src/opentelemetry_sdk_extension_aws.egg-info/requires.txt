@@ -1,0 +1,4 @@
+opentelemetry-sdk~=1.3
+
+[test]
+opentelemetry-test==0.25b0
