@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: chessvalidator
+Version: 0.0.5
+Summary: validates a chess board using the correct datatype
+Home-page: UNKNOWN
+Author: 6mm3z7ms
+Author-email: 6mm3z7ms@anonaddy.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3

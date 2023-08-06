@@ -1,0 +1,8 @@
+setup.py
+chessvalidator/__init__.py
+chessvalidator/me.py
+chessvalidator/test.py
+chessvalidator.egg-info/PKG-INFO
+chessvalidator.egg-info/SOURCES.txt
+chessvalidator.egg-info/dependency_links.txt
+chessvalidator.egg-info/top_level.txt
