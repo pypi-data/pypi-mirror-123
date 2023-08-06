@@ -1,0 +1,10 @@
+README.md
+dnswait.py
+pyproject.toml
+setup.cfg
+dnswait.egg-info/PKG-INFO
+dnswait.egg-info/SOURCES.txt
+dnswait.egg-info/dependency_links.txt
+dnswait.egg-info/entry_points.txt
+dnswait.egg-info/requires.txt
+dnswait.egg-info/top_level.txt

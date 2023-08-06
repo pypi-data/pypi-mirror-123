@@ -1,0 +1,3 @@
+[console_scripts]
+dnswait = dnswait:main
+
