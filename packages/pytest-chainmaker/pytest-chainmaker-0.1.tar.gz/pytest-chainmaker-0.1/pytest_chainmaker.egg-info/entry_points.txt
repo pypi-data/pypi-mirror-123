@@ -1,0 +1,3 @@
+[pytest11]
+pytest-chainmaker = pytest_chainmaker.plugin
+

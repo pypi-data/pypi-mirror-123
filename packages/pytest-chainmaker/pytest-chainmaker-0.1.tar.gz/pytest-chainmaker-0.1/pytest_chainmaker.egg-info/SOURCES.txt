@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pytest_chainmaker/__init__.py
+pytest_chainmaker/plugin.py
+pytest_chainmaker.egg-info/PKG-INFO
+pytest_chainmaker.egg-info/SOURCES.txt
+pytest_chainmaker.egg-info/dependency_links.txt
+pytest_chainmaker.egg-info/entry_points.txt
+pytest_chainmaker.egg-info/requires.txt
+pytest_chainmaker.egg-info/top_level.txt
+pytest_chainmaker.egg-info/zip-safe
