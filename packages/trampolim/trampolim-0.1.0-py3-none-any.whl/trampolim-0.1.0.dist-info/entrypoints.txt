@@ -1,0 +1,3 @@
+[console_scripts]
+trampolim = trampolim.__main__:entrypoint
+
