@@ -1,0 +1,10 @@
+mypkgwowlol/__init__.py,sha256=5yN1pGiondjf-pxs5Lq2QUK2356uJYekzxxiogP1QNw,50
+mypkgwowlol/mod1/__init__.py,sha256=iIdYs3rl9ridtfMvxaliDhffS3N65tFL2NT1sUyDDIA,28
+mypkgwowlol/mod1/module1.py,sha256=ZaFCLKJs2PN0uwuFBThv7pfcTWVlkKIIK_SqP-NASSI,114
+mypkgwowlol/mod2/__init__.py,sha256=PpfeOx9Gy5WzjkG19kezBmDIk-n9c_QEk6vilTvtncA,28
+mypkgwowlol/mod2/module2.py,sha256=_WeS3bl-Yur3QRIfxtho0MKPn2RexDPF8qq9opOJptg,290
+mypkgwowlol-0.4.2.dist-info/LICENSE.txt,sha256=_VVpeuEvweynFlVstf7QqVigBKhH_MKMuTnGHJ7OKbI,1065
+mypkgwowlol-0.4.2.dist-info/METADATA,sha256=kj9CkKiU9k6cac8aJf80Z5ir86__y3j6fdyOdVpI63U,355
+mypkgwowlol-0.4.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypkgwowlol-0.4.2.dist-info/top_level.txt,sha256=DNVZ7TtpObDZpzwTFqQmODfFjQcMe0KVx4nwgpiyKno,12
+mypkgwowlol-0.4.2.dist-info/RECORD,,
