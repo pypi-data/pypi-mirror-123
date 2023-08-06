@@ -1,0 +1,13 @@
+pydetex/__init__.py,sha256=gS4FADOVBwFadgp7T1gmdg0CdZLkrz5CWEiNRL-t2k8,816
+pydetex/gui.py,sha256=vpbNwbhRxgcrOr02PDq_JOCg-3fIN72skaLYiSOAiy0,20374
+pydetex/parsers.py,sha256=hYL_6dNJ0Ufe_cdEY9AdN8d-L0Uy9mXjmsn7J8bw6H4,9037
+pydetex/pipelines.py,sha256=twOiQvBcLItfIIHcTX_mHesnSjyykgQ_Kw7zdm4g6ok,665
+pydetex/utils.py,sha256=tkvM0e0zXbOiFEUjJkbykmPo7TaOZGPe7wFMavk4VCw,7816
+pydetex/version.py,sha256=qBN-2Q4hh4Tq5ovMGYe8nPKI_UW_HVKSTPtKbewC9z0,811
+pydetex/res/icon.gif,sha256=fyoHtoD4imQuTxsu0hptZnT_xRWUlzAHbi-ngv5oWDY,13224
+pydetex/res/icon.ico,sha256=EkNniKOcYtOG15b6erwgCPiOrQLWE7BifLYHVXYUnsM,32038
+pydetex-0.3.1.dist-info/LICENSE,sha256=JlCw7T2RNpUl7DTMli5EKEa_xx1od14PH_YUiZ10m2U,1073
+pydetex-0.3.1.dist-info/METADATA,sha256=EjJgrGfB6Oaiyv53mqB2w4HLNlS1FcBAKpIBuzhTk80,4433
+pydetex-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydetex-0.3.1.dist-info/top_level.txt,sha256=Wq8a0GOFTOacYXTd6dYgCj8JKf3Drbt59hmbegg5g4A,8
+pydetex-0.3.1.dist-info/RECORD,,
