@@ -1,0 +1,13 @@
+click
+requests
+urllib3
+
+[all]
+pytest
+responses
+pytest
+responses
+
+[tests]
+pytest
+responses
