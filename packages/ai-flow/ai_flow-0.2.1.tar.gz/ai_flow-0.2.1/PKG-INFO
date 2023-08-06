@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ai_flow
+Version: 0.2.1
+Summary: An open source framework that bridges big data and AI.
+Home-page: https://github.com/alibaba/flink-ai-extended
+Author: 
+Author-email: flink.aiflow@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7, <3.8
