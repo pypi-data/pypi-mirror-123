@@ -1,0 +1,6 @@
+include *.md
+recursive-include trnamegen data/isimler.csv
+recursive-include trnamegen data/soyisimler.txt
+graft data
+include trnamegen data/soyisimler.txt
+include trnamegen data/isimler.csv

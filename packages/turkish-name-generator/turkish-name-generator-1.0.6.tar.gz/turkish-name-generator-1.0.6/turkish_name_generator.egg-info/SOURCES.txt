@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+trnamegen/__init__.py
+trnamegen/tests.py
+trnamegen/data/isimler.csv
+trnamegen/data/soyisimler.txt
+turkish_name_generator.egg-info/PKG-INFO
+turkish_name_generator.egg-info/SOURCES.txt
+turkish_name_generator.egg-info/dependency_links.txt
+turkish_name_generator.egg-info/requires.txt
+turkish_name_generator.egg-info/top_level.txt
