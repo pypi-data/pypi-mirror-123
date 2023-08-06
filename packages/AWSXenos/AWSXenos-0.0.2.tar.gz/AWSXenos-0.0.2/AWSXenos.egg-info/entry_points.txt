@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        awsxenos=awsxenos.scan:cli
+    
