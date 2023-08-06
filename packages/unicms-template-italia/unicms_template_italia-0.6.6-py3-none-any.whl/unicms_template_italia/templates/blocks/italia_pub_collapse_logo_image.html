@@ -1,0 +1,24 @@
+{% extends "blocks/italia_pub_collapse.html" %}
+
+{% load unicms_templates %}
+
+{% random_id as id %}
+
+
+{% block collapse_header %}
+<div class="row">
+    {% if publication.presentation_image %}
+    <div class="col-2">
+        <img class="mw-100"
+             src="{{ publication.image_url }}"
+             alt="{{ publication.title }}">
+    </div>
+    {% endif %}
+    <div class="col-sm">
+        {{ publication.title }}
+    </div>
+</div>
+{% endblock collapse_header %}
+
+{% block collapse_publication_image %}
+{% endblock collapse_publication_image %}

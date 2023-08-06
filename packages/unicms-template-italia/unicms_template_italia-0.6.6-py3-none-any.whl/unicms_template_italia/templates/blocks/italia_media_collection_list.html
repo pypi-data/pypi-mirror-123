@@ -1,0 +1,31 @@
+{% load static %}
+
+
+{% with collection.get_items as collection_items %}
+{% if collection_items %}
+<div class="link-list-wrapper">
+    <ul class="link-list">
+        {% for item in collection_items %}
+        <li>
+            <a class="list-item left-icon"
+               href="{{ item.media.get_media_path }}"
+               alt="{{ item.media.description }}">
+                <svg class="icon icon-secondary">
+                    <use xlink:href="{% static 'svg/sprite.svg' %}#it-file"></use>
+                </svg>
+                <span>
+                    {{ item.media.title }}
+                    <span class="text-muted small">
+                        [{{ item.media.file_type }} - {{ item.media.file_size_kb }} KB]
+                    </span>
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% endwith %}
+
+
+
