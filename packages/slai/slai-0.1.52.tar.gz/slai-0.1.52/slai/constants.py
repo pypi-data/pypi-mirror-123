@@ -1,0 +1,4 @@
+MODEL_ROUTE_URI = (
+    r"([a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3})/([a-zA-Z0-9\-\_]+)/?([a-zA-Z0-9\-\_]*)"
+)
+DATASET_IO_THREAD_COUNT = 8
