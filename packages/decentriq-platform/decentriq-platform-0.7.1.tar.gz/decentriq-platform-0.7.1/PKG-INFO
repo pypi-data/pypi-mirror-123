@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: decentriq-platform
+Version: 0.7.1
+Summary: Python client library for the Decentriq platform
+Home-page: https://github.com/decentriq/decentriq-platform
+Author: decentriq
+Author-email: opensource@decentriq.ch
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: argon2-cffi (>=20.1.0,<21.0.0)
+Requires-Dist: asn1crypto (>=1.2.0,<2.0.0)
+Requires-Dist: certvalidator (>=0.11.1,<0.12.0)
+Requires-Dist: chily (>=0.5.3,<0.6.0)
+Requires-Dist: cryptography (>=3.4.6,<4.0.0)
+Requires-Dist: protobuf (>=3.15.0,<4.0.0)
+Requires-Dist: requests (>=2.25.0,<3.0.0)
+Requires-Dist: sgx-ias-structs (>=0.1.7,<0.2.0)
+Requires-Dist: sqloxide (==0.1.12)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/decentriq/decentriq-platform
+Description-Content-Type: text/markdown
+
+# decentriq-platform-client
+
+Python client library for the Decentriq platform.
+
+## Installation
+
+After cloning the repository you can install the library using pip:
+
+### Virtual environment(optional)
+
+Before installing the library you may want to working inside a virtual environment:
+
+```
+python -m venv env
+source env/bin/activate
+```
+
+### Pip
+
+To install with pip just run:
+
+```
+pip install .
+```
+
+## Usage:
+
+To have an idea of how to use this library, you can check the demo in the `example`
+ directory.
+
+## Testing
+
+To start the testing process install `nox` with `pip install nox` and the run it
+in the project directory. *N.B. make sure you have an available avato-backend*
+
+**nox**
+```
+nox
+```
+
