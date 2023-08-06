@@ -1,0 +1,33 @@
+output-format: pylint
+strictness: veryhigh
+max-line-length: 200
+doc-warnings: false
+pylint:
+    member-warnings: false
+    disable:
+        - too-few-public-methods
+bandit:
+    run: true
+dodgy:
+    run: true
+mccabe:
+    run: true
+pep8:
+    run: true
+    full: true
+frosted:
+    run: false
+pyflakes:
+    run: true
+pyroma:
+    run: true
+pylint:
+    run: true
+    disable:
+        - too-few-public-methods
+vulture:
+    run: true
+mypy:
+    run: true
+    options:
+        ignore-missing-imports: true

@@ -1,0 +1,7 @@
+cryptography
+
+[django]
+django>=3.2
+
+[sqlalchemy]
+sqlalchemy>=1.4
