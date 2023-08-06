@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: vocale-python
+Version: 0.2
+Summary: A speech library designed specifically for personal assistants. It features a wake word recognizer, voice activity detection, offline mode, and a speech synthesizer.
+Home-page: https://github.com/bossauh/vocale
+Author: Philippe Mathew
+Author-email: philmattdev@gmail.com
+License: MIT
+Download-URL: https://github.com/bossauh/vocale/releases/tag/v_02
+Description: UNKNOWN
+Keywords: speech,recognition
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
