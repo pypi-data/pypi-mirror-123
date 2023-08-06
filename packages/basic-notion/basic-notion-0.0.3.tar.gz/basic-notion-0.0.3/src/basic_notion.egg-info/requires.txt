@@ -1,0 +1,11 @@
+attrs
+
+[build]
+build
+twine
+
+[clients]
+notion-client
+
+[develop]
+mypy
