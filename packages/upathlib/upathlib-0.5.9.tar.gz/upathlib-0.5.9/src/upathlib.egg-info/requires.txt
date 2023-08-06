@@ -1,0 +1,10 @@
+filelock<3.4.0,>=3.3.0
+python-dateutil
+orjson
+
+[azure]
+azure-storage-blob<=12.9.0,>=12.8.1
+
+[gcp]
+google-api-python-client<=2.24.0,>=2.13.0
+google-cloud-storage<1.43.0,>=1.41.0
