@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+madonna/__init__.py
+madonna/version.py
+madonna.egg-info/PKG-INFO
+madonna.egg-info/SOURCES.txt
+madonna.egg-info/dependency_links.txt
+madonna.egg-info/not-zip-safe
+madonna.egg-info/requires.txt
+madonna.egg-info/top_level.txt
+tests/__init__.py
+tests/test_version.py
