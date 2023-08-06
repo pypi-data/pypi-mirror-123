@@ -1,0 +1,6 @@
+setup.py
+openmetadata_airflow.egg-info/PKG-INFO
+openmetadata_airflow.egg-info/SOURCES.txt
+openmetadata_airflow.egg-info/dependency_links.txt
+openmetadata_airflow.egg-info/entry_points.txt
+openmetadata_airflow.egg-info/top_level.txt
