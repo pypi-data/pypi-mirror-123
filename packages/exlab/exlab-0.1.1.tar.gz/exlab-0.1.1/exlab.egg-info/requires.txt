@@ -1,0 +1,9 @@
+coloredlogs
+executing
+Flask
+Flask-Cors
+matplotlib
+numpy
+Pillow
+PyYAML
+tabulate
