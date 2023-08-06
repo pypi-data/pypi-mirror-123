@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: jb-caliban
+Version: 0.0.4
+Summary: Calcium Imaging and Behavior Analysis
+Home-page: https://github.com/jaberry/caliban
+Author: Gergely Turi
+Author-email: gt22553@cumc.columbia.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jaberry/caliban/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cython
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: h5py
+Requires-Dist: holoviews
+Requires-Dist: shapely
+Requires-Dist: opencv-python
+Requires-Dist: bokeh
+
+caliban: Calcium Imaging and Behavior Analysis
+======
+>...in dreaming,  
+The clouds methought would open, and show riches  
+Ready to drop upon me; that, when I waked,   
+I cried to dream again.
+
+*The Tempest*, Act III, Scene ii
+
+Twinkling calcium imaging videos are certainly filled with riches. Whereas Caliban is showered with riches in his slumber, we must dig a little harder to mine these datasets. This software was developed to assist fellow wayward travelers on their journey to understanding how neurons encode information.
+
+
+# <img src="readme_pic.jpg">
+
+
+
+This code base was written with the intention of serving as a toolbox for:
+
+1. Statistical Testing of neuron classification by behavior.
+2. Visualization of neural activity and behavior data
+3. Graph Theoretical Analysis of networks of neurons.
+4. Data Visualization tool -- see the "full picture" of the data garnered from experiments with integration of calcium imaging movies, behavioral videos, and data processing results.
+
+For any feature requests, [create an issue](https://help.github.com/articles/creating-an-issue/).
+
+## Getting Started
+
+### Docker (Windows Users)
+Certain functions do not work properly on Windows, so it is advised that you run your analysis on a Docker container. This will set up a virtual linux environment on your computer. It also allows you to easily control which packages and versions that are present when you run your analysis. Thus, if you or someone else wants to rerun the analysis in the future, they can load your container to get the same computational environment.
+
+1. Download and install [Anaconda](https://docs.anaconda.com/anaconda/install/) (Python 3.X)
+
+2. Download and install [Docker](https://www.docker.com/get-started)
+(Windows 10 is strongly recommended).
+
+3. Clone the repository:
+```bash
+git clone https://github.com/jaberry/caliban.git
+```
+
+3. Navigate into your local repository and build the Docker image:
+```bash
+cd caliban
+docker build --build-arg USERNAME=your_GitHub_username --build-arg PASSWORD=your_GitHub_password . -t jupyter
+```
+
+4. Use the image to run a container:
+```bash
+docker run -it -p 9999:9999 my_analysis_container
+```
+
+If you need to mount data to the container, then use the following command:
+```bash
+docker run -it -p 9999:9999 -v source_directory:target_directory my_analysis_containter
+```
+For example, if you have data in myfolder1/data, and a folder of notebooks in myfolder2/notebooks, then you can mount both using:
+
+```bash
+docker run -it -p 9999:9999 -v myfolder1/data:/mnt/data -v myfolder2/notebooks:/mnt/notebooks my_analysis_container
+```
+
+5. You should see something along the lines of:
+```bash
+...
+    Or copy and paste one of these URLs:
+        http://127.0.0.1:9999/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+Now open your browser window and go to the URL that was created for you.
+You can see the containers you have created by opening the Docker Dashboard that is part of the Docker application. They are given weird codenames like "admiring_bohr". You can
+open previous containers that you created from the Dashboard, so you don't need to do ```docker run``` again unless you want to make a new container.
+
+
+### Installation on Mac or Linux (Python 3.x)
+Using a Docker container is optional for Mac or Linux, since all the functions should work properly. However, you can follow the instructions above if you wish to use Docker.
+
+1. Download and install [Anaconda](https://docs.anaconda.com/anaconda/install/) (Python 3.X)
+
+2. Clone the repository:
+```bash
+git clone https://github.com/jaberry/caliban.git
+```
+
+3. Navigate into your local repository and create your environment:
+```bash
+cd caliban
+bash create_env.sh
+```
+
+## Troubleshooting
+
+[Create an issue](https://help.github.com/articles/creating-an-issue/)
+For members of the Hen Lab, feel free to message Jack Berry via Slack.
+
+dependencies = [
+    'cython==0.29',
+    'jupyter==1.0.0',
+    'networkx=2.2',
+    'numpy=1.15.4',
+    'pandas=0.24.1',
+    'python=3.7.1',
+    'scikit-learn=0.20.1',
+    'seaborn=0.9.0',
+    'h5py',
+    'holoviews',
+    'shapely',
+    'py-opencv',
+    'bokeh'
+] 
+
