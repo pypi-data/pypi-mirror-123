@@ -1,0 +1,13 @@
+imageio
+scipy
+numpy
+
+[lint]
+flake8
+mypy
+
+[plot]
+matplotlib
+
+[tests]
+pytest>=3.6
