@@ -1,0 +1,13 @@
+dcargs/__init__.py,sha256=yo-bCoIXl1UfGDdXhEdzG3H9pnebAmcI8hLRzydtjnk,47
+dcargs/_arguments.py,sha256=23xPTEpvUUIN63hfz6XMa6wigBiF3c4LHX4Aha4_U4s,11569
+dcargs/_construction.py,sha256=EVOp0POQt366qyJl4V8p6m-s8PpYMgD54nrRj7itSpE,3117
+dcargs/_docstrings.py,sha256=PlzcArZ-tDb_69lD2yiD24yLTF6BNFygG3tc2MpEyig,3965
+dcargs/_parse.py,sha256=WcEJ6l5N1i9AdesUp9nLHdObv5WScu0OEc4ivrBM_8s,893
+dcargs/_parsers.py,sha256=VHrBADPoUnIv4wDwQ47iqOwvYLE3H9xNjqjaLcslkEo,6465
+dcargs/_resolver.py,sha256=gQQnUEMB88j0k54Y6P6R27UFH2QiQeZlmlE8edVtcWY,1321
+dcargs/_strings.py,sha256=Y0FsTdVMq_xEYSs3CtQDFI-Jy6DFQu8uBeC5_WU_AKg,626
+dcargs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcargs-0.0.3.dist-info/METADATA,sha256=-NoD6qDuGPO30o546kmygkcH89461Y3z2VP5b2hWBJo,8915
+dcargs-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dcargs-0.0.3.dist-info/top_level.txt,sha256=KyLLfTLI5MIsNUOnQOQ9JPR5S-PIZM5HRN2Zbm4tVCM,7
+dcargs-0.0.3.dist-info/RECORD,,
