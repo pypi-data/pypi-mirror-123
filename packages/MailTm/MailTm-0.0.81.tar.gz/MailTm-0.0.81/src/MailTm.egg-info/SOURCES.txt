@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/MailTm.egg-info/PKG-INFO
+src/MailTm.egg-info/SOURCES.txt
+src/MailTm.egg-info/dependency_links.txt
+src/MailTm.egg-info/requires.txt
+src/MailTm.egg-info/top_level.txt
+src/mailtm/__init__.py
+src/mailtm/email.py
+src/mailtm/message.py
