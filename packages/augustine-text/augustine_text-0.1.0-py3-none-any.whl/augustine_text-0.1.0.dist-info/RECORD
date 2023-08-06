@@ -1,0 +1,14 @@
+augustine_text/__init__.py,sha256=ydXWPu3r9nH7YSrgKaVP_PclfiRutLBcL_pOUMEuGT4,40
+augustine_text/markov.py,sha256=FuA4w8kPyOQQg3B9dpGnUegCInEUO2UE4_UYqN73mpw,4084
+augustine_text/sample_text.py,sha256=g4cmteRKw3TxQbnFo24uqjnUP7CsrGEhy4kV_-5ygPc,1055
+augustine_text/mseeds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+augustine_text/mseeds/blackgate.mseed,sha256=zvRO7a2SMbR_eTYI6-6MF5NMg1S1S7DAx9MJXfcJNDM,564
+augustine_text/mseeds/churchill.mseed,sha256=EewXg0pJr0EQlu45GVywRIzFJBm1bNEEe_JOw0qw9XI,706
+augustine_text/mseeds/lorem.mseed,sha256=zfXoiHXgw2iUIHhYzem-VzPGcrnOBnq6xCgcice1c0Y,559
+augustine_text/mseeds/pride.mseed,sha256=CD5mVGGaR_DaFeMAlm4bV15AJ0gPWW18xVKYGZo5r3A,1368
+augustine_text/mseeds/science.mseed,sha256=UAkSLado4hYOLvkh9NFGbNUhqzFLXtb-vyJnPvNBO1o,206
+augustine_text/mseeds/space.mseed,sha256=eM0KpqezMOJKdHRESwMEy9RWjniaJq2DHiwQOElIStI,1188
+augustine_text-0.1.0.dist-info/METADATA,sha256=Ma-VZ92Xkso9FkWP-inVLyyEv1JyXe6gsDfJ_TTb6zs,5855
+augustine_text-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+augustine_text-0.1.0.dist-info/top_level.txt,sha256=u1Ib_gEQ4ThGAzenWWWadFjTu-oJMX-D-EgZvE5-T_U,15
+augustine_text-0.1.0.dist-info/RECORD,,
