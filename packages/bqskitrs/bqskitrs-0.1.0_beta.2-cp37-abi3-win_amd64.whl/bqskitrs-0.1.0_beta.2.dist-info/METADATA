@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bqskitrs
+Version: 0.1.0_beta.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Author: Ethan Smith <ethanhs@berkeley.edu>
+Author-email: Ethan Smith <ethanhs@berkeley.edu>
+License: LGPL-2.1 AND BSD-3-Clause
