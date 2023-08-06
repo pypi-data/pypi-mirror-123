@@ -1,0 +1,9 @@
+opentelemetry/instrumentation/flask/__init__.py,sha256=e7DJ_v_h4JZOYnM78n2oewZy8xwuUt5gt939ekHVlRk,10929
+opentelemetry/instrumentation/flask/package.py,sha256=wImBRnJS1bqVHgcibxVf48TcX72BVuDbDVDJ6ktvmlA,626
+opentelemetry/instrumentation/flask/version.py,sha256=IDLztofgyF3JFETutGjzaU4kch2YMfXO0neGIM3NXto,608
+opentelemetry_instrumentation_flask-0.25b1.dist-info/LICENSE,sha256=h8jwqxShIeVkc8vOo9ynxGYW16f4fVPxLhZKZs0H5U8,11350
+opentelemetry_instrumentation_flask-0.25b1.dist-info/METADATA,sha256=bxIc0z1EK1wQSFnSKoI3piDzZMycD4pSE5-d_Q1KspM,2777
+opentelemetry_instrumentation_flask-0.25b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+opentelemetry_instrumentation_flask-0.25b1.dist-info/entry_points.txt,sha256=FqgYt0avHtiDBmjnGJXfPejVbBpYgGeSCXDWvLcMjFY,92
+opentelemetry_instrumentation_flask-0.25b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_flask-0.25b1.dist-info/RECORD,,
