@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: seclibb
+Version: 0.0.1
+Summary: seclibb
+Home-page: https://github.com/IT-Err0R/1sec-lib
+Author: Alrahl
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/IT-Err0R/1sec-lib/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# seclibb
+
+`seclibb` is a [1secmail]("https://1secmail.com") library 
+
+## How To install seclibb
+
+You Can Install seclib By typing: `pip install seclib`
+
+## Example
+
+```
+1. import seclibb
+2. sl = seclibb.seclibb()
+3. email = sl.generate_email()
+4. print(email)
+```
+
