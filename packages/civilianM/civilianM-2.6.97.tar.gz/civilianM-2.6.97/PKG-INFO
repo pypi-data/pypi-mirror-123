@@ -1,0 +1,492 @@
+Metadata-Version: 2.1
+Name: civilianM
+Version: 2.6.97
+Summary: Common functions,More will be added in the future,Look forward to your use
+Home-page: UNKNOWN
+Author: AC97
+Author-email: ehcemc@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: BeautifulSoup4
+Requires: requests
+Requires: lxml
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#civilianM-2.6.97 使用教程
+欢迎使用**civilianM-2.6.97**，现在由我**AC97**教你如何正确使用civilianM
+### 如何安装？
+可以使用pip安装
+`pip install civilianM==2.6.97`
+
+也可以去<https://pypi.org>下载Wheel-2进制文件
+`https://pypi.org/project/civilianM/#files`
+### 谁做的？
+> 作者：AC97
+
+> 管理：AC96
+
+> 维护：AC97/AC96
+
+> 联系：看到结尾去
+
+###它关于什么？
+- 平常比较常用的函数
+- 3等加密
+- 制作HTTPS的网站安全证书
+
+## Upgrade()
+- 分类
+Function 函数
+- 翻译
+升级
+- 参数
+Nothing
+- 功能
+检查civilianM是否是最新版本
+- 举个例子
+```python
+import civilianM as cm
+cm.upgrade()
+#你正在使用最新版本  2.-.97  暂时不需要更新
+```
+
+------------
+
+##whatNews()
+- 分类
+Function 函数
+- 翻译
+什么新的
+- 参数
+Nothing
+- 功能
+查看当前版本的更新具体内容
+- 举个例子
+```python
+import civilianM as cm
+cm.whatNews()
+#....
+```
+
+------------
+
+##garbledCode(digit)
+- 分类
+Function 函数
+- 翻译
+乱码
+- 参数
+1. digit
+- 功能
+生成缓存名字那样的代码（~~说实话我也不知道怎么表达~~）
+- 举个例子
+```python
+import civilianM as cm
+print(cm.garbledCode(22))
+a0516d07be9e903938f0f4
+```
+
+------------
+
+##getAddress()
+- 分类
+Function 函数
+- 翻译
+获取地址
+- 参数
+Nothing
+- 功能
+把你家地址查出来（最多精确到市）
+- 举个例子
+```python
+import civilianM as cm
+cm.getAddress()
+"""
+{'network': {'IP': '116.2**.1**242', 'country': '中国', 'province': '广西壮族自治区', 'city': '南宁市', 'ISP': '中国电信'}, 'computer': {'name': 'Srut****-Mor', 'computerIP': '192.168.*.*4'}}
+"""
+#此处地址是AC97的粗略地址
+```
+
+------------
+
+## justNow()
+- 分类
+Function 函数
+- 翻译
+就是现在
+- 参数
+Nothing
+- 功能
+查看现在的时间
+- 举个例子
+```python
+import civilianM as cm
+cm.justNow()
+#2021-10-16 16:08:57
+```
+
+------------
+
+##judge(content,classes)
+- 分类
+Function 函数
+- 翻译
+判断
+- 参数
+1. content
+2. classes
+`(yn/tf/oc)`
+- 功能
+根据你所提供的content，对用户提问（*相当于判断题* ），如果同意，返回**True**，不同意，返回**False**，如果前两者都不符，则返回**None**
+- 举3个例子
+```python
+import civilianM as cm
+#yn
+cm.judge("你是不是狗？",'yn')
+"""
+你是不是狗（Y/N）： N
+False
+"""
+```
+```python
+import civilianM as cm
+#yn
+cm.judge("1+1=3",'tf')
+"""
+1+1=3？(T/F)：T
+True
+"""
+```
+
+------------
+
+##openFolder(fn)
+- 分类
+Function 函数
+- 翻译
+打开文件夹
+- 参数
+1. fn（不必要）
+- 功能
+打开文件夹（默认在桌面，fn是文件名，需要更改打开路径的话需要使用os模块的chdir函数切换工作目录）
+- 举个例子
+```python
+import civilianM as cm
+cm.openFolder("HelloWorld!")
+"""
+自己去试
+"""
+```
+
+------------
+
+##checkClass(objects,need)
+- 分类
+Function 函数
+- 翻译
+检查类别
+- 参数
+1. objects
+2. need
+`'float','int','tuple','list','dict','str'`
+- 功能
+检查objects是否与need符合。**请注意need的参数都必须转化为字符串**，`list`就是不对的，`'list'`才是对的
+- 举个例子
+```python
+import civilianM as cm
+print(cm.checkClass(0.4,'float'))
+True
+```
+
+------------
+
+##pausePrint(content,pause=0.2)
+- 分类
+Function 函数
+- 翻译
+停顿打印
+- 参数
+1. content
+2. pause
+- 功能
+以pause为停顿时间，每pause秒打印一个content内容
+（目前该函数存在`pausePrint('Hello world','0.3')`时也会把2也打印出来，你需要详细赋值`pausePrint('Hello world',pause=0.3)`
+- 举个例子
+```python
+import civilianM as cm
+cm.pausePrint('Hello world!',pause='0.3')
+"""
+自己去试
+"""
+```
+
+------------
+
+##openWeb(website)
+- 分类
+Function 函数
+- 翻译
+打开WEB
+- 参数
+1. website
+- 功能
+使用系统浏览器打开website（目前在**2.5.97**如果不输入**https://**或者**http://**将会默认IE浏览器打开。这个功能将在**2.6.97**修复）
+- 举个例子
+```python
+import civilianM as cm
+cm.openWeb("https://pypi.org")
+```
+
+------------
+
+##captcha()
+- 分类
+Function 函数
+- 翻译
+全自动区分计算机和人类的图灵测试
+- 参数
+NOTHING
+- 功能
+CAPTCHA是（Completely Automated Public Turing test to tell Computers and Humans Apart ）的缩写。他会生成一个4位文字验证码
+- 举个例子
+```python
+import civilianM as cm
+print(cm.captcha()
+C3wQ
+```
+
+------------
+
+##hideInput(con)
+- 分类
+Function 函数
+- 翻译
+隐藏输入
+- 参数
+1. con
+- 功能
+隐藏你在input输入的值
+- 举个例子
+```python
+import civilianM as cm
+cm.hideInput("OK:")
+"""
+OK:
+'yes'
+"""
+```
+
+------------
+
+##decimal(mins,maxs,save=None)
+- 分类
+Function 函数
+- 翻译
+小数
+- 参数
+1. mins
+2. maxs
+3. save（不必要）
+- 功能
+生成一个小数，如果需要保留位数可以使用save参数
+- 举个例子
+```python
+import civilianM as cm
+print(cm.decimal(0.2,0.42))
+print(cm.decimal(0.2,0.42,3))
+"""
+0.3840303923855013
+0.303
+"""
+```
+
+------------
+
+##randint(mins,maxs)
+- 分类
+Function 函数
+- 翻译
+Randint
+- 参数
+1. mins
+2. maxs
+- 功能
+和random的randint没什么区别
+- 举个例子
+```python
+import civilianM as  cm
+print(cm.randint(12,21))
+16
+```
+
+------------
+
+##wait(t)
+- 分类
+Function 函数
+- 翻译
+等待
+- 参数
+1. t
+- 功能
+和time的sleep没什么区别
+- 举个例子
+```python
+import civilianM as cm
+cm.wait(2)
+"""
+自己去试
+"""
+```
+
+------------
+
+##find()
+- 分类
+Class 类
+- 翻译
+查找
+- 功能
+帮助你全盘寻找你想要的文件
+- 内置函数
+search()
+show()#调用时不需要加括号
+- 举个例子
+```python
+import civilianM as cm 
+f = cm.find()
+f.search('AppData')
+print(f.show)
+```
+- 解释
+`f = cm.find()`给f变量赋予find类
+`f.search(ff)`搜索文件/文件夹，可能需要比较长的时间
+`f.show	`获取结果，如果存在则返回列表，否则抛出**LibraryError**
+```
+    Traceback (most recent call last):
+      File "E:\work\Python\------\t.py", line 4, in <module>
+        f.show
+      File "E:\work\Python\------\t.py", line 309, in show
+        raise LibraryError(
+    civilianM.LibraryError: 无法找到 'yydsyyds' 这个文件/文件夹，因为它有可能并不存在！
+```
+
+------------
+
+##safe()
+-分类
+Class 类
+- 翻译
+安全
+- 功能
+加密/解密字符串
+- 加密标准
+cMES1.0(civilianM Encry Standard 1.0 | civilianM 加密标准一代)
+- 内置函数
+encry()
+decode()
+- 举个例子
+```python
+import civilianM as cm
+s = cm.safe()
+print(s.encry('6d7jss0iaod9y36'))
+print(s.decode('*_!"((+{#|_[7@*'))
+"""
+*_!"((+{#|_[7@*
+6d7jss0iaod9y36
+"""
+```
+- 解释
+`s = cm.safe()`给s变量赋予find类
+`s.encry(string)`加密string，不是直接print
+`s.decode(string)`对string解密，不是直接print
+
+------------
+
+##myos()
+- 分类
+Class 类
+- 翻译
+我的系统
+- 功能
+执行某些系统Shell操作
+- 内置函数
+shutdown()
+clearScreen()
+- 举个例子
+```python
+import civilianM as cm
+o = cm.myos()
+o.clearScreen()
+#o.shutdown()
+```
+- 解释
+`o.clearScreen()`对cmd窗口有效
+`o.shutdown()`强制关机
+
+------------
+
+##error()
+- 分类
+Class 类
+- 翻译
+错误
+- 功能
+抛出错误
+- 内置函数
+filenotfound()
+lookup()
+timeout()
+runtime()
+windows()
+eof()
+zero()
+unicode()
+key()
+Import()
+index()
+indentation()
+Type()
+io()
+name()
+exception()
+value()
+syntax()
+attribute()
+- 举个例子
+**~~你特么不要太狂妄！想得美~~**
+
+------------
+
+##author()
+- 分类
+Class 类
+- 翻译
+作者
+- 功能
+关于我
+- 内置属性~~（函数）~~
+manage
+old
+name
+email
+gender
+phoneNumber
+From
+live
+- 举个例子
+**~~你特么不要太狂妄！想得美~~**
+
+###结尾
+>AC97邮箱：ehcemc@hotmail.com
+
+>AC96邮箱：pitdaddy@126.com
+
+>该文件最后一次保存时间：2021-10-17 00:53:06
+
+>**(C)2021 AC97,ALL RIGHTS RESERVED**
+
