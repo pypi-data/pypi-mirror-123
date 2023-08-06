@@ -1,0 +1,8 @@
+
+my_package i indirdiğiniz için teşekkürler
+
+kurulum yapmak için alttaki komutu kullanınız
+
+```
+python -m pip install .
+```
