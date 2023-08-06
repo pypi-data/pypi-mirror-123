@@ -1,0 +1,4 @@
+[console_scripts]
+xmacro = xmacro:xmacro_main
+xmacro4sdf = xmacro:xmacro4sdf_main
+
