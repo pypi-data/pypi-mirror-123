@@ -1,0 +1,4 @@
+[console_scripts]
+lsdnb-flip = lsdnumbatools.lsdnbtools_flip_raster:flip_raster
+lsdnumbatools = lsdnumbatools.cli:main
+
