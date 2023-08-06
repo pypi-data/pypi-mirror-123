@@ -1,0 +1,9 @@
+README.md
+setup.py
+tag2bio/Tag2Bio.py
+tag2bio/__init__.py
+tag2bio.egg-info/PKG-INFO
+tag2bio.egg-info/SOURCES.txt
+tag2bio.egg-info/dependency_links.txt
+tag2bio.egg-info/not-zip-safe
+tag2bio.egg-info/top_level.txt
