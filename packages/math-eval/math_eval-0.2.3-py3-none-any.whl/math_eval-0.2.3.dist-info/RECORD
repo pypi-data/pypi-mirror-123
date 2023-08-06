@@ -1,0 +1,9 @@
+math_eval/Equation.py,sha256=65ENLYgGhhwltbYM57t9l-UhF7rZtAX62cLVSkuALB8,1792
+math_eval/__init__.py,sha256=Kwsr8B5yag3enswJjjncsA828PP4QXbKQn9DqN0qclg,2379
+math_eval/math_eval.py,sha256=53pbjUnOVvh_L7j7c6rnA8NwO7mNXGx0GQQ0howeQ8E,39881
+math_eval/test_math_eval.py,sha256=V8oSU8qOEuFJaEp9BHSRJ4JG1dVE9n5ZcQLrGAJC8Pg,36574
+math_eval-0.2.3.dist-info/LICENSE,sha256=mqfi1IGncfuJmxXMM8Vv3o8LVg-4m9DWSktBX0bgZjs,1099
+math_eval-0.2.3.dist-info/METADATA,sha256=OCLVoTpkLrzciF2V2XzZMnNegIOkz3msgo3rM1_RH3Y,2768
+math_eval-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+math_eval-0.2.3.dist-info/top_level.txt,sha256=q1BgH3fWimm_ua2BbAHK6d5F6ffja6-rRyUeFzfwt8I,10
+math_eval-0.2.3.dist-info/RECORD,,
