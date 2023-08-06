@@ -1,0 +1,9 @@
+madonna/__init__.py,sha256=wiSzk9j2eFchFHZYLng14qbCP1B0YQHGjYSCmdoyW1I,141
+madonna/version.py,sha256=moHkUUunNYCv70Jjtt4RkS1KqTWmMEnXFIzdNqzEKoE,18144
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_version.py,sha256=VPLopuVkMOcyi6tFLwPsiHe4HGbSaZoqXsMqrl_4kHo,18049
+madonna-0.1.0.dist-info/LICENSE,sha256=zBoQ8K99iLan-na9GgferNOd0abdKmxnZPbELbdmLL0,1067
+madonna-0.1.0.dist-info/METADATA,sha256=ECjUbKmjQY5xKsI5rbVY64IuVkwmDxF78MgoxFnEUss,5163
+madonna-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+madonna-0.1.0.dist-info/top_level.txt,sha256=sBnKjQMPgxOJv4VrFMk58vCBfXdYEhw5p-PNcamv1Sg,14
+madonna-0.1.0.dist-info/RECORD,,
