@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/taeg/__init__.py
+src/taeg/test_taeg.py
+src/taeg.egg-info/PKG-INFO
+src/taeg.egg-info/SOURCES.txt
+src/taeg.egg-info/dependency_links.txt
+src/taeg.egg-info/requires.txt
+src/taeg.egg-info/top_level.txt
