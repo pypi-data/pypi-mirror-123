@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qikdb
+Version: 4.0.1
+Summary: Simple, and easy to use Python Database using JSON.
+Author: Andrew Bordis
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
