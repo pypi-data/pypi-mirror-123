@@ -1,0 +1,8 @@
+cleo<0.9,>=0.8.1
+
+[test]
+coverage
+black
+flake8
+pytest
+twine
