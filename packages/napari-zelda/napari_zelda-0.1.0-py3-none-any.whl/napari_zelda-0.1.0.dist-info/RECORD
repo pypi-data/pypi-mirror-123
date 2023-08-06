@@ -1,0 +1,12 @@
+napari_zelda/__init__.py,sha256=lD3L1-dMzt-AG0d4w8T-UDntJEkg6h4F8IJrERH3Vu8,401
+napari_zelda/_reader.py,sha256=6mzk3oAkYqxBbe-JpSdz4i-KaKsIsgzgCtCUXPcs6sM,166
+napari_zelda/_writer.py,sha256=b-2mzNybpHxF3tld6oB1c7QZQ1VSBa2XQIsrhzPxdYg,483
+napari_zelda/main.py,sha256=Gm0Bpprlek1cMGEcJH6vI8T-UNRgqgTrkq8Zrh0hhQU,255
+napari_zelda/napari_zelda.py,sha256=fEZ_ui8qJPkxUW6xveWlO8IT0nmxbG6kShxWLicr6LQ,24431
+napari_zelda/plugin.py,sha256=nuJjqw6NCSDIDRQp0_A4YIp217a9s01yHD-r6bLJ0uc,251
+napari_zelda-0.1.0.dist-info/LICENSE,sha256=x6MDRnicey8a_ZC6q_3aHXhyTcGIPRoHkWxwpZX9lSE,1514
+napari_zelda-0.1.0.dist-info/METADATA,sha256=qSB-jqVxpgTFc96AxEAw1p9yn36TxLl4FwetlkLYrM4,3311
+napari_zelda-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_zelda-0.1.0.dist-info/entry_points.txt,sha256=MBXUMDnLxATfhT2zHrjXRleqtAp5WacPMuIXRFbFhQ0,45
+napari_zelda-0.1.0.dist-info/top_level.txt,sha256=z1JGTojunTwCDMDhueU028Tllm1KxgcyW13fjqy38-c,13
+napari_zelda-0.1.0.dist-info/RECORD,,
