@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/splunkhecwriter/__init__.py
+src/splunkhecwriter.egg-info/PKG-INFO
+src/splunkhecwriter.egg-info/SOURCES.txt
+src/splunkhecwriter.egg-info/dependency_links.txt
+src/splunkhecwriter.egg-info/requires.txt
+src/splunkhecwriter.egg-info/top_level.txt
