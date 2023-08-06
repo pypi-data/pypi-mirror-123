@@ -1,0 +1,15 @@
+tracardi_regex_validator/plugin.py,sha256=m58g4fNqubrFdF1pCuDuUWtaawr6kHIeA0xoy__tu1g,1416
+tracardi_regex_validator/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_regex_validator/model/configuration.py,sha256=JO_GqGe6jP5CLbn7ftthWVeDVfeJ0c10SrRyjfajYS0,108
+tracardi_regex_validator/model/__pycache__/__init__.cpython-38.pyc,sha256=jAeBU6C92wVn2ffxCFV1zk9aFcqIG_6vEUKNpzIN_Tk,186
+tracardi_regex_validator/model/__pycache__/configuration.cpython-38.pyc,sha256=7A-GCk7nOTO_gFlLYHKDVj0ejPReLBZUN1Vbnyx9MC4,461
+tracardi_regex_validator/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_regex_validator/service/validator.py,sha256=VpSniyMsQYNqMYzaAY6H9wAcZI1C2YwSGNHl1SqqzQ8,385
+tracardi_regex_validator/service/__pycache__/__init__.cpython-38.pyc,sha256=xfc9ky9XvU3_3Z15fryjJNuRl5-aeLiIJ2VhFcXxezI,188
+tracardi_regex_validator/service/__pycache__/validator.cpython-38.pyc,sha256=MLqZGjsjUp3kDpQKgZk-uVRXIi_7bB5EP-7hXKrwplE,898
+tracardi_regex_validator/test/manual_test.py,sha256=35YkHq9r0fjvvLhu_6IBvIq_i03Z22QtY1kmTMvCd3Y,864
+tracardi_regex_validator-0.1.dist-info/LICENSE.md,sha256=sPIkAajsb4_tO1Z2VwU7vBDv6Ra_fWI9B1860-qIvR8,1066
+tracardi_regex_validator-0.1.dist-info/METADATA,sha256=CdHIjR4BQBravGTyL9h8rywSW28t9aIkxWTNvhAx56Y,603
+tracardi_regex_validator-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_regex_validator-0.1.dist-info/top_level.txt,sha256=KfKiAM9UfbrOlyhj36gGUmwe1rJvbSJfq-5GTgsuhOI,25
+tracardi_regex_validator-0.1.dist-info/RECORD,,
