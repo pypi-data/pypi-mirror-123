@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tethysio
+Version: 0.0.1
+Summary: Scrape rec.gov permits
+Home-page: https://github.com/rmcsqrd/tethys/tree/main/scraper
+Author: Rio McMahon
+Author-email: rmcsqrd@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+
+Scrape rec.gov permits
+
