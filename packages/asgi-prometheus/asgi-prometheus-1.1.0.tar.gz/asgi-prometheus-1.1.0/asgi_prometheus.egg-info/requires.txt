@@ -1,0 +1,7 @@
+asgi-tools>=0.47.9
+prometheus_client>=0.10.1
+
+[tests]
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
