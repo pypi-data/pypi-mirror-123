@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: configlookup
+Version: 0.0.4
+Summary: This package provides a singleton to read configuration values from json, env var, etc...
+Home-page: UNKNOWN
+Author: joao tiago viegas
+Author-email: jtviegas.js@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+# configlookup
+extensible helper package to read configuration provided by json, env vars, keyvault secrets, etc...
+
+
