@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fumoAPI
+Version: 1.3
+Summary: Simple API wrapper for https://fumos.live
+Home-page: https://github.com/Airiuwu/fumoAPI
+Author: Adobee
+Author-email: Adobe@katsumi.cf
+License: MIT
+Download-URL: https://pypi.org/project/fumoAPI/
+Keywords: fumoAPI
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Async Usage
+```py
+from fumoAPI import pickRandomFumo
+
+print(await pickRandomFumo())
+```
+# Non-Async Usage
+```py
+from fumoAPI import randomFumo
+
+print(randomFumo())
+```
+
