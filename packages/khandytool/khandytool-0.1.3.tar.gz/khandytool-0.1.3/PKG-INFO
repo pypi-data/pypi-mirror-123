@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: khandytool
+Version: 0.1.3
+Summary: khandytool, handy core in testing
+Home-page: https://github.com/kevin72500/khandytool
+Author: Ou Peng
+Author-email: kevin72500@qq.com
+License: UNKNOWN
+Description: # CoreUtil
+        ## Purpose 
+        This core mainly to personal use, and it just wraped some other packages. the perpose that is make some functions are easy to use quickly.
+        like:
+        - get data from jmesh
+        - get fack data
+        - generate test case from xmind
+        - get sha1 password
+        - run sql in mysql
+        - time counter wraper
+        - multi list to single list
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
