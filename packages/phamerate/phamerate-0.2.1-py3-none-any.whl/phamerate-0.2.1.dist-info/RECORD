@@ -1,0 +1,15 @@
+phamerate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phamerate/__main__.py,sha256=ACWECO-GXsB0Owqk-K1gfr1oCRu4IgxMP-RJlhHhxnI,7186
+phamerate/classes.py,sha256=yFeJNNjkjIHlZcnhbB6Npk3dvgqiFjdcIY46YCCH5Pc,8664
+phamerate/clustalo.py,sha256=BD5h-pNspzBeeBIxgZlQw74cZZRSXD6sauekTdXvlys,1994
+phamerate/cmd.py,sha256=boCH3IxaVZ4aJeJgsB9ekEJ1vydRO2HvS7_gMlWRtfY,653
+phamerate/fileio.py,sha256=Yt0ErYnStVOoP4Il1D18yZ-oJdJpgNi_e-MN24ZuWrQ,4128
+phamerate/mmseqs.py,sha256=0dImEnFB5jMYaTw8pm7uHBMTWtLfkY2BhNBejTN73eg,8904
+phamerate/parallelize.py,sha256=s6vmtQWM25aQKFwHM3kRcPOuDPqPJ833-OIISC0QTHc,4763
+phamerate/utility.py,sha256=fZIOsbuhMBonHtuD8XiFsOahMBuQI5bms6gsUUGBUz0,10855
+phamerate-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+phamerate-0.2.1.dist-info/METADATA,sha256=ZqOX8KoKryy6ToTEBsG3NX7cSpN9OGGkGq_2-A9Im5E,7516
+phamerate-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+phamerate-0.2.1.dist-info/entry_points.txt,sha256=TJP_82lXUyJeZ2mMXHzlYa5khYwQ2PE8Yk9H6N6Xla8,55
+phamerate-0.2.1.dist-info/top_level.txt,sha256=7UxynHLEhQ8JO--jB6Q3qfBBDeGvBIZk7EYVvJXSfEQ,10
+phamerate-0.2.1.dist-info/RECORD,,
