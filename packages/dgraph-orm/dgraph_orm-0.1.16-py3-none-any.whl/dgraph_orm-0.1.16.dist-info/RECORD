@@ -1,0 +1,10 @@
+dgraph_orm/__init__.py,sha256=98dkat7e4PyZjTs2FnuVxCnrs7dYzKfq9Aldg-V3VVQ,166
+dgraph_orm/dgraph_model.py,sha256=8LK4ZkmUBXKPDBCfsGcG7DpUBjvh8dEADoeWHqk3BSA,1997
+dgraph_orm/execute.py,sha256=In0x-uwo3CknUK5lbeiNjKItp-YQ7vYuZ8apGnY1MTA,1108
+dgraph_orm/gql.py,sha256=VzA9APJw8c6aVobOwu7IWGpaVcg-ogzIzp5xAo84aJ0,272
+dgraph_orm/node.py,sha256=L3TJEsLf3f8aT9DvH2DP-ZYB72q1LL5bbVCndsrRomM,6984
+dgraph_orm/resolver.py,sha256=uAiyPLV4nzUW591B28yKelICvligpu7fE44byrvZltk,5026
+dgraph_orm/resolver_old.py,sha256=-8MJd8MROxMgMN-4Wj4WrTaRAJLgIvSYUuWeSKCGDac,7172
+dgraph_orm-0.1.16.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+dgraph_orm-0.1.16.dist-info/METADATA,sha256=tj-uJ40j-XHOTDpEDqceKO8BGNqinVswtv1DLQ_qsks,500
+dgraph_orm-0.1.16.dist-info/RECORD,,
