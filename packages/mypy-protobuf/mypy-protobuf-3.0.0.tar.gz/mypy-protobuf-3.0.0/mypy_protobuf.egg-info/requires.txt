@@ -1,0 +1,2 @@
+protobuf>=3.18.0
+types-protobuf>=3.17.4
