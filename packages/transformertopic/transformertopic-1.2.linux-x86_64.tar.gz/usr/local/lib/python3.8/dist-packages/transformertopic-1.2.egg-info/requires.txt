@@ -1,0 +1,5 @@
+hdbscan
+loguru
+numpy
+seaborn
+sentence-transformers
