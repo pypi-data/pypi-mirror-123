@@ -1,0 +1,4 @@
+[console_scripts]
+ChangeUser = oolongTool.ChangeUser:main
+PostMessage = oolongTool.PostMessage:main
+

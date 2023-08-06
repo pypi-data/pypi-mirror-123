@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: oolongTool
+Version: 0.2.8
+Summary: tiny tools in using slurm cluster
+Home-page: https://github.com/Suchun-sv/ClusterTools
+Author: suchun
+Author-email: 2594405419@qq.com
+License: MIT Licence
+Keywords: pip,oolongTool,oolong
+Platform: any
+
+this is a project for collecting some useful tools
+
+
