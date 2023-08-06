@@ -1,0 +1,7 @@
+tweak<2,>=1.0.3
+pyjwt<3,>=2.2.0
+requests<3,>=2.22.0
+click<9,>=7
+cryptography>=3.3.2
+python-dateutil<3,>=2.7.3
+crc32c<3,>=2.0.1
