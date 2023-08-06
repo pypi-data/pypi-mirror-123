@@ -1,0 +1,12 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=v1qGF1LxhvBhITDF1xK-1zAXhwqtB5VvinpSIi5-0fU,758
+requirements.txt,sha256=O_zn4fPJITCHaF7Va_VxTVHwP_fyRKlXxutXXBpA_t8,33
+text2png/__init__.py,sha256=CZ3HJpIkQZ-gHR5tGurd40DtyCKnYYJMwPcux4G1Z7g,387
+text2png/core.py,sha256=kO6D2ExIsBV2gB40wF7XovJpZsuDoo_Kk5yFNwcB1_g,1199
+text2png/pkg_data.ttc,sha256=rxDH1jwphBmnibt2zvtLCxa4tpGWmQdQfex6GixFxb4,27446360
+text2png-0.5.0.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+text2png-0.5.0.dist-info/METADATA,sha256=A2WkKBFyLhuolnU8KQGXMcQaXHOPmydguKd4q8mRxYg,1492
+text2png-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+text2png-0.5.0.dist-info/top_level.txt,sha256=x05Ox-tzXZJj7hNDTHj9ZE8EUWWE170IpjKEHgZC2-0,9
+text2png-0.5.0.dist-info/RECORD,,
