@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: utpy
+Version: 0.7.0
+Summary: youtube downloader python package
+Home-page: https://github.com/tare9n/utpy
+Author: Taregh Naderi
+Author-email: taregh.n@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# utpy
+
+simple python library for download youtube video or playlist.
+
+utpy = U (you) - T (Tube) - PY (python)
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install utpy.
+
+```bash
+pip install utpy
+```
+
+## Usage
+
+```python
+import utpy
+
+url = 'https://www.youtube.com/watch?v=bIGBYOcxMqM' # video or playlist url
+yt = utpy.Load(url)
+
+# return all information as dictionary
+yt.data
+
+# download video or videos of playlist
+yt.download()
+
+```
+
