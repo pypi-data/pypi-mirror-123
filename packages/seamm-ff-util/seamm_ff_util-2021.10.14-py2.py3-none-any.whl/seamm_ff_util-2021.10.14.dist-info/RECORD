@@ -1,0 +1,10 @@
+seamm_ff_util/__init__.py,sha256=4ClxtXZqqkMlbIAvWaOXXi5eV1vNIhwvbLqexuaU1DM,468
+seamm_ff_util/_version.py,sha256=6sIprQEUZ4fRiKi2KTqOmV3bLgltnyholeuo5y9RHBU,502
+seamm_ff_util/ff_assigner.py,sha256=XnrViqe0XCy9bHLB9almDSOq0OvuVg0JwMnfZcas2qg,4266
+seamm_ff_util/forcefield.py,sha256=khIdxjExfbES-k3Std5Q0F6OtuRo9ahf1xShiyPafzc,115888
+seamm_ff_util-2021.10.14.dist-info/AUTHORS.rst,sha256=dnvz-P2Nt2YAzxYglfGf6O_1OQn5-hwLXmAd5lpo-iY,151
+seamm_ff_util-2021.10.14.dist-info/LICENSE,sha256=QXQ5GPzXg-8OZ_sumdjjTQN04XC48bpOBqoyRd3k8Zo,1509
+seamm_ff_util-2021.10.14.dist-info/METADATA,sha256=BCImYnBs_cNchUHaTtODxDai8ir746Q0WKh5mW5lc7o,2788
+seamm_ff_util-2021.10.14.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+seamm_ff_util-2021.10.14.dist-info/top_level.txt,sha256=e21oYmGVQoNgABA7J-7U-62HxuuEOtkmT412C4OLjrg,14
+seamm_ff_util-2021.10.14.dist-info/RECORD,,
