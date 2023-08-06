@@ -1,0 +1,6 @@
+{
+	"dicom_input_tag": "radiology.etl.ct",
+	"job_tag": "image_label_nrrd",
+	"itkImageType": "nrrd",
+	"env": "data_staging"
+}
