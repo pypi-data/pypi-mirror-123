@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spinitron
+Version: 0.1.0
+Summary: Wrapper for Spinitron API
+Author: slogsdon
+Author-email: me@slogsdon.dev
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.21,<3.0)
+Requires-Dist: requests_cache (>=0.5.0,<0.6.0)

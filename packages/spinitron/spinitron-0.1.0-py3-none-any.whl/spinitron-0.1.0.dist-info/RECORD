@@ -1,0 +1,15 @@
+spinitron/client.py,sha256=-ca26f4IcaxG--64My9QthGrTjFz_kk3rUjNAW3AdH8,1144
+spinitron/config.py,sha256=1Rn4RWkmzcSCvbJyCxWF593W61OyS6Ht3wC0bK9fPkc,319
+spinitron/endpoint.py,sha256=hPilIY3vJGX-H91T-62WXeIvV7bUMw6h2QYz8ydn5cU,558
+spinitron/models/Base.py,sha256=8-Lyxm6baYKtu37xDN2bgs5dso-XY2c49p4OtJmc-rI,310
+spinitron/models/Factory.py,sha256=pq94D2yfTMYLjiVm6-ZVeRrZKirDD_BADqUJgMjt274,682
+spinitron/models/Listing.py,sha256=fAS4aDlKX-w5dGV7nB_3sn_TJSE89LEoaXUlY6OGxt4,1713
+spinitron/models/Persona.py,sha256=398ytJJxPyoWvS58l6gJUhQDBf6S1P5DVWUckDJLGtI,565
+spinitron/models/Playlist.py,sha256=ztk3mOVmFC0DnZZgdqbDA-C7_O8t6k9zyRJQw3Rr0j0,1313
+spinitron/models/Show.py,sha256=BXLE-RjqN43X6m8C29su6VVWE-kf0kXMYkTkqLCNUGM,936
+spinitron/models/Spin.py,sha256=IF3GxCQ5_WhWJVllF89FmMTkQhppbA3uMoPthRZ373o,1439
+spinitron/models/__init__.py,sha256=LLUJ82s1qde9jq9v6h17Et9RxQ0JQr2Pcq_KAVSa_40,170
+spinitron/session.py,sha256=J99Y0nUitnE9HFkRkGNC0BwhOwxJLUT6ub6E1yEgyUs,510
+spinitron-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spinitron-0.1.0.dist-info/METADATA,sha256=LQ3TiDtTA70JlBbE2ZwAgbH2XXZyv2YJslCjyMvyHvM,497
+spinitron-0.1.0.dist-info/RECORD,,
