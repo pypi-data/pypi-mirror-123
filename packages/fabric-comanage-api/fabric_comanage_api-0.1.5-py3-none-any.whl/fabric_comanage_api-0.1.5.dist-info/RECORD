@@ -1,0 +1,15 @@
+comanage_api/__init__.py,sha256=7m5ZTef1c3JOXFuXdMQni3T2swS6lA-eFVUUaVpm-5E,12312
+comanage_api/_coorgidentitylinks.py,sha256=iK-Q4ruVT6UKKqNidaaTZN5SKmJYedpjJwI0vTl-hLg,6775
+comanage_api/_copeople.py,sha256=Eojb4x6miryPIhLmEk6dWMpbhwLAapfMDln9FXRx7Rc,11972
+comanage_api/_copersonroles.py,sha256=GsnAEE3b-OHK-93-Qudcc1CDIo3_DCcX-kzEfeZgIWI,16975
+comanage_api/_cous.py,sha256=0WRtWwVPcFeXPQ9O7lvYFz4JgReMJ9Y3Vi9_NOpgMpc,11227
+comanage_api/_emailaddresses.py,sha256=-Oguelcpk5OR-OOKzCKvLZOXKMlgXLG7cD1IFsZ488w,7891
+comanage_api/_identifiers.py,sha256=i5KESkiDxRinswBbQc88uD3nqI64vcTbBK7eSMzvOaM,8289
+comanage_api/_names.py,sha256=7TqIBO2BQ_YW1Oyy5nRI1t1b4Jx0Qi_TCOnYNsggUmo,6982
+comanage_api/_orgidentities.py,sha256=XRtiebPgs3aggZReSX8TmzX54xkiiAmTypexGR02wXc,9054
+comanage_api/_sshkeys.py,sha256=MFpuWTG5C-jRtCwqeOtjPUgZIFteXLMHVRxkEa8tl5s,13928
+fabric_comanage_api-0.1.5.dist-info/LICENSE,sha256=Y5Zp7OGDpdWuhFflQFqS4YJmsgMu0yKMMeDfeBsXSXQ,1071
+fabric_comanage_api-0.1.5.dist-info/METADATA,sha256=q4wHKy3OTiN2gDXND_idkwx5hsi5pVadh7UXHdelWTA,20763
+fabric_comanage_api-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fabric_comanage_api-0.1.5.dist-info/top_level.txt,sha256=cRRFtRnFk7qOTyNHFqJ5msPKi97flugWWUneKO28n4c,13
+fabric_comanage_api-0.1.5.dist-info/RECORD,,
