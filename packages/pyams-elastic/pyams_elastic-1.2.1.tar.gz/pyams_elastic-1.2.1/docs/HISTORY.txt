@@ -1,0 +1,19 @@
+Changelog
+=========
+
+1.2.1
+-----
+ - remove some Elasticsearch (> 7.15) deprecation warnings using named arguments
+
+1.2.0
+-----
+ - use PyAMS_utils transaction manager
+
+1.1.0
+-----
+ - updated task add and edit forms title
+ - updated package include scan
+
+1.0.0
+-----
+ - initial release
