@@ -1,0 +1,17 @@
+pytest_anki/__init__.py,sha256=VKt8YjWHByRVjQTPuzjQNKmKzvCsmA9-kQyX80ly2ds,1885
+pytest_anki/_addons.py,sha256=XL6UkNnirJIt6abarYrx9FMKXlLqnpuMd8v0nTV5oKs,3325
+pytest_anki/_anki.py,sha256=-S8PKiBpCe29d7pkwuLJVa7-Vtx52sCQ7PH2S40-Zmw,6035
+pytest_anki/_errors.py,sha256=iLZ_0DoE9KHjd6kqAETdswsOdJWK3iiM4hLezF3d_EA,1442
+pytest_anki/_launch.py,sha256=BKq3uIG-2dnlsuJ7XB26obAQOh_rpvQkH1R5JErHuMw,12031
+pytest_anki/_patch.py,sha256=9lLW_Ubkz0dqk32mx2pdCobf-uONl_oG-e-TEzxYerg,6851
+pytest_anki/_qt.py,sha256=GystdU4XCbJFwR4zDOi5yyJZ7AeowrkO1aniejkTVMw,2819
+pytest_anki/_session.py,sha256=hRNAg_F_snvDec376eFBmmfC5H1s4-nW917VxxPXrUc,13198
+pytest_anki/_types.py,sha256=j8t84XNJu5FnS6qc8tlHr8egn-aqab-QiVuzM1pXpqs,1560
+pytest_anki/_util.py,sha256=gx5LZ5UNOUx2j7bnvxXvqI3jjxFDRUgjMqHepzH7k-g,2891
+pytest_anki/plugin.py,sha256=pNGtztCgtAVI8RbtC9XsUOtIDCyC3wY_8uCniRCCi38,4991
+pytest_anki/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_anki-1.0.0b3.dist-info/entry_points.txt,sha256=q2G_NDE9p5Wj4vzWvtuYdJ873dul8gfTAsx46mhL1v8,36
+pytest_anki-1.0.0b3.dist-info/LICENSE,sha256=WKSaFJV2PfSR32MT57XMp3bTStGMCmqOBHsTn1lFI84,35586
+pytest_anki-1.0.0b3.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pytest_anki-1.0.0b3.dist-info/METADATA,sha256=Qk3iUv5snPvHnFufaViV9vrm0OysmdDSfKA4tMYeeuU,8994
+pytest_anki-1.0.0b3.dist-info/RECORD,,
