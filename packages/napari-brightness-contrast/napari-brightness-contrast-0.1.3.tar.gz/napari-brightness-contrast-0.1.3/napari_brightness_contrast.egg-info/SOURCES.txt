@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_brightness_contrast/__init__.py
+napari_brightness_contrast/_dock_widget.py
+napari_brightness_contrast.egg-info/PKG-INFO
+napari_brightness_contrast.egg-info/SOURCES.txt
+napari_brightness_contrast.egg-info/dependency_links.txt
+napari_brightness_contrast.egg-info/entry_points.txt
+napari_brightness_contrast.egg-info/requires.txt
+napari_brightness_contrast.egg-info/top_level.txt
+napari_brightness_contrast/_tests/__init__.py
+napari_brightness_contrast/_tests/test_dock_widget.py

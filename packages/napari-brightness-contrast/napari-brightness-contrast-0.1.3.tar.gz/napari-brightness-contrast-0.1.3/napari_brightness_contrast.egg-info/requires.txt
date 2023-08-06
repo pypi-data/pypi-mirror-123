@@ -1,0 +1,6 @@
+napari-plugin-engine>=0.1.4
+napari
+numpy
+pyqtgraph
+superqt
+napari-tools-menu
