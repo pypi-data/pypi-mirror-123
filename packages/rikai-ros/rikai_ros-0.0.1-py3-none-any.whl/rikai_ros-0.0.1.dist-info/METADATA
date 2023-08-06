@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rikai-ros
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/eto-ai/rikai
+Author: Rikai authors
+Author-email: rikai-dev@eto.ai
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: rikai
+Requires-Dist: numpy
+Requires-Dist: rosbag
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: actionlib-msgs ; extra == 'dev'
+Requires-Dist: diagnostic-msgs ; extra == 'dev'
+Requires-Dist: geometry-msgs ; extra == 'dev'
+Requires-Dist: rosgraph-msgs ; extra == 'dev'
+Requires-Dist: sensor-msgs ; extra == 'dev'
+Requires-Dist: tf2-msgs ; extra == 'dev'
+Requires-Dist: trajectory-msgs ; extra == 'dev'
+
+UNKNOWN
+
+
