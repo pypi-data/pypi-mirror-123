@@ -1,0 +1,3 @@
+[console_scripts]
+prosafe_exporter = prosafe_exporter.prosafe_exporter_base:main
+
