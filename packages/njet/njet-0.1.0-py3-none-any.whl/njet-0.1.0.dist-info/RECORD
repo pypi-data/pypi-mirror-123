@@ -1,0 +1,15 @@
+njet/.ipynb_checkpoints/__init__-checkpoint.py,sha256=K68o2sxRmd9JaSsV4OTywqYO0W3TydKvQ9HnO_IBTb4,819
+njet/.ipynb_checkpoints/ad-checkpoint (conflicted copy 2021-10-11 160106).py,sha256=eg061xpugSPDqj6IqhcAQ-6d8bYRJu3s9plwIiSdcwg,3793
+njet/.ipynb_checkpoints/ad-checkpoint.py,sha256=H6ROWqTl_TsLfpy5E7lZMLYtiTZp236853Lg1qFdWw0,5760
+njet/.ipynb_checkpoints/functions-checkpoint.py,sha256=h74Zj_O50llyjDhs8nYPn_HdhpOteoBiSBnUOw6Z9tA,2146
+njet/.ipynb_checkpoints/jet-checkpoint.py,sha256=-W4ElHw-u5RrOTBbYvFW1ZNMHJO8d1srS1uB5zwdfEs,9072
+njet/.ipynb_checkpoints/poly-checkpoint.py,sha256=aIzY_1Heh9w2dBk4tfcFCNY4e_uHVo_TnQScUSEd9to,3341
+njet/__init__.py,sha256=z-b9e2R-orusavHqzWG37UwMNCEYq_CbfG3yhJLNIbI,891
+njet/ad.py,sha256=JnIwmRMxBBx60MnaysamrQX8-EtA5hsGCWA7zT-00Vk,5833
+njet/functions.py,sha256=fWLPmwxD_pqn5hrY9pbfdL0kXhtaI5D2vqdZBll3Uzg,2219
+njet/jet.py,sha256=-PqRsTWurjiFP9IQsyAExDB4Mfxx5KIxeG6UU_EhBBA,9154
+njet/poly.py,sha256=l_8VjwKMaaSmBPcwbDjLrBPWrDm2cEQTFPL_FXjYJzk,4144
+njet-0.1.0.dist-info/LICENSE.txt,sha256=KTAtxylgD-Os3bfU05zEAGoZz6Eq119M_S457uyJVeE,720
+njet-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+njet-0.1.0.dist-info/METADATA,sha256=URphHfXoM7eMQxhPw1x4kyYy8LB6gRACake359m3REc,618
+njet-0.1.0.dist-info/RECORD,,
