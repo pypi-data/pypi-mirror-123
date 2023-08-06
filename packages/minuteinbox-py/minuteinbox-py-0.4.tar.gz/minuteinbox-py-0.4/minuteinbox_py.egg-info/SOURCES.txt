@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+minuteinbox.py
+setup.py
+minuteinbox_py.egg-info/PKG-INFO
+minuteinbox_py.egg-info/SOURCES.txt
+minuteinbox_py.egg-info/dependency_links.txt
+minuteinbox_py.egg-info/requires.txt
+minuteinbox_py.egg-info/top_level.txt
