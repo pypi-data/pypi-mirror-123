@@ -1,0 +1,27 @@
+{% load i18n wagtailadmin_tags %}
+<div id="point-from-geo-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="button close button--icon text-replace" data-dismiss="modal">
+        {% icon "cross" %}{% trans "Close" %}
+      </button>
+      <div class="modal-body">
+        {% trans "Coordinates of the point" as title %}
+        {% include "wagtailadmin/shared/header.html" with icon="map-pin" %}
+        <div class="nice-padding">
+          <p>{% trans "Enter the geo URI of your point to set its latitude and longitude accordingly." %}</p>
+          <form>
+            <input type="hidden" name="prefix" />
+            <div class="geo-form-group">
+              <input name="geo-uri" placeholder="geo:1.0,2.0" />
+              <button type="submit" class="button">{% trans "Set coordinates" %}</button>
+            </div>
+            <p class="error-message" hidden>
+              {% trans "Unable to parse the geo URI. Verify that it is in the form of <code>geo:1.0,2.0</code>." %}
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

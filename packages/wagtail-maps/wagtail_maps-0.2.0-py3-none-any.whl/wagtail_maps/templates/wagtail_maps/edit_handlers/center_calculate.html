@@ -1,0 +1,8 @@
+{% load i18n %}
+<button type="button" class="button button-secondary w-100" id="map-center-calculate">
+  {% trans "Calculate from the points" %}
+</button>
+
+<p class="error-message" hidden>
+  {% trans "Unable to calculate the geometric center of the points. Verify that you have at least one point with valid latitude and longitude." %}
+</p>
