@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: instatool
+Version: 0.0.2
+Summary: all instagram functions you want in one package
+Home-page: UNKNOWN
+Author: plugin
+Author-email: yazanemails@gmail.com
+License: UNKNOWN
+Keywords: instagram
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+This is a full instagram Package that can get name or post or user and much more! enjoy.
+
