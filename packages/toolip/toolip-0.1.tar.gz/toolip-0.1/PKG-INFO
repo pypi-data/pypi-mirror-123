@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: toolip
+Version: 0.1
+Summary: A collection of python utils for webapps
+Home-page: https://github.com/SatelCreative/toolip
+Author: Anthony Hillairet
+Author-email: ant@satel.ca
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# :tulip: toolip :tulip:
+
+A collection of python utils for webapps
+
