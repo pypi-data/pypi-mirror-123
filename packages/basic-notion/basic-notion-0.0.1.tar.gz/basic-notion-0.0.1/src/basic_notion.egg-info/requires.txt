@@ -1,0 +1,8 @@
+attrs
+
+[build]
+build
+twine
+
+[develop]
+mypy

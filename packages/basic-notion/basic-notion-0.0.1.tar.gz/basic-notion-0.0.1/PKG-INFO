@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: basic-notion
+Version: 0.0.1
+Summary: Client-agnostic model wrapper for Notion API
+Home-page: https://github.com/altvod/basic-notion
+Author: Grigory Statsenko
+Author-email: grisha100@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/altvod/basic-notion/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: develop
+Provides-Extra: build
+License-File: LICENSE
+
+# basic-notion
+Client-agnostic model wrapper for Notion API
+
+
