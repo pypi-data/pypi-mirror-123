@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: purplship.eshipper
+Version: 2021.8
+Summary: eShipper purplship extension
+Home-page: https://github.com/purplship/purplship-bridges/tree/main/eshipper
+License: LGPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: purplship (>=2021.7)
+Requires-Dist: purplship-server.core
+
+# purplship.eshipper
+
+This package is a eShipper extension of the [purplship](https://pypi.org/project/purplship) multi carrier shipping SDK.
+
+## Requirements
+
+`Python 3.7+`
+
+## Installation
+
+```bash
+pip install purplship.eshipper
+```
+
+## Usage
+
+```python
+import purplship
+from purplship.mappers.eshipper.settings import Settings
+
+
+# Initialize a carrier gateway
+eshipper = purplship.gateway["eshipper"].create(
+    Settings(
+        ...
+    )
+)
+```
+
+Check the [purplship Mutli-carrier SDK docs](https://sdk.purplship.com) for Shipping API requests
+
+
