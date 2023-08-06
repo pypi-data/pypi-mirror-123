@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: COERbuoy
+Version: 0.1.7
+Summary: A realistic Wave Enegery Converter model to evaluate controllers
+Home-page: http://coerbuoy.maynoothuniversity.ie
+Author: Simon H. Thomas
+Author-email: simon.thomas.2021@mumail.ie
+License: LICENSE.txt
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+
+UNKNOWN
+
