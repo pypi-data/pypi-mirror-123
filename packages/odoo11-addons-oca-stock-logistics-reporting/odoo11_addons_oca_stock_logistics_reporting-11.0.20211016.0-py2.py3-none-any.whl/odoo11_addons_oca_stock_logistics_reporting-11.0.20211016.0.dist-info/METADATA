@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odoo11-addons-oca-stock-logistics-reporting
+Version: 11.0.20211016.0
+Summary: Meta package for oca-stock-logistics-reporting Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 11.0
+Requires-Dist: odoo11-addon-stock-account-quantity-history-location
+Requires-Dist: odoo11-addon-stock-account-valuation-report
+Requires-Dist: odoo11-addon-stock-inventory-valuation-report
+Requires-Dist: odoo11-addon-stock-move-value-report
+Requires-Dist: odoo11-addon-stock-picking-comment-template
+Requires-Dist: odoo11-addon-stock-picking-report-custom-description
+Requires-Dist: odoo11-addon-stock-picking-report-valued
+Requires-Dist: odoo11-addon-stock-quantity-history-location
+Requires-Dist: odoo11-addon-stock-report-quantity-by-location
+
+UNKNOWN
+
