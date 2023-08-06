@@ -1,0 +1,8 @@
+dask[dataframe,distributed]
+pyarrow
+deltalake
+
+[dev]
+pytest
+requests
+pytest-cov>=2.10.1
