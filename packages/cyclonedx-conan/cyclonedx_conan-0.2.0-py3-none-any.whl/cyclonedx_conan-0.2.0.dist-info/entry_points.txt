@@ -1,0 +1,3 @@
+[console_scripts]
+cyclonedx-conan=src.command:main
+
