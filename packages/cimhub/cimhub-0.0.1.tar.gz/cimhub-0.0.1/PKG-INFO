@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: cimhub
+Version: 0.0.1
+Summary: cimhub: Convert and validate electric power distribution system models.
+Home-page: https://github.com/GRIDAPPSD/CIMHub
+Author: Tom McDermott
+Author-email: Thomas.McDermott@PNNL.gov
+License: BSD
+Project-URL: Bug Tracker, https://github.com/GRIDAPPSD/CIMHub/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
