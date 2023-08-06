@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nowcasting-dataloader
+Version: 0.0.2
+Summary: Nowcasting Dataloader
+Home-page: UNKNOWN
+Author: Jack Kelly, Peter Dudfield, Jacob Bieker
+Author-email: info@openclimatefix.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nowcasting-dataset
+Requires-Dist: torch
+Requires-Dist: pytorch-lightning
+
+# nowcasting-dataloader
+PyTorch Dataloader for working with multi-modal data for nowcasting applications.  In particular, this code loads the pre-prepared batches saved to disk by [`nowcasting_dataset`](https://github.com/openclimatefix/nowcasting_dataset).  This code also computes some optional, additional input features.
+
+
