@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+gecoauth/gecoauth.egg-info/PKG-INFO
+gecoauth/gecoauth.egg-info/SOURCES.txt
+gecoauth/gecoauth.egg-info/dependency_links.txt
+gecoauth/gecoauth.egg-info/requires.txt
+gecoauth/gecoauth.egg-info/top_level.txt
+gecoauth/migrations/0001_initial.py
+gecoauth/migrations/0002_alter_gecouser_project_dir.py
+gecoauth/migrations/__init__.py

@@ -1,0 +1,4 @@
+Django>=3.2
+django-allauth
+django-rest-auth
+django-rest-framework>=3.12
