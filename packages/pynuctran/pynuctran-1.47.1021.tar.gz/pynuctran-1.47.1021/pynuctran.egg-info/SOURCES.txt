@@ -1,0 +1,9 @@
+README.md
+setup.py
+pynuctran/__init__.py
+pynuctran/solver.py
+pynuctran.egg-info/PKG-INFO
+pynuctran.egg-info/SOURCES.txt
+pynuctran.egg-info/dependency_links.txt
+pynuctran.egg-info/requires.txt
+pynuctran.egg-info/top_level.txt
