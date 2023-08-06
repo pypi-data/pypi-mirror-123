@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: quantperf
+Version: 1.0.1
+Summary: QuantPerf
+License: MIT
+Keywords: quant
+Author: G_will
+Author-email: g_will@ieqi.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.2,<2.0)
+Description-Content-Type: text/markdown
+
+# QuantPerf
+
+## QuickStart
+
+```
+import yfinance as yf
+from quantperf import Metrics
+
+aapl = yf.Ticker("AAPL")
+data = aapl.history()
+prices = data['Close']
+metrics = Metrics(prices)
+
+print(metrics.stats)
+```
