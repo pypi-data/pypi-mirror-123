@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+license.txt
+setup.py
+src/matchcaselib.py
+src/matchcaselib.egg-info/PKG-INFO
+src/matchcaselib.egg-info/SOURCES.txt
+src/matchcaselib.egg-info/dependency_links.txt
+src/matchcaselib.egg-info/top_level.txt
