@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: starsearch
+Version: 0.4.1
+Summary: Package to dig into the ESO archives
+Home-page: https://github.com/jdavidrcamacho/starsearch
+Author: João Camacho
+Author-email: joao.camacho@astro.up.pt
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: astroquery
+Requires-Dist: astropy
+
+UNKNOWN
+
+
