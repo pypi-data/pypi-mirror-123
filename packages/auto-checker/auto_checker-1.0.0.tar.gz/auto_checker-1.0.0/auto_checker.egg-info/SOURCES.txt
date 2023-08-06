@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+auto_checker/__init__.py
+auto_checker/code_solution_checker.py
+auto_checker.egg-info/PKG-INFO
+auto_checker.egg-info/SOURCES.txt
+auto_checker.egg-info/dependency_links.txt
+auto_checker.egg-info/top_level.txt
