@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: git-interface
+Version: 0.3.0
+Summary: Use the git cli from Python
+Home-page: https://github.com/enchant97/python-git-interface
+Author: Leo Spratt
+Author-email: "contact@enchantedcode.co.uk"
+License: MIT
+Keywords: git scm
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Git Interface
+Use the git cli from Python.
+
+> This project currently is not heavily tested and not fully feature complete
+
+## Requirements
+- Git (version 2.30)
+
+## Example Of Use
+
+```python
+from git_interface.branch import get_branches
+
+head, other_branches = get_branches("my_git_repo.git")
+
+print("HEAD = ", head)
+print("OTHER", other_branches)
+```
+
+
