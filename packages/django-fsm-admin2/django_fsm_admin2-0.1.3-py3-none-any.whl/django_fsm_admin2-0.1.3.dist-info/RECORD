@@ -1,0 +1,10 @@
+fsm_admin2/__init__.py,sha256=lgXFSH5dfp87s7JAHBOcdFDGB_EonIn8izlq035rauI,55
+fsm_admin2/admin.py,sha256=_NBwpItcdFcSxEIhg3wSJzfQbcoip_wYUZ_E8CPCHVE,5560
+fsm_admin2/apps.py,sha256=eWKT1Z_aU0_cgPJ6GranwaLB1tsdAfPyADlVB24hvNg,92
+fsm_admin2/templates/fsm_admin2/fsm_transition_buttons.html,sha256=GHUgq-E3A1WP62i4vXnnuJD6eFx_b5GZ3bnl6rArSqo,149
+fsm_admin2/templates/fsm_admin2/fsm_transition_form.html,sha256=RpGxOfqX4p_Naod_QCr7haym1bOmH8lpVaavIUupzsg,355
+django_fsm_admin2-0.1.3.dist-info/LICENSE,sha256=kZbflVRLEWb96bvGhNGPbNT3r-OgnLDLeHsJKZTGENc,1077
+django_fsm_admin2-0.1.3.dist-info/METADATA,sha256=muUybpeZwOHRQNXgDBx5NYEjcaSOBVVg5Yylu22cVoc,2734
+django_fsm_admin2-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_fsm_admin2-0.1.3.dist-info/top_level.txt,sha256=WsD4NXqouloT_qXregmf_I9b7KKLp0UOj3C7K5iLhtw,11
+django_fsm_admin2-0.1.3.dist-info/RECORD,,
