@@ -1,0 +1,13 @@
+numutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numutils/prime.py,sha256=ynzyYloAmTX0mErYdX_NQqkb8CZkTSFht0ND_OV52FY,266
+numutils-lg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numutils-lg/prime.py,sha256=ynzyYloAmTX0mErYdX_NQqkb8CZkTSFht0ND_OV52FY,266
+numutils_bl/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+numutils_bl/prime.py,sha256=ynzyYloAmTX0mErYdX_NQqkb8CZkTSFht0ND_OV52FY,266
+numutils_lg/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+numutils_lg/prime.py,sha256=ynzyYloAmTX0mErYdX_NQqkb8CZkTSFht0ND_OV52FY,266
+numutils_bl-1.0.dist-info/LICENSE,sha256=uPNQHApElyFQUW-KJn9ncKhsJDKk34EKSteildHWhqs,199
+numutils_bl-1.0.dist-info/METADATA,sha256=6kKlghUiEbXQoASTaHDou-GQGgDSD_8AM9oyS0Ul_wY,963
+numutils_bl-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+numutils_bl-1.0.dist-info/top_level.txt,sha256=XpL7rI-6FBsJPVLdfnGvdfVcR1QiTaI9GhZvWKlMPUU,12
+numutils_bl-1.0.dist-info/RECORD,,
