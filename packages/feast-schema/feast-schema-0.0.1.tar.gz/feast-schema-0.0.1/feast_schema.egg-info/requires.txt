@@ -1,0 +1,9 @@
+feast
+json2html
+ipython
+Click
+
+[dev]
+pytest
+requests
+pytest-cov>=2.10.1

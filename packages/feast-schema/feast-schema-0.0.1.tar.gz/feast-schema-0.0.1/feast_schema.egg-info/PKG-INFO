@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: feast-schema
+Version: 0.0.1
+Summary: Feast schema inspect library
+Home-page: https://github.com/qooba/feast-schema
+Author: Kuba Sołtys
+Author-email: dev@qooba.net
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# feast-schema
+

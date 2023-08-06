@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+feast_schema/__init__.py
+feast_schema/cli.py
+feast_schema/core.py
+feast_schema.egg-info/PKG-INFO
+feast_schema.egg-info/SOURCES.txt
+feast_schema.egg-info/dependency_links.txt
+feast_schema.egg-info/entry_points.txt
+feast_schema.egg-info/requires.txt
+feast_schema.egg-info/top_level.txt
