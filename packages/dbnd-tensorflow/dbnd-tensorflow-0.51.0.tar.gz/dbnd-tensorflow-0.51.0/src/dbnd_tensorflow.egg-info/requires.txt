@@ -1,0 +1,4 @@
+dbnd==0.51.0
+tensorflow<2.7,>=2.5.0
+
+[tests]
