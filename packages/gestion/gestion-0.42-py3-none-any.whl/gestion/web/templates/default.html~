@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+
+<div class="divTable">	
+	{% if data.is_list %}
+		{%  if data.has_keys %}
+		<div class='divTableHeading'>
+			{% for key in data.keys %}
+				<div class="divTableCell">{{key}}</div>
+			{% endfor %}
+		</div>
+		{% endif %}		
+		
+		<div class="divTableBody">	
+		{% for item in data.content %}
+			<div class="divTableRow">
+			{% for key in data.keys %}
+				<div class="divTableCell">{{item[key]}}</div>
+			{% endfor %}
+			</div>
+		{% endfor %}
+		</div>
+
+	{% elif data.is_dict %}
+	<div class="divTableBody">	
+		{% for key in data.content.keys()) %}
+			<div class="divTableRow">
+				<div class="divTableCell">{{key}}</div>
+				<div class="divTableCell">{{data.content[key]}}</div>
+			</div>
+		{% endfor %}
+	</div>
+
+	{% endif %}
+	</div>
+	
+	
+{% endblock %}
