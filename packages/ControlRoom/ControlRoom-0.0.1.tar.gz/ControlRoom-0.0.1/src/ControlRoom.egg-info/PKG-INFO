@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ControlRoom
+Version: 0.0.1
+Summary: Interface to ControlRoom/GENESIS, calculating n/g emission spectra
+Home-page: https://gitlab.mpcdf.mpg.de/git/ControlRoom
+Author: Giovanni Tardini
+Author-email: giovanni.tardini@ipp.mpg.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+py-interface arount the Control-Room/GENESIS software developed at IFL-CNR Milan, Italy (code by Luigi Ballabio, maintained and developed by Massimo Nocente).
+
+py-interface developed at Max-Planck-Institut fuer Plasmaphysik, Garching, Germany (Giovanni Tardini)
+
+Requirements:
+- python with scipy, numpy, matplotlib (recommended: anaconda)
+- pip
+
+Recommended:
+- mpi4py
+
+Typical usage:
+
+pip install ControlRoom
+
+export CONTROLROOM_DATADIR=path_to_controlroom_home
+export CONTROLROOM_LIBDIR=dir_containing_ControlRoom.so
+
+/afs/ipp/home/g/git/python/ControlRoom/fi2nspec.py
+
+
