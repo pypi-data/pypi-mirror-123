@@ -1,0 +1,13 @@
+pykoop/__init__.py,sha256=rSXyRgqVkZJtjOzXA3HaV__tsZoXIjlK88D9blqFLfw,722
+pykoop/dynamic_models.py,sha256=EorTMYT4Zr4vxnUMp07DPPyTk4U1XQXLcSIDlJwMvgU,8585
+pykoop/koopman_pipeline.py,sha256=3T44Y3aG5lp-kMOroigdZ_whaplQrzOb5_M81aLmU2w,66344
+pykoop/lifting_functions.py,sha256=-WWt-VWi08DFoC2M50MHwpTbn2gM9RMbh56YPk8iM9o,17721
+pykoop/lmi_regressors.py,sha256=O0yt9-O-ENFYzF9Y5aazTZh63wIF5GVtxC2dOT1cF1U,103157
+pykoop/regressors.py,sha256=N8hVaRkWLglTtInwxlOsX9iUoOVltDpN13Yv5rXnB3U,12808
+pykoop/tsvd.py,sha256=1P5AciGEBkOFucmPuL63YXTTbNniZLlxXCGBX0nMJNU,5752
+pykoop/util.py,sha256=3fCo3ONdMKA_xNdpN8VtU9GPwW8ePAk-YShx4R8Hrn8,10607
+pykoop-1.0.0.dist-info/LICENSE,sha256=hGKekCrqT_iDTsw3sp1X8BCcMSsgk0gJPmVf7laL5FQ,1076
+pykoop-1.0.0.dist-info/METADATA,sha256=FLHDNHkDY95MXy7Z889eRgeEZI2slXJ3S8VcrthZvbQ,6060
+pykoop-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pykoop-1.0.0.dist-info/top_level.txt,sha256=MGa4vLWd1joseUmanD0bUUYZTwCppfEKWCFLuiatHlc,7
+pykoop-1.0.0.dist-info/RECORD,,
