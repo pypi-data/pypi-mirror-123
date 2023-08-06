@@ -1,0 +1,4 @@
+extras
+pbr>=1.8.0
+python-daemon>=2.0.4
+six>=1.5.2
