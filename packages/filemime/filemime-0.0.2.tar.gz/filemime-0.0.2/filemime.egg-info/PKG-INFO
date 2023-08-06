@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: filemime
+Version: 0.0.2
+Summary: this package use finds all types of file extension or mime types.
+Home-page: UNKNOWN
+Author: T.THAVASI
+Author-email: ganeshanthavasigti1032000@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/THAVASIGTI/filemime.git
+Project-URL: Tracker, https://github.com/THAVASIGTI/filemime/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# filemime 
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/THAVASIGTI/filemime)
+[![PyPI](https://img.shields.io/pypi/v/filemime)](https://pypi.org/project/filemime)
+[![Downloads](https://pepy.tech/badge/filemime)](https://pepy.tech/project/filemime)
+
+Python package to infer file type and MIME
+
+## INSTALL PACKAGE
+
+``` console
+pip install filemime
+```
+
+## Features
+
+- Provides file extension and MIME type
+- File discovery by extension or MIME type
+- Fast, even processing large files
+- Cross-platform file recognition
+
+## IMPORT PACKAGE
+
+All type of `file extension` and `mimetype` support
+``` python
+Python 3.7.3 (default, Oct  7 2019, 12:56:13) 
+[GCC 8.3.0] on windows
+Type "help", "copyright", "credits" or "license" for more information.
+from filemime import filemime
+obj = filemime()
+```
+
+## LOAD FILE
+
+``` python
+>>> obj.load_file("D:\\photos\\IMG_4917.JPG")
+
+'JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=12, manufacturer=Canon, model=Canon EOS 1500D, orientation=lower-left, xresolution=196, yresolution=204, resolutionunit=2, datetime=2021:10:16 18:03:06], baseline, precision 8, 6000x4000, frames 3'
+```
+
+## MIME TYPE
+
+``` python
+>>> obj.load_file("D:\\photos\\IMG_4917.JPG",mimeType=True)
+
+'image/jpeg'
+>>> 
+```
+
+
