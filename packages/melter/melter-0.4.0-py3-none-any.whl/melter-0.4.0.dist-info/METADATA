@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: melter
+Version: 0.4.0
+Summary: Identifies unsolved cases that should be analyzed again
+Author: Henning Onsbring
+Author-email: henning.onsbring@scilifelab.se
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# melter
+
+Identifies unsolved cases that should be analysed again.
+
+## Installation
+
+```bash
+$ pip install melter
+```
+
+## Usage
+
+- TODO
+
+## License
+
+`melter` was created by Henning Onsbring. It is licensed under the terms of the MIT license.
+
