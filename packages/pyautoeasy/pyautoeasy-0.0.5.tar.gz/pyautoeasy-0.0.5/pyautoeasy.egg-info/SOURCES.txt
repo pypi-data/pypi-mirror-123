@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+examples/__init__.py
+examples/generated_program.py
+pyautoeasy/__init__.py
+pyautoeasy/__main__.py
+pyautoeasy/cli.py
+pyautoeasy/locate_points.py
+pyautoeasy/sample.py
+pyautoeasy/screen_point.py
+pyautoeasy.egg-info/PKG-INFO
+pyautoeasy.egg-info/SOURCES.txt
+pyautoeasy.egg-info/dependency_links.txt
+pyautoeasy.egg-info/entry_points.txt
+pyautoeasy.egg-info/requires.txt
+pyautoeasy.egg-info/top_level.txt
