@@ -1,0 +1,11 @@
+.venv/
+.tox/
+.eggs/
+build/
+dist/
+basxconnect.egg-info/
+**/*.mo
+__pycache__
+static/
+media/
+.hypothesis/
