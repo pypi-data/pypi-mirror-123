@@ -1,0 +1,9 @@
+mongonow/__init__.py,sha256=w-LEjXW_azCNCfWB_pQfUXgdfnfwzwViEF2nsNye4ls,66
+mongonow/client.py,sha256=oMqURcErk79EZoKeXGwabyzST_5HQQtpYmEm65f_190,455
+mongonow/collection.py,sha256=L3LWEIEz0TAfYmpUMnSUQT6rQe-LMJFh0foSWB1vy-I,1705
+mongonow/database.py,sha256=qIztgSffeewPiRMbQc3JIv4tD5rcQ412h2FXyuXVz9I,348
+mongonow-0.0.3.dist-info/LICENSE,sha256=_8JVv4P5hw41RX0oevr3MGjWzbdRVFxWHTrhceXBJto,1095
+mongonow-0.0.3.dist-info/METADATA,sha256=Y5ojvaqNqI4W87HdO7yVIWdOZbAh77SJMZX5wqrWxeE,774
+mongonow-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mongonow-0.0.3.dist-info/top_level.txt,sha256=oOTFjppqCALnIaQKAEihlYsfSiLZYFTgi2GgZN7B2Vs,9
+mongonow-0.0.3.dist-info/RECORD,,
