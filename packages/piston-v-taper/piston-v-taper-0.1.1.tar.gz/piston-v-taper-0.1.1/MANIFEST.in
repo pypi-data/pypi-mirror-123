@@ -1,0 +1,2 @@
+include src/piston_v_taper/data/*.csv
+include src/piston_v_taper/data/*.pth
