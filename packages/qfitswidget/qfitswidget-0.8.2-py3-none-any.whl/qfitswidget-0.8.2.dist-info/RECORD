@@ -1,0 +1,11 @@
+qfitswidget/__init__.py,sha256=5cjL1HT6ezzM_aMtQRW5qigkvKOnvuFwwxkJvNcDOck,37
+qfitswidget/fitswidget.py,sha256=5DX97V0H8U7EThLhm-X2llfO2iYsBAsZ4sxsEm4VEk4,10859
+qfitswidget/norm.py,sha256=bMwMW1v4sjE13fmfr7KY-x-NkJwN7hHnczuoJQQ8iwU,1549
+qfitswidget/qfitswidget.py,sha256=Zy8r8x5Y-5c5YhmIyLdEftS586zMukv7R-lUmK883q4,16223
+qfitswidget/qimageview.py,sha256=bhDuENJi2fmfOxVUAtsSGLreuyhShkosWTpgipIA-Sc,5735
+qfitswidget/resources.py,sha256=qYma6GEqw2JbU9yazxiMgX34bFS4YqclmDMqRzYBt-Y,11507
+qfitswidget-0.8.2.dist-info/LICENSE,sha256=BsqBW9ogTEvpdFEEl6AZoVJpvcU0o2J21FQRkzpuBjI,1074
+qfitswidget-0.8.2.dist-info/METADATA,sha256=UdEdkLsHUVw9JoH--Q5YdjLhBE3eEQiQOLaqUWnZWQ4,373
+qfitswidget-0.8.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+qfitswidget-0.8.2.dist-info/top_level.txt,sha256=oJzNfUj33SmPEOujRYJlM94LTztqWxpcN7FKRSOQLsg,12
+qfitswidget-0.8.2.dist-info/RECORD,,
