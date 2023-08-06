@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/funnel_rules_engine.egg-info/PKG-INFO
+src/funnel_rules_engine.egg-info/SOURCES.txt
+src/funnel_rules_engine.egg-info/dependency_links.txt
+src/funnel_rules_engine.egg-info/top_level.txt
+src/rules_engine/__init__.py
+src/rules_engine/rules_engine.py

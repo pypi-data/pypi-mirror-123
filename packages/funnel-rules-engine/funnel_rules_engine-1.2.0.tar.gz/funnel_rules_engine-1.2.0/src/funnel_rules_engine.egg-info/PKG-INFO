@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: funnel-rules-engine
+Version: 1.2.0
+Summary: A simple, generic rules engine.
+Home-page: https://github.com/funnel-io/funnel-rules-engine
+Author: Funnel Dev Team
+Author-email: connector@funnel.io
+License: MIT
+Project-URL: Bug Reports, https://github.com/funnel-io/funnel-rules-engine/issues
+Project-URL: Source, https://github.com/funnel-io/funnel-rules-engine
+Description: # Rules Engine
+        
+        ![PyPI](https://img.shields.io/pypi/v/funnel-rules-engine)
+        ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/funnel-rules-engine)
+        ![PyPI - Status](https://img.shields.io/pypi/status/funnel-rules-engine)
+        ![PyPI - License](https://img.shields.io/pypi/l/funnel-rules-engine)
+        
+        A simple, generic rules engine. Inspired by [Martin Fowler's 2009 blog post](https://www.martinfowler.com/bliki/RulesEngine.html).
+        
+        ## Installation
+        
+        Install the package `funnel_rules_engine` version `1.2+` from PyPi.
+        The recommended `requirements.txt` line is `funnel_rules_engine~=1.2`.
+        
+        ## Current Functionality
+        
+        ### `Rule`
+        
+        A combination of a condition and an action, both of which are callables such as functions or lambdas. The callables must have an arity of one. If the conditional returns true given a single object, the action will be called with the same object as its argument.
+        
+        #### `Otherwise`
+        
+        Special case of Rule where the action always fires. Suitable as a catch-all last rule.
+        
+        #### `NoAction`
+        
+        Special case of Rule where `None` is returned if the condition is met. Useful for halting the execution of `.run()`
+        
+        ### `RulesEngine`
+        
+        A generic rules engine that accepts a list of `Rule`s and some input to apply the rules to. The rules engine can either apply the first rule that matches (`run`) or all the rules that matches (`run_all`). In addition, rules can be evaluated and executed in parallel (`run_all_in_parallel`). The latter two cases can optionally be lazily executed by returning a generator rather than a list as the result.
+        
+        For more on rules engines, see [Martin Fowler's blog post](https://martinfowler.com/bliki/RulesEngine.html).
+        
+        #### `run`
+        
+        Only apply the first rule that matches and return its result. This is comparable to the behaviour of a [structured switch statement](https://en.wikipedia.org/wiki/Switch_statement#Semantics) or an arbitrary [conditional statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
+        
+        #### `run_all`
+        
+        Apply all rules that match. The result is returned as a list, or as a generator if the optional parameter `lazy` is passed as `True`.
+        
+        #### `run_all_in_parallel`
+        
+        Evaluate and apply all rules in parallel. The result is returned as a list, or as a generator if the optional parameter `lazy` is passed as `True`.
+        
+Keywords: rules engine
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
