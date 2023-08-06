@@ -1,0 +1,10 @@
+cloud_enforcer/__init__.py,sha256=tx7yG8IJhdlN0gV0KbPw1sNO83XFMBoaMR0nu8nRRCU,138
+cloud_enforcer/cli.py,sha256=EQycRE5C2Sru-bk_46mPRca00kQXhjczx_3KHPaxMaE,2742
+cloud_enforcer/cloud_enforcer.py,sha256=pSrQdjIQVIlY43g6m-tc7JA3bIAIcwM-qLI4wuRw-A8,3753
+cloud_enforcer-0.2.1.dist-info/AUTHORS.rst,sha256=Qd7C8c1LzPyXNfHBA_xtvPOKO2myIb8FBzzIMDtorm8,162
+cloud_enforcer-0.2.1.dist-info/LICENSE,sha256=yrg2a3k6FWSzY71x_9GErayZMrjEnc2bYbRWKhaTO9Q,1075
+cloud_enforcer-0.2.1.dist-info/METADATA,sha256=4-dv1zKAwi94GC-Rl6nqs_f6uSoHNZTfKLRxs5LH1w4,2198
+cloud_enforcer-0.2.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+cloud_enforcer-0.2.1.dist-info/entry_points.txt,sha256=_b5Mz2bWYDzcM7keKJtBAuwPVoPnH5yHT5MM161h7Cs,60
+cloud_enforcer-0.2.1.dist-info/top_level.txt,sha256=KAV2qoi7m835qbNLxN8RKIGNmJcP-HIyQw4oi7tbTQo,15
+cloud_enforcer-0.2.1.dist-info/RECORD,,
