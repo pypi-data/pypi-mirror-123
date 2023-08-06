@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+autotimeseries/__init__.py
+autotimeseries/_nbdev.py
+autotimeseries/core.py
+autotimeseries.egg-info/PKG-INFO
+autotimeseries.egg-info/SOURCES.txt
+autotimeseries.egg-info/dependency_links.txt
+autotimeseries.egg-info/entry_points.txt
+autotimeseries.egg-info/not-zip-safe
+autotimeseries.egg-info/requires.txt
+autotimeseries.egg-info/top_level.txt
