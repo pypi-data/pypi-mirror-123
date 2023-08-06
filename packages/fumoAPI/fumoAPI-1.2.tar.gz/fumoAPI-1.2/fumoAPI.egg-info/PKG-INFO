@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fumoAPI
+Version: 1.2
+Summary: Simple API wrapper for https://fumos.live
+Home-page: https://github.com/Airiuwu/fumoAPI
+Author: Adobee
+Author-email: Adobe@katsumi.cf
+License: MIT
+Download-URL: https://pypi.org/project/fumoAPI/
+Keywords: fumoAPI
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Simple API wrapper for https://fumos.live
+
