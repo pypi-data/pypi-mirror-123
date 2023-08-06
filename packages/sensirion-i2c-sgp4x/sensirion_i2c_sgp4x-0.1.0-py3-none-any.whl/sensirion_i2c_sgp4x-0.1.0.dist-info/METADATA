@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sensirion-i2c-sgp4x
+Version: 0.1.0
+Summary: I2C driver for the Sensirion SGP40 and SGP41 sensors
+Home-page: https://sensirion.github.io/python-i2c-sgp4x/
+Author: Pascal Sachs
+Author-email: pascal.sachs@sensirion.com
+License: BSD
+Keywords: I2C SGP40 SGP41 Sensirion
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Requires-Dist: sensirion-i2c-driver (~=1.0.0)
+Requires-Dist: enum34 ; python_version < "3.4"
+Provides-Extra: docs
+Requires-Dist: sphinx (~=2.2.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (~=0.4.3) ; extra == 'docs'
+Provides-Extra: example
+Requires-Dist: sensirion-shdlc-sensorbridge (~=0.1.1) ; extra == 'example'
+Provides-Extra: test
+Requires-Dist: flake8 (~=3.7.8) ; extra == 'test'
+Requires-Dist: pytest (~=3.5.0) ; extra == 'test'
+Requires-Dist: pytest-cov (~=2.5.1) ; extra == 'test'
+Requires-Dist: sensirion-shdlc-sensorbridge (~=0.1.1) ; extra == 'test'
+
+sensirion-i2c-sgp4x
+===================
+
+This package contains drivers to communicate with Sensirion
+VOC sensor SGP40 and VOC/NOx sensor SGP41 using the IÂ²C interface.
+
+Installation and Usage
+----------------------
+
+The user manual is available at
+https://sensirion.github.io/python-i2c-sgp4x/
+
+CHANGELOG
+---------
+
+0.1.0
+:::::
+- Initial release of SGP40 and SGP41 IÂ²C drivers
+
+
