@@ -1,0 +1,12 @@
+pyams_chat_ws/__init__.py,sha256=SwK1eIKGaUTv0sdiVliwLJc_QdQxbZLJk15IJU5Ze8Y,741
+pyams_chat_ws/app.py,sha256=UXm24fvrRBXidIOE4xFvNIuTiHhy2HhKFp7s6QsC5j4,5676
+pyams_chat_ws/auth.py,sha256=PGwkNzqdi787HflTOzafZnveIT0rXdaT1GaYsZMprd8,2671
+pyams_chat_ws/chat.py,sha256=llDSundToygoEsxYOnNUw7_ZldAE_lzZ4DnHJon0mUM,2060
+pyams_chat_ws/monitor.py,sha256=_EDrOTcPl5sEX2U5YITDkxVChsjtE9UWWeqoAwrKOzg,1221
+pyams_chat_ws/webapp.py,sha256=y6710mCtbkjiE42TMJqHqjYa31CrgQpDMfKldzW_joY,2268
+pyams_chat_ws-1.1.1.dist-info/LICENSE,sha256=9JLFlvU3lMx1ANbaylwY0_yOeQFkVRhm624EuLQhuwM,2191
+pyams_chat_ws-1.1.1.dist-info/METADATA,sha256=yFzDhEGijot4itvtbJ0zwTkmNz0LB1V_tsXHD07O4uI,1993
+pyams_chat_ws-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyams_chat_ws-1.1.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyams_chat_ws-1.1.1.dist-info/top_level.txt,sha256=sY6uYOO-_vonmQJuIYRZOQjnhGTr1llo9BEETkat9tY,14
+pyams_chat_ws-1.1.1.dist-info/RECORD,,
