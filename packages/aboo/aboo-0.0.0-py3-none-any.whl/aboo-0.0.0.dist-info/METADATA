@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: aboo
+Version: 0.0.0
+Summary: Banana API
+Home-page: https://github.com/aphkyle/aboo
+Author: aphkyle
+Author-email: aphkyle@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# aboo
+Aph's Banana-based Obscure Observations.
+An API for banana.
+## Installation
+```bash
+pip install aboo
+```
+or clone the repo
+```bash
+git clone https://github.com/aphkyle/aboo
+```
+## Example Usage
+```py
+import io
+
+from aboo import Banana
+from PIL import Image
+
+my_api_key = "my_api_key"
+my_cse_id = "my_cse_id"
+banana = Banana(my_api_key, my_cse_id)
+im = Image.open(io.BytesIO(banana.get_random_banana()))
+im.show()
+```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
