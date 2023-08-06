@@ -1,0 +1,13 @@
+pcm/__init__.py,sha256=DH0qrA1pwPcIU8MI70EcxyC-EL-16igT25I62xS33xA,796
+pcm/cli.py,sha256=Hb54CXZFAFPSt0EenbPavpAOjwzqjL7ML6mCPWgMFMc,1997
+pcm/render.py,sha256=FjZNxqFzCn3E4T-Vj6bkgR6cMKF4gkYuF1eNBz0PnMc,1105
+pcm/templates/initialization.xml.template,sha256=ttLmmSUQxNksbYb_0Rogo7YWA6OeK8xVAMxGrV0RmWA,1960
+pcm/templates/launcher_mac.template,sha256=Uzhp0ijNvf4bA755uOnDzvq22dgKIvfyNlWj_ZcOWRo,409
+pcm/templates/launcher_mac_conda.template,sha256=yePpWxb_z9Nx7cdNbq4JfInum0Tk7Td94LWI4DAZ7Xg,538
+pcm/templates/launcher_pc.template,sha256=Y2F7kI8mF3MgQTr8XRkpLrQfG2ptpzG-z30aLFUgCYo,580
+pychron_cm-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pychron_cm-0.1.6.dist-info/METADATA,sha256=9EeUKpkAluDBytrstC4jMpW9TNAhG4rlI3oSlZl1Uy0,296
+pychron_cm-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pychron_cm-0.1.6.dist-info/entry_points.txt,sha256=5ZLoZm4A9JmkB9pDnOqtkwMezTk83zRoAFMCRueLvdk,37
+pychron_cm-0.1.6.dist-info/top_level.txt,sha256=uoDJLLXa1rPiB1Qc5MYhzGjp1uui1YdH2F_mqaYiNJM,8
+pychron_cm-0.1.6.dist-info/RECORD,,
