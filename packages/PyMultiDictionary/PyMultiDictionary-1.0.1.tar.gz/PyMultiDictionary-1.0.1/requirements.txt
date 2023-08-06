@@ -1,0 +1,5 @@
+bs4
+goslate
+iso639-lang
+requests
+setuptools
