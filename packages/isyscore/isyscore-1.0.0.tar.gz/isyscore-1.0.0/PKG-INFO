@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: isyscore
+Version: 1.0.0
+Summary: ISYSCORE COMPONENT SDK
+Home-page: https://github.com/isyscore/component-py
+Author: rarnu
+Author-email: rarnu1985@gmail.com
+License: Apache 2.0
+Description: ISYSCORE COMPONENT SDK
+Keywords: isyscore,component,sdk
+Platform: any

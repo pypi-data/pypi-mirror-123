@@ -1,0 +1,7 @@
+README.md
+setup.py
+isyscore/__init__.py
+isyscore.egg-info/PKG-INFO
+isyscore.egg-info/SOURCES.txt
+isyscore.egg-info/dependency_links.txt
+isyscore.egg-info/top_level.txt
