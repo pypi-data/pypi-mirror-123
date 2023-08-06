@@ -1,0 +1,13 @@
+gdcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdcli/gd.py,sha256=B9NIEaLskPLbYLohz13TG6q65aXo_iUj--gxeMSmFoA,78
+gdcli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdcli/commands/cli.py,sha256=rli6IB46CwTX8e81xpyYDKANKVKGKxlmAP8_x2RnYRA,3020
+gdcli/commands/options.py,sha256=tNWr-d9yK7TWDDYzwi8OQ7_t4uEv-w792NRzz_rkJBA,196
+gdcli/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdcli/helpers/browser.py,sha256=h12ebMNxJK9OTZGoaCddwEvkYD6zysCZH39OogyVrWA,241
+gdcli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdcli-1.0.1.dist-info/METADATA,sha256=8tDNvBUTx4hkzSateTbPbSuJWi_UL6ltIOo9BCsvXbI,220
+gdcli-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+gdcli-1.0.1.dist-info/entry_points.txt,sha256=JuF55tvgOACaGdKHB5e0cxa6z8b7bddu2CWChBxO9l8,52
+gdcli-1.0.1.dist-info/top_level.txt,sha256=BEeeFtx-PYZH4oJzxgf9iQ0grrj0BT0yFSY4d3xmLKk,6
+gdcli-1.0.1.dist-info/RECORD,,
