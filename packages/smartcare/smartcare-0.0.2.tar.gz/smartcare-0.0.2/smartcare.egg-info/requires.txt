@@ -1,0 +1,7 @@
+tensorflow
+keras
+enum-compat
+setuptools
+base64
+numpy
+pillow
