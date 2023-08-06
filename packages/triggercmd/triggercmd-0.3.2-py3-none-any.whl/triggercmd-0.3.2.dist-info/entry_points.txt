@@ -1,0 +1,3 @@
+[console_scripts]
+triggercmd=triggercmd_cli.main:run
+
