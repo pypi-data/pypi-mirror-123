@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gitver/__init__.py
+src/gitver/gitver.py
+src/whoi_gitver.egg-info/PKG-INFO
+src/whoi_gitver.egg-info/SOURCES.txt
+src/whoi_gitver.egg-info/dependency_links.txt
+src/whoi_gitver.egg-info/top_level.txt
