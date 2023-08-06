@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: foran
+Version: 2021.10.17
+Summary: Answering if a local is in front of its remote.
+Home-page: https://github.com/sthagen/foran
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sthagen/foran/issues
+Project-URL: Documentation, https://sthagen.github.io/foran/
+Project-URL: Source Code, https://github.com/sthagen/foran
+Keywords: git,developer-tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8.3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# foran
+
+Answering if a local is in front of its remote.
+
+The English "in front" may translate to the Danish "foran".
+
+... and the default report stem `foran-eller-bagved` alludes to the English "In front or behind?" question which corresponds to the Danish "Foran eller bagved?"
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
+
+# Use
+
+<!-- MarkdownTOC -->
+
+- `foran`
+	- `foran diff`
+	- `foran label`
+	- `foran template`
+	- `foran version`
+
+<!-- /MarkdownTOC -->
+
+# `foran`
+
+In front or behind (Foran eller bagved)?
+
+Identify and diff a local repository against the remote using templates for reports.
+
+**Usage**:
+
+```console
+$ foran [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `-V, --version`: Display the foran version and exit  [default: False]
+* `-h, --help`: Show this message and exit.
+
+**Commands**:
+
+* `diff`: Diff the local against the remote repository...
+* `label`: Labels the local repository state
+* `template`: Output an example jinja template representing...
+* `version`: Display the foran version and exit
+
+## `foran diff`
+
+Diff the local against the remote repository state
+
+**Usage**:
+
+```console
+$ foran diff [OPTIONS] [SOURCE]
+```
+
+**Arguments**:
+
+* `[SOURCE]`: [default: .]
+
+**Options**:
+
+* `-i, --input TEXT`: [default: ]
+* `-o, --output TEXT`: [default: ]
+* `-t, --template TEXT`: [default: ]
+* `-h, --help`: Show this message and exit.
+
+## `foran label`
+
+Labels the local repository state
+
+**Usage**:
+
+```console
+$ foran label [OPTIONS] [SOURCE]
+```
+
+**Arguments**:
+
+* `[SOURCE]`: [default: .]
+
+**Options**:
+
+* `-i, --input TEXT`: [default: ]
+* `-o, --output TEXT`: [default: ]
+* `-t, --template TEXT`: [default: ]
+* `-h, --help`: Show this message and exit.
+
+## `foran template`
+
+Output an example jinja template representing the defaults
+
+**Usage**:
+
+```console
+$ foran template [OPTIONS]
+```
+
+**Options**:
+
+* `-o, --output TEXT`: [default: ]
+* `-h, --help`: Show this message and exit.
+
+## `foran version`
+
+Display the foran version and exit
+
+**Usage**:
+
+```console
+$ foran version [OPTIONS]
+```
+
+**Options**:
+
+* `-h, --help`: Show this message and exit.
+
+
+
