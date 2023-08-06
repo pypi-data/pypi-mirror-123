@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tkitTorchEx
+Version: 0.0.0.116340442
+Summary: Terry toolkit tkitTorchEx,
+Home-page: http://docs.terrychan.org/tkit-lr-pytorch/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Description: # 一个创建库的demo
+        便于快速创建自己的第三方库
+        
+        
+        详细参考
+        
+        > dev.md
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

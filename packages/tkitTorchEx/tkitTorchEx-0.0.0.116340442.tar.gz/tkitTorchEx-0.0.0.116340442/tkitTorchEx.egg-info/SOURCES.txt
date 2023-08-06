@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test/test.py
+tkitTorchEx/__init__.py
+tkitTorchEx/shift_tokens_right.py
+tkitTorchEx.egg-info/PKG-INFO
+tkitTorchEx.egg-info/SOURCES.txt
+tkitTorchEx.egg-info/dependency_links.txt
+tkitTorchEx.egg-info/top_level.txt
