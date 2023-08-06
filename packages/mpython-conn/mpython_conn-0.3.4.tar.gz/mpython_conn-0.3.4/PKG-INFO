@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mpython_conn
+Version: 0.3.4
+Summary: control mpython board by pc
+Home-page: https://github.com/labplus-cn/mpython_conn
+Author: james
+Author-email: jim0575@qq.com
+License: MIT Licence
+Keywords: pip,mpython
+Platform: any
+
+ please visit http://wiki.labplus.cn/index.php?title=Mpython_conn for tutor
+
