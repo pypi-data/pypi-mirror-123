@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+stream_inflate.py
+stream_inflate.egg-info/PKG-INFO
+stream_inflate.egg-info/SOURCES.txt
+stream_inflate.egg-info/dependency_links.txt
+stream_inflate.egg-info/top_level.txt
