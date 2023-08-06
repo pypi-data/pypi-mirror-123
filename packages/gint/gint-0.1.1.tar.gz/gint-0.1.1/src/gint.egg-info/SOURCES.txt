@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+c_ext/pygf2x_generic.c
+src/gint/__init__.py
+src/gint/base.py
+src/gint.egg-info/PKG-INFO
+src/gint.egg-info/SOURCES.txt
+src/gint.egg-info/dependency_links.txt
+src/gint.egg-info/requires.txt
+src/gint.egg-info/top_level.txt
