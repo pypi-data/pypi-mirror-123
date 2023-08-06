@@ -1,0 +1,17 @@
+coalpy/__init__.py,sha256=pgqQXB8OJ_SerLAoLeX0V2f0NqrErujUCMrZ36QqBQU,21
+coalpy/gpu.pyd,sha256=sLK5gGJ52tZ8mtsbMe2bHGXlBAfwP9IhIAWW-IjD-4E,6900736
+coalpy/examples/__init.__.py,sha256=noidGmVW92vcA6VF5Vi6DR62BUa3UEBdosBmWUfaOig,31
+coalpy/examples/demo0.py,sha256=nf6EDdWbpSwxmPEE_GzwCHGUWjIaGPUsyhUbt3mcFCM,2239
+coalpy/examples/seascape.hlsl,sha256=-vHxtaHugAz07oAQOo6KPf6ipA2immUvWfem1EKT4sA,6542
+coalpy/examples/seascape.py,sha256=tBGVgLjmz2LwN2AS-l0ec3zLkWRgIxTqyiYTC0xfHfQ,1668
+coalpy/examples/testInclude.hlsl,sha256=yJSmkejBwo4nAk1IXptBnCpTopQ_0FixAV1u6nidP58,21
+coalpy/examples/testShader.hlsl,sha256=XnfzrVSbBEewOxPsz5l_0bJHRcnPTapH2MdwnhPYqzg,1003
+coalpy/examples/data/test.jpg,sha256=Esv9pWy7zwoP6VZkhYIDQMchU89Fk67zM-wQ1ru07Yg,17522
+coalpy/examples/data/test.png,sha256=ZiGjMY3ohtmGvkiPErO_CmSpkF0EVIOVMnuvMKWtKCM,19339
+coalpy/resources/dxcompiler.dll,sha256=CmyQA30NKP_reO5viUpjNjsRElj9G-aMtW6cUivfkUw,18749328
+coalpy/resources/dxil.dll,sha256=tf1bEBz2K7Q5-0ieDdeMyYEQFUcWxaMLSv7wlf4xzzc,1405216
+coalpy-0.0.4.dist-info/LICENSE,sha256=PdBZ8wH9NFPrI8WYf6TWjky81MS7OAKZqIMfpbtFvBg,1091
+coalpy-0.0.4.dist-info/METADATA,sha256=8wN3WzGhPcipwZKLwoZX5DaFpFRrR8og-e7XOB6k8yE,4509
+coalpy-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+coalpy-0.0.4.dist-info/top_level.txt,sha256=mUMDvbNhtihhGNSiiy6V1RP_a_a7OSHPeTHWbWkeT3I,7
+coalpy-0.0.4.dist-info/RECORD,,
