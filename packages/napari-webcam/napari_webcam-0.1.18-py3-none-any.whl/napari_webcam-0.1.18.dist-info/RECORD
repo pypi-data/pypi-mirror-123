@@ -1,0 +1,12 @@
+napari_webcam/__init__.py,sha256=bHRAkTWFizfocw7hYV3qsge_tVKxwdWT4pjOs2HY8HI,239
+napari_webcam/_dock_widget.py,sha256=S947bUa_PDEtjG_fePhtVNTLPkTJ-LpgGyFYw9jOZoc,3429
+napari_webcam/_function.py,sha256=05xb0XIS4FMg_O8QYNVQuSdeYxAcKBhX6LaHYmzKznw,1902
+napari_webcam/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_webcam/_tests/test_dock_widget.py,sha256=zG1rcOFK0tmtYbrTzLBnVq5jgobG2ZAmd4ytTqv7nxQ,664
+napari_webcam/_tests/test_function.py,sha256=1Bgv7YFugSm7yBcOZi8QNKoAONMTwQhTykZAH1rpjWE,85
+napari_webcam-0.1.18.dist-info/LICENSE,sha256=GKF8ONuLJhi-2VIpi0RqHNT34aX3wYyOTv_AIL6NKJ8,1512
+napari_webcam-0.1.18.dist-info/METADATA,sha256=Hy9PLd_J_4WQgcTgmXC5IUNz59dbADYJ6panUjB_zxI,3147
+napari_webcam-0.1.18.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+napari_webcam-0.1.18.dist-info/entry_points.txt,sha256=8VbyVtSI3Trz861vb_dcOh9lsiqXWQ8Xi-1TER1nXko,47
+napari_webcam-0.1.18.dist-info/top_level.txt,sha256=MzWNk6zPPTFkDgkuRTd1o5Wo-xnlGaoUUejvHF4Q-cE,14
+napari_webcam-0.1.18.dist-info/RECORD,,
