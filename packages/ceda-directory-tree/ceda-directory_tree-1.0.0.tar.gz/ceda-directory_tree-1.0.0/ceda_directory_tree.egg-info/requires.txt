@@ -1,0 +1,6 @@
+anytree
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-programoutput
