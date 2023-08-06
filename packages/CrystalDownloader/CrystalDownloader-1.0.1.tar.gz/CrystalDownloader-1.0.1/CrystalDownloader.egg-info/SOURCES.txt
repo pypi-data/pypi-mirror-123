@@ -1,0 +1,8 @@
+README.md
+setup.py
+CrystalDownloader.egg-info/PKG-INFO
+CrystalDownloader.egg-info/SOURCES.txt
+CrystalDownloader.egg-info/dependency_links.txt
+CrystalDownloader.egg-info/top_level.txt
+downloader/__init__.py
+downloader/download.py
