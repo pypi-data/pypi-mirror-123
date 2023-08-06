@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+form2tk/test.py
+form2tk.egg-info/PKG-INFO
+form2tk.egg-info/SOURCES.txt
+form2tk.egg-info/dependency_links.txt
+form2tk.egg-info/requires.txt
+form2tk.egg-info/top_level.txt
