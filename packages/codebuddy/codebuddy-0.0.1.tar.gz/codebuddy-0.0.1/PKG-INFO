@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: codebuddy
+Version: 0.0.1
+Summary: stack overflow search on exception
+Home-page: https://github.com/0x44RU5H/codebuddy
+Author: Aarush Gupta
+Author-email: aarush@theaarushgupta.com
+License: AGPLv3+
+Description: # codebuddy
+        stack overflow search on exception
+        
+        **under construction**
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
