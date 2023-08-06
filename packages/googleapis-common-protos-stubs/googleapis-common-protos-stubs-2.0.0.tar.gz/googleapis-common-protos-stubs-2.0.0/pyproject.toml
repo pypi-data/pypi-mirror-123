@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "googleapis-common-protos-stubs"
+version = "2.0.0"
+license = "Apache-2.0"
+description = "Type stubs for googleapis-common-protos"
+authors = ["Henrik Bruåsdal <henrik.bruasdal@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/henribru/googleapis-common-protos-stubs"
+packages = [
+    { include = "google-stubs" },
+]
+classifiers = [
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+typing-extensions = "^3.10.0"
+googleapis-common-protos = "^1.53.0"
+grpc-stubs = "^1.24.7"
+
+[tool.poetry.dev-dependencies]
+protobuf = "^3.18.1"
+mypy-protobuf = "==2.9"
+isort = { version = "^5.9.3", python = "^3.7" }
+black = { version = "^21.9b0", python = "^3.7" }
+mypy = "^0.910"
+
+[tool.isort]
+profile = "black"
+known_first_party = [
+    "google.api",
+    "google.gapic.metadata",
+    "google.logging.type",
+    "google.longrunning",
+    "google.rpc",
+    "google.type"
+]
+combine_as_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
