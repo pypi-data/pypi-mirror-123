@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dsnd-chisambi/Binomialdistribution.py
+dsnd-chisambi/Gaussiandistribution.py
+dsnd-chisambi/Generaldistribution.py
+dsnd-chisambi/__init__.py
+dsnd_chisambi.egg-info/PKG-INFO
+dsnd_chisambi.egg-info/SOURCES.txt
+dsnd_chisambi.egg-info/dependency_links.txt
+dsnd_chisambi.egg-info/not-zip-safe
+dsnd_chisambi.egg-info/top_level.txt
