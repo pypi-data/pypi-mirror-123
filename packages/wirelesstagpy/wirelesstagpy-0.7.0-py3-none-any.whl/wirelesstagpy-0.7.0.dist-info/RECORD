@@ -1,0 +1,13 @@
+wirelesstagpy/__init__.py,sha256=nVAUaDS9qEI0jFlqBKrTydhSXZhk52ey6eocW3LyK7A,15295
+wirelesstagpy/binaryevent.py,sha256=LUd_97nIDK5yumc09QqAJQ4MrikJray5DC_I2bkQow4,4580
+wirelesstagpy/constants.py,sha256=dxIUK_pw2pK_OmuuyxqN8wUUB50tpVM17N-SdB6EL38,4203
+wirelesstagpy/exceptions.py,sha256=k8EgfnqvwwI15QOQ49PSPcbSZngIGH663UX_EM0ebAo,819
+wirelesstagpy/notificationconfig.py,sha256=u2Fig88EVUhbFE4PHEZrU7JDS1yglrn5_Bm5clxhaKI,1808
+wirelesstagpy/sensor.py,sha256=6rEfx4bp7Ckwl1zksVqxAmI2LNzXnSuFGuAP8mZg54U,2561
+wirelesstagpy/sensortag.py,sha256=Rw7jiHM3IkQ4ujG7DRfMeroV8bdK2AYvQ6wuoSBuw78,20025
+wirelesstagpy/utils.py,sha256=DuBnUzSrt4byL0ymuY1MUoHW14Y2KoZiaxOB2f9RF_Y,483
+wirelesstagpy-0.7.0.dist-info/LICENSE,sha256=5GscxGz0A6vLlHYyPENU0_00EzWG4u9MNCUEP3cgOUs,1105
+wirelesstagpy-0.7.0.dist-info/METADATA,sha256=SPAZg2KOQHOk7MkUxTY7sOSRCxzVnnZ9OdiPa29tDRc,6713
+wirelesstagpy-0.7.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wirelesstagpy-0.7.0.dist-info/top_level.txt,sha256=Q3uATciTY5cWW9kPhMNTqWV_qCTVqPR1cXY0rS5Jwes,14
+wirelesstagpy-0.7.0.dist-info/RECORD,,
