@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: finger-sdk
+Version: 0.1
+Summary: a tool for recognizing function symbol
+Home-page: https://sec-lab.aliyun.com/
+Author: Alibaba Cloud · Cloud Security Technology Lab
+Author-email: 
+License: GPLv3
+Project-URL: github_url, https://github.com/aliyunav/Finger
+Description: UNKNOWN
+Keywords: function symbol recognition
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
