@@ -1,0 +1,11 @@
+fastdata/None.py,sha256=FZCJuWyUph2OZ8-kABNnlUpKuPQNHbKxxv3ylRNq_XA,906
+fastdata/__init__.py,sha256=PsqtE_T084MVsMv47JyTQ3DK2CRZJ3Kd9Q_vnw02oZk,23
+fastdata/_nbdev.py,sha256=gcDAl2WDo3GmI11F_clGzKtJVcnovnQZKbebrGpVQ34,1425
+fastdata/core.py,sha256=5UAhaMTqNgCUUT7CE6ZApmqc-TJu4_t7QfwYbn80tCE,10277
+fastdata/integrations.py,sha256=C3ynm3f7MRrDTZfcIqjnF3dGxd13AQufzp7fk2z3p4s,3920
+fastdata-0.0.21.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastdata-0.0.21.dist-info/METADATA,sha256=PcfmJeZ88qa74lhseWdKTXggiGUfCJLw0ObdLCgwMfk,1237
+fastdata-0.0.21.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fastdata-0.0.21.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+fastdata-0.0.21.dist-info/top_level.txt,sha256=w7ly_Un9f4J7YOCrxvlCEsDgWZqtAks6sJTER6Cq6_o,9
+fastdata-0.0.21.dist-info/RECORD,,
