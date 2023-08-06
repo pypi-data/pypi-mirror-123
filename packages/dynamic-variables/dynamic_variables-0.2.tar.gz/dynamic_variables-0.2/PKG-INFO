@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: dynamic_variables
+Version: 0.2
+Summary: Change variables dynamically in runtime with the help of a simple GUI
+Home-page: https://github.com/cahidenes/dynamic_variables
+Author: Cahid Enes Keles
+Author-email: cahideneskeles54@gmail.com
+License: MIT
+Download-URL: https://github.com/cahidenes/dynamic_variables/archive/refs/tags/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: dynamic,variable,config,gui,change,runtime
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
