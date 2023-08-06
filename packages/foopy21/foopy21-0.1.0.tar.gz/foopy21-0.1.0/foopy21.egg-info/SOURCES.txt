@@ -1,0 +1,8 @@
+setup.py
+foopy21/__init__.py
+foopy21/module_foo.py
+foopy21.egg-info/PKG-INFO
+foopy21.egg-info/SOURCES.txt
+foopy21.egg-info/dependency_links.txt
+foopy21.egg-info/requires.txt
+foopy21.egg-info/top_level.txt

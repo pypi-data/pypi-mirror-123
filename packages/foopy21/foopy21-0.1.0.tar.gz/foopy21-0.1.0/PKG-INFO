@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: foopy21
+Version: 0.1.0
+Summary: Packege use numpy 1.16.0 that conflicts with pandas 1.3.3
+Home-page: https://github.com/YaroslavZhurba/foopy21
+Author: Yaroslav Zhurba
+Author-email: shudson@anl.gov
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
