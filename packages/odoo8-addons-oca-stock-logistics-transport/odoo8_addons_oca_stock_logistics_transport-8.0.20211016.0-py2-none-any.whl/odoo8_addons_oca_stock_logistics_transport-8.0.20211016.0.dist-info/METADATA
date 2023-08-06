@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: odoo8-addons-oca-stock-logistics-transport
+Version: 8.0.20211016.0
+Summary: Meta package for oca-stock-logistics-transport Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 8.0
+Requires-Dist: odoo8-addon-purchase-requisition-transport-multi-address
+Requires-Dist: odoo8-addon-purchase-transport-multi-address
+Requires-Dist: odoo8-addon-sale-transport-multi-address
+Requires-Dist: odoo8-addon-stock-route-transit
+Requires-Dist: odoo8-addon-stock-shipment-management
+Requires-Dist: odoo8-addon-stock-transport-multi-address
+Requires-Dist: odoo8-addon-transport-information
+
+UNKNOWN
+
