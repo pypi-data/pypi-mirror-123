@@ -1,0 +1,4 @@
+bitcart
+httpx[http2]==0.19.*
+Jinja2
+RestrictedPython
