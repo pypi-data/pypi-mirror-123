@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+sheetsDB/__init__.py
+sheetsDB/db.py
+sheetsDB/synced.py
+sheetsDB.egg-info/PKG-INFO
+sheetsDB.egg-info/SOURCES.txt
+sheetsDB.egg-info/dependency_links.txt
+sheetsDB.egg-info/not-zip-safe
+sheetsDB.egg-info/requires.txt
+sheetsDB.egg-info/top_level.txt
