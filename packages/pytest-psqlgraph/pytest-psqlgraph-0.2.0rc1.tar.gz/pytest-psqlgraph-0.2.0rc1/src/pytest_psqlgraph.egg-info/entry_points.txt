@@ -1,0 +1,3 @@
+[pytest11]
+psqlgraph = pytest_psqlgraph.plugin
+

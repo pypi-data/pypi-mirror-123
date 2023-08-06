@@ -1,0 +1,80 @@
+father:
+  description: Father schema
+  properties:
+    name:
+      type: string
+  links:
+    - name: sons
+      backref: father
+      target_type: son
+      label: father_of
+    - name: wife
+      backref: husband
+      target_type: mother
+      label: husband_of
+    - name: mother
+      backref: sons
+      target_type: father
+      label: son_of
+    - name: father
+      backref: sons
+      target_type: father
+      label: son_of
+    - name: daugthers
+      backref: father
+      target_type: daughter
+      label: father_of
+son:
+  description: Son schema
+  properties:
+    name:
+      type: string
+  links:
+    - name: father
+      backref: sons
+      target_type: father
+      label: son_of
+    - name: mother
+      backref: sons
+      target_type: mother
+      label: son_of
+mother:
+  description: Mother schema
+  properties:
+    name:
+      type: string
+  links:
+    - name: husband
+      backref: wife
+      target_type: mother
+      label: wife_of
+    - name: sons
+      backref: mother
+      target_type: mother
+      label: mother_of
+    - name: daugthers
+      backref: mother
+      target_type: mother
+      label: mother_of
+    - name: mother
+      backref: daughters
+      target_type: mother
+      label: daugther_of
+    - name: father
+      backref: sons
+      target_type: father
+      label: daugther_of
+daughter:
+  description: Daughter schema
+  properties:
+    name:
+      type: string
+  links:
+    - name: father
+      backref: daugthers
+      target_type: father
+      label: daugther_of
+    - name: mother
+      backref: daughters
+      target_type: mother
+      label: daugther_of
