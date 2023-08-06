@@ -1,0 +1,29 @@
+{% load report_designer.paginator %}
+
+
+<div class="table__bottom no-padding {{ additional_paginator_classes }}">
+    <div class="table__pagination">
+        <ul class="pagination">
+            {% if page_obj.paginator.num_pages == 1 %}
+                <a disabled>1</a>
+            {% else%}
+                {% if page_obj.has_previous %}
+                    {% paginator_page '<i class="fa fa-chevron-left"></i>' page_obj.previous_page_number current_paginator_page %}
+                {% endif %}
+                {% for page in pages %}
+                    {% if page.is_hidden %}
+                        {% paginator_page '&hellip;' page.page current_paginator_page %}
+                    {% else %}
+                        {% paginator_page page.display page.page current_paginator_page %}
+                    {% endif %}
+                {% endfor %}
+                {% if page_obj.has_next %}
+                    {% paginator_page '<i class="fa fa-chevron-right"></i>' page_obj.next_page_number current_paginator_page %}
+                {% endif %}
+            {% endif %}
+        </ul>
+    </div>
+    <div class="table__step">
+        {% include 'report_designer/core/blocks/paginator_step.html' %}
+    </div>
+</div>

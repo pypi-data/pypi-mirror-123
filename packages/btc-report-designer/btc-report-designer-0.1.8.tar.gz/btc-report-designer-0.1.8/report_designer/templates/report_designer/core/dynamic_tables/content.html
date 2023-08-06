@@ -1,0 +1,9 @@
+{% load report_designer.ajax_content %}
+
+
+<div class="form-filter-wrapper js-rd-dynamic-content-filters">
+    {% include 'report_designer/core/filters/filters.html' with form=filter.form filters_clear=filters_clear only %}
+</div>
+<div class="voffset4">
+    {% ajax_content name=ajax_content_name url=content_url auto_start=True enable_preloader=True is_filterable=True preloader_class='rd-preloader' %}
+</div>

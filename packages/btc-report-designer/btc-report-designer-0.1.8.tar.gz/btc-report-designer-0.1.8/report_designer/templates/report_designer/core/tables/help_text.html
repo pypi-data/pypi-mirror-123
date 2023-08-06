@@ -1,0 +1,7 @@
+{% if help_text %}
+    {% for item in help_text %}
+        <div class="help-text-wrapper">
+            <p class="{{ item.classes }}">{{ item.text }}</p>
+        </div>
+    {% endfor %}
+{% endif %}

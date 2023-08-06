@@ -1,0 +1,27 @@
+{% load report_designer.utils %}
+
+
+<li class="list-group-item {{ item_css_class }}">
+    <div class="list-group-item-heading {{ heading_css_class }}">
+        {{ label }}
+    </div>
+    <div class="list-group-item-text {{ text_css_class }} {% if scrollable %}scrollable-text{% endif %}">
+        {% if wrapper_css_class %}
+            <span class="{{ wrapper_css_class }}">
+        {% endif %}
+        {% if url %}
+            <a href="{{ url }}" class="{{ link_css_class }}" target="{{ target }}">
+        {% endif %}
+        {% if scrollable or linebreaks %}
+            {{ value|default_if_empty:'&ndash;'|linebreaks }}
+        {% else %}
+            {{ value|default_if_none:'&ndash;' }}
+        {% endif %}
+        {% if url %}
+            </a>
+        {% endif %}
+        {% if wrapper_css_class %}
+            </span>
+        {% endif %}
+    </div>
+</li>

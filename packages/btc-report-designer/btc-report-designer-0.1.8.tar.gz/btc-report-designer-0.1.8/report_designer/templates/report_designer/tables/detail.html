@@ -1,0 +1,45 @@
+{% extends 'report_designer/base.html' %}
+
+
+{% load report_designer.templates %}
+{% load report_designer.fields %}
+{% load report_designer.ajax_content %}
+
+
+{% block header_actions_groups %}
+    {{ dropdown_action_group }}
+{% endblock header_actions_groups %}
+
+
+{% block content %}
+    <div id="report-designer">
+        {% panelheader %}
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list-inline">
+                    {% list_field_wrapper 'Таблица' db_table.table %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list-inline">
+                    {% list_field_wrapper 'Псевдоним' db_table.alias %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list-inline">
+                    {% list_field_wrapper 'Отображение' db_table.is_visible %}
+                </ul>
+            </div>
+        {% endpanelheader %}
+        <div class="wrapper">
+            {% panel title='Поля таблицы БД' %}
+                <div class="col-md-12">
+                    {% url 'report_designer:tables:fields-list' pk=db_table.pk type='base' as fields_list_url %}
+                    {% dynamic_content name='db_table_fields' url=fields_list_url preloader_class='rd-preloader' %}
+                </div>
+            {% endpanel %}
+        </div>
+        <div class="wrapper padding-top-20">
+            <a class="btn btn-default" href="{{ back_url }}">Назад</a>
+        </div>
+    </div>
+{% endblock content %}

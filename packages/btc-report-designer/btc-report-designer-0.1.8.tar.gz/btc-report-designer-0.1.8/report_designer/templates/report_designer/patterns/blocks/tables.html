@@ -1,0 +1,18 @@
+{% load report_designer.ajax_content %}
+
+
+<div class="tree-blocks-container">
+    {% with additional_css_classes='tree-block-content js-rd-droppable js-rd-pattern-tables' %}
+        <div class="tree-block">
+            <div class="tree-block-title">Таблицы БД</div>
+            {% url 'report_designer:patterns:tables-list' pattern_pk=pattern.pk as tables_list_url %}
+            {% ajax_content name='db_tables' url=tables_list_url auto_start=True additional_css_classes=additional_css_classes %}
+        </div>
+        <div class="tree-block" style="transform: translateZ(0)">
+            <div class="tree-block-title">Таблицы шаблона</div>
+            {% url 'report_designer:patterns:included-tables-list' pattern_pk=pattern.pk as included_tables_list_url %}
+            {% ajax_content name='pattern_tables' url=included_tables_list_url auto_start=True additional_css_classes=additional_css_classes %}
+            {{ add_fields_action_group }}
+        </div>
+    {% endwith %}
+</div>

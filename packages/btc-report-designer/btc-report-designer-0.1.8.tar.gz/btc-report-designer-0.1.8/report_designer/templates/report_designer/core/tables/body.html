@@ -1,0 +1,9 @@
+<tbody class="{% if sortable_class %} js-rd-table-sortable {{ sortable_class }}{% endif %}">
+    {% for row in rows %}
+        <tr class="table__link_big{% if row.classes %} {{ row.classes }}{% endif %}" {{ row.data|safe }}>
+            {% for cell in row %}
+                {{ cell }}
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody>

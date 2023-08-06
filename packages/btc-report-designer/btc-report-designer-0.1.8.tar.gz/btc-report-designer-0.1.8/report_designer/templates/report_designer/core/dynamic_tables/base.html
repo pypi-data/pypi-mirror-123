@@ -1,0 +1,11 @@
+{% extends 'report_designer/base.html' %}
+
+
+{% load report_designer.ajax_content %}
+
+
+{% block content %}
+    <div id="report-designer">
+        {% dynamic_content name=ajax_content_name included_template='report_designer/core/dynamic_tables/content.html' additional_css_classes='wrapper' auto_start=False preloader_class='rd-preloader' %}
+    </div>
+{% endblock content %}

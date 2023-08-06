@@ -1,0 +1,18 @@
+<div class="step">
+    <div class="step__text">
+        <span>Показывать по</span>
+    </div>
+    <div class="step__select">
+        <select class="input__input input__input_select js-pagination-count" data-key="{{ pagination_count_name }}">
+            {% for paginate_choice in paginate_choices %}
+                <option value="{{ paginate_choice }}"
+                        {% if pagination_count == paginate_choice %}selected{% endif %}>
+                    {{ paginate_choice }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="step__text">
+        <span>записей | Всего: {{ page_obj.paginator.count }}</span>
+    </div>
+</div>

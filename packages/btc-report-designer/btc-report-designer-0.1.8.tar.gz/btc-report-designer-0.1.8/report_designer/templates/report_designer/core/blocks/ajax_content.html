@@ -1,0 +1,16 @@
+{% load report_designer.utils %}
+
+
+<div class="{{ base_class }} {{ js_name }}{% if additional_css_classes %} {{ additional_css_classes }}{% endif %}"
+     data-name="{{ name }}"
+     data-url="{{ url }}"
+     data-enable-preloader="{{ enable_preloader }}"
+     data-preloader-class="{{ preloader_class|default:'' }}"
+     data-auto-start="{{ auto_start }}"
+    {% for data_name, data_value in data_attrs %}
+        data-{{ data_name }}="{{ data_value }}"
+    {% endfor %}>
+    {% if included_template %}
+        {{ included_template }}
+    {% endif %}
+</div>

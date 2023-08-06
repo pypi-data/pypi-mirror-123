@@ -1,0 +1,10 @@
+<div class="input-search-field">
+    <div class="input-search-field-btn">
+        <a class="btn btn-default js-ajax_submit">
+            <i class="glyphicon glyphicon-search"></i>
+        </a>
+    </div>
+    <input type="{{ widget.type }}"
+           name="{{ widget.name }}"{% if widget.value != None %}
+           value="{{ widget.value|stringformat:'s' }}"{% endif %}{% include "django/forms/widgets/attrs.html" %} />
+</div>

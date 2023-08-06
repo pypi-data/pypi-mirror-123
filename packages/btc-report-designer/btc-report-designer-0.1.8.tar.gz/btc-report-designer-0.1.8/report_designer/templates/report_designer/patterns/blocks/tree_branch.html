@@ -1,0 +1,37 @@
+{% load report_designer.fields %}
+{% load report_designer.utils %}
+
+
+<ul class="tree-content js-tree-content{% if is_subtree %} subtree{% endif %}"
+    {% if action_url %} data-action-url="{{ action_url }}"{% endif %}
+    {% if is_subtree %} data-table-pk="{{ parent.pk }}"{% endif %}>
+    {% for tree_branch in tree_branches %}
+        <li>
+            <div class="tree-branch js-tree-branch" data-pk="{{ tree_branch.related_table_pk }}">
+                <div class="subtree-data js-subtree-data">
+                    {% if tree_branch.is_relation %}
+                        {% if tree_branch.related_table_pk %}
+                            {% url 'report_designer:patterns:fields-list' pattern_pk=pattern.pk pk=tree_branch.related_table_pk as fields_list_url %}
+                            <span class="subtree-btn js-subtree-btn" data-url="{{ fields_list_url|default:'' }}{% if is_processed %}?is_processed{% endif %}"></span>
+                            <span class="subtree-title rd-draggable js-rd-draggable"
+                                  data-pk="{{ tree_branch.related_table_pk }}"
+                                  data-helper="clone">
+                                {{ tree_branch.title }}
+                            </span>
+                        {% else %}
+                            <span class="subtree-btn subtree-not-relation"></span>
+                            <span class="subtree-title">{{ tree_branch.title }}</span>
+                        {% endif %}
+                    {% else %}
+                        {% if tree_branch.is_processed_field %}
+                            {% template_string 'tree_branch_field_%s' tree_branch.pk as tree_branch_name %}
+                            {% input_free_checkbox title=tree_branch.title name=tree_branch_name input_classes="js-rd-field-to-pattern" label_classes='default-text' checked=tree_branch.is_exists_in_pattern disabled=tree_branch.is_exists_in_pattern data_pk=tree_branch.pk %}
+                        {% else %}
+                            <span class="subtree-title">{{ tree_branch.title }}</span>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>

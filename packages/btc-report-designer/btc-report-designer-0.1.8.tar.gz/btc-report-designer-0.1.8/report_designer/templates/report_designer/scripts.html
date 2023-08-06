@@ -1,0 +1,15 @@
+{% load static %}
+
+{% if is_all %}
+    <!-- jQuery -->
+    <script src="{% static 'js/vendor/jquery-3.4.1.min.js' %}"></script>
+
+    <!-- bootstrap -->
+    <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+
+    <!-- select2 -->
+    <script src="{% static 'js/vendor/select2.min.js' %}"></script>
+    <script src="{% static 'django_select2/django_select2.js' %}"></script>
+    <script src="{% static 'js/vendor/i18n/ru.js' %}"></script>
+{% endif %}
+<script src="{% static 'report_designer/js/index.js' %}"></script>

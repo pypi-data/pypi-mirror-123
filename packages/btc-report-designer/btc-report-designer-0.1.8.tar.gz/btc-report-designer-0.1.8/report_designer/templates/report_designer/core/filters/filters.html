@@ -1,0 +1,80 @@
+{% load report_designer.forms %}
+
+<form action="#"
+      method="get"
+      class="form form-inline{% if js_form_filter_class %} {{ js_form_filter_class }}{% endif %}"
+      {% if form_url %} data-url="{{ form_url }}"{% endif %}>
+    <div class="form-filter no-padding">
+        {% with checkbox_exists=form|fields_exists:'checkbox' select_exists=form|fields_exists:'select' search_mode=True %}
+                    <div class="row row_flex no-margin">
+            {% if checkbox_exists %}
+                <div class="col-md-9 col_no-float">
+                    {% include 'report_designer/core/filters/filter_list.html' %}
+
+                    {% if search_mode %}
+                        {{ form.search }}
+                    {% endif %}
+                </div>
+
+                <div class="col-md-4 col_no-float no-padding"
+                     {% if filters_clear %}style="border-left: 1px solid #d0e1e8"{% endif %}>
+                    <div style="padding: 20px 0 0 10px">
+                        {% include 'report_designer/core/filters/filter_list.html' with show_checkboxes=True %}
+                    </div>
+
+                    {% if filters_clear %}
+                        <div style="padding: 20px 0; border-top: 1px solid #d0e1e8">
+                            <div class="wrapper row row_normalize">
+                                <div class="col-md-12">
+                                    <a href="#" class="js-rd-filters_clear">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                        Очистить фильтры
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            {% else %}
+                <div class="col-md-12 col_no-float no-padding-left no-padding-right">
+
+                    {% if filters_clear %}
+                        <div class="col-md-10 no-padding">
+                            {% if select_exists %}
+                                {% include 'report_designer/core/filters/filter_list.html' %}
+                            {% endif %}
+                        </div>
+
+                        <div class="col-md-2 no-padding">
+                            <div class="padding-top-40 text-right">
+                                <a href="#" class="js-rd-filters_clear">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                    Очистить фильтры
+                                </a>
+                            </div>
+                        </div>
+
+                        {% if search_mode %}
+                            <div class="col-md-12 no-padding">
+                                <div class="{% if not select_exists %}voffset4{% endif %}">
+                                    {{ form.search }}
+                                </div>
+                            </div>
+                        {% endif %}
+
+                    {% else %}
+                        {% if select_exists %}
+                            {% include 'report_designer/core/filters/filter_list.html' %}
+                        {% endif %}
+                        {% if search_mode %}
+                            <div class="{% if not select_exists %}voffset4{% endif %}">
+                                {{ form.search }}
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+        {% endwith %}
+    </div>
+</form>

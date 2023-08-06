@@ -1,0 +1,8 @@
+<div class="dropdown dropdown_gray">
+    <i class="glyphicon glyphicon-option-horizontal action-icon dropdown-toggle" data-toggle="dropdown"></i>
+    <ul class="dropdown-menu dropdown-menu-right">
+        {% for action in action_group %}
+            {{ action }}
+        {% endfor %}
+    </ul>
+</div>

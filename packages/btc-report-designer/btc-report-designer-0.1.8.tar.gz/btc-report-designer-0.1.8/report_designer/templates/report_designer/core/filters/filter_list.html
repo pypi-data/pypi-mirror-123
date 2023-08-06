@@ -1,0 +1,17 @@
+<div class="filter">
+    {% for field in form %}
+        {% if field.name != 'ordering' and field.name != 'search' %}
+            <div class="form-group {% if field.errors %} has-error {% endif %}">
+                <label for="{{ field.name }}">
+                    {{ field.label }}
+                    {% if field.field.widget.input_type == 'checkbox' and show_checkboxes %}
+                        {{ field }}
+                    {% endif %}
+                </label>
+                {% if field.field.widget.input_type != 'checkbox' %}
+                    {{ field }}
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,14 @@
+<thead>
+{# Проход по уровням шапки #}
+{% for level in header %}
+    <tr>
+        {# Проход по ячейкам уровня  #}
+        {% for head in level %}
+            {# Настройка ячейки #}
+            <th colspan="{{ head.col_span|default:1 }}" rowspan="{{ head.row_span|default:1 }}"{% if head.css_class %} class="{{ head.css_class }}"{% endif %}>
+                {{ head.name }}
+            </th>
+        {% endfor %}
+    </tr>
+{% endfor %}
+</thead>

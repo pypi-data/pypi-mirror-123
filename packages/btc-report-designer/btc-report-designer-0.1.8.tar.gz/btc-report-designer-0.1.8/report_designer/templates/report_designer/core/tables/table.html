@@ -1,0 +1,9 @@
+<div class="table_inline_grid">
+    {% include 'report_designer/core/tables/help_text.html' with help_text=help_text only %}
+    <div class="table-responsive">
+        <table class="{{ classes }}"{% if table_data_attrs %}{{ table_data_attrs }}{% endif %}>
+            {% include 'report_designer/core/tables/header.html' with header=header only %}
+            {% include 'report_designer/core/tables/body.html' with rows=rows sortable_class=sortable_class only %}
+        </table>
+    </div>
+</div>

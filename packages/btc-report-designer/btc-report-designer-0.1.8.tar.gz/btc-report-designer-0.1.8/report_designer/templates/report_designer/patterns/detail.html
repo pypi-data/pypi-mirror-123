@@ -1,0 +1,53 @@
+{% extends 'report_designer/base.html' %}
+
+
+{% load report_designer.templates %}
+{% load report_designer.fields %}
+{% load report_designer.ajax_content %}
+
+
+{% block header_actions_groups %}
+    {{ dropdown_action_group }}
+{% endblock header_actions_groups %}
+
+
+{% block content %}
+    <div id="report-designer">
+        {% panelheader %}
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list">
+                    {% list_field_wrapper 'Наименование' pattern.name %}
+                    {% list_field_wrapper 'Основная таблица' pattern.root %}
+                    {% list_field_wrapper 'Отображение в перечне шаблонов' pattern.is_visible_in_patterns %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list">
+                    {% list_field_wrapper 'Автор' pattern.author %}
+                    {% list_field_wrapper 'Дата и время обновления' pattern.updated %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list">
+                    {% list_field_wrapper 'Группы' pattern.get_groups_names %}
+                </ul>
+            </div>
+        {% endpanelheader %}
+        <div class="wrapper">
+            {% panel title='Таблицы шаблона' %}
+                <div class="col-md-12">
+                    {% include 'report_designer/patterns/blocks/tables.html' %}
+                </div>
+            {% endpanel %}
+            {% panel title='Поля шаблона' %}
+                <div class="col-md-12">
+                    {% url 'report_designer:patterns:pattern-fields-list' pk=pattern.pk type='base' as pattern_fields_list_url %}
+                    {% dynamic_content name='pattern_fields' url=pattern_fields_list_url %}
+                </div>
+            {% endpanel %}
+        </div>
+        <div class="wrapper padding-top-20">
+            <a class="btn btn-default" href="{{ back_url }}">Назад</a>
+        </div>
+    </div>
+{% endblock content %}

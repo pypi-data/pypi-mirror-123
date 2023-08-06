@@ -1,0 +1,14 @@
+<div class="checkbox-wrapper rd-checkbox-wrapper">
+    <label {% if id %}for="{{ id }}"{% endif %}{% if label_classes %} class="{{ label_classes }}"{% endif %}>
+        <input type="checkbox"
+               {% if input_classes %} class="{{ input_classes }}"{% endif %}
+               {% if name %} name="{{ name }}"{% endif %}
+               {% if id %} id="{{ id }}"{% endif %}
+               {{ data_attrs|safe }}
+               {% if is_checked %} checked{% endif %}
+               {% if is_disabled %} disabled{% endif %}>
+        <span class="checkbox-text rd-checkbox-text{% if text_classes %} {{ text_classes }}{% endif %}">
+            {{ title }}
+        </span>
+    </label>
+</div>

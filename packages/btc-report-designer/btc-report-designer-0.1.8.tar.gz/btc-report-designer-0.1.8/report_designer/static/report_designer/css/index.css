@@ -1,0 +1,277 @@
+/* region Переменные */
+:root {
+    /* Цвета */
+    --rd-white-color: #ffffff;
+    --rd-light-gray-color: #D0E1E8;
+    --rd-lighter-gray-color: #eff4f7;
+    --rd-gray-color: #78909C;
+    --rd-blue-color: #5A89D9;
+    --rd-green-color: #62B862;
+    --rd-red-color: #d9534f;
+}
+/* Мниимальная высота */
+.mh-40 {
+    min-height: 40px;
+}
+/* region Переменные */
+/* region Дерево */
+.tree-blocks-container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: var(--rd-white-color);
+}
+.tree-block {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--rd-light-gray-color);
+    border-radius: 2px;
+    background-color: inherit;
+    transform: translateZ(0);
+}
+.tree-block-action-btn {
+    position: fixed;
+    z-index: 100;
+    top: 1.5em;
+    right: 1.5em;
+}
+.tree-block-title {
+    position: absolute;
+    top: -.5em;
+    left: 1.5em;
+    padding: 0 1em;
+    font-size: 0.85em;
+    line-height: 0.85em;
+    color: var(--rd-gray-color);
+    background-color: inherit;
+    z-index: 7;
+}
+.tree-block-content {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 1.5em;
+}
+.tree-content {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: inherit;
+}
+.tree-content > li {
+    min-height: 3em;
+    position: relative;
+    padding-left: 1.5em;
+}
+.tree-content > li::before,
+.tree-content > li::after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+.tree-content > li::before {
+    width: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    order: -2;
+    border-left: 1px solid var(--rd-light-gray-color);
+}
+.tree-content > li:first-child::before {
+    top: 1.5em;
+}
+.tree-content > li:last-child::before {
+    max-height: 1.5em;
+}
+.tree-block-content > .tree-content > li:only-child::before,
+.tree-block-content > .tree-content > li:only-child::after {
+    border: none !important;
+}
+.tree-content > li::after {
+    width: 1.5em;
+    height: 0;
+    top: 1.5em;
+    left: 0;
+    order: -1;
+    border-top: 1px solid var(--rd-light-gray-color);
+}
+.subtree-data {
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.subtree-title {
+    margin-left: .5em;
+}
+.subtree-btn::before {
+    width: 1.3em;
+    height: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    line-height: 0;
+    cursor: pointer;
+    color: var(--rd-gray-color);
+    border: 1px solid var(--rd-gray-color);
+    z-index: 2;
+}
+.subtree-not-relation::before {
+    cursor: default;
+    background-color: var(--rd-lighter-gray-color);
+}
+.subtree-btn::before {
+    content: '\002B';
+}
+.subtree-btn.open::before {
+    content: '\2212';
+}
+.subtree {
+    margin-left: .75em;
+}
+.tree-content.subtree > li:first-child::before {
+    top: -.75em !important;
+}
+/* endregion Дерево */
+/* region Переносимые элементы */
+.rd-draggable.subtree-title:hover {
+    border-radius: 2px;
+    padding: 0 1.5em;
+    background-color: var(--rd-blue-color);
+    color: var(--rd-white-color);
+    list-style: none;
+    font-weight: bold;
+    cursor: move;
+    transition: .05s padding ease-in-out;
+}
+.tree-branch-drag {
+    padding: 0 1.5em;
+}
+.rd-droppable-active-container {
+    overflow-y: hidden;
+}
+.rd-preloader,
+.rd-droppable-active {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--rd-white-color);
+}
+.rd-preloader,
+.rd-droppable-active {
+    position: absolute;
+}
+.rd-droppable-active::before {
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    bottom: 1.5em;
+    right: 1.5em;
+    content: "";
+    display: block;
+    background-color: var(--rd-lighter-gray-color);
+}
+.rd-droppable-active.rd-hover::before {
+    background-color: var(--rd-light-gray-color);
+}
+.rd-sortable-tr {
+    background-color: #eff4f7;
+    margin-left: -1px;
+}
+.rd-table-sortable {
+    font-size: 1.2em !important;
+    color: var(--rd-gray-color) !important;
+    cursor: move;
+}
+.rd-table-td-disabled {
+    background-color: var(--rd-lighter-gray-color);
+    background-clip: padding-box;
+}
+.rd-table-td-disabled .rd-table-sortable {
+    cursor: default;
+}
+.rd-table-empty-header {
+    background-color: var(--rd-lighter-gray-color);
+}
+/* endregion Переносимые элементы */
+/* region Прелоадер */
+.rd-preloader {
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.rd-preloader::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 3px solid var(--rd-light-gray-color);
+    border-top-color: var(--rd-gray-color);
+    background-color: var(--rd-white-color);
+    animation: spin .5s linear infinite;
+    z-index: 6;
+}
+@keyframes spin {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+/* endregion Прелоадер */
+/* todo: Фикс чекбокса. При переносе стилей убрать */
+.rd-checkbox-wrapper input[type="checkbox"],
+.rd-checkbox-wrapper > label {
+    margin: 0;
+}
+.rd-checkbox-text ::before,
+.rd-checkbox-text {
+    display: inline-flex;
+    align-items: center;
+}
+.rd-checkbox-text {
+    padding-top: 2px;
+}
+.rd-checkbox-wrapper .rd-checkbox-text::before {
+    z-index: 5;
+    margin-right: .5em;
+    margin-top: -1px;
+}
+.rd-checkbox-wrapper input[type="checkbox"]:not(:checked) ~ .rd-checkbox-text::before {
+    transform-origin: top left;
+}
+.default-text {
+    font-weight: inherit;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+/* region Булевый значок */
+.rd-boolean-true,
+.rd-boolean-false {
+    display: block;
+    margin: 0 auto;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+}
+.rd-boolean-true {
+    background-color: var(--rd-green-color);
+}
+.rd-boolean-false {
+    background-color: var(--rd-red-color);
+}
+/* endregion Булевый значок */
