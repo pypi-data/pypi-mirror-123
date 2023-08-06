@@ -1,0 +1,27 @@
+{
+    "log_debug_messages": false,
+    "logging": {
+        "append": false
+    },
+    "cache": {
+        "path": "$PTS_CACHE_DIR/trakt_cache"
+    },
+    "sync": {
+        "liked_lists": true,
+        "watchlist": true,
+        "watched_status": true,
+        "collection": true,
+        "ratings": true
+    },
+    "watch": {
+        "username_filter": false
+    },
+    "xbmc-providers": {
+        "movies": "imdb",
+        "shows": "tvdb"
+    },
+    "excluded-libraries": [
+        "Private",
+        "Family Holidays"
+    ]
+}
