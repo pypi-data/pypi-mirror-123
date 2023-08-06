@@ -1,0 +1,14 @@
+associated-database-summary
+***************************
+
+
+Description
+===========
+
+Summary of a Database currently using a Private Endpoint.
+
+
+Available Commands
+==================
+
+* list-associated-databases

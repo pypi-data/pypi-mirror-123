@@ -1,0 +1,26 @@
+setup
+*****
+
+
+Description
+===========
+
+Setup commands for CLI
+
+
+Available Commands
+==================
+
+* autocomplete
+
+* bootstrap
+
+* config
+
+* instance-principal
+
+* keys
+
+* oci-cli-rc
+
+* repair-file-permissions
