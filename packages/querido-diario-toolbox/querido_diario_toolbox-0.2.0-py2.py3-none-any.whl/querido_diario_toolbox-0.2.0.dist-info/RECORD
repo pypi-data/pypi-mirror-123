@@ -1,0 +1,17 @@
+querido_diario_toolbox/__init__.py,sha256=jkW_nR4e0PMBf5zOOZfMOOdUA0stM5a9iCotNHPlr64,68
+querido_diario_toolbox/__version__.py,sha256=zpHIM4v-sIMttitw4o_oPc-eiqXwmlmmcSwU6b3-XYw,63
+querido_diario_toolbox/gazette.py,sha256=mGbZWaApgRXcEf3dvh2xelD68LYtMKHpcMRj-vlyknw,2351
+querido_diario_toolbox/page.py,sha256=CM3SuLlQxrGPSGbwtEeGL-as5H2CRzdOPrCBkwK8OXs,1549
+querido_diario_toolbox/etl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+querido_diario_toolbox/etl/apache_tika_text_extractor.py,sha256=cALgRWEU3hOYuzYQ4hqIbtHyu6LcIPlmzYDZrpNTG9c,3464
+querido_diario_toolbox/etl/file_transform.py,sha256=XhcP8Kps9eLLNz1jNukEiZpNNeP2I6Tlq7fTiiGWfTs,6408
+querido_diario_toolbox/etl/text_extractor.py,sha256=aKIFWCCvYfHVjOajtxmVI9SBadE2cqOenETnOr1kQFg,367
+querido_diario_toolbox/etl/text_extractor_interface.py,sha256=EXG1l8KaGk_YUjH4RIEPOEmJDu-ugEoIV_5SVDfrarA,911
+querido_diario_toolbox/process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+querido_diario_toolbox/process/edition_process.py,sha256=nZbX5wA5siSTD7zTQKvpp7pVPY8XxneXNpM19zrTMGU,2291
+querido_diario_toolbox/process/text_process.py,sha256=WTNdEQRYPxyr1TA9j4juWvVUj8EY2Tg92U6SSOvx1P0,1740
+querido_diario_toolbox-0.2.0.dist-info/LICENSE,sha256=RE_Z_-5t3Uy_cWP8C-eoESqfKKyBe-F_w7A1QCPVv-c,1109
+querido_diario_toolbox-0.2.0.dist-info/METADATA,sha256=glNhIOL9ejqeUemxazd9UDWmpzF6mP3s4mlVNhqmlUw,4256
+querido_diario_toolbox-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+querido_diario_toolbox-0.2.0.dist-info/top_level.txt,sha256=J31RI9lhxJ2oJcsA-J7L4Bqp3_YbBaq9oi8MQWP6DC4,23
+querido_diario_toolbox-0.2.0.dist-info/RECORD,,
