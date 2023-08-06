@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: stracking
+Version: 0.1.2
+Summary: Particles tracking for scientific imaging
+Home-page: https://github.com/sylvainprigent/stracking
+Maintainer: Sylvain Prigent
+Maintainer-email: meriadec.prigent@gmail.com
+License: GNU General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/sylvainprigent/stracking/issues
+Project-URL: Documentation, https://sylvainprigent.github.io/stracking/
+Project-URL: Source Code, https://github.com/sylvainprigent/stracking
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy (>=1.13.3)
+Requires-Dist: scipy (>=0.19.1)
+Requires-Dist: joblib (>=0.11)
+Requires-Dist: threadpoolctl (>=2.0.0)
+Requires-Dist: scikit-image (>=0.13)
+Requires-Dist: pandas (>=0.25.0)
+Provides-Extra: benchmark
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'benchmark'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'benchmark'
+Requires-Dist: memory-profiler (>=0.57.0) ; extra == 'benchmark'
+Provides-Extra: docs
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'docs'
+Requires-Dist: scikit-image (>=0.13) ; extra == 'docs'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'docs'
+Requires-Dist: seaborn (>=0.9.0) ; extra == 'docs'
+Requires-Dist: memory-profiler (>=0.57.0) ; extra == 'docs'
+Requires-Dist: sphinx (>=3.0.3) ; extra == 'docs'
+Requires-Dist: sphinx-gallery (>=0.7.0) ; extra == 'docs'
+Requires-Dist: numpydoc (>=1.0.0) ; extra == 'docs'
+Requires-Dist: Pillow (>=7.1.2) ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'examples'
+Requires-Dist: scikit-image (>=0.13) ; extra == 'examples'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'examples'
+Requires-Dist: seaborn (>=0.9.0) ; extra == 'examples'
+Provides-Extra: tests
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'tests'
+Requires-Dist: scikit-image (>=0.13) ; extra == 'tests'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'tests'
+Requires-Dist: pytest (>=5.0.1) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'tests'
+Requires-Dist: flake8 (>=3.8.2) ; extra == 'tests'
+Requires-Dist: mypy (>=0.770) ; extra == 'tests'
+Requires-Dist: pyamg (>=4.0.0) ; extra == 'tests'
+
+=========
+STracking
+=========
+
+Scientific library track particles in 2D+t and 3D+t images.
+
+
