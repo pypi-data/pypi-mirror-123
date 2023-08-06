@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dep_appearances/__init__.py
+src/dep_appearances/appearances_report.py
+src/dep_appearances/cli.py
+src/dep_appearances/dependency.py
+src/dep_appearances/import_statement.py
+src/dep_appearances.egg-info/PKG-INFO
+src/dep_appearances.egg-info/SOURCES.txt
+src/dep_appearances.egg-info/dependency_links.txt
+src/dep_appearances.egg-info/entry_points.txt
+src/dep_appearances.egg-info/requires.txt
+src/dep_appearances.egg-info/top_level.txt

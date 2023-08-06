@@ -1,0 +1,3 @@
+[console_scripts]
+dep-appearances = dep_appearances.cli:main
+
