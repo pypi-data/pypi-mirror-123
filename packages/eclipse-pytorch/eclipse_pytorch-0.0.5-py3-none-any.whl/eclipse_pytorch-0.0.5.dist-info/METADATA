@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: eclipse-pytorch
+Version: 0.0.5
+Summary: A pytorch implementation of Eclipse
+Home-page: https://github.com/tcapelle/eclipse_pytorch/tree/master/
+Author: Thomas Capelle
+Author-email: thomascapelle@gmail.com
+License: Apache Software License 2.0
+Keywords: pytorch nowcasting solar energy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: torch (>1.6)
+Requires-Dist: fastcore
+Provides-Extra: dev
+
+# Eclipse
+> Implementing <a href='https://arxiv.org/pdf/2104.12419v1.pdf'>Paletta et al</a> in Pytorch
+
+
+Most of the codebase comes from [Fiery](https://github.com/wayveai/fiery)
+
+![Image](nbs/images/eclipse_diagram.png)
+
+## Install
+
+```bash
+pip install eclipse_pytorch
+```
+
+## How to use
+
+```python
+import torch
+
+from eclipse_pytorch.model import Eclipse
+```
+
+```python
+eclipse = Eclipse(horizon=5)
+```
+
+let's simulte some input images:
+
+```python
+images = [torch.rand(2, 3, 128, 128) for _ in range(4)]
+```
+
+```python
+preds = eclipse(images)
+```
+
+you get a dict with forecasted masks and irradiances:
+
+```python
+len(preds['masks']), preds['masks'][0].shape, preds['irradiances'].shape
+```
+
+
+
+
+    (6, torch.Size([2, 4, 128, 128]), torch.Size([2, 6]))
+
+
+
+## Citation
+
+```latex
+@article{paletta2021eclipse,
+  title     = {{ECLIPSE} : Envisioning Cloud Induced Perturbations in Solar Energy},
+  author    = {Quentin Paletta and Anthony Hu and Guillaume Arbod and Joan Lasenby},
+  year      = {2021},
+  eprinttype = {arXiv},
+  eprint    = {2104.12419}
+}
+```
+
+## Contribute
+
+This repo is made with [nbdev](https://github.com/fastai/nbdev), please read the documentation to contribute
+
+
