@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mtgx2nx/__init__.py
+mtgx2nx/parser.py
+mtgx2nx.egg-info/PKG-INFO
+mtgx2nx.egg-info/SOURCES.txt
+mtgx2nx.egg-info/dependency_links.txt
+mtgx2nx.egg-info/not-zip-safe
+mtgx2nx.egg-info/top_level.txt
