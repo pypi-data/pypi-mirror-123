@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dm-gym
+Version: 0.1.4b0
+Summary: DM-Gym: A set of environments for developing reinforcement learning agents for Data Mining problems.
+Home-page: https://github.com/ashwin-M-D/DM-Gym
+Author: Ashwin M Devanga
+Author-email: devanga.a@northeastern.edu
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
