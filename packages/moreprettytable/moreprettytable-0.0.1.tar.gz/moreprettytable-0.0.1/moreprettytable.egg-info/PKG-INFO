@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: moreprettytable
+Version: 0.0.1
+Summary: More Pretty Table
+Home-page: https://github.com/shosatojp/moreprettytable
+Author: shosatojp
+Author-email: me@shosato.jp
+License: Type license() to see the full license text
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

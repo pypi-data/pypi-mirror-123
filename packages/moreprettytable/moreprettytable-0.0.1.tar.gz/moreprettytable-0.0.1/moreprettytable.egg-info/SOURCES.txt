@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+moreprettytable/__init__.py
+moreprettytable/info.py
+moreprettytable.egg-info/PKG-INFO
+moreprettytable.egg-info/SOURCES.txt
+moreprettytable.egg-info/dependency_links.txt
+moreprettytable.egg-info/top_level.txt
