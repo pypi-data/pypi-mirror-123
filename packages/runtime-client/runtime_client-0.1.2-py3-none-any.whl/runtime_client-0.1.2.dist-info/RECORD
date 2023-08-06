@@ -1,0 +1,8 @@
+runtime_client/__init__.py,sha256=qV8iF1loa8W_oHHhiumHK1w9Os2xHSA0VoBeh7kFZDw,132
+runtime_client/__version__.py,sha256=UukfKVJEwGdpSKC8uvAL8lDT8HMPPeJa7FBvGGA_R0g,165
+runtime_client/api.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+runtime_client/client.py,sha256=vuv-yhI1Xlircw61Guis7dpT0SPfGjJq4MdAWR0YAVI,12018
+runtime_client-0.1.2.dist-info/METADATA,sha256=5dyburRQFs-2DmGhjYTyIxLCIhMGQDCEFgYR_2NAwYE,1083
+runtime_client-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+runtime_client-0.1.2.dist-info/top_level.txt,sha256=pfyZTZz1lmIFjcenjihJix4Giw9jQKDcEppmnM3X-58,15
+runtime_client-0.1.2.dist-info/RECORD,,

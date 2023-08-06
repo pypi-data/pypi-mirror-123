@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: runtime-client
+Version: 0.1.2
+Summary: Model Server implementation for AI Runtime.
+Home-page: UNKNOWN
+Author-email: pydemia@gmail.com
+License: https://github.com/kubeflow/kfserving/LICENSE
+Platform: UNKNOWN
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+Requires-Dist: argparse (>=1.4.0)
+Requires-Dist: kfserving (>=0.6.0)
+Requires-Dist: dill (>=0.3.3)
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: numba
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: pytest-tornasync ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+
+# Runtime Client
+
+To request inferences.
+
+```bash
+cp runtime_client/test/test_request.py ./
+
+python test_request_multiprocessing.py \
+  --client_type='kfserving' \
+  --domain='http://localhost:28080' \
+  --model_id='model' \
+  --concurrency=100 \
+  --batch_size=1 \
+  --data_shape='(224, 224, 3)' \
+  --each_data_num=20
+```
+
