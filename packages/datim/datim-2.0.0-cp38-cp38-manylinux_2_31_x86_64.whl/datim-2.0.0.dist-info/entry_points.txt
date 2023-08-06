@@ -1,0 +1,6 @@
+[console_scripts]
+datim=datim:setupc_datim
+datimp=datim:setup_datim
+imdat=datim:setupc_imdat
+imdatp=datim:setup_imdat
+
