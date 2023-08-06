@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: screcode
+Version: 0.1.1.dev202110150929
+Summary: scRECODE
+Home-page: https://github.com/yusukeimoto/scRECODE
+Author: Yusuke Imoto
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: scikit-learn (>=0.24)
+Requires-Dist: scipy (>=1.7.1)
+Requires-Dist: seaborn (>=0.11.2)
+Project-URL: Documentation, https://github.com/yusukeimoto/scRECODE
+Project-URL: Repository, https://github.com/yusukeimoto/scRECODE
+Description-Content-Type: text/markdown
+
+# scRECODE 
