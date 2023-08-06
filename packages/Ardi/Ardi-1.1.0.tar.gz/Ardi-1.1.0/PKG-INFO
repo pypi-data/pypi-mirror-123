@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Ardi
+Version: 1.1.0
+Summary: A Python module created by Muhammad Ardi Putra.
+Home-page: https://github.com/MuhammadArdiPutra
+Author: Muhammad Ardi Putra
+Author-email: muhammadardiputra4@gmail.com
+License: MIT
+Download-URL: https://github.com/MuhammadArdiPutra/ModuleByArdi/archive/refs/tags/v_1.1.0.tar.gz
+Description: The documentation of this package can be seen in https://github.com/MuhammadArdiPutra/ModuleByArdi. The line-by-line code explanation is shown in the "Documentation" folder.
+Keywords: Machine Learning,Computer Vision
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
