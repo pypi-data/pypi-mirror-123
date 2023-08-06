@@ -1,0 +1,6 @@
+blinker
+Flask
+pip>=6.0.0
+
+[tests]
+oarepo[tests-es7]
