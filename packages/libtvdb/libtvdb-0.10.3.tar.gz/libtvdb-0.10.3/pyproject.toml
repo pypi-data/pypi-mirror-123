@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "libtvdb"
+version = "0.10.3"
+description = "A wrapper around the TVDB API."
+
+license = "MIT"
+
+authors = [
+    "Dale Myers <dale@myers.io>"
+]
+
+readme = 'README.md'
+
+repository = "https://github.com/dalemyers/libtvdb"
+homepage = "https://github.com/dalemyers/libtvdb"
+
+keywords = ["tvdb", "tv", "tv database", "tv show"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+deserialize = "^1.2"
+requests = "^2.22"
+
+[tool.poetry.dev-dependencies]
+black = "=21.9b0"
+keyper = "=0.5.0"
+mypy = "=0.910"
+pylint = "=2.11.1"
+pytest = "=6.2.5"
+pytest-cov = "=3.0.0"
+types-requests = "^2.25.10"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
