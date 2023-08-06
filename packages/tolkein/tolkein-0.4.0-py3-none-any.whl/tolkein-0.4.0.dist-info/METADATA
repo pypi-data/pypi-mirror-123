@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: tolkein
+Version: 0.4.0
+Summary: Tree of Life Kit of Evolutionary Informatics Novelties
+Home-page: https://github.com/tolkit/tolkein
+Author: TolKit
+Author-email: tolkein@genomehubs.org
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/tolkit/tolkein/issues
+Project-URL: Source, https://github.com/tolkit/tolkein
+Keywords: bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/x-rst
+Requires-Dist: docopt (>=0.6.2)
+Requires-Dist: pyyaml
+Requires-Dist: requests (>=2.24.0)
+Requires-Dist: tqdm (>=4.48.1)
+Requires-Dist: ujson (>=3.0.0)
+Requires-Dist: xmltodict (>=0.12.0)
+Provides-Extra: dev
+Requires-Dist: pycodestyle (>=2.6.0) ; extra == 'dev'
+Requires-Dist: pydocstyle (>=5.0.2) ; extra == 'dev'
+Requires-Dist: pylint (>=2.5.3) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.6.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage (>=5.1) ; extra == 'test'
+Requires-Dist: coveralls (>=2.0.0) ; extra == 'test'
+Requires-Dist: mock (>=4.0.2) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.10.0) ; extra == 'test'
+Requires-Dist: pytest-isort (>=1.1.0) ; extra == 'test'
+Requires-Dist: pytest-mock (>=3.1.1) ; extra == 'test'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+
+=======
+Tolkein
+=======
+
+
+
+
+Tree of Life Kit of Evolutionary Informatics Novelties
+======================================================
+
+
+Installation
+============
+
+::
+
+    conda install -c tolkit tolkein
+
+or 
+
+    pip install tolkein
+
+You can also install the in-development version with::
+
+    pip install https://github.com/tolkit/tolkein/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://tolkein.readthedocs.io/
+
+
+Development
+===========
+
+To run all tests run::
+
+    tox
+
+
+Changelog
+=========
+
+0.2.0
+-----
+
+Features:
+* Added fetch methods
+* Switched code style to black/flake8
+
+Bug fixes:
+* Stopped log messages printing twice
+
+
+0.0.1 (2020-07-02)
+------------------
+
+* First release on PyPI.
+
+
