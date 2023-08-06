@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+selfbotUtils/__init__.py
+selfbotUtils/client.py
+selfbotUtils/enums.py
+selfbotUtils/exceptions.py
+selfbotUtils/http.py
+selfbotUtils/nitro.py
+selfbotUtils/utils.py
+selfbotUtils.egg-info/PKG-INFO
+selfbotUtils.egg-info/SOURCES.txt
+selfbotUtils.egg-info/dependency_links.txt
+selfbotUtils.egg-info/requires.txt
+selfbotUtils.egg-info/top_level.txt

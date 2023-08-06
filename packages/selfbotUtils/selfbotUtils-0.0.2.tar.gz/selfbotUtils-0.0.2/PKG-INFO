@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: selfbotUtils
+Version: 0.0.2
+Summary: A python module that makes selfbot creation extremely easy, without risking your account being phonebanned!
+Home-page: https://github.com/adam757521/selfbotUtils
+Author: adam7100
+License: MIT
+Download-URL: https://github.com/adam757521/selfbotUtils/archive/refs/tags/v0.0.1.tar.gz
+Keywords: python,sniper,discord,selfbot,discord-py,invite,user-friendly,friendly,discordbots
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">selfbotUtils</h1>
+
+<p align="center">
+  <a href="https://codefactor.io/repository/github/adam757521/selfbotUtils/"><img src="https://img.shields.io/codefactor/grade/github/adam757521/selfbotUtils?style=flat-square" /></a>
+  <a href="https://pepy.tech/project/selfbotUtils"><img src="https://img.shields.io/pypi/dm/selfbotUtils?color=green&style=flat-square" /></a>
+  <a href="https://pypi.org/project/selfbotUtils/"><img src="https://img.shields.io/pypi/v/selfbotUtils?style=flat-square" /></a>
+  <a href=""><img src="https://img.shields.io/pypi/l/selfbotUtils?style=flat-square" /></a>
+  <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square"></a>
+</p>
+
+<p align="center">
+   A python module that makes selfbot creation extremely easy, without risking your account being phonebanned!
+</p>
+
+Features
+-------------
+
+- Very easy to use and user-friendly.
+- Join invites, redeem nitro codes, without being phonebanned!
+(MORE COMING SOON!)
+
+Installation
+--------------
+
+Installing selfbotUtils is very easy.  
+
+```sh
+python -m pip install selfbotUtils
+```
+
+Examples
+--------------
+
+More examples are listed in the examples folder.
+
+Known Issues
+--------------
+
+- None.
+
+Disclaimer
+----------
+
+Automating user accounts is against the Discord ToS. This library is a proof of concept. Use at your own risk.
+
+
