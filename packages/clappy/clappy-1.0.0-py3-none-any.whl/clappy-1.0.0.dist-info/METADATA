@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: clappy
+Version: 1.0.0
+Summary: Command line argument parser for pythonic code
+Home-page: https://github.com/yoko72/clappy
+Author: Toshiyuki Yokoyama
+Author-email: yokoyamacode@gmail.com
+License: UNKNOWN
+Keywords: command line,argument,option,parser
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clappy
+
+Command Line Argument Parser for pythonic code.
+
+
+Simple example with clappy:
+
+    import clappy as cl
+
+    log_level = cl.parse("--log_level", defaut="warning")
+    is_verbose = cl.parse("--verbose", "-v", is_flag=True)
+
+    # set logger with them
+
+You can easily get each result independently.
+
+
+Equivalent script without clappy:
+
+    from argparse import ArgumentParser
+
+    parser = ArgumentParser()
+    parser.add_argument("--log_level", default="warning")
+    parser.add_argument("--verbose", "-v", action="store_true")
+    args = parser.parse_args()
+    log_level = args.log_level
+    is_verbose = args.verbose
+
+    # set logger with them
+    
+
+Script with clappy is more readable and writable.
+
+Especially when you have multiple modules requiring commandline argument, you will have a hard time without clappy. 
+You usually must manage same parser across multiple modules.
+After you register all arguments and parse result, you need to allocate each result to each module.
+
+For example if you have a common library like logging, it can happen.
+
+Clappy frees you from such tiresome process by independent parsing.
+
+
+## Install
+
+`pip install clappy`
+
+## How to use
+
+clappy is a wrapper of argparse. You can give arguments for clappy same as argparse. [Reference of argparse is here.](https://docs.python.org/ja/3/howto/argparse.html)
+
+Just call clappy.parse(*args, **kwargs) as if argparse.ArgumentParser().add_argument(*args, **kwargs). 
+Same args are applicable for clappy.parse. Additionally, clappy accepts one keyword argument, "is_flag".
+It's just an alias of action="store_true". If you set "is_flag" True, you don't need to give argument after the option.
+
+e.g.  clappy.parse("--verbose", is_flag=True)
+
+👍 --verbose 
+
+👎 --verbose True
+
+
+### Auto help generation
+
+If you want to generate help automatically, call clappy.create_help(). 
+It must be done after all arguments got parsed.
+
+### Subcommand
+
+When you have main.py saying:
+
+    sub_parser1 = clappy.get_subcommand_parser("sub1")
+    sub_parser2 = clappy.get_subcommand_parser("sub2")
+    arg1 = sub_parser1.parse("--option_for_sub1")
+    arg2 = sub_parser2.parse("--option_for_sub2")
+
+    
+
+### Construct parser with args
+
+Initialize parser with clappy.initialize_parser(*args, **kwargs).
+These args are also common with argparse.ArgumentParser(*args, **kwargs).
+
+### Parse with args
+
+Runs clappy.set_args_on_parse(*args, **kwargs).
+Same args with ArgumentParser().parse_args(*args, **kwargs)
+
+
+
+
+
