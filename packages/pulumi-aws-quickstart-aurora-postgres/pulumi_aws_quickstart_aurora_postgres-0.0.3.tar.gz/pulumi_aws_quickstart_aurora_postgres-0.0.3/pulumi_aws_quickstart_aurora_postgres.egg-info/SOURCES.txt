@@ -1,0 +1,13 @@
+README.md
+setup.py
+pulumi_aws_quickstart_aurora_postgres/__init__.py
+pulumi_aws_quickstart_aurora_postgres/_utilities.py
+pulumi_aws_quickstart_aurora_postgres/cluster.py
+pulumi_aws_quickstart_aurora_postgres/provider.py
+pulumi_aws_quickstart_aurora_postgres/py.typed
+pulumi_aws_quickstart_aurora_postgres.egg-info/PKG-INFO
+pulumi_aws_quickstart_aurora_postgres.egg-info/SOURCES.txt
+pulumi_aws_quickstart_aurora_postgres.egg-info/dependency_links.txt
+pulumi_aws_quickstart_aurora_postgres.egg-info/not-zip-safe
+pulumi_aws_quickstart_aurora_postgres.egg-info/requires.txt
+pulumi_aws_quickstart_aurora_postgres.egg-info/top_level.txt
