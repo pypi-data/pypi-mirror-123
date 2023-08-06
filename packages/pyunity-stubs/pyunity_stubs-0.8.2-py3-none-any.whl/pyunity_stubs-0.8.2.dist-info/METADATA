@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyunity-stubs
+Version: 0.8.2
+Summary: Stub files for the PyUnity package
+Home-page: https://github.com/pyunity/pyunity
+Author: Ray Chen
+Author-email: tankimarshal2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyunity (==0.8.2)
+
+# pyunity-stubs
+
+Stub files for the [PyUnity package](https://github.com/pyunity/pyunity)
+
+
