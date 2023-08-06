@@ -1,0 +1,10 @@
+espider/__init__.py,sha256=Qv1vyiWaySwT8eu9pyTurRp9Hw4Y22voSdAszXXCeg0,37359
+espider/response.py,sha256=OyNzOlIBwvCJfwM7a802EhdnBa_FTJeOGs7JotC18pg,24560
+espider/selector.py,sha256=w-1ApzvIe0u6ve4udcgSAGwLzDTvU_cIsY-ayX3RmbM,17308
+espider/spider.py,sha256=uWgyPbvua6BZlRwtNqXDXwVg5SlYQMQrABLQNfj2C-0,9220
+espider/utils.py,sha256=0uBs4ULbJdpdIzKFn6lSinm26z4YAgjLxTx6dCOESnI,11188
+espider-1.0.0.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+espider-1.0.0.dist-info/METADATA,sha256=ENEcNwRZe5_nbsy7Z4hKRC36fiifCQUmz2u_g4j-OqE,761
+espider-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+espider-1.0.0.dist-info/top_level.txt,sha256=wEHCEqOkLYHFMrfkiCrThj5-IvH1K15Tn4xSZFs9qXc,8
+espider-1.0.0.dist-info/RECORD,,
