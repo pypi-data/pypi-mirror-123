@@ -1,0 +1,12 @@
+errors/__init__.py,sha256=a_8SC6RzeTtKlXEZLZxyY6D36kxqP2yXYJnw5J1XTXo,53
+errors/__main__.py,sha256=_FzTBqrWPS1iF4iAjBNLydHK1V2_Bf82INJrQI9VmjU,380
+errors/base.py,sha256=II_IOZ0n3ASd23n7WbG09zPwqvQnQlSTNeGH3DHr5ic,1590
+errors/cli.py,sha256=R5LtzBYpSrt3ARIEOzHPiTwx3m1egSjQBFv_A5eiPdQ,844
+errors/error.py,sha256=vU-VMF3FsIWKoJWFmbRQg7NFuLPBCrAFnARUyfPWJAU,1833
+error_manager-1.0.0.dist-info/AUTHORS.rst,sha256=wa0o48zpTdE3LL06kbQcCL0FLrODHvSK3NXHgM9SGDM,38
+error_manager-1.0.0.dist-info/LICENSE,sha256=q88uRrC18XK55YsLjWs-_hbXeiHhj4hU-sukryF9vwY,43710
+error_manager-1.0.0.dist-info/METADATA,sha256=PjsfaQOxNNZE6xKdoJLD2LsKMtedOFREXKGAN5k89Cw,2931
+error_manager-1.0.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+error_manager-1.0.0.dist-info/entry_points.txt,sha256=uVdaUaXzUIAJw-HkamFKV6xQ6MUMzYmjQxKcUrS1MCU,44
+error_manager-1.0.0.dist-info/top_level.txt,sha256=-faFb0nzS6Z57ipYdQq5ZNGvg1JQqD5XUIharWfpR7g,7
+error_manager-1.0.0.dist-info/RECORD,,
