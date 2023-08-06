@@ -1,0 +1,17 @@
+idict/__init__.py,sha256=78S2QBbZAR_UB058ZBCkuHoASS69i_1GL2IJ6BiTu7w,1372
+idict/appearance.py,sha256=FrOjMMP2eoDsUGtz_cf-taUitPvC3U1cFayNsiJypHo,4764
+idict/compression.py,sha256=HjunAEUBO0gAZ9ooQLxvTtpx2w4eYliN07R4Xf12NZE,3232
+idict/config.py,sha256=LC2yyktluIvDwCAtGa1OrtWOf4V7_Xey_Jt8yTHUrkU,1693
+idict/core/__init__.py,sha256=A_YCIoahDNoxBIlAWSny_ysb8fKhv1uxr4irUxXc8Ks,1027
+idict/core/identification.py,sha256=RniXHo5qeEa2j9m2_PT2mMxULQCImkFNyHVOtLNVcgo,3807
+idict/core/idict_.py,sha256=ChzarfaRwdmVW2na_hmCAZt3zKOYI2fwUdXVWxKIB3I,11450
+idict/core/rshift.py,sha256=p8HrM5C5tTDOA9k5GU2agZMsEVvjMjtdzgNUn52C_u4,9571
+idict/frozenidentifieddict.py,sha256=7trvZNZWSjf4SLr6tyy57RWvLgC9f5xEt5gfkL6BMMo,12013
+idict/iempty.py,sha256=vsKOhdhVb0uTsBF1RF-iiAgy4S7s9MpWTqZZLBfAyok,1649
+idict/parameter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idict/parameter/ifunctionspace.py,sha256=qCx6ZaCEt5w_loOYcPMg9v9dmfxcch0thJmJXbZNze8,2881
+idict/parameter/ilet.py,sha256=MCOhR_U8ctJeYTsZDGBl0ufb_Z1VZfMGohPzYYoBSWo,5370
+idict-0.211018.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+idict-0.211018.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+idict-0.211018.3.dist-info/METADATA,sha256=ghDALcjqbnHDINsjeAeKvTUXf5e5uZo4hlHico-AIbA,17490
+idict-0.211018.3.dist-info/RECORD,,
