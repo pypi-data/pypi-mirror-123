@@ -1,0 +1,4 @@
+requests==2.26.0
+pydantic==1.8.2
+selenium==4.0.0
+webdriver_manager==3.5.0
