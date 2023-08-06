@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_plot_profile/__init__.py
+napari_plot_profile/_dock_widget.py
+napari_plot_profile.egg-info/PKG-INFO
+napari_plot_profile.egg-info/SOURCES.txt
+napari_plot_profile.egg-info/dependency_links.txt
+napari_plot_profile.egg-info/entry_points.txt
+napari_plot_profile.egg-info/requires.txt
+napari_plot_profile.egg-info/top_level.txt
+napari_plot_profile/_tests/__init__.py
+napari_plot_profile/_tests/test_dock_widget.py

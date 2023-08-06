@@ -1,0 +1,3 @@
+[napari.plugin]
+Measurements (Plot profile) = napari_plot_profile
+
