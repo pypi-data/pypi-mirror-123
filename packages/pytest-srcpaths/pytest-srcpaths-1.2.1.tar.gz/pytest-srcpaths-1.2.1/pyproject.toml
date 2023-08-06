@@ -1,0 +1,24 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pytest-srcpaths"
+authors = [{name = "Brian Okken", email = "brian+pypi@pythontest.com"}]
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = ["pytest>=6.2.0"]
+requires-python=">=3.7"
+
+[project.entry-points."pytest11"]
+plugin = "pytest_srcpaths"
+
+[project.optional-dependencies]
+test = [ "tox" ]
+
+[project.urls]
+Home = "https://github.com/okken/pytest-srcpaths"
+
+[tool.flit.module]
+name = "pytest_srcpaths"
