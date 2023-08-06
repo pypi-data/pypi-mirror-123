@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: PLManfred
+Version: 0.0.9
+Summary: This is an intelligent bot with whom you can talk (Only in Polish!!!)
+Home-page: UNKNOWN
+Author: F0X0000
+Author-email: wcalenief0x@gmail.com
+License: MIT
+Description: Manfred is ai.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (14/10/2021)
+        -------------------
+        - First Release
+        
+Keywords: manfred
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
