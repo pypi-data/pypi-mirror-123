@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: waypoint
+Version: 0.1.2
+Summary: Halo Waypoint python client
+Home-page: https://github.com/amickael/waypoint
+Author: Andrew Mickael
+Author-email: andrew.mickael@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: selenium (==4.0.0)
+Requires-Dist: webdriver-manager (==3.5.0)
+
+UNKNOWN
+
