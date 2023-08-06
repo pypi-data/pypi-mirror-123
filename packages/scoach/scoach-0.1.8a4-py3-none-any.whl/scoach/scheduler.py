@@ -1,0 +1,96 @@
+"""
+Provides the Scheduler class
+"""
+
+from dask_jobqueue import SLURMCluster
+
+from scoach.constants import constants
+from scoach.utils import load_env_as_type
+
+
+class Scheduler(SLURMCluster):  # pylint: disable=too-few-public-methods
+    """
+    Scheduler class
+
+    Essentially a wrapper for the Dask
+    SLURMCluster class.
+    """
+
+    # pylint: disable=too-many-arguments
+    def __init__(
+        self,
+        partition=None,
+        cores=None,
+        memory=None,
+        name=None,
+        exclusive=None,
+        max_workers=None,
+    ):
+        partition = partition or load_env_as_type(
+            constants.SLURM_PARTITION_ENV.value,
+            default=constants.SLURM_PARTITION_ENV_DEFAULT.value,
+        )
+        cores = cores or load_env_as_type(
+            constants.SLURM_CORES_PER_JOB_ENV.value,
+            int,
+            default=constants.SLURM_CORES_PER_JOB_ENV_DEFAULT.value,
+        )
+        memory = memory or load_env_as_type(
+            constants.SLURM_MEMORY_PER_JOB_ENV.value,
+            default=constants.SLURM_MEMORY_PER_JOB_ENV_DEFAULT.value,
+        )
+        name = name or load_env_as_type(
+            constants.SLURM_WORKER_NAME_ENV.value,
+            default=constants.SLURM_WORKER_NAME_ENV_DEFAULT.value,
+        )
+        exclusive = exclusive or load_env_as_type(
+            constants.SLURM_JOB_EXCLUSIVE_ENV.value,
+            bool,
+            default=constants.SLURM_JOB_EXCLUSIVE_ENV_DEFAULT.value,
+        )
+        max_workers = max_workers or load_env_as_type(
+            constants.SLURM_MAX_WORKERS_ENV.value,
+            int,
+            default=constants.SLURM_MAX_WORKERS_ENV_DEFAULT.value,
+        )
+        job_extra = ["--exclusive"] if exclusive else []
+        # SLURMCluster(
+        #     queue=partition, cores=cores, memory=memory, name=name, job_extra=job_extra,
+        # )
+        super().__init__(
+            queue=partition,
+            cores=cores,
+            memory=memory,
+            name=name,
+            job_extra=job_extra,
+        )
+
+
+def get_scheduler(
+    partition=None,
+    cores=None,
+    memory=None,
+    name=None,
+    exclusive=None,
+):
+    """
+    Returns a scheduler object
+
+    Args:
+        partition (str): SLURM partition to use
+        cores (int): Number of cores per job
+        memory (int): Memory per job
+        name (str): Name of the worker
+        exclusive (bool): Whether to run jobs on exclusive nodes
+        max_workers (int): Maximum number of workers
+
+    Returns:
+        Scheduler: A scheduler object
+    """
+    return Scheduler(
+        partition=partition,
+        cores=cores,
+        memory=memory,
+        name=name,
+        exclusive=exclusive,
+    )
