@@ -1,0 +1,15 @@
+pyray/__init__.py,sha256=h2KpWbtsawF3W-7RvF0GWHssZud_nkle1cfTF1g5gys,3259
+raylib/__init__.py,sha256=F7ImdJFinHMMepjKlCQeB9Si9qC09FPvsWYiGioavmE,922
+raylib/__init__.pyi,sha256=UlxQjMQH1l_h7RnD7VW-N3XqRo6HY8UnDEKBpJSO4U8,67747
+raylib/_raylib_cffi.pypy36-pp73-x86_64-linux-gnu.so,sha256=JXpklNeUCY3ybobMoPaZK_aL9qk817bx-hsltgJFGiA,2195456
+raylib/build.py,sha256=FHMFeEHX2uYLekqMGgJtDt1cv_060Nvs4nh8kpL6SzA,4029
+raylib/colors.py,sha256=cH70nGf_i3ddO8kKV79tZJPhRylrH9qAVtTZgsg_pcM,1521
+raylib/pyray.py,sha256=62DbICg9lVEjpTgsQne_pdk8_hbudNgsyWZYGdCJZWc,3756
+raylib/raylib.h,sha256=iAVhaeHpbwT0pn_Wv0uLL2GVPUBmqh8t7wXyA1pQ1EA,101577
+raylib/raylib_modified.h,sha256=C0A33JbJztG24z7xpR3vimaO5Weu473Jwz5jyejIdKA,95647
+raylib/version.py,sha256=n1IAfxjFPK91dw1S6dCjNy5nRuV2tmLURz3pt2B--4E,28
+raylib-3.7.0.post10.dist-info/LICENSE,sha256=C-zxZWe-t3-iUrdmRjHdF3yPmhiJ5ImVtFN5xxMOUwM,14198
+raylib-3.7.0.post10.dist-info/METADATA,sha256=rXEh_pu14LdvCJEnQ9jYtpELCS8a6tjijICEuzmAopQ,4513
+raylib-3.7.0.post10.dist-info/WHEEL,sha256=oxRXrmvZiCMquhNBwp8kVt_FShrtos-PxNLGXjBTEaE,118
+raylib-3.7.0.post10.dist-info/top_level.txt,sha256=PnMBDWaUP4jsbn_NewagcC9FjHYpzSAIQuhxNzt9hkg,13
+raylib-3.7.0.post10.dist-info/RECORD,,
