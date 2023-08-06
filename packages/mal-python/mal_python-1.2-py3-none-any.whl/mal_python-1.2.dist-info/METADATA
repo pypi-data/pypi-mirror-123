@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: mal-python
+Version: 1.2
+Summary: An implementation of the lisp-like programming language mal in Python3.
+Home-page: https://github.com/hershen/mal/tree/master/impls/myPython
+Author: Alon Hershenhorn
+Author-email: hershen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: readline; platform_system == "Linux"
+Requires-Dist: pyreadline; platform_system == "Windows"
+
+This is an implementation of the lisp-like programming language mal.
+It is implemented in Python3.
+

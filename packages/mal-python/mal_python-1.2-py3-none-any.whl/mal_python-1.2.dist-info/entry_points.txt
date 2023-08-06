@@ -1,0 +1,3 @@
+[console_scripts]
+mal=mal_python.stepA_mal:main
+
