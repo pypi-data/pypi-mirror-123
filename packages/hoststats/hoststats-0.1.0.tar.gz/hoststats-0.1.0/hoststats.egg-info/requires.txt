@@ -1,0 +1,6 @@
+click
+flask
+numpy
+pandas
+psutil
+requests
