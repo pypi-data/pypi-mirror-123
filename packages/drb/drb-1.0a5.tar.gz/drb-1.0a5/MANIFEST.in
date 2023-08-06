@@ -1,0 +1,2 @@
+include versioneer.py
+include drb_data_model/_version.py
