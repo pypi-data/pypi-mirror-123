@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>com.github.Matoking.protontricks</id>
+  <extends>com.valvesoftware.Steam</extends>
+  <name>protontricks</name>
+  <summary>A simple wrapper that does winetricks things for Proton enabled games.</summary>
+  <summary xml:lang="pt_BR">Um invólucro simples que executa truques de winetricks para jogos habilitados para usar o Proton.</summary>
+  <summary xml:lang="es">Un contenedor simple que realiza trucos de winetricks para juegos habilitados para usar Proton.</summary>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://raw.githubusercontent.com/Matoking/protontricks/master/data/screenshot.png</image>
+      <caption>App selection screen</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <description>
+    <p>A simple wrapper that does winetricks things for Proton enabled games.</p>
+  </description>
+  <url type="homepage">https://github.com/Matoking/protontricks/wiki</url>
+  <url type="help">https://github.com/Matoking/protontricks/wiki</url>
+  <url type="bugtracker">https://github.com/Matoking/protontricks/issues</url>
+  <project_license>GPL-3.0</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <releases>
+    <release version="1.6.1" date="2021-10-18"/>
+  </releases>
+</component>
