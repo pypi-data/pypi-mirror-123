@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyIFD
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: cython
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image
+Requires-Dist: pillow
+Requires-Dist: opencv-python
+Requires-Dist: PyWavelets
+Requires-Dist: jpegio
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+UNKNOWN
+
+
