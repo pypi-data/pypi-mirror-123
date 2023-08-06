@@ -1,0 +1,12 @@
+[console_scripts]
+czi_to_tiff=pygpseq.scripts.czi_to_tiff:run
+gpseq_anim=pygpseq.scripts.gpseq_anim:run
+gpseq_fromfish=pygpseq.scripts.gpseq_fromfish:run
+gpseq_fromfish_merge=pygpseq.scripts.gpseq_fromfish_merge:run
+nd2_to_tiff=pygpseq.scripts.nd2_to_tiff:run
+tiff_auto3dseg=pygpseq.scripts.tiff_auto3dseg:run
+tiff_desplit=pygpseq.scripts.tiff_desplit:run
+tiff_findoof=pygpseq.scripts.tiff_findoof:run
+tiff_split=pygpseq.scripts.tiff_split:run
+tiffcu=pygpseq.scripts.tiffcu:run
+
