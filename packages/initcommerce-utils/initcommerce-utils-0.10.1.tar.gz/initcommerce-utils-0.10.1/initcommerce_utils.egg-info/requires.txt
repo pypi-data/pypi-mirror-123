@@ -1,0 +1,6 @@
+coloredlogs~=15.0
+fastapi~=0.68
+pydantic[dotenv]~=1.8
+strawberry-graphql[debug-server]~=0.78
+tenacity~=8.0
+uvicorn[standard]~=0.15
