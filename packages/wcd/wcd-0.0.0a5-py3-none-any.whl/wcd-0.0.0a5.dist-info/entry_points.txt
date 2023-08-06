@@ -1,0 +1,4 @@
+[console_scripts]
+wcc = wcd.wcc:main
+wcd = wcd.wcd:main
+
