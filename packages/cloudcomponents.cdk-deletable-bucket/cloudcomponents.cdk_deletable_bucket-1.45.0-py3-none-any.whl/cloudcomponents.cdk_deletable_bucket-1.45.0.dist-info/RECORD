@@ -1,0 +1,9 @@
+cloudcomponents/cdk_deletable_bucket/__init__.py,sha256=J8sTLrR68DAm-PFwPYWV4r6qPhLrrwhn-5sx8bAgEtw,32963
+cloudcomponents/cdk_deletable_bucket/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_deletable_bucket/_jsii/__init__.py,sha256=CpUuiJ01N8uaO4ySVkVoGJo0AUpIktfmdLXOJD96xI0,508
+cloudcomponents/cdk_deletable_bucket/_jsii/cdk-deletable-bucket@1.45.0.jsii.tgz,sha256=GtdXYQ-3FwuSOQtW47Gdx6RZ6aLOZ-8VgBnJmAslK90,45560
+cloudcomponents.cdk_deletable_bucket-1.45.0.dist-info/LICENSE,sha256=DC5mwzjdvc14vNIkGbMDFyOOJTkxI2b_1OtpeNA0A0A,1072
+cloudcomponents.cdk_deletable_bucket-1.45.0.dist-info/METADATA,sha256=kZwMaoyGPZUkZgfpKVUMhy_SmSxzLtG3PVdRFJnurDw,3398
+cloudcomponents.cdk_deletable_bucket-1.45.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloudcomponents.cdk_deletable_bucket-1.45.0.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_deletable_bucket-1.45.0.dist-info/RECORD,,
