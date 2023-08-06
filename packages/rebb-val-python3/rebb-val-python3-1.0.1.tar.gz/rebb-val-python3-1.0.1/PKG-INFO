@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: rebb-val-python3
+Version: 1.0.1
+Summary: Python3 version of RebbVal
+Home-page: https://github.com/tmfc/RebbVal-Python
+Author: William Jin
+Author-email: jinwei@gmail.com
+License: LGPLv2.1
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# RebbVal-Python
+
+Python verion of RebbVal
+
+## What is RebbVal
+
+Is RebbVal a validation library? Nope, RebbVal is a external DSL for validation. It makes writing validation rules easier and more natural. Since it is more human readable than most of existing validation libraries, it means less bugs.
+
+> A [domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language) (DSL) is a computer language specialized to a particular application domain.
+
+## Document
+
+* [English](https://willking.gitbook.io/rebb-val/)
+* [Chinese](https://willking.gitbook.io/rebb-val/v/zh-cn/)
+
+## Other Language
+
+* [RebbVal-Java](https://github.com/tmfc/RebbVal)
+* [RebbVal-JavaScript](https://github.com/tmfc/RebbVal-JS)
+* [RebbVal-PHP](https://github.com/tmfc/RebbVal-PHP)
+
+
