@@ -1,0 +1,8 @@
+setup.py
+mikhaylov_test_module/__init__.py
+mikhaylov_test_module/fast_hist.py
+mikhaylov_test_module.egg-info/PKG-INFO
+mikhaylov_test_module.egg-info/SOURCES.txt
+mikhaylov_test_module.egg-info/dependency_links.txt
+mikhaylov_test_module.egg-info/requires.txt
+mikhaylov_test_module.egg-info/top_level.txt
