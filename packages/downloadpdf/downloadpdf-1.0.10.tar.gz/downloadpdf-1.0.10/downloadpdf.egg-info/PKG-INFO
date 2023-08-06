@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: downloadpdf
+Version: 1.0.10
+Summary: Download PDF from URL
+Home-page: https://github.com/PythonCheatsheet/downloadpdf/
+Author: Anit Shrestha Manandhar
+Author-email: codeanit@gmail.com
+Maintainer: Anit Shrestha Manandhar
+Maintainer-email: codeanit@gmail.com
+License: MIT
+Keywords: Download,PDF,Scrap
+Platform: ubuntu-latest
+Requires-Python: >=3.6
+License-File: LICENSE
+
+For more information visit code repository.
+
