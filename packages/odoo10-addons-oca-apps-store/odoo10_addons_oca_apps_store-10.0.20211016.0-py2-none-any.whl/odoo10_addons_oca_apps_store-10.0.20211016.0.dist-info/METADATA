@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-apps-store
+Version: 10.0.20211016.0
+Summary: Meta package for oca-apps-store Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-apps-download
+Requires-Dist: odoo10-addon-apps-product-creator
+Requires-Dist: odoo10-addon-website-apps-store
+
+UNKNOWN
+
