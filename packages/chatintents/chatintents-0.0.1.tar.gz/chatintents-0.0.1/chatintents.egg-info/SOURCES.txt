@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+chatintents/ChatIntents.py
+chatintents/__init__.py
+chatintents/chatintents.py
+chatintents.egg-info/PKG-INFO
+chatintents.egg-info/SOURCES.txt
+chatintents.egg-info/dependency_links.txt
+chatintents.egg-info/requires.txt
+chatintents.egg-info/top_level.txt
