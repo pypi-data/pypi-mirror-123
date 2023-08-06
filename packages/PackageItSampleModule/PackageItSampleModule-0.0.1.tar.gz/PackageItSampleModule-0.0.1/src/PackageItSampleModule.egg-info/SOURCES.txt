@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/PackageItSampleModule.egg-info/PKG-INFO
+src/PackageItSampleModule.egg-info/SOURCES.txt
+src/PackageItSampleModule.egg-info/dependency_links.txt
+src/PackageItSampleModule.egg-info/requires.txt
+src/PackageItSampleModule.egg-info/top_level.txt
+src/packageitsamplemodule/__init__.py
+src/packageitsamplemodule/packageitsamplemodule.py
