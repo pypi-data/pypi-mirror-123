@@ -1,0 +1,11 @@
+dgraph_orm/__init__.py,sha256=98dkat7e4PyZjTs2FnuVxCnrs7dYzKfq9Aldg-V3VVQ,166
+dgraph_orm/dgraph_model.py,sha256=8LK4ZkmUBXKPDBCfsGcG7DpUBjvh8dEADoeWHqk3BSA,1997
+dgraph_orm/execute.py,sha256=zSghXcwr8jYCJMmBFXERVZohLmZ7Y0GYYoW4Y5T2Wus,1652
+dgraph_orm/gql.py,sha256=VzA9APJw8c6aVobOwu7IWGpaVcg-ogzIzp5xAo84aJ0,272
+dgraph_orm/layers.py,sha256=sss1Y2SqrXRKQUFk0tnXCQpkSN49ESTFRSM44-VDA_8,1605
+dgraph_orm/node.py,sha256=QWP9bD0FN9EX2FOQOUD8L9kqe2P0ZQwiJD1SzXsDbzs,8126
+dgraph_orm/resolver.py,sha256=V99e3Iy32UKNHx4si6E36S3Sgf_z5vSQTUx-hdtTuD4,6107
+dgraph_orm/resolver_old.py,sha256=-8MJd8MROxMgMN-4Wj4WrTaRAJLgIvSYUuWeSKCGDac,7172
+dgraph_orm-0.1.22.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+dgraph_orm-0.1.22.dist-info/METADATA,sha256=Y1Dj165blbLCUrND0FrYxXFcrPce0KP-87iRPGxaTg8,500
+dgraph_orm-0.1.22.dist-info/RECORD,,
