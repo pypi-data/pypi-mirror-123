@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/YeetsMenu/Menu.py
+src/YeetsMenu/__init__.py
+src/YeetsMenu/generics/__init__.py
+src/YeetsMenu/generics/selectable.py
+src/YeetsMenu/utils/__init__.py
+src/YeetsMenu/utils/option.py
+src/YeetsMenu/utils/utils.py
+src/yeetsmenu.egg-info/PKG-INFO
+src/yeetsmenu.egg-info/SOURCES.txt
+src/yeetsmenu.egg-info/dependency_links.txt
+src/yeetsmenu.egg-info/requires.txt
+src/yeetsmenu.egg-info/top_level.txt
