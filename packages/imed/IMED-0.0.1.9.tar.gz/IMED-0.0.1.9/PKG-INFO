@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: IMED
+Version: 0.0.1.9
+Summary: IMED is now imed
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # IMED is now imed
+        
+        This package has been renamed. Use `pip install imed` instead.
+        
+        New package: https://pypi.org/project/imed/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
