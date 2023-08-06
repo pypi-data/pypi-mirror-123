@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+egauziy.egg-info/PKG-INFO
+egauziy.egg-info/SOURCES.txt
+egauziy.egg-info/dependency_links.txt
+egauziy.egg-info/top_level.txt
