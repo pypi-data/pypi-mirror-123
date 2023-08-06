@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+bdf2ttf/__init__.py
+bdf2ttf/convert.py
+bdf2ttf/feature.py
+bdf2ttf.egg-info/PKG-INFO
+bdf2ttf.egg-info/SOURCES.txt
+bdf2ttf.egg-info/dependency_links.txt
+bdf2ttf.egg-info/entry_points.txt
+bdf2ttf.egg-info/requires.txt
+bdf2ttf.egg-info/top_level.txt

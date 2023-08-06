@@ -1,0 +1,4 @@
+[console_scripts]
+bdf2ttf = bdf2ttf.convert:main
+yml2fea = bdf2ttf.feature:main
+
