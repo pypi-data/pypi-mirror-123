@@ -1,0 +1,7 @@
+README.md
+setup.py
+videdit.egg-info/PKG-INFO
+videdit.egg-info/SOURCES.txt
+videdit.egg-info/dependency_links.txt
+videdit.egg-info/entry_points.txt
+videdit.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+videdit = videdit.__main__:main
+
