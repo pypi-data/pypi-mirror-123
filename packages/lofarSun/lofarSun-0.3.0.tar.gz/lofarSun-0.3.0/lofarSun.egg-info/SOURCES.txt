@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+lofarSun/__init__.py
+lofarSun.egg-info/PKG-INFO
+lofarSun.egg-info/SOURCES.txt
+lofarSun.egg-info/dependency_links.txt
+lofarSun.egg-info/requires.txt
+lofarSun.egg-info/top_level.txt
