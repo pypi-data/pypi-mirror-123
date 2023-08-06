@@ -1,0 +1,3 @@
+[console_scripts]
+django-admin = murat_python_package.main_pkg:main_fonksiyon
+
