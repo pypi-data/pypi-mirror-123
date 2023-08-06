@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+unidecode
+python-dateutil
+rapidfuzz
+readability-lxml
+trafilatura
+cached-property
