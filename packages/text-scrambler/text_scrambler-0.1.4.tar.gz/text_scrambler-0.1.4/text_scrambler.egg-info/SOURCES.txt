@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+./text_scrambler/txt_files/confusablesSummary.txt
+text_scrambler/__init__.py
+text_scrambler/__main__.py
+text_scrambler/dictionaries.py
+text_scrambler/text_scrambler.py
+text_scrambler.egg-info/PKG-INFO
+text_scrambler.egg-info/SOURCES.txt
+text_scrambler.egg-info/dependency_links.txt
+text_scrambler.egg-info/top_level.txt
+text_scrambler/txt_files/confusablesSummary.txt
