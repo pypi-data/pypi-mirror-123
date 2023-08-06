@@ -1,0 +1,21 @@
+{
+"name": "wolken-image-openstack",
+"provider": "openstack",
+"description": "Short example for testing.",
+"user": "ubuntu",
+"cloud": "devops",
+"network": {
+    "name": "kiosk-net",
+	"floating-ip": "true"
+    },
+"instance_type": "ECS.GP1.2-8",
+"base_image": {
+    "doc-string": "This is the base image as of 17-Mar-2021",
+    "name": "ubuntu-focal-cloud-2021-09-24"
+},
+"tags": [{"foo": "bar"}, {"software-version": "0.1"}],
+"uploads": {"examples/upload/foo.txt": "/tmp/upload/foo.txt",
+	    "examples/upload/bar.txt": "/tmp/upload/bar.txt"},
+"commands": [ "sudo apt-get update", "sudo apt-get install --allow-remove-essential -y grub-pc 'grub-efi*-'",
+              "sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade"]
+}

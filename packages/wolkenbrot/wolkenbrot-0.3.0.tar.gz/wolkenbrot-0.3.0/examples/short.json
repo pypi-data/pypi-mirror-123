@@ -1,0 +1,17 @@
+{
+"name": "short_",
+"provider": "aws",
+"description": "Short example for testing.",
+"user": "ubuntu",
+"region": "us-east-1",
+"instance_type": "t2.micro",
+"base_image": {
+    "doc-string": "AMI for Ubuntu 20.04 in us-east-1",
+    "us-east-1": "ami-089b5711e63812c2a"
+},
+"tags": [{"owner": "oznt"}, {"project": "my project"}],
+"uploads": {"examples/upload/foo.txt": "/tmp/upload/foo.txt",
+	    "examples/upload/bar.txt": "/tmp/upload/bar.txt"},
+"commands": [ "sudo apt-get update",
+              "sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade"]
+}
