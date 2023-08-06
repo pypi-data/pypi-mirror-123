@@ -1,0 +1,3 @@
+[console_scripts]
+pythief-dj = commands.cli:cli
+
