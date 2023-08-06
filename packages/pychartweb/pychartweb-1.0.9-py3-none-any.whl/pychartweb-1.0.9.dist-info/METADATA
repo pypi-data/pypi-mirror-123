@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: pychartweb
+Version: 1.0.9
+Summary: Display Graph
+Home-page: UNKNOWN
+Author: Harsh
+Author-email: <singhharshhs586@gmail.com>
+License: UNKNOWN
+Keywords: python,chart.js,show chart
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bottle
+
+
+# pygraph
+
+
+Developed by Harsh-singh586 2021
+
+## Examples of How To Use
+
+```python
+import pychartweb
+
+g1 = pychartweb.graph(name , x-xis)
+g1.adddata(graph_type , lebel, y-axis, background_color)
+g1.adddata(graph_type , lebel, y-axis, background_color)
+pychartweb.show([g1])
+```
+
+Example Single Graph
+```python
+import pychartweb
+
+# Choose One
+
+g1 = pychartweb.graph('first', ['firstval', 'secval'])
+g1.adddata('bar', 'test', [4, 3], ['yellow', 'green'])
+pychartweb.show([g1])
+```
+
+Example Muptiple Graph
+```python
+import pychartweb
+
+# Choose One
+
+g1 = pychartweb.graph('first', ['firstval', 'secval'])
+g1.adddata('bar', 'test', [4, 3], ['yellow', 'green'])
+g2 = pychartweb.graph('second', ['firstval', 'secval'])
+g2.adddata('bar', 'test', [8, 7], ['yellow', 'green'])
+pychartweb.show([g1, g2])
+```
+
+Example Mixed Graph
+```python
+import pychartweb
+
+# Choose One
+
+g1 = pychartweb.graph('first', ['firstval', 'secval'])
+g1.adddata('bar', 'test', [4, 3], ['yellow', 'green'])
+g1.adddata('line', 'test', [8, 7], ['red', 'blue'])
+pychartweb..show([g1])
+```
+
+You can see your graph on http://localhost:8000
+
+NOTE:
+   
+   1. No two graph name can be same
+   2. Number of values on y-axis must be same as x-axis
+   3. Graphs Available
+       1. 'bar'
+       2. 'line'
+       3. 'polar'
+       4. 'doughnut'
+       5. 'pie'
+
+
+![Sampple](https://drive.google.com/file/d/18PEXV5CqfzB5ZA-wz0QZztSgQJnlY4I4/view?usp=sharing)
+
+Check out: https://github.com/Harsh-singh586/pygraph
+
