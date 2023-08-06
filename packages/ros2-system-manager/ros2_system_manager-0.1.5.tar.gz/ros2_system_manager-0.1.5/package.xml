@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+GNU General Public License 3.0
+
+This file is part of the ros2_system_manager
+package (https://github.com/rbonghi/ros2_system_manager or http://rnext.it).
+Copyright (c) 2021 Raffaello Bonghi.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+-->
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+   <name>ros2_system_manager</name>
+   <version>0.1.5</version>
+   <description>ros system manager</description>
+   <author email="raffaello@rnext.it">Raffaello Bonghi</author>
+   <maintainer email="raffaello@rnext.it">Raffaello Bonghi</maintainer>
+   <license>MIT</license>
+
+   <url type="website">https://github.com/rbonghi/ros2_system_manager</url>
+   <url type="repository">https://github.com/rbonghi/ros2_system_manager</url>
+   <url type="bugtracker">https://github.com/rbonghi/ros2_system_manager/issues</url>
+
+   <test_depend>ament_copyright</test_depend>
+   <test_depend>ament_flake8</test_depend>
+   <test_depend>ament_pep257</test_depend>
+   <test_depend>python3-pytest</test_depend>
+
+   <exec_depend>rclpy</exec_depend>
+   <exec_depend>std_srvs</exec_depend>
+   <exec_depend>diagnostic_msgs</exec_depend>
+   <exec_depend>joy</exec_depend>
+
+   <export>
+      <build_type>ament_python</build_type>
+   </export>
+</package>

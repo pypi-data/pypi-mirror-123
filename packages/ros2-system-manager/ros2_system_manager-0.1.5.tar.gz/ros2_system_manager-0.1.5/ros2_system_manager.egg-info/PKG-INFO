@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: ros2-system-manager
+Version: 0.1.5
+Summary: ros system manager
+Home-page: https://github.com/rbonghi/ros2_system_manager
+Author: Raffaello Bonghi
+Author-email: raffaello@rnext.it
+Maintainer: Raffaello Bonghi
+Maintainer-email: raffaello@rnext.it
+License: GPLv3
+Download-URL: https://github.com/rbonghi/ros2_system_manager/archive/master.zip
+Project-URL: How To, https://github.com/rbonghi/ros2_system_manager
+Project-URL: Examples, https://github.com/rbonghi/ros2_system_manager/tree/master/examples
+Project-URL: Bug Reports, https://github.com/rbonghi/ros2_system_manager/issues
+Project-URL: Source, https://github.com/rbonghi/ros2_system_manager/tree/master
+Description: # 👨‍💻 ros2_system_manager
+        ros2 system manager for your robot
+        
+        Make available in docker shutdown and other system commands directly from ROS2 services
+        
+        # Test manager
+        ```
+        docker run -it --rm --network host -v /run/ros2sm.sock:/run/ros2sm.sock rbonghi/ros2_system_manager:latest
+        ```
+        
+        # Develop
+        
+        Install in dev mode the package
+        
+        ```
+        sudo -H pip3 install -v -e .
+        ```
+        
+        ## Build ros2 package
+        
+        ```
+        colcon build --symlink-install
+        ```
+        
+        ## Build docker
+        
+        You can test the docker image build the image
+        
+        ```
+        docker build -t rbonghi/ros2_system_manager:latest .
+        ```
+        
+        ## Develop
+        ```
+        docker run -it --rm --network host -v /run/ros2sm.sock:/run/ros2sm.sock -v $HOME/nanosaur_ws/src/ros2_system_manager:/opt/ros_ws/src/ros2_system_manager rbonghi/ros2_system_manager:latest bash
+        ```
+        
+        # Test
+        
+        To run a test
+        ```
+        colcon test --event-handlers console_cohesion+ --return-code-on-test-failure --packages-select ros2_system_manager
+        ```
+Keywords: ros2 foxy system manager
+Platform: linux
+Platform: linux2
+Platform: darwin
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
