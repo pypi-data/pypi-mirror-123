@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dune-xt
+Version: 2021.1.4
+Summary: Python for Dune-Xt
+Home-page: https://github.com/dune-community/dune-xt
+Author: The dune-xt devs
+Author-email: dune-xt-dev@listserv.uni-muenster.de
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: jinja2
+Requires-Dist: docopt
+Requires-Dist: pylicense3 (>=0.4.1)
+Requires-Dist: ipython
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: cmake-format (==0.4.1)
+Requires-Dist: codecov
+Requires-Dist: yapf (==0.25)
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: k3d
+Requires-Dist: vtk
+Requires-Dist: ipywidgets
+Requires-Dist: lxml
+Requires-Dist: xmljson
+Provides-Extra: parallel
+
+UNKNOWN
+
