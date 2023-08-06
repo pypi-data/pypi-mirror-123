@@ -1,0 +1,15 @@
+pandas
+numpy
+cython
+meshio
+trimesh
+PySimultan
+vg
+gmsh
+pygmsh
+pyntcloud
+appdirs
+sqlalchemy
+Psycopg2
+openpyxl
+pvlib
