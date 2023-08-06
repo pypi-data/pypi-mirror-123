@@ -1,0 +1,61 @@
+{% extends 'admin/kmuhelper/change_form.html' %}
+
+{% block object-tools %}
+    <ul class="object-tools">
+        {% if change %}{% if not is_popup %}
+            {% block object-tools-items %}
+                {% if original.woocommerceid %}
+                    <li><a href="{% url 'kmuhelper:wc-update-customer' object_id %}">Von WooCommerce importieren und ersetzen</a></li>
+                {% endif %}
+
+                {% if perms.kmuhelper.view_email or perms.kmuhelper.add_email %}
+                    {% load kmuhelper_tags %}
+                    {% kmuhelper_email_show_buttons as show_email_buttons %}
+                    {% if show_email_buttons %}
+                        
+                        <li class="dropdown">
+                            <a href="#">E-Mails</a>
+                            <div>
+                                <b>E-Mails</b>
+                                <hr>
+
+                                {% if perms.kmuhelper.view_emailtemplate and perms.kmuhelper.add_email %}
+                                    <a href="{% url 'admin:kmuhelper_emailtemplate_savevars' %}?{{ original.to_query_string }}">Zu E-Mail-Vorlage</a>
+                                {% endif %}
+                                <hr>
+                                {% if original.email %}
+                                    {% if original.email_registriert and perms.kmuhelper.view_email %}
+                                        <a href="{% url 'admin:kmuhelper_email_change' original.email_registriert.pk %}">Registrierungsemail ansehen</a>
+                                    {% endif %}
+                                    {% if perms.kmuhelper.add_email and perms.kmuhelper.change_kunde %}
+                                        <a href="{% url 'admin:kmuhelper_kunde_email_registriert' object_id %}">Registrierungsemail generieren</a>
+                                    {% endif %}
+                                {% else %}
+                                    <a href="" class="disabled">Registrierungsemail</a>
+                                {% endif %}
+                            </div>
+                        </li>
+
+                    {% endif %}
+                {% endif %}
+
+                {{ block.super }}
+            {% endblock %}
+        {% endif %}{% endif %}
+
+        <li><a href="#id_lieferadresse_vorname" onclick="copyform();">Rechnungsadresse -> Lieferadresse</a></li>
+        <script>
+        function copyform(){
+            document.getElementById("id_lieferadresse_vorname").value = document.getElementById("id_rechnungsadresse_vorname").value;
+            document.getElementById("id_lieferadresse_nachname").value = document.getElementById("id_rechnungsadresse_nachname").value;
+            document.getElementById("id_lieferadresse_firma").value = document.getElementById("id_rechnungsadresse_firma").value;
+            document.getElementById("id_lieferadresse_adresszeile1").value = document.getElementById("id_rechnungsadresse_adresszeile1").value;
+            document.getElementById("id_lieferadresse_adresszeile2").value = document.getElementById("id_rechnungsadresse_adresszeile2").value;
+            document.getElementById("id_lieferadresse_ort").value = document.getElementById("id_rechnungsadresse_ort").value;
+            document.getElementById("id_lieferadresse_kanton").value = document.getElementById("id_rechnungsadresse_kanton").value;
+            document.getElementById("id_lieferadresse_plz").value = document.getElementById("id_rechnungsadresse_plz").value;
+            document.getElementById("id_lieferadresse_land").value = document.getElementById("id_rechnungsadresse_land").value;
+        }
+        </script>
+    </ul>
+{% endblock %}

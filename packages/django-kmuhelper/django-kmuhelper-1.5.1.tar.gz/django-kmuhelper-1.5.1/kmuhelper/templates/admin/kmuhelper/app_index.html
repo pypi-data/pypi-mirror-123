@@ -1,0 +1,46 @@
+{% extends "admin/app_index.html" %}
+{% load static %}
+
+{% block title %}KMUHelper Admin{% endblock %}
+
+{% block content_title %}
+    <h1>Willkommen im KMUHelper Adminbereich!</h1>
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name"><a target="_top" href="{% url 'kmuhelper:home' %}">KMUHelper</a> | <a href="{% url 'admin:app_list' app_label='kmuhelper' %}">Admin</a></h1>
+{% endblock %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/kmuhelper/css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'kmuhelper/favicon.ico' %}">
+    <link rel="apple-touch-icon" href="{% static 'kmuhelper/favicon.ico' %}">
+{% endblock %}
+
+{% block breadcrumbs %}
+{% endblock %}
+
+{% block content %}
+    {% block pageinfo %}
+        <p id="pageinfo">
+            In diesem Bereich hast du vollen Zugriff auf die Hauptfunktionen des KMUHelpers. Zusätzliche
+            Funktionen befinden sich im <a href="{% url 'kmuhelper:email-index' %}">E-Mail-Bereich</a>, 
+            in der <a href="{% url 'kmuhelper:app-index' %}">KMUHelper App</a> sowie
+            in den <a href="{% url 'admin:kmuhelper_einstellung_changelist' %}">Einstellungen</a>.
+        </p>
+        <br>
+    {% endblock %}
+
+    {{ block.super }}
+
+    <br>
+
+    {% block pagelist %}
+    {% endblock %}
+{% endblock %}
