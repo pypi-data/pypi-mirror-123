@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope">
+
+  <includePlugins
+      package="plone"
+      file="configure.zcml"
+      />
+
+  <!-- FOR TESTS: This is configure.zcml from example.z3cintegration. -->
+
+</configure>

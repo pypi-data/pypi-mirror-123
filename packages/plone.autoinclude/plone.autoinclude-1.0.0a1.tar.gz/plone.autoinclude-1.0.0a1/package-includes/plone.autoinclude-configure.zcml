@@ -1,0 +1,3 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+  <autoIncludePlugins target="plone" file="configure.zcml" />
+</configure>
