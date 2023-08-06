@@ -1,0 +1,12 @@
+setup.py
+ipynta/__init__.py
+ipynta.egg-info/PKG-INFO
+ipynta.egg-info/SOURCES.txt
+ipynta.egg-info/dependency_links.txt
+ipynta.egg-info/not-zip-safe
+ipynta.egg-info/requires.txt
+ipynta.egg-info/top_level.txt
+ipynta/globbers/__init__.py
+ipynta/globbers/image_globber.py
+ipynta/predicates/__init__.py
+ipynta/predicates/base_predicate.py
