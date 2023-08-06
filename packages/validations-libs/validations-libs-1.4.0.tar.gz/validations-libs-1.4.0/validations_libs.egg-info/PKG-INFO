@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: validations-libs
+Version: 1.4.0
+Summary: A common library for the validations framework
+Home-page: https://docs.openstack.org/validations-libs/latest/
+Author: OpenStack
+Author-email: openstack-discuss@lists.openstack.org
+License: UNKNOWN
+Description: ================
+        validations-libs
+        ================
+        
+        .. image:: https://governance.openstack.org/tc/badges/validations-libs.svg
+            :target: https://governance.openstack.org/tc/reference/tags/index.html
+        
+        A collection of python libraries for the Validation Framework
+        
+        The validations will help detect issues early in the deployment process and
+        prevent field engineers from wasting time on misconfiguration or hardware
+        issues in their environments.
+        
+        * Free software: Apache_license_
+        * Documentation: https://docs.openstack.org/validations-libs/latest/
+        * Source: https://opendev.org/openstack/validations-libs
+        * Bugs - Upstream: https://bugs.launchpad.net/tripleo/+bugs?field.tag=validations
+        * Bugs - Downstream: https://bugzilla.redhat.com/buglist.cgi?component=validations-libs&product=Red%20Hat%20OpenStack
+        
+        .. * Release notes: https://docs.openstack.org/releasenotes/validations-libs/  We don't have any yet.
+        
+        
+        Development Environment Setup
+        =============================
+        
+        Vagrantfiles for CentOS and Ubuntu have been provided for convenience; simply
+        copy one into your desired location and rename to ``Vagrantfile``, then run::
+        
+             vagrant up
+        
+        Once complete you will have a clean development environment
+        ready to go for working with Validation Framework.
+        
+        podman Quickstart
+        =================
+        
+        A Dockerfile is provided at the root of the Validations Library project in
+        order to quickly set and hack the Validation Framework, on a equivalent of a single machine.
+        Build the container from the Dockerfile by running::
+        
+            podman build -t "vf:dockerfile" .
+        
+        From the validations-libs repo directory.
+        
+        .. note::
+            More complex images are available in the dockerfiles directory
+            and require explicit specification of both build context and the Dockerfile.
+        
+        Since the podman build uses code sourced from the buildah project to build container images.
+        It is also possible to build an image using::
+        
+            buildah bud -t "vf:dockerfile" .
+        
+        Then you can run the container and start to run some builtin Validations::
+        
+            podman run -ti vf:dockerfile /bin/bash
+        
+        Then run validations::
+        
+            validation.py run --validation check-ftype,512e --inventory /etc/ansible/hosts
+        
+        
+        Skip list
+        =========
+        
+        You can provide a file with a list of Validations to skip via the run command::
+        
+            validation.py run --validation check-ftype,512e --inventory /etc/ansible/hosts --skiplist my-skip-list.yaml
+        
+        This file should be formed as::
+        
+            validation-name:
+              hosts: targeted_hostname
+              reason: reason to ignore the file
+              lp: bug number
+        
+        The framework will skip the validation against the ``hosts`` key.
+        In order to skip the validation on every hosts, you can set ``all`` value such
+        as::
+        
+            hosts: all
+        
+        If no hosts key is provided for a given validation, it will be considered as ``hosts: all``.
+        
+        .. note::
+            The ``reason`` and ``lp`` key are for tracking and documentation purposes,
+            the framework won't use those keys.
+        
+        .. _Apache_license: http://www.apache.org/licenses/LICENSE-2.0
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst

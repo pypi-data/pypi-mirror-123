@@ -1,0 +1,98 @@
+- job:
+    name: validations-libs-functional
+    parent: devstack
+    run: playbooks/validations-libs-functional.yaml
+    post-run: playbooks/post.yaml
+    timeout: 7200
+    required-projects:
+      - openstack/validations-libs
+      - openstack/validations-common
+    vars:
+      devstack_localrc:
+        USE_PYTHON3: true
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^releasenotes/.*$
+
+- job:
+    name: validations-libs-reqcheck
+    nodeset: centos-8
+    parent: base
+    run: playbooks/reqcheck.yaml
+    timeout: 1600
+    voting: true
+    required-projects:
+      - openstack/validations-libs
+    files:
+      - ^requirements.txt$
+
+- job:
+    name: validations-libs-coverchange
+    nodeset: centos-8
+    parent: base
+    run: playbooks/coverchange.yaml
+    timeout: 1600
+    voting: false
+    required-projects:
+      - openstack/validations-libs
+    files:
+     - ^validations_libs/.*
+
+- job:
+    name: tripleo-ci-centos-8-standalone-validation-libs
+    parent: tripleo-ci-centos-8-standalone
+    vars:
+      featureset: '052'
+      validate_services: true
+      enable_validation: true
+      validation_component: validation
+
+- project:
+    templates:
+      - check-requirements
+    check:
+      jobs:
+        - validations-libs-reqcheck
+        - validations-libs-coverchange
+        - openstack-tox-linters
+        - openstack-tox-cover
+        - openstack-tox-py36
+        - openstack-tox-py39
+        - tripleo-ci-centos-8-standalone-validation-libs: &standalone_consumer_job_params
+            vars: &standalone_consumer_job_vars
+              build_container_images: true
+            dependencies:
+              - openstack-tox-linters
+              - openstack-tox-cover
+              - validations-libs-functional
+        - openstack-tox-docs: &tripleo-docs
+            files:
+              - ^doc/.*
+              - ^README.rst
+              - ^validations_libs/.*
+        - validations-libs-functional
+        - tripleo-ci-centos-8-undercloud-containers: &undercloud_containers_job_params
+            dependencies:
+              - openstack-tox-linters
+              - openstack-tox-cover
+              - validations-libs-functional
+    gate:
+      jobs:
+        - openstack-tox-linters
+        - openstack-tox-py36
+        - openstack-tox-py39
+        - openstack-tox-docs: *tripleo-docs
+        - validations-libs-functional
+        - tripleo-ci-centos-8-standalone-validation-libs:
+            vars: *standalone_consumer_job_vars
+            dependencies:
+              - openstack-tox-linters
+              - validations-libs-functional
+        - tripleo-ci-centos-8-undercloud-containers:
+            dependencies:
+              - openstack-tox-linters
+              - validations-libs-functional
+    promote:
+      jobs:
+        - promote-openstack-tox-docs: *tripleo-docs
