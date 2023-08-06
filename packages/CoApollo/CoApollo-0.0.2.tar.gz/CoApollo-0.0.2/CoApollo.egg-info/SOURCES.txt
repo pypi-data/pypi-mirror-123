@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+CoApollo.egg-info/PKG-INFO
+CoApollo.egg-info/SOURCES.txt
+CoApollo.egg-info/dependency_links.txt
+CoApollo.egg-info/top_level.txt
+apollo/__init__.py
+apollo/apollo_client.py
+apollo/util.py
+tests/__init__.py
+tests/apollo_client_test.py
