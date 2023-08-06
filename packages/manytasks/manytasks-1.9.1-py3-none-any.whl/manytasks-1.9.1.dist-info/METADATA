@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: manytasks
+Version: 1.9.1
+Summary: eds sdk
+Home-page: https://github.com/dugu9sword/manytasks
+Author: dugu9sword
+Author-email: dugu9sword@163.com
+License: WTFPL Licence
+Keywords: manytasks
+Platform: any
+Requires-Dist: nvidia-ml-py3
+Requires-Dist: tailer
+Requires-Dist: jstyleson
+Requires-Dist: tabulate
+Requires-Dist: numpy
+Requires-Dist: psutil
+Requires-Dist: pyyaml
+Requires-Dist: matplotlib-label-lines
+Requires-Dist: seaborn
+
+A tool for deploying many tasks automatically.
+
+
