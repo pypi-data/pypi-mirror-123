@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: flytekitplugins-data-fsspec
+Version: 0.23.0b7
+Summary: This package data-plugins for flytekit, that are powered by fsspec
+Home-page: https://github.com/flyteorg/flytekit/tree/master/plugins/flytekit-data-fsspec
+Author: flyteorg
+Author-email: admin@flyte.org
+License: apache2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: flytekit (<1.0.0,>=0.21.3)
+Requires-Dist: fsspec (>=2021.7.0)
+
+fsspec data plugin for flytekit - Experimental
+=================================================
+
+This plugin provides an implementation of the data persistence layer in flytekit, that uses fsspec. Once this plugin
+is installed, it overrides all default implementation of dataplugins and provides ones supported by fsspec. this plugin
+will only install the fsspec core. To actually install all fsspec plugins, please follow fsspec documentation.
+
+
