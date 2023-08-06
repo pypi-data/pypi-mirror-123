@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/opentelemetry/propagators/aws/__init__.py
+src/opentelemetry/propagators/aws/aws_xray_propagator.py
+src/opentelemetry/propagators/aws/version.py
+src/opentelemetry_propagator_aws_xray.egg-info/PKG-INFO
+src/opentelemetry_propagator_aws_xray.egg-info/SOURCES.txt
+src/opentelemetry_propagator_aws_xray.egg-info/dependency_links.txt
+src/opentelemetry_propagator_aws_xray.egg-info/entry_points.txt
+src/opentelemetry_propagator_aws_xray.egg-info/requires.txt
+src/opentelemetry_propagator_aws_xray.egg-info/top_level.txt
