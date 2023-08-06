@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: buildcat
+Version: 0.4.0
+Summary: Lightweight, flexible render farm based on RQ and Redis.
+Home-page: https://buildcat.readthedocs.io
+Author: Timothy M. Shead
+Author-email: tim@shead-custom-design.com
+Maintainer: Timothy M. Shead
+Maintainer-email: tim@shead-custom-design.gov
+License: UNKNOWN
+Project-URL: Chat, https://buildcat.zulipchat.com
+Project-URL: Coverage, https://coveralls.io/r/shead-custom-design/buildcat
+Project-URL: Documentation, https://buildcat.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/shead-custom-design/buildcat/issues
+Project-URL: Regression Tests, https://travis-ci.org/shead-custom-design/buildcat
+Project-URL: Source, https://github.com/shead-custom-design/buildcat
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: System :: Distributed Computing
