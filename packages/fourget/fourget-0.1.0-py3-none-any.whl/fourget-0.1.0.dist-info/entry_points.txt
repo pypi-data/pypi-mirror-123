@@ -1,0 +1,3 @@
+[console_scripts]
+fourget=fourget.__main__:app
+
