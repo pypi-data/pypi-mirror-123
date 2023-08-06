@@ -1,0 +1,10 @@
+aws_cdk/cloudformation_include/__init__.py,sha256=NqYVvpEa4UntspOXmXZEPF2w6ivxUDHLIheTXpV0YbE,34279
+aws_cdk/cloudformation_include/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/cloudformation_include/_jsii/__init__.py,sha256=JeHrqCzfiGYE0iyRYJb2GIZ1rLzLVaW1GrC-5hRmMzw,6458
+aws_cdk/cloudformation_include/_jsii/cloudformation-include@1.128.0.jsii.tgz,sha256=e_piunIM2bGBqonpVgAxWrixKDTIFXpZE0HetLCPjl4,158888
+aws_cdk.cloudformation_include-1.128.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.cloudformation_include-1.128.0.dist-info/METADATA,sha256=cxRQaiSXoTIAlt334X_Fqa93gZTNN5z0YPFfoEUlAt4,24548
+aws_cdk.cloudformation_include-1.128.0.dist-info/NOTICE,sha256=0gjXqum8Md6lFvDfo4B-_-Y0jnMmV4Wd3WHebc5hx2M,1069
+aws_cdk.cloudformation_include-1.128.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.cloudformation_include-1.128.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.cloudformation_include-1.128.0.dist-info/RECORD,,
