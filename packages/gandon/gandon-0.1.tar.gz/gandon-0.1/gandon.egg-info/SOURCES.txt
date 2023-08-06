@@ -1,0 +1,7 @@
+README.md
+setup.py
+gandon.egg-info/PKG-INFO
+gandon.egg-info/SOURCES.txt
+gandon.egg-info/dependency_links.txt
+gandon.egg-info/requires.txt
+gandon.egg-info/top_level.txt
