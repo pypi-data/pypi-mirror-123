@@ -1,0 +1,8 @@
+siriusmail/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+siriusmail/parser.py,sha256=N5fV5m0-L8o7qLAUmO8xhrH952oVgfGz2qrpzJ4JJ4o,7315
+siriusmail/rtf_extractor.py,sha256=U9kydWjkfcO0qp5fyKvhuX-ZrdQeTZF5YJesGn05n-4,1044
+siriusmail-0.0.1.dist-info/LICENSE,sha256=AFavrAjtYCdlXCohPcnWR72x5a2KkQ17kgP8LuiqQgs,1066
+siriusmail-0.0.1.dist-info/METADATA,sha256=-krwi0lWC5xUbnA-M_7iOYYHlOFpyiJhyL90qaCPFqU,1737
+siriusmail-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+siriusmail-0.0.1.dist-info/top_level.txt,sha256=DWIUK6RjuJD2ynRZvr25CU9yFTT2d2i5lTpYDOHdUbY,11
+siriusmail-0.0.1.dist-info/RECORD,,
