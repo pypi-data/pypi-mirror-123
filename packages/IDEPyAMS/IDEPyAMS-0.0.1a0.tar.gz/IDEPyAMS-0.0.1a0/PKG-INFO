@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: IDEPyAMS
+Version: 0.0.1a0
+Summary: PyAMS: Python for Analog and Mixed Signals
+Home-page: https://pyams.org
+Author: d.fathi
+License: UNKNOWN
+Keywords: Creating new symbols ,CAD System,Simulation circuit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
