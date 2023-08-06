@@ -1,0 +1,46 @@
+# MiGreat configuration
+
+# Database host name
+hostname:
+
+# Database port
+port: 5432
+
+# Database name
+database:
+
+# Privileged database username
+priv_db_username: postgres
+
+# Privileged database password
+priv_db_password: ${PRIVELEGED_DB_PASSWORD}
+
+# Service database username
+service_db_username:
+
+# Service database password
+service_db_password: ${SERVICE_DB_PASSWORD}
+
+# Service database schema name
+service_schema:
+
+# Service group name (optional) - All service users will gain membership to this group, and this
+# group will be granted the USAGE permission on all schemas.  This basically allows the schema
+# itself to be seen, but no other read or otherwise access is implicitly granted.
+group:
+
+# Legacy sqlalchemy style (pre v2)
+legacy_sqlalchemy: false
+
+# Max connection retries
+max_conn_retries: 10
+
+# Connection retry interval (seconds)
+conn_retry_interval: 5
+
+# Migration table name
+migration_table: migrate_version
+
+# This indicates that the migrator series has been terminated.  Upon subsequent upgrade, schema
+# and user will be deleted if existing.  (optional)
+dead: false
