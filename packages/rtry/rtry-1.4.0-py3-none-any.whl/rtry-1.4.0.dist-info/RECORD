@@ -1,0 +1,13 @@
+rtry/__init__.py,sha256=LVkxJi7a--0jmDajg1OaZCl5yvGMTV2ayphQpx30oBc,397
+rtry/_errors.py,sha256=mYMk0IMrl1S1VNVnMJpbV5qLGa6JgGvLQGytj8r4Q_c,74
+rtry/_retry.py,sha256=Mtd6nUkr87SCV69HQq2sxgWi_hYafe9g0JuylUeKirk,5162
+rtry/_scheduler.py,sha256=wg-zSTwCsi_bOgCvtQFwzX4Ge8GzeF50po6YuXVjSP8,3415
+rtry/_timeout.py,sha256=MkRAPOPnOeVq3i5uzIac9CkBzDR4k7tuAVKhUS8V2-k,4925
+rtry/_types.py,sha256=PjJu2s3nSl-OF8HjOlcDVZHw7tdyLIg9i5PcfAWrcZE,777
+rtry/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rtry/types/__init__.py,sha256=iSgk9g0Ay3nEZXuLeQFeIxX5asqgrajLhFRCYPWDP5k,724
+rtry-1.4.0.dist-info/LICENSE.txt,sha256=5aGchmuEiwN-3of8CwmYNT-_4BMB5gwWMIe4oCFYplk,1072
+rtry-1.4.0.dist-info/METADATA,sha256=usiBIWUhnhWYsluayaSZx8e6vYm8E3oCIwanrlw2DY8,7182
+rtry-1.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rtry-1.4.0.dist-info/top_level.txt,sha256=BbSSLaCM8keXIi8vlOCo7Crqmf6dpNHkCDUB36R52pM,5
+rtry-1.4.0.dist-info/RECORD,,
