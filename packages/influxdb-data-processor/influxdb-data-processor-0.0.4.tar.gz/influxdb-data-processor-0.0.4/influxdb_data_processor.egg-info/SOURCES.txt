@@ -1,0 +1,9 @@
+README.md
+setup.py
+influxdbDataProcessor/__init__.py
+influxdbDataProcessor/processor.py
+influxdb_data_processor.egg-info/PKG-INFO
+influxdb_data_processor.egg-info/SOURCES.txt
+influxdb_data_processor.egg-info/dependency_links.txt
+influxdb_data_processor.egg-info/requires.txt
+influxdb_data_processor.egg-info/top_level.txt
