@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/dg_commons/__init__.py
+src/dg_commons/game_types.py
+src/dg_commons/geo.py
+src/dg_commons/time.py
+src/dg_commons/utils_toolz.py
+src/dg_commons/utils_types.py
+src/dg_commons.egg-info/PKG-INFO
+src/dg_commons.egg-info/SOURCES.txt
+src/dg_commons.egg-info/dependency_links.txt
+src/dg_commons.egg-info/requires.txt
+src/dg_commons.egg-info/top_level.txt
