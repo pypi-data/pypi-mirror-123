@@ -1,0 +1,15 @@
+mypy_boto3_lexv2_runtime/__init__.py,sha256=Zh80_gS19CO-wAX_wKy0USYO8MUCApKcZ0vQP1kj0Ks,473
+mypy_boto3_lexv2_runtime/__init__.pyi,sha256=v0xzzMmoHgx_5OooqC_JkRNaYDwwdeDhCv5lRnMBa3s,472
+mypy_boto3_lexv2_runtime/__main__.py,sha256=LtheGXgwcigrjhjKw0LlkqPFhQIibVRNgYq6IUOHTjY,919
+mypy_boto3_lexv2_runtime/client.py,sha256=DGbbPz9FmlSSkNto9TDRZtAIH1X1_m8k61MXgc5jMOk,6274
+mypy_boto3_lexv2_runtime/client.pyi,sha256=9WW_qHCYmhdpwKw0I3sPaTQVZy_SvSbmy7Ni6mX-Iz8,6262
+mypy_boto3_lexv2_runtime/literals.py,sha256=38aRuRN5HKrAeDacoSek1Cj-VIpgqfTpnrZZwDxnSlc,6486
+mypy_boto3_lexv2_runtime/literals.pyi,sha256=YQexOC79__hCInjal9nrKlPiGM0ceQ--yUTIMrj9vg4,6484
+mypy_boto3_lexv2_runtime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_lexv2_runtime/type_defs.py,sha256=EV6NHqcnvBm545deBLOTg_Ruly-JXHtDVsDvij8taoY,9636
+mypy_boto3_lexv2_runtime/type_defs.pyi,sha256=pafaMWCj4hBO-CgzILCE7aA1NAkYKQYoK_LnB9uAVpc,9620
+mypy_boto3_lexv2_runtime/version.py,sha256=sAi23mCH_C9P_s8Ph1K6II_01AxemH9EWaZvEcXKEQs,61
+mypy_boto3_lexv2_runtime-1.18.63.dist-info/METADATA,sha256=3gnZoriW-Arxd4VqnGqrVbpgRLNKXuyufKuuKKSfhks,8422
+mypy_boto3_lexv2_runtime-1.18.63.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypy_boto3_lexv2_runtime-1.18.63.dist-info/top_level.txt,sha256=OL5V-JZXeqLbquMEd7fn8RNWKBQvTvEwDBufe_Ttd2U,25
+mypy_boto3_lexv2_runtime-1.18.63.dist-info/RECORD,,
