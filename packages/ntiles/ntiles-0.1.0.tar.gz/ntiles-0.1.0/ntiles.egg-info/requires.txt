@@ -1,0 +1,6 @@
+numba
+pandas
+equity-db
+numpy
+matplotlib
+empyrical
