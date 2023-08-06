@@ -1,0 +1,4 @@
+avro>=1.8.0
+six
+tzlocal
+pytz
