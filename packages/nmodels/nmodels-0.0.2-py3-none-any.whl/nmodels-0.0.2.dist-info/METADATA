@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: nmodels
+Version: 0.0.2
+Summary: This is a simple nlp project providing a ngram model package.
+Home-page: https://github.com/christopher-chandler/ngrams
+Author: Christopher Chandler
+Author-email: christopher.chandler@outlook.de
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ngram Model 
+
+This is a basic python module that creates and pads 
+bigrams. 
+
+# Python Requirements 
+
+Any python version above 3.6 is supported.
+
+
+# Install
+Install this pip package by typing the following into the command prompt:
+
+```
+pip install ngram
+```
+
+# Nmodels
+ 
+To import the simple_bigram function, proceed as follows: 
+
+```
+>>> import ngrams
+>>> from nmodels.gram import simple_bigram
+>>> string = "Hello world, how are you" 
+>>> [('<START>', 'Hello'), ('Hello', 'world,'), ('world,', 'how'),
+ ('how', 'are'), ('are', 'you'), ('you', '<END>')]
+```
+
