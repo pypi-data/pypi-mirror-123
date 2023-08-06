@@ -1,0 +1,70 @@
+import typing
+
+from colorama import Style, Fore
+from src.YeetsMenu.generics.selectable import Selectable
+from src.YeetsMenu.utils import utils
+from src.YeetsMenu.utils.option import Option
+
+
+class Menu(Selectable):
+    def __init__(self, title, colors: list = None):
+        super().__init__(title)
+
+        self.options: typing.Dict[int, Selectable] = {}
+        self.colors: typing.List
+
+        if colors is None:
+            self.colors = [Fore.BLUE, Fore.LIGHTBLUE_EX]
+        else:
+            self.colors = colors
+
+    def add_selectable(self, selectable: Selectable):
+        length = len(self.options)
+        if length == 0:
+            self.options[0] = Option("Exit this menu", exec, "return")
+        self.options[len(self.options)] = selectable
+
+    def run(self):
+        while True:
+            utils.clear_screen()
+            options: typing.List[typing.AnyStr] = []
+            counter = 0
+            for key, value in self.options.items():
+                value: Selectable
+
+                if counter % 2 == 0:
+                    color_to_show = self.colors[0]
+                else:
+                    color_to_show = self.colors[1]
+
+                options.append(f"    {Fore.CYAN}{key}{Fore.LIGHTMAGENTA_EX}){color_to_show} {value.name}{Style.RESET_ALL}")
+                counter += 1
+
+            menu_string = "\n".join(options)
+
+            print(f"""{Fore.LIGHTMAGENTA_EX}{self.name}{Style.RESET_ALL}
+        
+{Fore.CYAN}Options:{Style.RESET_ALL}
+{menu_string}
+                  """)
+
+            print()
+            option_selected = input(f"{Fore.LIGHTMAGENTA_EX}Select a option: {Fore.CYAN}")
+            print(Style.RESET_ALL)
+
+            try:
+                if len(option_selected) == 0:
+                    raise KeyError("not")
+                option_selected = int(option_selected)
+
+                if option_selected == 0:
+                    return
+
+                real_option: Selectable = self.options[option_selected]
+            except ValueError and KeyError:
+                print(f"{Fore.RED}Invalid input, retry!{Style.RESET_ALL}")
+                utils.enter_confirmation()
+                continue
+
+            real_option.run()
+
