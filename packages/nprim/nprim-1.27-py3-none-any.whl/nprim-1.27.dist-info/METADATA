@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nprim
+Version: 1.27
+Summary: A tool to find prime numbers
+Home-page: UNKNOWN
+Author: Rubén Martín
+Author-email: rmartinm96@hotmail.com
+License: GNU GPLv3
+Keywords: primo prime
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+NUMEROS PRIMOS
+=====================
+
+Este es un paquete Python utilizado para calcular que nÃºmero es primo entre 1 y 'n', donde 'n' es el nÃºmero es un parÃ¡metro de la funciÃ³n.
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
