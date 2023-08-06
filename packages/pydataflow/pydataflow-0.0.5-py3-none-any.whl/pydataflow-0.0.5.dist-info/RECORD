@@ -1,0 +1,8 @@
+dataflow/__init__.py,sha256=Gj4peqrGTb1iFfLzJlLjcBMkZ_gks0AdtadfJwXYsqQ,272
+dataflow/dataflow.py,sha256=ac5tPNVT-NOo3p0II9e8lP4BYdGZCbHo9EVBNAxf9rY,7466
+dataflow/state.py,sha256=s94vtFXbRS8ceVTImSnn0Gxue8-zTYauBx_NsMD2I10,2322
+pydataflow-0.0.5.dist-info/LICENSE,sha256=2nYbY7jmO7A0_ECuFseLMWXpzK49ZO7MHt6BmPuLOOM,34565
+pydataflow-0.0.5.dist-info/METADATA,sha256=Ahdiug4QxCx95hznl8Hw91IySBwTXqSEubDGen2NbXU,1616
+pydataflow-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydataflow-0.0.5.dist-info/top_level.txt,sha256=6NabMzxTTcTaLArkx3eZosYhO_c9x8VTPq87DvsvOzU,9
+pydataflow-0.0.5.dist-info/RECORD,,
