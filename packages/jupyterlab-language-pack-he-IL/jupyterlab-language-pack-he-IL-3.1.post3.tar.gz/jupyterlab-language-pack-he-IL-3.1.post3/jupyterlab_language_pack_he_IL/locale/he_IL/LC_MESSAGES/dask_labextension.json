@@ -1,0 +1,14 @@
+{
+    "": {
+        "domain": "dask_labextension",
+        "language": "he-IL",
+        "plural_forms": "nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;",
+        "version": "jupyterlab"
+    },
+    "schema\u0004Dask Dashboard": [
+        "\u05dc\u05d5\u05d7 \u05d1\u05e7\u05e8\u05ea Dask"
+    ],
+    "schema\u0004Settings for the Dask Dashboard plugin.": [
+        "\u05d4\u05d2\u05d3\u05e8\u05d5\u05ea \u05dc\u05ea\u05d5\u05e1\u05e3 \u05dc\u05d5\u05d7 \u05d1\u05e7\u05e8\u05ea Dask."
+    ]
+}
