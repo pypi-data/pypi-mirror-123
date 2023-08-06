@@ -1,0 +1,3 @@
+[console_scripts]
+markedrss = rss_reader.__main__:main
+
