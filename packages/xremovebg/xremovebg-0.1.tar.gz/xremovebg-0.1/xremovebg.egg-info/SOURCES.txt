@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+removebg/__init__.py
+removebg/__main__.py
+removebg/removebg.py
+xremovebg.egg-info/PKG-INFO
+xremovebg.egg-info/SOURCES.txt
+xremovebg.egg-info/dependency_links.txt
+xremovebg.egg-info/requires.txt
+xremovebg.egg-info/top_level.txt
