@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: satyrus
+Version: 3.0.7
+Summary: Satyrus3 Optimization Framework
+Home-page: https://satyrus3.github.io
+Author: Pedro Maciel Xavier
+Author-email: pedromxavier@poli.ufrj.br
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pedromxavier/Satyrus3/issues
+Project-URL: Source, https://github.com/pedromxavier/Satyrus3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: <3.10,>=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dwave
+Provides-Extra: gurobi
+Provides-Extra: all
+Provides-Extra: dev
+License-File: LICENSE
+
+# Satyrus3
+
+Please refer to the [documentation](https://satyrus3.github.io/docs).
+

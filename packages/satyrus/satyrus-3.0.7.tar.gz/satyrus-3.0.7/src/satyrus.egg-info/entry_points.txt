@@ -1,0 +1,4 @@
+[console_scripts]
+sat-api = satyrus:SatAPICLI.run
+satyrus = satyrus:SatCLI.run
+
