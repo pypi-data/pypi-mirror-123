@@ -1,0 +1,3 @@
+[console_scripts]
+batoms = batoms.cli.main:main
+
