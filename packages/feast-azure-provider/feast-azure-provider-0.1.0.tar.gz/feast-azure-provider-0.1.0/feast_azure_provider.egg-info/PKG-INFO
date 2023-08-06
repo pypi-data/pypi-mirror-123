@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: feast-azure-provider
+Version: 0.1.0
+Summary: A Feast Azure Provider
+Home-page: UNKNOWN
+Author: Microsoft
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# azure-feast
+

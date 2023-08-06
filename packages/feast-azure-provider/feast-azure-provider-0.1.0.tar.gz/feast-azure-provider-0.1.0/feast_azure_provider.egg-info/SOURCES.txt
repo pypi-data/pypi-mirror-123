@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+feast_azure_provider/__init__.py
+feast_azure_provider/azure_provider.py
+feast_azure_provider/mssqlserver.py
+feast_azure_provider/mssqlserver_source.py
+feast_azure_provider/registry_store.py
+feast_azure_provider.egg-info/PKG-INFO
+feast_azure_provider.egg-info/SOURCES.txt
+feast_azure_provider.egg-info/dependency_links.txt
+feast_azure_provider.egg-info/requires.txt
+feast_azure_provider.egg-info/top_level.txt
