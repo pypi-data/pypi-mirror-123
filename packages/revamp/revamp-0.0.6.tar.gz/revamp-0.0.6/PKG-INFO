@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: revamp
+Version: 0.0.6
+Summary: Data Transformation
+Home-page: UNKNOWN
+Author: Ajeet Rai
+Author-email: ajeetrai2293@gmail.com
+License: MIT
+Description: # Import library
+        # from revamp import report
+        
+        # Initiate object
+        # descr = report(df)
+        
+        # Call the object method
+        # print(descr.summary())
+        # print(descr.descriptive_analysis())
+        
+        
+        summary: Information about dimension, categorical and numerical features, duplicates, outliers, etc.
+        
+        descriptive_analysis: Descriptive measures central tendency, dispersion, etc.
+        
+        
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/10/2021)
+        -------------------
+        - First Release
+        
+Keywords: data pre-processing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

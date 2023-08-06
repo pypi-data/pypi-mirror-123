@@ -1,0 +1,13 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+licence.txt
+main.py
+requirements.txt.txt
+setup.py
+revamp/__init__.py
+revamp/functions.py
+revamp.egg-info/PKG-INFO
+revamp.egg-info/SOURCES.txt
+revamp.egg-info/dependency_links.txt
+revamp.egg-info/top_level.txt
