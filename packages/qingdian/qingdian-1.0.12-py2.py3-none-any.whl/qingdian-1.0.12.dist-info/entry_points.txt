@@ -1,0 +1,5 @@
+[console_scripts]
+qingdian = renxianqi.main:main
+renxianqi = renxianqi.main:main
+rxq = renxianqi.main:main
+
