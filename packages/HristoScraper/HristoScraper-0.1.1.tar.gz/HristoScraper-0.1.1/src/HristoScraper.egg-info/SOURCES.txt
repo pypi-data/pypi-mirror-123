@@ -1,0 +1,15 @@
+pyproject.toml
+setup.cfg
+src/HristoScraper.egg-info/PKG-INFO
+src/HristoScraper.egg-info/SOURCES.txt
+src/HristoScraper.egg-info/dependency_links.txt
+src/HristoScraper.egg-info/top_level.txt
+src/rds_uploader/__init__.py
+src/rds_uploader/__main__.py
+src/rds_uploader/rds_module_1.py
+src/scraper/__init__.py
+src/scraper/__main__.py
+src/scraper/scraping.py
+test/test_module_1.py
+test/test_module_2.py
+test/test_project.py
