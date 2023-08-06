@@ -1,0 +1,13 @@
+setuptools
+wheel
+twine
+numpy
+pandas
+plotly
+dash==1.18.0
+quart
+quart_compress
+dash-core-components
+dash-bootstrap-components
+dash-html-components
+dash-table
