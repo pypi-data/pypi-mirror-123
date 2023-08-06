@@ -1,0 +1,6 @@
+[console_scripts]
+didownload = diadmin.didownload:main
+dipmonitor = diadmin.dipmonitor:main
+dipolicy = diadmin.dipolicy:main
+diupload = diadmin.diupload:main
+
