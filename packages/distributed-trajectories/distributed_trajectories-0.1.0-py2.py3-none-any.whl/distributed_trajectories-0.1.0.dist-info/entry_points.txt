@@ -1,0 +1,3 @@
+[console_scripts]
+distributed_trajectories = distributed_trajectories.cli:main
+
