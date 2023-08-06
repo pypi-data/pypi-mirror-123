@@ -1,0 +1,8 @@
+astropy
+numpy
+scipy
+scikit-image
+guppy3
+matplotlib
+keras
+tensorflow>=2
