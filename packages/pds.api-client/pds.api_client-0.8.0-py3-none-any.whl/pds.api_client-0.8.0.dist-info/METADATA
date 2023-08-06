@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pds.api-client
+Version: 0.8.0
+Summary: Planetary Data System API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: pds-operator@jpl.nasa.gov
+License: Apache 2.0
+Keywords: OpenAPI,OpenAPI-Generator,Planetary Data System API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+Federated PDS API which provides actionable end points standardized between the different nodes.   # noqa: E501
+
+
