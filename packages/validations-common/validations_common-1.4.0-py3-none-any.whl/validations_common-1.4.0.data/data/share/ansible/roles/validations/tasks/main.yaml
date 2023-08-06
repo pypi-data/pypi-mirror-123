@@ -1,0 +1,62 @@
+---
+- name: Make sure Validations Log dir exists
+  become: true
+  file:
+    path: "{{ vf_log_dir }}"
+    state: directory
+    mode: "0755"
+    owner: "{{ ansible_user }}"
+    group: "{{ ansible_user }}"
+    recurse: true
+
+- name: check if virtualenv is used
+  register: is_virtualenv
+  stat:
+    path: "{{ zuul_work_virtualenv }}"
+
+- name: Set commmand if virtualenv exists
+  set_fact:
+    validation_command: "source {{ zuul_work_virtualenv }}/bin/activate; {{ cli_command }}"
+  when:
+    - is_virtualenv.stat.exists
+    - validation_command is not defined
+
+- name: Set Validation directory if virtualenv exists
+  set_fact:
+    validation_dir: "--validation-dir {{ zuul_work_virtualenv }}/share/ansible/validation-playbooks"
+  when: is_virtualenv.stat.exists
+
+- name: Set Ansible base directory if virtualenv exists
+  set_fact:
+    ansible_dir: "--ansible-base-dir {{ zuul_work_virtualenv }}/share/ansible/"
+  when: is_virtualenv.stat.exists
+
+- name: Set commmand without virtualenv
+  set_fact:
+    validation_command: "{{ cli_command }}"
+  when:
+    - not is_virtualenv.stat.exists
+    - validation_command is not defined
+
+- name: Set validation dir without virtualenv
+  set_fact:
+    validation_dir: "--validation-dir /usr/share/ansible/validation-playbooks"
+  when: not is_virtualenv.stat.exists
+
+- include_tasks: run.yaml
+  vars:
+    name: "{{ item }}"
+  when:
+    - run_validation|default(false)|bool
+    - validation_component | length > 0
+  with_dict: "{{ validations_list[validation_component] }}"
+
+- include_tasks: show.yaml
+  vars:
+    name: "{{ item }}"
+  when:
+    - run_validation|default(false)|bool
+    - validation_component | length > 0
+  with_dict: "{{ validations_list[validation_component] }}"
+
+- include_tasks: list.yaml
