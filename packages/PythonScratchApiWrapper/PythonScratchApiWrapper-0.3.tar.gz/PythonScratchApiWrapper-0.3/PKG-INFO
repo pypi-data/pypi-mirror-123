@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: PythonScratchApiWrapper
+Version: 0.3
+Summary: A python api wrapper for scratch
+Home-page: https://github.com/MelonMars/PSAW
+Author: Carter Pfaff
+Author-email: carterpfaff@gmail.com
+License: MIT
+Download-URL: https://github.com/MelonMars/PSAW/archive/refs/tags/V_01.tar.gz
+Description: UNKNOWN
+Keywords: Python,API Wrapper,API,scratch,Scratch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
