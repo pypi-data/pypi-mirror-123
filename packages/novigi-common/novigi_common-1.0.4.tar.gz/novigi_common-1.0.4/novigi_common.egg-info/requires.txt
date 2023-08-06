@@ -1,0 +1,5 @@
+requests
+jsonpath_ng
+pandas
+pyodbc
+psycopg2
