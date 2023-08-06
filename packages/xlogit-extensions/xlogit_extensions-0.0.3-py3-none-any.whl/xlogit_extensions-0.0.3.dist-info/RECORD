@@ -1,0 +1,12 @@
+xlogit_extensions/__init__.py,sha256=lwonLrrgaMdEqJlu5r0sQ4wVtQLJjzsIOEImCCiGml0,221
+xlogit_extensions/_choice_model.py,sha256=eaY1LQqF9f3lpMHxcJXxinyiiobSkeP8WeQE84iatjA,30497
+xlogit_extensions/_device.py,sha256=QvghVOMHC69pOL_0_eCvo_L2MVrjBauLnJ1pL6TbQ9U,1888
+xlogit_extensions/boxcox_functions.py,sha256=bIJwJsWLLxdGzNuJ-kTwEaA3Wzfj5RtSHeZ-5IZ43CE,4663
+xlogit_extensions/latent_class_model.py,sha256=_HIE4IAdIYuT0DJ6eNdVpkkkv-fjiPlS1SPyu6wayW8,33349
+xlogit_extensions/latent_class_model_mixed.py,sha256=x7nXCZ7FivB4tQhPWl3Q4pr8UmFkZYhAxmfrLBFEMQ8,43013
+xlogit_extensions/mixed_logit.py,sha256=5vS0cWPaF4O0Ra9NE7jfIRnSNFb0Q4s0KYuFRhjZJng,49003
+xlogit_extensions/multinomial_logit.py,sha256=1cbRA8eXwu6hHUEB8NmPYZ-V-dylmfLa3Y23gUaQXjE,15375
+xlogit_extensions-0.0.3.dist-info/METADATA,sha256=VDd29pDHgrfrhXaPySsvHgjEI-IjYILC1W1IORPgHuc,9169
+xlogit_extensions-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xlogit_extensions-0.0.3.dist-info/top_level.txt,sha256=USBib3O9pDoJJRpj5K3twqE40lgmAp3vLM98KAkcXeg,18
+xlogit_extensions-0.0.3.dist-info/RECORD,,
