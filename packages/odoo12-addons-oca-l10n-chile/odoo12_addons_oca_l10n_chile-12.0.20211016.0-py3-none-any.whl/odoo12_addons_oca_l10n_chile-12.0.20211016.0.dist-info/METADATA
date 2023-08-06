@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-l10n-chile
+Version: 12.0.20211016.0
+Summary: Meta package for oca-l10n-chile Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-connector-acp
+Requires-Dist: odoo12-addon-connector-acp-ftp
+Requires-Dist: odoo12-addon-connector-dicom
+Requires-Dist: odoo12-addon-connector-dicom-crm
+Requires-Dist: odoo12-addon-l10n-cl-chart-of-account
+Requires-Dist: odoo12-addon-l10n-cl-currency-rate-sbif
+Requires-Dist: odoo12-addon-l10n-cl-etd
+Requires-Dist: odoo12-addon-l10n-cl-etd-account
+Requires-Dist: odoo12-addon-l10n-cl-etd-stock
+Requires-Dist: odoo12-addon-l10n-cl-etd-xerox
+Requires-Dist: odoo12-addon-l10n-cl-etd-xerox-fsmroute
+Requires-Dist: odoo12-addon-l10n-cl-invoicing-policy
+Requires-Dist: odoo12-addon-l10n-cl-product
+Requires-Dist: odoo12-addon-l10n-cl-sii
+Requires-Dist: odoo12-addon-l10n-cl-sii-activity
+Requires-Dist: odoo12-addon-l10n-cl-sii-folio
+Requires-Dist: odoo12-addon-l10n-cl-sii-reference
+Requires-Dist: odoo12-addon-l10n-cl-sii-reference-account
+Requires-Dist: odoo12-addon-l10n-cl-toponym
+Requires-Dist: odoo12-addon-res-partner-email-etd
+
+UNKNOWN
+
