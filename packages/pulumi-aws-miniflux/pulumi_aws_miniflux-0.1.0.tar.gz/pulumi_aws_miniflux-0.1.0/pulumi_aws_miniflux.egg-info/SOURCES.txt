@@ -1,0 +1,13 @@
+README.md
+setup.py
+pulumi_aws_miniflux/__init__.py
+pulumi_aws_miniflux/_utilities.py
+pulumi_aws_miniflux/miniflux_service.py
+pulumi_aws_miniflux/provider.py
+pulumi_aws_miniflux/py.typed
+pulumi_aws_miniflux.egg-info/PKG-INFO
+pulumi_aws_miniflux.egg-info/SOURCES.txt
+pulumi_aws_miniflux.egg-info/dependency_links.txt
+pulumi_aws_miniflux.egg-info/not-zip-safe
+pulumi_aws_miniflux.egg-info/requires.txt
+pulumi_aws_miniflux.egg-info/top_level.txt
