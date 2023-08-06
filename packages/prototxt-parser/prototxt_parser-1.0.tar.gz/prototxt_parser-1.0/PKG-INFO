@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: prototxt_parser
+Version: 1.0
+Summary: prototxt-parser allows to parse *.prototxt files to python dict objects
+Home-page: https://github.com/yogin16/prototxt_parser
+Author: Yogin Patel
+Author-email: yogin.daiict@gmail.com
+License: MIT
+Keywords: prototxt,dict
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prototxt-parser
+
+prototxt-parser allows to parse `*.prototxt` files to python dict objects
+
+## Usage:
+
+From command line from this repo:
+
+```commandline
+$ python3 prototxt_parser_main.py prototxt_file
+```
+
+Alternatively can use pip as well to get the package:
+
+```commandline
+pip3 install prototxt-parser
+```
+
+To run, from python:
+
+```python
+input_string = ... # the prototxt string to be parsed e.g., open("some_prototxt_file").read()
+from prototxt_parser.prototxt import parse
+parsed_dict = parse(input_string)
+```
+
+
+
