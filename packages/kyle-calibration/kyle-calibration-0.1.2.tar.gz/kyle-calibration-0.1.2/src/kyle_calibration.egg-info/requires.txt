@@ -1,0 +1,13 @@
+numpy~=1.18.4
+scikit-learn~=0.23.1
+matplotlib~=3.2.1
+scipy~=1.4
+netcal~=1.0
+
+[docs]
+Sphinx==3.2.1
+sphinxcontrib-websupport==1.2.4
+sphinx_rtd_theme
+
+[test]
+pytest
