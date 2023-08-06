@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dsa-downloader
+Version: 0.0.3
+Summary: Disney Sorcerer's Arena resources downloader
+Home-page: https://github.com/phstudy/dsa-downloader
+Author: Study Hsueh
+Author-email: ph.study@gmail.com
+Maintainer: Study Hsueh
+Maintainer-email: ph.study@gmail.com
+License: MIT
+Keywords: dsa,python,disney
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: protobuf
+Requires-Dist: UnityPy (==1.6.5.7)
+Requires-Dist: pip
+Requires-Dist: tqdm
+Requires-Dist: click
+Requires-Dist: Pillow
+
+UNKNOWN
+
