@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: FaultDiagnosis
+Version: 1.0.0.6
+Summary: Sunghan Fault Disgnosis
+Home-page: https://github.com/tathata21/moon
+Author: SungHan
+License: SH
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: pymssql
+
+UNKNOWN
+
