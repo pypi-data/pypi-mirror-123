@@ -1,0 +1,41 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
+const styled_1 = (0, tslib_1.__importDefault)(require("@emotion/styled"));
+const modal_1 = require("app/actionCreators/modal");
+const contextPickerModal_1 = (0, tslib_1.__importDefault)(require("app/components/contextPickerModal"));
+function PickProjectToContinue({ noProjectRedirectPath, nextPath, router, projects, }) {
+    const nextPathQuery = nextPath.query;
+    let navigating = false;
+    let path = `${nextPath.pathname}?project=`;
+    if (nextPathQuery) {
+        const filteredQuery = Object.entries(nextPathQuery)
+            .filter(([key, _value]) => key !== 'project')
+            .map(([key, value]) => `${key}=${value}`);
+        const newPathQuery = [...filteredQuery, 'project='].join('&');
+        path = `${nextPath.pathname}?${newPathQuery}`;
+    }
+    // if the project in URL is missing, but this release belongs to only one project, redirect there
+    if (projects.length === 1) {
+        router.replace(path + projects[0].id);
+        return null;
+    }
+    (0, modal_1.openModal)(modalProps => (<contextPickerModal_1.default {...modalProps} needOrg={false} needProject nextPath={`${path}:project`} onFinish={pathname => {
+            navigating = true;
+            router.replace(pathname);
+        }} projectSlugs={projects.map(p => p.slug)}/>), {
+        onClose() {
+            // we want this to be executed only if the user didn't select any project
+            // (closed modal either via button, Esc, clicking outside, ...)
+            if (!navigating) {
+                router.push(noProjectRedirectPath);
+            }
+        },
+    });
+    return <ContextPickerBackground />;
+}
+const ContextPickerBackground = (0, styled_1.default)('div') `
+  height: 100vh;
+  width: 100%;
+`;
+exports.default = PickProjectToContinue;
+//# sourceMappingURL=pickProjectToContinue.jsx.map

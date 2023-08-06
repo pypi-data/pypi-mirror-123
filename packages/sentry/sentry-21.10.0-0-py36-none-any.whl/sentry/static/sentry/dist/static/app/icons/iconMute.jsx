@@ -1,0 +1,14 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IconMute = void 0;
+const tslib_1 = require("tslib");
+const React = (0, tslib_1.__importStar)(require("react"));
+const svgIcon_1 = (0, tslib_1.__importDefault)(require("./svgIcon"));
+const IconMute = React.forwardRef(function IconMute(props, ref) {
+    return (<svgIcon_1.default {...props} ref={ref}>
+      <path d="M9.17,14H6.57a.77.77,0,0,1-.42-.13L3.08,11.78H.86A.74.74,0,0,1,.11,11V5a.74.74,0,0,1,.75-.75H3.08L6.15,2.15A.77.77,0,0,1,6.57,2h2.6a.76.76,0,0,1,.75.75V13.23A.76.76,0,0,1,9.17,14ZM6.8,12.48H8.42v-9H6.8L3.73,5.59a.77.77,0,0,1-.42.13H1.61v4.56h1.7a.77.77,0,0,1,.42.13Z"/>
+      <path d="M12.22,8,10.83,6.61a.75.75,0,1,1,1.06-1.06l1.39,1.39,1.39-1.39a.75.75,0,0,1,1.06,1.06L14.34,8l1.39,1.39a.75.75,0,0,1,0,1.06.74.74,0,0,1-.53.22.71.71,0,0,1-.53-.22L13.28,9.06l-1.39,1.39a.75.75,0,0,1-1.06,0,.75.75,0,0,1,0-1.06Z"/>
+    </svgIcon_1.default>);
+});
+exports.IconMute = IconMute;
+IconMute.displayName = 'IconMute';
+//# sourceMappingURL=iconMute.jsx.map

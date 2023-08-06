@@ -1,0 +1,1 @@
+{"version":3,"file":"getPendingInvite.jsx","sourceRoot":"","sources":["../../../../../../../../static/app/utils/getPendingInvite.tsx"],"names":[],"mappings":";;AAAA,uEAAgC;AAChC,uEAA4C;AAQ5C,SAAwB,gBAAgB;IACtC,MAAM,IAAI,GAAG,mBAAO,CAAC,GAAG,CAAC,gBAAgB,CAAC,CAAC;IAE3C,IAAI,CAAC,IAAI,EAAE;QACT,OAAO,IAAI,CAAC;KACb;IAED,OAAO,WAAW,CAAC,KAAK,CAAC,IAAI,CAAQ,CAAC;AACxC,CAAC;AARD,mCAQC"}
