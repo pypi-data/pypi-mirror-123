@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/kospellpy/__init__.py
+src/kospellpy/naver_spell_check.py
+src/kospellpy/pusan_spell_check.py
+src/kospellpy/spell_select.py
+src/kospellpy.egg-info/PKG-INFO
+src/kospellpy.egg-info/SOURCES.txt
+src/kospellpy.egg-info/dependency_links.txt
+src/kospellpy.egg-info/requires.txt
+src/kospellpy.egg-info/top_level.txt
