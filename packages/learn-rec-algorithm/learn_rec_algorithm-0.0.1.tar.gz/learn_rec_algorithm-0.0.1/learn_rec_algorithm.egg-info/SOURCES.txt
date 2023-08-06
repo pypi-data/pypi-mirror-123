@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+learn_rec_algorithm.egg-info/PKG-INFO
+learn_rec_algorithm.egg-info/SOURCES.txt
+learn_rec_algorithm.egg-info/dependency_links.txt
+learn_rec_algorithm.egg-info/requires.txt
+learn_rec_algorithm.egg-info/top_level.txt
