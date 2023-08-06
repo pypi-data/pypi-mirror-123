@@ -1,0 +1,3 @@
+[console_scripts]
+checkpoint = checkpoint.__main__:run
+
