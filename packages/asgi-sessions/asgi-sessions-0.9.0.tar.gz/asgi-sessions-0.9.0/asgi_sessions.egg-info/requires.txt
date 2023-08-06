@@ -1,0 +1,10 @@
+asgi-tools>=0.47.9
+PyJWT>=1.7.1
+
+[example]
+uvicorn
+
+[tests]
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
