@@ -1,0 +1,8 @@
+requests
+rdflib
+boto3
+pystow>=0.1.0
+
+[rest_api]
+flask
+flask_cors
