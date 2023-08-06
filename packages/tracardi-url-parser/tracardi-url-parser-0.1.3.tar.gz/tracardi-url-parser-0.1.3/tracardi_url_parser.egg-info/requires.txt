@@ -1,0 +1,2 @@
+tracardi_plugin_sdk>=0.6.18
+tracardi_dot_notation
