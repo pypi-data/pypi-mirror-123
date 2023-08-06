@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+cgsensor/__init__.py
+cgsensor/bme280.py
+cgsensor/cli.py
+cgsensor/scd41.py
+cgsensor/tsl2572.py
+cgsensor.egg-info/PKG-INFO
+cgsensor.egg-info/SOURCES.txt
+cgsensor.egg-info/dependency_links.txt
+cgsensor.egg-info/entry_points.txt
+cgsensor.egg-info/requires.txt
+cgsensor.egg-info/top_level.txt
