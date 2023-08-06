@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: Perceptron-pypi-monika0710
+Version: 0.0.1
+Summary: It's an implementation of Perceptron
+Home-page: https://github.com/monika0710/Perceptron_pypi
+Author: monika0710
+Author-email: monikabhargav11@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/monika0710/Perceptron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Perceptron_pypi
+
+## How to use this logic
+
+```python
+from Perceptron.perceptron import Perceptron
+
+## get X and y and then use below commands
+model = Perceptron(eta=eta, epoch=epochs)
+model.fit(X, y)
+```
+
+# Reference -
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github docs for github actions](https://docs.github.com/en/actions/guides/building-and-testing-python#publishing-to-package-registries)
+
