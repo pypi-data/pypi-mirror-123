@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+out.png
+setup.py
+blackpink/__init__.py
+blackpink/blackpink.otf
+blackpink.egg-info/PKG-INFO
+blackpink.egg-info/SOURCES.txt
+blackpink.egg-info/dependency_links.txt
+blackpink.egg-info/requires.txt
+blackpink.egg-info/top_level.txt
