@@ -1,0 +1,15 @@
+name: xoa
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - appdirs
+  #- cartopy
+  - configobj
+  - matplotlib-base
+  - numba
+  - python>=3
+  - scipy
+  - xarray>=0.17
