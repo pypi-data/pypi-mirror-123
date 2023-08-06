@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+VERSION
+setup.py
+nwea_utils/__init__.py
+nwea_utils/analysis.py
+nwea_utils/rosters.py
+wf_nwea_utils.egg-info/PKG-INFO
+wf_nwea_utils.egg-info/SOURCES.txt
+wf_nwea_utils.egg-info/dependency_links.txt
+wf_nwea_utils.egg-info/requires.txt
+wf_nwea_utils.egg-info/top_level.txt
