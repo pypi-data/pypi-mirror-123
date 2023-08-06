@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: google_images_download_jeng
+Version: 0.2.0
+Summary: Download Google Image
+Home-page: https://github.com/tsjeng45/google_images_download_jeng
+Author: jeng
+Author-email: tsjeng45@yahoo.com.tw
+License: UNKNOWN
+Description: ## 下載 Google 圖片
+        ### 安裝
+        ```
+        pip insall google_images_download_jeng
+        ```
+        ### 含入模組
+        ```
+        from google_images_download_jeng import google_images_download
+        ```
+        
+Keywords: google-images-download
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
