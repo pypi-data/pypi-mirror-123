@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block header %}
+<div style="position:fixed; background-color:#AAFFAA; width:100%; top:0;">
+	<div style ="width:50%;display:inline-block;float:left;" >
+	&nbsp
+	</div>
+
+	<div style ="width:50%;display:inline-block;float:left;" >
+		<div style="float: right;padding: 4px;">
+			<a href="/home" style="color:red"><b>✖</b></a> 
+		</div>
+	</div>
+</div>
+
+
+<div style="position:static; background-color:#AAFFAA; width:100%; top:0;">
+	<div style ="width:50%;display:inline-block;float:left;" >
+	&nbsp
+	</div>
+
+	<div style ="width:50%;display:inline-block;float:left;" >
+		<div style="float: right;padding: 4px;">
+			<a href="/home" style="color:red"><b>✖</b></a> 
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+
+{% block content %}
+
+
+<div class="divTable">	
+	{% if data.is_list %}
+		{%  if data.has_keys %}
+		<div class='divTableHeading'>
+			{% for key in data.keys %}
+				<div class="divTableCell">{{key}}</div>
+			{% endfor %}
+		</div>
+		{% endif %}		
+		
+		<div class="divTableBody">	
+		{% for item in data.content %}
+			<div class="divTableRow">
+			{% for key in data.keys %}
+				<div class="divTableCell">{{item[key]}}</div>
+			{% endfor %}
+			</div>
+		{% endfor %}
+		</div>
+
+
+
+	{% elif data.is_dict %}
+	<div class="divTableBody">	
+		{% for key in data.keys %}
+			<div class="divTableRow">
+				<div class="divTableCell">{{key}}</div>
+				<div class="divTableCell">{{data.content[key]}}</div>
+			</div>
+		{% endfor %}
+	</div>
+
+	{% endif %}
+	</div>
+	
+	
+	
+{% endblock %}

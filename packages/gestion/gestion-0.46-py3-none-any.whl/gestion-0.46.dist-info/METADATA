@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gestion
+Version: 0.46
+Summary: Simple project automation manager
+Home-page: https://github.com/hurgar-nl/gestion.git
+Author: Arno de Grijs
+Author-email: info@hurgar.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==8.0.1)
+Requires-Dist: Flask (==2.0.1)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: pymongo (==3.12.0)
+Requires-Dist: Werkzeug (==2.0.1)
+
+UNKNOWN
+
