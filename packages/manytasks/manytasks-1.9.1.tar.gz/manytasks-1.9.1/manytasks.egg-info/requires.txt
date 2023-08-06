@@ -1,0 +1,9 @@
+nvidia-ml-py3
+tailer
+jstyleson
+tabulate
+numpy
+psutil
+pyyaml
+matplotlib-label-lines
+seaborn
