@@ -1,0 +1,23 @@
+.idea
+__pycache__
+*.pyc
+build
+dist
+oneoffs
+
+/*.py
+/*.csv
+!/setup.py
+
+production.yml
+development.yml
+vagrant.yml
+
+.coverage
+htmlcov
+
+tin.egg-info
+doc/_build
+
+# old APIs
+apis/servicenow

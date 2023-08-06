@@ -1,0 +1,102 @@
+---
+hasmethods:
+  methods:
+    list:
+      method:   GET
+      path:     /things
+      expect:   200
+      paginate: true
+    get:
+      method:   GET
+      path:     /things/:id
+      expect:   [200, 201]
+      singleton: true
+    create:
+      method:   POST
+      path:     /things
+      expect:   201
+    update:
+      method:   PUT
+      path:     /things/:id
+      expect:   200
+      crud_label: update
+      default_tokens:
+        otherthing: changedstuff
+    delete:
+      method:   DELETE
+      path:     /things/:lots/:of/:tokens/here/:id
+      nobase:   true
+      expect:   204
+      default_params:
+        confirm: true
+container:
+  subcontainer:
+    model: mymodel
+    list_data_key: "mymodels"
+    singleton_data_key: "mymodel"
+    model_methods_add_all: true
+    methods:
+      list:
+        method: GET
+        path: /stuff/whatnot
+      get:
+        method: GET
+        path: /stuff/whatnot/:id
+        singleton: true
+        crud_label: read
+      create:
+        method: POST
+        path: /stuff/whatnot
+        crud_label: create
+        singleton: true
+      update:
+        method: PUT
+        path: /stuff/whatnot/:id
+        crud_label: update
+        singleton: true
+      delete:
+        method: DELETE
+        path: /stuff/whatnot/:id
+        crud_label: delete
+        expect: 204
+  subcontainer2:
+    model: mymodel_otherid
+    model_methods_add_all: false
+    methods:
+      list:
+        method: GET
+        path: /stuff/folders
+      get:
+        method: GET
+        path: /stuff/folders/:id
+      create:
+        method: POST
+        path: /stuff/folders
+      update:
+        method: PUT
+        path: /stuff/folders/:id
+        model_method_add: true
+      delete:
+        method: PUT
+        path: /stuff/folders/:id
+  subcontainer3:
+    model: mymodel
+    model_methods_add_all: true
+    methods:
+      list:
+        method: GET
+        path: /obscurepath/items
+        model_method_add: false
+      get:
+        method: GET
+        path: /stuff/folders/:id
+  nomodel:
+    methods:
+      list:
+        method: GET
+        path: /nomodel/items
+errors:
+  methods:
+    badmethod:
+      method: FAKE
+      path: /doesnt/matter

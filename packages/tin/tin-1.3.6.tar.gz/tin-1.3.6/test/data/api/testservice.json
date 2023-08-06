@@ -1,0 +1,65 @@
+{
+  "environments": {
+    "basic": {
+      "host": "localhost",
+      "scheme": "http",
+      "port": 5000,
+      "credentials": "credentials.yml",
+      "auth_type": "basic",
+      "ssl": {
+        "verify": true
+      },
+      "api_file": "testservice-api.yml",
+      "model_file": "testservice-models.yml"
+    },
+    "param": {
+      "host": "localhost",
+      "scheme": "http",
+      "port": 5000,
+      "credentials": "credentials.yml",
+      "auth_type": "basic",
+      "ssl": {
+        "verify": true
+      },
+      "api_file": "testservice-api.yml",
+      "model_file": "testservice-models.yml"
+    },
+    "header": {
+      "host": "localhost",
+      "scheme": "http",
+      "port": 5000,
+      "credentials": "credentials.yml",
+      "auth_type": "basic",
+      "ssl": {
+        "verify": true
+      },
+      "api_file": "testservice-api.yml",
+      "model_file": "testservice-models.yml"
+    },
+    "no_models": {
+      "host": "localhost",
+      "scheme": "http",
+      "port": 5000,
+      "credentials": "credentials.yml",
+      "auth_type": "basic",
+      "ssl": {
+        "verify": true
+      },
+      "api_file": "testservice-api.yml"
+    }
+  },
+  "common": {
+    "content_type": "application/json",
+    "basepath": "/api",
+    "headers": {
+      "someheader": "somevalue"
+    },
+    "params": {
+      "may": [
+        "links",
+        "filter_by",
+        "filter_value"
+      ]
+    }
+  }
+}

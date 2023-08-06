@@ -1,0 +1,114 @@
+environments:
+  basic:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: basic
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+  param:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: param
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+  header:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: header
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+  no_auth:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: none
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+  no_models:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: basic
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+  use_session:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: basic
+    use_session: true
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+  no_session:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: basic
+    use_session: false
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+  no_headers:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: basic
+    use_session: false
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+    headers: null
+# generate exceptions
+  no_api_file:
+    host: localhost
+    scheme: http
+    port: 5000
+    credentials: credentials.yml
+    auth_type: basic
+    ssl:
+      verify: true
+  bad_port:
+    host: localhost
+    scheme: http
+    port: not-a-number
+    credentials: credentials.yml
+    auth_type: basic
+    ssl:
+      verify: true
+    api_file: testservice-api.yml
+    model_file: testservice-models.yml
+
+# Common settings apply to all environments
+common:
+  content_type: "application/json"
+  basepath: "/api"
+  headers:
+    someheader: somevalue
+  default_params:
+    thing: stuff
+  default_tokens:
+    otherthing: morestuff

@@ -1,0 +1,56 @@
+image: python:3-alpine
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+stages:
+  - test
+  - release
+  - pages
+
+test:
+  before_script:
+    - python -V
+    - pip install virtualenv
+    - virtualenv venv
+  script:
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+    - pip install pytest yamllint setuptools pytest_httpserver pytest-cov coverage
+    - python -m pytest --junitxml=report.xml --cov=tin/
+    - coverage xml
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml
+      cobertura: coverage.xml
+  except:
+    - release
+
+release:
+  image: node:current-alpine
+  stage: release
+  script:
+    - apk --update add git
+    - npm install semantic-release @semantic-release/gitlab @semantic-release/changelog @semantic-release/git conventional-changelog-eslint
+    - npx semantic-release
+  only:
+    - release
+
+pages:
+  script:
+    - apk --update add make
+    - pip install sphinx sphinx-rtd-theme sphinxcontrib-napoleon
+    - cd doc ; make html
+    - mv _build/html/ ../public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+

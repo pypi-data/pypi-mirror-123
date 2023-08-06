@@ -1,0 +1,16 @@
+mymodel:
+  id_attr: id
+  read_only:
+    - id
+  must:
+    - name
+  may:
+    - description
+mymodel_otherid:
+  id_attr: uuid
+  read_only:
+    - id
+  must:
+    - name
+  may:
+    - description
