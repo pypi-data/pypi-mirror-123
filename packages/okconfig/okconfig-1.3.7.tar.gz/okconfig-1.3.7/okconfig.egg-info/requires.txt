@@ -1,0 +1,5 @@
+paramiko
+pynag
+six
+future
+setuptools_rust
