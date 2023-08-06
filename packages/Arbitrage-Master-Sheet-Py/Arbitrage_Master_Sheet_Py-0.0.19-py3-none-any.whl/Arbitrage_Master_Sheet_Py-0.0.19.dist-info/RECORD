@@ -1,0 +1,16 @@
+ArbMasterPy/Collapse_range_string.py,sha256=4KRz7BV-QU1vlDb82dfORz-X-tOPMrBBWvmltcivwFM,1494
+ArbMasterPy/CreateInboundPlanRequest.xlsx,sha256=hdym86htIbJhIfcRCKvuooJ0JrnBYXAgba14e9aDn7M,87465
+ArbMasterPy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ArbMasterPy/authorisation.py,sha256=QrQaS881se8jE8oB9iwTfiNEV6XcfcBXK4nqk3A1qe0,986
+ArbMasterPy/debug_wrapper.py,sha256=fPE83_UyLOhUR7B44fWxzuGOYgfPB5lkgQ1AxWH3Se4,658
+ArbMasterPy/export_to_amazon_master_wrapper.py,sha256=itMq2TbS4tMKWr9-ishSdwdPay3uA2fU3XEHCaA-5Xo,165
+ArbMasterPy/import_data_wrapper.py,sha256=p5Tcyzinhle4QYKk2qrL_vV5O2BJYKJ4YsZZq9DSpQQ,313
+ArbMasterPy/james_1.py,sha256=ubh1LU0SEvtoIeiAbQe8sLiHB3TjXF9haywWxUGqIFE,2591
+ArbMasterPy/master_to_amazon.py,sha256=tJU2q35FuY1SUgoCBjQXIKqNKVzef00QD8xGptAx0So,17929
+ArbMasterPy/data/Amazon standard inventory - flat file.xlsm,sha256=CkC82MQWAlRls3pxNiqkW1wIVzFM_H8YA-NBcLRiktk,800791
+ArbMasterPy/data/CreateInboundPlanRequest.xlsx,sha256=hdym86htIbJhIfcRCKvuooJ0JrnBYXAgba14e9aDn7M,87465
+ArbMasterPy/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Arbitrage_Master_Sheet_Py-0.0.19.dist-info/METADATA,sha256=nGKvpONvc3uMuZvmAijGgUgpO7PyZ0mhPiC3zt5QpoI,515
+Arbitrage_Master_Sheet_Py-0.0.19.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Arbitrage_Master_Sheet_Py-0.0.19.dist-info/top_level.txt,sha256=YqGwpQg5Js5wJ8TPfLiLh6604KWZFe9EBZcVzpVBhN0,12
+Arbitrage_Master_Sheet_Py-0.0.19.dist-info/RECORD,,
