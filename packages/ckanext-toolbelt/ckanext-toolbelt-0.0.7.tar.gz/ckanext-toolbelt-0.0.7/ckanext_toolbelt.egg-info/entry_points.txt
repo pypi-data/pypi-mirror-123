@@ -1,0 +1,10 @@
+[babel.extractors]
+ckan = ckan.lib.extract:extract_ckan
+
+[ckan.click_command]
+toolbelt = ckanext.toolbelt.cli:toolbelt
+
+[ckan.plugins]
+toolbelt = ckanext.toolbelt.plugins:ToolbeltPlugin
+toolbelt_safe_upload = ckanext.toolbelt.plugins.safe_upload:SafeUploadPlugin
+
