@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: poetryup
+Version: 0.3.6
+Summary: Update dependencies and bump their version in the pyproject.toml file
+Home-page: https://github.com/MousaZeidBaker/poetryup
+License: MIT
+Keywords: packaging,dependency,poetry,poetryup
+Author: Mousa Zeid Baker
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tomlkit (>=0.7.2,<0.8.0)
+Project-URL: Repository, https://github.com/MousaZeidBaker/poetryup
+Description-Content-Type: text/markdown
+
+# PoetryUp
+
+![build](https://github.com/MousaZeidBaker/poetryup/workflows/Publish/badge.svg)
+![test](https://github.com/MousaZeidBaker/poetryup/workflows/Test/badge.svg)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![python_version](https://img.shields.io/badge/python-%3E=3.6-blue.svg)
+[![pypi_v](https://img.shields.io/pypi/v/poetryup.svg)](https://pypi.org/project/poetryup)
+[![pypi_dm](https://img.shields.io/pypi/dm/poetryup.svg)](https://pypi.org/project/poetryup)
+
+PoetryUp updates dependencies and bumps their version in the `pyproject.toml` file with respect to their version
+constraint. The `poetry.lock` file will be recreated as well. PoetryUp runs
+[poetry](https://github.com/python-poetry/poetry) commands, thus it's required to be installed. The difference between
+running `poetry update` and `poetryup`, is that the latter also modifies the `pyproject.toml` file.
+
+![poetryup_demo](https://raw.githubusercontent.com/MousaZeidBaker/poetryup/master/media/poetryup_demo.gif)
+
+## Usage
+```shell
+poetryup
+```
+
+## Test
+Activate virtualenv & Install project dependencies
+```shell
+poetry shell && poetry install
+```
+
+Run tests
+```shell
+pytest tests
+```
+
+## Contributing
+Contributions are welcome via pull requests.
+
+## Issues
+If you encounter any problems, please file an [issue](https://github.com/MousaZeidBaker/poetryup/issues) along with a
+detailed description.
+
