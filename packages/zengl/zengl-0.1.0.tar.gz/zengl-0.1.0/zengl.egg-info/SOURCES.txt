@@ -1,0 +1,5 @@
+setup.py
+zengl.egg-info/PKG-INFO
+zengl.egg-info/SOURCES.txt
+zengl.egg-info/dependency_links.txt
+zengl.egg-info/top_level.txt
