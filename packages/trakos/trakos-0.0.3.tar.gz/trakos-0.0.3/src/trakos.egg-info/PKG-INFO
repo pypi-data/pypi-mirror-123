@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: trakos
+Version: 0.0.3
+Summary: python Package To trakos Bots
+Home-page: https://github.com/mhdeiiking/trakos
+Author: king-trakos
+Author-email: trakosiraq@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mhdeiiking/trakos/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# trprogram Package To print "Hello World"
+* pip install trakos
+## By :
+* Trakos 
+### Telegram Channel
+* https://t.me/trprogram
+
+
