@@ -1,0 +1,12 @@
+nclustgen/BiclusterGen.py,sha256=O6BSCputnPquSJGEHth1_bBzIxw6FxPELxi0dj-TR8g,14188
+nclustgen/Generator.py,sha256=l1PZT26pL2DMvf2iRAWyXiUKxCK6NhfONRmC1IpUC3I,39984
+nclustgen/TriclusterGen.py,sha256=9cAY_MbeXeU3pfK99T6dkkX6VpoRLWcCC9LmCBFKhbM,17025
+nclustgen/__init__.py,sha256=C7LKhzWusxZj9DlBjQKoddekyITe0wODsfj2fp7Zav4,549
+nclustgen/utils.py,sha256=RjQjmhn7g9keTwIsGHBZEY6j8vaBcTQ_5233tSEVXj8,246
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/main_test.py,sha256=ym2-23KmOCapY_euNp8Kf68fmHfhDxmmGfNmlqcfaW4,49390
+nclustgen-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nclustgen-1.0.2.dist-info/METADATA,sha256=CFsoA74aYYyjNFQbjb_I5BA5PlX33Ws4wHt3OMuKHnE,3714
+nclustgen-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nclustgen-1.0.2.dist-info/top_level.txt,sha256=kO2alZ4qpBWJMJ_x961ZzMJa1PTXIUrVvQXgzvH1waY,16
+nclustgen-1.0.2.dist-info/RECORD,,
