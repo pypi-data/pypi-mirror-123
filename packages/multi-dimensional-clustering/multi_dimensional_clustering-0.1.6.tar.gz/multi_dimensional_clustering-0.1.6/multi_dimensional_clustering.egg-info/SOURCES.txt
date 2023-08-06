@@ -1,0 +1,9 @@
+README.md
+setup.py
+multi_dimensional_clustering/__init__.py
+multi_dimensional_clustering/multi_D_clustering.py
+multi_dimensional_clustering.egg-info/PKG-INFO
+multi_dimensional_clustering.egg-info/SOURCES.txt
+multi_dimensional_clustering.egg-info/dependency_links.txt
+multi_dimensional_clustering.egg-info/requires.txt
+multi_dimensional_clustering.egg-info/top_level.txt
