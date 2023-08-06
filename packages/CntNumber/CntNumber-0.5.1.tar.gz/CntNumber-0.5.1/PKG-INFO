@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: CntNumber
+Version: 0.5.1
+Summary: CM is good boy, DSA no.1
+Home-page: https://github.com/Cmccm123
+Author: CM
+Author-email: cm.for.dev@gmail.com
+License: afl-3.0
+Download-URL: https://github.com/Cmccm123/CntNumber/archive/refs/tags/Chinese.numbers.tar.gz
+Description: UNKNOWN
+Keywords: Chinese numerals,translation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
