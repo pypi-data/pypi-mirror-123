@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+xlogit_extensions/__init__.py
+xlogit_extensions/_choice_model.py
+xlogit_extensions/_device.py
+xlogit_extensions/boxcox_functions.py
+xlogit_extensions/latent_class_model.py
+xlogit_extensions/latent_class_model_mixed.py
+xlogit_extensions/mixed_logit.py
+xlogit_extensions/multinomial_logit.py
+xlogit_extensions.egg-info/PKG-INFO
+xlogit_extensions.egg-info/SOURCES.txt
+xlogit_extensions.egg-info/dependency_links.txt
+xlogit_extensions.egg-info/not-zip-safe
+xlogit_extensions.egg-info/requires.txt
+xlogit_extensions.egg-info/top_level.txt
