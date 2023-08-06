@@ -1,0 +1,21 @@
+{
+    "name": "ModelManagerSummarization",
+    "displayName": "NLP.ModelManager.Summarization",
+    "configurations": [
+        {
+            "$type": "TextConfiguration",
+            "defaultValue": {
+                "value": "[{\"model_type\":\"documents\",\"download_scenario\":\"dataservices\", \"language\":\"nl\", \"name\":\"documents\", \"client\":\"scftm\", \"version\":\"37287\"}]"
+            },
+            "required": false,
+            "key": "MODELS_JSON",
+            "name": "Model Configuration JSON",
+            "description": "Model Configuration JSON",
+            "tenants": [
+                "research"
+            ],
+            "audience": "PandoraAdmin",
+            "metadata": []
+        }
+    ]
+}
