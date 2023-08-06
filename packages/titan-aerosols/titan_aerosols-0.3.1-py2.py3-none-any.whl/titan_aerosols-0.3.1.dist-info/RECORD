@@ -1,0 +1,13 @@
+aerosols/__init__.py,sha256=3Y-3jADFzqzCn9kWoHj4JUbOqatvr1przqItboX9gpY,405
+aerosols/cli.py,sha256=a2LHK40fflHNarV4E69vamKZ9OETCIsPmO1Dzp7zGzA,1822
+aerosols/fractals.py,sha256=YITlRoJdoR6tGB_1MRtxlAHVLfq_-0qS7bv2HRakSb4,10625
+aerosols/mie.py,sha256=MYlodxAiBhsJRCokKQ4FpI-5g4UFg0v7_DZ7Emgcins,7291
+aerosols/tholins.py,sha256=qRLmBszRnpSa9K96ereTrqdfDcBueBqrgDVf1AfAGOo,6455
+aerosols/version.py,sha256=M1gW1H-6irYPUIS0p9igevJofBS0M1M2w16SZpTG2Qw,53
+aerosols/data/optical_index.db,sha256=LPJlvH6c16jjtvtCMuOD_e0PPjlOAikf6BnkCvE39oA,30720
+titan_aerosols-0.3.1.dist-info/LICENSE.md,sha256=t1x32YkDculZxzvLJqLSNO0tSMODuNWzTE6hFZgehdA,1091
+titan_aerosols-0.3.1.dist-info/METADATA,sha256=o93ovYdt9BMiihtnkXUvpP7nb8RzJalbYOswQ30yB_s,5842
+titan_aerosols-0.3.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+titan_aerosols-0.3.1.dist-info/entry_points.txt,sha256=Xla2u7ohVEMU9ulvG3Vfm79mXjzFERO7YlrumHDd9A4,70
+titan_aerosols-0.3.1.dist-info/top_level.txt,sha256=RtY0ZdgEZ-ESPUjQGMYdbAMK9tGuT_k4IetxIhlTQ1A,9
+titan_aerosols-0.3.1.dist-info/RECORD,,
