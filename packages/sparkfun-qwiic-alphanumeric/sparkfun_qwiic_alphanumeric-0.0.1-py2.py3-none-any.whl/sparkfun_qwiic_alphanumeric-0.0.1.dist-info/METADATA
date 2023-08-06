@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sparkfun-qwiic-alphanumeric
+Version: 0.0.1
+Summary: SparkFun Electronics qwiic alphanumeric package
+Home-page: https://www.sparkfun.com/products/16916
+Author: SparkFun Electronics
+Author-email: info@sparkfun.com
+License: MIT
+Keywords: electronics,maker
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sparkfun-qwiic-i2c
+
+Qwiic Alphanumeric Python Package
+=============================================
+
+This package controls individual segments of the 14-segment, alphanumeric displays.
+The user can print full strings, adjust brightness, and set the blink rate of their display.
+
+
