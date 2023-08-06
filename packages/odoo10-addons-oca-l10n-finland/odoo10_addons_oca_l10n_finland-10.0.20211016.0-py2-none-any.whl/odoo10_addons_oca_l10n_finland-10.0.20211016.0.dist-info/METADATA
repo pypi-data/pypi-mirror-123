@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-l10n-finland
+Version: 10.0.20211016.0
+Summary: Meta package for oca-l10n-finland Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-l10n-fi-banks
+Requires-Dist: odoo10-addon-l10n-fi-business-code
+Requires-Dist: odoo10-addon-l10n-fi-business-code-validate
+Requires-Dist: odoo10-addon-l10n-fi-edicode
+Requires-Dist: odoo10-addon-l10n-fi-payment-terms
+
+UNKNOWN
+
