@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+spgl-lib/__init__.py
+spgl_lib.egg-info/PKG-INFO
+spgl_lib.egg-info/SOURCES.txt
+spgl_lib.egg-info/dependency_links.txt
+spgl_lib.egg-info/top_level.txt

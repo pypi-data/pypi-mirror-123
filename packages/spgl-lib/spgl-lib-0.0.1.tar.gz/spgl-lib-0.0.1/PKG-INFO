@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: spgl-lib
+Version: 0.0.1
+Summary: A Spgl Library
+Home-page: UNKNOWN
+Author: Tokyoedtech
+Author-email: tokyoedtech@gmail.com
+License: MIT
+Keywords: wynand1004-github
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This Python Package is from @tokyoedtech / github = wynand1004 go to his SPGL library and that's what this code is, I am just a fan uploading it to pip for your benefit
+
+
+Change Log
+==========
+
+0.0.1(10/11/2021)
+-----------------
+- First Release
+
