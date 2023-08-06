@@ -1,0 +1,7 @@
+README.md
+fclean
+setup.py
+fclean.egg-info/PKG-INFO
+fclean.egg-info/SOURCES.txt
+fclean.egg-info/dependency_links.txt
+fclean.egg-info/top_level.txt
