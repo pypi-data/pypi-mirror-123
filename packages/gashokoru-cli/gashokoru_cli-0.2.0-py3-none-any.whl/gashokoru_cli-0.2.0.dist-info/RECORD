@@ -1,0 +1,14 @@
+cli/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+cli/main.py,sha256=8kFiQaoW8js8TBFzhzPwh4gE5me4h8y8IwzOZ0xcDME,646
+cli/commands/__init__.py,sha256=W6o6jezATd44hevnUOKc2HVq1SIDkEL7DwS16M1UUlU,48
+cli/commands/template/__init__.py,sha256=392LCNJIm5SynG0r9O4eU73T70b4ZVyFkYNrlgYOI4U,18
+cli/commands/template/list.py,sha256=O3WVoNVLpvQ50Ci28a-OOfTtOj-5PvpWIhIfiwDbHDU,65
+cli/commands/workshop/__init__.py,sha256=CFIE5FIpo99dSBKEHq7fPihk9bFo6imk0Z2Q6X989-w,20
+cli/commands/workshop/create.py,sha256=YFc7rqbJ9tXp_jSKX8OJDUp2Zh6ZmxguPgYY6m-C6b8,578
+cli/config/__init__.py,sha256=TUoWNqsb8D5az_Da8RhxAtj9LsropSm_SLF4iS0V_OQ,20
+cli/config/config.py,sha256=8Oty8A3RDR7ooVHNZS6-e5Y5z64i3S8r6-XMkqtmN5c,290
+gashokoru_cli-0.2.0.dist-info/METADATA,sha256=jb9-rJy56eV6u0uTovDye2g2KFLZeZlyuwt1-Kwgy9I,337
+gashokoru_cli-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gashokoru_cli-0.2.0.dist-info/entry_points.txt,sha256=xsAigu4e0NaNwsQ2MmCMvokFVeGIVH1fUoFjSZhCkrw,77
+gashokoru_cli-0.2.0.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+gashokoru_cli-0.2.0.dist-info/RECORD,,

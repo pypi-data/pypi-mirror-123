@@ -1,0 +1,5 @@
+[console_scripts]
+gash = cli:run
+gashokoru = cli:run
+gen_template = cli:run
+

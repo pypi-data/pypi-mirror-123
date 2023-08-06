@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gashokoru-cli
+Version: 0.2.0
+Summary: CLI tool for the Gashokoru project
+Home-page: UNKNOWN
+Author: Adam Aquesbi
+Author-email: adam.aquesbi@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+Gashokoru CLI
+=============
+
+CLI for the Gashokoru project
+
