@@ -1,0 +1,13 @@
+README.md
+aws-mfa
+setup.cfg
+setup.py
+awsmfa/__init__.py
+awsmfa/config.py
+awsmfa/util.py
+vodou_aws_mfa.egg-info/PKG-INFO
+vodou_aws_mfa.egg-info/SOURCES.txt
+vodou_aws_mfa.egg-info/dependency_links.txt
+vodou_aws_mfa.egg-info/entry_points.txt
+vodou_aws_mfa.egg-info/requires.txt
+vodou_aws_mfa.egg-info/top_level.txt
