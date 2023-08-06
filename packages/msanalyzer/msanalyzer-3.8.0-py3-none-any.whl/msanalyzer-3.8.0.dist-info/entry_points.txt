@@ -1,0 +1,3 @@
+[console_scripts]
+msanalyzer=msanalyzer.cli:main
+
