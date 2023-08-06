@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.cfg
+setup.py
+versioneer.py
+git_version_info.egg-info/PKG-INFO
+git_version_info.egg-info/SOURCES.txt
+git_version_info.egg-info/dependency_links.txt
+git_version_info.egg-info/requires.txt
+git_version_info.egg-info/top_level.txt
+version_info/__init__.py
+version_info/_version.py
+version_info/main.py
