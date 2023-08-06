@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/elicited/__init__.py
+src/elicited.egg-info/PKG-INFO
+src/elicited.egg-info/SOURCES.txt
+src/elicited.egg-info/dependency_links.txt
+src/elicited.egg-info/requires.txt
+src/elicited.egg-info/top_level.txt
