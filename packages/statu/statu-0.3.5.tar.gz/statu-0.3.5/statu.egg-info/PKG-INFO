@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: statu
+Version: 0.3.5
+Summary: Python State Machines for Humans
+Home-page: http://github.com/DisruptiveLabs/statu
+Author: Disruptive Labs
+Author-email: pypi@comanage.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
