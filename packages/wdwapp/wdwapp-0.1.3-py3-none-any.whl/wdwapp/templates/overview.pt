@@ -1,0 +1,43 @@
+<div metal:use-macro="load: layout.pt">
+			<div metal:fill-slot="content">
+				<div class="content">
+					<h3>Données du ${ltime}</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Lieux</th>
+                                <th style="text-align: center;">Température</th>
+                                <th style="text-align: center;">Humidité</th>
+                                <th style="text-align: center;">Bat</th>
+                                <th style="text-align: center;">Décalage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr tal:repeat="data datas">
+                                <td tal:switch="data.bat_level">
+                                    <a href="${request.route_url('detail', lid=data.id)}">
+                                        ${data.name} 
+                                    </a>
+                                </td>
+                                <td style="text-align: center;">
+									${round(data.temperature, 1)} ${data.tunit}</td>
+                                <td style="text-align: center;">
+									${data.humidity} %</td>
+                                <td tal:switch="data.bat_level" style="text-align: center;">
+									<img tal:case="'OK'" src="${request.static_url('wdwapp:static/bat-OK.png')}"
+										alt="Batterie OK" title="Batterie OK">
+									<img tal:case="'KO'" src="${request.static_url('wdwapp:static/bat-KO.png')}"
+										alt="Batterie vide" title="Batterie vide">
+                                </td>
+                                <td tal:switch="data.uptodate" style="text-align: center;">
+									<img tal:case="'OK'" src="${request.static_url('wdwapp:static/Clock-Green.png')}"
+										alt="Décalage OK" title="Décalage OK">
+									<img tal:case="'KO'" src="${request.static_url('wdwapp:static/Clock-Red.png')}"
+										alt="Perte de données" title="Perte de données">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+				</div>
+			</div>
+</div>
