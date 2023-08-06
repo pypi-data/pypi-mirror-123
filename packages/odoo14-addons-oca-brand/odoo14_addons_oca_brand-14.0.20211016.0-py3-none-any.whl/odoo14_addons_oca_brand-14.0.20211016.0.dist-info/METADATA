@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-oca-brand
+Version: 14.0.20211016.0
+Summary: Meta package for oca-brand Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-account-brand
+Requires-Dist: odoo14-addon-analytic-brand
+Requires-Dist: odoo14-addon-brand
+Requires-Dist: odoo14-addon-brand-external-report-layout
+Requires-Dist: odoo14-addon-product-brand
+Requires-Dist: odoo14-addon-product-brand-multicompany
+Requires-Dist: odoo14-addon-product-brand-social-responsibility
+Requires-Dist: odoo14-addon-product-brand-tag
+Requires-Dist: odoo14-addon-product-brand-tag-secondary
+Requires-Dist: odoo14-addon-sale-brand
+
+UNKNOWN
+
