@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: edxml-bricks-finance
+Version: 3.0.0.dev0
+Summary: EDXML ontology brick (finance)
+Home-page: UNKNOWN
+Author: Dik Takken
+Author-email: dik.takken@edxml.org
+License: MIT
+Keywords: edxml
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: edxml-bricks-generic (>=3.0.0.dev0)
+Requires-Dist: edxml (>=3.0.0.dev0)
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+
+EDXML ontology brick defining ontology elements related to financial data
+
