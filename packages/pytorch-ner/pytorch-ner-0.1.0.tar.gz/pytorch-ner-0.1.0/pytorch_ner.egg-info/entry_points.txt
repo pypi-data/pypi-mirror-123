@@ -1,0 +1,3 @@
+[console_scripts]
+pytorch-ner-train = pytorch_ner.__main__:main
+
