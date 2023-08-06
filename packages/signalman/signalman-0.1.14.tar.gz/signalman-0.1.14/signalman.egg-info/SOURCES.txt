@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+signalman/__init__.py
+signalman/signalman.py
+signalman.egg-info/PKG-INFO
+signalman.egg-info/SOURCES.txt
+signalman.egg-info/dependency_links.txt
+signalman.egg-info/entry_points.txt
+signalman.egg-info/requires.txt
+signalman.egg-info/top_level.txt
