@@ -1,0 +1,6 @@
+rustfrc-1.0.3.dist-info/METADATA,sha256=E7ZKx2NUMruu-xVjLsEqXaW5zSyz97CB-B4CtmLET4w,4707
+rustfrc-1.0.3.dist-info/WHEEL,sha256=uh5Q2hYbw4rHqGVHeMcq8xKj9E8-UM97Yvt8YVNbFPs,96
+rustfrc/split.py,sha256=UHYtRgVpH5lOzObDLfQb6pN39Do4yr0nP6PlcsJdcVs,386
+rustfrc/__init__.py,sha256=flsf1qbnUCbj5liEEgydhHGn9YyUFDi4p1GB8D5t9QY,22
+rustfrc/rustfrc.cp310-win_amd64.pyd,sha256=aycco4RvAyafedrOmug8dDfLj5rDXXVdmNqkngs52Vc,402944
+rustfrc-1.0.3.dist-info/RECORD,,
