@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: borgo
+Version: 0.0.7
+Summary: Library for sending requests to the Borgo app.
+Home-page: UNKNOWN
+Author: Team Borgo
+License: UNKNOWN
+Description: # Borgo
+        
+        Borgo is an [API](https://pypi.org/project/borgo) + [App](https://borgo.app) for easily interfacing with your python scripts.
+        
+        If your script needs human input, create a borgo request, and it will be sent to your mobile app. Your script will wait until you act on the request, and then continue with the results.
+        
+        For example:
+        
+        ```python
+        from borgo import *
+        
+        borgo_key = '''
+        eyJhbGciOiJSUzI1NiIsIOTYwYjA1Yzk3ZmE0MDljNDdhNDQ0ZTciLCZXRva2VuLmdvb2dsZSyZ28...
+        '''
+        
+        with BorgoClient(borgo_key) as borgo_client:
+          request = BorgoRequest('Should I tweet "hello world"?', 'Tweet', "Don't tweet")
+          response = borgo_client.wait_for(request)
+        
+          if (response.is_accepted):
+            # Send "hello world" to Twitter API.
+        ```
+        
+        ## Getting a Key
+        
+        To get a key to pass into the `BorgoClient(...)` constructor, sign in to [borgo.app](https://borgo.app), click on the "key" icon, hit the button to copy the key to your clipboard and then paste it as a string into your script.
+        
+        ## Community
+        
+        For questions and discussion about Borgo, visit [reddit.com/r/borgo](https://www.reddit.com/r/borgo)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
