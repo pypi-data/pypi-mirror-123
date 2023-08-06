@@ -1,0 +1,11 @@
+nameko_atomicity/__init__.py,sha256=1UUZM-eZkWWJWX4hsysevMNhYtYPkUZ7j4YixkRhONA,233
+nameko_atomicity/commands.py,sha256=3sC3xgkxTrhwvWGWdvptCK2qF9tRrWCJLS0ormBtWOc,3299
+nameko_atomicity/dispatch_commands.py,sha256=yU17eD7z_wNtxxKrzkntqMRvhvS92HddEZBKhcHdkbM,2456
+nameko_atomicity/exceptions.py,sha256=rxq-4kkP_44s5eZQdPutgSrpb12A_pe1eoTrHPmhxu4,42
+nameko_atomicity/rollback_commands.py,sha256=7NN8jDhpRzaQIyWSDVzph6ZCeao7SR3bfeQ5Tyc2R4U,2409
+nameko_atomicity-1.0.0.dist-info/LICENSE,sha256=3nWJoX48C81SVOAC8LKQtuPBEkYEJCrd7Es2VLQ1H60,1062
+nameko_atomicity-1.0.0.dist-info/METADATA,sha256=JNr60xXalNWxMZ1fneZj63t8r0hbABIdjcVY_fs9NgU,1288
+nameko_atomicity-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nameko_atomicity-1.0.0.dist-info/top_level.txt,sha256=Z5pKY011hOCNb3GVhoEYoDKwxaQSsGAUWi4aZ2rpshw,17
+nameko_atomicity-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nameko_atomicity-1.0.0.dist-info/RECORD,,
