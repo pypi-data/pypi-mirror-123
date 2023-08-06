@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: peppi-py
+Version: 0.4.1
+Requires-Dist: pyarrow~=5.0
+Author: melkor <hohav@fastmail.com>
+Author-email: melkor <hohav@fastmail.com>
