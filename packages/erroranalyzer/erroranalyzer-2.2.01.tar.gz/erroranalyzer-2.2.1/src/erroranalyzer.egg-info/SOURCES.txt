@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/erroranalyzer/__init__.py
+src/erroranalyzer/erroranalyzer.py
+src/erroranalyzer/libea.so
+src/erroranalyzer.egg-info/PKG-INFO
+src/erroranalyzer.egg-info/SOURCES.txt
+src/erroranalyzer.egg-info/dependency_links.txt
+src/erroranalyzer.egg-info/top_level.txt
