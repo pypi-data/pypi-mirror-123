@@ -1,0 +1,49 @@
+# Welcome to crypto-stocks
+
+Here are some instructions how to use this libraly
+
+#### How to import library
+
+```python
+import cryptostocks
+```
+
+#### How to get price for crypto currency from Binance
+
+```python
+price_binance = cryptostocks.Binance('crypto_name', 'fiat_currency')
+#example:
+price_binance = cryptostocks.Binance('btc', 'usd')
+```
+
+#### How to get price for crypto currency from Coinbase
+
+```python
+price_coinbase = cryptostocks.Coinbase('crypto_name', 'fiat_currency')
+#example:
+price_coinbase = cryptostocks.Coinbase('btc', 'usd')
+```
+
+#### How to get price for crypto currency from FTX
+
+```python
+price_ftx = cryptostocks.FTX('crypto_name', 'fiat_currency')
+#example:
+price_ftx = cryptostocks.FTX('btc', 'usd')
+```
+
+#### How to get price for crypto currency from Kraken
+
+```python
+price_kraken = cryptostocks.Kraken('crypto_name', 'fiat_currency')
+#example:
+price_kraken = cryptostocks.Kraken('btc', 'usd')
+```
+
+#### How to get price for crypto currency from BitStamp
+
+```python
+price_bitstamp = cryptostocks.BitStamp('crypto_name', 'fiat_currency')
+#example:
+price_bitstamp = cryptostocks.BitStamp('btc', 'usd')
+```
