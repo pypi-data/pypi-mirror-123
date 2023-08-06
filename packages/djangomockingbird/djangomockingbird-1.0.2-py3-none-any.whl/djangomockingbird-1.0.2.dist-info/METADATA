@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: djangomockingbird
+Version: 1.0.2
+Summary: The fastest way to write the fastest Django unit tests
+Home-page: https://github.com/larsvonschaff/Django-mockingbird
+Author-email: larsvonschaff@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: django
+
+README.md
+
+
